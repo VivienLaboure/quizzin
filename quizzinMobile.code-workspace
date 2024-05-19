@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "quizzinMobile",
+			"path": "."
+		},
+		{
+			"name": "pages",
+			"path": "../nativemobile/reactMobil/pages"
+		},
+		{
+			"name": "constants",
+			"path": "../nativemobile/reactMobil/constants"
+		},
+		{
+			"name": "assets",
+			"path": "../nativemobile/reactMobil/assets"
+		}
+	],
+	"settings": {}
+}
