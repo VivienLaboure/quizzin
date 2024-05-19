@@ -1,0 +1,15 @@
+Le projet "Quizzin" est une application de quiz développée en utilisant les technologies npm, React, et TypeScript. Pour faire fonctionner l'application, voici les étapes à suivre :
+
+Tout d'abord, assurez-vous d'avoir Node.js et npm installés sur votre machine.
+
+Ouvrez un terminal et naviguez vers le répertoire du projet.
+
+Exécutez la commande npm install pour installer toutes les dépendances nécessaires répertoriées dans le fichier package.json. Cela téléchargera et installera les bibliothèques et les modules requis pour exécuter l'application.
+
+Une fois l'installation terminée, vous pouvez exécuter l'application en utilisant la commande npm run android. Cela lancera le processus de construction et de lancement de l'application sur un émulateur Android ou un appareil connecté.
+
+Assurez-vous d'avoir Android Studio installé sur votre machine. Ouvrez Android Studio et sélectionnez l'onglet "Other Device" pour choisir l'émulateur ou l'appareil sur lequel vous souhaitez exécuter l'application.
+
+Une fois que vous avez suivi ces étapes, l'application Quizzin devrait se lancer sur l'émulateur ou l'appareil Android sélectionné. Vous pouvez ensuite interagir avec l'application de quiz.
+
+N'hésitez pas à me poser des questions supplémentaires si vous avez besoin d'aide supplémentaire !
