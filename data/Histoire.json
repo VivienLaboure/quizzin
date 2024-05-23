@@ -1,0 +1,34 @@
+{
+    "questionsList": [
+        {
+            "question": "Quelle est la date de la Révolution française ?",
+            "propositions": [
+                "1789",
+                "1799",
+                "1804",
+                "1815"
+            ],
+            "reponse": "1789"
+        },
+        {
+            "question": "Qui était le premier président des États-Unis ?",
+            "propositions": [
+                "George Washington",
+                "Thomas Jefferson",
+                "Abraham Lincoln",
+                "John F. Kennedy"
+            ],
+            "reponse": "George Washington"
+        },
+        {
+            "question": "Quel pays a construit la Grande Muraille de Chine ?",
+            "propositions": [
+                "Chine",
+                "Japon",
+                "Corée du Sud",
+                "Inde"
+            ],
+            "reponse": "Chine"
+        }
+    ]
+}

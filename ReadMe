@@ -8,8 +8,8 @@ Exécutez la commande npm install pour installer toutes les dépendances nécess
 
 Une fois l'installation terminée, vous pouvez exécuter l'application en utilisant la commande npm run android. Cela lancera le processus de construction et de lancement de l'application sur un émulateur Android ou un appareil connecté.
 
-Assurez-vous d'avoir Android Studio installé sur votre machine. Ouvrez Android Studio et sélectionnez l'onglet "Other Device" pour choisir l'émulateur ou l'appareil sur lequel vous souhaitez exécuter l'application.
+Assurez-vous d'avoir Android Studio installé sur votre machine. Ouvrez Android Studio et sélectionnez l'onglet "More Actions" puis "Device manager" pour choisir l'émulateur ou l'appareil sur lequel vous souhaitez exécuter l'application.
 
 Une fois que vous avez suivi ces étapes, l'application Quizzin devrait se lancer sur l'émulateur ou l'appareil Android sélectionné. Vous pouvez ensuite interagir avec l'application de quiz.
 
-N'hésitez pas à me poser des questions supplémentaires si vous avez besoin d'aide supplémentaire !
+Ne pas oublier de build l'app pour l'affichage à jour

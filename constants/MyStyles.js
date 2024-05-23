@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Modal, StyleSheet } from "react-native";
 
 export default StyleSheet.create({
     container: {
@@ -9,7 +9,7 @@ export default StyleSheet.create({
       },
       button: {
         margin: 12,
-        backgroundColor: '#d72323',
+        backgroundColor: '#580001',
         width: 250,
         paddingHorizontal: 56, // Padding horizontal
         height: 45, // Hauteur du bouton
@@ -22,7 +22,6 @@ export default StyleSheet.create({
         shadowOpacity: 0.39, // Opacité de l'ombre
         shadowRadius: 14, // Rayon de l'ombre
         elevation: 5, // Élévation (pour Android)
-    
       },
       buttonText: {
         fontSize: 16, // Taille de la police
@@ -31,5 +30,23 @@ export default StyleSheet.create({
       logo: {
         width: '100%',
         height: '40%'
+      },
+      title: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: '#d72323',
+        marginVertical: 20,
+        textAlign: 'center'
+      },
+      text: {
+        fontSize: 16,
+        color: '#333',
+        marginVertical: 10,
+      },
+      greenButton: {
+        backgroundColor: '#00ff00',
+      },
+      redButton: {
+        backgroundColor: '#d72323',
       }
 });
