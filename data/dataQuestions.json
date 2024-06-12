@@ -1,0 +1,94 @@
+    {
+        "Histoire": [
+            {
+                "question": "Quelle est la capitale de la France ?",
+                "answer": "Paris",
+                "proposals": [
+                    "Paris",
+                    "Londres",
+                    "Berlin",
+                    "Madrid"
+                ],
+                "explanation": "Paris est la capitale de la France."
+            },
+            {
+                "question": "En quelle année a eu lieu la Révolution Française ?",
+                "answer": "1789",
+                "proposals": [
+                    "1789",
+                    "1798",
+                    "1802",
+                    "1815"
+                ],
+                "explanation": "La Révolution Française a eu lieu en 1789."
+            },
+            {
+                "question": "Qui a été le premier président des Etats-Unis ?",
+                "answer": "George Washington",
+                "proposals": [
+                    "George Washington",
+                    "Abraham Lincoln",
+                    "Thomas Jefferson",
+                    "John Adams"
+                ],
+                "explanation": "George Washington a été le premier président des Etats-Unis."
+            },
+            {
+                "question": "Quel est le nom du roi de France qui a été guillotiné pendant la Révolution Française ?",
+                "answer": "Louis XVI",
+                "proposals": [
+                    "Louis XIV",
+                    "Louis XV",
+                    "Louis XVI",
+                    "Louis XVII"
+                ],
+                "explanation": "Louis XVI a été guillotiné pendant la Révolution Française."
+            }
+        ],
+        "Géographie": [
+            {
+                "question": "Quel est le plus grand pays du monde ?",
+                "answer": "Russie",
+                "proposals": [
+                    "Russie",
+                    "Canada",
+                    "Chine",
+                    "Etats-Unis"
+                ],
+                "explanation": "La Russie est le plus grand pays du monde."
+            },
+            {
+                "question": "Quel est le plus grand océan du monde ?",
+                "answer": "Pacifique",
+                "proposals": [
+                    "Atlantique",
+                    "Pacifique",
+                    "Indien",
+                    "Arctique"
+                ],
+                "explanation": "Le Pacifique est le plus grand océan du monde."
+            },
+            {
+                "question": "Quel est le plus grand fleuve du monde ?",
+                "answer": "Amazone",
+                "proposals": [
+                    "Nil",
+                    "Mississippi",
+                    "Amazone",
+                    "Yangzi Jiang"
+                ],
+                "explanation": "L'Amazone est le plus grand fleuve du monde."
+            },
+            {
+                "question": "Quel est le plus haut sommet du monde ?",
+                "answer": "Everest",
+                "proposals": [
+                    "K2",
+                    "Kangchenjunga",
+                    "Lhotse",
+                    "Everest"
+                ],
+                "explanation": "L'Everest est le plus haut sommet du monde."
+            }
+        ]
+    }

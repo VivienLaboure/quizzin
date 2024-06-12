@@ -1,16 +1,25 @@
-import { View, Text, Button } from "react-native";
+import { View, Button } from "react-native";
 import MyStyles from "../constants/MyStyles";
-import { useNavigation } from "@react-navigation/native";
+import dataBase from "../data/dataQuestions.json";
 
+const QuestionsList = ({ navigation }: { navigation: any }) => {
 
-const QuestionsList = () => {
-    const navigation = useNavigation();
-    return (
-        <View style={MyStyles.container}>
-            <Text style={MyStyles.title}>Questions List</Text>
-            <Button title="Start Quizz" onPress={() => navigation.navigate({ screen: 'QuizzPage' })} />
-        </View>
-    );
+        return (
+                <View style={MyStyles.container}>
+                    {
+                        Object.keys(dataBase).map((category, index) => {
+                            return (
+                                <Button
+                                    key={index}
+                                    title={category}
+                                    onPress={() => navigation.navigate('QuizzPage', { category: category })}
+                                />
+                            )
+                        })
+                            
+                    }
+                </View>
+            );
 }
 
 export default QuestionsList;
