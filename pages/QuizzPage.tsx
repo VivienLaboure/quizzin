@@ -10,11 +10,14 @@ const QuizzPage = ({ navigation, route }: { navigation: any, route: any }) => {
     const category = route.params.category as Category;
     const questions = (database as DatabaseType)[category].sort(() => Math.random() - 0.5);
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [question, setQuestion] = useState<string>(questions[currentQuestion].question);
     const [proposals, setProposals] = useState<string[]>([]);
     const [score, setScore] = useState(0);
 
     useEffect(() => {
+        const shuffledQuestion = questions[currentQuestion].question;
         const shuffledProposals = questions[currentQuestion].proposals.sort(() => Math.random() - 0.5);
+        setQuestion(shuffledQuestion);
         setProposals(shuffledProposals);
     }, [currentQuestion, questions]);
 
@@ -31,8 +34,7 @@ const QuizzPage = ({ navigation, route }: { navigation: any, route: any }) => {
 
     return (
         <View style={MyStyles.container}>
-            <Text style={MyStyles.title}>Numéro : {currentQuestion + 1}</Text>
-            <Text style={MyStyles.title}>{questions[currentQuestion].question}</Text>
+            <Text style={MyStyles.title}>{question}</Text>
             {
                 proposals.map((proposal, index) => (
                     <Button

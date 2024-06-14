@@ -12,8 +12,9 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="QuestionsList" component={QuestionsList} />
-        <Stack.Screen name="Scores" component={Scores} />
-        <Stack.Screen name="QuizzPage" component={QuizzPage} />
+        <Stack.Screen name="QuizzPage" component={QuizzPage}/>
+        {/* hide header for score page*/}
+        <Stack.Screen name="Scores" component={Scores} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
