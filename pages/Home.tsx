@@ -1,19 +1,22 @@
-import { View, Text, Button, Image } from "react-native";
+import { View, Text, Button, Image, TouchableOpacity } from "react-native";
 import MyStyles from "../constants/MyStyles";
 
 const Home = ({ navigation }: { navigation: any }) => {
 
     return (
-        //logo and title
         <View style={MyStyles.container}>
-            <Button
-                title="Liste des questions"
+            <TouchableOpacity
                 onPress={() => navigation.navigate('QuestionsList')}
-            />
-            <Button
-                title="Scores"
-                onPress={() => navigation.navigate('Scores')}
-            />
+                style={MyStyles.button}
+            >
+                <Text style={MyStyles.buttonText}>Thèmes</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                style={MyStyles.button}
+                onPress={() => navigation.navigate('ScoresList')}
+            >
+                <Text style={MyStyles.buttonText}>Scores</Text>
+            </TouchableOpacity>
         </View>
     )
 }

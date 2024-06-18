@@ -2,8 +2,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import QuestionsList from './pages/QuestionsList';
 import Home from './pages/Home';
-import Scores from './pages/Scores';
+import Score from './pages/Score';
 import QuizzPage from './pages/QuizzPage';
+import ScoresList from './pages/ScoresList';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -12,9 +13,9 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="QuestionsList" component={QuestionsList} />
-        <Stack.Screen name="QuizzPage" component={QuizzPage}/>
-        {/* hide header for score page*/}
-        <Stack.Screen name="Scores" component={Scores} options={{headerShown: false}}/>
+        <Stack.Screen name="QuizzPage" component={QuizzPage} options={{headerShown: false}}/>
+        <Stack.Screen name="Score" component={Score} options={{headerShown: false}}/>
+        <Stack.Screen name="ScoresList" component={ScoresList} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

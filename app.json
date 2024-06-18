@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "quizzinMobile",
-    "slug": "quizzinMobile",
+    "name": "Quizz'In",
+    "slug": "Quizz'In",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/img/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/img/logo.png",
+      "image": "./assets/img/logo_text.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f0f0f0"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/img/logo.png",
+        "backgroundColor": "#f0f0f0"
       }
     },
     "web": {

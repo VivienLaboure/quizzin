@@ -1,19 +1,22 @@
-import { View, Text, Button } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import MyStyles from "../constants/MyStyles";
 import scoresData from "../data/scores.json";
 
 
-const Scores = ({ navigation }: { navigation: any }) => {
+const ScoresList = ({ navigation }: { navigation: any }) => {
+
     return (
-        <View style={MyStyles.container}>
+        <View style={MyStyles.containerCenter}>
             <Text style={MyStyles.title}>Scores</Text>
             <Text>Score Histoire : {scoresData.Histoire}</Text>
             <Text>Score Géographie : {scoresData.Géographie}</Text>
-            <Button
-                title="Accueil"
+            <TouchableOpacity
+                style={MyStyles.button}
                 onPress={() => navigation.navigate('Home')}
-            />
+            >
+                <Text style={MyStyles.buttonText} >Accueil</Text>
+            </TouchableOpacity>
         </View>
     );
 }
-export default Scores;
+export default ScoresList;

@@ -9,7 +9,7 @@ export default StyleSheet.create({
       },
       button: {
         margin: 12,
-        backgroundColor: '#580001',
+        backgroundColor: '#d72323', 
         width: 250,
         paddingHorizontal: 56, // Padding horizontal
         height: 45, // Hauteur du bouton
@@ -26,6 +26,7 @@ export default StyleSheet.create({
       buttonText: {
         fontSize: 16, // Taille de la police
         color: 'white', // Couleur du texte
+        fontWeight: 'bold', // Gras
       },
       logo: {
         width: '100%',
@@ -48,5 +49,13 @@ export default StyleSheet.create({
       },
       redButton: {
         backgroundColor: '#d72323',
-      }
+      },
+      containerCenter: {
+        flex: 1,
+        backgroundColor: '#f0f0f0',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        padding: 20,
+        paddingTop: 60,
+      },
 });

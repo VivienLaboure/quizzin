@@ -1,4 +1,4 @@
-import { View, Button } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import MyStyles from "../constants/MyStyles";
 import dataBase from "../data/dataQuestions.json";
 
@@ -9,11 +9,13 @@ const QuestionsList = ({ navigation }: { navigation: any }) => {
                     {
                         Object.keys(dataBase).map((category, index) => {
                             return (
-                                <Button
+                                <TouchableOpacity
+                                    style={MyStyles.button}
                                     key={index}
-                                    title={category}
                                     onPress={() => navigation.navigate('QuizzPage', { category: category })}
-                                />
+                                >
+                                    <Text style={MyStyles.buttonText}>{category}</Text>
+                                </TouchableOpacity>
                             )
                         })
                             
