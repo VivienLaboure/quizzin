@@ -13,7 +13,7 @@ app.use(express.json());
 const uri = `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@questions.8qjv0.mongodb.net/mongodbVSCodePlaygroundDB?retryWrites=true&w=majority`;
 
 mongoose.connect(uri)
-  .then(() => console.log("MongoDB connecté"))
+  .then(() => console.log("Bdd connecté"))
   .catch(err => console.error("Erreur connexion MongoDB :", err));
 
 // --- Exemple de route ---
@@ -35,5 +35,7 @@ app.get("/quiz/:categorie/:difficulte/:numero", async (req, res) => {
   }
 });
 
+const PORT = process.env.PORT || 5000; // Render fournit process.env.PORT
+
 // --- Serveur ---
-app.listen(5000, () => console.log("Serveur démarré sur http://localhost:5000"));
+app.listen(PORT, () => console.log("Serveur démarré sur le port", PORT));
