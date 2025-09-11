@@ -1,5 +1,5 @@
-import { IData } from "../Quizzin/interfaces/IData";
-import { IQuizz } from "../Quizzin/interfaces/IQuizz";
+import { IData } from "../interfaces/IData";
+import { IQuizz } from "../interfaces/IQuizz";
 
 
 export function GetRandomQuizz(data: IData, category: string, difficulty: number, count: number) {

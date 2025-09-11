@@ -1,29 +1,40 @@
+import { RouteProp } from '@react-navigation/native';
+import { router, useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { Text, TouchableOpacity, View } from 'react-native';
 import data from '../api/quizzFR.json';
+import { GetRandomQuizz } from '../functions/GetRandomQuizz';
 import { IData } from '../interfaces/IData';
 import { IQuizz } from '../interfaces/IQuizz';
+import { RootStackParamList } from '../interfaces/types';
 import styles from '../styles/default';
 import quizzPageStyle from '../styles/quizzPageStyle';
-import { PageScreenNavigationProp } from '../interfaces/types';
-import { GetRandomQuizz } from '../functions/GetRandomQuizz';
 
-export default function QuizzPage(params: any) {
-    const navigation = useNavigation<PageScreenNavigationProp<'home'>>();
+type QuizzPageRouteProp = RouteProp<RootStackParamList, 'quizzPage'>;
+
+interface Props {
+  route: QuizzPageRouteProp;
+}
+
+export default function QuizzPage() {
     const [question, setQuestion] = useState('');
     const [propositions, setPropositions] = useState<string[]>([]);
     const [reponse, setReponse] = useState('');
     const [explication, setExplication] = useState('');
-    const { category, difficulty } = params.route.params;
     const [index, setIndex] = useState<number>(0);
     const [popupExplication, setPopupExplication] = useState(false);
     const [score, setScore] = useState(0);
     const [actualQuizz, setActualQuizz] = useState<IQuizz[]>([]); // Changement ici
 
+    const { category, difficulty } = useLocalSearchParams();
+    const rawCategory = Array.isArray(category) ? category[0] : category;
+    const safeCategory = String(rawCategory);
+    const rawDifficulty = Array.isArray(difficulty) ? difficulty[0] : difficulty;
+    const safeDifficulty = Number(rawDifficulty);
+
     // Fonction pour récupérer le quizz aléatoire
     const fetchQuizz = async () => {
-        const quizz = await GetRandomQuizz(data as IData, category, difficulty, 5);
+        const quizz = await GetRandomQuizz(data as IData, safeCategory, safeDifficulty, 5);
         setActualQuizz(quizz);
     };
 
@@ -54,7 +65,8 @@ export default function QuizzPage(params: any) {
         if (index < actualQuizz.length - 1) {
             setIndex(index + 1);
         } else {
-            navigation.navigate('resultatsPage', { category, difficulty, score });
+            console.log("navigation vers resultat... "+safeCategory+safeDifficulty+score )
+            router.push({pathname:"/resultatsPage", params: {category: safeCategory, difficulty: safeDifficulty, score: score} });
         }
     };
 

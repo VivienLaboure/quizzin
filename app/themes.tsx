@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, TouchableOpacity, } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { PageScreenNavigationProp } from '../interfaces/types';
+import React, { useEffect, useState } from 'react';
+import { Text, TouchableOpacity, View, } from 'react-native';
 import Data from '../api/quizzFR.json';
 import { IData } from '../interfaces/IData';
+import { PageScreenNavigationProp } from '../interfaces/types';
 import styles from '../styles/default';
 import themeStyle from '../styles/themesStyles';
 
@@ -43,7 +43,8 @@ export default function Themes() {
               <TouchableOpacity
                 style={styles.button}
                 key={index}
-                onPress={() => navigation.navigate('difficulty', { category: themeNames })}
+                onPress={() => 
+                  navigation.navigate('difficulty', { category: themeNames })}
               >
                 <Text style={styles.buttonText}>
                   {themeNames}

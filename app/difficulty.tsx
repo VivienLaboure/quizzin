@@ -1,13 +1,14 @@
-import React from 'react';
-import { View, Text, TouchableOpacity, } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import styles from '../styles/default';
-import difficultyStyle from '../styles/difficultyStyles';
+import { router, useLocalSearchParams } from "expo-router";
+import { Text, TouchableOpacity, View } from 'react-native';
 import { PageScreenNavigationProp } from '../interfaces/types';
+import styles from '../styles/default';
 
-export default function Difficulty(theme: any) {
+export default function Difficulty() {
     const navigation = useNavigation<PageScreenNavigationProp<'quizzPage'>>();
 
+    const { category } = useLocalSearchParams();
+    const safeCategory = Array.isArray(category) ? category[0] : category;
     return (
         <>
             <View style={styles.container}>
@@ -21,23 +22,23 @@ export default function Difficulty(theme: any) {
                 </TouchableOpacity>
 
                 <Text style={styles.textTitle}>
-                    <Text>{theme.route.params.category}</Text>
+                    <Text>{safeCategory}</Text>
                 </Text>
 
                 <TouchableOpacity style={styles.button}
-                    onPress={() => navigation.navigate('quizzPage', { category: theme.route.params.category, difficulty: '1' })}
+                    onPress={() => router.push({ pathname: "/quizzPage", params: { category: safeCategory, difficulty: "1" } })}
                 >
                     <Text style={styles.buttonText}>Facile</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.button}
-                    onPress={() => navigation.navigate('quizzPage', { category: theme.route.params.category, difficulty: '2' })}
+                    onPress={() => router.push({ pathname: "/quizzPage", params: { category: safeCategory, difficulty: "2" } })}
                 >
                     <Text style={styles.buttonText}>Moyen</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.button}
-                    onPress={() => navigation.navigate('quizzPage', { category: theme.route.params.category, difficulty: '3' })}
+                    onPress={() => router.push({ pathname: "/quizzPage", params: { category: safeCategory, difficulty: "3" } })}
                 >
                     <Text style={styles.buttonText}>Difficile</Text>
                 </TouchableOpacity>

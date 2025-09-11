@@ -9,6 +9,6 @@ export type RootStackParamList = {
   home: undefined;
   themes: undefined;
   difficulty: { category: string };
-  quizzPage: { category: string, difficulty: string };
-  resultatsPage: { category: string, difficulty: string, score: number };
+  quizzPage: { category: string, difficulty: number };
+  resultatsPage: { category: string, difficulty: number, score: number };
 };
