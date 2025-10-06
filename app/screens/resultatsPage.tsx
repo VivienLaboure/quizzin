@@ -1,20 +1,22 @@
-import { GetDifficultyName } from '@/functions/GetDifficultyName';
+import { useRouter } from 'expo-router';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
+import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import styles from '../styles/default';
 
-import { router, useLocalSearchParams } from 'expo-router';
+import { useLocalSearchParams } from 'expo-router';
 const StyledTouchableOpacity = TouchableOpacity;
 
 export default function ResultatsPage() {
+  const router = useRouter();
   const { category, difficulty, score } = useLocalSearchParams();
-    const rawCategory = Array.isArray(category) ? category[0] : category;
-    const safeCategory = String(rawCategory);
-    const rawDifficulty = Array.isArray(difficulty) ? difficulty[0] : difficulty;
-    const safeDifficulty = Number(rawDifficulty);
-    const rawScore = Array.isArray(score) ? score[0] : score;
-    const safeScore = Number(rawScore);
-       
+  const rawCategory = Array.isArray(category) ? category[0] : category;
+  const safeCategory = String(rawCategory);
+  const rawDifficulty = Array.isArray(difficulty) ? difficulty[0] : difficulty;
+  const safeDifficulty = Number(rawDifficulty);
+  const rawScore = Array.isArray(score) ? score[0] : score;
+  const safeScore = Number(rawScore);
+
   return (
     <View style={styles.container}>
       <View style={styles.topBar}></View>
@@ -36,7 +38,7 @@ export default function ResultatsPage() {
 
       <StyledTouchableOpacity
         style={styles.button}
-        onPress={() => router.push({pathname:"/"})}
+        onPress={() => router.push({ pathname: "/screens/home" })}
       >
         <Text style={styles.buttonText}>Retour à l'accueil</Text>
       </StyledTouchableOpacity>

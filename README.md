@@ -51,5 +51,6 @@ Join our community of developers creating universal apps.
 
 
 # Si erreur:
+- Ouvrir un terminal en parallèle
 - adb kill-server
 - adb start-server 

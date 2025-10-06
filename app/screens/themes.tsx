@@ -1,16 +1,18 @@
-import { useNavigation } from '@react-navigation/native';
+import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Text, TouchableOpacity, View, } from 'react-native';
-import Data from '../api/quizzFR.json';
-import { IData } from '../interfaces/IData';
-import { PageScreenNavigationProp } from '../interfaces/types';
+import Data from '../../api/quizzFR.json';
+import { IData } from '../../interfaces/IData';
+import { ScreenProps } from '../../interfaces/types';
 import styles from '../styles/default';
 import themeStyle from '../styles/themesStyles';
 
-export default function Themes() {
+type Props = ScreenProps<'themes'>;
 
-  const navigation = useNavigation<PageScreenNavigationProp<'difficulty'>>();
+const Themes: React.FC<Props> = () => {
 
+  const router = useRouter();
+  
   const themeNames = Object.keys(Data);
 
   const [themes, setThemes] = useState<IData>();
@@ -33,7 +35,7 @@ export default function Themes() {
         </View>
         <TouchableOpacity
           style={styles.backButton}
-          onPress={() => navigation.goBack()}>
+          onPress={() => router.back()}>
           <Text style={styles.buttonBackText}>Retour</Text>
         </TouchableOpacity>
 
@@ -44,7 +46,7 @@ export default function Themes() {
                 style={styles.button}
                 key={index}
                 onPress={() => 
-                  navigation.navigate('difficulty', { category: themeNames })}
+                  router.push({pathname:'/screens/difficulty', params: { category: themeNames }})}
               >
                 <Text style={styles.buttonText}>
                   {themeNames}
@@ -59,3 +61,5 @@ export default function Themes() {
     </>
   );
 }
+
+export default Themes;

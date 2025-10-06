@@ -1,12 +1,13 @@
-import { useNavigation } from '@react-navigation/native';
-import { router, useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
 import { Text, TouchableOpacity, View } from 'react-native';
-import { PageScreenNavigationProp } from '../interfaces/types';
+import { ScreenProps } from '../../interfaces/types';
 import styles from '../styles/default';
 
-export default function Difficulty() {
-    const navigation = useNavigation<PageScreenNavigationProp<'quizzPage'>>();
+type Props = ScreenProps<'difficulty'>;
 
+const Difficulty: React.FC<Props> = () => {
+
+    const router = useRouter();
     const { category } = useLocalSearchParams();
     const safeCategory = Array.isArray(category) ? category[0] : category;
     return (
@@ -15,7 +16,7 @@ export default function Difficulty() {
                 <View style={styles.topBar}></View>
                 <TouchableOpacity
                     style={styles.backButton}
-                    onPress={() => navigation.goBack()}
+                    onPress={() => router.back()}
                 >
 
                     <Text style={styles.buttonBackText}>Retour</Text>
@@ -26,19 +27,19 @@ export default function Difficulty() {
                 </Text>
 
                 <TouchableOpacity style={styles.button}
-                    onPress={() => router.push({ pathname: "/quizzPage", params: { category: safeCategory, difficulty: "1" } })}
+                    onPress={() => router.push({ pathname: "/screens/quizzPage", params: { category: safeCategory, difficulty: "1" } })}
                 >
                     <Text style={styles.buttonText}>Facile</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.button}
-                    onPress={() => router.push({ pathname: "/quizzPage", params: { category: safeCategory, difficulty: "2" } })}
+                    onPress={() => router.push({ pathname: "/screens/quizzPage", params: { category: safeCategory, difficulty: "2" } })}
                 >
                     <Text style={styles.buttonText}>Moyen</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.button}
-                    onPress={() => router.push({ pathname: "/quizzPage", params: { category: safeCategory, difficulty: "3" } })}
+                    onPress={() => router.push({ pathname: "/screens/quizzPage", params: { category: safeCategory, difficulty: "3" } })}
                 >
                     <Text style={styles.buttonText}>Difficile</Text>
                 </TouchableOpacity>
@@ -47,3 +48,5 @@ export default function Difficulty() {
         </>
     );
 }
+
+export default Difficulty;

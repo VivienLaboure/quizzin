@@ -1,22 +1,24 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Difficulty from './app/difficulty';
-import Home from './app/index';
-import QuizzPage from './app/quizzPage';
-import ResultatsPage from './app/resultatsPage';
-import Themes from './app/themes';
+import Difficulty from './app/screens/difficulty';
+import Home from './app/screens/home';
+import QuizzPage from './app/screens/quizzPage';
+import ResultatsPage from './app/screens/resultatsPage';
+import Themes from './app/screens/themes';
 import { RootStackParamList } from './interfaces/types';
 
+const Stack = createNativeStackNavigator<RootStackParamList>();
+
+
 export default function App() {
-  const Stack = createNativeStackNavigator<RootStackParamList>();
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="home">
-        <Stack.Screen name="home" component={Home} options={{ headerShown: false }} />
-        <Stack.Screen name="themes" component={Themes} options={{ headerShown: false }} />
-        <Stack.Screen name="difficulty" component={Difficulty} options={{ headerShown: false }} />
-        <Stack.Screen name="quizzPage" component={QuizzPage} options={{ headerShown: false }} />
-        <Stack.Screen name="resultatsPage" component={ResultatsPage} options={{ headerShown: false }} />
+      <Stack.Navigator screenOptions={{headerShown:false}}>
+        <Stack.Screen name="home" component={Home}/>
+        <Stack.Screen name="themes" component={Themes}/>
+        <Stack.Screen name="difficulty" component={Difficulty}/>
+        <Stack.Screen name="quizzPage" component={QuizzPage}/>
+        <Stack.Screen name="resultatsPage" component={ResultatsPage}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

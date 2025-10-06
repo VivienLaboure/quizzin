@@ -1,22 +1,16 @@
-import { RouteProp } from '@react-navigation/native';
-import { router, useLocalSearchParams } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import data from '../api/quizzFR.json';
-import { GetRandomQuizz } from '../functions/GetRandomQuizz';
-import { IData } from '../interfaces/IData';
-import { IQuizz } from '../interfaces/IQuizz';
-import { RootStackParamList } from '../interfaces/types';
+import data from '../../api/quizzFR.json';
+import { IData } from '../../interfaces/IData';
+import { IQuizz } from '../../interfaces/IQuizz';
+import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import styles from '../styles/default';
 import quizzPageStyle from '../styles/quizzPageStyle';
 
-type QuizzPageRouteProp = RouteProp<RootStackParamList, 'quizzPage'>;
-
-interface Props {
-  route: QuizzPageRouteProp;
-}
 
 export default function QuizzPage() {
+    const router = useRouter();
     const [question, setQuestion] = useState('');
     const [propositions, setPropositions] = useState<string[]>([]);
     const [reponse, setReponse] = useState('');
@@ -65,8 +59,7 @@ export default function QuizzPage() {
         if (index < actualQuizz.length - 1) {
             setIndex(index + 1);
         } else {
-            console.log("navigation vers resultat... "+safeCategory+safeDifficulty+score )
-            router.push({pathname:"/resultatsPage", params: {category: safeCategory, difficulty: safeDifficulty, score: score} });
+            router.push({pathname:"/screens/resultatsPage", params: {category: safeCategory, difficulty: safeDifficulty, score: score} });
         }
     };
 
