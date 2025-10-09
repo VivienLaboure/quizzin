@@ -2,7 +2,7 @@
 const errorHandler = require("../middleware/errorHandlers");
 const Quiz = require("../models/Quiz");
 
-exports.getQuizById = async (req, res, next) => {
+exports.getRandomQuizByTheme = async (req, res) => {
   try {
     const { theme, difficulty } = req.params;
 
@@ -17,14 +17,27 @@ exports.getQuizById = async (req, res, next) => {
     res.status(201).json(question);
 
   } catch (err) {
-    next(err);
+    errorHandler(err, res);
+  }
+};
+
+exports.getThemes = async (res) => {
+  try {
+
+    const quizTheme = await Quiz.find();
+
+    res.status(201).json(quizTheme);
+
+  } catch (err) {
+    errorHandler(err, res);
   }
 };
 
 
+
 exports.createQuiz = async (req, res) => {
   try {
-    const quiz = new quiz(req.body); //flexible grâce à {strict: false}
+    const quiz = new quiz(req.body);
     await quiz.save();
     res.status(201).json(quiz);
   } catch (err) {
