@@ -5,6 +5,7 @@ const Quiz = require("../models/Quiz");
 exports.getRandomQuizByTheme = async (req, res) => {
   try {
     const { theme, difficulty } = req.params;
+    console.log(theme, difficulty);
 
     const quizTheme = await Quiz.findOne({categorie: theme});
     if (!quizTheme) return res.status(404).json({ error: "Catégorie de questions non trouvée" });
@@ -21,10 +22,10 @@ exports.getRandomQuizByTheme = async (req, res) => {
   }
 };
 
-exports.getThemes = async (res) => {
+exports.getThemes = async (req, res) => {
   try {
 
-    const quizTheme = await Quiz.find();
+    const quizTheme = await Quiz.find({}, {categorie:1, _id:0});
 
     res.status(201).json(quizTheme);
 
@@ -32,8 +33,6 @@ exports.getThemes = async (res) => {
     errorHandler(err, res);
   }
 };
-
-
 
 exports.createQuiz = async (req, res) => {
   try {

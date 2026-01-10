@@ -2,7 +2,16 @@ const mongoose = require("mongoose");
 
 // Modèle flexible pour accepter les clés "1", "2", "3", etc.
 const quizSchema = new mongoose.Schema({
-  categorie: String
+  categorie: { type: String, required: true, trim: true },
+  1: [
+    [{ questions: { type: String, required: true, trim: true }, }]
+  ],
+  2: [
+    [{ questions: { type: String, required: true, trim: true }, }]
+  ],
+  3: [
+    [{ questions: { type: String, required: true, trim: true }, }]
+  ]
 }, { strict: false }); // strict: false permet d'accepter n'importe quelle clé supplémentaire
 
 // Nom exact de la collection dans MongoDB
