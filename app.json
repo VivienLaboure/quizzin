@@ -37,6 +37,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "API_URL": "http://localhost",
+      "PORT": "5000",
+      "MOCK": true,
+      "MOCK_URL": "../api/quizzFR.json"
     }
   }
 }

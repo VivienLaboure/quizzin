@@ -1,3 +1,4 @@
+import { getRandomQuizByTheme } from '@/API';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
@@ -7,7 +8,6 @@ import { IQuizz } from '../../interfaces/IQuizz';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import styles from '../styles/default';
 import quizzPageStyle from '../styles/quizzPageStyle';
-
 
 export default function QuizzPage() {
     const router = useRouter();
@@ -28,8 +28,21 @@ export default function QuizzPage() {
 
     // Fonction pour récupérer le quizz aléatoire
     const fetchQuizz = async () => {
-        const quizz = await GetRandomQuizz(data as IData, safeCategory, safeDifficulty, 5);
-        setActualQuizz(quizz);
+        if (process.env.MOCK) {
+            //Si le mock est activé, on récupère via le json sinon via l'API
+            console.log("Mock activé")
+            const quizz = GetRandomQuizz(data as IData, safeCategory, safeDifficulty, 5);
+            setActualQuizz(quizz);
+        } else {
+            console.log("Mock désactivé")
+            try {
+            const quizz = await getRandomQuizByTheme();
+            console.log("quizz: ", quizz);
+            setActualQuizz(quizz);
+            }catch (error) {
+                console.error(error);
+            }
+        }
     };
 
     function randomize(tab: string[]) {
@@ -59,7 +72,7 @@ export default function QuizzPage() {
         if (index < actualQuizz.length - 1) {
             setIndex(index + 1);
         } else {
-            router.push({pathname:"/screens/resultatsPage", params: {category: safeCategory, difficulty: safeDifficulty, score: score} });
+            router.push({ pathname: "/screens/resultatsPage", params: { category: safeCategory, difficulty: safeDifficulty, score: score } });
         }
     };
 
@@ -74,7 +87,7 @@ export default function QuizzPage() {
 
     return (
         <>
-            {actualQuizz.length === 0 ? <Text>Loading...</Text> : (
+            {actualQuizz.length === 0 ? <View style={styles.container}><Text>Loading...</Text></View> : (
                 <>
                     <View style={styles.container}>
                         <View style={styles.topBar}></View>
