@@ -48,7 +48,7 @@ exports.register = async (req, res) => {
     if (!pseudo || !email || !password) {
       return res.status(400).json({ error: "Pseudo, email et mot de passe sont requis" });
     }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+    if (!/^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/.test(email.trim())) {
       return res.status(400).json({ error: "Format d'email invalide" });
     }
     if (password.length < 6) {

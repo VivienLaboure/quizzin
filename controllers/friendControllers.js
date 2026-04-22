@@ -9,11 +9,19 @@ const errorHandler = require("../middleware/errorHandlers");
  * Cherche des utilisateurs par pseudo (hors soi-même).
  * Retourne aussi si une demande est déjà envoyée / si déjà amis.
  */
+// Échappe les caractères spéciaux regex pour éviter le ReDoS
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 exports.searchUsers = async (req, res) => {
   try {
     const { pseudo } = req.query;
     if (!pseudo || pseudo.trim().length < 2) {
       return res.status(400).json({ error: "Pseudo trop court (minimum 2 caractères)" });
+    }
+    if (pseudo.trim().length > 30) {
+      return res.status(400).json({ error: "Pseudo trop long" });
     }
 
     const me = await User.findById(req.user.id).select("friends friendRequests");
@@ -27,8 +35,10 @@ exports.searchUsers = async (req, res) => {
     }).select("_id");
     const pendingSentIds = usersWithMyRequest.map(u => u._id.toString());
 
+    // Input échappé pour éviter le ReDoS (injection regex)
+    const safeRegex = escapeRegex(pseudo.trim());
     const users = await User.find({
-      pseudo: { $regex: pseudo.trim(), $options: "i" },
+      pseudo: { $regex: safeRegex, $options: "i" },
       _id: { $ne: req.user.id },
       emailVerified: true,
     })
