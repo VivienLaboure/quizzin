@@ -2,16 +2,17 @@ import Constants from 'expo-constants';
 import * as SecureStore from 'expo-secure-store';
 import { networkErrorStore } from './lib/networkErrorStore';
 
-const apiUrl = Constants.expoConfig?.extra?.API_URL || "http://localhost";
-const port = Constants.expoConfig?.extra?.PORT || "5000";
+const apiUrl = Constants.expoConfig?.extra?.API_URL;
+const port = Constants.expoConfig?.extra?.PORT;
 const BASE = port ? `${apiUrl}:${port}` : apiUrl;
 
-// Options acceptées par la fonction request
+const TIMEOUT_MS = 15000;
+
 interface RequestOptions {
     method?: string;
     headers?: Record<string, string>;
     body?: object | string;
-    auth?: boolean; // true = injecter le token JWT
+    auth?: boolean;
 }
 
 async function request(path: string, options: RequestOptions = {}) {
@@ -20,7 +21,6 @@ async function request(path: string, options: RequestOptions = {}) {
 
     const headers: Record<string, string> = { "Content-Type": "application/json" };
 
-    // Injecter le token JWT si demandé (ou par défaut pour les routes protégées)
     if (options.auth !== false) {
         const token = await SecureStore.getItemAsync('auth_token');
         if (token) {
@@ -40,8 +40,12 @@ async function request(path: string, options: RequestOptions = {}) {
             : (options.body as string | undefined),
     };
 
+    // Timeout via AbortController — évite les chargements infinis
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
+
     try {
-        const res = await fetch(url, opts as RequestInit);
+        const res = await fetch(url, { ...opts, signal: controller.signal } as RequestInit);
         const contentType = res.headers.get("content-type") || "";
         const body = contentType.includes("application/json") ? await res.json() : await res.text();
 
@@ -55,19 +59,27 @@ async function request(path: string, options: RequestOptions = {}) {
 
         return body;
     } catch (error) {
-        // TypeError = le fetch n'a pas pu aboutir (backend éteint, pas de réseau...)
+        if (error instanceof Error && error.name === 'AbortError') {
+            networkErrorStore.show();
+            throw new Error('Le serveur met trop de temps à répondre. Réessaie dans quelques instants.');
+        }
         if (error instanceof TypeError) {
             networkErrorStore.show();
+            throw new Error('Impossible de contacter le serveur. Vérifie ta connexion.');
         }
         console.error("API Error:", (error as Error).message);
-        console.error("Full error:", error);
         throw error;
+    } finally {
+        clearTimeout(timeoutId);
     }
 }
 
-// ─── API Auth (pas de token requis) ──────────────────────────────────────────
+// ─── API Auth ─────────────────────────────────────────────────────────────────
 export const registerUser = (payload: { pseudo: string; email: string; password: string }) =>
     request("/api/auth/register", { method: "POST", body: payload, auth: false });
+
+export const verifyEmailCode = (payload: { email: string; code: string }) =>
+    request("/api/auth/verify-email", { method: "POST", body: payload, auth: false });
 
 export const loginUser = (payload: { email: string; password: string }) =>
     request("/api/auth/login", { method: "POST", body: payload, auth: false });

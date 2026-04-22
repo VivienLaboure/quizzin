@@ -11,12 +11,10 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import { useAuth } from '../../lib/AuthContext';
 import { registerUser } from '../../API';
 
 export default function RegisterScreen() {
   const router = useRouter();
-  const { login } = useAuth();
 
   const [pseudo, setPseudo] = useState('');
   const [email, setEmail] = useState('');
@@ -47,11 +45,11 @@ export default function RegisterScreen() {
 
     setLoading(true);
     try {
-      const data = await registerUser({ pseudo: pseudo.trim(), email: email.trim(), password });
-      await login(data.token, data.user);
-      router.replace('/screens/home');
+      await registerUser({ pseudo: pseudo.trim(), email: email.trim(), password });
+      // L'inscription envoie un code par email — on redirige vers la vérification
+      router.replace({ pathname: '/screens/verifyEmail', params: { email: email.trim() } });
     } catch (err: any) {
-      setError(err.message || 'Erreur lors de l\'inscription');
+      setError(err.message || "Erreur lors de l'inscription");
     } finally {
       setLoading(false);
     }
