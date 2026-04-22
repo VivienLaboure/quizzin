@@ -1,26 +1,9 @@
-export function GetDifficultyName(difficulty: number) {
-
-    // Mélanger le tableau aléatoirement
-    let difficultyName:String;
-
-    switch(difficulty){
-      case 1: {
-          difficultyName = "Facile";
-        break;
-      }
-      case 2: {
-          difficultyName = "Moyen";
-        break;
-      }
-      case 3: {
-          difficultyName = "Difficile";
-        break;
-      }
-      default:
-        difficultyName = "Difficulté non trouvée";
-        break
+// Retourne le nom lisible d'un niveau de difficulté à partir de son identifiant numérique
+export function GetDifficultyName(difficulty: number): string {
+    switch (difficulty) {
+        case 1: return "Facile";
+        case 2: return "Moyen";
+        case 3: return "Difficile";
+        default: return "Difficulté non trouvée";
     }
-
-    // Prendre les 'count' premiers éléments après le mélange
-    return difficultyName;
 }

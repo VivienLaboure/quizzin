@@ -1,125 +1,181 @@
-import { getRandomQuizByTheme } from '@/API';
+import Constants from 'expo-constants';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
+import { getRandomQuizByTheme, setExperience } from '../../API';
 import data from '../../api/quizzFR.json';
 import { IData } from '../../interfaces/IData';
 import { IQuizz } from '../../interfaces/IQuizz';
+import { useAuth } from '../../lib/AuthContext';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
+import { computeXpGained } from '../../lib/LevelSystem';
 import styles from '../styles/default';
 import quizzPageStyle from '../styles/quizzPageStyle';
 
 export default function QuizzPage() {
     const router = useRouter();
-    const [question, setQuestion] = useState('');
+    const { user, updateXp } = useAuth();
+    const [currentQuestion, setCurrentQuestion] = useState<IQuizz | null>(null);
     const [propositions, setPropositions] = useState<string[]>([]);
-    const [reponse, setReponse] = useState('');
-    const [explication, setExplication] = useState('');
-    const [index, setIndex] = useState<number>(0);
-    const [popupExplication, setPopupExplication] = useState(false);
     const [score, setScore] = useState(0);
-    const [actualQuizz, setActualQuizz] = useState<IQuizz[]>([]); // Changement ici
+    const [popupExplication, setPopupExplication] = useState(false);
+    // Identifiants des questions déjà vues dans cette partie (évite les doublons)
+    const [seenQuestions, setSeenQuestions] = useState<Set<string>>(new Set());
 
-    const { category, difficulty } = useLocalSearchParams();
-    const rawCategory = Array.isArray(category) ? category[0] : category;
-    const safeCategory = String(rawCategory);
-    const rawDifficulty = Array.isArray(difficulty) ? difficulty[0] : difficulty;
-    const safeDifficulty = Number(rawDifficulty);
+    // File de questions pour le mode mock (JSON local)
+    const [mockQueue, setMockQueue] = useState<IQuizz[]>([]);
+    const [mockIndex, setMockIndex] = useState(0);
 
-    // Fonction pour récupérer le quizz aléatoire
-    const fetchQuizz = async () => {
-        if (process.env.MOCK) {
-            //Si le mock est activé, on récupère via le json sinon via l'API
-            console.log("Mock activé")
-            const quizz = GetRandomQuizz(data as IData, safeCategory, safeDifficulty, 5);
-            setActualQuizz(quizz);
-        } else {
-            console.log("Mock désactivé")
-            try {
-            const quizz = await getRandomQuizByTheme();
-            console.log("quizz: ", quizz);
-            setActualQuizz(quizz);
-            }catch (error) {
-                console.error(error);
+    const { category, difficulty, userId } = useLocalSearchParams();
+    const safeCategory = Array.isArray(category) ? category[0] : String(category);
+    const safeDifficulty = Number(Array.isArray(difficulty) ? difficulty[0] : difficulty);
+    const safeUserId = Array.isArray(userId) ? userId[0] : String(userId ?? '');
+
+    function randomize(tab: string[]): string[] {
+        // Fisher-Yates shuffle sur une copie pour ne pas muter l'original
+        const shuffled = [...tab];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    const loadQuestion = (quizz: IQuizz) => {
+        setCurrentQuestion(quizz);
+        setPropositions(randomize(quizz.propositions));
+        setPopupExplication(false);
+    };
+
+    // Récupère la prochaine question (API ou mock) en évitant les doublons
+    const fetchNextQuestion = async (seen: Set<string> = seenQuestions) => {
+        if (Constants.expoConfig?.extra?.MOCK) {
+            // Mode mock : on avance dans la file locale (déjà mélangée, pas de doublon)
+            const quizzList = mockQueue.length > 0
+                ? mockQueue
+                : GetRandomQuizz(data as IData, safeCategory, safeDifficulty, 20);
+
+            if (mockQueue.length === 0) setMockQueue(quizzList);
+
+            const nextIndex = mockQueue.length === 0 ? 0 : mockIndex;
+            if (nextIndex < quizzList.length) {
+                loadQuestion(quizzList[nextIndex]);
+                setMockIndex(nextIndex + 1);
             }
+        } else {
+            const MAX_RETRIES = 5;
+            let attempts = 0;
+
+            while (attempts < MAX_RETRIES) {
+                try {
+                    const raw = await getRandomQuizByTheme(safeCategory, safeDifficulty);
+                    const quizz: IQuizz = Array.isArray(raw) ? raw[0] : raw;
+
+                    // Identifiant unique : _id si disponible, sinon le texte de la question
+                    const uid = quizz._id ?? quizz.question;
+
+                    if (!seen.has(uid)) {
+                        // Nouvelle question : on l'enregistre et on l'affiche
+                        const updated = new Set(seen).add(uid);
+                        setSeenQuestions(updated);
+                        loadQuestion(quizz);
+                        return;
+                    }
+
+                    // Doublon détecté : on réessaie
+                    attempts++;
+                    console.log(`Question déjà vue, nouvel essai (${attempts}/${MAX_RETRIES})`);
+                } catch (error) {
+                    console.error("Erreur lors du chargement de la question :", error);
+                    return;
+                }
+            }
+
+            // Après MAX_RETRIES tentatives sans nouvelle question, on affiche quand même la dernière
+            console.warn("Impossible de trouver une nouvelle question après plusieurs essais");
         }
     };
 
-    function randomize(tab: string[]) {
-        // Fonction pour mélanger un tableau
-        for (let i = tab.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1)); // Génère un index aléatoire
-            [tab[i], tab[j]] = [tab[j], tab[i]]; // Échange les éléments
-        }
-        return tab;
-    }
-
+    // Chargement de la première question au montage
     useEffect(() => {
-        // Appel asynchrone pour obtenir les questions de quizz au chargement du composant
-        fetchQuizz();
+        fetchNextQuestion();
     }, []);
 
-    useEffect(() => {
-        if (actualQuizz.length > 0) {
-            setQuestion(actualQuizz[index].question);
-            setPropositions(randomize(actualQuizz[index].propositions)); // Mélange les propositions
-            setReponse(actualQuizz[index].reponse);
-            setExplication(actualQuizz[index].explication);
-        }
-    }, [actualQuizz, index]); // Surveillance de actualQuizz et index
+    const goToResults = async (finalScore: number) => {
+        const xpBefore = user?.xp ?? 0;
+        const xpGained = computeXpGained(finalScore, safeDifficulty);
+        const newXp = xpBefore + xpGained;
 
-    const getNextQuizz = () => {
-        if (index < actualQuizz.length - 1) {
-            setIndex(index + 1);
-        } else {
-            router.push({ pathname: "/screens/resultatsPage", params: { category: safeCategory, difficulty: safeDifficulty, score: score } });
+        // Mise à jour de l'XP en BDD (valeur cumulée) + dans le contexte local
+        if (safeUserId) {
+            try {
+                await setExperience(safeUserId, newXp);
+                await updateXp(newXp);
+            } catch (error) {
+                console.error("Erreur mise à jour XP :", error);
+            }
         }
+
+        router.push({
+            pathname: "/screens/resultatsPage",
+            params: {
+                category: safeCategory,
+                difficulty: safeDifficulty,
+                score: finalScore,
+                userId: safeUserId,
+                xpBefore,
+                xpGained,
+            },
+        });
     };
 
     const checkAnswer = (answer: string) => {
-        if (answer === reponse) {
-            setScore(score + 1);
-            getNextQuizz();
+        if (answer === currentQuestion?.reponse) {
+            // Bonne réponse : on incrémente le score et on charge la question suivante
+            setScore(prev => prev + 1);
+            fetchNextQuestion();
         } else {
+            // Mauvaise réponse : la partie s'arrête, on affiche l'explication
             setPopupExplication(true);
         }
     };
 
     return (
-        <>
-            {actualQuizz.length === 0 ? <View style={styles.container}><Text>Loading...</Text></View> : (
-                <>
-                    <View style={styles.container}>
-                        <View style={styles.topBar}></View>
+        <View style={{ flex: 1 }}>
+            {!currentQuestion ? (
+                <View style={styles.container}><Text>Chargement...</Text></View>
+            ) : (
+                <View style={styles.container}>
+                    <View style={styles.topBar} />
 
-                        <Text style={quizzPageStyle.title}>{question}</Text>
-                        {propositions.map((proposition: string, i: number) => (
-                            <TouchableOpacity
-                                key={i}
-                                onPress={() => checkAnswer(proposition)}
-                                style={quizzPageStyle.button}
-                            >
-                                <Text style={styles.buttonText}>{proposition}</Text>
-                            </TouchableOpacity>
-                        ))}
-                        <View style={styles.bottomBar}></View>
-                    </View>
+                    <Text style={quizzPageStyle.title}>{currentQuestion.question}</Text>
+
+                    {propositions.map((proposition, i) => (
+                        <TouchableOpacity
+                            key={i}
+                            onPress={() => checkAnswer(proposition)}
+                            style={quizzPageStyle.button}
+                        >
+                            <Text style={styles.buttonText}>{proposition}</Text>
+                        </TouchableOpacity>
+                    ))}
+
+                    <View style={styles.bottomBar} />
+
                     {popupExplication && (
                         <View style={quizzPageStyle.popup}>
-                            <Text style={styles.textTitle}>{explication}</Text>
+                            <Text style={styles.textTitle}>Mauvaise réponse !</Text>
+                            <Text style={styles.textTitle}>{currentQuestion.explication}</Text>
                             <TouchableOpacity
-                                onPress={() => {
-                                    setPopupExplication(false);
-                                    getNextQuizz();
-                                }}
+                                onPress={() => goToResults(score)}
                                 style={quizzPageStyle.buttonPopup}
                             >
-                                <Text style={styles.buttonText}>Compris</Text>
+                                <Text style={styles.buttonText}>Voir mon score</Text>
                             </TouchableOpacity>
                         </View>
                     )}
-                </>
+                </View>
             )}
-        </>
+        </View>
     );
 }

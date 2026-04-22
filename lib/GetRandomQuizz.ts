@@ -1,12 +1,19 @@
 import { IData } from "../interfaces/IData";
 import { IQuizz } from "../interfaces/IQuizz";
 
+export function GetRandomQuizz(data: IData, category: string, difficulty: number, count: number): IQuizz[] {
+    // Copie du tableau pour ne pas muter les données originales
+    const shuffled = [...data[category][difficulty]];
 
-export function GetRandomQuizz(data: IData, category: string, difficulty: number, count: number) {
+    // Fisher-Yates shuffle : algorithme de mélange non biaisé
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
 
-    // Mélanger le tableau aléatoirement
-    let shuffled = data[category][difficulty].sort(() => 0.5 - Math.random());
-
-    // Prendre les 'count' premiers éléments après le mélange
     return shuffled.slice(0, count) as IQuizz[];
+}
+
+export function GetThemes(data: IData): string[] {
+    return Object.keys(data);
 }

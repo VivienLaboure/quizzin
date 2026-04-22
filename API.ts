@@ -1,49 +1,126 @@
 import Constants from 'expo-constants';
+import * as SecureStore from 'expo-secure-store';
+import { networkErrorStore } from './lib/networkErrorStore';
 
 const apiUrl = Constants.expoConfig?.extra?.API_URL || "http://localhost";
 const port = Constants.expoConfig?.extra?.PORT || "5000";
-const BASE = `${apiUrl}:${port}`;
+const BASE = port ? `${apiUrl}:${port}` : apiUrl;
 
-async function request(path:any, options:any = {}) {
+// Options acceptées par la fonction request
+interface RequestOptions {
+    method?: string;
+    headers?: Record<string, string>;
+    body?: object | string;
+    auth?: boolean; // true = injecter le token JWT
+}
+
+async function request(path: string, options: RequestOptions = {}) {
     const url = `${BASE}${path}`;
     console.log("Full URL API Request:", url);
-    const opts = {
-        headers: { "Content-Type": "application/json" },
-        ...options,
+
+    const headers: Record<string, string> = { "Content-Type": "application/json" };
+
+    // Injecter le token JWT si demandé (ou par défaut pour les routes protégées)
+    if (options.auth !== false) {
+        const token = await SecureStore.getItemAsync('auth_token');
+        if (token) {
+            headers["Authorization"] = `Bearer ${token}`;
+        }
+    }
+
+    if (options.headers) {
+        Object.assign(headers, options.headers);
+    }
+
+    const opts: { method?: string; headers: Record<string, string>; body?: string } = {
+        method: options.method,
+        headers,
+        body: options.body && typeof options.body === "object"
+            ? JSON.stringify(options.body)
+            : (options.body as string | undefined),
     };
-    if (opts.body && typeof opts.body === "object") opts.body = JSON.stringify(opts.body);
 
     try {
-        const res = await fetch(url, opts);
+        const res = await fetch(url, opts as RequestInit);
         const contentType = res.headers.get("content-type") || "";
         const body = contentType.includes("application/json") ? await res.json() : await res.text();
 
         console.log("Response Status:", res.status);
-        if(!res.ok) {
-            const err:any = new Error(body?.error || body?.message || res.statusText);
+        if (!res.ok) {
+            const err = new Error(body?.error || body?.message || res.statusText) as Error & { status: number; body: unknown };
             err.status = res.status;
             err.body = body;
             throw err;
         }
 
         return body;
-    } catch (error:any) {
-        console.error("API Error:", error.message);
+    } catch (error) {
+        // TypeError = le fetch n'a pas pu aboutir (backend éteint, pas de réseau...)
+        if (error instanceof TypeError) {
+            networkErrorStore.show();
+        }
+        console.error("API Error:", (error as Error).message);
         console.error("Full error:", error);
         throw error;
     }
+}
 
-};
+// ─── API Auth (pas de token requis) ──────────────────────────────────────────
+export const registerUser = (payload: { pseudo: string; email: string; password: string }) =>
+    request("/api/auth/register", { method: "POST", body: payload, auth: false });
 
-//API score
-export const createProfile = (payload: Object) => request("/api/score", {method:"POST", body: payload});
-export const getProfile = (id:String) => request(`/api/score/${id}`, {method:"GET"});
-export const setExperience = (id:String, experience:Number) => request(`/score/${id}/experience`, {method:"PATCH", body: {experience}});
-export const updateScoreForTheme = (id:String, payload:Object) => request(`/score/${id}`, {method:"PUT", body: payload}); // payload: { theme, highScore, totalQuestions }
+export const loginUser = (payload: { email: string; password: string }) =>
+    request("/api/auth/login", { method: "POST", body: payload, auth: false });
 
-//API quizz
-export const getRandomQuizByTheme = () => request(`/api/quiz/themes`, {method:"GET"});
-export const getThemes = () => request(`/api/quiz/`, {method:"GET"});
-export const createQuiz = () => request(`/api/quiz/create`, {method: "GET"});
+export const forgotPassword = (payload: { email: string }) =>
+    request("/api/auth/forgot-password", { method: "POST", body: payload, auth: false });
 
-export default {request};
+export const resetPassword = (payload: { email: string; code: string; newPassword: string }) =>
+    request("/api/auth/reset-password", { method: "POST", body: payload, auth: false });
+
+// ─── API Score (token JWT injecté automatiquement) ───────────────────────────
+export const createProfile = (payload: object) =>
+    request("/api/score/new", { method: "POST", body: payload });
+
+export const getProfile = (id: string) =>
+    request(`/api/score/${id}`, { method: "GET" });
+
+export const setExperience = (id: string, experience: number) =>
+    request(`/api/score/update/${id}/experience`, { method: "PATCH", body: { experience } });
+
+export const updateScoreForTheme = (id: string, payload: object) =>
+    request(`/api/score/update/${id}`, { method: "PUT", body: payload });
+
+// ─── API Amis ────────────────────────────────────────────────────────────────
+export const searchUsers = (pseudo: string) =>
+    request(`/api/friends/search?pseudo=${encodeURIComponent(pseudo)}`, { method: "GET" });
+
+export const getFriends = () =>
+    request("/api/friends", { method: "GET" });
+
+export const getFriendRequests = () =>
+    request("/api/friends/requests", { method: "GET" });
+
+export const sendFriendRequest = (userId: string) =>
+    request(`/api/friends/request/${userId}`, { method: "POST" });
+
+export const acceptFriendRequest = (userId: string) =>
+    request(`/api/friends/request/${userId}/accept`, { method: "PATCH" });
+
+export const declineFriendRequest = (userId: string) =>
+    request(`/api/friends/request/${userId}`, { method: "DELETE" });
+
+export const removeFriend = (userId: string) =>
+    request(`/api/friends/${userId}`, { method: "DELETE" });
+
+// ─── API Quiz (public, pas de token requis) ───────────────────────────────────
+export const getRandomQuizByTheme = (theme: string, difficulty: number) =>
+    request(`/api/quiz/${theme}/${difficulty}`, { method: "GET", auth: false });
+
+export const getThemes = () =>
+    request(`/api/quiz/themes`, { method: "GET", auth: false });
+
+export const createQuiz = () =>
+    request(`/api/quiz/create`, { method: "POST", auth: false });
+
+export default { request };
