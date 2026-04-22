@@ -14,12 +14,12 @@ const friendRoutes = require("./routes/friendRoutes");
 
 const app = express();
 
+const isDev = process.env.NODE_ENV === "development";
+
 // ─── Sécurité ────────────────────────────────────────────────────────────────
 
-// Headers HTTP de sécurité (XSS, clickjacking, MIME sniffing, etc.)
 app.use(helmet());
 
-// CORS : n'accepte que les origines connues
 app.use(cors({
   origin: process.env.ALLOWED_ORIGINS
     ? process.env.ALLOWED_ORIGINS.split(",")
@@ -27,30 +27,32 @@ app.use(cors({
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
 }));
 
-// Nettoyage des inputs MongoDB (prévient l'injection NoSQL)
+app.use(express.json({ limit: "10kb" }));
+
+// Nettoyage NoSQL — après json() pour avoir accès à req.body
 app.use(mongoSanitize());
 
-// Rate limiting global — 100 requêtes / 15 min par IP
-app.use(rateLimit({
+// Rate limiting global — 100 req / 15 min / IP
+const globalLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 100,
-  standardHeaders: true,
+  standardHeaders: "draft-7",
   legacyHeaders: false,
   message: { error: "Trop de requêtes, réessaie dans quelques minutes." },
-}));
+  skip: (req) => req.method === "OPTIONS",
+});
 
 // Rate limiting strict sur les routes d'auth — 10 tentatives / 15 min
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 10,
-  standardHeaders: true,
+  standardHeaders: "draft-7",
   legacyHeaders: false,
   message: { error: "Trop de tentatives, réessaie dans 15 minutes." },
+  skip: (req) => req.method === "OPTIONS",
 });
 
-// ─── Middleware ───────────────────────────────────────────────────────────────
-
-app.use(express.json({ limit: "10kb" })); // Limite la taille des payloads
+app.use(globalLimiter);
 
 // ─── Connexion DB ─────────────────────────────────────────────────────────────
 
@@ -62,6 +64,34 @@ app.use("/api/auth", authLimiter, authRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/score", scoreRoutes);
 app.use("/api/friends", friendRoutes);
+
+// ─── 404 ─────────────────────────────────────────────────────────────────────
+
+app.use((req, res) => {
+  res.status(404).json({ error: "Route introuvable" });
+});
+
+// ─── Gestionnaire d'erreurs global (Express 5) ───────────────────────────────
+// Doit avoir exactement 4 paramètres pour être reconnu par Express
+
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  console.error("✗ Erreur non gérée :", err.message);
+
+  // Payload trop grand (express.json limit)
+  if (err.type === "entity.too.large") {
+    return res.status(413).json({ error: "Payload trop volumineux" });
+  }
+  // JSON malformé
+  if (err.type === "entity.parse.failed") {
+    return res.status(400).json({ error: "JSON invalide" });
+  }
+
+  res.status(err.status || 500).json({
+    error: isDev ? (err.message || "Erreur serveur interne") : "Erreur serveur interne",
+    ...(isDev && { stack: err.stack }),
+  });
+});
 
 // ─── Démarrage ────────────────────────────────────────────────────────────────
 
