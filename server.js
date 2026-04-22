@@ -1,21 +1,50 @@
+// Charger les variables d'environnement
 require('dotenv').config();
+
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
 
+// Routes
 const quizRoutes = require("./routes/quizRoutes");
 const scoreRoutes = require("./routes/scoreRoutes");
+const authRoutes = require("./routes/authRoutes");
+const friendRoutes = require("./routes/friendRoutes");
 
+// Initialiser l'application Express
 const app = express();
-app.use(cors());
-app.use(express.json());
 
+/**
+ * Middleware
+ */
+app.use(cors()); // Activer CORS pour les requêtes cross-origin
+app.use(express.json()); // Parser les requêtes JSON
+
+/**
+ * Connecter à la base de données MongoDB
+ */
 connectDB();
 
+/**
+ * Enregistrer les routes
+ */
+app.use("/api/auth", authRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/score", scoreRoutes);
+app.use("/api/friends", friendRoutes);
 
-const PORT = process.env.PORT || 5000; // Render fournit process.env.PORT
+/**
+ * Démarrer le serveur
+ */
+const PORT = process.env.PORT || 5000;
 
-// --- Serveur ---
-app.listen(PORT, () => console.log("Serveur démarré sur le port", PORT));
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✓ Serveur démarré sur le port ${PORT}`);
+  console.log(`  ${process.env.BASE_URL || 'http://localhost'}:${PORT}`);
+});
+
+// Gérer les erreurs non capturées
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Promesse rejetée non gérée:', reason);
+});

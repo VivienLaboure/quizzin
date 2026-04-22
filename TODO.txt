@@ -1,4 +1,0 @@
-TODO:
-
-- gerer le AuthGoogle
-- rajouter des themes dans mongoDB
