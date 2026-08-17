@@ -1,0 +1,25 @@
+name: Keep Render alive
+
+# Le plan gratuit de Render met le service en veille après 15 min sans
+# requête, et le réveil peut prendre 30-50 s (largement au-delà du timeout
+# côté app mobile). On ping /health toutes les 10 minutes pour ne jamais
+# laisser passer ce délai d'inactivité.
+#
+# Note : GitHub désactive automatiquement les workflows planifiés (cron)
+# après 60 jours sans activité sur le dépôt. Un push régulier sur le repo
+# suffit à le garder actif ; sinon, il faudra le réactiver manuellement
+# depuis l'onglet Actions.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping /health
+        run: |
+          curl -sf --max-time 60 https://quizzin-2.onrender.com/health || \
+          curl -sf --max-time 60 https://quizzin-2.onrender.com/health

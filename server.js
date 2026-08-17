@@ -71,6 +71,14 @@ app.use(globalLimiter);
 
 connectDB();
 
+// ─── Santé ────────────────────────────────────────────────────────────────────
+// Route légère (pas d'accès DB) utilisée par le workflow GitHub Actions
+// keep-alive.yml pour empêcher le service Render (plan gratuit) de se mettre
+// en veille après 15 min d'inactivité.
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 // ─── Routes ───────────────────────────────────────────────────────────────────
 
 app.use("/api/auth", authLimiter, authRoutes);
