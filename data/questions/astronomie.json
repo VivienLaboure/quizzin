@@ -1,0 +1,101 @@
+{
+  "theme": "Astronomie",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle est la température moyenne à la surface visible du Soleil ?",
+        "reponse": "Environ 5 500 °C",
+        "propositions": ["Environ 1 000 °C", "Environ 5 500 °C", "Environ 15 000 °C", "Environ 50 000 °C"],
+        "explication": "La photosphère du Soleil atteint environ 5 500 °C, contre plus de 15 millions de degrés en son cœur."
+      },
+      {
+        "question": "Quelle planète du système solaire tourne sur elle-même dans le sens opposé à la majorité des autres ?",
+        "reponse": "Vénus",
+        "propositions": ["Mars", "Vénus", "Mercure", "Uranus"],
+        "explication": "Vénus a une rotation rétrograde, probablement due à une collision majeure dans son passé."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène qui fait que l'on ne voit toujours que la même face de la Lune depuis la Terre ?",
+        "reponse": "La rotation synchrone",
+        "propositions": ["La précession", "La rotation synchrone", "La libration", "La résonance orbitale"],
+        "explication": "La Lune met le même temps à tourner sur elle-même qu'à orbiter autour de la Terre, ce qui lui fait toujours présenter la même face."
+      },
+      {
+        "question": "Quelle est la plus grande lune du système solaire, en orbite autour de Jupiter ?",
+        "reponse": "Ganymède",
+        "propositions": ["Io", "Europe", "Ganymède", "Callisto"],
+        "explication": "Ganymède est plus grande que la planète Mercure."
+      },
+      {
+        "question": "Comment appelle-t-on le point de l'orbite d'une planète le plus proche du Soleil ?",
+        "reponse": "Le périhélie",
+        "propositions": ["L'aphélie", "Le périhélie", "Le zénith", "L'apogée"],
+        "explication": "Le périhélie est le point de l'orbite le plus proche du Soleil ; l'aphélie en est le point le plus éloigné."
+      }
+    ],
+    "2": [
+      {
+        "question": "Comment appelle-t-on le décalage vers le rouge de la lumière des galaxies lointaines, preuve de l'expansion de l'univers ?",
+        "reponse": "Le redshift",
+        "propositions": ["Le redshift", "L'effet Doppler-Fizeau inverse", "Le blueshift", "L'aberration de la lumière"],
+        "explication": "Découvert par Edwin Hubble en 1929, ce décalage vers le rouge montre que les galaxies s'éloignent les unes des autres."
+      },
+      {
+        "question": "Quel instrument a permis de détecter pour la première fois des ondes gravitationnelles, en 2015 ?",
+        "reponse": "LIGO",
+        "propositions": ["LIGO", "VIRGO", "LISA", "ALMA"],
+        "explication": "LIGO (Laser Interferometer Gravitational-Wave Observatory) a détecté la fusion de deux trous noirs, confirmant une prédiction d'Einstein."
+      },
+      {
+        "question": "Quelle est la durée approximative d'une révolution complète du Soleil autour du centre de la Voie lactée ?",
+        "reponse": "Environ 230 millions d'années",
+        "propositions": ["Environ 1 million d'années", "Environ 230 millions d'années", "Environ 4,6 milliards d'années", "Environ 13,8 milliards d'années"],
+        "explication": "Cette période est appelée 'année galactique' ou 'année cosmique'."
+      },
+      {
+        "question": "Quelle sonde a survolé les quatre planètes géantes du système solaire entre 1979 et 1989, et reste la seule à avoir visité Uranus et Neptune ?",
+        "reponse": "Voyager 2",
+        "propositions": ["Voyager 1", "Voyager 2", "Pioneer 10", "Cassini"],
+        "explication": "Voyager 2 est à ce jour la seule sonde à avoir survolé Uranus et Neptune."
+      },
+      {
+        "question": "Quelle est l'étoile la plus brillante du ciel nocturne, visible depuis la Terre ?",
+        "reponse": "Sirius",
+        "propositions": ["Sirius", "Bételgeuse", "Véga", "Polaris"],
+        "explication": "Sirius, dans la constellation du Grand Chien, doit son éclat à sa proximité relative (8,6 années-lumière)."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel mécanisme déclenche l'explosion d'une étoile massive en fin de vie, lors d'une supernova de type II ?",
+        "reponse": "L'effondrement du cœur de fer",
+        "propositions": ["La fusion de l'hélium", "L'effondrement du cœur de fer", "La combustion du carbone", "L'instabilité de paire"],
+        "explication": "Lorsque le cœur d'une étoile massive devient du fer, la fusion nucléaire ne peut plus produire d'énergie, provoquant un effondrement gravitationnel brutal."
+      },
+      {
+        "question": "Quelle est la magnitude apparente approximative de l'étoile Polaire ?",
+        "reponse": "Environ +2",
+        "propositions": ["Environ -5", "Environ +2", "Environ +8", "Environ +15"],
+        "explication": "L'étoile Polaire a une magnitude apparente d'environ 1,98, la rendant visible à l'œil nu mais loin d'être la plus brillante du ciel."
+      },
+      {
+        "question": "Comment appelle-t-on le paramètre H0, qui exprime le taux d'expansion actuel de l'univers ?",
+        "reponse": "La constante de Hubble-Lemaître",
+        "propositions": ["La constante cosmologique", "La constante de Hubble-Lemaître", "Le paramètre de décélération", "La constante de Planck"],
+        "explication": "La constante de Hubble-Lemaître exprime la vitesse d'éloignement des galaxies en fonction de leur distance."
+      },
+      {
+        "question": "Comment appelle-t-on le disque de matière et de gaz en orbite autour d'un trou noir en accrétion, qui émet un fort rayonnement X ?",
+        "reponse": "Le disque d'accrétion",
+        "propositions": ["L'horizon des événements", "Le disque d'accrétion", "L'ergosphère", "Le jet relativiste"],
+        "explication": "La matière qui spirale vers un trou noir se réchauffe intensément par friction et émet un rayonnement X caractéristique."
+      },
+      {
+        "question": "Quelle mission de la NASA a délibérément percuté l'astéroïde Dimorphos en 2022 pour tester une technique de défense planétaire ?",
+        "reponse": "La mission DART",
+        "propositions": ["La mission DART", "La mission OSIRIS-REx", "La mission Lucy", "La mission Hayabusa2"],
+        "explication": "DART (Double Asteroid Redirection Test) a modifié avec succès l'orbite de Dimorphos autour de son astéroïde principal, Didymos."
+      }
+    ]
+  }
+}

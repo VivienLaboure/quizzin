@@ -1,0 +1,101 @@
+{
+  "theme": "Economie",
+  "questions": {
+    "1": [
+      {
+        "question": "Comment appelle-t-on un impôt dont le taux augmente avec le niveau de revenu ?",
+        "reponse": "Un impôt progressif",
+        "propositions": ["Un impôt proportionnel", "Un impôt progressif", "Un impôt forfaitaire", "Un impôt régressif"],
+        "explication": "Plus le revenu est élevé, plus le taux d'imposition progressif augmente, contrairement à un impôt proportionnel à taux fixe."
+      },
+      {
+        "question": "Comment appelle-t-on ce à quoi on renonce en choisissant une option économique plutôt qu'une autre ?",
+        "reponse": "Le coût d'opportunité",
+        "propositions": ["Le coût marginal", "Le coût d'opportunité", "Le coût fixe", "La valeur ajoutée"],
+        "explication": "Le coût d'opportunité représente la meilleure alternative à laquelle on renonce en faisant un choix."
+      },
+      {
+        "question": "Comment appelle-t-on la hausse continue et généralisée des prix dans une économie sur une période donnée ?",
+        "reponse": "L'inflation",
+        "propositions": ["La déflation", "L'inflation", "La désinflation", "La stagflation"],
+        "explication": "L'inflation correspond à une perte du pouvoir d'achat de la monnaie liée à la hausse générale des prix."
+      },
+      {
+        "question": "Comment appelle-t-on une entreprise dont les actions s'échangent librement sur un marché boursier réglementé ?",
+        "reponse": "Une société cotée",
+        "propositions": ["Une société civile", "Une société cotée", "Une société en commandite", "Une association"],
+        "explication": "Une société cotée voit ses actions s'échanger sur une bourse de valeurs, contrairement à une société non cotée."
+      },
+      {
+        "question": "Comment appelle-t-on le document qui récapitule les recettes et dépenses prévisionnelles de l'État français pour une année ?",
+        "reponse": "Le budget de l'État",
+        "propositions": ["Le bilan comptable", "Le budget de l'État", "Le rapport annuel", "Le plan quinquennal"],
+        "explication": "En France, le budget de l'État est voté chaque année par le Parlement sous la forme de la loi de finances."
+      }
+    ],
+    "2": [
+      {
+        "question": "Comment appelle-t-on la situation économique caractérisée par une stagnation de la croissance combinée à une inflation élevée ?",
+        "reponse": "La stagflation",
+        "propositions": ["La déflation", "La stagflation", "La récession", "La surchauffe"],
+        "explication": "Ce phénomène, observé notamment dans les années 1970, contredit la relation habituelle entre chômage et inflation."
+      },
+      {
+        "question": "Quel indicateur mesure la différence entre les exportations et les importations d'un pays ?",
+        "reponse": "La balance commerciale",
+        "propositions": ["La balance des paiements", "La balance commerciale", "Le compte de capital", "La parité de pouvoir d'achat"],
+        "explication": "Une balance commerciale positive (excédent) signifie que le pays exporte plus qu'il n'importe."
+      },
+      {
+        "question": "Comment appelle-t-on le taux auquel une banque centrale prête aux banques commerciales à très court terme ?",
+        "reponse": "Le taux directeur",
+        "propositions": ["Le taux d'usure", "Le taux directeur", "Le taux de change", "Le taux d'épargne"],
+        "explication": "En modulant son taux directeur, une banque centrale influence le coût du crédit dans toute l'économie."
+      },
+      {
+        "question": "Comment appelle-t-on la réduction des coûts moyens de production obtenue par une entreprise en augmentant son volume produit ?",
+        "reponse": "Les économies d'échelle",
+        "propositions": ["Les économies d'échelle", "La diversification", "L'intégration verticale", "L'externalisation"],
+        "explication": "Les économies d'échelle permettent de diluer les coûts fixes sur un plus grand nombre d'unités produites."
+      },
+      {
+        "question": "Comment appelle-t-on une baisse administrée du taux de change d'une monnaie décidée par une banque centrale, dans un régime de changes fixes ?",
+        "reponse": "Une dévaluation",
+        "propositions": ["Une dévaluation", "Une inflation importée", "Une spéculation", "Une parité fixe"],
+        "explication": "Contrairement à la dépréciation qui résulte du marché, la dévaluation est une décision administrative."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel économiste est à l'origine du concept de 'destruction créatrice', décrivant le renouvellement permanent du capitalisme par l'innovation ?",
+        "reponse": "Joseph Schumpeter",
+        "propositions": ["Joseph Schumpeter", "Friedrich Hayek", "Thorstein Veblen", "Vilfredo Pareto"],
+        "explication": "Schumpeter développe ce concept dans 'Capitalisme, socialisme et démocratie' (1942)."
+      },
+      {
+        "question": "Comment appelle-t-on la courbe représentant la relation inverse observée entre taux de chômage et taux d'inflation ?",
+        "reponse": "La courbe de Phillips",
+        "propositions": ["La courbe de Laffer", "La courbe de Phillips", "La courbe de Lorenz", "La courbe IS-LM"],
+        "explication": "Formulée par l'économiste néo-zélandais William Phillips en 1958, cette relation a depuis été fortement nuancée, notamment par les épisodes de stagflation."
+      },
+      {
+        "question": "Quel modèle macroéconomique, développé par John Hicks en 1937, relie le marché des biens (IS) et le marché de la monnaie (LM) ?",
+        "reponse": "Le modèle IS-LM",
+        "propositions": ["Le modèle IS-LM", "Le modèle AS-AD", "Le modèle de Solow", "Le modèle de Mundell-Fleming"],
+        "explication": "Ce modèle synthétise les idées keynésiennes en un cadre d'équilibre simultané entre investissement/épargne et liquidité/monnaie."
+      },
+      {
+        "question": "Quel économiste américain a développé la théorie du revenu permanent, selon laquelle la consommation dépend du revenu anticipé sur le long terme ?",
+        "reponse": "Milton Friedman",
+        "propositions": ["Milton Friedman", "Paul Samuelson", "Robert Solow", "James Tobin"],
+        "explication": "Friedman développe cette théorie en 1957 pour expliquer pourquoi les ménages lissent leur consommation malgré des variations de revenu ponctuelles."
+      },
+      {
+        "question": "Quel modèle de croissance économique, publié par Robert Solow en 1956, attribue la croissance de long terme au progrès technique plutôt qu'à la seule accumulation de capital ?",
+        "reponse": "Le modèle de croissance de Solow",
+        "propositions": ["Le modèle de croissance de Solow", "Le modèle de Harrod-Domar", "Le modèle de Ramsey", "Le modèle de Lucas"],
+        "explication": "Ce modèle vaut à Robert Solow le prix Nobel d'économie en 1987."
+      }
+    ]
+  }
+}

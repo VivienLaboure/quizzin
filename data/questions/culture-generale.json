@@ -1,0 +1,101 @@
+{
+  "theme": "Culture-generale",
+  "questions": {
+    "1": [
+      {
+        "question": "Qui a peint le plafond de la chapelle Sixtine ?",
+        "reponse": "Michel-Ange",
+        "propositions": ["Léonard de Vinci", "Michel-Ange", "Raphaël", "Le Titien"],
+        "explication": "Michel-Ange a peint le plafond de la chapelle Sixtine entre 1508 et 1512."
+      },
+      {
+        "question": "Quel est le plus grand organe du corps humain ?",
+        "reponse": "La peau",
+        "propositions": ["Le foie", "La peau", "Le cœur", "Le cerveau"],
+        "explication": "La peau représente environ 16 % du poids corporel et constitue le plus grand organe humain."
+      },
+      {
+        "question": "Combien de dents possède un adulte humain, dents de sagesse comprises ?",
+        "reponse": "32",
+        "propositions": ["28", "30", "32", "34"],
+        "explication": "Un adulte possède normalement 32 dents en comptant les 4 dents de sagesse."
+      },
+      {
+        "question": "Quel physicien a formulé la théorie de la relativité restreinte en 1905 ?",
+        "reponse": "Albert Einstein",
+        "propositions": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Max Planck"],
+        "explication": "Einstein publie sa théorie de la relativité restreinte en 1905, année qualifiée d'\"annus mirabilis\"."
+      },
+      {
+        "question": "À quel courant artistique appartient le tableau 'La Nuit étoilée' de Van Gogh ?",
+        "reponse": "Le postimpressionnisme",
+        "propositions": ["Le cubisme", "Le postimpressionnisme", "Le surréalisme", "Le fauvisme"],
+        "explication": "Van Gogh est considéré comme l'un des principaux représentants du postimpressionnisme."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quelle loi énonce que la pression d'un gaz est inversement proportionnelle à son volume à température constante ?",
+        "reponse": "La loi de Boyle-Mariotte",
+        "propositions": ["La loi de Charles", "La loi de Boyle-Mariotte", "La loi de Gay-Lussac", "La loi d'Avogadro"],
+        "explication": "Formulée indépendamment par Robert Boyle et Edme Mariotte au XVIIe siècle."
+      },
+      {
+        "question": "Quel prix littéraire français, créé en 1903, récompense chaque année 'le meilleur ouvrage d'imagination en prose' ?",
+        "reponse": "Le prix Goncourt",
+        "propositions": ["Le prix Renaudot", "Le prix Goncourt", "Le prix Femina", "Le prix Médicis"],
+        "explication": "Le prix Goncourt est décerné par l'Académie Goncourt et reste la distinction littéraire française la plus prestigieuse."
+      },
+      {
+        "question": "Quelle protéine, contenue dans les globules rouges, transporte l'oxygène dans le sang ?",
+        "reponse": "L'hémoglobine",
+        "propositions": ["La myoglobine", "L'hémoglobine", "L'albumine", "La fibrine"],
+        "explication": "L'hémoglobine fixe l'oxygène au niveau des poumons pour le transporter vers les tissus."
+      },
+      {
+        "question": "Quel compositeur autrichien a laissé un 'Requiem' inachevé à sa mort en 1791 ?",
+        "reponse": "Wolfgang Amadeus Mozart",
+        "propositions": ["Joseph Haydn", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Franz Schubert"],
+        "explication": "Le Requiem de Mozart a été achevé après sa mort par son élève Franz Xaver Süssmayr."
+      },
+      {
+        "question": "Quel philosophe allemand est l'auteur du concept du 'surhomme' (Übermensch) ?",
+        "reponse": "Friedrich Nietzsche",
+        "propositions": ["Arthur Schopenhauer", "Friedrich Nietzsche", "Georg Wilhelm Friedrich Hegel", "Emmanuel Kant"],
+        "explication": "Nietzsche développe ce concept notamment dans 'Ainsi parlait Zarathoustra' (1883)."
+      }
+    ],
+    "3": [
+      {
+        "question": "Comment appelle-t-on le passage direct d'une substance de l'état solide à l'état gazeux, sans passer par l'état liquide ?",
+        "reponse": "La sublimation",
+        "propositions": ["La sublimation", "La condensation", "La déliquescence", "L'effusion"],
+        "explication": "La sublimation explique par exemple la disparition progressive de la neige carbonique (CO2 solide)."
+      },
+      {
+        "question": "Quel mathématicien autrichien a démontré en 1931 les théorèmes d'incomplétude, révélant les limites des systèmes formels ?",
+        "reponse": "Kurt Gödel",
+        "propositions": ["David Hilbert", "Kurt Gödel", "Alan Turing", "Bertrand Russell"],
+        "explication": "Les théorèmes de Gödel démontrent qu'aucun système formel cohérent suffisamment puissant ne peut être à la fois complet et prouver sa propre cohérence."
+      },
+      {
+        "question": "Quelle enzyme catalyse la synthèse du nouveau brin d'ADN lors de la réplication ?",
+        "reponse": "L'ADN polymérase",
+        "propositions": ["La ligase", "L'ADN polymérase", "L'hélicase", "La topoisomérase"],
+        "explication": "L'ADN polymérase ajoute les nucléotides complémentaires au brin matrice lors de la réplication."
+      },
+      {
+        "question": "Quel traité de 1494 a partagé les terres nouvellement découvertes entre l'Espagne et le Portugal le long d'un méridien ?",
+        "reponse": "Le traité de Tordesillas",
+        "propositions": ["Le traité de Tordesillas", "Le traité de Zaragoza", "Le traité de Windsor", "Le traité de Cateau-Cambrésis"],
+        "explication": "Négocié sous l'égide du pape, ce traité fixait la ligne de partage à 370 lieues à l'ouest des îles du Cap-Vert."
+      },
+      {
+        "question": "Quel paradoxe, formulé par Bertrand Russell en 1901, porte sur l'ensemble de tous les ensembles qui ne se contiennent pas eux-mêmes ?",
+        "reponse": "Le paradoxe de Russell",
+        "propositions": ["Le paradoxe de Russell", "Le paradoxe de Zénon", "Le paradoxe de Banach-Tarski", "Le paradoxe de Fermi"],
+        "explication": "Ce paradoxe a révélé une contradiction majeure dans la théorie naïve des ensembles, menant au développement de la théorie axiomatique."
+      }
+    ]
+  }
+}

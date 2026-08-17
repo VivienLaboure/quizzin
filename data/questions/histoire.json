@@ -1,0 +1,101 @@
+{
+  "theme": "Histoire",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel roi de France a été guillotiné le 21 janvier 1793 ?",
+        "reponse": "Louis XVI",
+        "propositions": ["Louis XV", "Louis XVI", "Louis XVII", "Charles X"],
+        "explication": "Louis XVI est exécuté place de la Révolution (actuelle place de la Concorde) après avoir été jugé par la Convention."
+      },
+      {
+        "question": "Quelle bataille de 1815 marque la défaite définitive de Napoléon Bonaparte ?",
+        "reponse": "La bataille de Waterloo",
+        "propositions": ["La bataille d'Austerlitz", "La bataille de Waterloo", "La bataille de Leipzig", "La bataille de Trafalgar"],
+        "explication": "Napoléon est vaincu à Waterloo, en Belgique actuelle, le 18 juin 1815, par les forces britanniques et prussiennes."
+      },
+      {
+        "question": "Quel document, adopté le 26 août 1789, proclame les droits naturels et imprescriptibles de l'homme en France ?",
+        "reponse": "La Déclaration des droits de l'homme et du citoyen",
+        "propositions": ["La Constitution de l'an I", "La Déclaration des droits de l'homme et du citoyen", "Le Code civil", "L'Édit de tolérance"],
+        "explication": "Adoptée par l'Assemblée nationale constituante, elle inspire encore de nombreuses constitutions modernes."
+      },
+      {
+        "question": "Quel empire est fondé par Gengis Khan en 1206, après l'unification des tribus mongoles ?",
+        "reponse": "L'empire mongol",
+        "propositions": ["L'empire ottoman", "L'empire mongol", "L'empire perse", "Le califat abbasside"],
+        "explication": "Gengis Khan fonde le plus vaste empire terrestre continu de l'histoire."
+      },
+      {
+        "question": "Quel événement du 14 juillet 1789 est devenu le symbole de la fin de l'absolutisme royal en France ?",
+        "reponse": "La prise de la Bastille",
+        "propositions": ["Le serment du Jeu de paume", "La prise de la Bastille", "La fuite à Varennes", "La nuit du 4 août"],
+        "explication": "La prise de la Bastille marque le début symbolique de la Révolution française."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel traité de 1763 met fin à la guerre de Sept Ans et voit la France céder le Canada à la Grande-Bretagne ?",
+        "reponse": "Le traité de Paris",
+        "propositions": ["Le traité de Paris", "Le traité d'Aix-la-Chapelle", "Le traité de Ryswick", "Le traité d'Utrecht"],
+        "explication": "Ce traité marque la fin de la présence coloniale française majeure en Amérique du Nord."
+      },
+      {
+        "question": "Quelle dynastie chinoise, fondée en 1368, a succédé à la dynastie Yuan mongole ?",
+        "reponse": "La dynastie Ming",
+        "propositions": ["La dynastie Tang", "La dynastie Ming", "La dynastie Qing", "La dynastie Song"],
+        "explication": "La dynastie Ming règne sur la Chine de 1368 à 1644 et fait notamment construire la Cité interdite."
+      },
+      {
+        "question": "Quel soulèvement populaire de 1848 en France conduit à l'abdication du roi Louis-Philippe et à la proclamation de la Deuxième République ?",
+        "reponse": "La révolution de 1848",
+        "propositions": ["La Commune de Paris", "La révolution de 1848", "Les Trois Glorieuses", "La Fronde"],
+        "explication": "Ce mouvement révolutionnaire met fin à la monarchie de Juillet."
+      },
+      {
+        "question": "Quel pacte de non-agression, signé en août 1939, comportait des clauses secrètes de partage de la Pologne entre l'Allemagne et l'URSS ?",
+        "reponse": "Le pacte germano-soviétique",
+        "propositions": ["Le pacte germano-soviétique", "Les accords de Munich", "Le pacte d'acier", "Le pacte anti-Komintern"],
+        "explication": "Ce pacte, aussi appelé pacte Molotov-Ribbentrop, surprend la communauté internationale une semaine avant l'invasion de la Pologne."
+      },
+      {
+        "question": "Quel califat, après avoir renversé les Omeyyades en 750, a établi sa capitale à Bagdad ?",
+        "reponse": "Le califat abbasside",
+        "propositions": ["Le califat omeyyade", "Le califat abbasside", "Le califat fatimide", "Le califat ottoman"],
+        "explication": "Les Abbassides instaurent un âge d'or scientifique et culturel centré sur Bagdad."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quelle guerre civile anglaise (1642-1651) oppose les partisans du roi Charles Ier aux parlementaires dirigés par Oliver Cromwell ?",
+        "reponse": "La guerre civile anglaise",
+        "propositions": ["La guerre des Deux-Roses", "La guerre civile anglaise", "La Glorieuse Révolution", "La révolte des Covenantaires"],
+        "explication": "Ce conflit se conclut par l'exécution de Charles Ier en 1649 et l'instauration temporaire d'un Commonwealth républicain."
+      },
+      {
+        "question": "Quel traité de 1801 réconcilie officiellement l'État français et l'Église catholique après la Révolution ?",
+        "reponse": "Le Concordat de 1801",
+        "propositions": ["L'édit de tolérance", "Le Concordat de 1801", "La loi de 1905", "Le Concile de Trente"],
+        "explication": "Négocié entre Napoléon Bonaparte et le pape Pie VII, il régit les relations entre l'État et l'Église catholique jusqu'en 1905."
+      },
+      {
+        "question": "Quelle bataille de 1242, livrée sur le lac Peïpous gelé, voit Alexandre Nevski repousser l'invasion des chevaliers Teutoniques ?",
+        "reponse": "La bataille du lac Peïpous",
+        "propositions": ["La bataille du lac Peïpous", "La bataille de la Neva", "La bataille de Kalka", "Le siège de Novgorod"],
+        "explication": "Cette victoire, surnommée 'bataille sur la glace', est restée un symbole de la résistance russe face aux invasions occidentales."
+      },
+      {
+        "question": "Quel roi de France, dit 'le Bien-Aimé', a régné de 1715 à 1774 avant Louis XVI ?",
+        "reponse": "Louis XV",
+        "propositions": ["Louis XIV", "Louis XV", "Louis XIII", "Philippe d'Orléans"],
+        "explication": "Son surnom initial se retourne contre lui à la fin de son règne, marqué par une forte impopularité."
+      },
+      {
+        "question": "Quel traité de mars 1918 voit la Russie bolchévique se retirer de la Première Guerre mondiale en cédant d'importants territoires aux empires centraux ?",
+        "reponse": "Le traité de Brest-Litovsk",
+        "propositions": ["Le traité de Brest-Litovsk", "Le traité de Rapallo", "Le traité de Riga", "L'armistice de Compiègne"],
+        "explication": "Ce traité permet à la Russie soviétique de sortir de la guerre au prix de pertes territoriales considérables."
+      }
+    ]
+  }
+}

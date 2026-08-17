@@ -177,6 +177,7 @@ exports.verifyEmail = async (req, res) => {
     await user.save();
 
     const token = generateToken(user);
+    const score = await PersonalScore.findById(user.scoreId).select("experience");
 
     res.status(200).json({
       token,
@@ -185,6 +186,7 @@ exports.verifyEmail = async (req, res) => {
         pseudo: user.pseudo,
         email: user.email,
         scoreId: user.scoreId,
+        xp: score?.experience ?? 0,
       },
     });
   } catch (err) {
@@ -221,6 +223,7 @@ exports.login = async (req, res) => {
     }
 
     const token = generateToken(user);
+    const score = await PersonalScore.findById(user.scoreId).select("experience");
 
     res.status(200).json({
       token,
@@ -229,6 +232,7 @@ exports.login = async (req, res) => {
         pseudo: user.pseudo,
         email: user.email,
         scoreId: user.scoreId,
+        xp: score?.experience ?? 0,
       },
     });
   } catch (err) {

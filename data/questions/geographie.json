@@ -1,0 +1,101 @@
+{
+  "theme": "Géographie",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel est le plus haut sommet du monde, culminant à 8 849 mètres ?",
+        "reponse": "L'Everest",
+        "propositions": ["Le K2", "L'Everest", "Le Kangchenjunga", "Le Makalu"],
+        "explication": "L'Everest se situe à la frontière entre le Népal et le Tibet."
+      },
+      {
+        "question": "Quel pays d'Amérique du Sud a pour capitale Buenos Aires ?",
+        "reponse": "L'Argentine",
+        "propositions": ["Le Chili", "L'Argentine", "L'Uruguay", "Le Paraguay"],
+        "explication": "Buenos Aires est la capitale et la plus grande ville d'Argentine."
+      },
+      {
+        "question": "Quelle mer, bordée par Israël et la Jordanie, est presque dépourvue de vie en raison de sa très forte salinité ?",
+        "reponse": "La mer Morte",
+        "propositions": ["La mer Rouge", "La mer Morte", "La mer de Galilée", "La mer Caspienne"],
+        "explication": "Avec une salinité d'environ 34 %, la mer Morte est l'une des étendues d'eau les plus salées au monde."
+      },
+      {
+        "question": "Quel est le fleuve le plus long d'Amérique du Sud, qui traverse la forêt amazonienne ?",
+        "reponse": "L'Amazone",
+        "propositions": ["Le Paraná", "L'Amazone", "L'Orénoque", "Le São Francisco"],
+        "explication": "L'Amazone est aussi le fleuve au débit le plus important du monde."
+      },
+      {
+        "question": "Quelle chaîne de montagnes sépare traditionnellement l'Europe et l'Asie en Russie ?",
+        "reponse": "L'Oural",
+        "propositions": ["Le Caucase", "L'Oural", "Les Carpates", "Les Alpes"],
+        "explication": "La chaîne de l'Oural constitue la frontière conventionnelle entre les deux continents."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel est le pays le plus vaste d'Afrique en superficie depuis la partition du Soudan en 2011 ?",
+        "reponse": "L'Algérie",
+        "propositions": ["La République démocratique du Congo", "L'Algérie", "Le Soudan", "La Libye"],
+        "explication": "L'Algérie couvre environ 2,38 millions de km², ce qui en fait le plus grand pays d'Afrique et le plus grand pays arabe."
+      },
+      {
+        "question": "Quel détroit, associé à la mer de Marmara et aux Dardanelles, relie la mer Méditerranée à la mer Noire en passant par Istanbul ?",
+        "reponse": "Le détroit du Bosphore",
+        "propositions": ["Le détroit du Bosphore", "Le détroit d'Otrante", "Le détroit de Messine", "Le canal de Corinthe"],
+        "explication": "Le Bosphore, associé aux Dardanelles, relie la Méditerranée à la mer Noire via la mer de Marmara."
+      },
+      {
+        "question": "Quel est le point culminant de l'Amérique du Sud, situé en Argentine ?",
+        "reponse": "L'Aconcagua",
+        "propositions": ["Le Chimborazo", "L'Aconcagua", "Le Huascarán", "Le Cotopaxi"],
+        "explication": "L'Aconcagua culmine à 6 961 mètres dans la cordillère des Andes."
+      },
+      {
+        "question": "Quel pays enclavé d'Asie centrale, ancienne république soviétique, est le plus grand pays entièrement enclavé du monde ?",
+        "reponse": "Le Kazakhstan",
+        "propositions": ["L'Ouzbékistan", "Le Kazakhstan", "Le Turkménistan", "La Mongolie"],
+        "explication": "Le Kazakhstan est aussi le neuvième plus grand pays du monde par sa superficie."
+      },
+      {
+        "question": "Quel territoire français de l'océan Indien, situé près de Madagascar, est un département d'outre-mer depuis 1946 ?",
+        "reponse": "La Réunion",
+        "propositions": ["Mayotte", "La Réunion", "La Nouvelle-Calédonie", "La Polynésie française"],
+        "explication": "Mayotte, autre île française de l'océan Indien, n'est devenue département d'outre-mer qu'en 2011."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel est le nom de la fosse océanique la plus profonde connue sur Terre, située dans l'océan Pacifique ?",
+        "reponse": "La fosse des Mariannes",
+        "propositions": ["La fosse des Mariannes", "La fosse de Porto Rico", "La fosse du Pérou-Chili", "La fosse des Kouriles"],
+        "explication": "Son point le plus profond, le Challenger Deep, atteint environ 10 935 mètres sous le niveau de la mer."
+      },
+      {
+        "question": "Quelle limite biogéographique, traversant le détroit de Lombok en Indonésie, sépare la faune asiatique de la faune australienne ?",
+        "reponse": "La ligne de Wallace",
+        "propositions": ["La ligne de Wallace", "Le tropique du Capricorne", "La ligne de démarcation", "Le méridien de Greenwich"],
+        "explication": "Nommée d'après le naturaliste Alfred Russel Wallace, cette limite marque une rupture nette entre deux faunes."
+      },
+      {
+        "question": "Quel est le plus grand plan d'eau intérieur du monde, situé entre l'Europe et l'Asie et souvent appelé 'mer' ?",
+        "reponse": "La mer Caspienne",
+        "propositions": ["Le lac Baïkal", "La mer Caspienne", "Le lac Titicaca", "Le Grand Lac Salé"],
+        "explication": "Bien qu'appelée 'mer', la Caspienne n'a aucun accès à l'océan et est en réalité le plus grand lac du monde."
+      },
+      {
+        "question": "Quel phénomène géologique est à l'origine de la formation du Grand Rift est-africain ?",
+        "reponse": "La divergence de plaques tectoniques",
+        "propositions": ["La subduction", "La divergence de plaques tectoniques", "La collision continentale", "Le volcanisme de point chaud"],
+        "explication": "Le Grand Rift est-africain résulte de l'écartement progressif de la plaque africaine en deux plaques distinctes."
+      },
+      {
+        "question": "Quel courant marin froid, longeant la côte ouest de l'Amérique du Sud, contribue à l'aridité du désert d'Atacama ?",
+        "reponse": "Le courant de Humboldt",
+        "propositions": ["Le courant du Golfe", "Le courant de Humboldt", "Le courant des Aiguilles", "Le courant du Labrador"],
+        "explication": "Ce courant froid remontant vers l'équateur limite fortement les précipitations sur la côte péruvienne et chilienne."
+      }
+    ]
+  }
+}

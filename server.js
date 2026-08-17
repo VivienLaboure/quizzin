@@ -30,7 +30,20 @@ app.use(cors({
 app.use(express.json({ limit: "10kb" }));
 
 // Nettoyage NoSQL — après json() pour avoir accès à req.body
-app.use(mongoSanitize());
+//
+// On n'utilise pas mongoSanitize() directement : sa version 2.x fait
+// `req.query = <objet nettoyé>`, or Express 5 expose req.query comme un
+// getter sans setter ("Cannot set property query of #<IncomingMessage>
+// which has only a getter") — ce qui plantait TOUTE requête passant par ce
+// middleware. mongoSanitize.sanitize() nettoie l'objet passé en place (même
+// référence), donc on l'appelle directement sur req.body/params/query sans
+// jamais réassigner req.query.
+app.use((req, res, next) => {
+  if (req.body) mongoSanitize.sanitize(req.body);
+  if (req.params) mongoSanitize.sanitize(req.params);
+  if (req.query) mongoSanitize.sanitize(req.query);
+  next();
+});
 
 // Rate limiting global — 100 req / 15 min / IP
 const globalLimiter = rateLimit({

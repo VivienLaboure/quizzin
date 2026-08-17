@@ -1,0 +1,101 @@
+{
+  "theme": "Jeux vidéos",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel studio japonais a développé et édite la série 'The Legend of Zelda' ?",
+        "reponse": "Nintendo",
+        "propositions": ["Sega", "Nintendo", "Capcom", "Square Enix"],
+        "explication": "Nintendo développe la série Zelda depuis 1986, notamment via son studio interne EAD."
+      },
+      {
+        "question": "Dans quel jeu de plateforme les joueurs incarnent-ils un hérisson bleu ultra-rapide ?",
+        "reponse": "Sonic the Hedgehog",
+        "propositions": ["Crash Bandicoot", "Sonic the Hedgehog", "Rayman", "Spyro"],
+        "explication": "Sonic est la mascotte de Sega, créée en 1991 pour concurrencer Mario."
+      },
+      {
+        "question": "Quel jeu de construction en monde ouvert, créé par Markus Persson ('Notch'), est le jeu vidéo le plus vendu de l'histoire ?",
+        "reponse": "Minecraft",
+        "propositions": ["Roblox", "Minecraft", "Terraria", "Fortnite"],
+        "explication": "Minecraft, sorti en 2011, s'est vendu à plus de 300 millions d'exemplaires et a été racheté par Microsoft en 2014."
+      },
+      {
+        "question": "Quelle entreprise a développé la console PlayStation, lancée en 1994 ?",
+        "reponse": "Sony",
+        "propositions": ["Sony", "Sega", "Nintendo", "Atari"],
+        "explication": "La première PlayStation, sortie en 1994 au Japon, marque l'entrée de Sony sur le marché des consoles."
+      },
+      {
+        "question": "Quelle série de jeux de rôle et d'aventure met en scène le chasseur de monstres Geralt de Riv ?",
+        "reponse": "The Witcher",
+        "propositions": ["Dragon Age", "The Witcher", "Skyrim", "Dark Souls"],
+        "explication": "La série The Witcher, développée par CD Projekt Red, s'inspire des romans de l'écrivain polonais Andrzej Sapkowski."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel jeu de rôle japonais, développé par Square et sorti en 1997, met en scène le personnage Cloud Strife ?",
+        "reponse": "Final Fantasy VII",
+        "propositions": ["Final Fantasy VI", "Final Fantasy VII", "Chrono Trigger", "Kingdom Hearts"],
+        "explication": "Sorti sur PlayStation, Final Fantasy VII est considéré comme l'un des jeux les plus influents du genre RPG."
+      },
+      {
+        "question": "Quel studio, dirigé par Hidetaka Miyazaki, a développé la série 'Dark Souls' et popularisé le sous-genre 'souls-like' ?",
+        "reponse": "FromSoftware",
+        "propositions": ["FromSoftware", "Team Ninja", "Capcom", "Konami"],
+        "explication": "FromSoftware s'est fait connaître à partir de 2011 pour la difficulté élevée et le level design interconnecté de ses jeux."
+      },
+      {
+        "question": "Quel jeu de simulation de vie, sorti en 2020 sur Nintendo Switch, a connu un succès massif pendant la pandémie de COVID-19 ?",
+        "reponse": "Animal Crossing: New Horizons",
+        "propositions": ["Stardew Valley", "Animal Crossing: New Horizons", "My Time at Portia", "Story of Seasons"],
+        "explication": "Le jeu s'est vendu à plus de 40 millions d'exemplaires, porté par le contexte des confinements de 2020."
+      },
+      {
+        "question": "Quel personnage rose et rond de Nintendo, capable d'aspirer ses ennemis, est apparu pour la première fois en 1992 ?",
+        "reponse": "Kirby",
+        "propositions": ["Kirby", "Yoshi", "Peach", "Toad"],
+        "explication": "Kirby est apparu dans 'Kirby's Dream Land' sur Game Boy en 1992."
+      },
+      {
+        "question": "Quel jeu de tir tactique en 5 contre 5, développé par Riot Games et sorti en 2020, s'inspire directement de Counter-Strike ?",
+        "reponse": "Valorant",
+        "propositions": ["Valorant", "Apex Legends", "Rainbow Six Siege", "Overwatch"],
+        "explication": "Valorant combine le gunplay précis de Counter-Strike avec des capacités de héros inspirées d'Overwatch."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel jeu du studio polonais 11 bit studios place le joueur à la tête d'un groupe de civils survivants dans une ville assiégée ?",
+        "reponse": "This War of Mine",
+        "propositions": ["This War of Mine", "Frostpunk", "Papers, Please", "Valiant Hearts"],
+        "explication": "Sorti en 2014, This War of Mine adopte le point de vue de civils plutôt que de soldats en temps de guerre."
+      },
+      {
+        "question": "Quel jeu narratif, développé par Lucas Pope, met le joueur dans la peau d'un contrôleur douanier d'un régime totalitaire fictif nommé Arstotzka ?",
+        "reponse": "Papers, Please",
+        "propositions": ["Return of the Obra Dinn", "Papers, Please", "The Stanley Parable", "Firewatch"],
+        "explication": "Sorti en 2013, Papers, Please explore des dilemmes moraux à travers la bureaucratie d'un pays fictif."
+      },
+      {
+        "question": "Quel studio belge a développé 'Baldur's Gate 3', sacré jeu de l'année en 2023 ?",
+        "reponse": "Larian Studios",
+        "propositions": ["Bioware", "Larian Studios", "Obsidian Entertainment", "Owlcat Games"],
+        "explication": "Larian Studios adapte l'univers de Donjons et Dragons dans ce jeu de rôle sorti en 2023."
+      },
+      {
+        "question": "Quel jeu expérimental de Jonathan Blow, sorti en 2008, utilise la manipulation du temps comme mécanique centrale de ses puzzles de plateforme ?",
+        "reponse": "Braid",
+        "propositions": ["Braid", "Limbo", "Fez", "Inside"],
+        "explication": "Braid est considéré comme un jalon du renouveau du jeu vidéo indépendant à la fin des années 2000."
+      },
+      {
+        "question": "Quel studio estonien a développé 'Disco Elysium', un jeu de rôle sans combat centré sur le dialogue et l'introspection d'un détective amnésique ?",
+        "reponse": "ZA/UM",
+        "propositions": ["ZA/UM", "Obsidian Entertainment", "Inkle", "Failbetter Games"],
+        "explication": "Sorti en 2019, Disco Elysium est salué pour l'ampleur et la qualité de son écriture."
+      }
+    ]
+  }
+}
