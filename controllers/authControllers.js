@@ -21,6 +21,13 @@ function generateToken(user) {
 
 /**
  * Crée un transporteur Nodemailer à partir des variables d'environnement.
+ *
+ * Timeouts explicites : par défaut, nodemailer peut rester bloqué plusieurs
+ * minutes si le serveur SMTP ne répond pas correctement (identifiants
+ * invalides, hôte injoignable...), ce qui bloque toute la requête HTTP —
+ * register()/forgotPassword() ne renvoient alors jamais de réponse. Avec ces
+ * timeouts, une mauvaise config mail échoue en quelques secondes et remonte
+ * une vraie erreur au lieu de faire "timeout" côté client.
  */
 function createMailTransporter() {
   return nodemailer.createTransport({
@@ -31,6 +38,9 @@ function createMailTransporter() {
       user: process.env.MAIL_USER,
       pass: process.env.MAIL_PASS,
     },
+    connectionTimeout: 10000,
+    greetingTimeout: 10000,
+    socketTimeout: 15000,
   });
 }
 
