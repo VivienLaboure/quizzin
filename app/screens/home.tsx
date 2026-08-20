@@ -1,12 +1,14 @@
 import { useRouter } from 'expo-router';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { Image, Text, TouchableOpacity, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 import OnboardingOverlay from '../../components/OnboardingOverlay';
+import Button from '../../components/ui/Button';
+import Card from '../../components/ui/Card';
 import { useAuth } from '../../lib/AuthContext';
 import { getLevelProgress } from '../../lib/LevelSystem';
 import SecureStore from '../../lib/secureStorage';
-import styles from '../styles/default';
+import { colors, radius, spacing, typography } from '../../lib/theme';
 
 const TUTORIAL_SEEN_KEY = 'has_seen_tutorial';
 
@@ -39,72 +41,94 @@ const Home: React.FC = () => {
     <View style={styles.container}>
       {showTutorial && <OnboardingOverlay onDone={dismissTutorial} />}
 
-      <Image source={require('../assets/logo_text.png')} style={styles.image} />
+      <Image source={require('../assets/logo_text.png')} style={styles.logo} resizeMode="contain" />
 
       {user && (
-        <View style={{ width: '80%', alignItems: 'center', marginBottom: 20 }}>
-          {/* Pseudo + badge niveau */}
-          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 10 }}>
-            <Text style={{ fontSize: 16, color: '#555' }}>
-              Bonjour, {user.pseudo} !
-            </Text>
-            <View style={{
-              backgroundColor: '#FF6347',
-              borderRadius: 12,
-              paddingVertical: 3,
-              paddingHorizontal: 10,
-            }}>
-              <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 13 }}>
-                Niv. {xpData.level}
-              </Text>
+        <Card style={styles.profileCard}>
+          <View style={styles.profileRow}>
+            <Text style={styles.greeting}>Bonjour, {user.pseudo} !</Text>
+            <View style={styles.levelBadge}>
+              <Text style={styles.levelBadgeText}>Niv. {xpData.level}</Text>
             </View>
           </View>
 
-          {/* Barre de progression XP */}
-          <View style={{
-            width: '100%',
-            height: 10,
-            backgroundColor: '#e0e0e0',
-            borderRadius: 5,
-            overflow: 'hidden',
-            marginBottom: 4,
-          }}>
-            <View style={{
-              width: `${Math.round(xpData.progress * 100)}%`,
-              height: '100%',
-              backgroundColor: '#FF6347',
-              borderRadius: 5,
-            }} />
+          <View style={styles.progressTrack}>
+            <View style={[styles.progressFill, { width: `${Math.round(xpData.progress * 100)}%` }]} />
           </View>
 
-          <Text style={{ fontSize: 11, color: '#888' }}>
-            {xpData.currentXp} / {xpData.neededXp} XP
-          </Text>
-        </View>
+          <Text style={styles.xpLabel}>{xpData.currentXp} / {xpData.neededXp} XP</Text>
+        </Card>
       )}
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push({ pathname: '/screens/themes', params: { userId } })}
-      >
-        <Text style={styles.buttonText}>Jouer</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={[styles.button, { backgroundColor: '#5b9bd5', marginTop: 4 }]}
-        onPress={() => router.push({ pathname: '/screens/friends' })}
-      >
-        <Text style={styles.buttonText}>Amis</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={[styles.button, { backgroundColor: '#aaa', marginTop: 4 }]}
-        onPress={handleLogout}
-      >
-        <Text style={styles.buttonText}>Se déconnecter</Text>
-      </TouchableOpacity>
+      <View style={styles.actions}>
+        <Button
+          label="Jouer"
+          onPress={() => router.push({ pathname: '/screens/themes', params: { userId } })}
+        />
+        <Button
+          label="Amis"
+          variant="secondary"
+          onPress={() => router.push({ pathname: '/screens/friends' })}
+          style={styles.actionSpacing}
+        />
+        <Button
+          label="Se déconnecter"
+          variant="ghost"
+          onPress={handleLogout}
+          style={styles.actionSpacing}
+        />
+      </View>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.background,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.xl,
+  },
+  logo: {
+    width: '70%',
+    height: 120,
+    marginBottom: spacing.xl,
+  },
+  profileCard: {
+    width: '100%',
+    marginBottom: spacing.xl,
+  },
+  profileRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: spacing.md,
+  },
+  greeting: { ...typography.h2, fontSize: 16 },
+  levelBadge: {
+    backgroundColor: colors.primary,
+    borderRadius: radius.full,
+    paddingVertical: 4,
+    paddingHorizontal: spacing.sm + 2,
+  },
+  levelBadgeText: { color: colors.white, fontWeight: '700', fontSize: 13 },
+  progressTrack: {
+    width: '100%',
+    height: 10,
+    backgroundColor: colors.border,
+    borderRadius: radius.full,
+    overflow: 'hidden',
+    marginBottom: spacing.xs,
+  },
+  progressFill: {
+    height: '100%',
+    backgroundColor: colors.primary,
+    borderRadius: radius.full,
+  },
+  xpLabel: { ...typography.caption },
+  actions: { width: '100%' },
+  actionSpacing: { marginTop: spacing.sm },
+});
 
 export default Home;

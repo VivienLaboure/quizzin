@@ -1,9 +1,11 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
-import { Animated, Text, TouchableOpacity, View } from 'react-native';
+import { Animated, StyleSheet, Text, View } from 'react-native';
+import Button from '../../components/ui/Button';
+import Card from '../../components/ui/Card';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { getLevel, getLevelProgress, getLevelThreshold } from '../../lib/LevelSystem';
-import styles from '../styles/default';
+import { colors, radius, spacing, typography } from '../../lib/theme';
 
 export default function ResultatsPage() {
   const router = useRouter();
@@ -91,56 +93,28 @@ export default function ResultatsPage() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.topBar} />
-
-      <Text style={styles.textTitle}>Résultats</Text>
-      <Text style={{ fontSize: 16, color: '#555', marginBottom: 4 }}>
-        Catégorie : {safeCategory}
-      </Text>
-      <Text style={{ fontSize: 16, color: '#555', marginBottom: 4 }}>
-        Difficulté : {GetDifficultyName(safeDifficulty)}
-      </Text>
-      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#FF6347', marginBottom: 24 }}>
+      <Text style={styles.emoji}>{safeScore > 0 ? '🎉' : '💪'}</Text>
+      <Text style={typography.h1}>Résultats</Text>
+      <Text style={styles.metaText}>Catégorie : {safeCategory}</Text>
+      <Text style={styles.metaText}>Difficulté : {GetDifficultyName(safeDifficulty)}</Text>
+      <Text style={styles.scoreText}>
         {safeScore} bonne{safeScore > 1 ? 's' : ''} réponse{safeScore > 1 ? 's' : ''}
       </Text>
 
-      {/* Bloc XP */}
-      <View style={{
-        width: '80%',
-        backgroundColor: '#f9f9f9',
-        borderRadius: 16,
-        padding: 18,
-        marginBottom: 28,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.08,
-        shadowRadius: 4,
-        elevation: 3,
-      }}>
-        {/* Niveau + XP gagné */}
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
-          <View style={{
-            backgroundColor: '#FF6347',
-            borderRadius: 12,
-            paddingVertical: 4,
-            paddingHorizontal: 12,
-          }}>
-            <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 14 }}>
-              Niv. {displayLevel}
-            </Text>
+      <Card style={styles.xpCard}>
+        <View style={styles.xpHeader}>
+          <View style={styles.levelBadge}>
+            <Text style={styles.levelBadgeText}>Niv. {displayLevel}</Text>
           </View>
 
           {safeXpGained > 0 && (
             <Animated.Text style={{
-              color: '#FF6347',
+              color: colors.primary,
               fontWeight: 'bold',
               fontSize: 16,
               opacity: xpLabelAnim,
               transform: [{
-                translateY: xpLabelAnim.interpolate({
-                  inputRange: [0, 1],
-                  outputRange: [10, 0],
-                }),
+                translateY: xpLabelAnim.interpolate({ inputRange: [0, 1], outputRange: [10, 0] }),
               }],
             }}>
               +{safeXpGained} XP
@@ -148,69 +122,84 @@ export default function ResultatsPage() {
           )}
         </View>
 
-        {/* Barre de progression */}
-        <View style={{
-          width: '100%',
-          height: 14,
-          backgroundColor: '#e0e0e0',
-          borderRadius: 7,
-          overflow: 'hidden',
-          marginBottom: 6,
-        }}>
-          <Animated.View style={{
-            width: barWidth,
-            height: '100%',
-            backgroundColor: '#FF6347',
-            borderRadius: 7,
-          }} />
+        <View style={styles.progressTrack}>
+          <Animated.View style={[styles.progressFill, { width: barWidth }]} />
         </View>
 
-        <Text style={{ fontSize: 12, color: '#888', textAlign: 'right' }}>
+        <Text style={styles.progressLabel}>
           {displayProgress.currentXp} / {displayProgress.neededXp} XP
           {' '}(niveau suivant : {getLevelThreshold(displayLevel + 1)} XP)
         </Text>
-      </View>
+      </Card>
 
-      {/* Banner level-up */}
       {showLevelUp && (
-        <Animated.View style={{
-          position: 'absolute',
-          top: '28%',
-          left: '10%',
-          right: '10%',
-          backgroundColor: '#FF6347',
-          borderRadius: 16,
-          paddingVertical: 18,
-          paddingHorizontal: 24,
-          alignItems: 'center',
-          opacity: levelUpOpacity,
-          shadowColor: '#FF6347',
-          shadowOffset: { width: 0, height: 4 },
-          shadowOpacity: 0.4,
-          shadowRadius: 10,
-          elevation: 8,
-        }}>
-          <Text style={{ color: '#fff', fontSize: 28, fontWeight: 'bold' }}>
-            NIVEAU {levelAfter} !
-          </Text>
-          <Text style={{ color: '#fff', fontSize: 14, marginTop: 4 }}>
-            Bravo, tu as monté de niveau !
-          </Text>
+        <Animated.View style={[styles.levelUpBanner, { opacity: levelUpOpacity }]}>
+          <Text style={styles.levelUpTitle}>NIVEAU {levelAfter} !</Text>
+          <Text style={styles.levelUpSubtitle}>Bravo, tu as monté de niveau !</Text>
           {/* showLevelUp n'est activé que si le niveau a augmenté, donc cet écart est toujours > 0 ici */}
-          <Text style={{ color: '#fff', fontSize: 14, marginTop: 8, fontWeight: 'bold' }}>
+          <Text style={styles.levelUpTokens}>
             🔑 +{levelAfter - levelBefore} jeton{levelAfter - levelBefore > 1 ? 's' : ''} de déblocage !
           </Text>
         </Animated.View>
       )}
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push({ pathname: "/screens/home" })}
-      >
-        <Text style={styles.buttonText}>Retour à l&apos;accueil</Text>
-      </TouchableOpacity>
-
-      <View style={styles.bottomBar} />
+      <Button
+        label="Retour à l'accueil"
+        onPress={() => router.push({ pathname: '/screens/home' })}
+        style={styles.homeButton}
+      />
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.background,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.xl,
+  },
+  emoji: { fontSize: 40, marginBottom: spacing.xs },
+  metaText: { fontSize: 15, color: colors.textSecondary, marginBottom: 2 },
+  scoreText: { fontSize: 26, fontWeight: '800', color: colors.primary, marginTop: spacing.sm, marginBottom: spacing.xl },
+  xpCard: { width: '85%', marginBottom: spacing.xl },
+  xpHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: spacing.sm },
+  levelBadge: {
+    backgroundColor: colors.primary,
+    borderRadius: radius.md - 4,
+    paddingVertical: 4,
+    paddingHorizontal: spacing.sm + 2,
+  },
+  levelBadgeText: { color: colors.white, fontWeight: '700', fontSize: 14 },
+  progressTrack: {
+    width: '100%',
+    height: 12,
+    backgroundColor: colors.border,
+    borderRadius: radius.full,
+    overflow: 'hidden',
+    marginBottom: spacing.xs,
+  },
+  progressFill: { height: '100%', backgroundColor: colors.primary, borderRadius: radius.full },
+  progressLabel: { fontSize: 12, color: colors.textMuted, textAlign: 'right' },
+  levelUpBanner: {
+    position: 'absolute',
+    top: '28%',
+    left: '10%',
+    right: '10%',
+    backgroundColor: colors.primary,
+    borderRadius: radius.lg,
+    paddingVertical: spacing.lg,
+    paddingHorizontal: spacing.lg,
+    alignItems: 'center',
+    shadowColor: colors.primary,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.35,
+    shadowRadius: 14,
+    elevation: 10,
+  },
+  levelUpTitle: { color: colors.white, fontSize: 28, fontWeight: '800' },
+  levelUpSubtitle: { color: colors.white, fontSize: 14, marginTop: spacing.xs },
+  levelUpTokens: { color: colors.white, fontSize: 14, marginTop: spacing.sm, fontWeight: '700' },
+  homeButton: { width: '85%' },
+});

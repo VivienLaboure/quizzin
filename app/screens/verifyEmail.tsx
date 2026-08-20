@@ -11,7 +11,9 @@ import {
   View,
 } from 'react-native';
 import { registerUser, verifyEmailCode } from '../../API';
+import Button from '../../components/ui/Button';
 import { useAuth } from '../../lib/AuthContext';
+import { colors, radius, spacing, typography } from '../../lib/theme';
 
 export default function VerifyEmailScreen() {
   const router = useRouter();
@@ -64,12 +66,10 @@ export default function VerifyEmailScreen() {
   };
 
   return (
-    <KeyboardAvoidingView
-      style={styles.flex}
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-    >
+    <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       <View style={styles.container}>
-        <Text style={styles.title}>Vérifie ton email</Text>
+        <Text style={styles.emoji}>📬</Text>
+        <Text style={typography.h1}>Vérifie ton email</Text>
 
         <Text style={styles.subtitle}>
           Un code à 6 chiffres a été envoyé à{'\n'}
@@ -77,9 +77,7 @@ export default function VerifyEmailScreen() {
         </Text>
 
         {error ? <Text style={styles.errorText}>{error}</Text> : null}
-        {resendSuccess ? (
-          <Text style={styles.successText}>Nouveau code envoyé !</Text>
-        ) : null}
+        {resendSuccess ? <Text style={styles.successText}>Nouveau code envoyé !</Text> : null}
 
         <TextInput
           ref={inputRef}
@@ -87,39 +85,29 @@ export default function VerifyEmailScreen() {
           value={code}
           onChangeText={t => setCode(t.replace(/\D/g, '').slice(0, 6))}
           placeholder="000000"
-          placeholderTextColor="#ccc"
+          placeholderTextColor={colors.border}
           keyboardType="number-pad"
           maxLength={6}
           textAlign="center"
           autoFocus
         />
 
-        <TouchableOpacity
-          style={[styles.button, (loading || code.length !== 6) && styles.buttonDisabled]}
+        <Button
+          label="Confirmer"
           onPress={handleVerify}
-          disabled={loading || code.length !== 6}
-        >
-          {loading
-            ? <ActivityIndicator color="#fff" />
-            : <Text style={styles.buttonText}>Confirmer</Text>
-          }
-        </TouchableOpacity>
+          loading={loading}
+          disabled={code.length !== 6}
+          style={styles.confirmButton}
+        />
 
-        <TouchableOpacity
-          style={styles.resendButton}
-          onPress={handleResend}
-          disabled={resendLoading}
-        >
+        <TouchableOpacity style={styles.resendButton} onPress={handleResend} disabled={resendLoading}>
           {resendLoading
-            ? <ActivityIndicator color="#FF6347" size="small" />
+            ? <ActivityIndicator color={colors.primary} size="small" />
             : <Text style={styles.resendText}>Renvoyer le code</Text>
           }
         </TouchableOpacity>
 
-        <TouchableOpacity
-          style={styles.backLink}
-          onPress={() => router.replace('/screens/register')}
-        >
+        <TouchableOpacity style={styles.backLink} onPress={() => router.replace('/screens/register')}>
           <Text style={styles.linkText}>← Modifier mon email</Text>
         </TouchableOpacity>
       </View>
@@ -128,79 +116,41 @@ export default function VerifyEmailScreen() {
 }
 
 const styles = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: '#fff' },
+  flex: { flex: 1, backgroundColor: colors.background },
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 28,
-    backgroundColor: '#fff',
+    padding: spacing.xl,
   },
-  title: {
-    fontSize: 26,
-    fontWeight: 'bold',
-    marginBottom: 16,
-    color: '#222',
-  },
+  emoji: { fontSize: 40, marginBottom: spacing.sm },
   subtitle: {
     fontSize: 15,
-    color: '#666',
+    color: colors.textSecondary,
     textAlign: 'center',
-    marginBottom: 28,
+    marginTop: spacing.sm,
+    marginBottom: spacing.xl,
     lineHeight: 22,
   },
-  emailText: {
-    color: '#FF6347',
-    fontWeight: '600',
-  },
+  emailText: { color: colors.primary, fontWeight: '600' },
   codeInput: {
-    width: '60%',
+    width: '65%',
     borderWidth: 2,
-    borderColor: '#FF6347',
-    borderRadius: 14,
+    borderColor: colors.primary,
+    borderRadius: radius.md,
     paddingVertical: 16,
     fontSize: 28,
     fontWeight: 'bold',
     letterSpacing: 10,
-    color: '#222',
-    marginBottom: 24,
-    backgroundColor: '#fafafa',
+    color: colors.textPrimary,
+    marginBottom: spacing.lg,
+    backgroundColor: colors.surface,
   },
-  button: {
-    backgroundColor: '#FF6347',
-    borderRadius: 50,
-    paddingVertical: 14,
-    paddingHorizontal: 40,
-    width: '100%',
-    alignItems: 'center',
-    marginBottom: 16,
-  },
-  buttonDisabled: { opacity: 0.5 },
-  buttonText: {
-    color: '#fff',
-    fontSize: 17,
-    fontWeight: 'bold',
-  },
-  resendButton: {
-    paddingVertical: 8,
-    marginBottom: 8,
-  },
-  resendText: {
-    color: '#FF6347',
-    fontSize: 14,
-    fontWeight: '600',
-  },
-  backLink: { marginTop: 8 },
-  linkText: { color: '#aaa', fontSize: 13 },
-  errorText: {
-    color: '#e00',
-    marginBottom: 12,
-    textAlign: 'center',
-  },
-  successText: {
-    color: '#4CAF50',
-    marginBottom: 12,
-    textAlign: 'center',
-    fontWeight: '600',
-  },
+  confirmButton: { marginBottom: spacing.md },
+  resendButton: { paddingVertical: spacing.sm, marginBottom: spacing.sm },
+  resendText: { color: colors.primary, fontSize: 14, fontWeight: '600' },
+  backLink: { marginTop: spacing.sm },
+  linkText: { color: colors.textMuted, fontSize: 13 },
+  errorText: { color: colors.error, marginBottom: spacing.md, textAlign: 'center' },
+  successText: { color: colors.success, marginBottom: spacing.md, textAlign: 'center', fontWeight: '600' },
 });

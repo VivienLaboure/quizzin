@@ -1,16 +1,18 @@
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import {
-  ActivityIndicator,
   KeyboardAvoidingView,
   Platform,
   ScrollView,
   StyleSheet,
   Text,
-  TextInput,
   TouchableOpacity,
 } from 'react-native';
 import { forgotPassword, resetPassword } from '../../API';
+import Button from '../../components/ui/Button';
+import ScreenHeader from '../../components/ui/ScreenHeader';
+import TextField from '../../components/ui/TextField';
+import { colors, spacing, typography } from '../../lib/theme';
 
 type Step = 'email' | 'code';
 
@@ -75,31 +77,22 @@ export default function ForgotPasswordScreen() {
   };
 
   return (
-    <KeyboardAvoidingView
-      style={styles.flex}
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-    >
+    <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
+      <ScreenHeader onBack={() => router.back()} />
       <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
-
-        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
-          <Text style={styles.backText}>← Retour</Text>
-        </TouchableOpacity>
-
-        <Text style={styles.title}>Mot de passe oublié</Text>
+        <Text style={typography.h1}>Mot de passe oublié</Text>
 
         {error ? <Text style={styles.errorText}>{error}</Text> : null}
         {success ? <Text style={styles.successText}>{success}</Text> : null}
 
         {step === 'email' && (
           <>
-            <Text style={styles.subtitle}>
+            <Text style={[typography.body, styles.subtitle]}>
               Entrez votre email et nous vous enverrons un code à 6 chiffres.
             </Text>
 
-            <TextInput
-              style={styles.input}
+            <TextField
               placeholder="Adresse email"
-              placeholderTextColor="#999"
               value={email}
               onChangeText={setEmail}
               keyboardType="email-address"
@@ -107,63 +100,41 @@ export default function ForgotPasswordScreen() {
               autoCorrect={false}
             />
 
-            <TouchableOpacity
-              style={[styles.button, loading && styles.buttonDisabled]}
-              onPress={handleSendCode}
-              disabled={loading}
-            >
-              {loading
-                ? <ActivityIndicator color="#fff" />
-                : <Text style={styles.buttonText}>Envoyer le code</Text>
-              }
-            </TouchableOpacity>
+            <Button label="Envoyer le code" onPress={handleSendCode} loading={loading} />
           </>
         )}
 
         {step === 'code' && (
           <>
-            <Text style={styles.subtitle}>
+            <Text style={[typography.body, styles.subtitle]}>
               Entrez le code reçu par email ainsi que votre nouveau mot de passe.
             </Text>
 
-            <TextInput
-              style={[styles.input, styles.codeInput]}
+            <TextField
               placeholder="Code à 6 chiffres"
-              placeholderTextColor="#999"
               value={code}
               onChangeText={setCode}
               keyboardType="number-pad"
               maxLength={6}
+              centered
+              style={styles.codeInput}
             />
 
-            <TextInput
-              style={styles.input}
+            <TextField
               placeholder="Nouveau mot de passe"
-              placeholderTextColor="#999"
               value={newPassword}
               onChangeText={setNewPassword}
               secureTextEntry
             />
 
-            <TextInput
-              style={styles.input}
+            <TextField
               placeholder="Confirmer le mot de passe"
-              placeholderTextColor="#999"
               value={confirmPassword}
               onChangeText={setConfirmPassword}
               secureTextEntry
             />
 
-            <TouchableOpacity
-              style={[styles.button, loading && styles.buttonDisabled]}
-              onPress={handleResetPassword}
-              disabled={loading}
-            >
-              {loading
-                ? <ActivityIndicator color="#fff" />
-                : <Text style={styles.buttonText}>Réinitialiser</Text>
-              }
-            </TouchableOpacity>
+            <Button label="Réinitialiser" onPress={handleResetPassword} loading={loading} />
 
             <TouchableOpacity
               style={styles.resendButton}
@@ -179,71 +150,17 @@ export default function ForgotPasswordScreen() {
 }
 
 const styles = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: '#fff' },
+  flex: { flex: 1, backgroundColor: colors.background },
   container: {
     flexGrow: 1,
-    justifyContent: 'center',
     alignItems: 'center',
-    padding: 28,
-    backgroundColor: '#fff',
+    padding: spacing.xl,
+    paddingTop: spacing.md,
   },
-  title: {
-    fontSize: 26,
-    fontWeight: 'bold',
-    marginBottom: 12,
-    color: '#222',
-  },
-  subtitle: {
-    fontSize: 14,
-    color: '#666',
-    textAlign: 'center',
-    marginBottom: 24,
-    lineHeight: 20,
-  },
-  input: {
-    width: '100%',
-    borderWidth: 1,
-    borderColor: '#ddd',
-    borderRadius: 12,
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    fontSize: 16,
-    marginBottom: 14,
-    backgroundColor: '#fafafa',
-    color: '#222',
-  },
-  codeInput: {
-    fontSize: 24,
-    letterSpacing: 10,
-    textAlign: 'center',
-  },
-  button: {
-    backgroundColor: '#FF6347',
-    borderRadius: 50,
-    paddingVertical: 14,
-    paddingHorizontal: 40,
-    marginTop: 8,
-    width: '100%',
-    alignItems: 'center',
-  },
-  buttonDisabled: { opacity: 0.6 },
-  buttonText: {
-    color: '#fff',
-    fontSize: 17,
-    fontWeight: 'bold',
-  },
-  errorText: {
-    color: '#e00',
-    marginBottom: 12,
-    textAlign: 'center',
-  },
-  successText: {
-    color: '#2a9d4e',
-    marginBottom: 12,
-    textAlign: 'center',
-  },
-  backButton: { alignSelf: 'flex-start', marginBottom: 24 },
-  backText: { color: '#FF6347', fontSize: 16, fontWeight: '600' },
-  resendButton: { marginTop: 16 },
-  linkText: { color: '#FF6347', fontSize: 14, fontWeight: '600' },
+  subtitle: { textAlign: 'center', marginTop: spacing.sm, marginBottom: spacing.lg },
+  codeInput: { fontSize: 22, letterSpacing: 8 },
+  errorText: { color: colors.error, marginBottom: spacing.md, textAlign: 'center' },
+  successText: { color: colors.success, marginBottom: spacing.md, textAlign: 'center' },
+  resendButton: { marginTop: spacing.md },
+  linkText: { color: colors.primary, fontSize: 14, fontWeight: '600' },
 });

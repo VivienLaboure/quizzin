@@ -1,12 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import {
-  Animated,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { Animated, StyleSheet, Text, View } from 'react-native';
+import Button from '../../components/ui/Button';
+import Card from '../../components/ui/Card';
 import { networkErrorStore } from '../../lib/networkErrorStore';
+import { colors, spacing } from '../../lib/theme';
 
 interface Props {
   onRetry: () => void;
@@ -34,7 +31,7 @@ export default function ServerErrorScreen({ onRetry }: Props) {
 
   return (
     <View style={styles.overlay}>
-      <View style={styles.card}>
+      <Card style={styles.card}>
         <Animated.Text style={[styles.icon, { transform: [{ scale: pulse }] }]}>
           📡
         </Animated.Text>
@@ -46,10 +43,8 @@ export default function ServerErrorScreen({ onRetry }: Props) {
           Vérifiez votre connexion ou que le serveur est démarré.
         </Text>
 
-        <TouchableOpacity style={styles.button} onPress={handleRetry}>
-          <Text style={styles.buttonText}>Réessayer</Text>
-        </TouchableOpacity>
-      </View>
+        <Button label="Réessayer" onPress={handleRetry} style={styles.button} />
+      </Card>
     </View>
   );
 }
@@ -57,50 +52,17 @@ export default function ServerErrorScreen({ onRetry }: Props) {
 const styles = StyleSheet.create({
   overlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0,0,0,0.55)',
+    backgroundColor: colors.overlay,
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 9999,
   },
   card: {
-    backgroundColor: '#fff',
-    borderRadius: 20,
-    padding: 32,
     alignItems: 'center',
-    marginHorizontal: 32,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.25,
-    shadowRadius: 12,
-    elevation: 10,
+    marginHorizontal: spacing.xl,
   },
-  icon: {
-    fontSize: 56,
-    marginBottom: 16,
-  },
-  title: {
-    fontSize: 22,
-    fontWeight: 'bold',
-    color: '#222',
-    marginBottom: 12,
-    textAlign: 'center',
-  },
-  message: {
-    fontSize: 14,
-    color: '#666',
-    textAlign: 'center',
-    lineHeight: 22,
-    marginBottom: 28,
-  },
-  button: {
-    backgroundColor: '#FF6347',
-    borderRadius: 50,
-    paddingVertical: 12,
-    paddingHorizontal: 36,
-  },
-  buttonText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
+  icon: { fontSize: 56, marginBottom: spacing.md },
+  title: { fontSize: 22, fontWeight: '700', color: colors.textPrimary, marginBottom: spacing.sm, textAlign: 'center' },
+  message: { fontSize: 14, color: colors.textSecondary, textAlign: 'center', lineHeight: 22, marginBottom: spacing.lg },
+  button: { width: 200 },
 });

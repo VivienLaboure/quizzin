@@ -1,16 +1,17 @@
 import Constants from 'expo-constants';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { getRandomQuizByTheme, setExperience } from '../../API';
 import data from '../../api/quizzFR.json';
+import Button from '../../components/ui/Button';
+import Card from '../../components/ui/Card';
 import { IData } from '../../interfaces/IData';
 import { IQuizz } from '../../interfaces/IQuizz';
 import { useAuth } from '../../lib/AuthContext';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import { computeXpGained } from '../../lib/LevelSystem';
-import styles from '../styles/default';
-import quizzPageStyle from '../styles/quizzPageStyle';
+import { colors, radius, spacing, typography } from '../../lib/theme';
 
 export default function QuizzPage() {
     const router = useRouter();
@@ -140,42 +141,107 @@ export default function QuizzPage() {
         }
     };
 
+    if (!currentQuestion) {
+        return (
+            <View style={styles.loadingContainer}>
+                <ActivityIndicator color={colors.primary} />
+            </View>
+        );
+    }
+
     return (
-        <View style={{ flex: 1 }}>
-            {!currentQuestion ? (
-                <View style={styles.container}><Text>Chargement...</Text></View>
-            ) : (
-                <View style={styles.container}>
-                    <View style={styles.topBar} />
+        <View style={styles.container}>
+            <View style={styles.header}>
+                <Text style={styles.category}>{safeCategory}</Text>
+                <View style={styles.scoreBadge}>
+                    <Text style={styles.scoreBadgeText}>🔥 {score}</Text>
+                </View>
+            </View>
 
-                    <Text style={quizzPageStyle.title}>{currentQuestion.question}</Text>
+            <Text style={styles.question}>{currentQuestion.question}</Text>
 
-                    {propositions.map((proposition, i) => (
-                        <TouchableOpacity
-                            key={i}
-                            onPress={() => checkAnswer(proposition)}
-                            style={quizzPageStyle.button}
-                        >
-                            <Text style={styles.buttonText}>{proposition}</Text>
-                        </TouchableOpacity>
-                    ))}
+            <View style={styles.answers}>
+                {propositions.map((proposition, i) => (
+                    <TouchableOpacity
+                        key={i}
+                        onPress={() => checkAnswer(proposition)}
+                        style={styles.answerButton}
+                    >
+                        <Text style={styles.answerText}>{proposition}</Text>
+                    </TouchableOpacity>
+                ))}
+            </View>
 
-                    <View style={styles.bottomBar} />
-
-                    {popupExplication && (
-                        <View style={quizzPageStyle.popup}>
-                            <Text style={styles.textTitle}>Mauvaise réponse !</Text>
-                            <Text style={styles.textTitle}>{currentQuestion.explication}</Text>
-                            <TouchableOpacity
-                                onPress={() => goToResults(score)}
-                                style={quizzPageStyle.buttonPopup}
-                            >
-                                <Text style={styles.buttonText}>Voir mon score</Text>
-                            </TouchableOpacity>
-                        </View>
-                    )}
+            {popupExplication && (
+                <View style={styles.overlay}>
+                    <Card style={styles.popup}>
+                        <Text style={styles.popupIcon}>😕</Text>
+                        <Text style={styles.popupTitle}>Mauvaise réponse</Text>
+                        <Text style={styles.popupExplication}>{currentQuestion.explication}</Text>
+                        <Button label="Voir mon score" onPress={() => goToResults(score)} />
+                    </Card>
                 </View>
             )}
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    loadingContainer: {
+        flex: 1,
+        backgroundColor: colors.background,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    container: {
+        flex: 1,
+        backgroundColor: colors.background,
+        paddingTop: 64,
+        paddingHorizontal: spacing.lg,
+    },
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        marginBottom: spacing.lg,
+    },
+    category: { ...typography.caption, textTransform: 'uppercase', letterSpacing: 0.5 },
+    scoreBadge: {
+        backgroundColor: colors.primarySoft,
+        borderRadius: radius.full,
+        paddingVertical: 4,
+        paddingHorizontal: spacing.sm + 2,
+    },
+    scoreBadgeText: { color: colors.primary, fontWeight: '700', fontSize: 13 },
+    question: {
+        ...typography.h1,
+        fontSize: 24,
+        marginBottom: spacing.xl,
+    },
+    answers: { gap: spacing.sm },
+    answerButton: {
+        backgroundColor: colors.surface,
+        borderWidth: 1.5,
+        borderColor: colors.border,
+        borderRadius: radius.md,
+        paddingVertical: 16,
+        paddingHorizontal: spacing.md,
+    },
+    answerText: { fontSize: 16, fontWeight: '600', color: colors.textPrimary },
+    overlay: {
+        position: 'absolute',
+        top: 0, left: 0, right: 0, bottom: 0,
+        backgroundColor: colors.overlay,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    popup: { width: '85%', alignItems: 'center' },
+    popupIcon: { fontSize: 40, marginBottom: spacing.sm },
+    popupTitle: { fontSize: 19, fontWeight: '700', color: colors.textPrimary, marginBottom: spacing.sm },
+    popupExplication: {
+        color: colors.textSecondary,
+        textAlign: 'center',
+        lineHeight: 20,
+        marginBottom: spacing.lg,
+    },
+});

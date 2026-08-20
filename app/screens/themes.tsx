@@ -1,16 +1,18 @@
 import Constants from 'expo-constants';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
-import { ActivityIndicator, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { getProfile, getThemes, unlockTheme } from '../../API';
 import mockData from '../../api/quizzFR.json';
+import Button from '../../components/ui/Button';
+import Card from '../../components/ui/Card';
+import ScreenHeader from '../../components/ui/ScreenHeader';
 import { IData } from '../../interfaces/IData';
 import { useAuth } from '../../lib/AuthContext';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { GetThemes } from '../../lib/GetRandomQuizz';
 import { getDifficultyForLevel, getLevel } from '../../lib/LevelSystem';
-import styles from '../styles/default';
-import themeStyle from '../styles/themesStyles';
+import { colors, radius, spacing } from '../../lib/theme';
 
 const DIFFICULTY_COLOR: Record<number, string> = {
   1: '#4CAF50',
@@ -21,6 +23,36 @@ const DIFFICULTY_COLOR: Record<number, string> = {
 // Thème central de l'étoile — toujours débloqué, point de départ de la
 // progression.
 const CENTER_THEME = 'Culture-generale';
+
+// Ordre du plus général au plus niche — détermine uniquement la position
+// des thèmes autour de l'étoile (du haut, dans le sens horaire), pas de
+// contrainte de déblocage : le joueur reste libre de débloquer n'importe
+// quel thème visible dès qu'il a un jeton. Un thème absent de cette liste
+// (ajouté plus tard côté contenu) est simplement placé à la fin.
+const THEME_ORDER = [
+  'Histoire',
+  'Géographie',
+  'Sciences',
+  'Sport',
+  'Cinéma',
+  'Musique',
+  'Art-et-littérature',
+  'Technologie',
+  'Astronomie',
+  'Economie',
+  'Jeux vidéos',
+];
+
+function sortByGenerality(themes: string[]): string[] {
+  return [...themes].sort((a, b) => {
+    const ia = THEME_ORDER.indexOf(a);
+    const ib = THEME_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return 0;
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+}
 
 const CENTER_SIZE = 104;
 const NODE_SIZE = 84;
@@ -120,229 +152,228 @@ const Themes: React.FC = () => {
   // ─── Géométrie de l'étoile ───────────────────────────────────────────────
   const starSize = Math.min(width * 0.85, 340);
   const starCenter = starSize / 2;
-  const radius = starSize / 2 - NODE_SIZE / 2 - 4;
+  const radiusPx = starSize / 2 - NODE_SIZE / 2 - 4;
 
-  const outerThemes = themesList.filter(t => t !== CENTER_THEME);
+  const outerThemes = sortByGenerality(themesList.filter(t => t !== CENTER_THEME));
   const hasCenter = themesList.includes(CENTER_THEME);
   const angleStep = outerThemes.length > 0 ? (2 * Math.PI) / outerThemes.length : 0;
 
   return (
-    <View style={themeStyle.container}>
-      <View style={styles.topBar} />
-      <View style={styles.bottomBar} />
+    <View style={pageStyles.container}>
+      <ScreenHeader onBack={() => router.back()} title="Thèmes" />
 
-      <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
-        <Text style={styles.buttonBackText}>Retour</Text>
-      </TouchableOpacity>
+      <View style={pageStyles.content}>
+        {/* Indicateur de difficulté automatique */}
+        <Card style={pageStyles.infoCard}>
+          <View style={pageStyles.infoRow}>
+            <View style={[pageStyles.dot, { backgroundColor: difficultyColor }]} />
+            <Text style={pageStyles.infoText}>
+              Difficulté : <Text style={{ fontWeight: '700', color: difficultyColor }}>{difficultyName}</Text>
+              {'  '}
+              <Text style={pageStyles.mutedText}>(niveau {playerLevel})</Text>
+            </Text>
+          </View>
 
-      {/* Indicateur de difficulté automatique */}
-      <View style={{
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 6,
-        backgroundColor: '#f5f5f5',
-        borderRadius: 12,
-        paddingVertical: 8,
-        paddingHorizontal: 16,
-        marginTop: 60,
-      }}>
-        <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: difficultyColor }} />
-        <Text style={{ color: '#555', fontSize: 14 }}>
-          Difficulté : <Text style={{ fontWeight: 'bold', color: difficultyColor }}>{difficultyName}</Text>
-          {'  '}
-          <Text style={{ color: '#aaa' }}>(niveau {playerLevel})</Text>
-        </Text>
-      </View>
-
-      {/* Jetons de déblocage */}
-      {!isMock && (
-        <View style={{
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: 6,
-          marginTop: 10,
-        }}>
-          <Text style={{ fontSize: 20 }}>🔑</Text>
-          <Text style={{ color: '#555', fontSize: 14 }}>
-            <Text style={{ fontWeight: 'bold', color: '#FF6347' }}>{unlockTokens}</Text> jeton{unlockTokens !== 1 ? 's' : ''} de déblocage
-          </Text>
-        </View>
-      )}
-
-      {loading ? (
-        <ActivityIndicator color="#FF6347" style={{ marginTop: 40 }} />
-      ) : (
-        <View style={{ width: starSize, height: starSize, marginTop: 24 }}>
-          {/* Rayons reliant le centre à chaque thème */}
-          {outerThemes.map((theme, i) => {
-            const angle = -Math.PI / 2 + i * angleStep;
-            const isUnlocked = unlockedThemes.includes(theme);
-            return (
-              <View
-                key={`line-${theme}`}
-                style={{
-                  position: 'absolute',
-                  left: starCenter,
-                  top: starCenter,
-                  width: 0,
-                  height: 0,
-                  transform: [{ rotate: `${angle}rad` }],
-                }}
-              >
-                <View style={{
-                  position: 'absolute',
-                  left: 0,
-                  top: -1.5,
-                  width: radius,
-                  height: 3,
-                  borderRadius: 1.5,
-                  backgroundColor: isUnlocked ? '#FF6347' : '#e0e0e0',
-                }} />
-              </View>
-            );
-          })}
-
-          {/* Thème central */}
-          {hasCenter && (
-            <TouchableOpacity
-              onPress={() => goToQuiz(CENTER_THEME)}
-              style={{
-                position: 'absolute',
-                left: starCenter - CENTER_SIZE / 2,
-                top: starCenter - CENTER_SIZE / 2,
-                width: CENTER_SIZE,
-                height: CENTER_SIZE,
-                borderRadius: CENTER_SIZE / 2,
-                backgroundColor: '#FF6347',
-                alignItems: 'center',
-                justifyContent: 'center',
-                padding: 8,
-                shadowColor: '#000',
-                shadowOffset: { width: 0, height: 2 },
-                shadowOpacity: 0.2,
-                shadowRadius: 4,
-                elevation: 4,
-              }}
-            >
-              <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 13, textAlign: 'center' }}>
-                {CENTER_THEME}
+          {!isMock && (
+            <View style={[pageStyles.infoRow, { marginTop: spacing.sm }]}>
+              <Text style={{ fontSize: 18 }}>🔑</Text>
+              <Text style={pageStyles.infoText}>
+                <Text style={{ fontWeight: '700', color: colors.primary }}>{unlockTokens}</Text> jeton{unlockTokens !== 1 ? 's' : ''} de déblocage
               </Text>
-            </TouchableOpacity>
+            </View>
           )}
+        </Card>
 
-          {/* Thèmes autour */}
-          {outerThemes.map((theme, i) => {
-            const angle = -Math.PI / 2 + i * angleStep;
-            const x = starCenter + radius * Math.cos(angle);
-            const y = starCenter + radius * Math.sin(angle);
-            const isUnlocked = unlockedThemes.includes(theme);
+        {loading ? (
+          <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
+        ) : (
+          <View style={{ width: starSize, height: starSize, marginTop: spacing.lg }}>
+            {/* Rayons reliant le centre à chaque thème */}
+            {outerThemes.map((theme, i) => {
+              const angle = -Math.PI / 2 + i * angleStep;
+              const isUnlocked = unlockedThemes.includes(theme);
+              return (
+                <View
+                  key={`line-${theme}`}
+                  style={{
+                    position: 'absolute',
+                    left: starCenter,
+                    top: starCenter,
+                    width: 0,
+                    height: 0,
+                    transform: [{ rotate: `${angle}rad` }],
+                  }}
+                >
+                  <View style={{
+                    position: 'absolute',
+                    left: 0,
+                    top: -1.5,
+                    width: radiusPx,
+                    height: 3,
+                    borderRadius: 1.5,
+                    backgroundColor: isUnlocked ? colors.primary : colors.border,
+                  }} />
+                </View>
+              );
+            })}
 
-            return (
+            {/* Thème central */}
+            {hasCenter && (
               <TouchableOpacity
-                key={theme}
-                onPress={() => handleThemePress(theme, isUnlocked)}
-                style={{
-                  position: 'absolute',
-                  left: x - NODE_SIZE / 2,
-                  top: y - NODE_SIZE / 2,
-                  width: NODE_SIZE,
-                  height: NODE_SIZE,
-                  borderRadius: NODE_SIZE / 2,
-                  backgroundColor: isUnlocked ? '#fff' : '#f0f0f0',
-                  borderWidth: 2,
-                  borderColor: isUnlocked ? '#FF6347' : '#ddd',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  padding: 6,
-                }}
+                onPress={() => goToQuiz(CENTER_THEME)}
+                style={[pageStyles.centerNode, {
+                  left: starCenter - CENTER_SIZE / 2,
+                  top: starCenter - CENTER_SIZE / 2,
+                }]}
               >
-                {!isUnlocked && (
-                  <Text style={{ fontSize: 16, marginBottom: 2 }}>🔒</Text>
-                )}
-                <Text style={{
-                  color: isUnlocked ? '#333' : '#aaa',
-                  fontWeight: 'bold',
-                  fontSize: 11,
-                  textAlign: 'center',
-                }}>
-                  {theme}
-                </Text>
+                <Text style={pageStyles.centerNodeText}>{CENTER_THEME}</Text>
               </TouchableOpacity>
-            );
-          })}
-        </View>
-      )}
+            )}
+
+            {/* Thèmes autour */}
+            {outerThemes.map((theme, i) => {
+              const angle = -Math.PI / 2 + i * angleStep;
+              const x = starCenter + radiusPx * Math.cos(angle);
+              const y = starCenter + radiusPx * Math.sin(angle);
+              const isUnlocked = unlockedThemes.includes(theme);
+
+              return (
+                <TouchableOpacity
+                  key={theme}
+                  onPress={() => handleThemePress(theme, isUnlocked)}
+                  style={[
+                    pageStyles.node,
+                    isUnlocked ? pageStyles.nodeUnlocked : pageStyles.nodeLocked,
+                    { left: x - NODE_SIZE / 2, top: y - NODE_SIZE / 2 },
+                  ]}
+                >
+                  {!isUnlocked && <Text style={pageStyles.lockIcon}>🔒</Text>}
+                  <Text style={isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked}>
+                    {theme}
+                  </Text>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
+        )}
+      </View>
 
       {/* Popup de confirmation de déblocage */}
       {pendingTheme && (
-        <View style={{
-          position: 'absolute',
-          top: 0, left: 0, right: 0, bottom: 0,
-          backgroundColor: 'rgba(0,0,0,0.4)',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}>
-          <View style={{
-            backgroundColor: '#fff',
-            borderRadius: 16,
-            padding: 24,
-            width: '80%',
-            alignItems: 'center',
-          }}>
-            <Text style={{ fontSize: 17, fontWeight: 'bold', marginBottom: 8, textAlign: 'center' }}>
-              Débloquer {pendingTheme} ?
-            </Text>
-            <Text style={{ color: '#888', marginBottom: 20, textAlign: 'center' }}>
-              Cela consommera 1 jeton de déblocage.
-            </Text>
-            <View style={{ flexDirection: 'row', gap: 10 }}>
+        <View style={pageStyles.overlay}>
+          <Card style={pageStyles.popup}>
+            <Text style={pageStyles.popupTitle}>Débloquer {pendingTheme} ?</Text>
+            <Text style={pageStyles.popupSubtitle}>Cela consommera 1 jeton de déblocage.</Text>
+            <View style={pageStyles.popupActions}>
               <TouchableOpacity
                 onPress={() => setPendingTheme(null)}
                 disabled={unlocking}
-                style={{
-                  backgroundColor: '#f0f0f0',
-                  borderRadius: 50,
-                  paddingVertical: 10,
-                  paddingHorizontal: 20,
-                }}
+                style={pageStyles.cancelButton}
               >
-                <Text style={{ color: '#555', fontWeight: 'bold' }}>Annuler</Text>
+                <Text style={pageStyles.cancelButtonText}>Annuler</Text>
               </TouchableOpacity>
-              <TouchableOpacity
+              <Button
+                label="Débloquer"
                 onPress={confirmUnlock}
-                disabled={unlocking}
-                style={[styles.button, { marginBottom: 0, opacity: unlocking ? 0.6 : 1 }]}
-              >
-                {unlocking
-                  ? <ActivityIndicator color="#fff" />
-                  : <Text style={styles.buttonText}>Débloquer</Text>
-                }
-              </TouchableOpacity>
+                loading={unlocking}
+                style={pageStyles.confirmButton}
+              />
             </View>
-          </View>
+          </Card>
         </View>
       )}
 
       {/* Message de feedback (succès ou erreur de déblocage) */}
       {feedback && (
-        <TouchableOpacity
-          onPress={() => setFeedback(null)}
-          style={{
-            position: 'absolute',
-            bottom: 80,
-            alignSelf: 'center',
-            backgroundColor: '#333',
-            borderRadius: 20,
-            paddingVertical: 10,
-            paddingHorizontal: 20,
-            maxWidth: '85%',
-          }}
-        >
-          <Text style={{ color: '#fff', fontSize: 13, textAlign: 'center' }}>{feedback}</Text>
+        <TouchableOpacity onPress={() => setFeedback(null)} style={pageStyles.toast}>
+          <Text style={pageStyles.toastText}>{feedback}</Text>
         </TouchableOpacity>
       )}
     </View>
   );
 };
+
+const pageStyles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: colors.background },
+  content: { flex: 1, alignItems: 'center', paddingHorizontal: spacing.lg },
+  infoCard: { width: '100%' },
+  infoRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  dot: { width: 9, height: 9, borderRadius: 5 },
+  infoText: { color: colors.textSecondary, fontSize: 14 },
+  mutedText: { color: colors.textMuted },
+  centerNode: {
+    position: 'absolute',
+    width: CENTER_SIZE,
+    height: CENTER_SIZE,
+    borderRadius: CENTER_SIZE / 2,
+    backgroundColor: colors.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.sm,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 5,
+  },
+  centerNodeText: { color: colors.white, fontWeight: '700', fontSize: 13, textAlign: 'center' },
+  node: {
+    position: 'absolute',
+    width: NODE_SIZE,
+    height: NODE_SIZE,
+    borderRadius: NODE_SIZE / 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.xs + 2,
+    borderWidth: 1.5,
+  },
+  nodeUnlocked: {
+    backgroundColor: colors.surface,
+    borderColor: colors.primary,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  nodeLocked: {
+    backgroundColor: colors.background,
+    borderColor: colors.border,
+  },
+  lockIcon: { fontSize: 15, marginBottom: 2 },
+  nodeTextUnlocked: { color: colors.textPrimary, fontWeight: '700', fontSize: 11, textAlign: 'center' },
+  nodeTextLocked: { color: colors.textMuted, fontWeight: '700', fontSize: 11, textAlign: 'center' },
+  overlay: {
+    position: 'absolute',
+    top: 0, left: 0, right: 0, bottom: 0,
+    backgroundColor: colors.overlay,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  popup: { width: '80%', alignItems: 'center' },
+  popupTitle: { fontSize: 17, fontWeight: '700', color: colors.textPrimary, marginBottom: spacing.xs, textAlign: 'center' },
+  popupSubtitle: { color: colors.textSecondary, marginBottom: spacing.lg, textAlign: 'center' },
+  popupActions: { flexDirection: 'row', gap: spacing.sm, width: '100%' },
+  cancelButton: {
+    flex: 1,
+    backgroundColor: colors.background,
+    borderRadius: radius.full,
+    paddingVertical: 14,
+    alignItems: 'center',
+  },
+  cancelButtonText: { color: colors.textSecondary, fontWeight: '700' },
+  confirmButton: { flex: 1 },
+  toast: {
+    position: 'absolute',
+    bottom: 80,
+    alignSelf: 'center',
+    backgroundColor: colors.textPrimary,
+    borderRadius: radius.full,
+    paddingVertical: 10,
+    paddingHorizontal: spacing.md,
+    maxWidth: '85%',
+  },
+  toastText: { color: colors.white, fontSize: 13, textAlign: 'center' },
+});
 
 export default Themes;

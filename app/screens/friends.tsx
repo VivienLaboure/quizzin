@@ -2,11 +2,12 @@ import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
+  ScrollView,
+  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
   View,
-  ScrollView,
 } from 'react-native';
 import {
   acceptFriendRequest,
@@ -17,8 +18,9 @@ import {
   searchUsers,
   sendFriendRequest,
 } from '../../API';
+import ScreenHeader from '../../components/ui/ScreenHeader';
 import { getLevel, getLevelProgress } from '../../lib/LevelSystem';
-import styles from '../styles/default';
+import { colors, radius, spacing, typography } from '../../lib/theme';
 
 type Tab = 'classement' | 'demandes' | 'recherche';
 
@@ -41,6 +43,12 @@ interface SearchResult {
   requestSent: boolean;
   requestReceived: boolean;
 }
+
+const TABS: { key: Tab; label: string }[] = [
+  { key: 'classement', label: 'Classement' },
+  { key: 'demandes', label: 'Demandes' },
+  { key: 'recherche', label: 'Recherche' },
+];
 
 export default function FriendsScreen() {
   const router = useRouter();
@@ -117,267 +125,223 @@ export default function FriendsScreen() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.topBar} />
+      <ScreenHeader onBack={() => router.back()} title="Amis" />
 
-      <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
-        <Text style={styles.buttonBackText}>Retour</Text>
-      </TouchableOpacity>
-
-      <Text style={[styles.textTitle, { marginTop: 70, marginBottom: 12 }]}>Amis</Text>
-
-      {/* Onglets */}
-      <View style={{ flexDirection: 'row', marginBottom: 16, gap: 8 }}>
-        {(['classement', 'demandes', 'recherche'] as Tab[]).map(t => (
-          <TouchableOpacity
-            key={t}
-            onPress={() => setTab(t)}
-            style={{
-              paddingVertical: 7,
-              paddingHorizontal: 14,
-              borderRadius: 20,
-              backgroundColor: tab === t ? '#FF6347' : '#f0f0f0',
-            }}
-          >
-            <Text style={{
-              color: tab === t ? '#fff' : '#555',
-              fontWeight: 'bold',
-              fontSize: 13,
-              textTransform: 'capitalize',
-            }}>
-              {t}{t === 'demandes' && requests.length > 0 ? ` (${requests.length})` : ''}
-            </Text>
-          </TouchableOpacity>
-        ))}
-      </View>
-
-      {/* ── Classement ────────────────────────────────────────── */}
-      {tab === 'classement' && (
-        <ScrollView style={{ width: '90%' }} showsVerticalScrollIndicator={false}>
-          {leaderboardLoading ? (
-            <ActivityIndicator color="#FF6347" style={{ marginTop: 20 }} />
-          ) : leaderboard.length === 0 ? (
-            <Text style={{ color: '#aaa', textAlign: 'center', marginTop: 20 }}>
-              Ajoute des amis pour voir le classement !
-            </Text>
-          ) : (
-            leaderboard.map((entry, index) => {
-              const lvl = getLevel(entry.xp);
-              const prog = getLevelProgress(entry.xp);
-              return (
-                <View key={entry.id} style={{
-                  flexDirection: 'row',
-                  alignItems: 'center',
-                  backgroundColor: entry.isMe ? '#fff5f3' : '#fafafa',
-                  borderRadius: 14,
-                  padding: 12,
-                  marginBottom: 10,
-                  borderWidth: entry.isMe ? 1.5 : 1,
-                  borderColor: entry.isMe ? '#FF6347' : '#eee',
-                }}>
-                  {/* Rang */}
-                  <Text style={{
-                    fontSize: 18,
-                    fontWeight: 'bold',
-                    color: index === 0 ? '#FFD700' : index === 1 ? '#C0C0C0' : index === 2 ? '#CD7F32' : '#ccc',
-                    width: 32,
-                  }}>
-                    {index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`}
-                  </Text>
-
-                  {/* Infos */}
-                  <View style={{ flex: 1 }}>
-                    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 4 }}>
-                      <Text style={{ fontWeight: 'bold', fontSize: 15 }}>
-                        {entry.pseudo}{entry.isMe ? ' (moi)' : ''}
-                      </Text>
-                      <View style={{
-                        backgroundColor: '#FF6347',
-                        borderRadius: 8,
-                        paddingVertical: 2,
-                        paddingHorizontal: 7,
-                      }}>
-                        <Text style={{ color: '#fff', fontSize: 11, fontWeight: 'bold' }}>
-                          Niv. {lvl}
-                        </Text>
-                      </View>
-                    </View>
-
-                    {/* Barre XP */}
-                    <View style={{
-                      height: 6,
-                      backgroundColor: '#e0e0e0',
-                      borderRadius: 3,
-                      overflow: 'hidden',
-                    }}>
-                      <View style={{
-                        width: `${Math.round(prog.progress * 100)}%`,
-                        height: '100%',
-                        backgroundColor: '#FF6347',
-                        borderRadius: 3,
-                      }} />
-                    </View>
-                    <Text style={{ fontSize: 10, color: '#aaa', marginTop: 2 }}>
-                      {entry.xp} XP total
-                    </Text>
-                  </View>
-
-                  {/* Supprimer (pas sur soi) */}
-                  {!entry.isMe && (
-                    <TouchableOpacity
-                      onPress={() => handleRemove(entry.id)}
-                      style={{ marginLeft: 8, padding: 4 }}
-                    >
-                      <Text style={{ color: '#ccc', fontSize: 18 }}>✕</Text>
-                    </TouchableOpacity>
-                  )}
-                </View>
-              );
-            })
-          )}
-          <View style={{ height: 80 }} />
-        </ScrollView>
-      )}
-
-      {/* ── Demandes reçues ───────────────────────────────────── */}
-      {tab === 'demandes' && (
-        <ScrollView style={{ width: '90%' }} showsVerticalScrollIndicator={false}>
-          {requestsLoading ? (
-            <ActivityIndicator color="#FF6347" style={{ marginTop: 20 }} />
-          ) : requests.length === 0 ? (
-            <Text style={{ color: '#aaa', textAlign: 'center', marginTop: 20 }}>
-              Aucune demande en attente
-            </Text>
-          ) : (
-            requests.map(r => (
-              <View key={r.id} style={{
-                flexDirection: 'row',
-                alignItems: 'center',
-                backgroundColor: '#fafafa',
-                borderRadius: 14,
-                padding: 14,
-                marginBottom: 10,
-                borderWidth: 1,
-                borderColor: '#eee',
-              }}>
-                <Text style={{ flex: 1, fontWeight: 'bold', fontSize: 15 }}>{r.pseudo}</Text>
-                <TouchableOpacity
-                  onPress={() => handleAccept(r.id)}
-                  style={{
-                    backgroundColor: '#FF6347',
-                    borderRadius: 20,
-                    paddingVertical: 6,
-                    paddingHorizontal: 14,
-                    marginRight: 8,
-                  }}
-                >
-                  <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 13 }}>Accepter</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  onPress={() => handleDecline(r.id)}
-                  style={{
-                    backgroundColor: '#f0f0f0',
-                    borderRadius: 20,
-                    paddingVertical: 6,
-                    paddingHorizontal: 14,
-                  }}
-                >
-                  <Text style={{ color: '#888', fontWeight: 'bold', fontSize: 13 }}>Refuser</Text>
-                </TouchableOpacity>
-              </View>
-            ))
-          )}
-          <View style={{ height: 80 }} />
-        </ScrollView>
-      )}
-
-      {/* ── Recherche ─────────────────────────────────────────── */}
-      {tab === 'recherche' && (
-        <View style={{ width: '90%' }}>
-          <View style={{ flexDirection: 'row', gap: 8, marginBottom: 16 }}>
-            <TextInput
-              value={query}
-              onChangeText={setQuery}
-              onSubmitEditing={handleSearch}
-              placeholder="Chercher un pseudo..."
-              placeholderTextColor="#aaa"
-              style={{
-                flex: 1,
-                backgroundColor: '#f5f5f5',
-                borderRadius: 12,
-                paddingHorizontal: 14,
-                paddingVertical: 10,
-                fontSize: 15,
-                borderWidth: 1,
-                borderColor: '#e0e0e0',
-              }}
-            />
+      <View style={styles.content}>
+        {/* Onglets */}
+        <View style={styles.tabs}>
+          {TABS.map(t => (
             <TouchableOpacity
-              onPress={handleSearch}
-              style={{
-                backgroundColor: '#FF6347',
-                borderRadius: 12,
-                paddingHorizontal: 16,
-                justifyContent: 'center',
-              }}
+              key={t.key}
+              onPress={() => setTab(t.key)}
+              style={[styles.tab, tab === t.key && styles.tabActive]}
             >
-              <Text style={{ color: '#fff', fontWeight: 'bold' }}>OK</Text>
+              <Text style={[styles.tabText, tab === t.key && styles.tabTextActive]}>
+                {t.label}{t.key === 'demandes' && requests.length > 0 ? ` (${requests.length})` : ''}
+              </Text>
             </TouchableOpacity>
-          </View>
-
-          {searchLoading ? (
-            <ActivityIndicator color="#FF6347" />
-          ) : (
-            <ScrollView showsVerticalScrollIndicator={false}>
-              {searchResults.map(u => (
-                <View key={u.id} style={{
-                  flexDirection: 'row',
-                  alignItems: 'center',
-                  backgroundColor: '#fafafa',
-                  borderRadius: 14,
-                  padding: 14,
-                  marginBottom: 10,
-                  borderWidth: 1,
-                  borderColor: '#eee',
-                }}>
-                  <Text style={{ flex: 1, fontWeight: 'bold', fontSize: 15 }}>{u.pseudo}</Text>
-                  {u.isFriend ? (
-                    <Text style={{ color: '#4CAF50', fontSize: 13, fontWeight: 'bold' }}>Ami ✓</Text>
-                  ) : u.requestSent ? (
-                    <Text style={{ color: '#aaa', fontSize: 13 }}>Demande envoyée</Text>
-                  ) : u.requestReceived ? (
-                    <TouchableOpacity
-                      onPress={() => { handleAccept(u.id); setTab('classement'); }}
-                      style={{
-                        backgroundColor: '#FF6347',
-                        borderRadius: 20,
-                        paddingVertical: 6,
-                        paddingHorizontal: 14,
-                      }}
-                    >
-                      <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 13 }}>Accepter</Text>
-                    </TouchableOpacity>
-                  ) : (
-                    <TouchableOpacity
-                      onPress={() => handleSendRequest(u.id)}
-                      style={{
-                        backgroundColor: '#FF6347',
-                        borderRadius: 20,
-                        paddingVertical: 6,
-                        paddingHorizontal: 14,
-                      }}
-                    >
-                      <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 13 }}>+ Ajouter</Text>
-                    </TouchableOpacity>
-                  )}
-                </View>
-              ))}
-              <View style={{ height: 80 }} />
-            </ScrollView>
-          )}
+          ))}
         </View>
-      )}
 
-      <View style={styles.bottomBar} />
+        {/* ── Classement ────────────────────────────────────────── */}
+        {tab === 'classement' && (
+          <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
+            {leaderboardLoading ? (
+              <ActivityIndicator color={colors.primary} style={styles.loader} />
+            ) : leaderboard.length === 0 ? (
+              <Text style={styles.emptyText}>Ajoute des amis pour voir le classement !</Text>
+            ) : (
+              leaderboard.map((entry, index) => {
+                const lvl = getLevel(entry.xp);
+                const prog = getLevelProgress(entry.xp);
+                const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
+                return (
+                  <View key={entry.id} style={[styles.row, entry.isMe && styles.rowHighlight]}>
+                    <Text style={styles.rank}>{medal}</Text>
+
+                    <View style={{ flex: 1 }}>
+                      <View style={styles.nameRow}>
+                        <Text style={styles.name}>{entry.pseudo}{entry.isMe ? ' (moi)' : ''}</Text>
+                        <View style={styles.levelBadge}>
+                          <Text style={styles.levelBadgeText}>Niv. {lvl}</Text>
+                        </View>
+                      </View>
+
+                      <View style={styles.progressTrack}>
+                        <View style={[styles.progressFill, { width: `${Math.round(prog.progress * 100)}%` }]} />
+                      </View>
+                      <Text style={styles.xpText}>{entry.xp} XP total</Text>
+                    </View>
+
+                    {!entry.isMe && (
+                      <TouchableOpacity onPress={() => handleRemove(entry.id)} style={styles.removeButton}>
+                        <Text style={styles.removeButtonText}>✕</Text>
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                );
+              })
+            )}
+            <View style={styles.scrollSpacer} />
+          </ScrollView>
+        )}
+
+        {/* ── Demandes reçues ───────────────────────────────────── */}
+        {tab === 'demandes' && (
+          <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
+            {requestsLoading ? (
+              <ActivityIndicator color={colors.primary} style={styles.loader} />
+            ) : requests.length === 0 ? (
+              <Text style={styles.emptyText}>Aucune demande en attente</Text>
+            ) : (
+              requests.map(r => (
+                <View key={r.id} style={styles.row}>
+                  <Text style={styles.name}>{r.pseudo}</Text>
+                  <View style={styles.rowActions}>
+                    <TouchableOpacity onPress={() => handleAccept(r.id)} style={styles.pillPrimary}>
+                      <Text style={styles.pillPrimaryText}>Accepter</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => handleDecline(r.id)} style={styles.pillSecondary}>
+                      <Text style={styles.pillSecondaryText}>Refuser</Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
+              ))
+            )}
+            <View style={styles.scrollSpacer} />
+          </ScrollView>
+        )}
+
+        {/* ── Recherche ─────────────────────────────────────────── */}
+        {tab === 'recherche' && (
+          <View style={styles.list}>
+            <View style={styles.searchRow}>
+              <TextInput
+                value={query}
+                onChangeText={setQuery}
+                onSubmitEditing={handleSearch}
+                placeholder="Chercher un pseudo..."
+                placeholderTextColor={colors.textMuted}
+                style={styles.searchInput}
+              />
+              <TouchableOpacity onPress={handleSearch} style={styles.searchButton}>
+                <Text style={styles.searchButtonText}>OK</Text>
+              </TouchableOpacity>
+            </View>
+
+            {searchLoading ? (
+              <ActivityIndicator color={colors.primary} />
+            ) : (
+              <ScrollView showsVerticalScrollIndicator={false}>
+                {searchResults.map(u => (
+                  <View key={u.id} style={styles.row}>
+                    <Text style={styles.name}>{u.pseudo}</Text>
+                    {u.isFriend ? (
+                      <Text style={styles.friendCheck}>Ami ✓</Text>
+                    ) : u.requestSent ? (
+                      <Text style={styles.pendingText}>Demande envoyée</Text>
+                    ) : u.requestReceived ? (
+                      <TouchableOpacity
+                        onPress={() => { handleAccept(u.id); setTab('classement'); }}
+                        style={styles.pillPrimary}
+                      >
+                        <Text style={styles.pillPrimaryText}>Accepter</Text>
+                      </TouchableOpacity>
+                    ) : (
+                      <TouchableOpacity onPress={() => handleSendRequest(u.id)} style={styles.pillPrimary}>
+                        <Text style={styles.pillPrimaryText}>+ Ajouter</Text>
+                      </TouchableOpacity>
+                    )}
+                  </View>
+                ))}
+                <View style={styles.scrollSpacer} />
+              </ScrollView>
+            )}
+          </View>
+        )}
+      </View>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: colors.background },
+  content: { flex: 1, alignItems: 'center', paddingHorizontal: spacing.lg },
+  tabs: { flexDirection: 'row', marginBottom: spacing.md, gap: spacing.xs, width: '100%' },
+  tab: {
+    flex: 1,
+    paddingVertical: 9,
+    borderRadius: radius.full,
+    backgroundColor: colors.surface,
+    alignItems: 'center',
+  },
+  tabActive: { backgroundColor: colors.primary },
+  tabText: { color: colors.textSecondary, fontWeight: '700', fontSize: 12.5 },
+  tabTextActive: { color: colors.white },
+  list: { width: '100%' },
+  loader: { marginTop: spacing.lg },
+  emptyText: { ...typography.caption, textAlign: 'center', marginTop: spacing.lg },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: colors.surface,
+    borderRadius: radius.md - 2,
+    padding: spacing.md - 2,
+    marginBottom: spacing.sm + 2,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  rowHighlight: { backgroundColor: colors.primarySoft, borderColor: colors.primary, borderWidth: 1.5 },
+  rank: { fontSize: 17, fontWeight: '700', color: colors.textMuted, width: 32 },
+  nameRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs, marginBottom: spacing.xs },
+  name: { flex: 1, fontWeight: '700', fontSize: 15, color: colors.textPrimary },
+  levelBadge: {
+    backgroundColor: colors.primary,
+    borderRadius: radius.sm - 2,
+    paddingVertical: 2,
+    paddingHorizontal: 7,
+  },
+  levelBadgeText: { color: colors.white, fontSize: 11, fontWeight: '700' },
+  progressTrack: { height: 6, backgroundColor: colors.border, borderRadius: 3, overflow: 'hidden' },
+  progressFill: { height: '100%', backgroundColor: colors.primary, borderRadius: 3 },
+  xpText: { fontSize: 10, color: colors.textMuted, marginTop: 2 },
+  removeButton: { marginLeft: spacing.sm, padding: spacing.xs },
+  removeButtonText: { color: colors.border, fontSize: 18 },
+  rowActions: { flexDirection: 'row', gap: spacing.xs },
+  pillPrimary: {
+    backgroundColor: colors.primary,
+    borderRadius: radius.full,
+    paddingVertical: 6,
+    paddingHorizontal: spacing.md - 2,
+  },
+  pillPrimaryText: { color: colors.white, fontWeight: '700', fontSize: 13 },
+  pillSecondary: {
+    backgroundColor: colors.background,
+    borderRadius: radius.full,
+    paddingVertical: 6,
+    paddingHorizontal: spacing.md - 2,
+  },
+  pillSecondaryText: { color: colors.textSecondary, fontWeight: '700', fontSize: 13 },
+  friendCheck: { color: colors.success, fontSize: 13, fontWeight: '700' },
+  pendingText: { color: colors.textMuted, fontSize: 13 },
+  searchRow: { flexDirection: 'row', gap: spacing.sm, marginBottom: spacing.md },
+  searchInput: {
+    flex: 1,
+    backgroundColor: colors.surface,
+    borderRadius: radius.md - 4,
+    paddingHorizontal: spacing.md - 2,
+    paddingVertical: 11,
+    fontSize: 15,
+    borderWidth: 1.5,
+    borderColor: colors.border,
+    color: colors.textPrimary,
+  },
+  searchButton: {
+    backgroundColor: colors.primary,
+    borderRadius: radius.md - 4,
+    paddingHorizontal: spacing.md,
+    justifyContent: 'center',
+  },
+  searchButtonText: { color: colors.white, fontWeight: '700' },
+  scrollSpacer: { height: 80 },
+});

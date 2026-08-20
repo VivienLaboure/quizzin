@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
+import { colors, radius, shadow, spacing } from '../lib/theme';
+import Button from './ui/Button';
 
 interface Step {
   emoji: string;
@@ -53,36 +55,37 @@ export default function OnboardingOverlay({ onDone }: Props) {
     <View style={{
       position: 'absolute',
       top: 0, left: 0, right: 0, bottom: 0,
-      backgroundColor: 'rgba(0,0,0,0.55)',
+      backgroundColor: colors.overlay,
       alignItems: 'center',
       justifyContent: 'center',
       zIndex: 100,
     }}>
       <View style={{
-        backgroundColor: '#fff',
-        borderRadius: 20,
-        padding: 28,
+        backgroundColor: colors.surface,
+        borderRadius: radius.lg,
+        padding: spacing.lg + 4,
         width: '85%',
         maxWidth: 360,
         alignItems: 'center',
+        ...shadow.medium,
       }}>
         <TouchableOpacity
           onPress={onDone}
           style={{ position: 'absolute', top: 12, right: 16, padding: 4 }}
         >
-          <Text style={{ color: '#aaa', fontSize: 13, fontWeight: 'bold' }}>Passer</Text>
+          <Text style={{ color: colors.textMuted, fontSize: 13, fontWeight: 'bold' }}>Passer</Text>
         </TouchableOpacity>
 
-        <Text style={{ fontSize: 48, marginBottom: 12 }}>{current.emoji}</Text>
-        <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#222', marginBottom: 10, textAlign: 'center' }}>
+        <Text style={{ fontSize: 48, marginBottom: spacing.sm + 4 }}>{current.emoji}</Text>
+        <Text style={{ fontSize: 19, fontWeight: 'bold', color: colors.textPrimary, marginBottom: spacing.sm + 2, textAlign: 'center' }}>
           {current.title}
         </Text>
-        <Text style={{ fontSize: 14, color: '#666', textAlign: 'center', lineHeight: 20, marginBottom: 24 }}>
+        <Text style={{ fontSize: 14, color: colors.textSecondary, textAlign: 'center', lineHeight: 20, marginBottom: spacing.lg }}>
           {current.description}
         </Text>
 
         {/* Indicateurs de progression */}
-        <View style={{ flexDirection: 'row', gap: 6, marginBottom: 20 }}>
+        <View style={{ flexDirection: 'row', gap: 6, marginBottom: spacing.lg - 4 }}>
           {STEPS.map((_, i) => (
             <View
               key={i}
@@ -90,25 +93,17 @@ export default function OnboardingOverlay({ onDone }: Props) {
                 width: 7,
                 height: 7,
                 borderRadius: 3.5,
-                backgroundColor: i === step ? '#FF6347' : '#eee',
+                backgroundColor: i === step ? colors.primary : colors.border,
               }}
             />
           ))}
         </View>
 
-        <TouchableOpacity
+        <Button
+          label={isLast ? "C'est parti !" : 'Suivant'}
           onPress={() => (isLast ? onDone() : setStep(s => s + 1))}
-          style={{
-            backgroundColor: '#FF6347',
-            borderRadius: 50,
-            paddingVertical: 12,
-            paddingHorizontal: 36,
-          }}
-        >
-          <Text style={{ color: '#fff', fontWeight: 'bold', fontSize: 15 }}>
-            {isLast ? "C'est parti !" : 'Suivant'}
-          </Text>
-        </TouchableOpacity>
+          style={{ width: 180 }}
+        />
       </View>
     </View>
   );
