@@ -1,16 +1,34 @@
 import { useRouter } from 'expo-router';
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { Image, Text, TouchableOpacity, View } from 'react-native';
+import OnboardingOverlay from '../../components/OnboardingOverlay';
 import { useAuth } from '../../lib/AuthContext';
 import { getLevelProgress } from '../../lib/LevelSystem';
+import SecureStore from '../../lib/secureStorage';
 import styles from '../styles/default';
+
+const TUTORIAL_SEEN_KEY = 'has_seen_tutorial';
 
 const Home: React.FC = () => {
   const router = useRouter();
   const { user, logout } = useAuth();
+  const [showTutorial, setShowTutorial] = useState(false);
 
   const userId = user?.scoreId ?? '';
   const xpData = getLevelProgress(user?.xp ?? 0);
+
+  // Tutoriel au tout premier lancement — jamais revu ensuite une fois passé.
+  useEffect(() => {
+    SecureStore.getItemAsync(TUTORIAL_SEEN_KEY).then(seen => {
+      if (!seen) setShowTutorial(true);
+    });
+  }, []);
+
+  const dismissTutorial = () => {
+    setShowTutorial(false);
+    SecureStore.setItemAsync(TUTORIAL_SEEN_KEY, 'true');
+  };
 
   const handleLogout = async () => {
     await logout();
@@ -19,6 +37,8 @@ const Home: React.FC = () => {
 
   return (
     <View style={styles.container}>
+      {showTutorial && <OnboardingOverlay onDone={dismissTutorial} />}
+
       <Image source={require('../assets/logo_text.png')} style={styles.image} />
 
       {user && (
