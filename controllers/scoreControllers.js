@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const PersonalScore = require("../models/PersonalScore");
 const Quiz = require("../models/Quiz");
 const errorHandler = require("../middleware/errorHandlers");
-const { getLevel } = require("../lib/levelSystem");
+const { getLevel, getTokensForLevel } = require("../lib/levelSystem");
 
 /**
  * Valide les données d'un nouvel utilisateur
@@ -154,7 +154,7 @@ exports.updateExperience = async (req, res, next) => {
     const newExperience = current.experience + gained;
     const levelBefore = getLevel(current.experience);
     const levelAfter = getLevel(newExperience);
-    const tokensEarned = Math.max(0, levelAfter - levelBefore);
+    const tokensEarned = Math.max(0, getTokensForLevel(levelAfter) - getTokensForLevel(levelBefore));
 
     const currentThemeXp = current.themeXp.get(theme) ?? 0;
 
