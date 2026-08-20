@@ -16,6 +16,15 @@ const app = express();
 
 const isDev = process.env.NODE_ENV === "development";
 
+// Render (comme la plupart des PaaS) place l'app derrière un reverse proxy.
+// Sans ce réglage, req.ip retombe sur l'IP interne du proxy pour TOUTES les
+// requêtes plutôt que la vraie IP du client — le rate limiter ci-dessous
+// comptait alors tout le monde dans un seul et même compteur global au lieu
+// d'un compteur par IP, ce qui déclenchait des 429 pour des utilisateurs qui
+// n'avaient rien fait d'anormal. 1 = on fait confiance à un seul saut de
+// proxy (celui de Render), pas plus.
+app.set("trust proxy", 1);
+
 // ─── Sécurité ────────────────────────────────────────────────────────────────
 
 app.use(helmet());
