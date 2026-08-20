@@ -1,0 +1,101 @@
+{
+  "theme": "Cinéma",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel réalisateur est à l'origine de la saga 'Star Wars' ?",
+        "reponse": "George Lucas",
+        "propositions": ["Steven Spielberg", "George Lucas", "James Cameron", "Ridley Scott"],
+        "explication": "George Lucas a créé et réalisé les trois premiers films de la saga, sortis à partir de 1977."
+      },
+      {
+        "question": "Quel studio d'animation a produit 'Toy Story', premier long-métrage entièrement en images de synthèse ?",
+        "reponse": "Pixar",
+        "propositions": ["DreamWorks", "Pixar", "Illumination", "Disney"],
+        "explication": "'Toy Story' est sorti en 1995 et a révolutionné l'animation par ordinateur."
+      },
+      {
+        "question": "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?",
+        "reponse": "Robert Downey Jr.",
+        "propositions": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+        "explication": "Robert Downey Jr. incarne Tony Stark / Iron Man depuis 2008."
+      },
+      {
+        "question": "Quelle récompense en forme de statuette dorée est remise chaque année aux Oscars ?",
+        "reponse": "L'Oscar",
+        "propositions": ["La Palme d'or", "L'Oscar", "L'Ours d'or", "Le Lion d'or"],
+        "explication": "La cérémonie des Oscars remet des statuettes dorées, contrairement au Festival de Cannes qui décerne la Palme d'or."
+      },
+      {
+        "question": "Quel réalisateur est connu pour des films comme 'Titanic' et 'Avatar' ?",
+        "reponse": "James Cameron",
+        "propositions": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Peter Jackson"],
+        "explication": "James Cameron a réalisé deux des plus gros succès au box-office mondial avec ces deux films."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel film d'animation du studio Ghibli a remporté l'Oscar du meilleur film d'animation en 2003 ?",
+        "reponse": "Le Voyage de Chihiro",
+        "propositions": ["Princesse Mononoké", "Le Voyage de Chihiro", "Mon voisin Totoro", "Le Château ambulant"],
+        "explication": "Réalisé par Hayao Miyazaki, ce film a été le premier long-métrage du studio Ghibli à remporter cet Oscar."
+      },
+      {
+        "question": "Quel réalisateur est connu pour des films utilisant des structures narratives non linéaires comme 'Memento' et 'Inception' ?",
+        "reponse": "Christopher Nolan",
+        "propositions": ["David Fincher", "Christopher Nolan", "Denis Villeneuve", "Quentin Tarantino"],
+        "explication": "Christopher Nolan est réputé pour ses scénarios complexes jouant avec le temps et la perception."
+      },
+      {
+        "question": "Quel est le premier long-métrage d'animation en couleur de l'histoire du cinéma, sorti en 1937 ?",
+        "reponse": "Blanche-Neige et les Sept Nains",
+        "propositions": ["Fantasia", "Blanche-Neige et les Sept Nains", "Pinocchio", "Bambi"],
+        "explication": "Produit par Walt Disney, ce film est considéré comme le premier long-métrage d'animation en couleur de l'histoire."
+      },
+      {
+        "question": "Quel acteur a incarné le Joker dans 'The Dark Knight' (2008), rôle pour lequel il a reçu un Oscar posthume ?",
+        "reponse": "Heath Ledger",
+        "propositions": ["Jack Nicholson", "Heath Ledger", "Joaquin Phoenix", "Jared Leto"],
+        "explication": "Heath Ledger est décédé quelques mois avant la sortie du film et a reçu l'Oscar du meilleur acteur dans un second rôle à titre posthume."
+      },
+      {
+        "question": "Quel réalisateur français est connu pour 'Le Fabuleux Destin d'Amélie Poulain' et 'La Cité des enfants perdus' ?",
+        "reponse": "Jean-Pierre Jeunet",
+        "propositions": ["Luc Besson", "Jean-Pierre Jeunet", "Michel Gondry", "Jacques Audiard"],
+        "explication": "Jean-Pierre Jeunet a réalisé 'Le Fabuleux Destin d'Amélie Poulain' en 2001."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel film est considéré comme le premier long-métrage parlant de l'histoire du cinéma, sorti en 1927 ?",
+        "reponse": "Le Chanteur de jazz",
+        "propositions": ["Le Chanteur de jazz", "Metropolis", "Nosferatu", "Le Cuirassé Potemkine"],
+        "explication": "'The Jazz Singer' marque la transition du cinéma muet au cinéma parlant."
+      },
+      {
+        "question": "Quel mouvement cinématographique français des années 1950-60, porté par des réalisateurs comme Godard et Truffaut, a rompu avec les conventions narratives classiques ?",
+        "reponse": "La Nouvelle Vague",
+        "propositions": ["Le Réalisme poétique", "La Nouvelle Vague", "Le Cinéma vérité", "L'Impressionnisme français"],
+        "explication": "La Nouvelle Vague a marqué une rupture esthétique et technique majeure dans l'histoire du cinéma français."
+      },
+      {
+        "question": "Quel procédé de tournage image par image, utilisé par Tim Burton dans 'Frankenweenie' et 'Les Noces funèbres', permet d'animer des figurines ?",
+        "reponse": "Le stop-motion",
+        "propositions": ["La rotoscopie", "Le stop-motion", "La motion capture", "Le clay painting"],
+        "explication": "Le stop-motion consiste à photographier une figurine image par image en la déplaçant légèrement à chaque prise."
+      },
+      {
+        "question": "Quel film japonais d'Akira Kurosawa, sorti en 1954, a directement inspiré le western américain 'Les Sept Mercenaires' ?",
+        "reponse": "Les Sept Samouraïs",
+        "propositions": ["Rashomon", "Les Sept Samouraïs", "Ran", "Kagemusha"],
+        "explication": "'Les Sept Samouraïs' est l'un des films les plus influents du cinéma mondial."
+      },
+      {
+        "question": "Comment appelle-t-on le raccord qui enchaîne deux plans sur une action similaire pour suggérer une continuité, rendu célèbre par l'ellipse de l'os devenant vaisseau spatial dans '2001, l'Odyssée de l'espace' ?",
+        "reponse": "Le raccord (match cut)",
+        "propositions": ["Le fondu enchaîné", "Le raccord (match cut)", "Le plan-séquence", "Le champ-contrechamp"],
+        "explication": "Ce raccord entre l'os lancé en l'air et le vaisseau spatial est l'une des ellipses les plus célèbres de l'histoire du cinéma."
+      }
+    ]
+  }
+}

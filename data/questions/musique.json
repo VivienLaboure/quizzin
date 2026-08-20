@@ -1,0 +1,101 @@
+{
+  "theme": "Musique",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel groupe britannique a composé les albums 'Abbey Road' et 'Sgt. Pepper's Lonely Hearts Club Band' ?",
+        "reponse": "The Beatles",
+        "propositions": ["The Rolling Stones", "The Beatles", "Pink Floyd", "The Who"],
+        "explication": "The Beatles, originaires de Liverpool, sont considérés comme l'un des groupes les plus influents de l'histoire de la musique."
+      },
+      {
+        "question": "Quel instrument à cordes se joue avec un archet et se tient sous le menton ?",
+        "reponse": "Le violon",
+        "propositions": ["La guitare", "Le violon", "Le violoncelle", "La harpe"],
+        "explication": "Le violon est le plus petit et le plus aigu des instruments à cordes frottées."
+      },
+      {
+        "question": "Quelle chanteuse américaine est surnommée la \"Reine de la Pop\" ?",
+        "reponse": "Madonna",
+        "propositions": ["Madonna", "Whitney Houston", "Mariah Carey", "Cher"],
+        "explication": "Madonna a dominé les classements internationaux depuis les années 1980."
+      },
+      {
+        "question": "Combien de touches possède un piano standard ?",
+        "reponse": "88",
+        "propositions": ["76", "84", "88", "92"],
+        "explication": "Un piano standard possède 88 touches, réparties en 52 blanches et 36 noires."
+      },
+      {
+        "question": "Quel chanteur est surnommé le \"King of Pop\" ?",
+        "reponse": "Michael Jackson",
+        "propositions": ["Elvis Presley", "Michael Jackson", "Prince", "Stevie Wonder"],
+        "explication": "Michael Jackson doit ce surnom à son influence majeure sur la pop à partir des années 1980, notamment avec l'album 'Thriller'."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel compositeur autrichien du XVIIIe siècle a composé plus de 600 œuvres avant sa mort à 35 ans ?",
+        "reponse": "Wolfgang Amadeus Mozart",
+        "propositions": ["Joseph Haydn", "Wolfgang Amadeus Mozart", "Antonio Salieri", "Christoph Willibald Gluck"],
+        "explication": "Mozart est mort en 1791 à seulement 35 ans, laissant un catalogue impressionnant d'œuvres."
+      },
+      {
+        "question": "Quel genre musical est né dans les clubs de La Nouvelle-Orléans au début du XXe siècle, mêlant improvisation et syncope ?",
+        "reponse": "Le jazz",
+        "propositions": ["Le blues", "Le jazz", "Le ragtime", "Le gospel"],
+        "explication": "Le jazz est né au début du XXe siècle à La Nouvelle-Orléans, mélangeant influences africaines et européennes."
+      },
+      {
+        "question": "Quel groupe de rock britannique a sorti l'album concept 'The Dark Side of the Moon' en 1973 ?",
+        "reponse": "Pink Floyd",
+        "propositions": ["Led Zeppelin", "Pink Floyd", "Queen", "Genesis"],
+        "explication": "Cet album reste l'un des plus vendus de l'histoire, resté plus de 900 semaines dans les classements américains."
+      },
+      {
+        "question": "Quelle est la voix la plus grave chez les chanteurs hommes en musique classique ?",
+        "reponse": "La basse",
+        "propositions": ["Le ténor", "Le baryton", "La basse", "Le contre-ténor"],
+        "explication": "Du plus aigu au plus grave chez les hommes : ténor, baryton, basse."
+      },
+      {
+        "question": "Quel rappeur américain est l'auteur de l'album 'The Marshall Mathers LP' ?",
+        "reponse": "Eminem",
+        "propositions": ["Jay-Z", "Eminem", "Kanye West", "50 Cent"],
+        "explication": "Sorti en 2000, cet album reste l'un des albums de rap les plus vendus de l'histoire."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel compositeur russe est l'auteur du ballet 'Le Sacre du printemps', dont la première en 1913 provoqua un scandale ?",
+        "reponse": "Igor Stravinsky",
+        "propositions": ["Piotr Illitch Tchaïkovski", "Igor Stravinsky", "Sergueï Prokofiev", "Dmitri Chostakovitch"],
+        "explication": "La création du 'Sacre du printemps' à Paris en 1913 déclencha une véritable émeute dans la salle."
+      },
+      {
+        "question": "Comment appelle-t-on le système utilisant les syllabes do, ré, mi, fa, sol, la, si pour nommer les notes de musique ?",
+        "reponse": "Le solfège",
+        "propositions": ["Le solfège", "Le tempérament égal", "La gamme chromatique", "La basse continue"],
+        "explication": "Ce système de notation par syllabes, hérité de Guido d'Arezzo au Moyen Âge, est à la base de l'enseignement musical occidental."
+      },
+      {
+        "question": "Quel instrument à clavier, ancêtre du piano, produit le son en pinçant les cordes plutôt qu'en les frappant ?",
+        "reponse": "Le clavecin",
+        "propositions": ["Le clavicorde", "Le clavecin", "L'orgue", "Le célesta"],
+        "explication": "Contrairement au piano qui frappe les cordes avec des marteaux, le clavecin les pince avec un plectre."
+      },
+      {
+        "question": "Quel compositeur allemand du baroque est l'auteur des 'Variations Goldberg' et des 'Concertos brandebourgeois' ?",
+        "reponse": "Jean-Sébastien Bach",
+        "propositions": ["Georg Friedrich Haendel", "Jean-Sébastien Bach", "Antonio Vivaldi", "Henry Purcell"],
+        "explication": "Bach est l'une des figures majeures de la musique baroque, réputé pour sa maîtrise du contrepoint."
+      },
+      {
+        "question": "Quel terme musical désigne un morceau interprété par un soliste accompagné d'un orchestre ?",
+        "reponse": "Un concerto",
+        "propositions": ["Une symphonie", "Un concerto", "Une sonate", "Une suite"],
+        "explication": "Le concerto met en valeur un ou plusieurs solistes face à l'orchestre, contrairement à la symphonie jouée par l'ensemble de l'orchestre."
+      }
+    ]
+  }
+}

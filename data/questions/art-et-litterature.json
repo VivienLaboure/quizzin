@@ -1,0 +1,101 @@
+{
+  "theme": "Art-et-littérature",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel peintre espagnol est le fondateur du mouvement cubiste avec Georges Braque ?",
+        "reponse": "Pablo Picasso",
+        "propositions": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Diego Rivera"],
+        "explication": "Picasso et Braque développent le cubisme à partir de 1907, décomposant les formes en volumes géométriques."
+      },
+      {
+        "question": "Quel est le nom du célèbre tableau de Léonard de Vinci exposé au musée du Louvre ?",
+        "reponse": "La Joconde",
+        "propositions": ["La Joconde", "La Cène", "La Vierge aux rochers", "L'Homme de Vitruve"],
+        "explication": "La Joconde (ou Mona Lisa) est probablement le tableau le plus célèbre au monde."
+      },
+      {
+        "question": "Quel écrivain britannique a créé le monde de la Terre du Milieu dans 'Le Seigneur des anneaux' ?",
+        "reponse": "J.R.R. Tolkien",
+        "propositions": ["C.S. Lewis", "J.R.R. Tolkien", "George Orwell", "Terry Pratchett"],
+        "explication": "Tolkien, professeur à Oxford, a créé un univers entier avec ses propres langues et mythologies."
+      },
+      {
+        "question": "Quel mouvement artistique, porté par Monet et Renoir, cherche à capturer les impressions fugaces de la lumière ?",
+        "reponse": "L'impressionnisme",
+        "propositions": ["Le cubisme", "L'impressionnisme", "Le surréalisme", "Le fauvisme"],
+        "explication": "Le nom vient du tableau 'Impression, soleil levant' de Claude Monet, peint en 1872."
+      },
+      {
+        "question": "Quel poète et dramaturge anglais est l'auteur de 'Roméo et Juliette' et 'Hamlet' ?",
+        "reponse": "William Shakespeare",
+        "propositions": ["Christopher Marlowe", "William Shakespeare", "Ben Jonson", "John Milton"],
+        "explication": "Shakespeare est considéré comme le plus grand dramaturge de langue anglaise."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel peintre néerlandais du XVIIe siècle est célèbre pour 'La Jeune Fille à la perle' ?",
+        "reponse": "Johannes Vermeer",
+        "propositions": ["Rembrandt", "Johannes Vermeer", "Frans Hals", "Jan van Eyck"],
+        "explication": "Ce tableau, peint vers 1665, est surnommé la \"Joconde du Nord\"."
+      },
+      {
+        "question": "Quel écrivain russe est l'auteur de 'Guerre et Paix' et 'Anna Karénine' ?",
+        "reponse": "Léon Tolstoï",
+        "propositions": ["Fiodor Dostoïevski", "Léon Tolstoï", "Anton Tchekhov", "Nicolas Gogol"],
+        "explication": "'Guerre et Paix', publié en 1869, est l'une des œuvres majeures de la littérature russe."
+      },
+      {
+        "question": "Quel mouvement artistique du XXe siècle, porté par Dalí et Magritte, explore l'univers du rêve et de l'inconscient ?",
+        "reponse": "Le surréalisme",
+        "propositions": ["Le dadaïsme", "Le surréalisme", "L'expressionnisme", "Le futurisme"],
+        "explication": "Le surréalisme, théorisé par André Breton dans son manifeste de 1924, cherche à libérer la pensée du contrôle de la raison."
+      },
+      {
+        "question": "Quel sculpteur français est l'auteur du 'Penseur' et des 'Bourgeois de Calais' ?",
+        "reponse": "Auguste Rodin",
+        "propositions": ["Auguste Rodin", "Camille Claudel", "Antoine Bourdelle", "Aristide Maillol"],
+        "explication": "Rodin est considéré comme le père de la sculpture moderne."
+      },
+      {
+        "question": "Quel écrivain français a écrit 'À la recherche du temps perdu', œuvre monumentale en sept volumes ?",
+        "reponse": "Marcel Proust",
+        "propositions": ["André Gide", "Marcel Proust", "Albert Camus", "Jean-Paul Sartre"],
+        "explication": "Publiée entre 1913 et 1927, cette œuvre est célèbre pour son style et sa réflexion sur la mémoire."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel peintre italien de la Renaissance est l'auteur de la fresque 'L'École d'Athènes' au Vatican ?",
+        "reponse": "Raphaël",
+        "propositions": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Le Titien"],
+        "explication": "Cette fresque, peinte vers 1509-1511, réunit les grands philosophes de l'Antiquité dans un décor architectural monumental."
+      },
+      {
+        "question": "Quel courant littéraire du XIXe siècle, incarné par Zola, décrit la société avec une méthode proche de l'observation scientifique ?",
+        "reponse": "Le naturalisme",
+        "propositions": ["Le réalisme", "Le naturalisme", "Le symbolisme", "Le parnasse"],
+        "explication": "Le naturalisme applique les méthodes des sciences expérimentales à la littérature, notamment dans le cycle des 'Rougon-Macquart' de Zola."
+      },
+      {
+        "question": "Quel artiste néerlandais post-impressionniste, mort en 1890, n'a vendu qu'un seul tableau de son vivant ?",
+        "reponse": "Vincent van Gogh",
+        "propositions": ["Paul Cézanne", "Vincent van Gogh", "Paul Gauguin", "Henri de Toulouse-Lautrec"],
+        "explication": "Van Gogh est aujourd'hui l'un des peintres les plus célèbres au monde, malgré une reconnaissance quasi inexistante durant sa vie."
+      },
+      {
+        "question": "Quel écrivain irlandais est l'auteur d'\"Ulysse\", roman expérimental de 1922 structuré sur une seule journée à Dublin ?",
+        "reponse": "James Joyce",
+        "propositions": ["Samuel Beckett", "James Joyce", "Oscar Wilde", "William Butler Yeats"],
+        "explication": "'Ulysse' est considéré comme l'une des œuvres majeures du modernisme littéraire du XXe siècle."
+      },
+      {
+        "question": "Quelle technique picturale, utilisée notamment par Georges Seurat, juxtapose de petites touches de couleurs pures plutôt que de les mélanger ?",
+        "reponse": "Le pointillisme",
+        "propositions": ["Le fauvisme", "Le pointillisme", "Le cubisme analytique", "L'action painting"],
+        "explication": "Seurat en est le principal représentant avec 'Un dimanche après-midi à l'Île de la Grande Jatte'."
+      }
+    ]
+  }
+}

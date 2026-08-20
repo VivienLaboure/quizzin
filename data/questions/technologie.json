@@ -1,0 +1,101 @@
+{
+  "theme": "Technologie",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle entreprise a créé le système d'exploitation Windows ?",
+        "reponse": "Microsoft",
+        "propositions": ["Apple", "Microsoft", "Google", "IBM"],
+        "explication": "Microsoft, fondée par Bill Gates et Paul Allen, lance la première version de Windows en 1985."
+      },
+      {
+        "question": "Que signifie l'acronyme 'WWW' sur internet ?",
+        "reponse": "World Wide Web",
+        "propositions": ["World Wide Web", "World Web Wide", "Wide World Web", "World Wireless Web"],
+        "explication": "Le World Wide Web, inventé par Tim Berners-Lee en 1989, désigne le système de pages web interconnectées."
+      },
+      {
+        "question": "Quelle entreprise a lancé le premier iPhone en 2007 ?",
+        "reponse": "Apple",
+        "propositions": ["Samsung", "Apple", "Nokia", "BlackBerry"],
+        "explication": "L'iPhone, présenté par Steve Jobs en janvier 2007, a révolutionné le marché des smartphones."
+      },
+      {
+        "question": "Que signifie l'acronyme 'GPS' ?",
+        "reponse": "Global Positioning System",
+        "propositions": ["Global Positioning System", "General Public Service", "Geo Positioning Signal", "Global Phone System"],
+        "explication": "Le GPS est un système de positionnement par satellites développé initialement par l'armée américaine."
+      },
+      {
+        "question": "Quel réseau social, lancé en 2004, a été fondé par Mark Zuckerberg ?",
+        "reponse": "Facebook",
+        "propositions": ["Twitter", "Facebook", "Instagram", "LinkedIn"],
+        "explication": "Mark Zuckerberg a créé Facebook alors qu'il était étudiant à l'université Harvard."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel langage de programmation, créé en 1991 par Guido van Rossum, est réputé pour sa syntaxe simple et lisible ?",
+        "reponse": "Python",
+        "propositions": ["Java", "Python", "C++", "Ruby"],
+        "explication": "Python est aujourd'hui l'un des langages les plus utilisés, notamment en intelligence artificielle et en science des données."
+      },
+      {
+        "question": "Que signifie l'acronyme 'RAM' en informatique ?",
+        "reponse": "Random Access Memory",
+        "propositions": ["Random Access Memory", "Read Access Memory", "Rapid Access Module", "Remote Access Memory"],
+        "explication": "La RAM est la mémoire vive utilisée par un ordinateur pour stocker temporairement les données en cours d'utilisation."
+      },
+      {
+        "question": "Quelle entreprise a développé le système d'exploitation mobile Android ?",
+        "reponse": "Google",
+        "propositions": ["Microsoft", "Google", "Amazon", "Meta"],
+        "explication": "Google a racheté Android Inc. en 2005 avant d'en faire le système d'exploitation mobile le plus utilisé au monde."
+      },
+      {
+        "question": "Quel protocole sécurisé chiffre les échanges entre un navigateur et un site web (le petit cadenas dans la barre d'adresse) ?",
+        "reponse": "HTTPS",
+        "propositions": ["FTP", "HTTPS", "SMTP", "DNS"],
+        "explication": "HTTPS ajoute une couche de chiffrement (TLS/SSL) au protocole HTTP classique."
+      },
+      {
+        "question": "Quelle technologie sans fil, nommée d'après un roi viking, permet d'échanger des données sur de courtes distances entre appareils ?",
+        "reponse": "Le Bluetooth",
+        "propositions": ["Le Wi-Fi", "Le Bluetooth", "Le NFC", "L'infrarouge"],
+        "explication": "Le nom Bluetooth fait référence au roi viking Harald à la Dent bleue, réputé pour avoir unifié le Danemark."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel protocole traduit les noms de domaine (comme google.com) en adresses IP ?",
+        "reponse": "Le DNS",
+        "propositions": ["Le DHCP", "Le DNS", "Le TCP", "Le SMTP"],
+        "explication": "Le DNS (Domain Name System) fonctionne comme un annuaire téléphonique pour internet."
+      },
+      {
+        "question": "Quel type d'architecture, à la base de modèles comme ChatGPT, repose sur un mécanisme dit \"d'attention\" introduit en 2017 ?",
+        "reponse": "Le Transformer",
+        "propositions": ["Le réseau de neurones convolutif (CNN)", "Le Transformer", "Le réseau de neurones récurrent (RNN)", "L'arbre de décision"],
+        "explication": "L'architecture Transformer, présentée dans l'article 'Attention Is All You Need' (2017), a révolutionné le traitement automatique du langage."
+      },
+      {
+        "question": "Quel système de registre distribué permet à des cryptomonnaies comme le Bitcoin de fonctionner sans autorité centrale ?",
+        "reponse": "La blockchain",
+        "propositions": ["Le cloud computing", "La blockchain", "Le peer-to-peer", "Le grid computing"],
+        "explication": "La blockchain est un registre décentralisé et infalsifiable partagé entre de nombreux ordinateurs."
+      },
+      {
+        "question": "Quelle loi empirique énonce que le nombre de transistors sur une puce double environ tous les deux ans ?",
+        "reponse": "La loi de Moore",
+        "propositions": ["La loi de Moore", "La loi d'Amdahl", "La loi de Metcalfe", "La loi de Kryder"],
+        "explication": "Formulée par Gordon Moore, cofondateur d'Intel, en 1965, cette loi a longtemps guidé l'industrie des semi-conducteurs."
+      },
+      {
+        "question": "Quelle est l'unité de base de l'information en informatique, valant 0 ou 1 ?",
+        "reponse": "Le bit",
+        "propositions": ["L'octet", "Le bit", "Le byte", "Le pixel"],
+        "explication": "Un octet (byte) est composé de 8 bits ; le bit est l'unité élémentaire d'information binaire."
+      }
+    ]
+  }
+}

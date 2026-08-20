@@ -1,0 +1,101 @@
+{
+  "theme": "Sciences",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel est le symbole chimique de l'or ?",
+        "reponse": "Au",
+        "propositions": ["Au", "Ag", "Or", "Go"],
+        "explication": "Au vient du latin \"aurum\", qui signifie or."
+      },
+      {
+        "question": "Quelle force maintient les objets au sol sur Terre ?",
+        "reponse": "La gravité",
+        "propositions": ["Le magnétisme", "La gravité", "La friction", "La pression atmosphérique"],
+        "explication": "La gravité est la force d'attraction exercée par la masse de la Terre."
+      },
+      {
+        "question": "Combien de chromosomes possède une cellule humaine normale ?",
+        "reponse": "46",
+        "propositions": ["23", "44", "46", "48"],
+        "explication": "Les cellules humaines possèdent 46 chromosomes, organisés en 23 paires."
+      },
+      {
+        "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?",
+        "reponse": "Le dioxyde de carbone",
+        "propositions": ["L'oxygène", "Le dioxyde de carbone", "L'azote", "L'hydrogène"],
+        "explication": "Les plantes absorbent le CO2 et rejettent de l'oxygène lors de la photosynthèse."
+      },
+      {
+        "question": "Quel scientifique est à l'origine de la théorie de l'évolution par sélection naturelle ?",
+        "reponse": "Charles Darwin",
+        "propositions": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Antoine Lavoisier"],
+        "explication": "Darwin publie 'De l'origine des espèces' en 1859, posant les bases de la théorie de l'évolution."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quelle particule subatomique porte une charge électrique négative ?",
+        "reponse": "L'électron",
+        "propositions": ["Le proton", "L'électron", "Le neutron", "Le photon"],
+        "explication": "L'électron, chargé négativement, orbite autour du noyau composé de protons et de neutrons."
+      },
+      {
+        "question": "Quel est le nom du processus par lequel une cellule se divise pour former deux cellules identiques ?",
+        "reponse": "La mitose",
+        "propositions": ["La méiose", "La mitose", "L'apoptose", "La mutation"],
+        "explication": "La mitose permet la croissance et le renouvellement des tissus à partir d'une cellule mère."
+      },
+      {
+        "question": "Quelle enzyme, présente dans la salive, commence la digestion de l'amidon ?",
+        "reponse": "L'amylase",
+        "propositions": ["La pepsine", "L'amylase", "La lipase", "La trypsine"],
+        "explication": "L'amylase salivaire décompose l'amidon en sucres simples dès la mastication."
+      },
+      {
+        "question": "Quel est le pH approximatif d'une solution neutre, comme l'eau pure ?",
+        "reponse": "7",
+        "propositions": ["0", "7", "10", "14"],
+        "explication": "L'échelle de pH va de 0 (très acide) à 14 (très basique), 7 étant le point neutre."
+      },
+      {
+        "question": "Quelle loi physique énonce que pour toute action, il existe une réaction égale et opposée ?",
+        "reponse": "La troisième loi de Newton",
+        "propositions": ["La première loi de Newton", "La deuxième loi de Newton", "La troisième loi de Newton", "La loi de la gravitation universelle"],
+        "explication": "Formulée par Isaac Newton, cette loi décrit les interactions entre deux corps."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel est le nom de l'organite cellulaire responsable de la production d'énergie sous forme d'ATP ?",
+        "reponse": "La mitochondrie",
+        "propositions": ["Le ribosome", "La mitochondrie", "L'appareil de Golgi", "Le lysosome"],
+        "explication": "La mitochondrie est souvent surnommée la \"centrale énergétique\" de la cellule."
+      },
+      {
+        "question": "Quel est le nom du phénomène par lequel des atomes légers fusionnent pour former un noyau plus lourd, source d'énergie des étoiles ?",
+        "reponse": "La fusion nucléaire",
+        "propositions": ["La fission nucléaire", "La fusion nucléaire", "La radioactivité", "L'ionisation"],
+        "explication": "La fusion nucléaire libère une énergie considérable et alimente les étoiles comme le Soleil."
+      },
+      {
+        "question": "Quel scientifique a formulé le principe d'incertitude en mécanique quantique en 1927 ?",
+        "reponse": "Werner Heisenberg",
+        "propositions": ["Niels Bohr", "Werner Heisenberg", "Erwin Schrödinger", "Max Planck"],
+        "explication": "Le principe d'incertitude établit qu'on ne peut connaître simultanément avec précision la position et la vitesse d'une particule."
+      },
+      {
+        "question": "Quel est le nom de la molécule qui porte l'information génétique dans presque tous les organismes vivants ?",
+        "reponse": "L'ADN",
+        "propositions": ["L'ARN", "L'ADN", "L'ATP", "Le glucose"],
+        "explication": "L'ADN (acide désoxyribonucléique) contient les instructions génétiques sous forme de séquences de nucléotides."
+      },
+      {
+        "question": "Comment appelle-t-on une réaction chimique qui libère de la chaleur vers son environnement ?",
+        "reponse": "Une réaction exothermique",
+        "propositions": ["Une réaction endothermique", "Une réaction exothermique", "Une réaction catalytique", "Une réaction réversible"],
+        "explication": "Une réaction exothermique dégage de l'énergie, contrairement à une réaction endothermique qui en absorbe."
+      }
+    ]
+  }
+}

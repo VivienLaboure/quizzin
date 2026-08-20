@@ -115,17 +115,25 @@ async function seed() {
   let totalSkipped = 0;
 
   for (const { file, theme, questions } of batches) {
-    doc[theme] = doc[theme] || {};
+    // doc.get()/doc.set() plutôt que doc[theme] = ... : sur un schéma
+    // strict:false, l'assignation directe d'une clé top-level qui n'existe
+    // pas encore sur le document ne persiste pas au save(), même avec
+    // markModified() — Mongoose ne l'enregistre tout simplement pas comme un
+    // chemin du document. doc.set() est la façon fiable d'ajouter un tout
+    // nouveau thème (constaté en pratique : les thèmes déjà existants se
+    // mettaient à jour correctement, mais un thème inédit disparaissait
+    // silencieusement après doc.save()).
+    const themeData = doc.get(theme) || {};
 
     for (const difficulty of Object.keys(questions)) {
-      const existing = Array.isArray(doc[theme][difficulty]) ? doc[theme][difficulty] : [];
+      const existing = Array.isArray(themeData[difficulty]) ? themeData[difficulty] : [];
       const existingKeys = new Set(existing.map(q => normalize(q.question)));
 
       const incoming = questions[difficulty];
       const toAdd = incoming.filter(q => !existingKeys.has(normalize(q.question)));
       const skipped = incoming.length - toAdd.length;
 
-      doc[theme][difficulty] = [...existing, ...toAdd];
+      themeData[difficulty] = [...existing, ...toAdd];
       totalAdded += toAdd.length;
       totalSkipped += skipped;
 
@@ -135,9 +143,7 @@ async function seed() {
       );
     }
 
-    // Nécessaire : le schéma est strict:false (Mixed), Mongoose ne détecte pas
-    // toujours les mutations imbriquées automatiquement.
-    doc.markModified(theme);
+    doc.set(theme, themeData);
   }
 
   await doc.save();

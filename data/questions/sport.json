@@ -1,0 +1,101 @@
+{
+  "theme": "Sport",
+  "questions": {
+    "1": [
+      {
+        "question": "Combien de joueurs composent une équipe de football sur le terrain (gardien inclus) ?",
+        "reponse": "11",
+        "propositions": ["9", "10", "11", "12"],
+        "explication": "Une équipe de football aligne 11 joueurs, dont un gardien de but."
+      },
+      {
+        "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+        "reponse": "4 ans",
+        "propositions": ["2 ans", "3 ans", "4 ans", "5 ans"],
+        "explication": "Les Jeux olympiques d'été se tiennent tous les 4 ans, sauf exception (comme le report de Tokyo 2020 à 2021)."
+      },
+      {
+        "question": "Quel sport se joue avec une raquette et un volant ?",
+        "reponse": "Le badminton",
+        "propositions": ["Le tennis", "Le badminton", "Le squash", "Le tennis de table"],
+        "explication": "Le badminton se joue avec un volant, contrairement au tennis qui utilise une balle."
+      },
+      {
+        "question": "Quelle nation a remporté le plus de Coupes du monde de football, avec 5 titres ?",
+        "reponse": "Le Brésil",
+        "propositions": ["L'Allemagne", "Le Brésil", "L'Argentine", "L'Italie"],
+        "explication": "Le Brésil a remporté la Coupe du monde en 1958, 1962, 1970, 1994 et 2002."
+      },
+      {
+        "question": "Combien de sets faut-il gagner pour remporter un match de tennis en Grand Chelem chez les hommes ?",
+        "reponse": "3 sets sur 5",
+        "propositions": ["2 sets sur 3", "3 sets sur 5", "4 sets sur 7", "1 set sur 1"],
+        "explication": "Les épreuves masculines des tournois du Grand Chelem se jouent au meilleur des 5 sets."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel cycliste a vu ses 7 victoires au Tour de France (1999-2005) annulées pour dopage ?",
+        "reponse": "Lance Armstrong",
+        "propositions": ["Eddy Merckx", "Lance Armstrong", "Bernard Hinault", "Miguel Indurain"],
+        "explication": "Ses titres ont été annulés en 2012 après la révélation d'un dopage systématique."
+      },
+      {
+        "question": "Quel est le nom du maillot porté par le leader du classement général du Tour de France ?",
+        "reponse": "Le maillot jaune",
+        "propositions": ["Le maillot vert", "Le maillot jaune", "Le maillot à pois", "Le maillot blanc"],
+        "explication": "Le maillot jaune distingue le coureur en tête du classement général, le maillot vert récompensant le meilleur sprinteur."
+      },
+      {
+        "question": "Combien de points rapporte un essai (avant transformation) au rugby à XV ?",
+        "reponse": "5 points",
+        "propositions": ["3 points", "5 points", "6 points", "7 points"],
+        "explication": "Un essai vaut 5 points, auxquels s'ajoutent 2 points si la transformation est réussie."
+      },
+      {
+        "question": "Quel pays a inventé le judo ?",
+        "reponse": "Le Japon",
+        "propositions": ["La Chine", "Le Japon", "La Corée du Sud", "La Thaïlande"],
+        "explication": "Le judo a été créé par Jigoro Kano au Japon en 1882."
+      },
+      {
+        "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres depuis 2009 ?",
+        "reponse": "Usain Bolt",
+        "propositions": ["Usain Bolt", "Tyson Gay", "Justin Gatlin", "Yohan Blake"],
+        "explication": "Usain Bolt a établi le record en 9,58 secondes lors des championnats du monde de Berlin en 2009."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel boxeur a terminé sa carrière professionnelle avec un bilan parfait de 50 victoires pour 0 défaite ?",
+        "reponse": "Floyd Mayweather Jr.",
+        "propositions": ["Floyd Mayweather Jr.", "Mike Tyson", "Muhammad Ali", "Manny Pacquiao"],
+        "explication": "Floyd Mayweather a pris sa retraite en 2017 avec un bilan de 50-0, un record largement médiatisé."
+      },
+      {
+        "question": "Dans quel stade parisien se déroule chaque année le tournoi de tennis de Roland-Garros ?",
+        "reponse": "Le stade Roland-Garros",
+        "propositions": ["Le stade Roland-Garros", "Le Parc des Princes", "Le stade de France", "Bercy"],
+        "explication": "Situé dans le 16e arrondissement de Paris, ce complexe accueille le seul tournoi du Grand Chelem sur terre battue."
+      },
+      {
+        "question": "Quel pays a remporté la toute première Coupe du monde de football en 1930 ?",
+        "reponse": "L'Uruguay",
+        "propositions": ["Le Brésil", "L'Uruguay", "L'Argentine", "L'Italie"],
+        "explication": "L'Uruguay, pays hôte, a battu l'Argentine en finale à Montevideo."
+      },
+      {
+        "question": "Quel nageur détient le record du plus grand nombre de médailles olympiques toutes disciplines confondues ?",
+        "reponse": "Michael Phelps",
+        "propositions": ["Michael Phelps", "Mark Spitz", "Katie Ledecky", "Ian Thorpe"],
+        "explication": "Le nageur américain Michael Phelps a remporté 28 médailles olympiques, dont 23 en or."
+      },
+      {
+        "question": "Quel est le nom du coup au tennis consistant à frapper la balle avant qu'elle ne touche le sol, près du filet ?",
+        "reponse": "La volée",
+        "propositions": ["Le lob", "La volée", "L'amorti", "Le smash"],
+        "explication": "La volée se joue généralement près du filet, avant que la balle ne rebondisse."
+      }
+    ]
+  }
+}
