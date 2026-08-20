@@ -1,18 +1,35 @@
 import Constants from 'expo-constants';
-import * as SecureStore from 'expo-secure-store';
 import { networkErrorStore } from './lib/networkErrorStore';
+import SecureStore from './lib/secureStorage';
 
 const apiUrl = Constants.expoConfig?.extra?.API_URL;
 const port = Constants.expoConfig?.extra?.PORT;
 const BASE = port ? `${apiUrl}:${port}` : apiUrl;
 
+// Le backend est hébergé sur le plan gratuit de Render, qui met le service en
+// veille après 15 min d'inactivité — la requête qui le réveille peut prendre
+// 30 à 50 s avant de répondre. TIMEOUT_MS reste court pour une UX réactive
+// dans le cas normal (serveur déjà chaud) ; RETRY_TIMEOUT_MS ne sert que sur
+// un premier abandon, pour absorber ce réveil sans pénaliser toutes les
+// requêtes d'une longue attente systématique.
 const TIMEOUT_MS = 15000;
+const RETRY_TIMEOUT_MS = 45000;
 
 interface RequestOptions {
     method?: string;
     headers?: Record<string, string>;
     body?: object | string;
     auth?: boolean;
+}
+
+async function fetchWithTimeout(url: string, opts: RequestInit, timeoutMs: number) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        return await fetch(url, { ...opts, signal: controller.signal });
+    } finally {
+        clearTimeout(timeoutId);
+    }
 }
 
 async function request(path: string, options: RequestOptions = {}) {
@@ -32,7 +49,7 @@ async function request(path: string, options: RequestOptions = {}) {
         Object.assign(headers, options.headers);
     }
 
-    const opts: { method?: string; headers: Record<string, string>; body?: string } = {
+    const opts: RequestInit = {
         method: options.method,
         headers,
         body: options.body && typeof options.body === "object"
@@ -40,12 +57,21 @@ async function request(path: string, options: RequestOptions = {}) {
             : (options.body as string | undefined),
     };
 
-    // Timeout via AbortController — évite les chargements infinis
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
-
     try {
-        const res = await fetch(url, { ...opts, signal: controller.signal } as RequestInit);
+        let res;
+        try {
+            res = await fetchWithTimeout(url, opts, TIMEOUT_MS);
+        } catch (error) {
+            // Premier abandon : probablement le serveur Render qui se réveille
+            // plutôt qu'une vraie panne — on retente une fois avec plus de marge
+            // avant d'afficher une erreur à l'utilisateur.
+            if (error instanceof Error && error.name === 'AbortError') {
+                res = await fetchWithTimeout(url, opts, RETRY_TIMEOUT_MS);
+            } else {
+                throw error;
+            }
+        }
+
         const contentType = res.headers.get("content-type") || "";
         const body = contentType.includes("application/json") ? await res.json() : await res.text();
 
@@ -69,8 +95,6 @@ async function request(path: string, options: RequestOptions = {}) {
         }
         console.error("API Error:", (error as Error).message);
         throw error;
-    } finally {
-        clearTimeout(timeoutId);
     }
 }
 
@@ -91,9 +115,6 @@ export const resetPassword = (payload: { email: string; code: string; newPasswor
     request("/api/auth/reset-password", { method: "POST", body: payload, auth: false });
 
 // ─── API Score (token JWT injecté automatiquement) ───────────────────────────
-export const createProfile = (payload: object) =>
-    request("/api/score/new", { method: "POST", body: payload });
-
 export const getProfile = (id: string) =>
     request(`/api/score/${id}`, { method: "GET" });
 
@@ -102,6 +123,9 @@ export const setExperience = (id: string, experience: number) =>
 
 export const updateScoreForTheme = (id: string, payload: object) =>
     request(`/api/score/update/${id}`, { method: "PUT", body: payload });
+
+export const unlockTheme = (id: string, theme: string) =>
+    request(`/api/score/update/${id}/unlock`, { method: "PATCH", body: { theme } });
 
 // ─── API Amis ────────────────────────────────────────────────────────────────
 export const searchUsers = (pseudo: string) =>
@@ -131,8 +155,5 @@ export const getRandomQuizByTheme = (theme: string, difficulty: number) =>
 
 export const getThemes = () =>
     request(`/api/quiz/themes`, { method: "GET", auth: false });
-
-export const createQuiz = () =>
-    request(`/api/quiz/create`, { method: "POST", auth: false });
 
 export default { request };

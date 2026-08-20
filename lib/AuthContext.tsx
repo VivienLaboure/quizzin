@@ -1,5 +1,5 @@
-import * as SecureStore from 'expo-secure-store';
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
+import SecureStore from './secureStorage';
 
 const TOKEN_KEY = 'auth_token';
 const USER_KEY = 'auth_user';

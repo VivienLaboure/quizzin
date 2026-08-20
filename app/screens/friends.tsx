@@ -17,7 +17,6 @@ import {
   searchUsers,
   sendFriendRequest,
 } from '../../API';
-import { useAuth } from '../../lib/AuthContext';
 import { getLevel, getLevelProgress } from '../../lib/LevelSystem';
 import styles from '../styles/default';
 
@@ -45,7 +44,6 @@ interface SearchResult {
 
 export default function FriendsScreen() {
   const router = useRouter();
-  const { user } = useAuth();
   const [tab, setTab] = useState<Tab>('classement');
 
   // Classement

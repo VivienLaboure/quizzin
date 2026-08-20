@@ -196,6 +196,10 @@ export default function ResultatsPage() {
           <Text style={{ color: '#fff', fontSize: 14, marginTop: 4 }}>
             Bravo, tu as monté de niveau !
           </Text>
+          {/* showLevelUp n'est activé que si le niveau a augmenté, donc cet écart est toujours > 0 ici */}
+          <Text style={{ color: '#fff', fontSize: 14, marginTop: 8, fontWeight: 'bold' }}>
+            🔑 +{levelAfter - levelBefore} jeton{levelAfter - levelBefore > 1 ? 's' : ''} de déblocage !
+          </Text>
         </Animated.View>
       )}
 
@@ -203,7 +207,7 @@ export default function ResultatsPage() {
         style={styles.button}
         onPress={() => router.push({ pathname: "/screens/home" })}
       >
-        <Text style={styles.buttonText}>Retour à l'accueil</Text>
+        <Text style={styles.buttonText}>Retour à l&apos;accueil</Text>
       </TouchableOpacity>
 
       <View style={styles.bottomBar} />
