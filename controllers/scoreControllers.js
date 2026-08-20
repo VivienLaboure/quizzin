@@ -77,6 +77,7 @@ exports.getScores = async (req, res) => {
       experience: user.experience,
       unlockedThemes: user.unlockedThemes,
       unlockTokens: user.unlockTokens,
+      themeXp: Object.fromEntries(user.themeXp ?? []),
     });
   } catch (err) {
     errorHandler(err, res);
@@ -125,44 +126,47 @@ exports.updateScore = async (req, res) => {
 };
 
 
-// Mettre à jour uniquement l’expérience — attribue aussi les jetons de
-// déblocage de thème en cas de passage de niveau (voir lib/levelSystem.js)
+// Ajoute de l'XP gagnée à la fois au total global (niveau, jetons) et au
+// total du thème joué (difficulté propre à ce thème) — attribue les jetons
+// de déblocage en cas de passage de niveau global (voir lib/levelSystem.js)
 exports.updateExperience = async (req, res, next) => {
   try {
 
     const { id } = req.params;
-    const { experience } = req.body;
+    const { xpGained, theme } = req.body;
 
     if (!id) return res.status(400).json({ error: "L'id doit être précisé" })
 
-    const expValue = parseInt(experience, 10);
-    if (isNaN(expValue)) {
-      return res.status(400).json({ message: "La valeur d'experience doit être un nombre" })
+    const gained = parseInt(xpGained, 10);
+    if (isNaN(gained) || gained < 0) {
+      return res.status(400).json({ message: "xpGained doit être un nombre positif" })
+    }
+    if (!theme || typeof theme !== "string") {
+      return res.status(400).json({ error: "Thème requis" });
     }
 
-    // Le niveau "avant" se base sur l'XP déjà en base, jamais sur une valeur
+    // Toujours calculé à partir de l'XP déjà en base, jamais d'une valeur
     // fournie par le client — sinon un client malveillant pourrait se
     // fabriquer des jetons en mentant sur son XP de départ.
-    const current = await PersonalScore.findById(id).select("experience");
+    const current = await PersonalScore.findById(id);
     if (!current) return res.status(404).json({ error: "Utilisateur non trouvé" });
 
+    const newExperience = current.experience + gained;
     const levelBefore = getLevel(current.experience);
-    const levelAfter = getLevel(expValue);
+    const levelAfter = getLevel(newExperience);
     const tokensEarned = Math.max(0, levelAfter - levelBefore);
 
-    const updated = await PersonalScore.findByIdAndUpdate(
-      id,
-      {
-        $set: { experience: expValue },
-        ...(tokensEarned > 0 ? { $inc: { unlockTokens: tokensEarned } } : {}),
-      },
-      { new: true, runValidators: true }
-    );
+    const currentThemeXp = current.themeXp.get(theme) ?? 0;
 
-    if(!updated) return res.status(400).json({message: "Erreur lors de l'update"})
+    current.experience = newExperience;
+    current.themeXp.set(theme, currentThemeXp + gained);
+    if (tokensEarned > 0) current.unlockTokens += tokensEarned;
+
+    const updated = await current.save();
 
   res.json({
     ...updated.toObject(),
+    themeXp: Object.fromEntries(updated.themeXp ?? []),
     tokensEarned,
   });
 

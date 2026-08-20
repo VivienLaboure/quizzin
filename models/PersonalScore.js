@@ -54,6 +54,14 @@ const scoreSchema = new mongoose.Schema({
     default: 0,
     min: 0,
   },
+  // XP accumulée séparément pour chaque thème (clé = nom du thème) — pilote
+  // la difficulté propre à ce thème, indépendamment du niveau global du
+  // joueur (qui, lui, ne sert qu'aux jetons de déblocage).
+  themeXp: {
+    type: Map,
+    of: Number,
+    default: () => new Map(),
+  },
 }, {
   timestamps: true // Ajoute createdAt et updatedAt automatiquement
 });
