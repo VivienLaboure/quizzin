@@ -1,27 +1,55 @@
 /**
- * Système de niveaux — calcul purement front-end.
+ * Système de niveaux.
  *
- * Seuil d'XP pour le niveau n : 25 × n × (n − 1)
- *   Niveau 1 :     0 XP
- *   Niveau 2 :    50 XP
- *   Niveau 3 :   150 XP
- *   Niveau 4 :   300 XP
- *   Niveau 5 :   500 XP
- *   Niveau 10 : 2 250 XP
+ * Doit rester strictement identique à backend_quizzin/lib/levelSystem.js —
+ * le serveur recalcule ces mêmes seuils pour détecter un passage de niveau
+ * et attribuer les jetons de déblocage de thème (voir scoreControllers.js).
+ *
+ * Croissance exponentielle : l'XP nécessaire pour passer du niveau n au
+ * niveau n+1 vaut BASE_XP × GROWTH_RATE^(n-1), donc chaque niveau coûte
+ * 30 % de XP en plus que le précédent — la progression ralentit de plus en
+ * plus, contrairement à l'ancienne courbe quadratique où l'écart ne
+ * grandissait que linéairement.
+ *
+ *   Niveau  1 :      0 XP
+ *   Niveau  2 :     50 XP  (+50)
+ *   Niveau  3 :    115 XP  (+65)
+ *   Niveau  4 :    200 XP  (+85)
+ *   Niveau  5 :    310 XP  (+110)
+ *   Niveau 10 :  1 602 XP  (+408 depuis le niveau 9)
+ *   Niveau 20 : 24 199 XP  (+5 623 depuis le niveau 19)
  */
+const BASE_XP = 50;
+const GROWTH_RATE = 1.3;
+
+// thresholdCache[i] = XP total nécessaire pour atteindre le niveau i + 1
+// (thresholdCache[0] = 0 XP pour le niveau 1). Étendu à la demande et
+// mémorisé pour éviter de recalculer toute la suite à chaque appel.
+const thresholdCache: number[] = [0];
+
+function extendCacheTo(level: number): void {
+  while (thresholdCache.length < level) {
+    const n = thresholdCache.length; // niveau du dernier seuil connu dans le cache
+    const increment = Math.round(BASE_XP * Math.pow(GROWTH_RATE, n - 1));
+    thresholdCache.push(thresholdCache[n - 1] + increment);
+  }
+}
 
 /** XP total nécessaire pour atteindre le niveau `level`. */
 export function getLevelThreshold(level: number): number {
-  return 25 * level * (level - 1);
+  if (level <= 1) return 0;
+  extendCacheTo(level);
+  return thresholdCache[level - 1];
 }
 
-/**
- * Retourne le niveau correspondant à `xp` points d'expérience.
- * Résout n*(n-1) ≤ xp/25  →  n = ⌊(1 + √(1 + 4·xp/25)) / 2⌋
- */
+/** Retourne le niveau correspondant à `xp` points d'expérience. */
 export function getLevel(xp: number): number {
   if (xp <= 0) return 1;
-  return Math.floor((1 + Math.sqrt(1 + (4 * xp) / 25)) / 2);
+  let level = 1;
+  while (getLevelThreshold(level + 1) <= xp) {
+    level++;
+  }
+  return level;
 }
 
 export interface LevelProgress {
