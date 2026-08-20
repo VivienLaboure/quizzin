@@ -8,7 +8,6 @@ import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import ScreenHeader from '../../components/ui/ScreenHeader';
 import { IData } from '../../interfaces/IData';
-import { useAuth } from '../../lib/AuthContext';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { GetThemes } from '../../lib/GetRandomQuizz';
 import { getDifficultyForLevel, getLevel } from '../../lib/LevelSystem';
@@ -59,7 +58,6 @@ const NODE_SIZE = 84;
 
 const Themes: React.FC = () => {
   const router = useRouter();
-  const { user } = useAuth();
   const { userId } = useLocalSearchParams();
   const safeUserId = Array.isArray(userId) ? userId[0] : String(userId ?? '');
   const { width } = useWindowDimensions();
@@ -69,6 +67,9 @@ const Themes: React.FC = () => {
   const [themesList, setThemesList] = useState<string[]>([]);
   const [unlockedThemes, setUnlockedThemes] = useState<string[]>([CENTER_THEME]);
   const [unlockTokens, setUnlockTokens] = useState(0);
+  // XP par thème — chaque thème a sa propre difficulté, indépendante des
+  // autres et du niveau global du joueur (voir lib/LevelSystem.ts).
+  const [themeXp, setThemeXp] = useState<Record<string, number>>({});
   const [loading, setLoading] = useState(true);
 
   // Popup de confirmation de déblocage
@@ -76,21 +77,20 @@ const Themes: React.FC = () => {
   const [unlocking, setUnlocking] = useState(false);
   const [feedback, setFeedback] = useState<string | null>(null);
 
-  const playerLevel = getLevel(user?.xp ?? 0);
-  const difficulty = getDifficultyForLevel(playerLevel);
-  const difficultyName = GetDifficultyName(difficulty);
-  const difficultyColor = DIFFICULTY_COLOR[difficulty];
+  const getThemeDifficulty = (theme: string) => getDifficultyForLevel(getLevel(themeXp[theme] ?? 0));
 
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
       if (isMock) {
-        // Mode mock : pas de backend, pas de vrai système de jetons —
-        // tous les thèmes sont accessibles pour pouvoir tester le quiz.
+        // Mode mock : pas de backend, pas de vrai système de progression par
+        // thème — tous les thèmes sont accessibles, difficulté la plus
+        // simple partout, pour pouvoir tester le quiz.
         const names = GetThemes(mockData as IData);
         setThemesList(names);
         setUnlockedThemes(names);
         setUnlockTokens(0);
+        setThemeXp({});
       } else {
         const [names, profile] = await Promise.all([
           getThemes() as Promise<string[]>,
@@ -100,6 +100,7 @@ const Themes: React.FC = () => {
         if (profile) {
           setUnlockedThemes(profile.unlockedThemes ?? [CENTER_THEME]);
           setUnlockTokens(profile.unlockTokens ?? 0);
+          setThemeXp(profile.themeXp ?? {});
         }
       }
     } catch (error) {
@@ -117,7 +118,7 @@ const Themes: React.FC = () => {
   const goToQuiz = (theme: string) => {
     router.push({
       pathname: '/screens/quizzPage',
-      params: { category: theme, difficulty: String(difficulty), userId: safeUserId },
+      params: { category: theme, difficulty: String(getThemeDifficulty(theme)), userId: safeUserId },
     });
   };
 
@@ -163,25 +164,26 @@ const Themes: React.FC = () => {
       <ScreenHeader onBack={() => router.back()} title="Thèmes" />
 
       <View style={pageStyles.content}>
-        {/* Indicateur de difficulté automatique */}
         <Card style={pageStyles.infoCard}>
-          <View style={pageStyles.infoRow}>
-            <View style={[pageStyles.dot, { backgroundColor: difficultyColor }]} />
-            <Text style={pageStyles.infoText}>
-              Difficulté : <Text style={{ fontWeight: '700', color: difficultyColor }}>{difficultyName}</Text>
-              {'  '}
-              <Text style={pageStyles.mutedText}>(niveau {playerLevel})</Text>
-            </Text>
-          </View>
-
           {!isMock && (
-            <View style={[pageStyles.infoRow, { marginTop: spacing.sm }]}>
+            <View style={pageStyles.infoRow}>
               <Text style={{ fontSize: 18 }}>🔑</Text>
               <Text style={pageStyles.infoText}>
                 <Text style={{ fontWeight: '700', color: colors.primary }}>{unlockTokens}</Text> jeton{unlockTokens !== 1 ? 's' : ''} de déblocage
               </Text>
             </View>
           )}
+
+          {/* Légende : chaque thème progresse en difficulté indépendamment,
+              d'où le point de couleur sur chaque nœud débloqué. */}
+          <View style={[pageStyles.infoRow, { marginTop: isMock ? 0 : spacing.sm, flexWrap: 'wrap' }]}>
+            {([1, 2, 3] as const).map(d => (
+              <View key={d} style={pageStyles.legendItem}>
+                <View style={[pageStyles.dot, { backgroundColor: DIFFICULTY_COLOR[d] }]} />
+                <Text style={pageStyles.mutedText}>{GetDifficultyName(d)}</Text>
+              </View>
+            ))}
+          </View>
         </Card>
 
         {loading ? (
@@ -226,6 +228,7 @@ const Themes: React.FC = () => {
                   top: starCenter - CENTER_SIZE / 2,
                 }]}
               >
+                <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(CENTER_THEME)] }]} />
                 <Text style={pageStyles.centerNodeText}>{CENTER_THEME}</Text>
               </TouchableOpacity>
             )}
@@ -247,6 +250,9 @@ const Themes: React.FC = () => {
                     { left: x - NODE_SIZE / 2, top: y - NODE_SIZE / 2 },
                   ]}
                 >
+                  {isUnlocked && (
+                    <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(theme)] }]} />
+                  )}
                   {!isUnlocked && <Text style={pageStyles.lockIcon}>🔒</Text>}
                   <Text style={isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked}>
                     {theme}
@@ -300,7 +306,16 @@ const pageStyles = StyleSheet.create({
   infoRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   dot: { width: 9, height: 9, borderRadius: 5 },
   infoText: { color: colors.textSecondary, fontSize: 14 },
-  mutedText: { color: colors.textMuted },
+  mutedText: { color: colors.textMuted, fontSize: 12 },
+  legendItem: { flexDirection: 'row', alignItems: 'center', gap: 4, marginRight: spacing.md },
+  difficultyDot: {
+    position: 'absolute',
+    top: 10,
+    right: 10,
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
   centerNode: {
     position: 'absolute',
     width: CENTER_SIZE,

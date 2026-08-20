@@ -107,10 +107,12 @@ export default function QuizzPage() {
         const xpGained = computeXpGained(finalScore, safeDifficulty);
         const newXp = xpBefore + xpGained;
 
-        // Mise à jour de l'XP en BDD (valeur cumulée) + dans le contexte local
+        // Mise à jour de l'XP en BDD — le serveur incrémente à la fois l'XP
+        // globale (niveaux/jetons) et l'XP de ce thème (difficulté propre à
+        // ce thème) à partir du delta gagné, pas d'une valeur absolue.
         if (safeUserId) {
             try {
-                await setExperience(safeUserId, newXp);
+                await setExperience(safeUserId, xpGained, safeCategory);
                 await updateXp(newXp);
             } catch (error) {
                 console.error("Erreur mise à jour XP :", error);

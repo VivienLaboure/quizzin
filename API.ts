@@ -118,8 +118,8 @@ export const resetPassword = (payload: { email: string; code: string; newPasswor
 export const getProfile = (id: string) =>
     request(`/api/score/${id}`, { method: "GET" });
 
-export const setExperience = (id: string, experience: number) =>
-    request(`/api/score/update/${id}/experience`, { method: "PATCH", body: { experience } });
+export const setExperience = (id: string, xpGained: number, theme: string) =>
+    request(`/api/score/update/${id}/experience`, { method: "PATCH", body: { xpGained, theme } });
 
 export const updateScoreForTheme = (id: string, payload: object) =>
     request(`/api/score/update/${id}`, { method: "PUT", body: payload });
