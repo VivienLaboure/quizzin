@@ -4,7 +4,7 @@ import { Animated, StyleSheet, Text, View } from 'react-native';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
-import { getLevel, getLevelProgress, getLevelThreshold } from '../../lib/LevelSystem';
+import { getLevel, getLevelProgress, getLevelThreshold, getTokensForLevel } from '../../lib/LevelSystem';
 import { colors, radius, spacing, typography } from '../../lib/theme';
 
 export default function ResultatsPage() {
@@ -21,6 +21,7 @@ export default function ResultatsPage() {
   const levelBefore = getLevel(safeXpBefore);
   const levelAfter = getLevel(xpAfter);
   const didLevelUp = levelAfter > levelBefore;
+  const tokensGained = getTokensForLevel(levelAfter) - getTokensForLevel(levelBefore);
 
   const progressBefore = getLevelProgress(safeXpBefore);
   const progressAfter = getLevelProgress(xpAfter);
@@ -136,10 +137,12 @@ export default function ResultatsPage() {
         <Animated.View style={[styles.levelUpBanner, { opacity: levelUpOpacity }]}>
           <Text style={styles.levelUpTitle}>NIVEAU {levelAfter} !</Text>
           <Text style={styles.levelUpSubtitle}>Bravo, tu as monté de niveau !</Text>
-          {/* showLevelUp n'est activé que si le niveau a augmenté, donc cet écart est toujours > 0 ici */}
-          <Text style={styles.levelUpTokens}>
-            🔑 +{levelAfter - levelBefore} jeton{levelAfter - levelBefore > 1 ? 's' : ''} de déblocage !
-          </Text>
+          {/* Un jeton tous les 2 niveaux : peut être 0 sur un level-up donné */}
+          {tokensGained > 0 && (
+            <Text style={styles.levelUpTokens}>
+              🔑 +{tokensGained} jeton{tokensGained > 1 ? 's' : ''} de déblocage !
+            </Text>
+          )}
         </Animated.View>
       )}
 

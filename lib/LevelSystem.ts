@@ -52,6 +52,19 @@ export function getLevel(xp: number): number {
   return level;
 }
 
+/**
+ * Jetons de déblocage cumulés à un niveau donné : un jeton tous les 2
+ * niveaux (niveau 2 → 1 jeton, niveau 4 → 2 jetons, ...) plutôt qu'un par
+ * niveau, pour que les jetons restent rares même si le joueur enchaîne les
+ * niveaux rapidement en début de partie. Doit rester identique à
+ * getTokensForLevel() dans backend_quizzin/lib/levelSystem.js — c'est le
+ * serveur qui attribue réellement les jetons, cette copie ne sert qu'à
+ * afficher le bon nombre dans l'animation de résultats.
+ */
+export function getTokensForLevel(level: number): number {
+  return Math.floor(level / 2);
+}
+
 export interface LevelProgress {
   level: number;
   currentXp: number; // XP accumulée dans le niveau actuel
