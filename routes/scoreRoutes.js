@@ -18,4 +18,7 @@ router.put("/update/:id", scoreController.updateScore);
 // PATCH /api/score/update/:id/experience - Mettre à jour uniquement l'expérience
 router.patch("/update/:id/experience", scoreController.updateExperience);
 
+// PATCH /api/score/update/:id/unlock - Débloquer un thème avec 1 jeton
+router.patch("/update/:id/unlock", scoreController.unlockTheme);
+
 module.exports = router;

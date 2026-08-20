@@ -40,8 +40,21 @@ const scoreSchema = new mongoose.Schema({
     min: 0
   },
   // Tableau des scores par thème
-  scores: [scoreDetailSchema]
-}, { 
+  scores: [scoreDetailSchema],
+  // Thèmes débloqués — Culture-generale est le centre de l'étoile, toujours
+  // débloqué par défaut. Les autres se débloquent avec un jeton.
+  unlockedThemes: {
+    type: [String],
+    default: ["Culture-generale"],
+  },
+  // Jetons de déblocage disponibles, gagnés à chaque passage de niveau
+  // (voir controllers/scoreControllers.js::updateExperience)
+  unlockTokens: {
+    type: Number,
+    default: 0,
+    min: 0,
+  },
+}, {
   timestamps: true // Ajoute createdAt et updatedAt automatiquement
 });
 

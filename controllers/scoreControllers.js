@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const PersonalScore = require("../models/PersonalScore");
+const Quiz = require("../models/Quiz");
 const errorHandler = require("../middleware/errorHandlers");
+const { getLevel } = require("../lib/levelSystem");
 
 /**
  * Valide les données d'un nouvel utilisateur
@@ -49,7 +51,8 @@ exports.createScore = async (req, res) => {
 };
 
 /**
- * Récupère les scores d'un utilisateur par son ID
+ * Récupère le profil complet d'un utilisateur par son ID (scores, XP,
+ * thèmes débloqués, jetons disponibles)
  * @param {Object} req - Requête Express
  * @param {string} req.params.id - ID MongoDB de l'utilisateur
  * @param {Object} res - Réponse Express
@@ -69,8 +72,12 @@ exports.getScores = async (req, res) => {
       return res.status(404).json({ error: "Utilisateur non trouvé" });
     }
 
-    // Code HTTP 200 pour une requête GET réussie
-    res.status(200).json(user.scores);
+    res.status(200).json({
+      scores: user.scores,
+      experience: user.experience,
+      unlockedThemes: user.unlockedThemes,
+      unlockTokens: user.unlockTokens,
+    });
   } catch (err) {
     errorHandler(err, res);
   }
@@ -118,7 +125,8 @@ exports.updateScore = async (req, res) => {
 };
 
 
-// Mettre à jour uniquement l’expérience
+// Mettre à jour uniquement l’expérience — attribue aussi les jetons de
+// déblocage de thème en cas de passage de niveau (voir lib/levelSystem.js)
 exports.updateExperience = async (req, res, next) => {
   try {
 
@@ -132,18 +140,83 @@ exports.updateExperience = async (req, res, next) => {
       return res.status(400).json({ message: "La valeur d'experience doit être un nombre" })
     }
 
+    // Le niveau "avant" se base sur l'XP déjà en base, jamais sur une valeur
+    // fournie par le client — sinon un client malveillant pourrait se
+    // fabriquer des jetons en mentant sur son XP de départ.
+    const current = await PersonalScore.findById(id).select("experience");
+    if (!current) return res.status(404).json({ error: "Utilisateur non trouvé" });
+
+    const levelBefore = getLevel(current.experience);
+    const levelAfter = getLevel(expValue);
+    const tokensEarned = Math.max(0, levelAfter - levelBefore);
+
     const updated = await PersonalScore.findByIdAndUpdate(
       id,
-      { $set: { experience: expValue } },
-      { new: true, runValidators: true }      
+      {
+        $set: { experience: expValue },
+        ...(tokensEarned > 0 ? { $inc: { unlockTokens: tokensEarned } } : {}),
+      },
+      { new: true, runValidators: true }
     );
 
     if(!updated) return res.status(400).json({message: "Erreur lors de l'update"})
 
-  res.json(updated);
+  res.json({
+    ...updated.toObject(),
+    tokensEarned,
+  });
 
 } catch (err) {
   errorHandler(err, res);
 }
+};
+
+/**
+ * Débloque un thème en dépensant 1 jeton.
+ * PATCH /api/score/update/:id/unlock
+ * Body: { theme }
+ */
+exports.unlockTheme = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { theme } = req.body;
+
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({ error: "Format d'ID invalide" });
+    }
+    if (!theme || typeof theme !== "string") {
+      return res.status(400).json({ error: "Thème requis" });
+    }
+
+    const profile = await PersonalScore.findById(id);
+    if (!profile) {
+      return res.status(404).json({ error: "Utilisateur non trouvé" });
+    }
+
+    if (profile.unlockedThemes.includes(theme)) {
+      return res.status(409).json({ error: "Ce thème est déjà débloqué" });
+    }
+    if (profile.unlockTokens < 1) {
+      return res.status(403).json({ error: "Aucun jeton de déblocage disponible" });
+    }
+
+    // Vérifier que le thème existe réellement (évite de gaspiller un jeton
+    // sur un nom de thème erroné)
+    const themeExists = await Quiz.findOne({ [theme]: { $exists: true } }).select("_id").lean();
+    if (!themeExists) {
+      return res.status(404).json({ error: "Thème introuvable" });
+    }
+
+    profile.unlockedThemes.push(theme);
+    profile.unlockTokens -= 1;
+    await profile.save();
+
+    res.status(200).json({
+      unlockedThemes: profile.unlockedThemes,
+      unlockTokens: profile.unlockTokens,
+    });
+  } catch (err) {
+    errorHandler(err, res);
+  }
 };
 
