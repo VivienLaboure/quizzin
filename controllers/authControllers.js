@@ -1,6 +1,5 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const nodemailer = require("nodemailer");
 const crypto = require("crypto");
 const User = require("../models/User");
 const PersonalScore = require("../models/PersonalScore");
@@ -19,29 +18,48 @@ function generateToken(user) {
   );
 }
 
+const RESEND_API_URL = "https://api.resend.com/emails";
+const MAIL_TIMEOUT_MS = 10000;
+// Domaine de test partagé Resend — fonctionne sans configuration DNS, mais
+// ne peut envoyer qu'à l'adresse du compte Resend. À remplacer par une
+// adresse sur un domaine vérifié (ex: no-reply@tondomaine.com) une fois
+// prêt pour de vrais utilisateurs.
+const MAIL_FROM = process.env.MAIL_FROM || "Quizzin <onboarding@resend.dev>";
+
 /**
- * Crée un transporteur Nodemailer à partir des variables d'environnement.
+ * Envoie un email via l'API Resend.
  *
- * Timeouts explicites : par défaut, nodemailer peut rester bloqué plusieurs
- * minutes si le serveur SMTP ne répond pas correctement (identifiants
- * invalides, hôte injoignable...), ce qui bloque toute la requête HTTP —
- * register()/forgotPassword() ne renvoient alors jamais de réponse. Avec ces
- * timeouts, une mauvaise config mail échoue en quelques secondes et remonte
- * une vraie erreur au lieu de faire "timeout" côté client.
+ * Timeout explicite (AbortController) : sans ça, un problème réseau ou une
+ * API qui ne répond pas bloquerait toute la requête HTTP indéfiniment —
+ * register()/forgotPassword() ne renverraient alors jamais de réponse.
  */
-function createMailTransporter() {
-  return nodemailer.createTransport({
-    host: process.env.MAIL_HOST,
-    port: Number(process.env.MAIL_PORT) || 587,
-    secure: process.env.MAIL_SECURE === "true",
-    auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS,
-    },
-    connectionTimeout: 10000,
-    greetingTimeout: 10000,
-    socketTimeout: 15000,
-  });
+async function sendEmail({ to, subject, text, html }) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), MAIL_TIMEOUT_MS);
+
+  try {
+    const res = await fetch(RESEND_API_URL, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ from: MAIL_FROM, to, subject, text, html }),
+      signal: controller.signal,
+    });
+
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body?.message || `Échec de l'envoi de l'email (${res.status})`);
+    }
+  } catch (err) {
+    if (err.name === "AbortError") {
+      throw new Error("L'envoi de l'email a pris trop de temps");
+    }
+    throw err;
+  } finally {
+    clearTimeout(timeoutId);
+  }
 }
 
 // ─── Inscription ──────────────────────────────────────────────────────────────
@@ -124,9 +142,7 @@ exports.register = async (req, res) => {
     }
 
     // Envoyer le code par email
-    const transporter = createMailTransporter();
-    await transporter.sendMail({
-      from: `"Quizzin" <${process.env.MAIL_USER}>`,
+    await sendEmail({
       to: normalizedEmail,
       subject: "Confirme ton adresse email",
       text: `Ton code de vérification est : ${code}\n\nIl est valable 15 minutes.\n\nSi tu n'as pas créé de compte, ignore cet email.`,
@@ -281,9 +297,7 @@ exports.forgotPassword = async (req, res) => {
     await user.save();
 
     // Envoyer l'email
-    const transporter = createMailTransporter();
-    await transporter.sendMail({
-      from: `"Quizzin" <${process.env.MAIL_USER}>`,
+    await sendEmail({
       to: user.email,
       subject: "Réinitialisation de votre mot de passe",
       text: `Votre code de réinitialisation est : ${code}\n\nIl est valable 15 minutes.\n\nSi vous n'avez pas fait cette demande, ignorez cet email.`,
