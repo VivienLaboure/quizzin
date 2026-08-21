@@ -12,6 +12,7 @@ import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { GetThemes } from '../../lib/GetRandomQuizz';
 import { getDifficultyForLevel, getLevel } from '../../lib/LevelSystem';
 import { colors, radius, spacing } from '../../lib/theme';
+import { getParent } from '../../lib/themeTree';
 
 const DIFFICULTY_COLOR: Record<number, string> = {
   1: '#4CAF50',
@@ -24,10 +25,11 @@ const DIFFICULTY_COLOR: Record<number, string> = {
 const CENTER_THEME = 'Culture-generale';
 
 // Ordre du plus général au plus niche — détermine uniquement la position
-// des thèmes autour de l'étoile (du haut, dans le sens horaire), pas de
-// contrainte de déblocage : le joueur reste libre de débloquer n'importe
-// quel thème visible dès qu'il a un jeton. Un thème absent de cette liste
-// (ajouté plus tard côté contenu) est simplement placé à la fin.
+// des thèmes racines autour du centre (du haut, dans le sens horaire) et
+// l'ordre des enfants d'un même parent. N'impose aucune contrainte de
+// déblocage pour les thèmes racines (libre choix dès qu'un jeton est
+// disponible) ; les sous-thèmes, eux, exigent leur parent débloqué au
+// préalable (voir lib/themeTree.ts).
 const THEME_ORDER = [
   'Histoire',
   'Géographie',
@@ -54,7 +56,78 @@ function sortByGenerality(themes: string[]): string[] {
 }
 
 const CENTER_SIZE = 104;
-const NODE_SIZE = 84;
+// Taille et distance par profondeur (1 = thème racine, 2 = enfant, 3 = petit-enfant, ...)
+const NODE_SIZE_BY_DEPTH = [0, 84, 68, 56];
+const NODE_SIZE_MIN = 48;
+const FONT_SIZE_BY_DEPTH = [0, 11, 10, 9];
+const FONT_SIZE_MIN = 8.5;
+
+function nodeSizeForDepth(depth: number): number {
+  return NODE_SIZE_BY_DEPTH[depth] ?? NODE_SIZE_MIN;
+}
+function fontSizeForDepth(depth: number): number {
+  return FONT_SIZE_BY_DEPTH[depth] ?? FONT_SIZE_MIN;
+}
+
+interface TreeNode {
+  theme: string;
+  depth: number;
+  x: number;
+  y: number;
+  parentX: number;
+  parentY: number;
+}
+
+/**
+ * Construit récursivement la position de chaque thème dans l'arbre :
+ * les thèmes racines sont répartis en cercle complet autour du centre,
+ * puis chaque enfant est placé dans le prolongement radial de son parent
+ * (légèrement éventé si plusieurs frères), à une distance qui rétrécit
+ * avec la profondeur pour garder l'ensemble lisible.
+ */
+function buildTreeNodes(themesList: string[], centerX: number, centerY: number, radiusByDepth: number[]): TreeNode[] {
+  const childrenOf: Record<string, string[]> = {};
+  for (const theme of themesList) {
+    const parent = getParent(theme);
+    if (parent) {
+      (childrenOf[parent] ??= []).push(theme);
+    }
+  }
+
+  const nodes: TreeNode[] = [];
+  const MAX_SPREAD = Math.PI / 3; // 60° d'éventail maximum entre le premier et le dernier frère
+
+  function place(theme: string, depth: number, x: number, y: number, angle: number, parentX: number, parentY: number) {
+    nodes.push({ theme, depth, x, y, parentX, parentY });
+
+    const kids = sortByGenerality(childrenOf[theme] ?? []);
+    if (kids.length === 0) return;
+
+    const dist = radiusByDepth[depth + 1] ?? radiusByDepth[radiusByDepth.length - 1];
+    const step = kids.length > 1 ? Math.min(MAX_SPREAD / (kids.length - 1), Math.PI / 6) : 0;
+
+    kids.forEach((child, i) => {
+      const offset = kids.length > 1 ? (i - (kids.length - 1) / 2) * step : 0;
+      const childAngle = angle + offset;
+      const cx = x + dist * Math.cos(childAngle);
+      const cy = y + dist * Math.sin(childAngle);
+      place(child, depth + 1, cx, cy, childAngle, x, y);
+    });
+  }
+
+  const roots = sortByGenerality(themesList.filter(t => t !== CENTER_THEME && !getParent(t)));
+  const angleStep = roots.length > 0 ? (2 * Math.PI) / roots.length : 0;
+  const rootDist = radiusByDepth[1];
+
+  roots.forEach((theme, i) => {
+    const angle = -Math.PI / 2 + i * angleStep;
+    const x = centerX + rootDist * Math.cos(angle);
+    const y = centerY + rootDist * Math.sin(angle);
+    place(theme, 1, x, y, angle, centerX, centerY);
+  });
+
+  return nodes;
+}
 
 const Themes: React.FC = () => {
   const router = useRouter();
@@ -127,6 +200,12 @@ const Themes: React.FC = () => {
       goToQuiz(theme);
       return;
     }
+
+    const parent = getParent(theme);
+    if (parent && !unlockedThemes.includes(parent)) {
+      setFeedback(`Débloque d'abord "${parent}"`);
+      return;
+    }
     if (unlockTokens < 1) {
       setFeedback('Pas de jeton disponible — monte de niveau pour en gagner !');
       return;
@@ -150,14 +229,14 @@ const Themes: React.FC = () => {
     }
   };
 
-  // ─── Géométrie de l'étoile ───────────────────────────────────────────────
-  const starSize = Math.min(width * 0.85, 340);
+  // ─── Géométrie de l'arbre ────────────────────────────────────────────────
+  const starSize = Math.min(width * 0.9, 380);
   const starCenter = starSize / 2;
-  const radiusPx = starSize / 2 - NODE_SIZE / 2 - 4;
+  const rootRadius = starSize / 2 - NODE_SIZE_BY_DEPTH[1] / 2 - 4;
+  const radiusByDepth = [0, rootRadius, rootRadius * 0.62, rootRadius * 0.5];
 
-  const outerThemes = sortByGenerality(themesList.filter(t => t !== CENTER_THEME));
   const hasCenter = themesList.includes(CENTER_THEME);
-  const angleStep = outerThemes.length > 0 ? (2 * Math.PI) / outerThemes.length : 0;
+  const treeNodes = buildTreeNodes(themesList, starCenter, starCenter, radiusByDepth);
 
   return (
     <View style={pageStyles.container}>
@@ -190,17 +269,21 @@ const Themes: React.FC = () => {
           <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
         ) : (
           <View style={{ width: starSize, height: starSize, marginTop: spacing.lg }}>
-            {/* Rayons reliant le centre à chaque thème */}
-            {outerThemes.map((theme, i) => {
-              const angle = -Math.PI / 2 + i * angleStep;
-              const isUnlocked = unlockedThemes.includes(theme);
+            {/* Branches reliant chaque thème à son parent (le centre pour
+                les thèmes racines, un autre thème pour les sous-thèmes) */}
+            {treeNodes.map(node => {
+              const dx = node.x - node.parentX;
+              const dy = node.y - node.parentY;
+              const length = Math.hypot(dx, dy);
+              const angle = Math.atan2(dy, dx);
+              const isUnlocked = unlockedThemes.includes(node.theme);
               return (
                 <View
-                  key={`line-${theme}`}
+                  key={`line-${node.theme}`}
                   style={{
                     position: 'absolute',
-                    left: starCenter,
-                    top: starCenter,
+                    left: node.parentX,
+                    top: node.parentY,
                     width: 0,
                     height: 0,
                     transform: [{ rotate: `${angle}rad` }],
@@ -210,7 +293,7 @@ const Themes: React.FC = () => {
                     position: 'absolute',
                     left: 0,
                     top: -1.5,
-                    width: radiusPx,
+                    width: length,
                     height: 3,
                     borderRadius: 1.5,
                     backgroundColor: isUnlocked ? colors.primary : colors.border,
@@ -233,29 +316,36 @@ const Themes: React.FC = () => {
               </TouchableOpacity>
             )}
 
-            {/* Thèmes autour */}
-            {outerThemes.map((theme, i) => {
-              const angle = -Math.PI / 2 + i * angleStep;
-              const x = starCenter + radiusPx * Math.cos(angle);
-              const y = starCenter + radiusPx * Math.sin(angle);
-              const isUnlocked = unlockedThemes.includes(theme);
+            {/* Thèmes racines et sous-thèmes */}
+            {treeNodes.map(node => {
+              const isUnlocked = unlockedThemes.includes(node.theme);
+              const size = nodeSizeForDepth(node.depth);
 
               return (
                 <TouchableOpacity
-                  key={theme}
-                  onPress={() => handleThemePress(theme, isUnlocked)}
+                  key={node.theme}
+                  onPress={() => handleThemePress(node.theme, isUnlocked)}
                   style={[
                     pageStyles.node,
                     isUnlocked ? pageStyles.nodeUnlocked : pageStyles.nodeLocked,
-                    { left: x - NODE_SIZE / 2, top: y - NODE_SIZE / 2 },
+                    {
+                      width: size,
+                      height: size,
+                      borderRadius: size / 2,
+                      left: node.x - size / 2,
+                      top: node.y - size / 2,
+                    },
                   ]}
                 >
                   {isUnlocked && (
-                    <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(theme)] }]} />
+                    <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)] }]} />
                   )}
                   {!isUnlocked && <Text style={pageStyles.lockIcon}>🔒</Text>}
-                  <Text style={isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked}>
-                    {theme}
+                  <Text style={[
+                    isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked,
+                    { fontSize: fontSizeForDepth(node.depth) },
+                  ]}>
+                    {node.theme}
                   </Text>
                 </TouchableOpacity>
               );
@@ -334,12 +424,9 @@ const pageStyles = StyleSheet.create({
   centerNodeText: { color: colors.white, fontWeight: '700', fontSize: 13, textAlign: 'center' },
   node: {
     position: 'absolute',
-    width: NODE_SIZE,
-    height: NODE_SIZE,
-    borderRadius: NODE_SIZE / 2,
     alignItems: 'center',
     justifyContent: 'center',
-    padding: spacing.xs + 2,
+    padding: spacing.xs,
     borderWidth: 1.5,
   },
   nodeUnlocked: {
@@ -355,9 +442,9 @@ const pageStyles = StyleSheet.create({
     backgroundColor: colors.background,
     borderColor: colors.border,
   },
-  lockIcon: { fontSize: 15, marginBottom: 2 },
-  nodeTextUnlocked: { color: colors.textPrimary, fontWeight: '700', fontSize: 11, textAlign: 'center' },
-  nodeTextLocked: { color: colors.textMuted, fontWeight: '700', fontSize: 11, textAlign: 'center' },
+  lockIcon: { fontSize: 14, marginBottom: 2 },
+  nodeTextUnlocked: { color: colors.textPrimary, fontWeight: '700', textAlign: 'center' },
+  nodeTextLocked: { color: colors.textMuted, fontWeight: '700', textAlign: 'center' },
   overlay: {
     position: 'absolute',
     top: 0, left: 0, right: 0, bottom: 0,
