@@ -1,0 +1,101 @@
+{
+  "theme": "Napoleon",
+  "questions": {
+    "1": [
+      {
+        "question": "Sur quelle île méditerranéenne Napoléon Bonaparte est-il né en 1769 ?",
+        "reponse": "La Corse",
+        "propositions": ["La Corse", "La Sardaigne", "La Sicile", "Malte"],
+        "explication": "Napoléon naît à Ajaccio, en Corse, le 15 août 1769."
+      },
+      {
+        "question": "En quelle année Napoléon se fait-il couronner empereur des Français ?",
+        "reponse": "1804",
+        "propositions": ["1799", "1802", "1804", "1808"],
+        "explication": "Napoléon est sacré empereur à Notre-Dame de Paris le 2 décembre 1804."
+      },
+      {
+        "question": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?",
+        "reponse": "La bataille de Waterloo",
+        "propositions": ["La bataille d'Austerlitz", "La bataille de Waterloo", "La bataille de Leipzig", "La bataille de Wagram"],
+        "explication": "Napoléon est vaincu à Waterloo le 18 juin 1815 par les troupes britanniques et prussiennes."
+      },
+      {
+        "question": "Sur quelle île Napoléon est-il exilé après sa première abdication en 1814 ?",
+        "reponse": "L'île d'Elbe",
+        "propositions": ["L'île d'Elbe", "Sainte-Hélène", "La Corse", "Malte"],
+        "explication": "Napoléon est exilé sur l'île d'Elbe en 1814, avant de s'en échapper pour reconquérir le pouvoir durant les Cent-Jours."
+      },
+      {
+        "question": "Où Napoléon meurt-il en exil en 1821 ?",
+        "reponse": "Sainte-Hélène",
+        "propositions": ["Sainte-Hélène", "L'île d'Elbe", "La Corse", "Malte"],
+        "explication": "Après Waterloo, Napoléon est exilé sur l'île isolée de Sainte-Hélène, dans l'Atlantique Sud, où il meurt en 1821."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quelle bataille de 1805, considérée comme le chef-d'œuvre militaire de Napoléon, voit la défaite des armées russe et autrichienne ?",
+        "reponse": "La bataille d'Austerlitz",
+        "propositions": ["La bataille d'Austerlitz", "La bataille d'Iéna", "La bataille de Friedland", "La bataille de Wagram"],
+        "explication": "Surnommée la \"bataille des Trois Empereurs\", Austerlitz est remportée le 2 décembre 1805."
+      },
+      {
+        "question": "Quel code juridique, promulgué en 1804, réforme en profondeur le droit civil français sous Napoléon ?",
+        "reponse": "Le Code civil (Code Napoléon)",
+        "propositions": ["Le Code civil (Code Napoléon)", "Le Code pénal", "La Constitution de l'an VIII", "Le Concordat"],
+        "explication": "Le Code civil unifie le droit français et influence de nombreuses législations européennes."
+      },
+      {
+        "question": "Quelle campagne militaire désastreuse de 1812 marque le début du déclin de Napoléon ?",
+        "reponse": "La campagne de Russie",
+        "propositions": ["La campagne d'Égypte", "La campagne de Russie", "La campagne d'Espagne", "La campagne d'Italie"],
+        "explication": "L'invasion de la Russie se solde par une retraite catastrophique et la perte de la majeure partie de la Grande Armée."
+      },
+      {
+        "question": "Quel accord signé en 1801 avec le pape Pie VII réconcilie l'État français et l'Église catholique ?",
+        "reponse": "Le Concordat de 1801",
+        "propositions": ["Le Concordat de 1801", "L'édit de Fontainebleau", "Le traité de Tolentino", "La Constitution civile du clergé"],
+        "explication": "Le Concordat rétablit le catholicisme comme religion majoritaire tout en maintenant la liberté de culte."
+      },
+      {
+        "question": "Quel nom porte la période de 1815 entre le retour de Napoléon de l'île d'Elbe et sa défaite à Waterloo ?",
+        "reponse": "Les Cent-Jours",
+        "propositions": ["Les Cent-Jours", "Le Consulat", "Le Directoire", "La Restauration"],
+        "explication": "Les Cent-Jours désignent la brève reprise du pouvoir par Napoléon entre mars et juillet 1815."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel blocus économique, décrété par Napoléon en 1806, visait à isoler économiquement le Royaume-Uni ?",
+        "reponse": "Le blocus continental",
+        "propositions": ["Le blocus continental", "Le traité de Tilsit", "La paix d'Amiens", "Le blocus de Toulon"],
+        "explication": "Le blocus continental interdisait aux pays européens sous influence française de commercer avec le Royaume-Uni."
+      },
+      {
+        "question": "Quel frère de Napoléon a été placé sur le trône d'Espagne en 1808, provoquant un soulèvement populaire ?",
+        "reponse": "Joseph Bonaparte",
+        "propositions": ["Joseph Bonaparte", "Louis Bonaparte", "Jérôme Bonaparte", "Lucien Bonaparte"],
+        "explication": "L'installation de Joseph Bonaparte sur le trône espagnol déclenche la guerre d'indépendance espagnole."
+      },
+      {
+        "question": "Quelle expédition militaire de 1798-1801, menée par Napoléon, a permis la découverte de la pierre de Rosette ?",
+        "reponse": "La campagne d'Égypte",
+        "propositions": ["La campagne d'Égypte", "La campagne d'Italie", "La campagne de Syrie", "La campagne des Indes"],
+        "explication": "Cette expédition scientifique et militaire a notamment permis de déchiffrer les hiéroglyphes grâce à la pierre de Rosette."
+      },
+      {
+        "question": "Quel traité de 1807, signé avec la Russie, consacre l'apogée de la puissance napoléonienne en Europe ?",
+        "reponse": "Le traité de Tilsit",
+        "propositions": ["Le traité de Tilsit", "Le traité de Presbourg", "Le traité de Lunéville", "Le traité d'Amiens"],
+        "explication": "Le traité de Tilsit scelle une alliance temporaire entre Napoléon et le tsar Alexandre Ier."
+      },
+      {
+        "question": "Quel titre Napoléon prend-il immédiatement après le coup d'État du 18 Brumaire en 1799 ?",
+        "reponse": "Premier Consul",
+        "propositions": ["Premier Consul", "Consul à vie", "Directeur", "Empereur"],
+        "explication": "Napoléon devient l'un des trois consuls, puis rapidement le seul détenteur réel du pouvoir exécutif, avant d'être proclamé Consul à vie en 1802 puis empereur en 1804."
+      }
+    ]
+  }
+}

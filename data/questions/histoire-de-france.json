@@ -1,0 +1,101 @@
+{
+  "theme": "Histoire de France",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel roi de France est resté au pouvoir le plus longtemps de l'histoire, avec 72 ans de règne ?",
+        "reponse": "Louis XIV",
+        "propositions": ["Louis XIV", "Louis XV", "François Ier", "Louis IX"],
+        "explication": "Louis XIV règne de 1643 à 1715, soit 72 ans, le règne le plus long de l'histoire de France."
+      },
+      {
+        "question": "Quelle bataille de 1214 renforce durablement le pouvoir royal français face à une coalition anglo-germanique ?",
+        "reponse": "La bataille de Bouvines",
+        "propositions": ["La bataille de Bouvines", "La bataille d'Azincourt", "La bataille de Crécy", "La bataille de Poitiers"],
+        "explication": "Philippe Auguste y remporte une victoire décisive qui consolide la monarchie capétienne."
+      },
+      {
+        "question": "Quel traité de 843 partage l'empire de Charlemagne entre ses petits-fils, donnant naissance à la Francie occidentale, ancêtre de la France ?",
+        "reponse": "Le traité de Verdun",
+        "propositions": ["Le traité de Verdun", "Le traité de Meerssen", "Le traité de Ribemont", "Le traité de Senlis"],
+        "explication": "Le traité de Verdun (843) divise l'empire carolingien en trois royaumes, préfigurant la France, l'Allemagne et une zone intermédiaire."
+      },
+      {
+        "question": "Quelle jeune femme a contribué à libérer Orléans en 1429 pendant la guerre de Cent Ans ?",
+        "reponse": "Jeanne d'Arc",
+        "propositions": ["Jeanne d'Arc", "Catherine de Médicis", "Aliénor d'Aquitaine", "Blanche de Castille"],
+        "explication": "Jeanne d'Arc mène l'armée française à la victoire lors du siège d'Orléans en 1429."
+      },
+      {
+        "question": "Quel roi de France a fait construire le château de Versailles pour en faire le siège du pouvoir ?",
+        "reponse": "Louis XIV",
+        "propositions": ["Louis XIII", "Louis XIV", "Louis XV", "Henri IV"],
+        "explication": "Louis XIV installe la cour et le gouvernement à Versailles à partir de 1682."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel roi de France a mis fin aux guerres de Religion avec l'édit de Nantes en 1598 ?",
+        "reponse": "Henri IV",
+        "propositions": ["Henri III", "Henri IV", "François II", "Charles IX"],
+        "explication": "L'édit de Nantes accorde une tolérance religieuse limitée aux protestants français."
+      },
+      {
+        "question": "Quel ministre de Louis XIV a réorganisé les finances et l'économie françaises, promouvant le mercantilisme ?",
+        "reponse": "Jean-Baptiste Colbert",
+        "propositions": ["Jean-Baptiste Colbert", "Cardinal Mazarin", "Cardinal de Richelieu", "Nicolas Fouquet"],
+        "explication": "Colbert, contrôleur général des finances, développe les manufactures royales et la marine française."
+      },
+      {
+        "question": "Quel événement de juin 1940 voit le maréchal Pétain demander l'armistice à l'Allemagne nazie ?",
+        "reponse": "La défaite de la bataille de France",
+        "propositions": ["La défaite de la bataille de France", "Le débarquement de Provence", "La bataille de la Marne", "L'occupation de la Ruhr"],
+        "explication": "L'armistice du 22 juin 1940 marque le début du régime de Vichy et de l'Occupation."
+      },
+      {
+        "question": "Quel général français devient Premier Consul en 1799 après le coup d'État du 18 Brumaire ?",
+        "reponse": "Napoléon Bonaparte",
+        "propositions": ["Napoléon Bonaparte", "Lazare Carnot", "Paul Barras", "Jean-Baptiste Bernadotte"],
+        "explication": "Le coup d'État du 18 Brumaire an VIII met fin au Directoire et ouvre la voie au Consulat puis à l'Empire."
+      },
+      {
+        "question": "Quelle réforme administrative de 1790 découpe la France en circonscriptions territoriales encore utilisées aujourd'hui ?",
+        "reponse": "La création des départements",
+        "propositions": ["La création des départements", "La création des régions", "La création des cantons", "La création des communes"],
+        "explication": "L'Assemblée constituante crée 83 départements en 1790, remplaçant les anciennes provinces."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel traité de 1259 règle temporairement les conflits territoriaux entre Saint Louis et Henri III d'Angleterre ?",
+        "reponse": "Le traité de Paris (1259)",
+        "propositions": ["Le traité de Paris (1259)", "Le traité de Brétigny", "Le traité de Troyes", "Le traité de Picquigny"],
+        "explication": "Ce traité entre Louis IX et Henri III d'Angleterre apaise durablement les tensions entre les deux couronnes."
+      },
+      {
+        "question": "Quelle régente italienne, mère de trois rois de France, est associée au massacre de la Saint-Barthélemy en 1572 ?",
+        "reponse": "Catherine de Médicis",
+        "propositions": ["Catherine de Médicis", "Anne d'Autriche", "Marie de Médicis", "Blanche de Castille"],
+        "explication": "Catherine de Médicis exerce une influence majeure sur la politique française durant les guerres de Religion."
+      },
+      {
+        "question": "Quel ministre, cardinal sous Louis XIII, a renforcé l'absolutisme royal en luttant contre la noblesse et les protestants ?",
+        "reponse": "Le cardinal de Richelieu",
+        "propositions": ["Le cardinal de Richelieu", "Le cardinal Mazarin", "Colbert", "Sully"],
+        "explication": "Richelieu, principal ministre de 1624 à 1642, centralise le pouvoir au profit de la couronne."
+      },
+      {
+        "question": "Quel soulèvement nobiliaire et populaire agite la France pendant la minorité de Louis XIV, entre 1648 et 1653 ?",
+        "reponse": "La Fronde",
+        "propositions": ["La Fronde", "La Jacquerie", "La révolte des Camisards", "La révolte du papier timbré"],
+        "explication": "La Fronde regroupe deux phases de révolte, parlementaire puis nobiliaire, contre l'autorité royale."
+      },
+      {
+        "question": "Quel ministre de Louis XVI a tenté des réformes économiques libérales avant d'être renvoyé en 1776 ?",
+        "reponse": "Turgot",
+        "propositions": ["Turgot", "Necker", "Calonne", "Colbert"],
+        "explication": "Anne Robert Jacques Turgot tente de libéraliser le commerce du grain, provoquant une forte opposition."
+      }
+    ]
+  }
+}

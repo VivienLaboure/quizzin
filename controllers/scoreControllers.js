@@ -3,6 +3,7 @@ const PersonalScore = require("../models/PersonalScore");
 const Quiz = require("../models/Quiz");
 const errorHandler = require("../middleware/errorHandlers");
 const { getLevel, getTokensForLevel } = require("../lib/levelSystem");
+const { getParent } = require("../lib/themeTree");
 
 /**
  * Valide les données d'un nouvel utilisateur
@@ -200,6 +201,15 @@ exports.unlockTheme = async (req, res) => {
     if (profile.unlockedThemes.includes(theme)) {
       return res.status(409).json({ error: "Ce thème est déjà débloqué" });
     }
+
+    // Un thème enfant de l'arbre exige que son parent soit déjà débloqué
+    // (ex: "Napoleon" nécessite "Histoire de France", qui nécessite
+    // "Histoire") — vérifié avant même la dépense d'un jeton.
+    const parent = getParent(theme);
+    if (parent && !profile.unlockedThemes.includes(parent)) {
+      return res.status(403).json({ error: `Débloque d'abord "${parent}"` });
+    }
+
     if (profile.unlockTokens < 1) {
       return res.status(403).json({ error: "Aucun jeton de déblocage disponible" });
     }
