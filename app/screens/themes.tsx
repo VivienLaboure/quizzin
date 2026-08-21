@@ -56,22 +56,33 @@ function sortByGenerality(themes: string[]): string[] {
 }
 
 const CENTER_SIZE = 104;
-// Taille et distance par profondeur (1 = thème racine, 2 = enfant, 3 = petit-enfant, ...)
-const NODE_SIZE_BY_DEPTH = [0, 84, 68, 56];
-const NODE_SIZE_MIN = 48;
+// Bornes [min, max] de la taille d'un nœud par profondeur (1 = thème racine,
+// 2 = enfant, 3 = petit-enfant, ...) — la taille réelle est calculée pour
+// tenir dans cette plage tout en garantissant qu'aucun nœud ne chevauche son
+// voisin, quel que soit le nombre de thèmes à un même niveau.
+const SIZE_RANGE_BY_DEPTH: [number, number][] = [[0, 0], [46, 84], [40, 68], [36, 56]];
 const FONT_SIZE_BY_DEPTH = [0, 11, 10, 9];
 const FONT_SIZE_MIN = 8.5;
+const LABEL_WIDTH_BY_DEPTH = [0, 78, 66, 58];
+const LABEL_WIDTH_MIN = 52;
+// Marge de sécurité entre deux nœuds voisins (fraction de l'espace
+// disponible réellement occupée par le nœud) — évite qu'ils se touchent.
+const SAFETY_FACTOR = 0.8;
 
-function nodeSizeForDepth(depth: number): number {
-  return NODE_SIZE_BY_DEPTH[depth] ?? NODE_SIZE_MIN;
+function sizeRangeForDepth(depth: number): [number, number] {
+  return SIZE_RANGE_BY_DEPTH[depth] ?? [30, 44];
 }
 function fontSizeForDepth(depth: number): number {
   return FONT_SIZE_BY_DEPTH[depth] ?? FONT_SIZE_MIN;
+}
+function labelWidthForDepth(depth: number): number {
+  return LABEL_WIDTH_BY_DEPTH[depth] ?? LABEL_WIDTH_MIN;
 }
 
 interface TreeNode {
   theme: string;
   depth: number;
+  size: number;
   x: number;
   y: number;
   parentX: number;
@@ -80,10 +91,12 @@ interface TreeNode {
 
 /**
  * Construit récursivement la position de chaque thème dans l'arbre :
- * les thèmes racines sont répartis en cercle complet autour du centre,
- * puis chaque enfant est placé dans le prolongement radial de son parent
- * (légèrement éventé si plusieurs frères), à une distance qui rétrécit
- * avec la profondeur pour garder l'ensemble lisible.
+ * les thèmes racines sont répartis en cercle complet autour du centre, puis
+ * chaque enfant est placé dans le prolongement radial de son parent
+ * (légèrement éventé si plusieurs frères), à une distance qui rétrécit avec
+ * la profondeur. La taille de chaque nœud est recalculée à partir du nombre
+ * de frères à ce niveau, pour qu'ils ne se chevauchent jamais même si
+ * beaucoup de thèmes partagent le même parent.
  */
 function buildTreeNodes(themesList: string[], centerX: number, centerY: number, radiusByDepth: number[]): TreeNode[] {
   const childrenOf: Record<string, string[]> = {};
@@ -97,33 +110,44 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
   const nodes: TreeNode[] = [];
   const MAX_SPREAD = Math.PI / 3; // 60° d'éventail maximum entre le premier et le dernier frère
 
-  function place(theme: string, depth: number, x: number, y: number, angle: number, parentX: number, parentY: number) {
-    nodes.push({ theme, depth, x, y, parentX, parentY });
+  function place(theme: string, depth: number, x: number, y: number, angle: number, parentX: number, parentY: number, size: number) {
+    nodes.push({ theme, depth, size, x, y, parentX, parentY });
 
     const kids = sortByGenerality(childrenOf[theme] ?? []);
     if (kids.length === 0) return;
 
     const dist = radiusByDepth[depth + 1] ?? radiusByDepth[radiusByDepth.length - 1];
     const step = kids.length > 1 ? Math.min(MAX_SPREAD / (kids.length - 1), Math.PI / 6) : 0;
+    const [minSize, maxSize] = sizeRangeForDepth(depth + 1);
+    // Distance curviligne entre deux frères adjacents à cette distance du
+    // parent — la taille du nœud ne doit jamais la dépasser.
+    const arcSpacing = kids.length > 1 ? dist * step : maxSize / SAFETY_FACTOR;
+    const childSize = Math.max(minSize, Math.min(maxSize, arcSpacing * SAFETY_FACTOR));
 
     kids.forEach((child, i) => {
       const offset = kids.length > 1 ? (i - (kids.length - 1) / 2) * step : 0;
       const childAngle = angle + offset;
       const cx = x + dist * Math.cos(childAngle);
       const cy = y + dist * Math.sin(childAngle);
-      place(child, depth + 1, cx, cy, childAngle, x, y);
+      place(child, depth + 1, cx, cy, childAngle, x, y, childSize);
     });
   }
 
   const roots = sortByGenerality(themesList.filter(t => t !== CENTER_THEME && !getParent(t)));
   const angleStep = roots.length > 0 ? (2 * Math.PI) / roots.length : 0;
   const rootDist = radiusByDepth[1];
+  const [minRootSize, maxRootSize] = sizeRangeForDepth(1);
+  // Corde entre deux thèmes racines adjacents sur le cercle complet — la
+  // taille des nœuds racines s'ajuste pour ne jamais dépasser cette corde,
+  // qu'il y ait 3 ou 15 thèmes débloquables.
+  const rootChord = roots.length > 1 ? 2 * rootDist * Math.sin(angleStep / 2) : maxRootSize / SAFETY_FACTOR;
+  const rootSize = Math.max(minRootSize, Math.min(maxRootSize, rootChord * SAFETY_FACTOR));
 
   roots.forEach((theme, i) => {
     const angle = -Math.PI / 2 + i * angleStep;
     const x = centerX + rootDist * Math.cos(angle);
     const y = centerY + rootDist * Math.sin(angle);
-    place(theme, 1, x, y, angle, centerX, centerY);
+    place(theme, 1, x, y, angle, centerX, centerY, rootSize);
   });
 
   return nodes;
@@ -232,7 +256,7 @@ const Themes: React.FC = () => {
   // ─── Géométrie de l'arbre ────────────────────────────────────────────────
   const starSize = Math.min(width * 0.9, 380);
   const starCenter = starSize / 2;
-  const rootRadius = starSize / 2 - NODE_SIZE_BY_DEPTH[1] / 2 - 4;
+  const rootRadius = starSize / 2 - sizeRangeForDepth(1)[1] / 2 - 4;
   const radiusByDepth = [0, rootRadius, rootRadius * 0.62, rootRadius * 0.5];
 
   const hasCenter = themesList.includes(CENTER_THEME);
@@ -316,38 +340,49 @@ const Themes: React.FC = () => {
               </TouchableOpacity>
             )}
 
-            {/* Thèmes racines et sous-thèmes */}
+            {/* Thèmes racines et sous-thèmes — le nœud ne contient qu'une
+                icône (jamais de texte à l'intérieur, quelle que soit sa
+                taille), le nom du thème est un libellé séparé juste en
+                dessous : évite tout chevauchement icône/texte sur les
+                petits nœuds. */}
             {treeNodes.map(node => {
               const isUnlocked = unlockedThemes.includes(node.theme);
-              const size = nodeSizeForDepth(node.depth);
+              const labelWidth = labelWidthForDepth(node.depth);
 
               return (
-                <TouchableOpacity
+                <View
                   key={node.theme}
-                  onPress={() => handleThemePress(node.theme, isUnlocked)}
-                  style={[
-                    pageStyles.node,
-                    isUnlocked ? pageStyles.nodeUnlocked : pageStyles.nodeLocked,
-                    {
-                      width: size,
-                      height: size,
-                      borderRadius: size / 2,
-                      left: node.x - size / 2,
-                      top: node.y - size / 2,
-                    },
-                  ]}
+                  style={{
+                    position: 'absolute',
+                    left: node.x - labelWidth / 2,
+                    top: node.y - node.size / 2,
+                    width: labelWidth,
+                    alignItems: 'center',
+                  }}
                 >
-                  {isUnlocked && (
-                    <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)] }]} />
-                  )}
-                  {!isUnlocked && <Text style={pageStyles.lockIcon}>🔒</Text>}
-                  <Text style={[
-                    isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked,
-                    { fontSize: fontSizeForDepth(node.depth) },
-                  ]}>
+                  <TouchableOpacity
+                    onPress={() => handleThemePress(node.theme, isUnlocked)}
+                    style={[
+                      pageStyles.node,
+                      isUnlocked ? pageStyles.nodeUnlocked : pageStyles.nodeLocked,
+                      { width: node.size, height: node.size, borderRadius: node.size / 2 },
+                    ]}
+                  >
+                    {isUnlocked
+                      ? <View style={[pageStyles.dot, { width: node.size * 0.28, height: node.size * 0.28, borderRadius: node.size * 0.14, backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)] }]} />
+                      : <Text style={{ fontSize: node.size * 0.32 }}>🔒</Text>
+                    }
+                  </TouchableOpacity>
+                  <Text
+                    numberOfLines={2}
+                    style={[
+                      isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked,
+                      { fontSize: fontSizeForDepth(node.depth), marginTop: 4 },
+                    ]}
+                  >
                     {node.theme}
                   </Text>
-                </TouchableOpacity>
+                </View>
               );
             })}
           </View>
@@ -423,10 +458,8 @@ const pageStyles = StyleSheet.create({
   },
   centerNodeText: { color: colors.white, fontWeight: '700', fontSize: 13, textAlign: 'center' },
   node: {
-    position: 'absolute',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: spacing.xs,
     borderWidth: 1.5,
   },
   nodeUnlocked: {
@@ -434,7 +467,7 @@ const pageStyles = StyleSheet.create({
     borderColor: colors.primary,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.05,
+    shadowOpacity: 0.08,
     shadowRadius: 4,
     elevation: 2,
   },
@@ -442,7 +475,6 @@ const pageStyles = StyleSheet.create({
     backgroundColor: colors.background,
     borderColor: colors.border,
   },
-  lockIcon: { fontSize: 14, marginBottom: 2 },
   nodeTextUnlocked: { color: colors.textPrimary, fontWeight: '700', textAlign: 'center' },
   nodeTextLocked: { color: colors.textMuted, fontWeight: '700', textAlign: 'center' },
   overlay: {
