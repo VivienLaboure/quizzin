@@ -1,6 +1,7 @@
+import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { colors, spacing } from '../../lib/theme';
+import { colors, radius, shadow, spacing } from '../../lib/theme';
 
 interface Props {
   onBack?: () => void;
@@ -17,9 +18,10 @@ export default function ScreenHeader({ onBack, title }: Props) {
         <TouchableOpacity
           onPress={onBack}
           style={styles.backButton}
+          activeOpacity={0.7}
           hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
         >
-          <Text style={styles.backIcon}>←</Text>
+          <Ionicons name="chevron-back" size={22} color={colors.textPrimary} />
         </TouchableOpacity>
       )}
       {title && <Text style={styles.title}>{title}</Text>}
@@ -42,14 +44,11 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: colors.background,
+    borderRadius: radius.full,
+    backgroundColor: colors.surface,
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  backIcon: {
-    fontSize: 18,
-    color: colors.textPrimary,
+    ...shadow.soft,
   },
   spacer: {
     width: 40,
