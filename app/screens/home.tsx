@@ -72,6 +72,12 @@ const Home: React.FC = () => {
           style={styles.actionSpacing}
         />
         <Button
+          label="Statistiques"
+          variant="secondary"
+          onPress={() => router.push({ pathname: '/screens/stats' })}
+          style={styles.actionSpacing}
+        />
+        <Button
           label="Se déconnecter"
           variant="ghost"
           onPress={handleLogout}
