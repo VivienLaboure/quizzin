@@ -1,0 +1,101 @@
+{
+  "theme": "Littérature française",
+  "questions": {
+    "1": [
+      {
+        "question": "Qui a écrit \"Les Misérables\" ?",
+        "reponse": "Victor Hugo",
+        "propositions": ["Victor Hugo", "Émile Zola", "Honoré de Balzac", "Alexandre Dumas"],
+        "explication": "Victor Hugo publie ce roman-fleuve en 1862, l'une des œuvres majeures de la littérature française."
+      },
+      {
+        "question": "Quel auteur français a écrit \"Le Petit Prince\" ?",
+        "reponse": "Antoine de Saint-Exupéry",
+        "propositions": ["Antoine de Saint-Exupéry", "Jules Verne", "Marcel Pagnol", "Albert Camus"],
+        "explication": "Saint-Exupéry publie ce conte poétique en 1943, l'un des livres les plus traduits au monde."
+      },
+      {
+        "question": "Qui est l'auteur des \"Trois Mousquetaires\" ?",
+        "reponse": "Alexandre Dumas",
+        "propositions": ["Alexandre Dumas", "Victor Hugo", "Gustave Flaubert", "Stendhal"],
+        "explication": "Alexandre Dumas publie ce roman de cape et d'épée en 1844."
+      },
+      {
+        "question": "Quel poète français a écrit \"Les Fleurs du mal\" ?",
+        "reponse": "Charles Baudelaire",
+        "propositions": ["Charles Baudelaire", "Arthur Rimbaud", "Paul Verlaine", "Victor Hugo"],
+        "explication": "Ce recueil poétique de 1857 vaut à Baudelaire un procès pour outrage aux bonnes mœurs."
+      },
+      {
+        "question": "Quel écrivain français a reçu le prix Nobel de littérature en 1957 pour une œuvre incluant \"L'Étranger\" ?",
+        "reponse": "Albert Camus",
+        "propositions": ["Albert Camus", "Jean-Paul Sartre", "André Gide", "François Mauriac"],
+        "explication": "Camus reçoit le Nobel à 44 ans, l'un des plus jeunes lauréats de l'histoire du prix."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel mouvement littéraire du XIXe siècle, incarné par Zola, cherche à décrire la société avec objectivité scientifique ?",
+        "reponse": "Le naturalisme",
+        "propositions": ["Le naturalisme", "Le romantisme", "Le symbolisme", "Le classicisme"],
+        "explication": "Le naturalisme applique une méthode d'observation quasi scientifique à la description sociale."
+      },
+      {
+        "question": "Quel écrivain français a créé le personnage de Cyrano de Bergerac au théâtre en 1897 ?",
+        "reponse": "Edmond Rostand",
+        "propositions": ["Edmond Rostand", "Molière", "Pierre Corneille", "Jean Racine"],
+        "explication": "Cyrano de Bergerac, pièce en vers d'Edmond Rostand, connaît un succès immédiat."
+      },
+      {
+        "question": "Quel roman de Gustave Flaubert (1857) raconte l'histoire d'une femme insatisfaite de sa vie provinciale ?",
+        "reponse": "Madame Bovary",
+        "propositions": ["Madame Bovary", "Le Rouge et le Noir", "La Cousine Bette", "Thérèse Raquin"],
+        "explication": "Madame Bovary vaut à Flaubert un procès pour immoralité, avant de devenir un classique."
+      },
+      {
+        "question": "Quel philosophe et écrivain français est l'auteur de \"Candide\" (1759) ?",
+        "reponse": "Voltaire",
+        "propositions": ["Voltaire", "Jean-Jacques Rousseau", "Denis Diderot", "Montesquieu"],
+        "explication": "Candide est un conte philosophique satirique publié en 1759."
+      },
+      {
+        "question": "Quelle académie française, fondée en 1635, veille sur la langue française et décerne des prix littéraires ?",
+        "reponse": "L'Académie française",
+        "propositions": ["L'Académie française", "La Sorbonne", "Le Collège de France", "L'Institut de France"],
+        "explication": "Fondée par Richelieu, l'Académie française compte quarante membres, les \"Immortels\"."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel roman-fleuve de Marcel Proust, en sept volumes, s'ouvre avec l'épisode de la madeleine ?",
+        "reponse": "À la recherche du temps perdu",
+        "propositions": ["À la recherche du temps perdu", "Jean-Christophe", "Les Rougon-Macquart", "La Comédie humaine"],
+        "explication": "Le goût d'une madeleine trempée dans du thé déclenche la mémoire involontaire du narrateur."
+      },
+      {
+        "question": "Quel dramaturge du XVIIe siècle, auteur de \"Phèdre\" et \"Andromaque\", incarne la tragédie classique française ?",
+        "reponse": "Jean Racine",
+        "propositions": ["Jean Racine", "Pierre Corneille", "Molière", "Nicolas Boileau"],
+        "explication": "Racine porte à son apogée la tragédie classique respectant la règle des trois unités."
+      },
+      {
+        "question": "Quel mouvement poétique de la fin du XIXe siècle, autour de Mallarmé et Verlaine, privilégie la suggestion à la description ?",
+        "reponse": "Le symbolisme",
+        "propositions": ["Le symbolisme", "Le parnasse", "Le naturalisme", "Le surréalisme"],
+        "explication": "Les symbolistes cherchent à évoquer plutôt qu'à décrire, par l'usage de symboles et de musicalité."
+      },
+      {
+        "question": "Quel écrivain est l'auteur de la vaste fresque romanesque \"Les Rougon-Macquart\", peignant la société du Second Empire ?",
+        "reponse": "Émile Zola",
+        "propositions": ["Émile Zola", "Honoré de Balzac", "Guy de Maupassant", "Gustave Flaubert"],
+        "explication": "Cette série de vingt romans suit deux branches d'une même famille sous le Second Empire."
+      },
+      {
+        "question": "Quel philosophe des Lumières a dirigé la rédaction de \"L'Encyclopédie\" au XVIIIe siècle ?",
+        "reponse": "Denis Diderot",
+        "propositions": ["Denis Diderot", "Voltaire", "Jean-Jacques Rousseau", "Montesquieu"],
+        "explication": "Diderot dirige, avec d'Alembert, cette entreprise monumentale de diffusion du savoir."
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "theme": "Système solaire",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle est la planète la plus proche du Soleil ?",
+        "reponse": "Mercure",
+        "propositions": ["Mercure", "Vénus", "Mars", "Terre"],
+        "explication": "Mercure orbite en moyenne à environ 58 millions de km du Soleil."
+      },
+      {
+        "question": "Quelle planète est surnommée la \"planète rouge\" ?",
+        "reponse": "Mars",
+        "propositions": ["Mars", "Vénus", "Jupiter", "Saturne"],
+        "explication": "La couleur rougeâtre de Mars vient de l'oxyde de fer présent à sa surface."
+      },
+      {
+        "question": "Quelle est la plus grande planète du système solaire ?",
+        "reponse": "Jupiter",
+        "propositions": ["Jupiter", "Saturne", "Neptune", "Uranus"],
+        "explication": "Jupiter est la plus grande planète, avec un diamètre 11 fois supérieur à celui de la Terre."
+      },
+      {
+        "question": "Quel astre est le satellite naturel de la Terre ?",
+        "reponse": "La Lune",
+        "propositions": ["La Lune", "Phobos", "Titan", "Europe"],
+        "explication": "La Lune est le seul satellite naturel de la Terre."
+      },
+      {
+        "question": "Combien de planètes compte le système solaire depuis la reclassification de Pluton en 2006 ?",
+        "reponse": "8",
+        "propositions": ["8", "9", "7", "10"],
+        "explication": "Pluton a été reclassée comme planète naine en 2006, laissant huit planètes officielles."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quelle planète est entourée d'anneaux particulièrement visibles composés de glace et de roche ?",
+        "reponse": "Saturne",
+        "propositions": ["Saturne", "Jupiter", "Uranus", "Neptune"],
+        "explication": "Les anneaux de Saturne, très étendus, sont visibles même avec un petit télescope."
+      },
+      {
+        "question": "Quelle est la plus grande lune du système solaire, en orbite autour de Jupiter ?",
+        "reponse": "Ganymède",
+        "propositions": ["Ganymède", "Titan", "Io", "Callisto"],
+        "explication": "Ganymède est plus grande que la planète Mercure."
+      },
+      {
+        "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre, en moyenne ?",
+        "reponse": "Environ 8 minutes",
+        "propositions": ["Environ 8 minutes", "Environ 1 minute", "Environ 30 minutes", "Environ 1 heure"],
+        "explication": "La lumière parcourt les 150 millions de km Terre-Soleil en environ 8 minutes et 20 secondes."
+      },
+      {
+        "question": "Quelle planète est la plus chaude du système solaire malgré sa distance au Soleil, à cause de son épaisse atmosphère ?",
+        "reponse": "Vénus",
+        "propositions": ["Vénus", "Mercure", "Mars", "Jupiter"],
+        "explication": "L'effet de serre extrême dû au CO2 rend Vénus plus chaude que Mercure, pourtant plus proche du Soleil."
+      },
+      {
+        "question": "Comment appelle-t-on la ceinture d'astéroïdes située entre Mars et Jupiter ?",
+        "reponse": "La ceinture principale",
+        "propositions": ["La ceinture principale", "La ceinture de Kuiper", "Le nuage d'Oort", "La ceinture d'Orion"],
+        "explication": "La ceinture principale regroupe la majorité des astéroïdes connus du système solaire."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quelle région glacée, au-delà de Neptune, abrite Pluton et d'autres objets transneptuniens ?",
+        "reponse": "La ceinture de Kuiper",
+        "propositions": ["La ceinture de Kuiper", "Le nuage d'Oort", "La ceinture principale", "L'héliosphère"],
+        "explication": "La ceinture de Kuiper contient de nombreux objets glacés, dont la planète naine Pluton."
+      },
+      {
+        "question": "Quelle sonde spatiale a survolé Pluton en 2015, offrant les premières images détaillées de sa surface ?",
+        "reponse": "New Horizons",
+        "propositions": ["New Horizons", "Voyager 1", "Cassini-Huygens", "Juno"],
+        "explication": "New Horizons, lancée en 2006, survole Pluton en juillet 2015."
+      },
+      {
+        "question": "Quel phénomène atmosphérique gigantesque, observé sur Jupiter, est une tempête active depuis au moins 350 ans ?",
+        "reponse": "La Grande Tache rouge",
+        "propositions": ["La Grande Tache rouge", "L'Hexagone de Saturne", "La Tache sombre de Neptune", "L'Œil de Mars"],
+        "explication": "La Grande Tache rouge est un anticyclone géant plus large que la Terre."
+      },
+      {
+        "question": "Quelle est la lune de Saturne connue pour ses lacs de méthane liquide et son atmosphère dense ?",
+        "reponse": "Titan",
+        "propositions": ["Titan", "Encelade", "Mimas", "Japet"],
+        "explication": "Titan est la seule lune du système solaire connue pour posséder une atmosphère dense et des liquides en surface."
+      },
+      {
+        "question": "Quelle unité de mesure, correspondant à la distance moyenne Terre-Soleil, est utilisée pour mesurer les distances au sein du système solaire ?",
+        "reponse": "L'unité astronomique (UA)",
+        "propositions": ["L'unité astronomique (UA)", "L'année-lumière", "Le parsec", "Le rayon solaire"],
+        "explication": "Une unité astronomique équivaut à environ 150 millions de kilomètres."
+      }
+    ]
+  }
+}

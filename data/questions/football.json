@@ -1,0 +1,101 @@
+{
+  "theme": "Football",
+  "questions": {
+    "1": [
+      {
+        "question": "Combien de joueurs composent une équipe de football sur le terrain (gardien inclus) ?",
+        "reponse": "11",
+        "propositions": ["11", "10", "9", "12"],
+        "explication": "Une équipe de football aligne 11 joueurs sur le terrain, dont un gardien de but."
+      },
+      {
+        "question": "Quel pays a remporté la Coupe du monde de football 2018 ?",
+        "reponse": "La France",
+        "propositions": ["La France", "Le Brésil", "L'Allemagne", "La Croatie"],
+        "explication": "La France bat la Croatie 4-2 en finale du Mondial 2018 en Russie."
+      },
+      {
+        "question": "Quel club est basé au Camp Nou ?",
+        "reponse": "Le FC Barcelone",
+        "propositions": ["Le FC Barcelone", "Le Real Madrid", "L'Atlético Madrid", "Le FC Séville"],
+        "explication": "Le Camp Nou est le stade historique du FC Barcelone depuis 1957."
+      },
+      {
+        "question": "Quel joueur est surnommé \"CR7\" ?",
+        "reponse": "Cristiano Ronaldo",
+        "propositions": ["Cristiano Ronaldo", "Lionel Messi", "Neymar", "Kylian Mbappé"],
+        "explication": "\"CR7\" combine les initiales de Cristiano Ronaldo et son numéro de maillot fétiche, le 7."
+      },
+      {
+        "question": "Combien de temps dure un match de football (temps réglementaire, hors prolongations) ?",
+        "reponse": "90 minutes",
+        "propositions": ["90 minutes", "80 minutes", "100 minutes", "120 minutes"],
+        "explication": "Un match se joue en deux mi-temps de 45 minutes, soit 90 minutes réglementaires."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel joueur détient le record de buts en phase finale de Coupe du monde masculine ?",
+        "reponse": "Miroslav Klose",
+        "propositions": ["Miroslav Klose", "Ronaldo", "Pelé", "Just Fontaine"],
+        "explication": "L'Allemand Miroslav Klose a marqué 16 buts en Coupe du monde entre 2002 et 2014."
+      },
+      {
+        "question": "Quelle compétition annuelle oppose les meilleurs clubs européens ?",
+        "reponse": "La Ligue des champions",
+        "propositions": ["La Ligue des champions", "La Coupe du monde", "L'Europa League", "La Coupe des confédérations"],
+        "explication": "La Ligue des champions de l'UEFA réunit chaque saison les meilleurs clubs du continent."
+      },
+      {
+        "question": "Quel pays a remporté le plus de Coupes du monde de football masculin ?",
+        "reponse": "Le Brésil",
+        "propositions": ["Le Brésil", "L'Allemagne", "L'Italie", "L'Argentine"],
+        "explication": "Le Brésil a remporté cinq titres mondiaux (1958, 1962, 1970, 1994, 2002)."
+      },
+      {
+        "question": "En quelle année la France a-t-elle remporté sa première Coupe du monde ?",
+        "reponse": "1998",
+        "propositions": ["1998", "2000", "2006", "2018"],
+        "explication": "La France, pays organisateur, bat le Brésil 3-0 en finale en 1998."
+      },
+      {
+        "question": "Quel poste désigne le joueur chargé d'arrêter les tirs adverses ?",
+        "reponse": "Le gardien de but",
+        "propositions": ["Le gardien de but", "Le défenseur central", "Le milieu défensif", "L'arrière latéral"],
+        "explication": "Le gardien de but est le seul joueur autorisé à toucher le ballon avec les mains, dans sa surface."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel joueur a remporté le plus de Ballons d'or à ce jour ?",
+        "reponse": "Lionel Messi",
+        "propositions": ["Lionel Messi", "Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
+        "explication": "Lionel Messi détient le record avec huit Ballons d'or remportés."
+      },
+      {
+        "question": "Quelle règle permet d'annuler un but si l'attaquant est plus proche de la ligne de but adverse que l'avant-dernier défenseur au moment de la passe ?",
+        "reponse": "Le hors-jeu",
+        "propositions": ["Le hors-jeu", "La main volontaire", "Le tacle par derrière", "Le jeu dangereux"],
+        "explication": "La règle du hors-jeu vise à éviter que des attaquants restent en permanence près du but adverse."
+      },
+      {
+        "question": "Quel entraîneur a mené l'équipe de France au titre de champion du monde 1998 ?",
+        "reponse": "Aimé Jacquet",
+        "propositions": ["Aimé Jacquet", "Roger Lemerre", "Didier Deschamps", "Michel Hidalgo"],
+        "explication": "Aimé Jacquet dirige les Bleus vers leur premier titre mondial en 1998."
+      },
+      {
+        "question": "Quel club anglais a remporté un \"treble\" (championnat, coupe nationale, Ligue des champions) en 1999 ?",
+        "reponse": "Manchester United",
+        "propositions": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
+        "explication": "Manchester United réalise le triplé historique en 1999 sous Alex Ferguson."
+      },
+      {
+        "question": "Quel joueur détient le record du plus grand nombre de sélections en équipe de France ?",
+        "reponse": "Hugo Lloris",
+        "propositions": ["Hugo Lloris", "Lilian Thuram", "Thierry Henry", "Olivier Giroud"],
+        "explication": "Le gardien Hugo Lloris détient le record de sélections avec l'équipe de France."
+      }
+    ]
+  }
+}

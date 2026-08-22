@@ -1,0 +1,101 @@
+{
+  "theme": "Musique classique",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel compositeur allemand, devenu sourd, a composé la \"9e Symphonie\" ?",
+        "reponse": "Ludwig van Beethoven",
+        "propositions": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Johannes Brahms"],
+        "explication": "Beethoven compose sa 9e Symphonie alors qu'il est presque totalement sourd."
+      },
+      {
+        "question": "Quel compositeur autrichien du XVIIIe siècle est un enfant prodige ayant composé dès l'âge de 5 ans ?",
+        "reponse": "Wolfgang Amadeus Mozart",
+        "propositions": ["Wolfgang Amadeus Mozart", "Joseph Haydn", "Antonio Vivaldi", "Franz Schubert"],
+        "explication": "Mozart compose ses premières œuvres dès l'âge de 5 ans, sous la direction de son père Leopold."
+      },
+      {
+        "question": "Quel instrument à cordes se joue avec un archet et se tient sous le menton ?",
+        "reponse": "Le violon",
+        "propositions": ["Le violon", "Le violoncelle", "La contrebasse", "L'alto"],
+        "explication": "Le violon est le plus petit et le plus aigu des instruments à cordes frottées de l'orchestre."
+      },
+      {
+        "question": "Quel compositeur français a écrit \"Le Carnaval des animaux\" ?",
+        "reponse": "Camille Saint-Saëns",
+        "propositions": ["Camille Saint-Saëns", "Maurice Ravel", "Claude Debussy", "Georges Bizet"],
+        "explication": "Cette suite musicale de 1886 dépeint différents animaux à travers des mouvements variés."
+      },
+      {
+        "question": "Comment appelle-t-on la personne qui dirige un orchestre ?",
+        "reponse": "Le chef d'orchestre",
+        "propositions": ["Le chef d'orchestre", "Le soliste", "Le compositeur", "Le premier violon"],
+        "explication": "Le chef d'orchestre coordonne les musiciens et interprète l'œuvre par sa gestuelle."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel compositeur italien a écrit \"Les Quatre Saisons\" ?",
+        "reponse": "Antonio Vivaldi",
+        "propositions": ["Antonio Vivaldi", "Antonio Salieri", "Gioachino Rossini", "Claudio Monteverdi"],
+        "explication": "Vivaldi compose ces quatre concertos pour violon vers 1723, œuvre parmi les plus jouées au monde."
+      },
+      {
+        "question": "Quel opéra de Bizet, créé en 1875, raconte l'histoire d'une cigarière séduisante à Séville ?",
+        "reponse": "Carmen",
+        "propositions": ["Carmen", "La Traviata", "Les Noces de Figaro", "La Flûte enchantée"],
+        "explication": "Carmen, aujourd'hui l'un des opéras les plus joués au monde, fut mal accueilli à sa création."
+      },
+      {
+        "question": "Quel compositeur français est l'auteur du \"Boléro\" (1928) ?",
+        "reponse": "Maurice Ravel",
+        "propositions": ["Maurice Ravel", "Claude Debussy", "Erik Satie", "Camille Saint-Saëns"],
+        "explication": "Le Boléro de Ravel repose sur la répétition d'un même thème avec une orchestration progressive."
+      },
+      {
+        "question": "Quelle période musicale précède la période classique, dominée par Bach et Haendel ?",
+        "reponse": "La période baroque",
+        "propositions": ["La période baroque", "La période romantique", "La période Renaissance", "La période moderne"],
+        "explication": "La période baroque s'étend environ de 1600 à 1750, année de la mort de Bach."
+      },
+      {
+        "question": "Quel compositeur russe a écrit le ballet \"Le Lac des cygnes\" ?",
+        "reponse": "Piotr Ilitch Tchaïkovski",
+        "propositions": ["Piotr Ilitch Tchaïkovski", "Igor Stravinsky", "Sergueï Rachmaninov", "Modeste Moussorgski"],
+        "explication": "Tchaïkovski compose ce ballet en 1875-1876, aujourd'hui l'un des plus joués au monde."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel compositeur allemand a laissé inachevée son \"Art de la fugue\" à sa mort en 1750 ?",
+        "reponse": "Johann Sebastian Bach",
+        "propositions": ["Johann Sebastian Bach", "Georg Philipp Telemann", "Georg Friedrich Haendel", "Dietrich Buxtehude"],
+        "explication": "Cette œuvre contrapuntique monumentale reste inachevée à la mort de Bach."
+      },
+      {
+        "question": "Quelle œuvre de Stravinsky, créée en 1913 à Paris, provoqua un scandale retentissant lors de sa première ?",
+        "reponse": "Le Sacre du printemps",
+        "propositions": ["Le Sacre du printemps", "L'Oiseau de feu", "Petrouchka", "Les Noces"],
+        "explication": "La création du Sacre du printemps au théâtre des Champs-Élysées provoque un chahut mémorable."
+      },
+      {
+        "question": "Quel terme désigne une œuvre pour un soliste accompagné d'un orchestre, souvent en trois mouvements ?",
+        "reponse": "Le concerto",
+        "propositions": ["Le concerto", "La symphonie", "La sonate", "La cantate"],
+        "explication": "Le concerto met en valeur un ou plusieurs solistes face à l'orchestre."
+      },
+      {
+        "question": "Quel compositeur français impressionniste a écrit \"Clair de lune\", extrait de la Suite bergamasque ?",
+        "reponse": "Claude Debussy",
+        "propositions": ["Claude Debussy", "Maurice Ravel", "Gabriel Fauré", "Erik Satie"],
+        "explication": "\"Clair de lune\" est l'un des morceaux de piano les plus célèbres de Debussy."
+      },
+      {
+        "question": "Quel compositeur autrichien du XXe siècle est à l'origine du dodécaphonisme (musique sérielle) ?",
+        "reponse": "Arnold Schönberg",
+        "propositions": ["Arnold Schönberg", "Alban Berg", "Anton Webern", "Gustav Mahler"],
+        "explication": "Schönberg développe la technique dodécaphonique dans les années 1920, fondant la Seconde École de Vienne."
+      }
+    ]
+  }
+}

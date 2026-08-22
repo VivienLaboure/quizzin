@@ -1,0 +1,101 @@
+{
+  "theme": "Géographie de la France",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle est la capitale de la France ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Lyon", "Marseille", "Toulouse"],
+        "explication": "Paris est la capitale de la France depuis le Moyen Âge et son centre politique, économique et culturel."
+      },
+      {
+        "question": "Quel est le plus long fleuve de France ?",
+        "reponse": "La Loire",
+        "propositions": ["La Loire", "La Seine", "Le Rhône", "La Garonne"],
+        "explication": "La Loire s'étend sur environ 1 012 km, ce qui en fait le plus long fleuve entièrement français."
+      },
+      {
+        "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+        "reponse": "Les Pyrénées",
+        "propositions": ["Les Pyrénées", "Les Alpes", "Le Massif central", "Le Jura"],
+        "explication": "Les Pyrénées forment une frontière naturelle entre la France et l'Espagne, sur environ 430 km."
+      },
+      {
+        "question": "Quelle mer borde la Côte d'Azur ?",
+        "reponse": "La mer Méditerranée",
+        "propositions": ["La mer Méditerranée", "L'océan Atlantique", "La Manche", "La mer du Nord"],
+        "explication": "La Côte d'Azur, au sud-est de la France, longe la mer Méditerranée."
+      },
+      {
+        "question": "Quel est le plus haut sommet de France (et d'Europe occidentale) ?",
+        "reponse": "Le mont Blanc",
+        "propositions": ["Le mont Blanc", "Le Puy de Dôme", "Le mont Ventoux", "Le Vignemale"],
+        "explication": "Le mont Blanc culmine à 4 805 mètres, dans les Alpes, à la frontière franco-italienne."
+      }
+    ],
+    "2": [
+      {
+        "question": "Combien de régions administratives compte la France métropolitaine depuis la réforme de 2016 ?",
+        "reponse": "13",
+        "propositions": ["13", "22", "18", "27"],
+        "explication": "La réforme territoriale de 2016 a fait passer la métropole de 22 à 13 régions par fusion."
+      },
+      {
+        "question": "Quel département français porte le numéro 75 ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Hauts-de-Seine", "Seine-Saint-Denis", "Val-de-Marne"],
+        "explication": "Paris est à la fois une commune, un département et une région, numéroté 75."
+      },
+      {
+        "question": "Quelle ville est surnommée \"la capitale des Gaules\" ?",
+        "reponse": "Lyon",
+        "propositions": ["Lyon", "Marseille", "Bordeaux", "Strasbourg"],
+        "explication": "Lyon, fondée sous le nom de Lugdunum, était la capitale des Trois Gaules à l'époque romaine."
+      },
+      {
+        "question": "Quel massif montagneux occupe le centre de la France ?",
+        "reponse": "Le Massif central",
+        "propositions": ["Le Massif central", "Le Massif armoricain", "Les Vosges", "Le Jura"],
+        "explication": "Le Massif central couvre environ un sixième du territoire français, au cœur du pays."
+      },
+      {
+        "question": "Quel est le point culminant du Massif central ?",
+        "reponse": "Le Puy de Sancy",
+        "propositions": ["Le Puy de Sancy", "Le Puy de Dôme", "Le mont Mézenc", "Le mont Aigoual"],
+        "explication": "Le Puy de Sancy culmine à 1 886 mètres, dans le massif des monts Dore."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel est le plus grand département français en superficie (hors DOM-TOM) ?",
+        "reponse": "La Gironde",
+        "propositions": ["La Gironde", "Les Landes", "La Dordogne", "Le Var"],
+        "explication": "La Gironde s'étend sur environ 10 000 km², le plus vaste département métropolitain."
+      },
+      {
+        "question": "Quelle région française partage une frontière avec quatre pays différents ?",
+        "reponse": "Le Grand Est",
+        "propositions": ["Le Grand Est", "Auvergne-Rhône-Alpes", "Provence-Alpes-Côte d'Azur", "Bourgogne-Franche-Comté"],
+        "explication": "Le Grand Est borde la Belgique, le Luxembourg, l'Allemagne et la Suisse."
+      },
+      {
+        "question": "Quel fleuve français se jette dans la Méditerranée après avoir traversé Lyon et Avignon ?",
+        "reponse": "Le Rhône",
+        "propositions": ["Le Rhône", "La Loire", "La Garonne", "La Seine"],
+        "explication": "Le Rhône prend sa source en Suisse et rejoint la Méditerranée par un delta en Camargue."
+      },
+      {
+        "question": "Quelle île française est surnommée \"l'île de Beauté\" ?",
+        "reponse": "La Corse",
+        "propositions": ["La Corse", "Belle-Île", "L'île de Ré", "L'île d'Oléron"],
+        "explication": "La Corse, en Méditerranée, doit ce surnom à ses reliefs et paysages contrastés."
+      },
+      {
+        "question": "Quel est le point culminant du massif des Vosges ?",
+        "reponse": "Le Grand Ballon",
+        "propositions": ["Le Grand Ballon", "Le Ballon d'Alsace", "Le Hohneck", "Le Donon"],
+        "explication": "Le Grand Ballon culmine à 1 424 mètres, dans le Haut-Rhin."
+      }
+    ]
+  }
+}

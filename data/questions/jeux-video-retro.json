@@ -1,0 +1,101 @@
+{
+  "theme": "Jeux vidéo rétro",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel personnage moustachu, plombier italien, est la mascotte de Nintendo ?",
+        "reponse": "Mario",
+        "propositions": ["Mario", "Luigi", "Wario", "Yoshi"],
+        "explication": "Mario, créé par Shigeru Miyamoto, apparaît pour la première fois en 1981 dans Donkey Kong."
+      },
+      {
+        "question": "Quelle console de Sega, sortie en 1991, était la grande rivale de la Super Nintendo ?",
+        "reponse": "La Mega Drive",
+        "propositions": ["La Mega Drive", "La Master System", "La Saturn", "La Dreamcast"],
+        "explication": "La Mega Drive (Genesis aux États-Unis) affronte la Super Nintendo lors de la \"guerre des consoles\" des années 1990."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1980, mettant en scène une créature jaune mangeant des pac-gommes, est un classique absolu ?",
+        "reponse": "Pac-Man",
+        "propositions": ["Pac-Man", "Space Invaders", "Donkey Kong", "Frogger"],
+        "explication": "Pac-Man, créé par Toru Iwatani, devient l'un des jeux d'arcade les plus populaires de tous les temps."
+      },
+      {
+        "question": "Quelle entreprise a créé la console PlayStation, sortie en 1994 ?",
+        "reponse": "Sony",
+        "propositions": ["Sony", "Sega", "Nintendo", "Atari"],
+        "explication": "La PlayStation, lancée par Sony au Japon en décembre 1994, marque l'entrée du géant japonais sur le marché des consoles."
+      },
+      {
+        "question": "Quel jeu de tir spatial de 1978 est considéré comme un pionnier du genre \"shoot 'em up\" ?",
+        "reponse": "Space Invaders",
+        "propositions": ["Space Invaders", "Galaga", "Asteroids", "Defender"],
+        "explication": "Space Invaders, créé par Tomohiro Nishikado, popularise le genre du tir spatial dès 1978."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quelle console, sortie par Nintendo en 1985 aux États-Unis, a relancé le marché du jeu vidéo après le krach de 1983 ?",
+        "reponse": "La NES (Nintendo Entertainment System)",
+        "propositions": ["La NES (Nintendo Entertainment System)", "La SNES", "La Game Boy", "L'Atari 2600"],
+        "explication": "La NES restaure la confiance du marché américain, dévasté par le krach du jeu vidéo de 1983."
+      },
+      {
+        "question": "Quel personnage, hérisson bleu ultra-rapide, est la mascotte de Sega ?",
+        "reponse": "Sonic",
+        "propositions": ["Sonic", "Tails", "Knuckles", "Shadow"],
+        "explication": "Sonic the Hedgehog apparaît en 1991 pour concurrencer directement Mario."
+      },
+      {
+        "question": "Quel jeu de plateforme de 1985, mettant en scène Mario pour la première fois sur console de salon, a défini le genre ?",
+        "reponse": "Super Mario Bros.",
+        "propositions": ["Super Mario Bros.", "Donkey Kong", "Super Mario World", "Duck Hunt"],
+        "explication": "Super Mario Bros., sorti sur NES en 1985, pose les bases du jeu de plateforme moderne."
+      },
+      {
+        "question": "Quelle console portable de Nintendo, sortie en 1989, a dominé le marché du jeu portable pendant plus d'une décennie ?",
+        "reponse": "La Game Boy",
+        "propositions": ["La Game Boy", "La Game Gear", "La Lynx", "La Neo Geo Pocket"],
+        "explication": "La Game Boy, malgré un écran monochrome, s'impose grâce à son autonomie et son catalogue de jeux."
+      },
+      {
+        "question": "Quel jeu de combat, sorti en 1991 chez Capcom, oppose des combattants du monde entier et lance le genre \"versus fighting\" ?",
+        "reponse": "Street Fighter II",
+        "propositions": ["Street Fighter II", "Mortal Kombat", "Tekken", "Fatal Fury"],
+        "explication": "Street Fighter II popularise massivement le jeu de combat en arcade au début des années 1990."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel ingénieur japonais, créateur de Mario, Zelda et Donkey Kong, est surnommé le \"père du jeu vidéo moderne\" ?",
+        "reponse": "Shigeru Miyamoto",
+        "propositions": ["Shigeru Miyamoto", "Hideo Kojima", "Satoshi Tajiri", "Yuji Naka"],
+        "explication": "Shigeru Miyamoto est à l'origine de certaines des franchises les plus célèbres de Nintendo."
+      },
+      {
+        "question": "Quel jeu vidéo, développé par Atari et sorti en 1982, est resté célèbre pour avoir contribué au krach du jeu vidéo de 1983 ?",
+        "reponse": "E.T. l'extra-terrestre",
+        "propositions": ["E.T. l'extra-terrestre", "Pac-Man (Atari 2600)", "Pitfall!", "Custer's Revenge"],
+        "explication": "Développé en cinq semaines, E.T. est considéré comme l'un des plus grands échecs commerciaux du jeu vidéo."
+      },
+      {
+        "question": "Quelle société a développé la console Neo Geo en 1990, réputée pour ses jeux d'arcade haut de gamme et son prix très élevé ?",
+        "reponse": "SNK",
+        "propositions": ["SNK", "Capcom", "Konami", "Taito"],
+        "explication": "La Neo Geo, surnommée \"la Rolls-Royce des consoles\", visait un public de passionnés fortunés."
+      },
+      {
+        "question": "Quel jeu de rôle japonais, sorti en 1987 sur NES, est le premier épisode d'une saga culte comptant aujourd'hui des dizaines d'opus ?",
+        "reponse": "Final Fantasy",
+        "propositions": ["Final Fantasy", "Dragon Quest", "Chrono Trigger", "EarthBound"],
+        "explication": "Créé par Hironobu Sakaguchi, le premier Final Fantasy sort en décembre 1987 au Japon."
+      },
+      {
+        "question": "Quel jeu de puzzle, sorti en 1984, où il faut empiler des blocs de formes différentes, a été inventé par le programmeur soviétique Alexey Pajitnov ?",
+        "reponse": "Tetris",
+        "propositions": ["Tetris", "Columns", "Puyo Puyo", "Dr. Mario"],
+        "explication": "Tetris devient l'un des jeux les plus vendus de tous les temps, porté notamment par la Game Boy."
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "theme": "Cinéma français",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel réalisateur français est connu pour \"Le Fabuleux Destin d'Amélie Poulain\" ?",
+        "reponse": "Jean-Pierre Jeunet",
+        "propositions": ["Jean-Pierre Jeunet", "Luc Besson", "Jean-Luc Godard", "François Truffaut"],
+        "explication": "Jean-Pierre Jeunet réalise ce film en 2001, immense succès populaire en France et à l'étranger."
+      },
+      {
+        "question": "Quel acteur français a joué dans \"Intouchables\" (2011) aux côtés d'Omar Sy ?",
+        "reponse": "François Cluzet",
+        "propositions": ["François Cluzet", "Gérard Depardieu", "Jean Dujardin", "Vincent Cassel"],
+        "explication": "François Cluzet incarne Philippe, le tétraplégique aidé par Driss (Omar Sy)."
+      },
+      {
+        "question": "Quelle récompense française du cinéma est remise chaque année depuis 1976 ?",
+        "reponse": "Le César",
+        "propositions": ["Le César", "L'Oscar", "La Palme d'or", "Le Molière"],
+        "explication": "Les César récompensent chaque année les meilleurs films et artistes du cinéma français."
+      },
+      {
+        "question": "Dans quelle ville se déroule le célèbre Festival de Cannes ?",
+        "reponse": "Cannes",
+        "propositions": ["Cannes", "Nice", "Deauville", "Biarritz"],
+        "explication": "Le Festival de Cannes se tient chaque année sur la Côte d'Azur, à Cannes."
+      },
+      {
+        "question": "Quel acteur a incarné le personnage de OSS 117 au cinéma ?",
+        "reponse": "Jean Dujardin",
+        "propositions": ["Jean Dujardin", "Omar Sy", "Dany Boon", "Gad Elmaleh"],
+        "explication": "Jean Dujardin campe l'espion maladroit OSS 117 dans les films de Michel Hazanavicius."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel film muet français, sorti en 2011, a remporté l'Oscar du meilleur film en 2012 ?",
+        "reponse": "The Artist",
+        "propositions": ["The Artist", "Amour", "La Vie d'Adèle", "Intouchables"],
+        "explication": "Réalisé par Michel Hazanavicius, The Artist devient le premier film majoritairement muet à remporter l'Oscar du meilleur film depuis 1929."
+      },
+      {
+        "question": "Quel réalisateur est à l'origine de la saga \"Léon\", \"Nikita\" et \"Le Cinquième Élément\" ?",
+        "reponse": "Luc Besson",
+        "propositions": ["Luc Besson", "Jean-Pierre Jeunet", "Claude Lelouch", "Bertrand Tavernier"],
+        "explication": "Luc Besson signe ces succès populaires français à dimension internationale."
+      },
+      {
+        "question": "Quel duo d'acteurs forme le tandem principal du film \"La Grande Vadrouille\" (1966) ?",
+        "reponse": "Louis de Funès et Bourvil",
+        "propositions": ["Louis de Funès et Bourvil", "Gérard Depardieu et Pierre Richard", "Fernandel et Bourvil", "Coluche et Depardieu"],
+        "explication": "Ce film de Gérard Oury reste l'un des plus grands succès du box-office français."
+      },
+      {
+        "question": "Quel réalisateur franco-tunisien a signé \"La Vie d'Adèle\", Palme d'or 2013 ?",
+        "reponse": "Abdellatif Kechiche",
+        "propositions": ["Abdellatif Kechiche", "Jacques Audiard", "Michel Hazanavicius", "Xavier Dolan"],
+        "explication": "Abdellatif Kechiche remporte la Palme d'or à Cannes en 2013 pour ce film."
+      },
+      {
+        "question": "Quel film d'animation français, sorti en 2003, suit des triplettes excentriques à la recherche de leur neveu cycliste ?",
+        "reponse": "Les Triplettes de Belleville",
+        "propositions": ["Les Triplettes de Belleville", "Kirikou et la Sorcière", "Persepolis", "Ernest et Célestine"],
+        "explication": "Réalisé par Sylvain Chomet, ce film est nommé aux Oscars du meilleur film d'animation."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel mouvement cinématographique français des années 1950-60, porté par Godard et Truffaut, rompt avec les codes classiques ?",
+        "reponse": "La Nouvelle Vague",
+        "propositions": ["La Nouvelle Vague", "Le Cinéma vérité", "Le Réalisme poétique", "La Qualité française"],
+        "explication": "La Nouvelle Vague renouvelle la mise en scène et la narration du cinéma français à la fin des années 1950."
+      },
+      {
+        "question": "Quel film de Marcel Carné (1945), souvent cité parmi les plus grands films français, se déroule dans le monde du théâtre parisien du XIXe siècle ?",
+        "reponse": "Les Enfants du paradis",
+        "propositions": ["Les Enfants du paradis", "Le Jour se lève", "Hôtel du Nord", "Quai des brumes"],
+        "explication": "Tourné pendant l'Occupation, ce film est régulièrement classé parmi les meilleurs films français de tous les temps."
+      },
+      {
+        "question": "Quel réalisateur français a remporté la Palme d'or à Cannes pour \"Dheepan\" en 2015 ?",
+        "reponse": "Jacques Audiard",
+        "propositions": ["Jacques Audiard", "Xavier Dolan", "Arnaud Desplechin", "Olivier Assayas"],
+        "explication": "Jacques Audiard remporte sa première Palme d'or avec ce film sur des réfugiés srilankais à Paris."
+      },
+      {
+        "question": "Quel acteur emblématique du cinéma français est surnommé \"Le Grand Blond\" pour son rôle de 1972 ?",
+        "reponse": "Pierre Richard",
+        "propositions": ["Pierre Richard", "Gérard Depardieu", "Jean Rochefort", "Jean-Paul Belmondo"],
+        "explication": "Pierre Richard incarne \"Le Grand Blond avec une chaussure noire\" dans le film d'Yves Robert."
+      },
+      {
+        "question": "Quel réalisateur est le père du \"réalisme poétique\" avec des films comme \"Quai des brumes\" (1938) ?",
+        "reponse": "Marcel Carné",
+        "propositions": ["Marcel Carné", "Jean Renoir", "Julien Duvivier", "René Clair"],
+        "explication": "Marcel Carné, avec le scénariste Jacques Prévert, incarne ce courant du cinéma français des années 1930."
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "theme": "Physique",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle est l'unité de mesure de la force dans le Système international ?",
+        "reponse": "Le newton",
+        "propositions": ["Le newton", "Le joule", "Le watt", "Le pascal"],
+        "explication": "Le newton (N) mesure une force, en hommage à Isaac Newton."
+      },
+      {
+        "question": "Qui a formulé la loi de la gravitation universelle ?",
+        "reponse": "Isaac Newton",
+        "propositions": ["Isaac Newton", "Albert Einstein", "Galilée", "Johannes Kepler"],
+        "explication": "Newton publie sa loi de la gravitation universelle en 1687 dans les Principia Mathematica."
+      },
+      {
+        "question": "Quelle est la vitesse de la lumière dans le vide (approximativement) ?",
+        "reponse": "300 000 km/s",
+        "propositions": ["300 000 km/s", "150 000 km/s", "3 000 km/s", "1 000 000 km/s"],
+        "explication": "La lumière se déplace dans le vide à environ 299 792 km par seconde."
+      },
+      {
+        "question": "Quel état de la matière n'a ni forme ni volume propre ?",
+        "reponse": "Le gaz",
+        "propositions": ["Le gaz", "Le liquide", "Le solide", "Le cristal"],
+        "explication": "Un gaz occupe tout le volume disponible et n'a pas de forme propre, contrairement au solide et au liquide."
+      },
+      {
+        "question": "Quelle grandeur physique se mesure en degrés Celsius ?",
+        "reponse": "La température",
+        "propositions": ["La température", "La pression", "La masse", "L'énergie"],
+        "explication": "Le degré Celsius est une unité de mesure de la température."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quelle loi énonce que \"pour toute action il existe une réaction opposée et de même intensité\" ?",
+        "reponse": "La troisième loi de Newton",
+        "propositions": ["La troisième loi de Newton", "La loi de Hooke", "La loi d'Ohm", "Le principe d'Archimède"],
+        "explication": "C'est le principe d'action-réaction, troisième loi du mouvement énoncée par Newton."
+      },
+      {
+        "question": "Quelle est l'unité de mesure de l'énergie dans le Système international ?",
+        "reponse": "Le joule",
+        "propositions": ["Le joule", "Le newton", "Le watt", "L'ampère"],
+        "explication": "Le joule (J) est l'unité d'énergie, de travail et de quantité de chaleur."
+      },
+      {
+        "question": "Quel scientifique a énoncé le principe de la relativité restreinte en 1905 ?",
+        "reponse": "Albert Einstein",
+        "propositions": ["Albert Einstein", "Niels Bohr", "Max Planck", "Werner Heisenberg"],
+        "explication": "Einstein publie sa théorie de la relativité restreinte en 1905, révolutionnant la physique."
+      },
+      {
+        "question": "Quelle grandeur est le produit de la masse par la vitesse d'un objet ?",
+        "reponse": "La quantité de mouvement",
+        "propositions": ["La quantité de mouvement", "L'énergie cinétique", "La force", "L'accélération"],
+        "explication": "La quantité de mouvement (p = m·v) caractérise l'état de mouvement d'un corps."
+      },
+      {
+        "question": "Quel physicien a découvert la radioactivité en 1896 ?",
+        "reponse": "Henri Becquerel",
+        "propositions": ["Henri Becquerel", "Marie Curie", "Pierre Curie", "Ernest Rutherford"],
+        "explication": "Becquerel observe l'émission spontanée de rayonnement par des sels d'uranium en 1896."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel principe stipule qu'on ne peut connaître simultanément avec précision la position et la vitesse d'une particule ?",
+        "reponse": "Le principe d'incertitude de Heisenberg",
+        "propositions": ["Le principe d'incertitude de Heisenberg", "Le principe d'exclusion de Pauli", "Le théorème de Noether", "La dualité onde-corpuscule"],
+        "explication": "Heisenberg formule ce principe fondamental de la mécanique quantique en 1927."
+      },
+      {
+        "question": "Quelle particule élémentaire, prédite en 1964, confère leur masse aux autres particules et a été détectée en 2012 au CERN ?",
+        "reponse": "Le boson de Higgs",
+        "propositions": ["Le boson de Higgs", "Le boson W", "Le quark top", "Le neutrino"],
+        "explication": "Le boson de Higgs a été observé au LHC du CERN en 2012, confirmant le mécanisme de Higgs."
+      },
+      {
+        "question": "Quelle loi relie la pression, le volume et la température d'un gaz parfait ?",
+        "reponse": "La loi des gaz parfaits",
+        "propositions": ["La loi des gaz parfaits", "La loi de Boyle-Mariotte", "La loi de Charles", "La loi de Gay-Lussac"],
+        "explication": "La loi des gaz parfaits (PV = nRT) généralise les lois particulières de Boyle-Mariotte, Charles et Gay-Lussac."
+      },
+      {
+        "question": "Quel phénomène, confirmé lors de l'éclipse de 1919, montre que la lumière est déviée par un champ gravitationnel intense ?",
+        "reponse": "La lentille gravitationnelle",
+        "propositions": ["La lentille gravitationnelle", "L'effet Doppler", "La diffraction", "La réfraction"],
+        "explication": "L'observation de 1919 par Eddington a confirmé la prédiction d'Einstein sur la courbure de la lumière par la gravité."
+      },
+      {
+        "question": "Quelle particule est l'antiparticule de l'électron ?",
+        "reponse": "Le positron",
+        "propositions": ["Le positron", "Le proton", "Le neutron", "Le muon"],
+        "explication": "Le positron a la même masse que l'électron mais une charge électrique opposée."
+      }
+    ]
+  }
+}

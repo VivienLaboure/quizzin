@@ -1,0 +1,101 @@
+{
+  "theme": "Informatique",
+  "questions": {
+    "1": [
+      {
+        "question": "Que signifie le sigle \"CPU\" ?",
+        "reponse": "Central Processing Unit",
+        "propositions": ["Central Processing Unit", "Computer Power Unit", "Central Program Utility", "Core Processing Unity"],
+        "explication": "Le CPU, ou processeur, est l'unité centrale de traitement d'un ordinateur."
+      },
+      {
+        "question": "Quel langage de programmation, créé en 1991, est connu pour sa syntaxe simple et son usage massif en science des données ?",
+        "reponse": "Python",
+        "propositions": ["Python", "Java", "C++", "Ruby"],
+        "explication": "Python, créé par Guido van Rossum, est aujourd'hui l'un des langages les plus utilisés au monde."
+      },
+      {
+        "question": "Quelle entreprise a créé le système d'exploitation Windows ?",
+        "reponse": "Microsoft",
+        "propositions": ["Microsoft", "Apple", "Google", "IBM"],
+        "explication": "Microsoft lance la première version de Windows en 1985."
+      },
+      {
+        "question": "Que signifie l'abréviation \"URL\" ?",
+        "reponse": "Uniform Resource Locator",
+        "propositions": ["Uniform Resource Locator", "Universal Router Link", "User Resource Language", "Unified Redirect Location"],
+        "explication": "Une URL est l'adresse qui permet de localiser une ressource sur Internet."
+      },
+      {
+        "question": "Quelle unité mesure la quantité de données stockées, en multiples d'octets ?",
+        "reponse": "Le byte (octet)",
+        "propositions": ["Le byte (octet)", "Le hertz", "Le volt", "L'ampère"],
+        "explication": "L'octet (byte) est l'unité de base du stockage informatique, ses multiples étant le kilo-octet, méga-octet, etc."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel protocole sécurisé permet de naviguer sur un site web de façon chiffrée (cadenas dans le navigateur) ?",
+        "reponse": "HTTPS",
+        "propositions": ["HTTPS", "FTP", "SMTP", "DNS"],
+        "explication": "HTTPS chiffre les échanges entre le navigateur et le serveur grâce au protocole TLS."
+      },
+      {
+        "question": "Quelle entreprise a lancé le premier iPhone en 2007 ?",
+        "reponse": "Apple",
+        "propositions": ["Apple", "Samsung", "Google", "Nokia"],
+        "explication": "Steve Jobs présente le premier iPhone en janvier 2007, révolutionnant le marché du smartphone."
+      },
+      {
+        "question": "Que signifie \"IA\" en informatique ?",
+        "reponse": "Intelligence artificielle",
+        "propositions": ["Intelligence artificielle", "Interface avancée", "Infrastructure automatisée", "Interaction algorithmique"],
+        "explication": "L'intelligence artificielle désigne des systèmes capables de simuler certaines capacités cognitives humaines."
+      },
+      {
+        "question": "Quel langage de balisage sert à structurer le contenu des pages web ?",
+        "reponse": "HTML",
+        "propositions": ["HTML", "CSS", "SQL", "JSON"],
+        "explication": "HTML (HyperText Markup Language) structure le contenu, tandis que CSS gère la présentation."
+      },
+      {
+        "question": "Quel système de contrôle de version, créé par Linus Torvalds en 2005, est aujourd'hui un standard du développement logiciel ?",
+        "reponse": "Git",
+        "propositions": ["Git", "SVN", "Mercurial", "Perforce"],
+        "explication": "Git a été créé par Linus Torvalds pour gérer le développement du noyau Linux."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel algorithme de tri, basé sur le principe \"diviser pour régner\", porte le nom de son inventeur Tony Hoare ?",
+        "reponse": "Le tri rapide (quicksort)",
+        "propositions": ["Le tri rapide (quicksort)", "Le tri à bulles", "Le tri par insertion", "Le tri fusion"],
+        "explication": "Tony Hoare invente le quicksort en 1959, l'un des algorithmes de tri les plus utilisés."
+      },
+      {
+        "question": "Quel type de réseau de neurones, à la base des grands modèles de langage actuels, repose sur le mécanisme d'attention introduit en 2017 ?",
+        "reponse": "Le Transformer",
+        "propositions": ["Le Transformer", "Le réseau convolutif (CNN)", "Le réseau récurrent (RNN)", "Le perceptron multicouche"],
+        "explication": "L'architecture Transformer, présentée dans l'article \"Attention Is All You Need\" (2017), fonde les modèles de langage modernes."
+      },
+      {
+        "question": "Quelle norme définit le chiffrement symétrique standardisé par le NIST en 2001, remplaçant le DES ?",
+        "reponse": "AES (Advanced Encryption Standard)",
+        "propositions": ["AES (Advanced Encryption Standard)", "RSA", "SHA-256", "DES"],
+        "explication": "AES est adopté en 2001 comme nouveau standard fédéral américain de chiffrement symétrique."
+      },
+      {
+        "question": "Quel paradigme de programmation, popularisé par des langages comme Haskell, évite les effets de bord et traite les fonctions comme des valeurs ?",
+        "reponse": "La programmation fonctionnelle",
+        "propositions": ["La programmation fonctionnelle", "La programmation orientée objet", "La programmation procédurale", "La programmation événementielle"],
+        "explication": "La programmation fonctionnelle repose sur l'évaluation de fonctions pures, sans effets de bord."
+      },
+      {
+        "question": "Quelle classe de complexité regroupe les problèmes vérifiables rapidement, au cœur du problème P=NP ?",
+        "reponse": "NP",
+        "propositions": ["NP", "P", "NP-complet", "PSPACE"],
+        "explication": "NP désigne les problèmes dont une solution proposée peut être vérifiée en temps polynomial."
+      }
+    ]
+  }
+}

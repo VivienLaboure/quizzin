@@ -1,0 +1,101 @@
+{
+  "theme": "Economie française",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle est la monnaie utilisée en France depuis 2002 ?",
+        "reponse": "L'euro",
+        "propositions": ["L'euro", "Le franc", "La livre", "Le dollar"],
+        "explication": "L'euro remplace le franc français comme monnaie officielle le 1er janvier 2002."
+      },
+      {
+        "question": "Quelle institution fixe le taux d'intérêt directeur pour l'ensemble de la zone euro, dont la France ?",
+        "reponse": "La Banque centrale européenne",
+        "propositions": ["La Banque centrale européenne", "La Banque de France", "Le Trésor public", "Bercy"],
+        "explication": "La BCE, basée à Francfort, définit la politique monétaire commune à tous les pays de la zone euro."
+      },
+      {
+        "question": "Quel impôt est prélevé directement sur le salaire depuis 2019 en France ?",
+        "reponse": "L'impôt sur le revenu (prélevé à la source)",
+        "propositions": ["L'impôt sur le revenu (prélevé à la source)", "La TVA", "La taxe d'habitation", "L'impôt sur les sociétés"],
+        "explication": "Le prélèvement à la source de l'impôt sur le revenu est entré en vigueur en janvier 2019."
+      },
+      {
+        "question": "Quel sigle désigne le salaire minimum légal en France ?",
+        "reponse": "Le SMIC",
+        "propositions": ["Le SMIC", "Le RSA", "La CSG", "Le CDI"],
+        "explication": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire plancher légal."
+      },
+      {
+        "question": "Quel secteur économique regroupe l'agriculture et la pêche ?",
+        "reponse": "Le secteur primaire",
+        "propositions": ["Le secteur primaire", "Le secteur secondaire", "Le secteur tertiaire", "Le secteur quaternaire"],
+        "explication": "Le secteur primaire regroupe les activités d'exploitation des ressources naturelles."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel indice mesure l'évolution des prix à la consommation en France, publié par l'INSEE ?",
+        "reponse": "L'indice des prix à la consommation (IPC)",
+        "propositions": ["L'indice des prix à la consommation (IPC)", "Le PIB", "Le taux de chômage", "L'indice CAC 40"],
+        "explication": "L'IPC sert notamment de référence pour mesurer l'inflation en France."
+      },
+      {
+        "question": "Quel est le principal indice boursier de la Bourse de Paris ?",
+        "reponse": "Le CAC 40",
+        "propositions": ["Le CAC 40", "Le Dow Jones", "Le DAX", "Le FTSE 100"],
+        "explication": "Le CAC 40 regroupe les 40 plus grandes capitalisations cotées à la Bourse de Paris."
+      },
+      {
+        "question": "Quelle taxe française, incluse dans le prix de la plupart des biens et services, est un impôt indirect sur la consommation ?",
+        "reponse": "La TVA",
+        "propositions": ["La TVA", "L'impôt sur le revenu", "La CSG", "La taxe foncière"],
+        "explication": "La taxe sur la valeur ajoutée est payée par le consommateur final, incluse dans le prix affiché."
+      },
+      {
+        "question": "Quel organisme public français est chargé de produire les statistiques économiques et démographiques officielles ?",
+        "reponse": "L'INSEE",
+        "propositions": ["L'INSEE", "La Banque de France", "Bercy", "Pôle emploi"],
+        "explication": "L'Institut national de la statistique et des études économiques publie les principales statistiques nationales."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des richesses produites par un pays en une année ?",
+        "reponse": "Le produit intérieur brut (PIB)",
+        "propositions": ["Le produit intérieur brut (PIB)", "Le revenu national", "La balance commerciale", "L'inflation"],
+        "explication": "Le PIB mesure la valeur totale de la production de biens et services sur une année."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel économiste français est l'auteur du best-seller mondial \"Le Capital au XXIe siècle\" (2013), traitant des inégalités ?",
+        "reponse": "Thomas Piketty",
+        "propositions": ["Thomas Piketty", "Jean Tirole", "Esther Duflo", "Olivier Blanchard"],
+        "explication": "Cet ouvrage de Thomas Piketty analyse la concentration des richesses depuis le XVIIIe siècle."
+      },
+      {
+        "question": "Quel économiste français a reçu le prix Nobel d'économie en 2014 pour ses travaux sur la régulation des marchés ?",
+        "reponse": "Jean Tirole",
+        "propositions": ["Jean Tirole", "Thomas Piketty", "Maurice Allais", "Gérard Debreu"],
+        "explication": "Jean Tirole est récompensé pour ses analyses du pouvoir de marché et de la régulation."
+      },
+      {
+        "question": "Quel plan français de relance économique d'après-guerre, porté par Jean Monnet, visait la modernisation industrielle ?",
+        "reponse": "Le Plan Monnet",
+        "propositions": ["Le Plan Monnet", "Le Plan Marshall", "Le Plan Barre", "Le Plan Juppé"],
+        "explication": "Le Plan Monnet (1946) organise la modernisation et l'équipement de l'économie française d'après-guerre."
+      },
+      {
+        "question": "Quel tournant économique français de 1983, sous le gouvernement de Pierre Mauroy, privilégie la rigueur budgétaire à la relance ?",
+        "reponse": "Le tournant de la rigueur",
+        "propositions": ["Le tournant de la rigueur", "Le Plan Monnet", "Les Trente Glorieuses", "La politique de l'offre"],
+        "explication": "Ce tournant marque l'abandon de la politique de relance pour une politique de rigueur budgétaire."
+      },
+      {
+        "question": "Comment appelle-t-on la période de forte croissance économique française entre 1945 et 1975 ?",
+        "reponse": "Les Trente Glorieuses",
+        "propositions": ["Les Trente Glorieuses", "Le Plan Monnet", "La Belle Époque", "Les Golden Sixties"],
+        "explication": "L'expression a été popularisée par l'économiste Jean Fourastié en 1979."
+      }
+    ]
+  }
+}
