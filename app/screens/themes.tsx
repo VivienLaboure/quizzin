@@ -1,7 +1,7 @@
 import Constants from 'expo-constants';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Platform, ScrollView, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
+import { ActivityIndicator, Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { getProfile, getThemes, unlockTheme } from '../../API';
 import mockData from '../../api/quizzFR.json';
 import Button from '../../components/ui/Button';
@@ -286,15 +286,56 @@ const Themes: React.FC = () => {
   const [themeXp, setThemeXp] = useState<Record<string, number>>({});
   const [loading, setLoading] = useState(true);
 
-  // Centrage initial sur le thème central : l'arbre peut être bien plus
-  // grand que l'écran (beaucoup de thèmes), donc au chargement on scrolle
-  // jusqu'au centre plutôt que de laisser l'utilisateur atterrir dans un
-  // coin — il peut ensuite naviguer librement dans les deux sens.
-  const verticalScrollRef = useRef<ScrollView>(null);
-  const horizontalScrollRef = useRef<ScrollView>(null);
+  // Déplacement libre de l'arbre (glissement dans n'importe quelle direction,
+  // diagonale comprise) : un ScrollView vertical + horizontal imbriqués ne
+  // permet qu'un glissement par axe à la fois. Ici, une seule translation 2D
+  // (Animated.ValueXY) suit le doigt directement, dans toutes les
+  // directions à la fois, comme sur une carte.
+  const pan = useRef(new Animated.ValueXY({ x: 0, y: 0 })).current;
+  const currentPanRef = useRef({ x: 0, y: 0 });
+  const dragStartRef = useRef({ x: 0, y: 0 });
   const [hViewport, setHViewport] = useState(0);
   const [vViewport, setVViewport] = useState(0);
   const hasCenteredRef = useRef(false);
+  // Toujours à jour (contrairement aux variables de rendu capturées par la
+  // fermeture au moment de la création du PanResponder, une seule fois).
+  const metricsRef = useRef({ starSize: 0, hViewport: 0, vViewport: 0 });
+
+  const setPan = useCallback((x: number, y: number) => {
+    currentPanRef.current = { x, y };
+    pan.setValue({ x, y });
+  }, [pan]);
+
+  // Empêche de glisser l'arbre entièrement hors de vue : la translation
+  // reste bornée à ce qui garde au moins un bout du canevas visible dans le
+  // viewport ; si le contenu est plus petit que le viewport, il reste centré.
+  const clampPan = (x: number, y: number) => {
+    const { starSize, hViewport: vw, vViewport: vh } = metricsRef.current;
+    const rangeX = vw - starSize;
+    const rangeY = vh - starSize;
+    return {
+      x: rangeX >= 0 ? rangeX / 2 : Math.min(0, Math.max(rangeX, x)),
+      y: rangeY >= 0 ? rangeY / 2 : Math.min(0, Math.max(rangeY, y)),
+    };
+  };
+
+  const panResponder = useRef(
+    PanResponder.create({
+      // On laisse d'abord les nœuds (TouchableOpacity) gérer le toucher —
+      // ce n'est que si le doigt bouge vraiment (glissement, pas un simple
+      // tap) que ce conteneur reprend la main pour déplacer l'arbre.
+      onStartShouldSetPanResponderCapture: () => false,
+      onMoveShouldSetPanResponderCapture: (_evt, gesture) =>
+        Math.abs(gesture.dx) > 6 || Math.abs(gesture.dy) > 6,
+      onPanResponderGrant: () => {
+        dragStartRef.current = { ...currentPanRef.current };
+      },
+      onPanResponderMove: (_evt, gesture) => {
+        const next = clampPan(dragStartRef.current.x + gesture.dx, dragStartRef.current.y + gesture.dy);
+        setPan(next.x, next.y);
+      },
+    })
+  ).current;
 
   // Popup de confirmation de déblocage
   const [pendingTheme, setPendingTheme] = useState<string | null>(null);
@@ -426,17 +467,19 @@ const Themes: React.FC = () => {
     parentY: n.parentY + starCenter,
   }));
 
-  // Une fois l'arbre chargé et les deux ScrollView mesurées, on centre la
-  // vue sur le thème central (une seule fois — pas à chaque re-render,
-  // sinon on arracherait l'utilisateur à l'endroit où il a navigué).
+  // Toujours à jour pour que panResponder (créé une seule fois) lise des
+  // dimensions fraîches plutôt que celles capturées à sa création.
+  metricsRef.current = { starSize, hViewport, vViewport };
+
+  // Une fois l'arbre chargé et le viewport mesuré, on centre la vue sur le
+  // thème central (une seule fois — pas à chaque re-render, sinon on
+  // arracherait l'utilisateur à l'endroit où il a navigué).
   useEffect(() => {
     if (hasCenteredRef.current || loading || !starSize || !hViewport || !vViewport) return;
-    const targetX = Math.max(0, starCenter - hViewport / 2);
-    const targetY = Math.max(0, spacing.lg + starCenter - vViewport / 2);
-    horizontalScrollRef.current?.scrollTo({ x: targetX, y: 0, animated: false });
-    verticalScrollRef.current?.scrollTo({ x: 0, y: targetY, animated: false });
+    const target = clampPan(hViewport / 2 - starCenter, vViewport / 2 - starCenter);
+    setPan(target.x, target.y);
     hasCenteredRef.current = true;
-  }, [loading, starSize, starCenter, hViewport, vViewport]);
+  }, [loading, starSize, starCenter, hViewport, vViewport, setPan]);
 
   return (
     <View style={pageStyles.container}>
@@ -468,29 +511,22 @@ const Themes: React.FC = () => {
         {loading ? (
           <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
         ) : (
-          <ScrollView
-            ref={verticalScrollRef}
-            style={pageStyles.treeScroll}
-            contentContainerStyle={pageStyles.treeScrollContent}
-            showsVerticalScrollIndicator={false}
-            onLayout={e => setVViewport(e.nativeEvent.layout.height)}
+          // L'arbre peut être bien plus grand que l'écran (beaucoup de
+          // thèmes) : ce viewport reste fixe et cadre ce qui est visible
+          // (overflow masqué), tandis que le canevas à l'intérieur glisse
+          // librement dans n'importe quelle direction — y compris en
+          // diagonale, un seul geste combinant les deux axes à la fois — au
+          // gré du doigt. Au chargement, il est recentré sur le thème
+          // central (voir l'effet plus haut).
+          <View
+            style={pageStyles.treeViewport}
+            onLayout={e => {
+              setHViewport(e.nativeEvent.layout.width);
+              setVViewport(e.nativeEvent.layout.height);
+            }}
+            {...panResponder.panHandlers}
           >
-          {/* L'arbre peut désormais être plus large que l'écran (beaucoup de
-              thèmes racines à répartir en cercle complet) — un défilement
-              horizontal évite de devoir rétrécir les libellés jusqu'à
-              l'illisible pour les faire tenir de force. Au chargement, la
-              vue est recentrée sur le thème central (voir l'effet
-              ci-dessus) : l'utilisateur peut ensuite naviguer librement dans
-              les quatre directions. */}
-          <ScrollView
-            ref={horizontalScrollRef}
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            style={pageStyles.treeScrollHorizontal}
-            contentContainerStyle={pageStyles.treeScrollHorizontalContent}
-            onLayout={e => setHViewport(e.nativeEvent.layout.width)}
-          >
-          <View style={{ width: starSize, height: starSize, marginTop: spacing.lg }}>
+          <Animated.View style={{ width: starSize, height: starSize, transform: pan.getTranslateTransform() }}>
             {/* Halo doux derrière le centre — donne de la profondeur à
                 l'étoile sans dépendre d'une lib de dégradé. */}
             {hasCenter && GLOW_LAYERS.map(({ scale, opacity }) => {
@@ -647,9 +683,8 @@ const Themes: React.FC = () => {
                 </View>
               );
             })}
+          </Animated.View>
           </View>
-          </ScrollView>
-          </ScrollView>
         )}
       </View>
 
@@ -695,10 +730,10 @@ const pageStyles = StyleSheet.create({
   // défilement de l'arbre — sinon deux bandes blanches inutiles réduisent la
   // largeur visible de l'arbre alors qu'il a justement besoin de place.
   content: { flex: 1, alignItems: 'center' },
-  treeScroll: { flex: 1, width: '100%' },
-  treeScrollContent: { alignItems: 'center', paddingBottom: spacing.xl },
-  treeScrollHorizontal: { width: '100%' },
-  treeScrollHorizontalContent: { flexGrow: 1, alignItems: 'center', justifyContent: 'center' },
+  // overflow:'hidden' cadre le canevas glissant à la taille de l'écran —
+  // sans lui, le déplacement libre laisserait voir le reste de l'arbre
+  // déborder par-dessus la carte d'info ou le bas de l'écran.
+  treeViewport: { flex: 1, width: '100%', overflow: 'hidden' },
   infoCard: { alignSelf: 'stretch', marginHorizontal: spacing.lg },
   infoRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   dot: { width: 9, height: 9, borderRadius: 5 },
