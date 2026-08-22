@@ -1,7 +1,7 @@
 import Constants from 'expo-constants';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
-import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
+import { ActivityIndicator, Platform, ScrollView, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { getProfile, getThemes, unlockTheme } from '../../API';
 import mockData from '../../api/quizzFR.json';
 import Button from '../../components/ui/Button';
@@ -94,16 +94,69 @@ interface TreeNode {
   parentY: number;
 }
 
+// Réserve verticale sous chaque nœud pour son libellé (approximative — la
+// hauteur réelle du texte varie selon sa longueur) — utilisée à la fois pour
+// agrandir le conteneur (voir plus bas dans le composant) et ici pour
+// détecter un vrai chevauchement entre le libellé d'un nœud et le cercle ou
+// le libellé d'un voisin.
+const LABEL_RESERVE = 46;
+
+/**
+ * Éloigne les nœuds d'un même groupe de frères les uns des autres jusqu'à ce
+ * qu'aucune paire ne se chevauche réellement, plutôt que de se fier à la
+ * seule distance à vol d'oiseau (corde) entre deux voisins. Deux nœuds
+ * peuvent être à une corde suffisante et pourtant voir leurs boîtes —
+ * rectangulaires et alignées sur les axes, pas sur la corde — se recouper :
+ * c'est exactement ce qui produisait le chevauchement mesuré entre
+ * "Géographie" et "Sciences" (39px d'écart horizontal réel pour un libellé
+ * de 57px de large, alors que la corde entre les deux, elle, semblait
+ * suffisante). On fait donc grandir le rayon jusqu'à ce que, pour chaque
+ * paire, soit l'écart horizontal dépasse la largeur du libellé, soit l'écart
+ * vertical dépasse la hauteur totale réservée (cercle + libellé) — jamais on
+ * ne rétrécit le texte pour le faire rentrer de force.
+ */
+function resolveSafeDistance(
+  angles: number[],
+  initialDist: number,
+  maxDist: number,
+  size: number,
+  labelWidth: number,
+  labelReserve: number
+): number {
+  if (angles.length < 2 || initialDist <= 0) return initialDist;
+
+  const minGapY = size + labelReserve;
+  const overlaps = (dist: number) => {
+    for (let i = 0; i < angles.length; i++) {
+      for (let j = i + 1; j < angles.length; j++) {
+        const dx = Math.abs(dist * (Math.cos(angles[i]) - Math.cos(angles[j])));
+        const dy = Math.abs(dist * (Math.sin(angles[i]) - Math.sin(angles[j])));
+        if (dx < labelWidth && dy < minGapY) return true;
+      }
+    }
+    return false;
+  };
+
+  let dist = initialDist;
+  const step = Math.max(2, initialDist * 0.03);
+  let iterations = 0;
+  while (dist < maxDist && overlaps(dist) && iterations < 200) {
+    dist += step;
+    iterations++;
+  }
+  return Math.min(dist, maxDist);
+}
+
 /**
  * Construit récursivement la position de chaque thème dans l'arbre :
  * les thèmes racines sont répartis en cercle complet autour du centre, puis
  * chaque enfant est placé dans le prolongement radial de son parent
  * (légèrement éventé si plusieurs frères), à une distance qui rétrécit avec
  * la profondeur. La taille du nœud ET la largeur de son libellé sont toutes
- * les deux dérivées du même espace réellement disponible entre frères
- * adjacents à ce niveau, pour qu'ils ne chevauchent jamais rien — ni un
- * autre cercle, ni un autre libellé — même si beaucoup de thèmes partagent
- * le même parent.
+ * les deux dérivées du même espace théoriquement disponible entre frères
+ * adjacents à ce niveau (la corde), puis le rayon réel est ajusté (voir
+ * resolveSafeDistance) pour garantir qu'aucune boîte ne chevauche
+ * vraiment celle d'un voisin.
  */
 function buildTreeNodes(themesList: string[], centerX: number, centerY: number, radiusByDepth: number[]): TreeNode[] {
   const childrenOf: Record<string, string[]> = {};
@@ -123,19 +176,27 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
     const kids = sortByGenerality(childrenOf[theme] ?? []);
     if (kids.length === 0) return;
 
-    const dist = radiusByDepth[depth + 1] ?? radiusByDepth[radiusByDepth.length - 1];
+    const initialDist = radiusByDepth[depth + 1] ?? radiusByDepth[radiusByDepth.length - 1];
     const step = kids.length > 1 ? Math.min(MAX_SPREAD / (kids.length - 1), Math.PI / 6) : 0;
     const [minSize, maxSize] = sizeRangeForDepth(depth + 1);
     const [minLabel, maxLabel] = labelWidthRangeForDepth(depth + 1);
     // Distance curviligne entre deux frères adjacents à cette distance du
     // parent — ni le cercle ni son libellé ne doivent la dépasser.
-    const arcSpacing = kids.length > 1 ? dist * step : maxSize / NODE_SAFETY_FACTOR;
+    const arcSpacing = kids.length > 1 ? initialDist * step : maxSize / NODE_SAFETY_FACTOR;
     const childSize = Math.max(minSize, Math.min(maxSize, arcSpacing * NODE_SAFETY_FACTOR));
     const childLabelWidth = Math.max(minLabel, Math.min(maxLabel, arcSpacing * LABEL_SAFETY_FACTOR));
 
-    kids.forEach((child, i) => {
+    const childAngles = kids.map((_, i) => {
       const offset = kids.length > 1 ? (i - (kids.length - 1) / 2) * step : 0;
-      const childAngle = angle + offset;
+      return angle + offset;
+    });
+    // La corde théorique peut suffire alors que les libellés (rectangles
+    // alignés sur les axes, pas sur la corde) se chevauchent quand même :
+    // on vérifie et on éloigne la branche du parent si besoin.
+    const dist = resolveSafeDistance(childAngles, initialDist, initialDist * 2.5, childSize, childLabelWidth, LABEL_RESERVE);
+
+    kids.forEach((child, i) => {
+      const childAngle = childAngles[i];
       const cx = x + dist * Math.cos(childAngle);
       const cy = y + dist * Math.sin(childAngle);
       place(child, depth + 1, cx, cy, childAngle, x, y, childSize, childLabelWidth);
@@ -144,18 +205,25 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
 
   const roots = sortByGenerality(themesList.filter(t => t !== CENTER_THEME && !getParent(t)));
   const angleStep = roots.length > 0 ? (2 * Math.PI) / roots.length : 0;
-  const rootDist = radiusByDepth[1];
+  const initialRootDist = radiusByDepth[1];
   const [minRootSize, maxRootSize] = sizeRangeForDepth(1);
   const [minRootLabel, maxRootLabel] = labelWidthRangeForDepth(1);
   // Corde entre deux thèmes racines adjacents sur le cercle complet — le
   // cercle et son libellé s'ajustent tous deux pour ne jamais la dépasser,
   // qu'il y ait 3 ou 15 thèmes débloquables.
-  const rootChord = roots.length > 1 ? 2 * rootDist * Math.sin(angleStep / 2) : maxRootSize / NODE_SAFETY_FACTOR;
+  const rootChord = roots.length > 1 ? 2 * initialRootDist * Math.sin(angleStep / 2) : maxRootSize / NODE_SAFETY_FACTOR;
   const rootSize = Math.max(minRootSize, Math.min(maxRootSize, rootChord * NODE_SAFETY_FACTOR));
   const rootLabelWidth = Math.max(minRootLabel, Math.min(maxRootLabel, rootChord * LABEL_SAFETY_FACTOR));
 
+  const rootAngles = roots.map((_, i) => -Math.PI / 2 + i * angleStep);
+  // Comme pour les enfants : la corde théorique entre deux racines adjacentes
+  // peut suffire alors que leurs libellés (rectangles) se chevauchent quand
+  // même selon l'angle — on vérifie le chevauchement réel et on élargit le
+  // cercle des racines si besoin, plutôt que de rétrécir le texte.
+  const rootDist = resolveSafeDistance(rootAngles, initialRootDist, initialRootDist * 3, rootSize, rootLabelWidth, LABEL_RESERVE);
+
   roots.forEach((theme, i) => {
-    const angle = -Math.PI / 2 + i * angleStep;
+    const angle = rootAngles[i];
     const x = centerX + rootDist * Math.cos(angle);
     const y = centerY + rootDist * Math.sin(angle);
     place(theme, 1, x, y, angle, centerX, centerY, rootSize, rootLabelWidth);
@@ -265,13 +333,43 @@ const Themes: React.FC = () => {
   };
 
   // ─── Géométrie de l'arbre ────────────────────────────────────────────────
-  const starSize = Math.min(width * 0.9, 380);
-  const starCenter = starSize / 2;
-  const rootRadius = starSize / 2 - sizeRangeForDepth(1)[1] / 2 - 4;
+  // Les nœuds sont d'abord construits centrés sur l'origine (0,0), avant de
+  // savoir quelle taille de conteneur il faudra réellement : une branche
+  // profonde (ex: Histoire -> Histoire de France -> Napoleon) s'étend plus
+  // loin du centre qu'un simple thème racine, et un conteneur dimensionné
+  // seulement pour les racines la laissait dépasser par-dessus la carte des
+  // jetons. On calcule donc l'étendue réelle de tous les nœuds une fois
+  // placés, et le conteneur grandit en conséquence (jamais plus petit que la
+  // taille par défaut, pour garder un bel arbre centré même avec peu de
+  // thèmes).
+  const desiredHalf = Math.min(width * 0.9, 380) / 2;
+  const rootRadius = desiredHalf - sizeRangeForDepth(1)[1] / 2 - 4;
   const radiusByDepth = [0, rootRadius, rootRadius * 0.62, rootRadius * 0.5];
 
   const hasCenter = themesList.includes(CENTER_THEME);
-  const treeNodes = buildTreeNodes(themesList, starCenter, starCenter, radiusByDepth);
+  const rawNodes = buildTreeNodes(themesList, 0, 0, radiusByDepth);
+
+  // Le libellé ne s'étend que vers le bas (sous le cercle) — réservé côté +y
+  // (LABEL_RESERVE est défini plus haut, partagé avec buildTreeNodes).
+  let reach = desiredHalf;
+  for (const node of rawNodes) {
+    reach = Math.max(
+      reach,
+      -(node.x - node.size / 2),
+      node.x + node.size / 2,
+      -(node.y - node.size / 2),
+      node.y + node.size / 2 + LABEL_RESERVE
+    );
+  }
+  const starCenter = reach + 8;
+  const starSize = starCenter * 2;
+  const treeNodes = rawNodes.map(n => ({
+    ...n,
+    x: n.x + starCenter,
+    y: n.y + starCenter,
+    parentX: n.parentX + starCenter,
+    parentY: n.parentY + starCenter,
+  }));
 
   return (
     <View style={pageStyles.container}>
@@ -303,6 +401,21 @@ const Themes: React.FC = () => {
         {loading ? (
           <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
         ) : (
+          <ScrollView
+            style={pageStyles.treeScroll}
+            contentContainerStyle={pageStyles.treeScrollContent}
+            showsVerticalScrollIndicator={false}
+          >
+          {/* L'arbre peut désormais être plus large que l'écran (beaucoup de
+              thèmes racines à répartir en cercle complet) — un défilement
+              horizontal évite de devoir rétrécir les libellés jusqu'à
+              l'illisible pour les faire tenir de force. */}
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            style={pageStyles.treeScrollHorizontal}
+            contentContainerStyle={pageStyles.treeScrollHorizontalContent}
+          >
           <View style={{ width: starSize, height: starSize, marginTop: spacing.lg }}>
             {/* Branches reliant chaque thème à son parent (le centre pour
                 les thèmes racines, un autre thème pour les sous-thèmes) */}
@@ -396,6 +509,8 @@ const Themes: React.FC = () => {
               );
             })}
           </View>
+          </ScrollView>
+          </ScrollView>
         )}
       </View>
 
@@ -437,6 +552,10 @@ const Themes: React.FC = () => {
 const pageStyles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
   content: { flex: 1, alignItems: 'center', paddingHorizontal: spacing.lg },
+  treeScroll: { flex: 1, width: '100%' },
+  treeScrollContent: { alignItems: 'center', paddingBottom: spacing.xl },
+  treeScrollHorizontal: { width: '100%' },
+  treeScrollHorizontalContent: { flexGrow: 1, alignItems: 'center', justifyContent: 'center' },
   infoCard: { width: '100%' },
   infoRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   dot: { width: 9, height: 9, borderRadius: 5 },
@@ -485,8 +604,22 @@ const pageStyles = StyleSheet.create({
     backgroundColor: colors.background,
     borderColor: colors.border,
   },
-  nodeTextUnlocked: { color: colors.textPrimary, fontWeight: '700', textAlign: 'center' },
-  nodeTextLocked: { color: colors.textMuted, fontWeight: '700', textAlign: 'center' },
+  // Sur le web, un mot long sans espace ("Géographie", "Astronomie"...) ne se
+  // coupe pas par défaut et déborde de sa boîte au lieu de passer à la ligne
+  // — d'où le chevauchement avec le libellé voisin. Le natif (iOS/Android)
+  // n'a pas ce problème, wordBreak n'existe même pas dans ses styles.
+  nodeTextUnlocked: {
+    color: colors.textPrimary,
+    fontWeight: '700',
+    textAlign: 'center',
+    ...(Platform.OS === 'web' ? { wordBreak: 'break-word' as const } : {}),
+  },
+  nodeTextLocked: {
+    color: colors.textMuted,
+    fontWeight: '700',
+    textAlign: 'center',
+    ...(Platform.OS === 'web' ? { wordBreak: 'break-word' as const } : {}),
+  },
   overlay: {
     position: 'absolute',
     top: 0, left: 0, right: 0, bottom: 0,
