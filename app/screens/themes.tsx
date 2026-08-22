@@ -287,13 +287,22 @@ const Themes: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   // Déplacement libre de l'arbre (glissement dans n'importe quelle direction,
-  // diagonale comprise) : un ScrollView vertical + horizontal imbriqués ne
-  // permet qu'un glissement par axe à la fois. Ici, une seule translation 2D
-  // (Animated.ValueXY) suit le doigt directement, dans toutes les
-  // directions à la fois, comme sur une carte.
+  // diagonale comprise) + zoom au pincement à deux doigts. Un ScrollView
+  // vertical + horizontal imbriqués ne permet qu'un glissement par axe à la
+  // fois et pas de zoom du tout : ici, translation 2D (Animated.ValueXY) et
+  // échelle (Animated.Value) suivent directement les doigts, comme sur une
+  // carte.
   const pan = useRef(new Animated.ValueXY({ x: 0, y: 0 })).current;
+  const scale = useRef(new Animated.Value(1)).current;
   const currentPanRef = useRef({ x: 0, y: 0 });
+  const currentScaleRef = useRef(1);
   const dragStartRef = useRef({ x: 0, y: 0 });
+  const touchStartRef = useRef({ x: 0, y: 0 });
+  const pinchStartRef = useRef({ distance: 0, scale: 1 });
+  // Combien de doigts étaient posés à la frame précédente — permet de
+  // redéfinir le point de départ (glissement ou pincement) exactement au
+  // moment où le nombre de doigts change, sans saut visuel.
+  const lastTouchCountRef = useRef(0);
   const [hViewport, setHViewport] = useState(0);
   const [vViewport, setVViewport] = useState(0);
   const hasCenteredRef = useRef(false);
@@ -301,18 +310,28 @@ const Themes: React.FC = () => {
   // fermeture au moment de la création du PanResponder, une seule fois).
   const metricsRef = useRef({ starSize: 0, hViewport: 0, vViewport: 0 });
 
+  const MIN_SCALE = 0.6;
+  const MAX_SCALE = 2.5;
+
   const setPan = useCallback((x: number, y: number) => {
     currentPanRef.current = { x, y };
     pan.setValue({ x, y });
   }, [pan]);
 
+  const setScale = useCallback((s: number) => {
+    currentScaleRef.current = s;
+    scale.setValue(s);
+  }, [scale]);
+
   // Empêche de glisser l'arbre entièrement hors de vue : la translation
   // reste bornée à ce qui garde au moins un bout du canevas visible dans le
-  // viewport ; si le contenu est plus petit que le viewport, il reste centré.
+  // viewport ; si le contenu (à l'échelle actuelle) est plus petit que le
+  // viewport, il reste centré.
   const clampPan = (x: number, y: number) => {
     const { starSize, hViewport: vw, vViewport: vh } = metricsRef.current;
-    const rangeX = vw - starSize;
-    const rangeY = vh - starSize;
+    const effectiveSize = starSize * currentScaleRef.current;
+    const rangeX = vw - effectiveSize;
+    const rangeY = vh - effectiveSize;
     return {
       x: rangeX >= 0 ? rangeX / 2 : Math.min(0, Math.max(rangeX, x)),
       y: rangeY >= 0 ? rangeY / 2 : Math.min(0, Math.max(rangeY, y)),
@@ -323,16 +342,61 @@ const Themes: React.FC = () => {
     PanResponder.create({
       // On laisse d'abord les nœuds (TouchableOpacity) gérer le toucher —
       // ce n'est que si le doigt bouge vraiment (glissement, pas un simple
-      // tap) que ce conteneur reprend la main pour déplacer l'arbre.
+      // tap) ou qu'un second doigt se pose (pincement) que ce conteneur
+      // reprend la main pour déplacer/zoomer l'arbre.
       onStartShouldSetPanResponderCapture: () => false,
-      onMoveShouldSetPanResponderCapture: (_evt, gesture) =>
-        Math.abs(gesture.dx) > 6 || Math.abs(gesture.dy) > 6,
+      onMoveShouldSetPanResponderCapture: (evt, gesture) =>
+        evt.nativeEvent.touches.length >= 2 || Math.abs(gesture.dx) > 6 || Math.abs(gesture.dy) > 6,
       onPanResponderGrant: () => {
-        dragStartRef.current = { ...currentPanRef.current };
+        // Force le recalcul du point de départ dès le premier mouvement,
+        // qu'il s'agisse d'un glissement ou d'un pincement.
+        lastTouchCountRef.current = 0;
       },
-      onPanResponderMove: (_evt, gesture) => {
-        const next = clampPan(dragStartRef.current.x + gesture.dx, dragStartRef.current.y + gesture.dy);
-        setPan(next.x, next.y);
+      onPanResponderMove: (evt) => {
+        const touches = evt.nativeEvent.touches;
+
+        if (touches.length >= 2) {
+          const [t1, t2] = touches;
+          const dx = t1.pageX - t2.pageX;
+          const dy = t1.pageY - t2.pageY;
+          const distance = Math.hypot(dx, dy);
+
+          if (lastTouchCountRef.current !== 2) {
+            pinchStartRef.current = { distance, scale: currentScaleRef.current };
+            lastTouchCountRef.current = 2;
+            return;
+          }
+
+          const rawScale = pinchStartRef.current.scale * (distance / pinchStartRef.current.distance);
+          setScale(Math.min(MAX_SCALE, Math.max(MIN_SCALE, rawScale)));
+          // Le pan reste borné à l'échelle courante, qui vient de changer.
+          const clamped = clampPan(currentPanRef.current.x, currentPanRef.current.y);
+          setPan(clamped.x, clamped.y);
+          return;
+        }
+
+        if (touches.length === 1) {
+          const t = touches[0];
+          if (lastTouchCountRef.current !== 1) {
+            // Nouveau point de départ — qu'on vienne du tout début du geste
+            // ou qu'on relâche un doigt après un pincement à deux.
+            dragStartRef.current = { ...currentPanRef.current };
+            touchStartRef.current = { x: t.pageX, y: t.pageY };
+            lastTouchCountRef.current = 1;
+            return;
+          }
+          const next = clampPan(
+            dragStartRef.current.x + (t.pageX - touchStartRef.current.x),
+            dragStartRef.current.y + (t.pageY - touchStartRef.current.y)
+          );
+          setPan(next.x, next.y);
+        }
+      },
+      onPanResponderRelease: () => {
+        lastTouchCountRef.current = 0;
+      },
+      onPanResponderTerminate: () => {
+        lastTouchCountRef.current = 0;
       },
     })
   ).current;
@@ -526,7 +590,29 @@ const Themes: React.FC = () => {
             }}
             {...panResponder.panHandlers}
           >
-          <Animated.View style={{ width: starSize, height: starSize, transform: pan.getTranslateTransform() }}>
+          <Animated.View
+            style={{
+              width: starSize,
+              height: starSize,
+              // Le zoom s'ancre au centre de l'étoile (translation vers
+              // l'origine, mise à l'échelle, translation retour) plutôt
+              // qu'au coin du canevas — sinon zoomer ferait dériver
+              // visuellement l'arbre au lieu de grandir/rétrécir sur place.
+              // React Native applique les transforms de la liste dans
+              // l'ordre indiqué (contrairement à la liste `transform` CSS,
+              // qui les compose dans l'ordre inverse) : le pivot doit donc
+              // être annulé/réappliqué AVANT le déplacement libre (pan),
+              // sinon ce dernier est lui-même affecté par l'échelle.
+              transform: [
+                { translateX: -starCenter },
+                { translateY: -starCenter },
+                { scale },
+                { translateX: starCenter },
+                { translateY: starCenter },
+                ...pan.getTranslateTransform(),
+              ],
+            }}
+          >
             {/* Halo doux derrière le centre — donne de la profondeur à
                 l'étoile sans dépendre d'une lib de dégradé. */}
             {hasCenter && GLOW_LAYERS.map(({ scale, opacity }) => {
