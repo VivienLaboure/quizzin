@@ -1,6 +1,6 @@
 import Constants from 'expo-constants';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Platform, ScrollView, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { getProfile, getThemes, unlockTheme } from '../../API';
 import mockData from '../../api/quizzFR.json';
@@ -278,6 +278,16 @@ const Themes: React.FC = () => {
   const [themeXp, setThemeXp] = useState<Record<string, number>>({});
   const [loading, setLoading] = useState(true);
 
+  // Centrage initial sur le thème central : l'arbre peut être bien plus
+  // grand que l'écran (beaucoup de thèmes), donc au chargement on scrolle
+  // jusqu'au centre plutôt que de laisser l'utilisateur atterrir dans un
+  // coin — il peut ensuite naviguer librement dans les deux sens.
+  const verticalScrollRef = useRef<ScrollView>(null);
+  const horizontalScrollRef = useRef<ScrollView>(null);
+  const [hViewport, setHViewport] = useState(0);
+  const [vViewport, setVViewport] = useState(0);
+  const hasCenteredRef = useRef(false);
+
   // Popup de confirmation de déblocage
   const [pendingTheme, setPendingTheme] = useState<string | null>(null);
   const [unlocking, setUnlocking] = useState(false);
@@ -401,6 +411,18 @@ const Themes: React.FC = () => {
     parentY: n.parentY + starCenter,
   }));
 
+  // Une fois l'arbre chargé et les deux ScrollView mesurées, on centre la
+  // vue sur le thème central (une seule fois — pas à chaque re-render,
+  // sinon on arracherait l'utilisateur à l'endroit où il a navigué).
+  useEffect(() => {
+    if (hasCenteredRef.current || loading || !starSize || !hViewport || !vViewport) return;
+    const targetX = Math.max(0, starCenter - hViewport / 2);
+    const targetY = Math.max(0, spacing.lg + starCenter - vViewport / 2);
+    horizontalScrollRef.current?.scrollTo({ x: targetX, y: 0, animated: false });
+    verticalScrollRef.current?.scrollTo({ x: 0, y: targetY, animated: false });
+    hasCenteredRef.current = true;
+  }, [loading, starSize, starCenter, hViewport, vViewport]);
+
   return (
     <View style={pageStyles.container}>
       <ScreenHeader onBack={() => router.back()} title="Thèmes" />
@@ -432,19 +454,26 @@ const Themes: React.FC = () => {
           <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
         ) : (
           <ScrollView
+            ref={verticalScrollRef}
             style={pageStyles.treeScroll}
             contentContainerStyle={pageStyles.treeScrollContent}
             showsVerticalScrollIndicator={false}
+            onLayout={e => setVViewport(e.nativeEvent.layout.height)}
           >
           {/* L'arbre peut désormais être plus large que l'écran (beaucoup de
               thèmes racines à répartir en cercle complet) — un défilement
               horizontal évite de devoir rétrécir les libellés jusqu'à
-              l'illisible pour les faire tenir de force. */}
+              l'illisible pour les faire tenir de force. Au chargement, la
+              vue est recentrée sur le thème central (voir l'effet
+              ci-dessus) : l'utilisateur peut ensuite naviguer librement dans
+              les quatre directions. */}
           <ScrollView
+            ref={horizontalScrollRef}
             horizontal
             showsHorizontalScrollIndicator={false}
             style={pageStyles.treeScrollHorizontal}
             contentContainerStyle={pageStyles.treeScrollHorizontalContent}
+            onLayout={e => setHViewport(e.nativeEvent.layout.width)}
           >
           <View style={{ width: starSize, height: starSize, marginTop: spacing.lg }}>
             {/* Branches reliant chaque thème à son parent (le centre pour

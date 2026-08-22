@@ -11,6 +11,7 @@
 export const THEME_PARENT: Record<string, string> = {
   'Histoire de France': 'Histoire',
   'Napoleon': 'Histoire de France',
+  'Moyen Âge': 'Histoire',
   'Géographie de la France': 'Géographie',
   'Physique': 'Sciences',
   'Football': 'Sport',
