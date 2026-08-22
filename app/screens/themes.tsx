@@ -56,6 +56,14 @@ function sortByGenerality(themes: string[]): string[] {
 }
 
 const CENTER_SIZE = 104;
+// Halo derrière le thème central : plusieurs cercles semi-transparents
+// empilés, du plus grand/plus discret au plus petit/plus visible, pour
+// simuler un dégradé radial sans dépendance externe.
+const GLOW_LAYERS: { scale: number; opacity: number }[] = [
+  { scale: 2.6, opacity: 0.05 },
+  { scale: 2.0, opacity: 0.07 },
+  { scale: 1.5, opacity: 0.09 },
+];
 // Bornes [min, max] de la taille d'un nœud par profondeur (1 = thème racine,
 // 2 = enfant, 3 = petit-enfant, ...) — la taille réelle est calculée pour
 // tenir dans cette plage tout en garantissant qu'aucun nœud ne chevauche son
@@ -382,7 +390,9 @@ const Themes: React.FC = () => {
   // placés, et le conteneur grandit en conséquence (jamais plus petit que la
   // taille par défaut, pour garder un bel arbre centré même avec peu de
   // thèmes).
-  const desiredHalf = Math.min(width * 0.9, 380) / 2;
+  // Plus de marge latérale réservée par le conteneur (voir pageStyles.content)
+  // : l'arbre peut utiliser presque toute la largeur de l'écran par défaut.
+  const desiredHalf = Math.min(width * 0.96, 380) / 2;
   const rootRadius = desiredHalf - sizeRangeForDepth(1)[1] / 2 - 4;
   const radiusByDepth = [0, rootRadius, rootRadius * 0.62, rootRadius * 0.5];
 
@@ -403,6 +413,11 @@ const Themes: React.FC = () => {
   }
   const starCenter = reach + 8;
   const starSize = starCenter * 2;
+  // Rayon de l'anneau d'orbite des thèmes racines — un simple repère visuel
+  // dessiné derrière l'arbre, dans le prolongement esthétique de l'étoile.
+  const rootRingRadius = rawNodes.find(n => n.depth === 1)
+    ? Math.hypot(rawNodes.find(n => n.depth === 1)!.x, rawNodes.find(n => n.depth === 1)!.y)
+    : 0;
   const treeNodes = rawNodes.map(n => ({
     ...n,
     x: n.x + starCenter,
@@ -476,8 +491,53 @@ const Themes: React.FC = () => {
             onLayout={e => setHViewport(e.nativeEvent.layout.width)}
           >
           <View style={{ width: starSize, height: starSize, marginTop: spacing.lg }}>
+            {/* Halo doux derrière le centre — donne de la profondeur à
+                l'étoile sans dépendre d'une lib de dégradé. */}
+            {hasCenter && GLOW_LAYERS.map(({ scale, opacity }) => {
+              const size = CENTER_SIZE * scale;
+              return (
+                <View
+                  key={`glow-${scale}`}
+                  pointerEvents="none"
+                  style={{
+                    position: 'absolute',
+                    left: starCenter - size / 2,
+                    top: starCenter - size / 2,
+                    width: size,
+                    height: size,
+                    borderRadius: size / 2,
+                    backgroundColor: colors.primary,
+                    opacity,
+                  }}
+                />
+              );
+            })}
+
+            {/* Anneau d'orbite des thèmes racines — simple repère visuel qui
+                ancre l'étoile, dans l'esprit d'un arbre de compétences. */}
+            {rootRingRadius > 0 && (
+              <View
+                pointerEvents="none"
+                style={{
+                  position: 'absolute',
+                  left: starCenter - rootRingRadius,
+                  top: starCenter - rootRingRadius,
+                  width: rootRingRadius * 2,
+                  height: rootRingRadius * 2,
+                  borderRadius: rootRingRadius,
+                  borderWidth: 1,
+                  borderStyle: 'dashed',
+                  borderColor: colors.border,
+                  opacity: 0.6,
+                }}
+              />
+            )}
+
             {/* Branches reliant chaque thème à son parent (le centre pour
-                les thèmes racines, un autre thème pour les sous-thèmes) */}
+                les thèmes racines, un autre thème pour les sous-thèmes) —
+                trait plein et coloré pour une branche débloquée (chemin
+                actif), pointillé discret pour une branche encore
+                verrouillée (chemin potentiel, pas encore emprunté). */}
             {treeNodes.map(node => {
               const dx = node.x - node.parentX;
               const dy = node.y - node.parentY;
@@ -496,15 +556,28 @@ const Themes: React.FC = () => {
                     transform: [{ rotate: `${angle}rad` }],
                   }}
                 >
-                  <View style={{
-                    position: 'absolute',
-                    left: 0,
-                    top: -1.5,
-                    width: length,
-                    height: 3,
-                    borderRadius: 1.5,
-                    backgroundColor: isUnlocked ? colors.primary : colors.border,
-                  }} />
+                  {isUnlocked ? (
+                    <View style={{
+                      position: 'absolute',
+                      left: 0,
+                      top: -1.75,
+                      width: length,
+                      height: 3.5,
+                      borderRadius: 1.75,
+                      backgroundColor: colors.primary,
+                    }} />
+                  ) : (
+                    <View style={{
+                      position: 'absolute',
+                      left: 0,
+                      top: 0,
+                      width: length,
+                      height: 0,
+                      borderTopWidth: 2,
+                      borderStyle: 'dashed',
+                      borderColor: colors.border,
+                    }} />
+                  )}
                 </View>
               );
             })}
@@ -551,7 +624,14 @@ const Themes: React.FC = () => {
                     ]}
                   >
                     {isUnlocked
-                      ? <View style={[pageStyles.dot, { width: node.size * 0.28, height: node.size * 0.28, borderRadius: node.size * 0.14, backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)] }]} />
+                      ? <View style={[pageStyles.dot, {
+                          width: node.size * 0.28,
+                          height: node.size * 0.28,
+                          borderRadius: node.size * 0.14,
+                          backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)],
+                          borderWidth: 1.5,
+                          borderColor: colors.surface,
+                        }]} />
                       : <Text style={{ fontSize: node.size * 0.32 }}>🔒</Text>
                     }
                   </TouchableOpacity>
@@ -610,12 +690,16 @@ const Themes: React.FC = () => {
 
 const pageStyles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
-  content: { flex: 1, alignItems: 'center', paddingHorizontal: spacing.lg },
+  // Pas de paddingHorizontal ici : la marge latérale doit rester réservée à
+  // la carte d'info (via infoCard ci-dessous), pas s'appliquer aussi au
+  // défilement de l'arbre — sinon deux bandes blanches inutiles réduisent la
+  // largeur visible de l'arbre alors qu'il a justement besoin de place.
+  content: { flex: 1, alignItems: 'center' },
   treeScroll: { flex: 1, width: '100%' },
   treeScrollContent: { alignItems: 'center', paddingBottom: spacing.xl },
   treeScrollHorizontal: { width: '100%' },
   treeScrollHorizontalContent: { flexGrow: 1, alignItems: 'center', justifyContent: 'center' },
-  infoCard: { width: '100%' },
+  infoCard: { alignSelf: 'stretch', marginHorizontal: spacing.lg },
   infoRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   dot: { width: 9, height: 9, borderRadius: 5 },
   infoText: { color: colors.textSecondary, fontSize: 14 },
@@ -623,11 +707,13 @@ const pageStyles = StyleSheet.create({
   legendItem: { flexDirection: 'row', alignItems: 'center', gap: 4, marginRight: spacing.md },
   difficultyDot: {
     position: 'absolute',
-    top: 10,
-    right: 10,
-    width: 8,
-    height: 8,
-    borderRadius: 4,
+    top: 9,
+    right: 9,
+    width: 9,
+    height: 9,
+    borderRadius: 5,
+    borderWidth: 1.5,
+    borderColor: colors.surface,
   },
   centerNode: {
     position: 'absolute',
@@ -662,6 +748,13 @@ const pageStyles = StyleSheet.create({
   nodeLocked: {
     backgroundColor: colors.background,
     borderColor: colors.border,
+    // Un léger relief même verrouillé — sinon ces nœuds paraissent cassés
+    // à côté des nœuds débloqués en relief, plutôt que simplement "en attente".
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.04,
+    shadowRadius: 2,
+    elevation: 1,
   },
   // Sur le web, un mot long sans espace ("Géographie", "Astronomie"...) ne se
   // coupe pas par défaut et déborde de sa boîte au lieu de passer à la ligne
