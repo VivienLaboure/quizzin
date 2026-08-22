@@ -1,0 +1,101 @@
+{
+  "theme": "Moyen Âge",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle période de l'histoire se situe entre l'Antiquité et la Renaissance ?",
+        "reponse": "Le Moyen Âge",
+        "propositions": ["Le Moyen Âge", "L'Antiquité", "Les Temps modernes", "La Préhistoire"],
+        "explication": "Le Moyen Âge s'étend traditionnellement de la chute de l'Empire romain d'Occident (476) à la fin du XVe siècle."
+      },
+      {
+        "question": "Quel habitat fortifié, résidence des seigneurs, est emblématique du Moyen Âge ?",
+        "reponse": "Le château fort",
+        "propositions": ["Le château fort", "Le palais", "La villa", "Le temple"],
+        "explication": "Les châteaux forts se multiplient en Europe à partir du Xe siècle pour protéger et affirmer le pouvoir seigneurial."
+      },
+      {
+        "question": "Quel empereur, couronné en l'an 800, a unifié une grande partie de l'Europe occidentale ?",
+        "reponse": "Charlemagne",
+        "propositions": ["Charlemagne", "Clovis", "Charles Martel", "Hugues Capet"],
+        "explication": "Charlemagne est couronné empereur d'Occident par le pape Léon III le jour de Noël 800."
+      },
+      {
+        "question": "Quelle terrible épidémie a décimé environ un tiers de la population européenne au XIVe siècle ?",
+        "reponse": "La peste noire",
+        "propositions": ["La peste noire", "La variole", "Le choléra", "La grippe espagnole"],
+        "explication": "La peste noire frappe l'Europe entre 1347 et 1352, causant une mortalité massive."
+      },
+      {
+        "question": "Quel type d'expéditions militaires religieuses, lancées dès 1095, visaient à reprendre Jérusalem ?",
+        "reponse": "Les croisades",
+        "propositions": ["Les croisades", "La Reconquista", "Les invasions vikings", "Les grandes découvertes"],
+        "explication": "Le pape Urbain II appelle à la première croisade en 1095 lors du concile de Clermont."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel système social et politique du Moyen Âge repose sur des liens de vassalité entre seigneurs ?",
+        "reponse": "La féodalité",
+        "propositions": ["La féodalité", "La démocratie", "La théocratie", "La république"],
+        "explication": "La féodalité organise la société autour de liens personnels d'allégeance entre suzerains et vassaux."
+      },
+      {
+        "question": "Quelle dynastie franque, fondée par Clovis, précède les Carolingiens ?",
+        "reponse": "Les Mérovingiens",
+        "propositions": ["Les Mérovingiens", "Les Carolingiens", "Les Capétiens", "Les Valois"],
+        "explication": "Clovis unifie les Francs à la fin du Ve siècle, fondant la dynastie mérovingienne."
+      },
+      {
+        "question": "Quelle bataille de 732, remportée par Charles Martel, arrête une avancée musulmane en Gaule ?",
+        "reponse": "La bataille de Poitiers",
+        "propositions": ["La bataille de Poitiers", "La bataille de Bouvines", "La bataille de Hastings", "La bataille de Roncevaux"],
+        "explication": "Charles Martel stoppe les troupes omeyyades près de Poitiers en 732."
+      },
+      {
+        "question": "Quel roi de France, sacré en 987, fonde la dynastie des Capétiens ?",
+        "reponse": "Hugues Capet",
+        "propositions": ["Hugues Capet", "Robert le Pieux", "Philippe Auguste", "Louis VI"],
+        "explication": "Hugues Capet est élu roi des Francs en 987, donnant son nom à la dynastie capétienne."
+      },
+      {
+        "question": "Comment appelle-t-on les associations de marchands ou d'artisans qui régulent un métier au Moyen Âge ?",
+        "reponse": "Les corporations",
+        "propositions": ["Les corporations", "Les communes", "Les confréries", "Les baillages"],
+        "explication": "Les corporations encadrent l'apprentissage, la production et le commerce d'un métier dans les villes médiévales."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel document de 1215, imposé au roi Jean sans Terre, limite le pouvoir royal en Angleterre ?",
+        "reponse": "La Magna Carta",
+        "propositions": ["La Magna Carta", "Le Domesday Book", "La Bulle d'or", "Le Statut de Westminster"],
+        "explication": "La Grande Charte de 1215 pose les bases du droit constitutionnel anglais en limitant l'arbitraire royal."
+      },
+      {
+        "question": "Quel conflit, opposant la France et l'Angleterre, dure de 1337 à 1453 ?",
+        "reponse": "La guerre de Cent Ans",
+        "propositions": ["La guerre de Cent Ans", "La guerre de Succession d'Espagne", "La guerre des Deux-Roses", "Les guerres de Religion"],
+        "explication": "Ce long conflit, marqué par l'épisode de Jeanne d'Arc, s'achève par la victoire française."
+      },
+      {
+        "question": "Quelle réforme monastique du Xe siècle, initiée à l'abbaye de Cluny, cherche à revenir à une stricte observance de la règle bénédictine ?",
+        "reponse": "La réforme clunisienne",
+        "propositions": ["La réforme clunisienne", "La réforme cistercienne", "La réforme grégorienne", "Le concile de Trente"],
+        "explication": "Fondée en 909, l'abbaye de Cluny devient le centre d'un vaste mouvement de réforme monastique en Europe."
+      },
+      {
+        "question": "Quel philosophe et théologien du XIIIe siècle, auteur de la \"Somme théologique\", a concilié la foi chrétienne avec la philosophie d'Aristote ?",
+        "reponse": "Thomas d'Aquin",
+        "propositions": ["Thomas d'Aquin", "Guillaume d'Ockham", "Pierre Abélard", "Anselme de Cantorbéry"],
+        "explication": "Thomas d'Aquin developpe une synthèse majeure entre théologie chrétienne et philosophie aristotélicienne."
+      },
+      {
+        "question": "Quel style architectural, caractérisé par les arcs brisés et les voûtes sur croisées d'ogives, se développe en France à partir du XIIe siècle ?",
+        "reponse": "Le style gothique",
+        "propositions": ["Le style gothique", "Le style roman", "Le style baroque", "Le style byzantin"],
+        "explication": "L'art gothique naît en Île-de-France vers 1140, avec la basilique de Saint-Denis comme jalon fondateur."
+      }
+    ]
+  }
+}
