@@ -61,28 +61,33 @@ const CENTER_SIZE = 104;
 // tenir dans cette plage tout en garantissant qu'aucun nœud ne chevauche son
 // voisin, quel que soit le nombre de thèmes à un même niveau.
 const SIZE_RANGE_BY_DEPTH: [number, number][] = [[0, 0], [46, 84], [40, 68], [36, 56]];
+// Bornes [min, max] de la largeur du libellé sous chaque nœud — calculée à
+// partir du même espace disponible que le cercle (voir plus bas), jamais
+// fixée en dur, sinon le texte peut chevaucher le libellé voisin même quand
+// les cercles, eux, ne se touchent pas.
+const LABEL_WIDTH_RANGE_BY_DEPTH: [number, number][] = [[0, 0], [44, 92], [40, 78], [36, 68]];
 const FONT_SIZE_BY_DEPTH = [0, 11, 10, 9];
 const FONT_SIZE_MIN = 8.5;
-const LABEL_WIDTH_BY_DEPTH = [0, 78, 66, 58];
-const LABEL_WIDTH_MIN = 52;
 // Marge de sécurité entre deux nœuds voisins (fraction de l'espace
-// disponible réellement occupée par le nœud) — évite qu'ils se touchent.
-const SAFETY_FACTOR = 0.8;
+// disponible réellement occupée par le nœud/libellé) — évite qu'ils se touchent.
+const NODE_SAFETY_FACTOR = 0.8;
+const LABEL_SAFETY_FACTOR = 0.94;
 
 function sizeRangeForDepth(depth: number): [number, number] {
   return SIZE_RANGE_BY_DEPTH[depth] ?? [30, 44];
 }
+function labelWidthRangeForDepth(depth: number): [number, number] {
+  return LABEL_WIDTH_RANGE_BY_DEPTH[depth] ?? [32, 60];
+}
 function fontSizeForDepth(depth: number): number {
   return FONT_SIZE_BY_DEPTH[depth] ?? FONT_SIZE_MIN;
-}
-function labelWidthForDepth(depth: number): number {
-  return LABEL_WIDTH_BY_DEPTH[depth] ?? LABEL_WIDTH_MIN;
 }
 
 interface TreeNode {
   theme: string;
   depth: number;
   size: number;
+  labelWidth: number;
   x: number;
   y: number;
   parentX: number;
@@ -94,9 +99,11 @@ interface TreeNode {
  * les thèmes racines sont répartis en cercle complet autour du centre, puis
  * chaque enfant est placé dans le prolongement radial de son parent
  * (légèrement éventé si plusieurs frères), à une distance qui rétrécit avec
- * la profondeur. La taille de chaque nœud est recalculée à partir du nombre
- * de frères à ce niveau, pour qu'ils ne se chevauchent jamais même si
- * beaucoup de thèmes partagent le même parent.
+ * la profondeur. La taille du nœud ET la largeur de son libellé sont toutes
+ * les deux dérivées du même espace réellement disponible entre frères
+ * adjacents à ce niveau, pour qu'ils ne chevauchent jamais rien — ni un
+ * autre cercle, ni un autre libellé — même si beaucoup de thèmes partagent
+ * le même parent.
  */
 function buildTreeNodes(themesList: string[], centerX: number, centerY: number, radiusByDepth: number[]): TreeNode[] {
   const childrenOf: Record<string, string[]> = {};
@@ -110,8 +117,8 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
   const nodes: TreeNode[] = [];
   const MAX_SPREAD = Math.PI / 3; // 60° d'éventail maximum entre le premier et le dernier frère
 
-  function place(theme: string, depth: number, x: number, y: number, angle: number, parentX: number, parentY: number, size: number) {
-    nodes.push({ theme, depth, size, x, y, parentX, parentY });
+  function place(theme: string, depth: number, x: number, y: number, angle: number, parentX: number, parentY: number, size: number, labelWidth: number) {
+    nodes.push({ theme, depth, size, labelWidth, x, y, parentX, parentY });
 
     const kids = sortByGenerality(childrenOf[theme] ?? []);
     if (kids.length === 0) return;
@@ -119,17 +126,19 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
     const dist = radiusByDepth[depth + 1] ?? radiusByDepth[radiusByDepth.length - 1];
     const step = kids.length > 1 ? Math.min(MAX_SPREAD / (kids.length - 1), Math.PI / 6) : 0;
     const [minSize, maxSize] = sizeRangeForDepth(depth + 1);
+    const [minLabel, maxLabel] = labelWidthRangeForDepth(depth + 1);
     // Distance curviligne entre deux frères adjacents à cette distance du
-    // parent — la taille du nœud ne doit jamais la dépasser.
-    const arcSpacing = kids.length > 1 ? dist * step : maxSize / SAFETY_FACTOR;
-    const childSize = Math.max(minSize, Math.min(maxSize, arcSpacing * SAFETY_FACTOR));
+    // parent — ni le cercle ni son libellé ne doivent la dépasser.
+    const arcSpacing = kids.length > 1 ? dist * step : maxSize / NODE_SAFETY_FACTOR;
+    const childSize = Math.max(minSize, Math.min(maxSize, arcSpacing * NODE_SAFETY_FACTOR));
+    const childLabelWidth = Math.max(minLabel, Math.min(maxLabel, arcSpacing * LABEL_SAFETY_FACTOR));
 
     kids.forEach((child, i) => {
       const offset = kids.length > 1 ? (i - (kids.length - 1) / 2) * step : 0;
       const childAngle = angle + offset;
       const cx = x + dist * Math.cos(childAngle);
       const cy = y + dist * Math.sin(childAngle);
-      place(child, depth + 1, cx, cy, childAngle, x, y, childSize);
+      place(child, depth + 1, cx, cy, childAngle, x, y, childSize, childLabelWidth);
     });
   }
 
@@ -137,17 +146,19 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
   const angleStep = roots.length > 0 ? (2 * Math.PI) / roots.length : 0;
   const rootDist = radiusByDepth[1];
   const [minRootSize, maxRootSize] = sizeRangeForDepth(1);
-  // Corde entre deux thèmes racines adjacents sur le cercle complet — la
-  // taille des nœuds racines s'ajuste pour ne jamais dépasser cette corde,
+  const [minRootLabel, maxRootLabel] = labelWidthRangeForDepth(1);
+  // Corde entre deux thèmes racines adjacents sur le cercle complet — le
+  // cercle et son libellé s'ajustent tous deux pour ne jamais la dépasser,
   // qu'il y ait 3 ou 15 thèmes débloquables.
-  const rootChord = roots.length > 1 ? 2 * rootDist * Math.sin(angleStep / 2) : maxRootSize / SAFETY_FACTOR;
-  const rootSize = Math.max(minRootSize, Math.min(maxRootSize, rootChord * SAFETY_FACTOR));
+  const rootChord = roots.length > 1 ? 2 * rootDist * Math.sin(angleStep / 2) : maxRootSize / NODE_SAFETY_FACTOR;
+  const rootSize = Math.max(minRootSize, Math.min(maxRootSize, rootChord * NODE_SAFETY_FACTOR));
+  const rootLabelWidth = Math.max(minRootLabel, Math.min(maxRootLabel, rootChord * LABEL_SAFETY_FACTOR));
 
   roots.forEach((theme, i) => {
     const angle = -Math.PI / 2 + i * angleStep;
     const x = centerX + rootDist * Math.cos(angle);
     const y = centerY + rootDist * Math.sin(angle);
-    place(theme, 1, x, y, angle, centerX, centerY, rootSize);
+    place(theme, 1, x, y, angle, centerX, centerY, rootSize, rootLabelWidth);
   });
 
   return nodes;
@@ -347,16 +358,15 @@ const Themes: React.FC = () => {
                 petits nœuds. */}
             {treeNodes.map(node => {
               const isUnlocked = unlockedThemes.includes(node.theme);
-              const labelWidth = labelWidthForDepth(node.depth);
 
               return (
                 <View
                   key={node.theme}
                   style={{
                     position: 'absolute',
-                    left: node.x - labelWidth / 2,
+                    left: node.x - node.labelWidth / 2,
                     top: node.y - node.size / 2,
-                    width: labelWidth,
+                    width: node.labelWidth,
                     alignItems: 'center',
                   }}
                 >
@@ -374,7 +384,7 @@ const Themes: React.FC = () => {
                     }
                   </TouchableOpacity>
                   <Text
-                    numberOfLines={2}
+                    numberOfLines={3}
                     style={[
                       isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked,
                       { fontSize: fontSizeForDepth(node.depth), marginTop: 4 },
