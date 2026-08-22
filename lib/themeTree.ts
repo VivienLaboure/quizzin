@@ -11,6 +11,16 @@
 export const THEME_PARENT: Record<string, string> = {
   'Histoire de France': 'Histoire',
   'Napoleon': 'Histoire de France',
+  'Géographie de la France': 'Géographie',
+  'Physique': 'Sciences',
+  'Football': 'Sport',
+  'Cinéma français': 'Cinéma',
+  'Musique classique': 'Musique',
+  'Littérature française': 'Art-et-littérature',
+  'Informatique': 'Technologie',
+  'Système solaire': 'Astronomie',
+  'Economie française': 'Economie',
+  'Jeux vidéo rétro': 'Jeux vidéos',
 };
 
 export function getParent(theme: string): string | null {

@@ -101,19 +101,34 @@ interface TreeNode {
 // le libellé d'un voisin.
 const LABEL_RESERVE = 46;
 
+interface Footprint {
+  halfW: number;
+  top: number;
+  bottom: number;
+}
+
+// Deux "empreintes" rectangulaires (centre + demi-largeur + portée haut/bas,
+// asymétrique car le libellé ne s'étend que vers le bas) se chevauchent-elles ?
+function footprintsOverlap(ax: number, ay: number, a: Footprint, bx: number, by: number, b: Footprint): boolean {
+  const aLeft = ax - a.halfW, aRight = ax + a.halfW, aTop = ay - a.top, aBottom = ay + a.bottom;
+  const bLeft = bx - b.halfW, bRight = bx + b.halfW, bTop = by - b.top, bBottom = by + b.bottom;
+  return aLeft < bRight && bLeft < aRight && aTop < bBottom && bTop < aBottom;
+}
+
 /**
- * Éloigne les nœuds d'un même groupe de frères les uns des autres jusqu'à ce
- * qu'aucune paire ne se chevauche réellement, plutôt que de se fier à la
- * seule distance à vol d'oiseau (corde) entre deux voisins. Deux nœuds
- * peuvent être à une corde suffisante et pourtant voir leurs boîtes —
- * rectangulaires et alignées sur les axes, pas sur la corde — se recouper :
- * c'est exactement ce qui produisait le chevauchement mesuré entre
- * "Géographie" et "Sciences" (39px d'écart horizontal réel pour un libellé
- * de 57px de large, alors que la corde entre les deux, elle, semblait
- * suffisante). On fait donc grandir le rayon jusqu'à ce que, pour chaque
- * paire, soit l'écart horizontal dépasse la largeur du libellé, soit l'écart
- * vertical dépasse la hauteur totale réservée (cercle + libellé) — jamais on
- * ne rétrécit le texte pour le faire rentrer de force.
+ * Éloigne les nœuds d'un même groupe de frères les uns des autres, ET de
+ * leur propre parent, jusqu'à ce qu'aucune paire ne se chevauche réellement
+ * — plutôt que de se fier à la seule distance à vol d'oiseau (corde) entre
+ * deux voisins. Deux nœuds peuvent être à une corde suffisante et pourtant
+ * voir leurs boîtes — rectangulaires et alignées sur les axes, pas sur la
+ * corde — se recouper : c'est ce qui produisait le chevauchement mesuré
+ * entre "Géographie" et "Sciences". Et un nœud qui n'a qu'un seul enfant
+ * (pas de frère avec qui le comparer) peut quand même chevaucher le libellé
+ * de SON PROPRE parent si la branche ne s'éloigne pas assez : c'est ce qui
+ * produisait le chevauchement mesuré entre "Economie" et son enfant
+ * "Economie française". On fait donc grandir le rayon jusqu'à ce que plus
+ * aucune de ces deux situations ne se produise — jamais on ne rétrécit le
+ * texte pour le faire rentrer de force.
  */
 function resolveSafeDistance(
   angles: number[],
@@ -121,17 +136,25 @@ function resolveSafeDistance(
   maxDist: number,
   size: number,
   labelWidth: number,
-  labelReserve: number
+  labelReserve: number,
+  parentFootprint?: Footprint
 ): number {
-  if (angles.length < 2 || initialDist <= 0) return initialDist;
+  if (angles.length === 0 || initialDist <= 0) return initialDist;
 
-  const minGapY = size + labelReserve;
+  const footprint: Footprint = { halfW: labelWidth / 2, top: size / 2, bottom: size / 2 + labelReserve };
+
   const overlaps = (dist: number) => {
-    for (let i = 0; i < angles.length; i++) {
-      for (let j = i + 1; j < angles.length; j++) {
-        const dx = Math.abs(dist * (Math.cos(angles[i]) - Math.cos(angles[j])));
-        const dy = Math.abs(dist * (Math.sin(angles[i]) - Math.sin(angles[j])));
-        if (dx < labelWidth && dy < minGapY) return true;
+    const positions = angles.map(a => ({ x: dist * Math.cos(a), y: dist * Math.sin(a) }));
+    for (let i = 0; i < positions.length; i++) {
+      for (let j = i + 1; j < positions.length; j++) {
+        if (footprintsOverlap(positions[i].x, positions[i].y, footprint, positions[j].x, positions[j].y, footprint)) {
+          return true;
+        }
+      }
+    }
+    if (parentFootprint) {
+      for (const p of positions) {
+        if (footprintsOverlap(0, 0, parentFootprint, p.x, p.y, footprint)) return true;
       }
     }
     return false;
@@ -192,8 +215,12 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
     });
     // La corde théorique peut suffire alors que les libellés (rectangles
     // alignés sur les axes, pas sur la corde) se chevauchent quand même :
-    // on vérifie et on éloigne la branche du parent si besoin.
-    const dist = resolveSafeDistance(childAngles, initialDist, initialDist * 2.5, childSize, childLabelWidth, LABEL_RESERVE);
+    // on vérifie et on éloigne la branche du parent si besoin. Le parent
+    // (ce nœud lui-même, "size"/"labelWidth") est aussi vérifié : un enfant
+    // unique n'a pas de frère avec qui se comparer, mais peut chevaucher le
+    // libellé de son propre parent si la branche ne s'éloigne pas assez.
+    const parentFootprint: Footprint = { halfW: labelWidth / 2, top: size / 2, bottom: size / 2 + LABEL_RESERVE };
+    const dist = resolveSafeDistance(childAngles, initialDist, initialDist * 2.5, childSize, childLabelWidth, LABEL_RESERVE, parentFootprint);
 
     kids.forEach((child, i) => {
       const childAngle = childAngles[i];
@@ -219,8 +246,11 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
   // Comme pour les enfants : la corde théorique entre deux racines adjacentes
   // peut suffire alors que leurs libellés (rectangles) se chevauchent quand
   // même selon l'angle — on vérifie le chevauchement réel et on élargit le
-  // cercle des racines si besoin, plutôt que de rétrécir le texte.
-  const rootDist = resolveSafeDistance(rootAngles, initialRootDist, initialRootDist * 3, rootSize, rootLabelWidth, LABEL_RESERVE);
+  // cercle des racines si besoin, plutôt que de rétrécir le texte. Le centre
+  // (Culture-generale) est traité comme le "parent" des racines : son
+  // libellé est à l'intérieur du cercle, pas en dessous, donc pas de réserve.
+  const centerFootprint: Footprint = { halfW: CENTER_SIZE / 2, top: CENTER_SIZE / 2, bottom: CENTER_SIZE / 2 };
+  const rootDist = resolveSafeDistance(rootAngles, initialRootDist, initialRootDist * 3, rootSize, rootLabelWidth, LABEL_RESERVE, centerFootprint);
 
   roots.forEach((theme, i) => {
     const angle = rootAngles[i];
