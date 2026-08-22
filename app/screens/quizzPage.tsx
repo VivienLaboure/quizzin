@@ -179,6 +179,9 @@ export default function QuizzPage() {
                     <Card style={styles.popup}>
                         <Text style={styles.popupIcon}>😕</Text>
                         <Text style={styles.popupTitle}>Mauvaise réponse</Text>
+                        <Text style={styles.popupAnswer}>
+                            Bonne réponse : <Text style={styles.popupAnswerValue}>{currentQuestion.reponse}</Text>
+                        </Text>
                         <Text style={styles.popupExplication}>{currentQuestion.explication}</Text>
                         <Button label="Voir mon score" onPress={() => goToResults(score)} />
                     </Card>
@@ -240,6 +243,15 @@ const styles = StyleSheet.create({
     popup: { width: '85%', alignItems: 'center' },
     popupIcon: { fontSize: 40, marginBottom: spacing.sm },
     popupTitle: { fontSize: 19, fontWeight: '700', color: colors.textPrimary, marginBottom: spacing.sm },
+    popupAnswer: {
+        color: colors.textPrimary,
+        textAlign: 'center',
+        marginBottom: spacing.sm,
+    },
+    popupAnswerValue: {
+        fontWeight: '700',
+        color: colors.success,
+    },
     popupExplication: {
         color: colors.textSecondary,
         textAlign: 'center',
