@@ -7,13 +7,9 @@ import ScreenHeader from '../../components/ui/ScreenHeader';
 import { useAuth } from '../../lib/AuthContext';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { getDifficultyForLevel, getLevelProgress } from '../../lib/LevelSystem';
-import { colors, radius, spacing, typography } from '../../lib/theme';
+import { colors, difficultyColors, gradients, radius, spacing, typography } from '../../lib/theme';
 
-const DIFFICULTY_COLOR: Record<number, string> = {
-  1: '#4CAF50',
-  2: '#FF9800',
-  3: '#F44336',
-};
+const DIFFICULTY_COLOR = difficultyColors;
 
 export default function StatsScreen() {
   const router = useRouter();
@@ -64,7 +60,7 @@ export default function StatsScreen() {
       ) : (
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
           {/* Vue d'ensemble */}
-          <Card style={styles.card}>
+          <Card gradient={gradients.ocean} style={styles.card}>
             <Text style={styles.sectionTitle}>Vue d&apos;ensemble</Text>
 
             <View style={styles.globalRow}>
@@ -86,10 +82,10 @@ export default function StatsScreen() {
               </View>
             </View>
 
-            <View style={styles.progressTrack}>
-              <View style={[styles.progressFill, { width: `${Math.round(globalProgress.progress * 100)}%` }]} />
+            <View style={styles.globalProgressTrack}>
+              <View style={[styles.globalProgressFill, { width: `${Math.round(globalProgress.progress * 100)}%` }]} />
             </View>
-            <Text style={styles.progressLabel}>
+            <Text style={styles.globalProgressLabel}>
               {globalProgress.currentXp} / {globalProgress.neededXp} XP avant le niveau {globalProgress.level + 1}
             </Text>
           </Card>
@@ -101,8 +97,9 @@ export default function StatsScreen() {
             const xp = themeXp[theme] ?? 0;
             const progress = getLevelProgress(xp);
             const difficulty = getDifficultyForLevel(progress.level);
+            const difficultyColor = DIFFICULTY_COLOR[difficulty];
             return (
-              <Card key={theme} style={styles.themeCard}>
+              <Card key={theme} style={[styles.themeCard, { borderLeftWidth: 4, borderLeftColor: difficultyColor }]}>
                 <View style={styles.themeHeader}>
                   <Text style={styles.themeName}>{theme}</Text>
                   <View style={styles.themeLevelBadge}>
@@ -111,12 +108,12 @@ export default function StatsScreen() {
                 </View>
 
                 <View style={styles.progressTrack}>
-                  <View style={[styles.progressFill, { width: `${Math.round(progress.progress * 100)}%` }]} />
+                  <View style={[styles.progressFill, { width: `${Math.round(progress.progress * 100)}%`, backgroundColor: difficultyColor }]} />
                 </View>
 
                 <View style={styles.themeFooter}>
                   <View style={styles.difficultyRow}>
-                    <View style={[styles.dot, { backgroundColor: DIFFICULTY_COLOR[difficulty] }]} />
+                    <View style={[styles.dot, { backgroundColor: difficultyColor }]} />
                     <Text style={styles.mutedText}>{GetDifficultyName(difficulty)}</Text>
                   </View>
                   <Text style={styles.mutedText}>{xp} XP</Text>
@@ -147,7 +144,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
   content: { paddingHorizontal: spacing.lg, paddingBottom: spacing.lg },
   card: { marginBottom: spacing.lg },
-  sectionTitle: { ...typography.h2, marginBottom: spacing.md },
+  sectionTitle: { fontSize: 20, fontWeight: '700', color: colors.textOnColor, marginBottom: spacing.md },
   sectionTitleOutside: { ...typography.h2, marginBottom: spacing.sm },
   globalRow: {
     flexDirection: 'row',
@@ -155,8 +152,18 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
   },
   globalStat: { alignItems: 'center', flex: 1 },
-  globalValue: { fontSize: 20, fontWeight: '800', color: colors.primary },
-  globalLabel: { ...typography.caption, marginTop: 2 },
+  globalValue: { fontSize: 20, fontWeight: '800', color: colors.textOnColor },
+  globalLabel: { fontSize: 13, fontWeight: '500', color: colors.textOnColorMuted, marginTop: 2 },
+  globalProgressTrack: {
+    width: '100%',
+    height: 10,
+    backgroundColor: 'rgba(255,255,255,0.28)',
+    borderRadius: radius.full,
+    overflow: 'hidden',
+    marginBottom: spacing.xs,
+  },
+  globalProgressFill: { height: '100%', backgroundColor: colors.white, borderRadius: radius.full },
+  globalProgressLabel: { fontSize: 12, color: colors.textOnColorMuted, textAlign: 'right' },
   progressTrack: {
     width: '100%',
     height: 10,

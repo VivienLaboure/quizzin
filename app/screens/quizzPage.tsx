@@ -1,4 +1,5 @@
 import Constants from 'expo-constants';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -11,7 +12,7 @@ import { IQuizz } from '../../interfaces/IQuizz';
 import { useAuth } from '../../lib/AuthContext';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import { computeXpGained } from '../../lib/LevelSystem';
-import { colors, radius, spacing, typography } from '../../lib/theme';
+import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
 
 export default function QuizzPage() {
     const router = useRouter();
@@ -155,9 +156,9 @@ export default function QuizzPage() {
         <View style={styles.container}>
             <View style={styles.header}>
                 <Text style={styles.category}>{safeCategory}</Text>
-                <View style={styles.scoreBadge}>
+                <LinearGradient colors={gradients.primary} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.scoreBadge}>
                     <Text style={styles.scoreBadgeText}>🔥 {score}</Text>
-                </View>
+                </LinearGradient>
             </View>
 
             <Text style={styles.question}>{currentQuestion.question}</Text>
@@ -209,12 +210,11 @@ const styles = StyleSheet.create({
     },
     category: { ...typography.caption, textTransform: 'uppercase', letterSpacing: 0.5 },
     scoreBadge: {
-        backgroundColor: colors.primarySoft,
         borderRadius: radius.full,
         paddingVertical: 4,
         paddingHorizontal: spacing.sm + 2,
     },
-    scoreBadgeText: { color: colors.primary, fontWeight: '700', fontSize: 13 },
+    scoreBadgeText: { color: colors.white, fontWeight: '700', fontSize: 13 },
     question: {
         ...typography.h1,
         fontSize: 24,

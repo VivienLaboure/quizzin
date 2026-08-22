@@ -1,3 +1,4 @@
+import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { Animated, StyleSheet, Text, View } from 'react-native';
@@ -5,7 +6,7 @@ import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { getLevel, getLevelProgress, getLevelThreshold, getTokensForLevel } from '../../lib/LevelSystem';
-import { colors, radius, spacing, typography } from '../../lib/theme';
+import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
 
 export default function ResultatsPage() {
   const router = useRouter();
@@ -102,7 +103,7 @@ export default function ResultatsPage() {
         {safeScore} bonne{safeScore > 1 ? 's' : ''} réponse{safeScore > 1 ? 's' : ''}
       </Text>
 
-      <Card style={styles.xpCard}>
+      <Card gradient={gradients.sunset} style={styles.xpCard}>
         <View style={styles.xpHeader}>
           <View style={styles.levelBadge}>
             <Text style={styles.levelBadgeText}>Niv. {displayLevel}</Text>
@@ -110,7 +111,7 @@ export default function ResultatsPage() {
 
           {safeXpGained > 0 && (
             <Animated.Text style={{
-              color: colors.primary,
+              color: colors.textOnColor,
               fontWeight: 'bold',
               fontSize: 16,
               opacity: xpLabelAnim,
@@ -134,15 +135,17 @@ export default function ResultatsPage() {
       </Card>
 
       {showLevelUp && (
-        <Animated.View style={[styles.levelUpBanner, { opacity: levelUpOpacity }]}>
-          <Text style={styles.levelUpTitle}>NIVEAU {levelAfter} !</Text>
-          <Text style={styles.levelUpSubtitle}>Bravo, tu as monté de niveau !</Text>
-          {/* Un jeton tous les 2 niveaux : peut être 0 sur un level-up donné */}
-          {tokensGained > 0 && (
-            <Text style={styles.levelUpTokens}>
-              🔑 +{tokensGained} jeton{tokensGained > 1 ? 's' : ''} de déblocage !
-            </Text>
-          )}
+        <Animated.View style={[styles.levelUpBannerPosition, { opacity: levelUpOpacity }]}>
+          <LinearGradient colors={gradients.gold} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.levelUpBanner}>
+            <Text style={styles.levelUpTitle}>NIVEAU {levelAfter} !</Text>
+            <Text style={styles.levelUpSubtitle}>Bravo, tu as monté de niveau !</Text>
+            {/* Un jeton tous les 2 niveaux : peut être 0 sur un level-up donné */}
+            {tokensGained > 0 && (
+              <Text style={styles.levelUpTokens}>
+                🔑 +{tokensGained} jeton{tokensGained > 1 ? 's' : ''} de déblocage !
+              </Text>
+            )}
+          </LinearGradient>
         </Animated.View>
       )}
 
@@ -169,40 +172,41 @@ const styles = StyleSheet.create({
   xpCard: { width: '85%', marginBottom: spacing.xl },
   xpHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: spacing.sm },
   levelBadge: {
-    backgroundColor: colors.primary,
+    backgroundColor: 'rgba(255,255,255,0.24)',
     borderRadius: radius.md - 4,
     paddingVertical: 4,
     paddingHorizontal: spacing.sm + 2,
   },
-  levelBadgeText: { color: colors.white, fontWeight: '700', fontSize: 14 },
+  levelBadgeText: { color: colors.textOnColor, fontWeight: '700', fontSize: 14 },
   progressTrack: {
     width: '100%',
     height: 12,
-    backgroundColor: colors.border,
+    backgroundColor: 'rgba(255,255,255,0.28)',
     borderRadius: radius.full,
     overflow: 'hidden',
     marginBottom: spacing.xs,
   },
-  progressFill: { height: '100%', backgroundColor: colors.primary, borderRadius: radius.full },
-  progressLabel: { fontSize: 12, color: colors.textMuted, textAlign: 'right' },
-  levelUpBanner: {
+  progressFill: { height: '100%', backgroundColor: colors.white, borderRadius: radius.full },
+  progressLabel: { fontSize: 12, color: colors.textOnColorMuted, textAlign: 'right' },
+  levelUpBannerPosition: {
     position: 'absolute',
     top: '28%',
     left: '10%',
     right: '10%',
-    backgroundColor: colors.primary,
-    borderRadius: radius.lg,
-    paddingVertical: spacing.lg,
-    paddingHorizontal: spacing.lg,
-    alignItems: 'center',
-    shadowColor: colors.primary,
+    shadowColor: '#B8860B',
     shadowOffset: { width: 0, height: 6 },
     shadowOpacity: 0.35,
     shadowRadius: 14,
     elevation: 10,
   },
-  levelUpTitle: { color: colors.white, fontSize: 28, fontWeight: '800' },
-  levelUpSubtitle: { color: colors.white, fontSize: 14, marginTop: spacing.xs },
-  levelUpTokens: { color: colors.white, fontSize: 14, marginTop: spacing.sm, fontWeight: '700' },
+  levelUpBanner: {
+    borderRadius: radius.lg,
+    paddingVertical: spacing.lg,
+    paddingHorizontal: spacing.lg,
+    alignItems: 'center',
+  },
+  levelUpTitle: { color: '#5C3D00', fontSize: 28, fontWeight: '800' },
+  levelUpSubtitle: { color: '#5C3D00', fontSize: 14, marginTop: spacing.xs },
+  levelUpTokens: { color: '#5C3D00', fontSize: 14, marginTop: spacing.sm, fontWeight: '700' },
   homeButton: { width: '85%' },
 });

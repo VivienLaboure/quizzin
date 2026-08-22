@@ -22,6 +22,8 @@ import ScreenHeader from '../../components/ui/ScreenHeader';
 import { getLevel, getLevelProgress } from '../../lib/LevelSystem';
 import { colors, radius, spacing, typography } from '../../lib/theme';
 
+const MEDAL_COLOR: Record<number, string> = { 0: colors.gold, 1: colors.silver, 2: colors.bronze };
+
 type Tab = 'classement' | 'demandes' | 'recherche';
 
 interface FriendEntry {
@@ -154,10 +156,24 @@ export default function FriendsScreen() {
               leaderboard.map((entry, index) => {
                 const lvl = getLevel(entry.xp);
                 const prog = getLevelProgress(entry.xp);
+                const medalColor = MEDAL_COLOR[index];
                 const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
                 return (
-                  <View key={entry.id} style={[styles.row, entry.isMe && styles.rowHighlight]}>
-                    <Text style={styles.rank}>{medal}</Text>
+                  <View
+                    key={entry.id}
+                    style={[
+                      styles.row,
+                      entry.isMe && styles.rowHighlight,
+                      medalColor ? { borderLeftWidth: 4, borderLeftColor: medalColor } : null,
+                    ]}
+                  >
+                    {medalColor ? (
+                      <View style={[styles.medalBadge, { backgroundColor: medalColor }]}>
+                        <Text style={styles.medalBadgeText}>{medal}</Text>
+                      </View>
+                    ) : (
+                      <Text style={styles.rank}>{medal}</Text>
+                    )}
 
                     <View style={{ flex: 1 }}>
                       <View style={styles.nameRow}>
@@ -293,6 +309,15 @@ const styles = StyleSheet.create({
   },
   rowHighlight: { backgroundColor: colors.primarySoft, borderColor: colors.primary, borderWidth: 1.5 },
   rank: { fontSize: 17, fontWeight: '700', color: colors.textMuted, width: 32 },
+  medalBadge: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: spacing.xs,
+  },
+  medalBadgeText: { fontSize: 15 },
   nameRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs, marginBottom: spacing.xs },
   name: { flex: 1, fontWeight: '700', fontSize: 15, color: colors.textPrimary },
   levelBadge: {

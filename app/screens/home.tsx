@@ -8,7 +8,7 @@ import Card from '../../components/ui/Card';
 import { useAuth } from '../../lib/AuthContext';
 import { getLevelProgress } from '../../lib/LevelSystem';
 import SecureStore from '../../lib/secureStorage';
-import { colors, radius, spacing, typography } from '../../lib/theme';
+import { colors, gradients, radius, spacing } from '../../lib/theme';
 
 const TUTORIAL_SEEN_KEY = 'has_seen_tutorial';
 
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
       <Image source={require('../assets/logo_text.png')} style={styles.logo} resizeMode="contain" />
 
       {user && (
-        <Card style={styles.profileCard}>
+        <Card gradient={gradients.sunset} style={styles.profileCard}>
           <View style={styles.profileRow}>
             <Text style={styles.greeting}>Bonjour, {user.pseudo} !</Text>
             <View style={styles.levelBadge}>
@@ -111,28 +111,28 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginBottom: spacing.md,
   },
-  greeting: { ...typography.h2, fontSize: 16 },
+  greeting: { fontSize: 16, fontWeight: '700', color: colors.textOnColor },
   levelBadge: {
-    backgroundColor: colors.primary,
+    backgroundColor: 'rgba(255,255,255,0.24)',
     borderRadius: radius.full,
     paddingVertical: 4,
     paddingHorizontal: spacing.sm + 2,
   },
-  levelBadgeText: { color: colors.white, fontWeight: '700', fontSize: 13 },
+  levelBadgeText: { color: colors.textOnColor, fontWeight: '700', fontSize: 13 },
   progressTrack: {
     width: '100%',
     height: 10,
-    backgroundColor: colors.border,
+    backgroundColor: 'rgba(255,255,255,0.28)',
     borderRadius: radius.full,
     overflow: 'hidden',
     marginBottom: spacing.xs,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: colors.primary,
+    backgroundColor: colors.white,
     borderRadius: radius.full,
   },
-  xpLabel: { ...typography.caption },
+  xpLabel: { fontSize: 13, fontWeight: '500', color: colors.textOnColorMuted },
   actions: { width: '100%' },
   actionSpacing: { marginTop: spacing.sm },
 });

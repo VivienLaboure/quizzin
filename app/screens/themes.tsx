@@ -11,14 +11,10 @@ import { IData } from '../../interfaces/IData';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { GetThemes } from '../../lib/GetRandomQuizz';
 import { getDifficultyForLevel, getLevel } from '../../lib/LevelSystem';
-import { colors, radius, spacing } from '../../lib/theme';
+import { colors, difficultyColors, radius, spacing } from '../../lib/theme';
 import { getParent } from '../../lib/themeTree';
 
-const DIFFICULTY_COLOR: Record<number, string> = {
-  1: '#4CAF50',
-  2: '#FF9800',
-  3: '#F44336',
-};
+const DIFFICULTY_COLOR = difficultyColors;
 
 // Thème central de l'étoile — toujours débloqué, point de départ de la
 // progression.
