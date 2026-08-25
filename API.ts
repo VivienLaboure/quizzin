@@ -1,4 +1,5 @@
 import Constants from 'expo-constants';
+import { authErrorStore } from './lib/authErrorStore';
 import { networkErrorStore } from './lib/networkErrorStore';
 import SecureStore from './lib/secureStorage';
 
@@ -77,6 +78,13 @@ async function request(path: string, options: RequestOptions = {}) {
 
         console.log("Response Status:", res.status);
         if (!res.ok) {
+            // Un 401 sur une requête authentifiée = token expiré/invalide (pas un
+            // mauvais mot de passe, ça c'est auth:false sur /login) : on force la
+            // déconnexion plutôt que de laisser l'utilisateur sur un écran cassé
+            // qui échoue en boucle avec un message générique.
+            if (res.status === 401 && options.auth !== false) {
+                authErrorStore.triggerExpired();
+            }
             const err = new Error(body?.error || body?.message || res.statusText) as Error & { status: number; body: unknown };
             err.status = res.status;
             err.body = body;

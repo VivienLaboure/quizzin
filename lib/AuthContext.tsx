@@ -1,4 +1,5 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
+import { authErrorStore } from './authErrorStore';
 import SecureStore from './secureStorage';
 
 const TOKEN_KEY = 'auth_token';
@@ -48,6 +49,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     };
     loadSession();
+  }, []);
+
+  // Un appel API authentifié qui échoue en 401 (token expiré/invalide)
+  // signale ce store depuis API.ts — on nettoie la session locale ici ;
+  // l'effet de redirection de app/_layout.tsx enverra automatiquement vers
+  // /screens/login dès que `user` devient null, sans que l'utilisateur reste
+  // coincé sur un écran cassé.
+  useEffect(() => {
+    const unsubscribe = authErrorStore.subscribe(() => {
+      SecureStore.deleteItemAsync(TOKEN_KEY);
+      SecureStore.deleteItemAsync(USER_KEY);
+      setToken(null);
+      setUser(null);
+    });
+    return unsubscribe;
   }, []);
 
   const login = useCallback(async (newToken: string, newUser: AuthUser) => {

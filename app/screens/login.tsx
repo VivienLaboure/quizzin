@@ -12,6 +12,7 @@ import {
 import { loginUser } from '../../API';
 import Button from '../../components/ui/Button';
 import TextField from '../../components/ui/TextField';
+import { authErrorStore } from '../../lib/authErrorStore';
 import { useAuth } from '../../lib/AuthContext';
 import { colors, spacing, typography } from '../../lib/theme';
 
@@ -21,7 +22,10 @@ export default function LoginScreen() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  // Pré-rempli si on arrive ici suite à une déconnexion automatique (token
+  // expiré) plutôt que par un clic volontaire — évite de laisser
+  // l'utilisateur se demander pourquoi il a été renvoyé sans explication.
+  const [error, setError] = useState(() => authErrorStore.consumeExpiredFlag() ? 'Ta session a expiré, reconnecte-toi.' : '');
   const [loading, setLoading] = useState(false);
 
   const handleLogin = async () => {
