@@ -10,6 +10,7 @@ import Card from '../../components/ui/Card';
 import { IData } from '../../interfaces/IData';
 import { IQuizz } from '../../interfaces/IQuizz';
 import { useAuth } from '../../lib/AuthContext';
+import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import { computeXpGained } from '../../lib/LevelSystem';
 import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
@@ -155,7 +156,7 @@ export default function QuizzPage() {
     return (
         <View style={styles.container}>
             <View style={styles.header}>
-                <Text style={styles.category}>{safeCategory}</Text>
+                <Text style={styles.category}>{getThemeDisplayName(safeCategory)}</Text>
                 <LinearGradient colors={gradients.primary} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.scoreBadge}>
                     <Text style={styles.scoreBadgeText}>🔥 {score}</Text>
                 </LinearGradient>

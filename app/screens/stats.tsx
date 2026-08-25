@@ -6,6 +6,7 @@ import Card from '../../components/ui/Card';
 import ScreenHeader from '../../components/ui/ScreenHeader';
 import { useAuth } from '../../lib/AuthContext';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
+import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
 import { getDifficultyForLevel, getLevelProgress } from '../../lib/LevelSystem';
 import { colors, difficultyColors, gradients, radius, spacing, typography } from '../../lib/theme';
 
@@ -101,7 +102,7 @@ export default function StatsScreen() {
             return (
               <Card key={theme} style={[styles.themeCard, { borderLeftWidth: 4, borderLeftColor: difficultyColor }]}>
                 <View style={styles.themeHeader}>
-                  <Text style={styles.themeName}>{theme}</Text>
+                  <Text style={styles.themeName}>{getThemeDisplayName(theme)}</Text>
                   <View style={styles.themeLevelBadge}>
                     <Text style={styles.themeLevelText}>Niv. {progress.level}</Text>
                   </View>
@@ -127,7 +128,7 @@ export default function StatsScreen() {
               {lockedThemes.map(theme => (
                 <View key={theme} style={styles.lockedRow}>
                   <Text style={styles.lockIcon}>🔒</Text>
-                  <Text style={styles.lockedText}>{theme}</Text>
+                  <Text style={styles.lockedText}>{getThemeDisplayName(theme)}</Text>
                 </View>
               ))}
             </Card>

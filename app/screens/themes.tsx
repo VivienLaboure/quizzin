@@ -10,6 +10,7 @@ import ScreenHeader from '../../components/ui/ScreenHeader';
 import { IData } from '../../interfaces/IData';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
 import { GetThemes } from '../../lib/GetRandomQuizz';
+import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
 import { getDifficultyForLevel, getLevel } from '../../lib/LevelSystem';
 import { colors, difficultyColors, radius, spacing } from '../../lib/theme';
 import { getParent } from '../../lib/themeTree';
@@ -455,7 +456,7 @@ const Themes: React.FC = () => {
 
     const parent = getParent(theme);
     if (parent && !unlockedThemes.includes(parent)) {
-      setFeedback(`Débloque d'abord "${parent}"`);
+      setFeedback(`Débloque d'abord "${getThemeDisplayName(parent)}"`);
       return;
     }
     if (unlockTokens < 1) {
@@ -472,7 +473,7 @@ const Themes: React.FC = () => {
       const result = await unlockTheme(safeUserId, pendingTheme);
       setUnlockedThemes(result.unlockedThemes ?? [...unlockedThemes, pendingTheme]);
       setUnlockTokens(result.unlockTokens ?? Math.max(0, unlockTokens - 1));
-      setFeedback(`${pendingTheme} débloqué !`);
+      setFeedback(`${getThemeDisplayName(pendingTheme)} débloqué !`);
       setPendingTheme(null);
     } catch (error: unknown) {
       setFeedback(error instanceof Error ? error.message : 'Erreur lors du déblocage');
@@ -710,7 +711,7 @@ const Themes: React.FC = () => {
                 }]}
               >
                 <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(CENTER_THEME)] }]} />
-                <Text style={pageStyles.centerNodeText}>{CENTER_THEME}</Text>
+                <Text style={pageStyles.centerNodeText}>{getThemeDisplayName(CENTER_THEME)}</Text>
               </TouchableOpacity>
             )}
 
@@ -760,7 +761,7 @@ const Themes: React.FC = () => {
                       { fontSize: fontSizeForDepth(node.depth), marginTop: 4 },
                     ]}
                   >
-                    {node.theme}
+                    {getThemeDisplayName(node.theme)}
                   </Text>
                 </View>
               );
@@ -774,7 +775,7 @@ const Themes: React.FC = () => {
       {pendingTheme && (
         <View style={pageStyles.overlay}>
           <Card style={pageStyles.popup}>
-            <Text style={pageStyles.popupTitle}>Débloquer {pendingTheme} ?</Text>
+            <Text style={pageStyles.popupTitle}>Débloquer {pendingTheme ? getThemeDisplayName(pendingTheme) : ''} ?</Text>
             <Text style={pageStyles.popupSubtitle}>Cela consommera 1 jeton de déblocage.</Text>
             <View style={pageStyles.popupActions}>
               <TouchableOpacity

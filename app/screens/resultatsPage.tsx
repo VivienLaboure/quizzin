@@ -5,6 +5,7 @@ import { Animated, StyleSheet, Text, View } from 'react-native';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import { GetDifficultyName } from '../../lib/GetDifficultyName';
+import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
 import { getLevel, getLevelProgress, getLevelThreshold, getTokensForLevel } from '../../lib/LevelSystem';
 import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
 
@@ -97,7 +98,7 @@ export default function ResultatsPage() {
     <View style={styles.container}>
       <Text style={styles.emoji}>{safeScore > 0 ? '🎉' : '💪'}</Text>
       <Text style={typography.h1}>Résultats</Text>
-      <Text style={styles.metaText}>Catégorie : {safeCategory}</Text>
+      <Text style={styles.metaText}>Catégorie : {getThemeDisplayName(safeCategory)}</Text>
       <Text style={styles.metaText}>Difficulté : {GetDifficultyName(safeDifficulty)}</Text>
       <Text style={styles.scoreText}>
         {safeScore} bonne{safeScore > 1 ? 's' : ''} réponse{safeScore > 1 ? 's' : ''}
