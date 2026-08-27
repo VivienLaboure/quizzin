@@ -1,4 +1,6 @@
+import { Ionicons } from '@expo/vector-icons';
 import Constants from 'expo-constants';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
@@ -13,8 +15,11 @@ import { GetDifficultyName } from '../../../lib/GetDifficultyName';
 import { GetThemes } from '../../../lib/GetRandomQuizz';
 import { getThemeDisplayName } from '../../../lib/getThemeDisplayName';
 import { getDifficultyForLevel, getLevel } from '../../../lib/LevelSystem';
-import { colors, difficultyColors, radius, spacing } from '../../../lib/theme';
+import SecureStore from '../../../lib/secureStorage';
+import { colors, difficultyColors, gradients, radius, shadow, spacing } from '../../../lib/theme';
 import { getParent } from '../../../lib/themeTree';
+
+const TREE_HINT_SEEN_KEY = 'has_seen_tree_hint';
 
 const DIFFICULTY_COLOR = difficultyColors;
 
@@ -327,10 +332,12 @@ const Themes: React.FC = () => {
   // Empêche de glisser l'arbre entièrement hors de vue : la translation
   // reste bornée à ce qui garde au moins un bout du canevas visible dans le
   // viewport ; si le contenu (à l'échelle actuelle) est plus petit que le
-  // viewport, il reste centré.
-  const clampPan = (x: number, y: number) => {
+  // viewport, il reste centré. scaleOverride sert aux boutons +/- et au
+  // recentrage, qui doivent calculer le bornage pour une échelle qui n'est
+  // pas encore appliquée (currentScaleRef n'est mis à jour qu'ensuite).
+  const clampPan = (x: number, y: number, scaleOverride?: number) => {
     const { starSize, hViewport: vw, vViewport: vh } = metricsRef.current;
-    const effectiveSize = starSize * currentScaleRef.current;
+    const effectiveSize = starSize * (scaleOverride ?? currentScaleRef.current);
     const rangeX = vw - effectiveSize;
     const rangeY = vh - effectiveSize;
     return {
@@ -338,6 +345,60 @@ const Themes: React.FC = () => {
       y: rangeY >= 0 ? rangeY / 2 : Math.min(0, Math.max(rangeY, y)),
     };
   };
+
+  // Transition animée (contrairement à setPan/setScale, instantanés,
+  // utilisés pendant un geste en cours) — pour les actions déclenchées par un
+  // bouton (zoom +/-, recentrage), où un mouvement fluide confirme
+  // visuellement que l'action a bien eu lieu.
+  const animateTo = (targetX: number, targetY: number, targetScale: number) => {
+    currentPanRef.current = { x: targetX, y: targetY };
+    currentScaleRef.current = targetScale;
+    Animated.parallel([
+      Animated.timing(pan.x, { toValue: targetX, duration: 250, useNativeDriver: false }),
+      Animated.timing(pan.y, { toValue: targetY, duration: 250, useNativeDriver: false }),
+      Animated.timing(scale, { toValue: targetScale, duration: 250, useNativeDriver: false }),
+    ]).start();
+  };
+
+  const ZOOM_STEP = 0.35;
+
+  const applyScaleChange = (newScale: number) => {
+    const clampedScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, newScale));
+    const clampedPan = clampPan(currentPanRef.current.x, currentPanRef.current.y, clampedScale);
+    animateTo(clampedPan.x, clampedPan.y, clampedScale);
+  };
+
+  const handleZoomIn = () => applyScaleChange(currentScaleRef.current + ZOOM_STEP);
+  const handleZoomOut = () => applyScaleChange(currentScaleRef.current - ZOOM_STEP);
+  const handleRecenter = () => {
+    // starCenter est une const recalculée à chaque rendu (comme handleRecenter
+    // lui-même) : par le temps que ce bouton soit vraiment cliqué, la
+    // fermeture capture toujours la valeur du dernier rendu, correcte.
+    const target = clampPan(hViewport / 2 - starCenter, vViewport / 2 - starCenter, 1);
+    animateTo(target.x, target.y, 1);
+  };
+
+  // Astuce affichée une seule fois (comme le tutoriel de l'accueil) pour
+  // signaler que l'arbre se glisse et se pince — sans elle, rien n'indique
+  // que ces gestes existent, surtout le pincement qui n'a pas d'équivalent
+  // bouton visible par défaut.
+  const [showHint, setShowHint] = useState(false);
+  const hintOpacity = useRef(new Animated.Value(0)).current;
+  const dismissHint = useCallback(() => {
+    setShowHint(false);
+    SecureStore.setItemAsync(TREE_HINT_SEEN_KEY, 'true');
+  }, []);
+  useEffect(() => {
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+    SecureStore.getItemAsync(TREE_HINT_SEEN_KEY).then(seen => {
+      if (!seen) {
+        setShowHint(true);
+        Animated.timing(hintOpacity, { toValue: 1, duration: 300, useNativeDriver: true }).start();
+        timeoutId = setTimeout(dismissHint, 3500);
+      }
+    });
+    return () => { if (timeoutId) clearTimeout(timeoutId); };
+  }, [dismissHint, hintOpacity]);
 
   const panResponder = useRef(
     PanResponder.create({
@@ -352,6 +413,7 @@ const Themes: React.FC = () => {
         // Force le recalcul du point de départ dès le premier mouvement,
         // qu'il s'agisse d'un glissement ou d'un pincement.
         lastTouchCountRef.current = 0;
+        dismissHint();
       },
       onPanResponderMove: (evt) => {
         const touches = evt.nativeEvent.touches;
@@ -573,6 +635,11 @@ const Themes: React.FC = () => {
           </View>
         </Card>
 
+        {/* L'astuce et les contrôles flottants s'ancrent à ce conteneur (pas
+            à "content", qui englobe aussi la carte d'info ci-dessus) — sinon
+            leur position absolue les faisait chevaucher la carte au lieu de
+            rester dans la zone de l'arbre. */}
+        <View style={pageStyles.treeArea}>
         {loading ? (
           <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
         ) : (
@@ -709,13 +776,21 @@ const Themes: React.FC = () => {
             {hasCenter && (
               <TouchableOpacity
                 onPress={() => goToQuiz(CENTER_THEME)}
+                activeOpacity={0.85}
                 style={[pageStyles.centerNode, {
                   left: starCenter - CENTER_SIZE / 2,
                   top: starCenter - CENTER_SIZE / 2,
                 }]}
               >
-                <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(CENTER_THEME)] }]} />
-                <Text style={pageStyles.centerNodeText}>{getThemeDisplayName(CENTER_THEME)}</Text>
+                <LinearGradient
+                  colors={gradients.sunset}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
+                  style={pageStyles.centerNodeGradient}
+                >
+                  <View style={[pageStyles.difficultyDot, { backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(CENTER_THEME)] }]} />
+                  <Text style={pageStyles.centerNodeText}>{getThemeDisplayName(CENTER_THEME)}</Text>
+                </LinearGradient>
               </TouchableOpacity>
             )}
 
@@ -773,6 +848,35 @@ const Themes: React.FC = () => {
           </Animated.View>
           </View>
         )}
+
+        {/* Astuce affichée une seule fois — signale que l'arbre se glisse et
+            se pince, gestes sans autre indice visuel sinon. pointerEvents
+            'none' : ne doit jamais gêner le toucher des nœuds en dessous. */}
+        {!loading && showHint && (
+          <Animated.View pointerEvents="none" style={[pageStyles.hintPill, { opacity: hintOpacity }]}>
+            <Text style={pageStyles.hintText}>👆 Glisse pour explorer, pince pour zoomer</Text>
+          </Animated.View>
+        )}
+
+        {/* Contrôles flottants — recentrer + zoom. En dehors du canevas
+            glissant (donc jamais déplacés/mis à l'échelle avec lui) : seul
+            moyen de zoomer sans les deux doigts d'un pincement (souris,
+            accessibilité), et seul moyen rapide de revenir au centre une
+            fois qu'on s'est éloigné. */}
+        {!loading && (
+          <View style={pageStyles.floatingControls}>
+            <TouchableOpacity style={pageStyles.controlButton} onPress={handleZoomIn} activeOpacity={0.7}>
+              <Ionicons name="add" size={20} color={colors.textPrimary} />
+            </TouchableOpacity>
+            <TouchableOpacity style={pageStyles.controlButton} onPress={handleZoomOut} activeOpacity={0.7}>
+              <Ionicons name="remove" size={20} color={colors.textPrimary} />
+            </TouchableOpacity>
+            <TouchableOpacity style={[pageStyles.controlButton, pageStyles.recenterButton]} onPress={handleRecenter} activeOpacity={0.85}>
+              <Ionicons name="locate" size={19} color={colors.white} />
+            </TouchableOpacity>
+          </View>
+        )}
+        </View>
       </View>
 
       {/* Popup de confirmation de déblocage */}
@@ -817,6 +921,7 @@ const pageStyles = StyleSheet.create({
   // défilement de l'arbre — sinon deux bandes blanches inutiles réduisent la
   // largeur visible de l'arbre alors qu'il a justement besoin de place.
   content: { flex: 1, alignItems: 'center' },
+  treeArea: { flex: 1, width: '100%' },
   // overflow:'hidden' cadre le canevas glissant à la taille de l'écran —
   // sans lui, le déplacement libre laisserait voir le reste de l'arbre
   // déborder par-dessus la carte d'info ou le bas de l'écran.
@@ -842,15 +947,19 @@ const pageStyles = StyleSheet.create({
     width: CENTER_SIZE,
     height: CENTER_SIZE,
     borderRadius: CENTER_SIZE / 2,
-    backgroundColor: colors.primary,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: spacing.sm,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.15,
     shadowRadius: 8,
     elevation: 5,
+  },
+  centerNodeGradient: {
+    width: '100%',
+    height: '100%',
+    borderRadius: CENTER_SIZE / 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.sm,
   },
   centerNodeText: { color: colors.white, fontWeight: '700', fontSize: 13, textAlign: 'center' },
   node: {
@@ -925,6 +1034,36 @@ const pageStyles = StyleSheet.create({
     maxWidth: '85%',
   },
   toastText: { color: colors.white, fontSize: 13, textAlign: 'center' },
+  hintPill: {
+    position: 'absolute',
+    top: spacing.sm,
+    alignSelf: 'center',
+    backgroundColor: colors.textPrimary,
+    borderRadius: radius.full,
+    paddingVertical: 8,
+    paddingHorizontal: spacing.md,
+  },
+  hintText: { color: colors.white, fontSize: 12.5, fontWeight: '600' },
+  floatingControls: {
+    position: 'absolute',
+    right: spacing.md,
+    bottom: spacing.lg,
+    alignItems: 'center',
+    gap: spacing.xs,
+  },
+  controlButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: colors.surface,
+    alignItems: 'center',
+    justifyContent: 'center',
+    ...shadow.soft,
+  },
+  recenterButton: {
+    backgroundColor: colors.primary,
+    marginTop: spacing.xs,
+  },
 });
 
 export default Themes;
