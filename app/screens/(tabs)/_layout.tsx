@@ -1,6 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import React from 'react';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors } from '../../../lib/theme';
 
 /**
@@ -12,6 +13,16 @@ import { colors } from '../../../lib/theme';
  * naviguer "en arrière".
  */
 export default function TabsLayout() {
+  // La hauteur/marge de la barre était fixe (64px), sans tenir compte de la
+  // zone système en bas de l'écran (barre de navigation Android, geste ou 3
+  // boutons ; à un degré moindre l'indicateur d'accueil iOS) — elle se
+  // retrouvait donc au même endroit que le bouton "accueil" du système,
+  // voire dessous. insets.bottom donne la hauteur réelle de cette zone (0
+  // sur un appareil qui n'en a pas) : on l'ajoute à la hauteur de la barre
+  // et à son padding pour qu'elle remonte au-dessus, quel que soit
+  // l'appareil.
+  const insets = useSafeAreaInsets();
+
   return (
     <Tabs
       screenOptions={{
@@ -21,8 +32,8 @@ export default function TabsLayout() {
         tabBarStyle: {
           backgroundColor: colors.surface,
           borderTopColor: colors.border,
-          height: 64,
-          paddingBottom: 10,
+          height: 56 + insets.bottom,
+          paddingBottom: insets.bottom + 6,
           paddingTop: 6,
         },
         tabBarLabelStyle: {
