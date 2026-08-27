@@ -1,20 +1,23 @@
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { getProfile, getThemes } from '../../API';
-import Card from '../../components/ui/Card';
-import ScreenHeader from '../../components/ui/ScreenHeader';
-import { useAuth } from '../../lib/AuthContext';
-import { GetDifficultyName } from '../../lib/GetDifficultyName';
-import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
-import { getDifficultyForLevel, getLevelProgress } from '../../lib/LevelSystem';
-import { colors, difficultyColors, gradients, radius, spacing, typography } from '../../lib/theme';
+import { getProfile, getThemes } from '../../../API';
+import Button from '../../../components/ui/Button';
+import Card from '../../../components/ui/Card';
+import ScreenHeader from '../../../components/ui/ScreenHeader';
+import { useAuth } from '../../../lib/AuthContext';
+import { GetDifficultyName } from '../../../lib/GetDifficultyName';
+import { getThemeDisplayName } from '../../../lib/getThemeDisplayName';
+import { getDifficultyForLevel, getLevelProgress } from '../../../lib/LevelSystem';
+import { colors, difficultyColors, gradients, radius, spacing, typography } from '../../../lib/theme';
 
 const DIFFICULTY_COLOR = difficultyColors;
 
-export default function StatsScreen() {
+// Onglet "Profil" — fusionne les anciennes stats et le bouton de déconnexion
+// (auparavant sur des écrans séparés, atteints depuis un menu sur l'accueil).
+export default function ProfileScreen() {
   const router = useRouter();
-  const { user } = useAuth();
+  const { user, logout } = useAuth();
 
   const [themesList, setThemesList] = useState<string[]>([]);
   const [unlockedThemes, setUnlockedThemes] = useState<string[]>([]);
@@ -45,6 +48,11 @@ export default function StatsScreen() {
     load();
   }, [user?.scoreId]);
 
+  const handleLogout = async () => {
+    await logout();
+    router.replace('/screens/login');
+  };
+
   const globalProgress = getLevelProgress(user?.xp ?? 0);
 
   const unlockedSorted = [...unlockedThemes].sort(
@@ -54,12 +62,23 @@ export default function StatsScreen() {
 
   return (
     <View style={styles.container}>
-      <ScreenHeader onBack={() => router.back()} title="Statistiques" />
+      <ScreenHeader title="Profil" />
 
       {loading ? (
         <ActivityIndicator color={colors.primary} style={{ marginTop: 60 }} />
       ) : (
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+          {/* Identité */}
+          <View style={styles.identityRow}>
+            <View style={styles.avatar}>
+              <Text style={styles.avatarText}>{(user?.pseudo ?? '?').charAt(0).toUpperCase()}</Text>
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.pseudo}>{user?.pseudo}</Text>
+              <Text style={styles.email}>{user?.email}</Text>
+            </View>
+          </View>
+
           {/* Vue d'ensemble */}
           <Card gradient={gradients.ocean} style={styles.card}>
             <Text style={styles.sectionTitle}>Vue d&apos;ensemble</Text>
@@ -134,6 +153,13 @@ export default function StatsScreen() {
             </Card>
           )}
 
+          <Button
+            label="Se déconnecter"
+            variant="ghost"
+            onPress={handleLogout}
+            style={styles.logoutButton}
+          />
+
           <View style={{ height: 40 }} />
         </ScrollView>
       )}
@@ -144,6 +170,23 @@ export default function StatsScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
   content: { paddingHorizontal: spacing.lg, paddingBottom: spacing.lg },
+  identityRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginBottom: spacing.lg,
+  },
+  avatar: {
+    width: 52,
+    height: 52,
+    borderRadius: 26,
+    backgroundColor: colors.secondarySoft,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  avatarText: { color: colors.secondaryDark, fontSize: 22, fontWeight: '800' },
+  pseudo: { fontSize: 18, fontWeight: '800', color: colors.textPrimary },
+  email: { fontSize: 13, color: colors.textMuted, marginTop: 2 },
   card: { marginBottom: spacing.lg },
   sectionTitle: { fontSize: 20, fontWeight: '700', color: colors.textOnColor, marginBottom: spacing.md },
   sectionTitleOutside: { ...typography.h2, marginBottom: spacing.sm },
@@ -203,4 +246,5 @@ const styles = StyleSheet.create({
   lockedRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: spacing.xs },
   lockIcon: { fontSize: 13 },
   lockedText: { color: colors.textMuted, fontSize: 13, fontWeight: '600' },
+  logoutButton: { marginTop: spacing.lg },
 });

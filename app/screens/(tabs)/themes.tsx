@@ -1,19 +1,20 @@
 import Constants from 'expo-constants';
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
-import { getProfile, getThemes, unlockTheme } from '../../API';
-import mockData from '../../api/quizzFR.json';
-import Button from '../../components/ui/Button';
-import Card from '../../components/ui/Card';
-import ScreenHeader from '../../components/ui/ScreenHeader';
-import { IData } from '../../interfaces/IData';
-import { GetDifficultyName } from '../../lib/GetDifficultyName';
-import { GetThemes } from '../../lib/GetRandomQuizz';
-import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
-import { getDifficultyForLevel, getLevel } from '../../lib/LevelSystem';
-import { colors, difficultyColors, radius, spacing } from '../../lib/theme';
-import { getParent } from '../../lib/themeTree';
+import { getProfile, getThemes, unlockTheme } from '../../../API';
+import mockData from '../../../api/quizzFR.json';
+import Button from '../../../components/ui/Button';
+import Card from '../../../components/ui/Card';
+import ScreenHeader from '../../../components/ui/ScreenHeader';
+import { IData } from '../../../interfaces/IData';
+import { useAuth } from '../../../lib/AuthContext';
+import { GetDifficultyName } from '../../../lib/GetDifficultyName';
+import { GetThemes } from '../../../lib/GetRandomQuizz';
+import { getThemeDisplayName } from '../../../lib/getThemeDisplayName';
+import { getDifficultyForLevel, getLevel } from '../../../lib/LevelSystem';
+import { colors, difficultyColors, radius, spacing } from '../../../lib/theme';
+import { getParent } from '../../../lib/themeTree';
 
 const DIFFICULTY_COLOR = difficultyColors;
 
@@ -269,8 +270,11 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
 
 const Themes: React.FC = () => {
   const router = useRouter();
-  const { userId } = useLocalSearchParams();
-  const safeUserId = Array.isArray(userId) ? userId[0] : String(userId ?? '');
+  // Le thème est désormais un onglet toujours accessible (pas seulement
+  // poussé depuis l'accueil avec un paramètre userId dans l'URL) : on lit
+  // l'utilisateur courant directement depuis le contexte d'auth.
+  const { user } = useAuth();
+  const safeUserId = user?.scoreId ?? '';
   const { width } = useWindowDimensions();
 
   const isMock = !!Constants.expoConfig?.extra?.MOCK;
@@ -544,7 +548,7 @@ const Themes: React.FC = () => {
 
   return (
     <View style={pageStyles.container}>
-      <ScreenHeader onBack={() => router.back()} title="Thèmes" />
+      <ScreenHeader title="Thèmes" />
 
       <View style={pageStyles.content}>
         <Card style={pageStyles.infoCard}>

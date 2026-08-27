@@ -1,4 +1,3 @@
-import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
@@ -17,10 +16,10 @@ import {
   removeFriend,
   searchUsers,
   sendFriendRequest,
-} from '../../API';
-import ScreenHeader from '../../components/ui/ScreenHeader';
-import { getLevel, getLevelProgress } from '../../lib/LevelSystem';
-import { colors, radius, spacing, typography } from '../../lib/theme';
+} from '../../../API';
+import ScreenHeader from '../../../components/ui/ScreenHeader';
+import { getLevel, getLevelProgress } from '../../../lib/LevelSystem';
+import { colors, radius, spacing, typography } from '../../../lib/theme';
 
 const MEDAL_COLOR: Record<number, string> = { 0: colors.gold, 1: colors.silver, 2: colors.bronze };
 
@@ -53,7 +52,6 @@ const TABS: { key: Tab; label: string }[] = [
 ];
 
 export default function FriendsScreen() {
-  const router = useRouter();
   const [tab, setTab] = useState<Tab>('classement');
 
   // Classement
@@ -127,7 +125,7 @@ export default function FriendsScreen() {
 
   return (
     <View style={styles.container}>
-      <ScreenHeader onBack={() => router.back()} title="Amis" />
+      <ScreenHeader title="Amis" />
 
       <View style={styles.content}>
         {/* Onglets */}
