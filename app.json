@@ -50,9 +50,9 @@
       "MOCK_URL": "../api/quizzFR.json",
       "router": {},
       "eas": {
-        "projectId": "fd569914-e67e-4286-92d6-031cb4165f43"
+        "projectId": "d3387c54-5e52-4d94-9b41-b1d4c966fb5c"
       }
     },
-    "owner": "viannhey"
+    "owner": "torje"
   }
 }
