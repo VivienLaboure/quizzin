@@ -2,11 +2,12 @@ import Constants from 'expo-constants';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { getRandomQuizByTheme, setExperience } from '../../API';
 import data from '../../api/quizzFR.json';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import LoadingScreen from '../../components/ui/LoadingScreen';
 import { IData } from '../../interfaces/IData';
 import { IQuizz } from '../../interfaces/IQuizz';
 import { useAuth } from '../../lib/AuthContext';
@@ -146,11 +147,7 @@ export default function QuizzPage() {
     };
 
     if (!currentQuestion) {
-        return (
-            <View style={styles.loadingContainer}>
-                <ActivityIndicator color={colors.primary} />
-            </View>
-        );
+        return <LoadingScreen message="Préparation du quiz..." />;
     }
 
     return (
@@ -191,12 +188,6 @@ export default function QuizzPage() {
 }
 
 const styles = StyleSheet.create({
-    loadingContainer: {
-        flex: 1,
-        backgroundColor: colors.background,
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
     container: {
         flex: 1,
         backgroundColor: colors.background,

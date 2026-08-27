@@ -1,9 +1,10 @@
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { getProfile, getThemes } from '../../../API';
 import Button from '../../../components/ui/Button';
 import Card from '../../../components/ui/Card';
+import Loader from '../../../components/ui/Loader';
 import ScreenHeader from '../../../components/ui/ScreenHeader';
 import { useAuth } from '../../../lib/AuthContext';
 import { GetDifficultyName } from '../../../lib/GetDifficultyName';
@@ -65,7 +66,7 @@ export default function ProfileScreen() {
       <ScreenHeader title="Profil" />
 
       {loading ? (
-        <ActivityIndicator color={colors.primary} style={{ marginTop: 60 }} />
+        <Loader message="Chargement du profil..." style={{ marginTop: 60 }} />
       ) : (
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
           {/* Identité */}

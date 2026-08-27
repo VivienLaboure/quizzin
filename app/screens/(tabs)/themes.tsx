@@ -3,11 +3,12 @@ import Constants from 'expo-constants';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
+import { Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { getProfile, getThemes, unlockTheme } from '../../../API';
 import mockData from '../../../api/quizzFR.json';
 import Button from '../../../components/ui/Button';
 import Card from '../../../components/ui/Card';
+import Loader from '../../../components/ui/Loader';
 import ScreenHeader from '../../../components/ui/ScreenHeader';
 import { IData } from '../../../interfaces/IData';
 import { useAuth } from '../../../lib/AuthContext';
@@ -641,7 +642,7 @@ const Themes: React.FC = () => {
             rester dans la zone de l'arbre. */}
         <View style={pageStyles.treeArea}>
         {loading ? (
-          <ActivityIndicator color={colors.primary} style={{ marginTop: 40 }} />
+          <Loader message="Chargement des thèmes..." style={{ marginTop: 40 }} />
         ) : (
           // L'arbre peut être bien plus grand que l'écran (beaucoup de
           // thèmes) : ce viewport reste fixe et cadre ce qui est visible

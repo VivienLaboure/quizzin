@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import {
-  ActivityIndicator,
   ScrollView,
   StyleSheet,
   Text,
@@ -17,6 +16,7 @@ import {
   searchUsers,
   sendFriendRequest,
 } from '../../../API';
+import Loader from '../../../components/ui/Loader';
 import ScreenHeader from '../../../components/ui/ScreenHeader';
 import { getLevel, getLevelProgress } from '../../../lib/LevelSystem';
 import { colors, radius, spacing, typography } from '../../../lib/theme';
@@ -147,7 +147,7 @@ export default function FriendsScreen() {
         {tab === 'classement' && (
           <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
             {leaderboardLoading ? (
-              <ActivityIndicator color={colors.primary} style={styles.loader} />
+              <Loader message="Chargement du classement..." style={styles.loader} />
             ) : leaderboard.length === 0 ? (
               <Text style={styles.emptyText}>Ajoute des amis pour voir le classement !</Text>
             ) : (
@@ -204,7 +204,7 @@ export default function FriendsScreen() {
         {tab === 'demandes' && (
           <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
             {requestsLoading ? (
-              <ActivityIndicator color={colors.primary} style={styles.loader} />
+              <Loader message="Chargement des demandes..." style={styles.loader} />
             ) : requests.length === 0 ? (
               <Text style={styles.emptyText}>Aucune demande en attente</Text>
             ) : (
@@ -244,7 +244,7 @@ export default function FriendsScreen() {
             </View>
 
             {searchLoading ? (
-              <ActivityIndicator color={colors.primary} />
+              <Loader style={styles.loader} />
             ) : (
               <ScrollView showsVerticalScrollIndicator={false}>
                 {searchResults.map(u => (
