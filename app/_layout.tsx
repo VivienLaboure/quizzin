@@ -1,5 +1,60 @@
-import { Stack } from 'expo-router';
+import { Stack, useRouter, useSegments } from 'expo-router';
+import React, { useEffect, useState } from 'react';
+import LoadingScreen from '../components/ui/LoadingScreen';
+import { AuthProvider, useAuth } from '../lib/AuthContext';
+import { networkErrorStore } from '../lib/networkErrorStore';
+import ServerErrorScreen from './screens/serverError';
 
-export default function Layout() {
-  return <Stack />;
+function RootNavigator() {
+  const { user, isLoading } = useAuth();
+  const segments = useSegments();
+  const router = useRouter();
+  const [networkError, setNetworkError] = useState(false);
+
+  // Écoute les erreurs réseau émises par API.ts
+  useEffect(() => {
+    const unsubscribe = networkErrorStore.subscribe(setNetworkError);
+    return unsubscribe;
+  }, []);
+
+  // Redirection auth
+  useEffect(() => {
+    if (isLoading) return;
+
+    const currentPath = segments.join('/');
+    const isAuthScreen =
+      currentPath.includes('login') ||
+      currentPath.includes('register') ||
+      currentPath.includes('forgotPassword');
+
+    if (!user && !isAuthScreen) {
+      router.replace('/screens/login');
+    } else if (user && isAuthScreen) {
+      router.replace('/screens/home');
+    }
+  }, [user, isLoading, segments]);
+
+  // Avant : rien ne s'affichait pendant cette vérification (écran blanc, ou
+  // un flash du mauvais écran juste avant la redirection) — c'est pourtant
+  // la toute première chose vue à chaque ouverture de l'app.
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
+
+  return (
+    <>
+      <Stack screenOptions={{ headerShown: false }} />
+      {networkError && (
+        <ServerErrorScreen onRetry={() => setNetworkError(false)} />
+      )}
+    </>
+  );
+}
+
+export default function RootLayout() {
+  return (
+    <AuthProvider>
+      <RootNavigator />
+    </AuthProvider>
+  );
 }
