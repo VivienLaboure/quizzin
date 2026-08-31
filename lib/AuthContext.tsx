@@ -42,8 +42,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           setToken(storedToken);
           setUser(parsed);
         }
-      } catch {
-        // Session corrompue : on ignore
+      } catch (error) {
+        // Session corrompue OU accès au stockage sécurisé en échec (ex: un
+        // souci natif spécifique à l'appareil) : on se rabat sur "pas de
+        // session" (l'utilisateur devra se reconnecter) plutôt que de
+        // planter, mais on log l'erreur — avant, elle était avalée en
+        // silence, rendant impossible de diagnostiquer un problème de
+        // persistance signalé sur un vrai appareil.
+        console.error('Erreur lors du chargement de la session stockée :', error);
       } finally {
         setIsLoading(false);
       }
