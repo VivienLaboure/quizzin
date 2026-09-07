@@ -2,7 +2,7 @@ import { useRouter } from 'expo-router';
 import * as React from 'react';
 import { useEffect, useMemo, useState } from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { getFriends, getProfile } from '../../../API';
+import { getFriends, getProfile, getThemes } from '../../../API';
 import OnboardingOverlay from '../../../components/OnboardingOverlay';
 import Button from '../../../components/ui/Button';
 import Card from '../../../components/ui/Card';
@@ -32,6 +32,7 @@ interface ProfileData {
   unlockTokens: number;
   scores: ThemeScore[];
   themeXp: Record<string, number>;
+  unlockedThemes: string[];
 }
 
 // Onglet "Accueil" — un vrai tableau de bord (profil, action principale,
@@ -46,6 +47,7 @@ const Home: React.FC = () => {
   const [showTutorial, setShowTutorial] = useState(false);
   const [leaderboardPreview, setLeaderboardPreview] = useState<FriendEntry[]>([]);
   const [profile, setProfile] = useState<ProfileData | null>(null);
+  const [themesTotal, setThemesTotal] = useState<number | null>(null);
 
   const xpData = getLevelProgress(user?.xp ?? 0);
 
@@ -74,6 +76,14 @@ const Home: React.FC = () => {
       .then((data: unknown) => setProfile(data as ProfileData))
       .catch(() => {});
   }, [user?.scoreId]);
+
+  // Nombre total de thèmes existants — sert de dénominateur à la carte
+  // "Progression". Endpoint public, pas besoin d'attendre l'utilisateur.
+  useEffect(() => {
+    getThemes()
+      .then((data: unknown) => setThemesTotal((data as string[]).length))
+      .catch(() => {});
+  }, []);
 
   // Thème à réviser en priorité : celui, parmi les thèmes déjà joués, où le
   // ratio de bonnes réponses est le plus faible — une vraie suggestion
@@ -131,6 +141,32 @@ const Home: React.FC = () => {
           style={styles.playButton}
         />
 
+        {!!profile && !!themesTotal && (
+          <TouchableOpacity
+            activeOpacity={0.85}
+            style={styles.fullWidth}
+            onPress={() => router.push('/screens/themes')}
+          >
+            <Card style={styles.progressCard}>
+              <View style={styles.progressCardHeader}>
+                <Text style={styles.reviseLabel}>🗺️ Progression</Text>
+                <Text style={styles.smallArrow}>›</Text>
+              </View>
+              <Text style={styles.reviseTheme}>
+                {profile.unlockedThemes.length}/{themesTotal} thèmes débloqués
+              </Text>
+              <View style={styles.miniTrack}>
+                <View
+                  style={[
+                    styles.miniFill,
+                    { width: `${Math.min(100, Math.round((profile.unlockedThemes.length / themesTotal) * 100))}%` },
+                  ]}
+                />
+              </View>
+            </Card>
+          </TouchableOpacity>
+        )}
+
         {!!profile && profile.unlockTokens > 0 && (
           <TouchableOpacity
             activeOpacity={0.85}
@@ -149,7 +185,7 @@ const Home: React.FC = () => {
           </TouchableOpacity>
         )}
 
-        {weakestTheme && (
+        {weakestTheme ? (
           <TouchableOpacity
             activeOpacity={0.85}
             style={styles.fullWidth}
@@ -166,9 +202,27 @@ const Home: React.FC = () => {
               <Text style={styles.reviseArrow}>›</Text>
             </Card>
           </TouchableOpacity>
+        ) : !!profile && profile.scores.length === 0 && (
+          // Compte tout neuf, aucun quiz encore joué : on remplace la
+          // suggestion (qui n'a pas de sens sans historique) par une
+          // invitation claire à se lancer, plutôt que de laisser un vide.
+          <TouchableOpacity
+            activeOpacity={0.85}
+            style={styles.fullWidth}
+            onPress={() => router.push('/screens/themes')}
+          >
+            <Card style={styles.reviseCard}>
+              <View style={styles.reviseTextGroup}>
+                <Text style={styles.reviseLabel}>🎯 Premier quiz</Text>
+                <Text style={styles.reviseTheme}>Prêt à commencer ?</Text>
+                <Text style={styles.reviseScore}>Gagne de l&apos;XP et débloque de nouveaux thèmes</Text>
+              </View>
+              <Text style={styles.reviseArrow}>›</Text>
+            </Card>
+          </TouchableOpacity>
         )}
 
-        {leaderboardPreview.length > 0 && (
+        {leaderboardPreview.length > 1 ? (
           <Card style={styles.leaderboardCard}>
             <View style={styles.leaderboardHeader}>
               <Text style={styles.leaderboardTitle}>Classement amis</Text>
@@ -191,6 +245,24 @@ const Home: React.FC = () => {
               </View>
             ))}
           </Card>
+        ) : (
+          // Un classement d'une seule personne (soi-même) n'apporte rien —
+          // une invitation à ajouter des amis est plus utile que ce cas
+          // qui, avant, laissait l'accueil se terminer sur un grand vide.
+          <TouchableOpacity
+            activeOpacity={0.85}
+            style={styles.fullWidth}
+            onPress={() => router.push('/screens/friends')}
+          >
+            <Card style={styles.reviseCard}>
+              <View style={styles.reviseTextGroup}>
+                <Text style={styles.reviseLabel}>👥 Amis</Text>
+                <Text style={styles.reviseTheme}>Défie tes amis</Text>
+                <Text style={styles.reviseScore}>Ajoute des amis pour comparer vos scores</Text>
+              </View>
+              <Text style={styles.reviseArrow}>›</Text>
+            </Card>
+          </TouchableOpacity>
         )}
       </ScrollView>
     </View>
@@ -246,6 +318,23 @@ const styles = StyleSheet.create({
   xpLabel: { fontSize: 13, fontWeight: '500', color: colors.textOnColorMuted },
   playButton: { width: '100%', marginBottom: spacing.lg },
   fullWidth: { width: '100%' },
+  progressCard: { marginBottom: spacing.lg },
+  progressCardHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 2,
+  },
+  smallArrow: { fontSize: 18, color: colors.textMuted, fontWeight: '700' },
+  miniTrack: {
+    width: '100%',
+    height: 6,
+    backgroundColor: colors.border,
+    borderRadius: radius.full,
+    overflow: 'hidden',
+    marginTop: spacing.sm,
+  },
+  miniFill: { height: '100%', backgroundColor: colors.secondary, borderRadius: radius.full },
   tokenCard: {
     flexDirection: 'row',
     alignItems: 'center',
