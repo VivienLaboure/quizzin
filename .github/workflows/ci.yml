@@ -1,0 +1,34 @@
+name: CI Frontend
+
+on:
+  push:
+    branches: [front-end-quizzin]
+  pull_request:
+    branches: [front-end-quizzin]
+
+jobs:
+  check:
+    name: Audit, lint & types
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Vérification des vulnérabilités (high+)
+        run: npm audit --audit-level=high
+
+      - name: Lint (expo lint)
+        run: npx expo lint
+
+      - name: Vérification des types TypeScript
+        run: npx tsc --noEmit

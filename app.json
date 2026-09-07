@@ -1,42 +1,58 @@
 {
   "expo": {
-    "name": "quizztemp",
-    "slug": "quizztemp",
+    "name": "Quizzin",
+    "slug": "quizzin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "quizztemp",
+    "icon": "./app/assets/logo.png",
+    "scheme": "quizzin",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quizzin.app"
     },
     "android": {
+      "package": "com.quizzin.app",
+      "versionCode": 3,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./app/assets/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": []
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/logo.png"
+      "favicon": "./app/assets/logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/logo_text.png",
+          "image": "./app/assets/logo_text.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "API_URL": "https://quizzin-2.onrender.com",
+      "PORT": "",
+      "MOCK": false,
+      "MOCK_URL": "../api/quizzFR.json",
+      "router": {},
+      "eas": {
+        "projectId": "d3387c54-5e52-4d94-9b41-b1d4c966fb5c"
+      }
+    },
+    "owner": "torje"
   }
 }
