@@ -1,13 +1,14 @@
 import { useRouter } from 'expo-router';
 import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { getFriends } from '../../../API';
+import { useEffect, useMemo, useState } from 'react';
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { getFriends, getProfile } from '../../../API';
 import OnboardingOverlay from '../../../components/OnboardingOverlay';
 import Button from '../../../components/ui/Button';
 import Card from '../../../components/ui/Card';
 import { useAuth } from '../../../lib/AuthContext';
-import { getLevelProgress } from '../../../lib/LevelSystem';
+import { getThemeDisplayName } from '../../../lib/getThemeDisplayName';
+import { getDifficultyForLevel, getLevel, getLevelProgress } from '../../../lib/LevelSystem';
 import SecureStore from '../../../lib/secureStorage';
 import { colors, gradients, radius, spacing } from '../../../lib/theme';
 
@@ -21,6 +22,18 @@ interface FriendEntry {
   isMe?: boolean;
 }
 
+interface ThemeScore {
+  theme: string;
+  highScore: number;
+  totalQuestions: number;
+}
+
+interface ProfileData {
+  unlockTokens: number;
+  scores: ThemeScore[];
+  themeXp: Record<string, number>;
+}
+
 // Onglet "Accueil" — un vrai tableau de bord (profil, action principale,
 // aperçu du classement amis) plutôt qu'un menu de boutons empilés menant
 // chacun vers un écran séparé : les autres sections (Thèmes, Amis, Profil)
@@ -32,6 +45,7 @@ const Home: React.FC = () => {
   const { user } = useAuth();
   const [showTutorial, setShowTutorial] = useState(false);
   const [leaderboardPreview, setLeaderboardPreview] = useState<FriendEntry[]>([]);
+  const [profile, setProfile] = useState<ProfileData | null>(null);
 
   const xpData = getLevelProgress(user?.xp ?? 0);
 
@@ -50,9 +64,41 @@ const Home: React.FC = () => {
       .catch(() => {});
   }, []);
 
+  // Jetons de déblocage + scores par thème — servent aux cartes "jetons
+  // disponibles" et "à améliorer" ci-dessous. Silencieux en cas d'échec,
+  // comme pour le classement : un accueil incomplet vaut mieux qu'un accueil
+  // cassé.
+  useEffect(() => {
+    if (!user?.scoreId) return;
+    getProfile(user.scoreId)
+      .then((data: unknown) => setProfile(data as ProfileData))
+      .catch(() => {});
+  }, [user?.scoreId]);
+
+  // Thème à réviser en priorité : celui, parmi les thèmes déjà joués, où le
+  // ratio de bonnes réponses est le plus faible — une vraie suggestion
+  // plutôt qu'un simple "dernier joué" (le schéma ne garde pas de date par
+  // thème, seulement un score cumulé).
+  const weakestTheme = useMemo(() => {
+    if (!profile?.scores?.length) return null;
+    return profile.scores.reduce((worst, entry) => {
+      const ratio = entry.highScore / entry.totalQuestions;
+      const worstRatio = worst.highScore / worst.totalQuestions;
+      return ratio < worstRatio ? entry : worst;
+    }, profile.scores[0]);
+  }, [profile]);
+
   const dismissTutorial = () => {
     setShowTutorial(false);
     SecureStore.setItemAsync(TUTORIAL_SEEN_KEY, 'true');
+  };
+
+  const goToTheme = (theme: string) => {
+    const level = getLevel(profile?.themeXp?.[theme] ?? 0);
+    router.push({
+      pathname: '/screens/quizzPage',
+      params: { category: theme, difficulty: String(getDifficultyForLevel(level)), userId: user?.scoreId },
+    });
   };
 
   return (
@@ -84,6 +130,43 @@ const Home: React.FC = () => {
           onPress={() => router.push('/screens/themes')}
           style={styles.playButton}
         />
+
+        {!!profile && profile.unlockTokens > 0 && (
+          <TouchableOpacity
+            activeOpacity={0.85}
+            style={styles.fullWidth}
+            onPress={() => router.push('/screens/themes')}
+          >
+            <Card gradient={gradients.gold} style={styles.tokenCard}>
+              <Text style={styles.tokenEmoji}>🔓</Text>
+              <View style={styles.tokenTextGroup}>
+                <Text style={styles.tokenTitle}>
+                  {profile.unlockTokens} jeton{profile.unlockTokens !== 1 ? 's' : ''} de déblocage disponible{profile.unlockTokens !== 1 ? 's' : ''}
+                </Text>
+                <Text style={styles.tokenSubtitle}>Débloque un nouveau thème →</Text>
+              </View>
+            </Card>
+          </TouchableOpacity>
+        )}
+
+        {weakestTheme && (
+          <TouchableOpacity
+            activeOpacity={0.85}
+            style={styles.fullWidth}
+            onPress={() => goToTheme(weakestTheme.theme)}
+          >
+            <Card style={styles.reviseCard}>
+              <View style={styles.reviseTextGroup}>
+                <Text style={styles.reviseLabel}>📈 À améliorer</Text>
+                <Text style={styles.reviseTheme}>{getThemeDisplayName(weakestTheme.theme)}</Text>
+                <Text style={styles.reviseScore}>
+                  Meilleur score : {weakestTheme.highScore}/{weakestTheme.totalQuestions}
+                </Text>
+              </View>
+              <Text style={styles.reviseArrow}>›</Text>
+            </Card>
+          </TouchableOpacity>
+        )}
 
         {leaderboardPreview.length > 0 && (
           <Card style={styles.leaderboardCard}>
@@ -162,6 +245,28 @@ const styles = StyleSheet.create({
   },
   xpLabel: { fontSize: 13, fontWeight: '500', color: colors.textOnColorMuted },
   playButton: { width: '100%', marginBottom: spacing.lg },
+  fullWidth: { width: '100%' },
+  tokenCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    marginBottom: spacing.lg,
+    paddingVertical: spacing.md,
+  },
+  tokenEmoji: { fontSize: 26 },
+  tokenTextGroup: { flex: 1 },
+  tokenTitle: { fontSize: 15, fontWeight: '700', color: colors.textOnColor },
+  tokenSubtitle: { fontSize: 12.5, color: colors.textOnColorMuted, marginTop: 2 },
+  reviseCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: spacing.lg,
+  },
+  reviseTextGroup: { flex: 1 },
+  reviseLabel: { fontSize: 12.5, fontWeight: '600', color: colors.textMuted, marginBottom: 2 },
+  reviseTheme: { fontSize: 16, fontWeight: '700', color: colors.textPrimary },
+  reviseScore: { fontSize: 13, color: colors.textMuted, marginTop: 2 },
+  reviseArrow: { fontSize: 28, color: colors.textMuted, fontWeight: '700' },
   leaderboardCard: { width: '100%' },
   leaderboardHeader: {
     flexDirection: 'row',

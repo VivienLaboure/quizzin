@@ -13,6 +13,7 @@ import { registerUser } from '../../API';
 import Button from '../../components/ui/Button';
 import TextField from '../../components/ui/TextField';
 import { colors, spacing, typography } from '../../lib/theme';
+import { useWakeupHint } from '../../lib/useWakeupHint';
 
 export default function RegisterScreen() {
   const router = useRouter();
@@ -23,6 +24,7 @@ export default function RegisterScreen() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const showWakeupHint = useWakeupHint(loading);
 
   const handleRegister = async () => {
     setError('');
@@ -97,6 +99,11 @@ export default function RegisterScreen() {
         />
 
         <Button label="Créer mon compte" onPress={handleRegister} loading={loading} />
+        {showWakeupHint && (
+          <Text style={styles.wakeupHint}>
+            Le serveur se réveille (il s&apos;endort après une période d&apos;inactivité) — ça peut prendre jusqu&apos;à une minute la première fois.
+          </Text>
+        )}
 
         <View style={styles.row}>
           <Text style={styles.mutedText}>Déjà un compte ? </Text>
@@ -120,6 +127,7 @@ const styles = StyleSheet.create({
   emoji: { fontSize: 40, marginBottom: spacing.sm },
   subtitle: { textAlign: 'center', marginTop: spacing.xs, marginBottom: spacing.xl },
   errorText: { color: colors.error, marginBottom: spacing.md, textAlign: 'center' },
+  wakeupHint: { color: colors.textMuted, fontSize: 12.5, textAlign: 'center', marginTop: spacing.sm, paddingHorizontal: spacing.sm },
   row: { flexDirection: 'row', marginTop: spacing.lg, alignItems: 'center' },
   mutedText: { color: colors.textSecondary, fontSize: 14 },
   linkText: { color: colors.primary, fontSize: 14, fontWeight: '600' },

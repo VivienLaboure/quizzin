@@ -15,6 +15,7 @@ import TextField from '../../components/ui/TextField';
 import { authErrorStore } from '../../lib/authErrorStore';
 import { useAuth } from '../../lib/AuthContext';
 import { colors, spacing, typography } from '../../lib/theme';
+import { useWakeupHint } from '../../lib/useWakeupHint';
 
 export default function LoginScreen() {
   const router = useRouter();
@@ -27,6 +28,7 @@ export default function LoginScreen() {
   // l'utilisateur se demander pourquoi il a été renvoyé sans explication.
   const [error, setError] = useState(() => authErrorStore.consumeExpiredFlag() ? 'Ta session a expiré, reconnecte-toi.' : '');
   const [loading, setLoading] = useState(false);
+  const showWakeupHint = useWakeupHint(loading);
 
   const handleLogin = async () => {
     setError('');
@@ -77,6 +79,11 @@ export default function LoginScreen() {
         </TouchableOpacity>
 
         <Button label="Se connecter" onPress={handleLogin} loading={loading} />
+        {showWakeupHint && (
+          <Text style={styles.wakeupHint}>
+            Le serveur se réveille (il s&apos;endort après une période d&apos;inactivité) — ça peut prendre jusqu&apos;à une minute la première fois.
+          </Text>
+        )}
 
         <View style={styles.row}>
           <Text style={styles.mutedText}>Pas encore de compte ? </Text>
@@ -101,6 +108,7 @@ const styles = StyleSheet.create({
   subtitle: { textAlign: 'center', marginTop: spacing.xs, marginBottom: spacing.xl },
   linkButton: { alignSelf: 'flex-end', marginBottom: spacing.md },
   errorText: { color: colors.error, marginBottom: spacing.md, textAlign: 'center' },
+  wakeupHint: { color: colors.textMuted, fontSize: 12.5, textAlign: 'center', marginTop: spacing.sm, paddingHorizontal: spacing.sm },
   row: { flexDirection: 'row', marginTop: spacing.lg, alignItems: 'center' },
   mutedText: { color: colors.textSecondary, fontSize: 14 },
   linkText: { color: colors.primary, fontSize: 14, fontWeight: '600' },
