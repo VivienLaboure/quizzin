@@ -43,7 +43,7 @@ function RootNavigator() {
 
   return (
     <>
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false, animation: 'fade' }} />
       {networkError && (
         <ServerErrorScreen onRetry={() => setNetworkError(false)} />
       )}

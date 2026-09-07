@@ -27,6 +27,11 @@ export default function TabsLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
+        // Par défaut, la barre d'onglets change d'écran sans aucune
+        // transition (coupure instantanée) — 'shift' fait un fondu avec un
+        // léger déplacement latéral, le même type d'animation que la
+        // plupart des apps à onglets du marché.
+        animation: 'shift',
         tabBarActiveTintColor: colors.primary,
         tabBarInactiveTintColor: colors.textMuted,
         tabBarStyle: {

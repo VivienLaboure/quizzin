@@ -1,8 +1,8 @@
 import Constants from 'expo-constants';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { Animated, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { getRandomQuizByTheme, setExperience } from '../../API';
 import data from '../../api/quizzFR.json';
 import Button from '../../components/ui/Button';
@@ -26,6 +26,18 @@ export default function QuizzPage() {
     // Identifiants des questions déjà vues dans cette partie (évite les doublons)
     const [seenQuestions, setSeenQuestions] = useState<Set<string>>(new Set());
 
+    // Réponse tapée par le joueur + son statut — pilotent le retour visuel
+    // (vert/rouge) affiché avant d'enchaîner sur la question suivante, et
+    // bloquent un second tap pendant la transition.
+    const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+    const [answerStatus, setAnswerStatus] = useState<'correct' | 'incorrect' | null>(null);
+
+    // Anime l'apparition de chaque nouvelle question (fondu + léger
+    // glissement) — avant, la question suivante remplaçait la précédente
+    // instantanément, sans aucune transition.
+    const fadeAnim = useRef(new Animated.Value(0)).current;
+    const slideAnim = useRef(new Animated.Value(14)).current;
+
     // File de questions pour le mode mock (JSON local)
     const [mockQueue, setMockQueue] = useState<IQuizz[]>([]);
     const [mockIndex, setMockIndex] = useState(0);
@@ -46,10 +58,26 @@ export default function QuizzPage() {
     }
 
     const loadQuestion = (quizz: IQuizz) => {
+        // Remis à 0 de façon synchrone, avant même de changer la question :
+        // au premier rendu de la nouvelle question, l'opacité est donc déjà
+        // à 0 (pas de flash à l'ancienne valeur), puis l'effet ci-dessous
+        // anime la remontée vers 1.
+        fadeAnim.setValue(0);
+        slideAnim.setValue(14);
         setCurrentQuestion(quizz);
         setPropositions(randomize(quizz.propositions));
         setPopupExplication(false);
+        setSelectedAnswer(null);
+        setAnswerStatus(null);
     };
+
+    useEffect(() => {
+        if (!currentQuestion) return;
+        Animated.parallel([
+            Animated.timing(fadeAnim, { toValue: 1, duration: 280, useNativeDriver: true }),
+            Animated.timing(slideAnim, { toValue: 0, duration: 280, useNativeDriver: true }),
+        ]).start();
+    }, [currentQuestion, fadeAnim, slideAnim]);
 
     // Récupère la prochaine question (API ou mock) en évitant les doublons
     const fetchNextQuestion = async (seen: Set<string> = seenQuestions) => {
@@ -136,13 +164,28 @@ export default function QuizzPage() {
     };
 
     const checkAnswer = (answer: string) => {
+        // Ignore un second tap pendant que le retour visuel/la transition
+        // de la réponse précédente est encore en cours.
+        if (selectedAnswer) return;
+        setSelectedAnswer(answer);
+
         if (answer === currentQuestion?.reponse) {
-            // Bonne réponse : on incrémente le score et on charge la question suivante
+            // Bonne réponse : surligné en vert un court instant avant de
+            // s'effacer et d'enchaîner sur la question suivante — avant,
+            // la question changeait sans aucun accusé de réception.
+            setAnswerStatus('correct');
             setScore(prev => prev + 1);
-            fetchNextQuestion();
+            setTimeout(() => {
+                Animated.timing(fadeAnim, { toValue: 0, duration: 180, useNativeDriver: true }).start(() => {
+                    fetchNextQuestion();
+                });
+            }, 500);
         } else {
-            // Mauvaise réponse : la partie s'arrête, on affiche l'explication
-            setPopupExplication(true);
+            // Mauvaise réponse : surligne la réponse tapée en rouge et la
+            // bonne en vert, laisse le temps de voir la différence, puis
+            // affiche l'explication (la partie s'arrête).
+            setAnswerStatus('incorrect');
+            setTimeout(() => setPopupExplication(true), 500);
         }
     };
 
@@ -159,19 +202,31 @@ export default function QuizzPage() {
                 </LinearGradient>
             </View>
 
-            <Text style={styles.question}>{currentQuestion.question}</Text>
+            <Animated.View style={{ opacity: fadeAnim, transform: [{ translateY: slideAnim }] }}>
+                <Text style={styles.question}>{currentQuestion.question}</Text>
 
-            <View style={styles.answers}>
-                {propositions.map((proposition, i) => (
-                    <TouchableOpacity
-                        key={i}
-                        onPress={() => checkAnswer(proposition)}
-                        style={styles.answerButton}
-                    >
-                        <Text style={styles.answerText}>{proposition}</Text>
-                    </TouchableOpacity>
-                ))}
-            </View>
+                <View style={styles.answers}>
+                    {propositions.map((proposition, i) => {
+                        const isCorrectAnswer = proposition === currentQuestion.reponse;
+                        const isTappedWrong = answerStatus === 'incorrect' && proposition === selectedAnswer;
+                        const feedbackStyle =
+                            answerStatus && isCorrectAnswer ? styles.answerCorrect :
+                            isTappedWrong ? styles.answerIncorrect :
+                            null;
+
+                        return (
+                            <TouchableOpacity
+                                key={i}
+                                onPress={() => checkAnswer(proposition)}
+                                disabled={!!selectedAnswer}
+                                style={[styles.answerButton, feedbackStyle]}
+                            >
+                                <Text style={styles.answerText}>{proposition}</Text>
+                            </TouchableOpacity>
+                        );
+                    })}
+                </View>
+            </Animated.View>
 
             {popupExplication && (
                 <View style={styles.overlay}>
@@ -222,6 +277,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: spacing.md,
     },
     answerText: { fontSize: 16, fontWeight: '600', color: colors.textPrimary },
+    answerCorrect: { backgroundColor: colors.successSoft, borderColor: colors.success },
+    answerIncorrect: { backgroundColor: colors.errorSoft, borderColor: colors.error },
     overlay: {
         position: 'absolute',
         top: 0, left: 0, right: 0, bottom: 0,
