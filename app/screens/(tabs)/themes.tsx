@@ -4,18 +4,17 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
-import { getProfile, getThemes, unlockTheme } from '../../../API';
+import { getThemes } from '../../../API';
 import mockData from '../../../api/quizzFR.json';
 import Button from '../../../components/ui/Button';
 import Card from '../../../components/ui/Card';
 import Loader from '../../../components/ui/Loader';
 import ScreenHeader from '../../../components/ui/ScreenHeader';
 import { IData } from '../../../interfaces/IData';
-import { useAuth } from '../../../lib/AuthContext';
 import { GetDifficultyName } from '../../../lib/GetDifficultyName';
 import { GetThemes } from '../../../lib/GetRandomQuizz';
 import { getThemeDisplayName } from '../../../lib/getThemeDisplayName';
-import { getDifficultyForLevel, getLevel } from '../../../lib/LevelSystem';
+import { useProgress } from '../../../lib/ProgressContext';
 import SecureStore from '../../../lib/secureStorage';
 import { colors, difficultyColors, gradients, radius, shadow, spacing } from '../../../lib/theme';
 import { getParent } from '../../../lib/themeTree';
@@ -276,21 +275,14 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
 
 const Themes: React.FC = () => {
   const router = useRouter();
-  // Le thème est désormais un onglet toujours accessible (pas seulement
-  // poussé depuis l'accueil avec un paramètre userId dans l'URL) : on lit
-  // l'utilisateur courant directement depuis le contexte d'auth.
-  const { user } = useAuth();
-  const safeUserId = user?.scoreId ?? '';
+  // Progression (thèmes débloqués, jetons, XP par thème) stockée localement
+  // sur l'appareil — plus de notion de compte à interroger.
+  const { progress, unlockTheme, getThemeDifficulty } = useProgress();
   const { width } = useWindowDimensions();
 
   const isMock = !!Constants.expoConfig?.extra?.MOCK;
 
   const [themesList, setThemesList] = useState<string[]>([]);
-  const [unlockedThemes, setUnlockedThemes] = useState<string[]>([CENTER_THEME]);
-  const [unlockTokens, setUnlockTokens] = useState(0);
-  // XP par thème — chaque thème a sa propre difficulté, indépendante des
-  // autres et du niveau global du joueur (voir lib/LevelSystem.ts).
-  const [themeXp, setThemeXp] = useState<Record<string, number>>({});
   const [loading, setLoading] = useState(true);
 
   // Déplacement libre de l'arbre (glissement dans n'importe quelle direction,
@@ -470,48 +462,35 @@ const Themes: React.FC = () => {
   const [unlocking, setUnlocking] = useState(false);
   const [feedback, setFeedback] = useState<string | null>(null);
 
-  const getThemeDifficulty = (theme: string) => getDifficultyForLevel(getLevel(themeXp[theme] ?? 0));
-
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
-      if (isMock) {
-        // Mode mock : pas de backend, pas de vrai système de progression par
-        // thème — tous les thèmes sont accessibles, difficulté la plus
-        // simple partout, pour pouvoir tester le quiz.
-        const names = GetThemes(mockData as IData);
-        setThemesList(names);
-        setUnlockedThemes(names);
-        setUnlockTokens(0);
-        setThemeXp({});
-      } else {
-        const [names, profile] = await Promise.all([
-          getThemes() as Promise<string[]>,
-          safeUserId ? getProfile(safeUserId) : Promise.resolve(null),
-        ]);
-        setThemesList(names);
-        if (profile) {
-          setUnlockedThemes(profile.unlockedThemes ?? [CENTER_THEME]);
-          setUnlockTokens(profile.unlockTokens ?? 0);
-          setThemeXp(profile.themeXp ?? {});
-        }
-      }
+      const names = isMock
+        // Mode mock : pas de backend, on tire la liste des thèmes du JSON
+        // local plutôt que de l'API.
+        ? GetThemes(mockData as IData)
+        : await getThemes() as string[];
+      setThemesList(names);
     } catch (error) {
       console.error('Erreur lors du chargement des thèmes :', error);
       setThemesList([]);
     } finally {
       setLoading(false);
     }
-  }, [isMock, safeUserId]);
+  }, [isMock]);
 
   useEffect(() => {
     loadData();
   }, [loadData]);
 
+  // Mode mock : tous les thèmes accessibles sans dépenser de jeton, pour
+  // pouvoir tester le quiz sans passer par tout l'arbre de déblocage.
+  const effectiveUnlockedThemes = isMock ? themesList : progress.unlockedThemes;
+
   const goToQuiz = (theme: string) => {
     router.push({
       pathname: '/screens/quizzPage',
-      params: { category: theme, difficulty: String(getThemeDifficulty(theme)), userId: safeUserId },
+      params: { category: theme, difficulty: String(getThemeDifficulty(theme)) },
     });
   };
 
@@ -522,11 +501,11 @@ const Themes: React.FC = () => {
     }
 
     const parent = getParent(theme);
-    if (parent && !unlockedThemes.includes(parent)) {
+    if (parent && !effectiveUnlockedThemes.includes(parent)) {
       setFeedback(`Débloque d'abord "${getThemeDisplayName(parent)}"`);
       return;
     }
-    if (unlockTokens < 1) {
+    if (progress.unlockTokens < 1) {
       setFeedback('Pas de jeton disponible — monte de niveau pour en gagner !');
       return;
     }
@@ -534,12 +513,10 @@ const Themes: React.FC = () => {
   };
 
   const confirmUnlock = async () => {
-    if (!pendingTheme || !safeUserId) return;
+    if (!pendingTheme) return;
     setUnlocking(true);
     try {
-      const result = await unlockTheme(safeUserId, pendingTheme);
-      setUnlockedThemes(result.unlockedThemes ?? [...unlockedThemes, pendingTheme]);
-      setUnlockTokens(result.unlockTokens ?? Math.max(0, unlockTokens - 1));
+      await unlockTheme(pendingTheme);
       setFeedback(`${getThemeDisplayName(pendingTheme)} débloqué !`);
       setPendingTheme(null);
     } catch (error: unknown) {
@@ -619,7 +596,7 @@ const Themes: React.FC = () => {
             <View style={pageStyles.infoRow}>
               <Text style={{ fontSize: 18 }}>🔑</Text>
               <Text style={pageStyles.infoText}>
-                <Text style={{ fontWeight: '700', color: colors.primary }}>{unlockTokens}</Text> jeton{unlockTokens !== 1 ? 's' : ''} de déblocage
+                <Text style={{ fontWeight: '700', color: colors.primary }}>{progress.unlockTokens}</Text> jeton{progress.unlockTokens !== 1 ? 's' : ''} de déblocage
               </Text>
             </View>
           )}
@@ -734,7 +711,7 @@ const Themes: React.FC = () => {
               const dy = node.y - node.parentY;
               const length = Math.hypot(dx, dy);
               const angle = Math.atan2(dy, dx);
-              const isUnlocked = unlockedThemes.includes(node.theme);
+              const isUnlocked = effectiveUnlockedThemes.includes(node.theme);
               return (
                 <View
                   key={`line-${node.theme}`}
@@ -801,7 +778,7 @@ const Themes: React.FC = () => {
                 dessous : évite tout chevauchement icône/texte sur les
                 petits nœuds. */}
             {treeNodes.map(node => {
-              const isUnlocked = unlockedThemes.includes(node.theme);
+              const isUnlocked = effectiveUnlockedThemes.includes(node.theme);
 
               return (
                 <View

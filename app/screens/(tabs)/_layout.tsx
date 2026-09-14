@@ -5,12 +5,10 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors } from '../../../lib/theme';
 
 /**
- * Barre d'onglets toujours visible — remplace l'ancien accueil "menu"
- * (Jouer / Amis / Statistiques / Se déconnecter empilés en boutons, chacun
- * poussant vers un écran séparé qu'il fallait quitter avec "retour" pour
- * changer de section). Les 4 destinations principales sont désormais des
- * pairs, pas une hiérarchie : on change de section en un tap, sans jamais
- * naviguer "en arrière".
+ * Barre d'onglets toujours visible. Réduite à Accueil + Thèmes depuis que
+ * l'app n'a plus de notion de compte : Amis (classement entre amis) n'avait
+ * plus de sens sans identifier d'autres joueurs, et Profil n'existe plus
+ * (rien à y afficher — la progression est locale, pas un compte à gérer).
  */
 export default function TabsLayout() {
   // La hauteur/marge de la barre était fixe (64px), sans tenir compte de la
@@ -62,24 +60,6 @@ export default function TabsLayout() {
           title: 'Thèmes',
           tabBarIcon: ({ color, size, focused }) => (
             <Ionicons name={focused ? 'planet' : 'planet-outline'} size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="friends"
-        options={{
-          title: 'Amis',
-          tabBarIcon: ({ color, size, focused }) => (
-            <Ionicons name={focused ? 'people' : 'people-outline'} size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="profile"
-        options={{
-          title: 'Profil',
-          tabBarIcon: ({ color, size, focused }) => (
-            <Ionicons name={focused ? 'person-circle' : 'person-circle-outline'} size={size} color={color} />
           ),
         }}
       />

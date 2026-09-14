@@ -3,22 +3,23 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { Animated, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { getRandomQuizByTheme, setExperience } from '../../API';
+import { getRandomQuizByTheme } from '../../API';
 import data from '../../api/quizzFR.json';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import LoadingScreen from '../../components/ui/LoadingScreen';
 import { IData } from '../../interfaces/IData';
 import { IQuizz } from '../../interfaces/IQuizz';
-import { useAuth } from '../../lib/AuthContext';
 import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import { computeXpGained } from '../../lib/LevelSystem';
+import { useProgress } from '../../lib/ProgressContext';
 import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
+import { useWakeupHint } from '../../lib/useWakeupHint';
 
 export default function QuizzPage() {
     const router = useRouter();
-    const { user, updateXp } = useAuth();
+    const { progress, addXp, recordStreak } = useProgress();
     const [currentQuestion, setCurrentQuestion] = useState<IQuizz | null>(null);
     const [propositions, setPropositions] = useState<string[]>([]);
     const [score, setScore] = useState(0);
@@ -42,10 +43,9 @@ export default function QuizzPage() {
     const [mockQueue, setMockQueue] = useState<IQuizz[]>([]);
     const [mockIndex, setMockIndex] = useState(0);
 
-    const { category, difficulty, userId } = useLocalSearchParams();
+    const { category, difficulty } = useLocalSearchParams();
     const safeCategory = Array.isArray(category) ? category[0] : String(category);
     const safeDifficulty = Number(Array.isArray(difficulty) ? difficulty[0] : difficulty);
-    const safeUserId = Array.isArray(userId) ? userId[0] : String(userId ?? '');
 
     function randomize(tab: string[]): string[] {
         // Fisher-Yates shuffle sur une copie pour ne pas muter l'original
@@ -133,22 +133,15 @@ export default function QuizzPage() {
         fetchNextQuestion();
     }, []);
 
-    const goToResults = async (finalScore: number) => {
-        const xpBefore = user?.xp ?? 0;
+    const goToResults = (finalScore: number) => {
+        const xpBefore = progress.xp;
         const xpGained = computeXpGained(finalScore, safeDifficulty);
-        const newXp = xpBefore + xpGained;
 
-        // Mise à jour de l'XP en BDD — le serveur incrémente à la fois l'XP
-        // globale (niveaux/jetons) et l'XP de ce thème (difficulté propre à
-        // ce thème) à partir du delta gagné, pas d'une valeur absolue.
-        if (safeUserId) {
-            try {
-                await setExperience(safeUserId, xpGained, safeCategory);
-                await updateXp(newXp);
-            } catch (error) {
-                console.error("Erreur mise à jour XP :", error);
-            }
-        }
+        // XP + record de série mis à jour localement (et persistés sur
+        // l'appareil) — plus d'appel réseau ici, la progression n'a jamais
+        // quitté le téléphone.
+        addXp(safeCategory, xpGained);
+        recordStreak(safeCategory, finalScore);
 
         router.push({
             pathname: "/screens/resultatsPage",
@@ -156,7 +149,6 @@ export default function QuizzPage() {
                 category: safeCategory,
                 difficulty: safeDifficulty,
                 score: finalScore,
-                userId: safeUserId,
                 xpBefore,
                 xpGained,
             },
@@ -189,8 +181,20 @@ export default function QuizzPage() {
         }
     };
 
+    const showWakeupHint = useWakeupHint(!currentQuestion);
+
     if (!currentQuestion) {
-        return <LoadingScreen message="Préparation du quiz..." />;
+        // Seul appel réseau restant de l'app (récupérer une question) —
+        // peut prendre jusqu'à une minute si le backend Render est en veille
+        // (voir lib/useWakeupHint.ts) : sans cet indice, l'attente ressemble
+        // à un blocage plutôt qu'à un réveil normal.
+        return (
+            <LoadingScreen
+                message={showWakeupHint
+                    ? "Le serveur se réveille — ça peut prendre jusqu'à une minute la première fois."
+                    : "Préparation du quiz..."}
+            />
+        );
     }
 
     return (

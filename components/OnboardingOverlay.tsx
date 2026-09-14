@@ -36,9 +36,9 @@ const STEPS: Step[] = [
     description: "Sur l'écran des thèmes, dépense tes jetons pour débloquer de nouveaux thèmes autour de Culture générale, du plus général au plus pointu.",
   },
   {
-    emoji: '👥',
-    title: 'Défie tes amis',
-    description: "Ajoute des amis et grimpe dans le classement par XP depuis l'écran Amis.",
+    emoji: '📱',
+    title: 'Ta progression, ton appareil',
+    description: "Pas de compte à créer : ton XP, tes niveaux et tes thèmes débloqués restent enregistrés directement sur ce téléphone.",
   },
 ];
 
