@@ -5,96 +5,501 @@
       {
         "question": "Quelle est l'unité de mesure de la force dans le Système international ?",
         "reponse": "Le newton",
-        "propositions": ["Le newton", "Le joule", "Le watt", "Le pascal"],
+        "propositions": [
+          "Le newton",
+          "Le joule",
+          "Le watt",
+          "Le pascal"
+        ],
         "explication": "Le newton (N) mesure une force, en hommage à Isaac Newton."
       },
       {
         "question": "Qui a formulé la loi de la gravitation universelle ?",
         "reponse": "Isaac Newton",
-        "propositions": ["Isaac Newton", "Albert Einstein", "Galilée", "Johannes Kepler"],
+        "propositions": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Galilée",
+          "Johannes Kepler"
+        ],
         "explication": "Newton publie sa loi de la gravitation universelle en 1687 dans les Principia Mathematica."
       },
       {
         "question": "Quelle est la vitesse de la lumière dans le vide (approximativement) ?",
         "reponse": "300 000 km/s",
-        "propositions": ["300 000 km/s", "150 000 km/s", "3 000 km/s", "1 000 000 km/s"],
+        "propositions": [
+          "300 000 km/s",
+          "150 000 km/s",
+          "3 000 km/s",
+          "1 000 000 km/s"
+        ],
         "explication": "La lumière se déplace dans le vide à environ 299 792 km par seconde."
       },
       {
         "question": "Quel état de la matière n'a ni forme ni volume propre ?",
         "reponse": "Le gaz",
-        "propositions": ["Le gaz", "Le liquide", "Le solide", "Le cristal"],
+        "propositions": [
+          "Le gaz",
+          "Le liquide",
+          "Le solide",
+          "Le cristal"
+        ],
         "explication": "Un gaz occupe tout le volume disponible et n'a pas de forme propre, contrairement au solide et au liquide."
       },
       {
         "question": "Quelle grandeur physique se mesure en degrés Celsius ?",
         "reponse": "La température",
-        "propositions": ["La température", "La pression", "La masse", "L'énergie"],
+        "propositions": [
+          "La température",
+          "La pression",
+          "La masse",
+          "L'énergie"
+        ],
         "explication": "Le degré Celsius est une unité de mesure de la température."
+      },
+      {
+        "question": "Quelle unité mesure la puissance électrique ?",
+        "reponse": "Le watt",
+        "propositions": [
+          "Le watt",
+          "Le volt",
+          "L'ampère",
+          "L'ohm"
+        ],
+        "explication": "Le watt rend hommage à l'ingénieur écossais James Watt."
+      },
+      {
+        "question": "Quel phénomène physique fait qu'un objet lâché tombe vers le sol ?",
+        "reponse": "La gravité",
+        "propositions": [
+          "La gravité",
+          "Le magnétisme",
+          "L'inertie",
+          "La friction"
+        ],
+        "explication": "La gravité terrestre confère à tout objet une accélération d'environ 9,8 m/s²."
+      },
+      {
+        "question": "Quel état de la matière possède une forme propre et un volume propre ?",
+        "reponse": "Le solide",
+        "propositions": [
+          "Le solide",
+          "Le liquide",
+          "Le gaz",
+          "Le plasma"
+        ],
+        "explication": "Contrairement au liquide et au gaz, le solide conserve sa forme sans contenant."
+      },
+      {
+        "question": "Quelle unité mesure la température dans le système international ?",
+        "reponse": "Le kelvin",
+        "propositions": [
+          "Le kelvin",
+          "Le celsius",
+          "Le fahrenheit",
+          "Le joule"
+        ],
+        "explication": "Le zéro absolu, 0 kelvin, correspond à -273,15 °C."
+      },
+      {
+        "question": "Quel scientifique a énoncé les trois lois du mouvement au XVIIe siècle ?",
+        "reponse": "Isaac Newton",
+        "propositions": [
+          "Isaac Newton",
+          "Galilée",
+          "Johannes Kepler",
+          "René Descartes"
+        ],
+        "explication": "Ces lois sont publiées dans les 'Principia Mathematica' en 1687."
+      },
+      {
+        "question": "Quel phénomène permet à un objet de flotter sur l'eau ?",
+        "reponse": "La poussée d'Archimède",
+        "propositions": [
+          "La poussée d'Archimède",
+          "La tension superficielle",
+          "La capillarité",
+          "L'osmose"
+        ],
+        "explication": "La poussée d'Archimède est égale au poids du volume de liquide déplacé."
+      },
+      {
+        "question": "Quelle grandeur physique mesure la résistance d'un objet au changement de son mouvement ?",
+        "reponse": "La masse",
+        "propositions": [
+          "La masse",
+          "Le poids",
+          "La densité",
+          "Le volume"
+        ],
+        "explication": "La masse mesure l'inertie d'un objet, indépendamment de la gravité qui s'exerce sur lui."
+      },
+      {
+        "question": "Quel phénomène optique décompose la lumière blanche en un arc de couleurs ?",
+        "reponse": "La réfraction",
+        "propositions": [
+          "La réfraction",
+          "La réflexion",
+          "La diffraction",
+          "L'absorption"
+        ],
+        "explication": "Un prisme ou des gouttes de pluie peuvent décomposer la lumière blanche, comme dans un arc-en-ciel."
+      },
+      {
+        "question": "Quelle unité mesure la fréquence d'un phénomène périodique ?",
+        "reponse": "Le hertz",
+        "propositions": [
+          "Le hertz",
+          "Le watt",
+          "Le newton",
+          "Le pascal"
+        ],
+        "explication": "Un hertz correspond à un cycle complet par seconde."
+      },
+      {
+        "question": "Quel état de la matière compose principalement les étoiles ?",
+        "reponse": "Le plasma",
+        "propositions": [
+          "Le plasma",
+          "Le gaz",
+          "Le liquide",
+          "Le solide"
+        ],
+        "explication": "Le plasma est un gaz ionisé, considéré comme le quatrième état de la matière."
       }
     ],
     "2": [
       {
         "question": "Quelle loi énonce que \"pour toute action il existe une réaction opposée et de même intensité\" ?",
         "reponse": "La troisième loi de Newton",
-        "propositions": ["La troisième loi de Newton", "La loi de Hooke", "La loi d'Ohm", "Le principe d'Archimède"],
+        "propositions": [
+          "La troisième loi de Newton",
+          "La loi de Hooke",
+          "La loi d'Ohm",
+          "Le principe d'Archimède"
+        ],
         "explication": "C'est le principe d'action-réaction, troisième loi du mouvement énoncée par Newton."
       },
       {
         "question": "Quelle est l'unité de mesure de l'énergie dans le Système international ?",
         "reponse": "Le joule",
-        "propositions": ["Le joule", "Le newton", "Le watt", "L'ampère"],
+        "propositions": [
+          "Le joule",
+          "Le newton",
+          "Le watt",
+          "L'ampère"
+        ],
         "explication": "Le joule (J) est l'unité d'énergie, de travail et de quantité de chaleur."
       },
       {
         "question": "Quel scientifique a énoncé le principe de la relativité restreinte en 1905 ?",
         "reponse": "Albert Einstein",
-        "propositions": ["Albert Einstein", "Niels Bohr", "Max Planck", "Werner Heisenberg"],
+        "propositions": [
+          "Albert Einstein",
+          "Niels Bohr",
+          "Max Planck",
+          "Werner Heisenberg"
+        ],
         "explication": "Einstein publie sa théorie de la relativité restreinte en 1905, révolutionnant la physique."
       },
       {
         "question": "Quelle grandeur est le produit de la masse par la vitesse d'un objet ?",
         "reponse": "La quantité de mouvement",
-        "propositions": ["La quantité de mouvement", "L'énergie cinétique", "La force", "L'accélération"],
+        "propositions": [
+          "La quantité de mouvement",
+          "L'énergie cinétique",
+          "La force",
+          "L'accélération"
+        ],
         "explication": "La quantité de mouvement (p = m·v) caractérise l'état de mouvement d'un corps."
       },
       {
         "question": "Quel physicien a découvert la radioactivité en 1896 ?",
         "reponse": "Henri Becquerel",
-        "propositions": ["Henri Becquerel", "Marie Curie", "Pierre Curie", "Ernest Rutherford"],
+        "propositions": [
+          "Henri Becquerel",
+          "Marie Curie",
+          "Pierre Curie",
+          "Ernest Rutherford"
+        ],
         "explication": "Becquerel observe l'émission spontanée de rayonnement par des sels d'uranium en 1896."
+      },
+      {
+        "question": "Quelle loi énonce que la force est égale au produit de la masse par l'accélération (F=ma) ?",
+        "reponse": "La deuxième loi de Newton",
+        "propositions": [
+          "La deuxième loi de Newton",
+          "La première loi de Newton",
+          "La troisième loi de Newton",
+          "La loi de la gravitation universelle"
+        ],
+        "explication": "Cette loi fondamentale relie force, masse et accélération d'un objet."
+      },
+      {
+        "question": "Quelle grandeur physique, mesurée en pascals, exprime une force appliquée sur une surface ?",
+        "reponse": "La pression",
+        "propositions": [
+          "La pression",
+          "La densité",
+          "La viscosité",
+          "La tension"
+        ],
+        "explication": "Un pascal correspond à une force d'un newton exercée sur une surface d'un mètre carré."
+      },
+      {
+        "question": "Quel phénomène décrit le changement de fréquence apparente d'une onde selon le mouvement relatif de la source et de l'observateur ?",
+        "reponse": "L'effet Doppler",
+        "propositions": [
+          "L'effet Doppler",
+          "L'effet photoélectrique",
+          "L'effet tunnel",
+          "L'effet Coriolis"
+        ],
+        "explication": "L'effet Doppler explique par exemple le changement de son d'une sirène d'ambulance qui s'approche puis s'éloigne."
+      },
+      {
+        "question": "Quelle loi physique énonce la conservation de l'énergie dans un système isolé ?",
+        "reponse": "Le premier principe de la thermodynamique",
+        "propositions": [
+          "Le premier principe de la thermodynamique",
+          "Le deuxième principe de la thermodynamique",
+          "La loi de Boyle-Mariotte",
+          "La loi de Hooke"
+        ],
+        "explication": "L'énergie ne se crée ni ne se détruit ; elle se transforme d'une forme à une autre."
+      },
+      {
+        "question": "Quelle grandeur mesure la quantité de mouvement, produit de la masse par la vitesse d'un objet ?",
+        "reponse": "La quantité de mouvement",
+        "propositions": [
+          "La quantité de mouvement",
+          "L'énergie cinétique",
+          "La force",
+          "L'accélération"
+        ],
+        "explication": "La quantité de mouvement se conserve lors d'une collision entre deux objets isolés."
+      },
+      {
+        "question": "Quel scientifique a découvert l'induction électromagnétique en 1831 ?",
+        "reponse": "Michael Faraday",
+        "propositions": [
+          "Michael Faraday",
+          "James Clerk Maxwell",
+          "André-Marie Ampère",
+          "Alessandro Volta"
+        ],
+        "explication": "Cette découverte est à la base du fonctionnement des générateurs électriques modernes."
+      },
+      {
+        "question": "Quelle loi énonce que le volume d'un gaz est inversement proportionnel à sa pression, à température constante ?",
+        "reponse": "La loi de Boyle-Mariotte",
+        "propositions": [
+          "La loi de Boyle-Mariotte",
+          "La loi de Charles",
+          "La loi de Gay-Lussac",
+          "La loi d'Avogadro"
+        ],
+        "explication": "Cette loi a été formulée indépendamment par Robert Boyle et Edme Mariotte au XVIIe siècle."
+      },
+      {
+        "question": "Quel physicien écossais a unifié l'électricité, le magnétisme et l'optique dans un même ensemble d'équations au XIXe siècle ?",
+        "reponse": "James Clerk Maxwell",
+        "propositions": [
+          "James Clerk Maxwell",
+          "Michael Faraday",
+          "Heinrich Hertz",
+          "Nikola Tesla"
+        ],
+        "explication": "Les équations de Maxwell prédisent l'existence des ondes électromagnétiques, confirmée ensuite par Hertz."
+      },
+      {
+        "question": "Quelle grandeur mesure la capacité d'un corps à conduire la chaleur ?",
+        "reponse": "La conductivité thermique",
+        "propositions": [
+          "La conductivité thermique",
+          "La capacité thermique",
+          "La chaleur latente",
+          "L'entropie"
+        ],
+        "explication": "Les métaux ont généralement une conductivité thermique élevée, contrairement aux isolants comme le bois."
+      },
+      {
+        "question": "Quel phénomène explique qu'un objet en rotation libre tend à conserver l'orientation de son axe de rotation ?",
+        "reponse": "L'effet gyroscopique",
+        "propositions": [
+          "L'effet gyroscopique",
+          "L'effet Coriolis",
+          "La précession des équinoxes",
+          "L'inertie rotationnelle"
+        ],
+        "explication": "Cet effet est utilisé dans les gyroscopes de navigation et de stabilisation."
       }
     ],
     "3": [
       {
         "question": "Quel principe stipule qu'on ne peut connaître simultanément avec précision la position et la vitesse d'une particule ?",
         "reponse": "Le principe d'incertitude de Heisenberg",
-        "propositions": ["Le principe d'incertitude de Heisenberg", "Le principe d'exclusion de Pauli", "Le théorème de Noether", "La dualité onde-corpuscule"],
+        "propositions": [
+          "Le principe d'incertitude de Heisenberg",
+          "Le principe d'exclusion de Pauli",
+          "Le théorème de Noether",
+          "La dualité onde-corpuscule"
+        ],
         "explication": "Heisenberg formule ce principe fondamental de la mécanique quantique en 1927."
       },
       {
         "question": "Quelle particule élémentaire, prédite en 1964, confère leur masse aux autres particules et a été détectée en 2012 au CERN ?",
         "reponse": "Le boson de Higgs",
-        "propositions": ["Le boson de Higgs", "Le boson W", "Le quark top", "Le neutrino"],
+        "propositions": [
+          "Le boson de Higgs",
+          "Le boson W",
+          "Le quark top",
+          "Le neutrino"
+        ],
         "explication": "Le boson de Higgs a été observé au LHC du CERN en 2012, confirmant le mécanisme de Higgs."
       },
       {
         "question": "Quelle loi relie la pression, le volume et la température d'un gaz parfait ?",
         "reponse": "La loi des gaz parfaits",
-        "propositions": ["La loi des gaz parfaits", "La loi de Boyle-Mariotte", "La loi de Charles", "La loi de Gay-Lussac"],
+        "propositions": [
+          "La loi des gaz parfaits",
+          "La loi de Boyle-Mariotte",
+          "La loi de Charles",
+          "La loi de Gay-Lussac"
+        ],
         "explication": "La loi des gaz parfaits (PV = nRT) généralise les lois particulières de Boyle-Mariotte, Charles et Gay-Lussac."
       },
       {
         "question": "Quel phénomène, confirmé lors de l'éclipse de 1919, montre que la lumière est déviée par un champ gravitationnel intense ?",
         "reponse": "La lentille gravitationnelle",
-        "propositions": ["La lentille gravitationnelle", "L'effet Doppler", "La diffraction", "La réfraction"],
+        "propositions": [
+          "La lentille gravitationnelle",
+          "L'effet Doppler",
+          "La diffraction",
+          "La réfraction"
+        ],
         "explication": "L'observation de 1919 par Eddington a confirmé la prédiction d'Einstein sur la courbure de la lumière par la gravité."
       },
       {
         "question": "Quelle particule est l'antiparticule de l'électron ?",
         "reponse": "Le positron",
-        "propositions": ["Le positron", "Le proton", "Le neutron", "Le muon"],
+        "propositions": [
+          "Le positron",
+          "Le proton",
+          "Le neutron",
+          "Le muon"
+        ],
         "explication": "Le positron a la même masse que l'électron mais une charge électrique opposée."
+      },
+      {
+        "question": "Quelle équation, formulée par Einstein en 1905, relie masse et énergie ?",
+        "reponse": "E=mc²",
+        "propositions": [
+          "E=mc²",
+          "F=ma",
+          "E=hf",
+          "PV=nRT"
+        ],
+        "explication": "Cette équation montre qu'une petite quantité de masse peut libérer une énergie considérable."
+      },
+      {
+        "question": "Quel principe de la mécanique quantique stipule que deux particules identiques peuvent être 'intriquées' quelle que soit la distance qui les sépare ?",
+        "reponse": "L'intrication quantique",
+        "propositions": [
+          "L'intrication quantique",
+          "La superposition quantique",
+          "L'effet tunnel",
+          "La dualité onde-particule"
+        ],
+        "explication": "Einstein qualifiait ce phénomène 'd'action fantomatique à distance', avant qu'il ne soit expérimentalement confirmé."
+      },
+      {
+        "question": "Quelle particule médiatrice de l'interaction électromagnétique est dépourvue de masse ?",
+        "reponse": "Le photon",
+        "propositions": [
+          "Le photon",
+          "Le gluon",
+          "Le boson W",
+          "Le graviton (hypothétique)"
+        ],
+        "explication": "Le photon se déplace toujours à la vitesse de la lumière dans le vide."
+      },
+      {
+        "question": "Quel physicien allemand a formulé en 1900 l'hypothèse de la quantification de l'énergie, fondant la physique quantique ?",
+        "reponse": "Max Planck",
+        "propositions": [
+          "Max Planck",
+          "Albert Einstein",
+          "Niels Bohr",
+          "Werner Heisenberg"
+        ],
+        "explication": "La constante de Planck porte son nom et reste une constante fondamentale de la physique."
+      },
+      {
+        "question": "Quelle théorie décrit la gravitation non comme une force mais comme une courbure de l'espace-temps ?",
+        "reponse": "La relativité générale",
+        "propositions": [
+          "La relativité générale",
+          "La relativité restreinte",
+          "La mécanique quantique",
+          "La théorie des cordes"
+        ],
+        "explication": "Einstein a publié cette théorie en 1915, révolutionnant la compréhension de la gravitation."
+      },
+      {
+        "question": "Quelle interaction fondamentale de la physique est responsable de la cohésion du noyau atomique malgré la répulsion des protons ?",
+        "reponse": "L'interaction nucléaire forte",
+        "propositions": [
+          "L'interaction nucléaire forte",
+          "L'interaction nucléaire faible",
+          "L'interaction électromagnétique",
+          "La gravitation"
+        ],
+        "explication": "Cette force, très intense à très courte portée, dépasse largement la répulsion électrique entre protons."
+      },
+      {
+        "question": "Quel phénomène quantique permet à une particule de traverser une barrière d'énergie qu'elle ne devrait, classiquement, pas pouvoir franchir ?",
+        "reponse": "L'effet tunnel",
+        "propositions": [
+          "L'effet tunnel",
+          "La superposition quantique",
+          "L'intrication quantique",
+          "La décohérence"
+        ],
+        "explication": "L'effet tunnel est notamment exploité dans les microscopes à effet tunnel."
+      },
+      {
+        "question": "Quelle particule, longtemps hypothétique, confère leur masse aux autres particules élémentaires selon le modèle standard ?",
+        "reponse": "Le boson de Higgs",
+        "propositions": [
+          "Le boson de Higgs",
+          "Le quark top",
+          "Le neutrino",
+          "Le gluon"
+        ],
+        "explication": "Le boson de Higgs a été détecté expérimentalement en 2012 au CERN, confirmant le mécanisme proposé en 1964."
+      },
+      {
+        "question": "Quel physicien autrichien a formulé en 1926 une équation d'onde décrivant l'évolution des systèmes quantiques ?",
+        "reponse": "Erwin Schrödinger",
+        "propositions": [
+          "Erwin Schrödinger",
+          "Werner Heisenberg",
+          "Paul Dirac",
+          "Wolfgang Pauli"
+        ],
+        "explication": "Son célèbre 'chat de Schrödinger' illustre par la métaphore le paradoxe de la superposition quantique."
+      },
+      {
+        "question": "Quel physicien britannique a prédit théoriquement l'existence de l'antimatière en 1928 ?",
+        "reponse": "Paul Dirac",
+        "propositions": [
+          "Paul Dirac",
+          "Wolfgang Pauli",
+          "Erwin Schrödinger",
+          "Enrico Fermi"
+        ],
+        "explication": "L'équation de Dirac a permis de prédire l'existence du positron, confirmée expérimentalement en 1932."
       }
     ]
   }

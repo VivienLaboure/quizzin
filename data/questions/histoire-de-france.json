@@ -5,96 +5,501 @@
       {
         "question": "Quel roi de France est resté au pouvoir le plus longtemps de l'histoire, avec 72 ans de règne ?",
         "reponse": "Louis XIV",
-        "propositions": ["Louis XIV", "Louis XV", "François Ier", "Louis IX"],
+        "propositions": [
+          "Louis XIV",
+          "Louis XV",
+          "François Ier",
+          "Louis IX"
+        ],
         "explication": "Louis XIV règne de 1643 à 1715, soit 72 ans, le règne le plus long de l'histoire de France."
       },
       {
         "question": "Quelle bataille de 1214 renforce durablement le pouvoir royal français face à une coalition anglo-germanique ?",
         "reponse": "La bataille de Bouvines",
-        "propositions": ["La bataille de Bouvines", "La bataille d'Azincourt", "La bataille de Crécy", "La bataille de Poitiers"],
+        "propositions": [
+          "La bataille de Bouvines",
+          "La bataille d'Azincourt",
+          "La bataille de Crécy",
+          "La bataille de Poitiers"
+        ],
         "explication": "Philippe Auguste y remporte une victoire décisive qui consolide la monarchie capétienne."
       },
       {
         "question": "Quel traité de 843 partage l'empire de Charlemagne entre ses petits-fils, donnant naissance à la Francie occidentale, ancêtre de la France ?",
         "reponse": "Le traité de Verdun",
-        "propositions": ["Le traité de Verdun", "Le traité de Meerssen", "Le traité de Ribemont", "Le traité de Senlis"],
+        "propositions": [
+          "Le traité de Verdun",
+          "Le traité de Meerssen",
+          "Le traité de Ribemont",
+          "Le traité de Senlis"
+        ],
         "explication": "Le traité de Verdun (843) divise l'empire carolingien en trois royaumes, préfigurant la France, l'Allemagne et une zone intermédiaire."
       },
       {
         "question": "Quelle jeune femme a contribué à libérer Orléans en 1429 pendant la guerre de Cent Ans ?",
         "reponse": "Jeanne d'Arc",
-        "propositions": ["Jeanne d'Arc", "Catherine de Médicis", "Aliénor d'Aquitaine", "Blanche de Castille"],
+        "propositions": [
+          "Jeanne d'Arc",
+          "Catherine de Médicis",
+          "Aliénor d'Aquitaine",
+          "Blanche de Castille"
+        ],
         "explication": "Jeanne d'Arc mène l'armée française à la victoire lors du siège d'Orléans en 1429."
       },
       {
         "question": "Quel roi de France a fait construire le château de Versailles pour en faire le siège du pouvoir ?",
         "reponse": "Louis XIV",
-        "propositions": ["Louis XIII", "Louis XIV", "Louis XV", "Henri IV"],
+        "propositions": [
+          "Louis XIII",
+          "Louis XIV",
+          "Louis XV",
+          "Henri IV"
+        ],
         "explication": "Louis XIV installe la cour et le gouvernement à Versailles à partir de 1682."
+      },
+      {
+        "question": "Quel général français est devenu le premier président de la Ve République en 1959 ?",
+        "reponse": "Charles de Gaulle",
+        "propositions": [
+          "Charles de Gaulle",
+          "Georges Pompidou",
+          "François Mitterrand",
+          "Vincent Auriol"
+        ],
+        "explication": "De Gaulle a fondé la Ve République après le referendum constitutionnel de 1958."
+      },
+      {
+        "question": "Quel roi de France est né à Pau et a fondé la dynastie des Bourbons sur le trône français ?",
+        "reponse": "Henri IV",
+        "propositions": [
+          "Henri IV",
+          "Louis XIII",
+          "François Ier",
+          "Louis XI"
+        ],
+        "explication": "Henri IV accède au trône en 1589, après la mort d'Henri III."
+      },
+      {
+        "question": "Quel événement de mai 1968 a marqué une profonde contestation sociale et étudiante en France ?",
+        "reponse": "Mai 68",
+        "propositions": [
+          "Mai 68",
+          "La Commune de Paris",
+          "Le Front populaire",
+          "La Libération"
+        ],
+        "explication": "Ce mouvement a mêlé grèves ouvrières massives et contestation étudiante."
+      },
+      {
+        "question": "Quelle reine de France, épouse de Louis XVI, a été guillotinée en 1793 ?",
+        "reponse": "Marie-Antoinette",
+        "propositions": [
+          "Marie-Antoinette",
+          "Catherine de Médicis",
+          "Anne d'Autriche",
+          "Marie de Médicis"
+        ],
+        "explication": "Marie-Antoinette a été exécutée place de la Révolution, quelques mois après son époux."
+      },
+      {
+        "question": "Quel président de la République française était en fonction lors de la signature du traité de Rome en 1957 ?",
+        "reponse": "René Coty",
+        "propositions": [
+          "René Coty",
+          "Vincent Auriol",
+          "Charles de Gaulle",
+          "Georges Pompidou"
+        ],
+        "explication": "René Coty était président sous la IVe République lorsque la France a signé le traité fondateur de la Communauté économique européenne."
+      },
+      {
+        "question": "Quelle bataille de 1916, l'une des plus meurtrières de la Première Guerre mondiale, s'est déroulée dans la Meuse ?",
+        "reponse": "La bataille de Verdun",
+        "propositions": [
+          "La bataille de Verdun",
+          "La bataille de la Somme",
+          "La bataille de la Marne",
+          "La bataille du Chemin des Dames"
+        ],
+        "explication": "La bataille de Verdun a duré près de dix mois et fait environ 300 000 morts."
+      },
+      {
+        "question": "Quel roi de France a été surnommé le 'Roi Soleil' ?",
+        "reponse": "Louis XIV",
+        "propositions": [
+          "Louis XIV",
+          "Louis XIII",
+          "Louis XV",
+          "François Ier"
+        ],
+        "explication": "Ce surnom fait référence à son emblème personnel, le soleil, symbole de puissance absolue."
+      },
+      {
+        "question": "Quel document fondateur de 1789 proclame la souveraineté de la nation en France ?",
+        "reponse": "La Déclaration des droits de l'homme et du citoyen",
+        "propositions": [
+          "La Déclaration des droits de l'homme et du citoyen",
+          "Le serment du Jeu de paume",
+          "La Constitution de 1791",
+          "Les cahiers de doléances"
+        ],
+        "explication": "Ce texte est adopté par l'Assemblée nationale constituante en août 1789."
+      },
+      {
+        "question": "Quelle ville a été la capitale du régime de Vichy pendant l'Occupation ?",
+        "reponse": "Vichy",
+        "propositions": [
+          "Vichy",
+          "Lyon",
+          "Bordeaux",
+          "Clermont-Ferrand"
+        ],
+        "explication": "Le gouvernement du maréchal Pétain s'installe à Vichy à partir de juillet 1940."
+      },
+      {
+        "question": "Quel roi de France a réuni les états généraux en 1789, déclenchant le processus révolutionnaire ?",
+        "reponse": "Louis XVI",
+        "propositions": [
+          "Louis XVI",
+          "Louis XV",
+          "Louis XIV",
+          "Charles X"
+        ],
+        "explication": "Les états généraux, réunis à Versailles, n'avaient pas été convoqués depuis 1614."
       }
     ],
     "2": [
       {
         "question": "Quel roi de France a mis fin aux guerres de Religion avec l'édit de Nantes en 1598 ?",
         "reponse": "Henri IV",
-        "propositions": ["Henri III", "Henri IV", "François II", "Charles IX"],
+        "propositions": [
+          "Henri III",
+          "Henri IV",
+          "François II",
+          "Charles IX"
+        ],
         "explication": "L'édit de Nantes accorde une tolérance religieuse limitée aux protestants français."
       },
       {
         "question": "Quel ministre de Louis XIV a réorganisé les finances et l'économie françaises, promouvant le mercantilisme ?",
         "reponse": "Jean-Baptiste Colbert",
-        "propositions": ["Jean-Baptiste Colbert", "Cardinal Mazarin", "Cardinal de Richelieu", "Nicolas Fouquet"],
+        "propositions": [
+          "Jean-Baptiste Colbert",
+          "Cardinal Mazarin",
+          "Cardinal de Richelieu",
+          "Nicolas Fouquet"
+        ],
         "explication": "Colbert, contrôleur général des finances, développe les manufactures royales et la marine française."
       },
       {
         "question": "Quel événement de juin 1940 voit le maréchal Pétain demander l'armistice à l'Allemagne nazie ?",
         "reponse": "La défaite de la bataille de France",
-        "propositions": ["La défaite de la bataille de France", "Le débarquement de Provence", "La bataille de la Marne", "L'occupation de la Ruhr"],
+        "propositions": [
+          "La défaite de la bataille de France",
+          "Le débarquement de Provence",
+          "La bataille de la Marne",
+          "L'occupation de la Ruhr"
+        ],
         "explication": "L'armistice du 22 juin 1940 marque le début du régime de Vichy et de l'Occupation."
       },
       {
         "question": "Quel général français devient Premier Consul en 1799 après le coup d'État du 18 Brumaire ?",
         "reponse": "Napoléon Bonaparte",
-        "propositions": ["Napoléon Bonaparte", "Lazare Carnot", "Paul Barras", "Jean-Baptiste Bernadotte"],
+        "propositions": [
+          "Napoléon Bonaparte",
+          "Lazare Carnot",
+          "Paul Barras",
+          "Jean-Baptiste Bernadotte"
+        ],
         "explication": "Le coup d'État du 18 Brumaire an VIII met fin au Directoire et ouvre la voie au Consulat puis à l'Empire."
       },
       {
         "question": "Quelle réforme administrative de 1790 découpe la France en circonscriptions territoriales encore utilisées aujourd'hui ?",
         "reponse": "La création des départements",
-        "propositions": ["La création des départements", "La création des régions", "La création des cantons", "La création des communes"],
+        "propositions": [
+          "La création des départements",
+          "La création des régions",
+          "La création des cantons",
+          "La création des communes"
+        ],
         "explication": "L'Assemblée constituante crée 83 départements en 1790, remplaçant les anciennes provinces."
+      },
+      {
+        "question": "Quelle réforme de François Ier, en 1539, impose le français comme langue administrative du royaume ?",
+        "reponse": "L'ordonnance de Villers-Cotterêts",
+        "propositions": [
+          "L'ordonnance de Villers-Cotterêts",
+          "L'édit de Nantes",
+          "L'édit de Fontainebleau",
+          "La pragmatique sanction de Bourges"
+        ],
+        "explication": "Cette ordonnance remplace le latin par le français dans les actes juridiques et administratifs."
+      },
+      {
+        "question": "Quel président français a démissionné en 1969 après l'échec d'un référendum sur la régionalisation ?",
+        "reponse": "Charles de Gaulle",
+        "propositions": [
+          "Charles de Gaulle",
+          "Georges Pompidou",
+          "Valéry Giscard d'Estaing",
+          "Alain Poher"
+        ],
+        "explication": "De Gaulle avait lié son maintien au pouvoir au résultat de ce référendum."
+      },
+      {
+        "question": "Quelle guerre coloniale, de 1954 à 1962, s'achève par les accords d'Évian et l'indépendance d'un pays d'Afrique du Nord ?",
+        "reponse": "La guerre d'Algérie",
+        "propositions": [
+          "La guerre d'Algérie",
+          "La guerre d'Indochine",
+          "La campagne du Maroc",
+          "La guerre du Rif"
+        ],
+        "explication": "Les accords d'Évian de 1962 mettent fin au conflit et ouvrent la voie à l'indépendance algérienne."
+      },
+      {
+        "question": "Quel ministre de François Mitterrand a porté l'abolition de la peine de mort en France en 1981 ?",
+        "reponse": "Robert Badinter",
+        "propositions": [
+          "Robert Badinter",
+          "Pierre Mauroy",
+          "Gaston Defferre",
+          "Jack Lang"
+        ],
+        "explication": "La loi d'abolition est votée le 9 octobre 1981."
+      },
+      {
+        "question": "Quel roi de France a été le premier à porter le titre de 'roi de France' plutôt que 'roi des Francs' ?",
+        "reponse": "Philippe II Auguste",
+        "propositions": [
+          "Philippe II Auguste",
+          "Hugues Capet",
+          "Louis VI le Gros",
+          "Saint Louis"
+        ],
+        "explication": "Ce changement de titre, au tournant des XIIe-XIIIe siècles, reflète l'affirmation du pouvoir royal territorial."
+      },
+      {
+        "question": "Quelle crise politique de 1958 provoque le retour au pouvoir de Charles de Gaulle et la fin de la IVe République ?",
+        "reponse": "La crise du 13 mai 1958",
+        "propositions": [
+          "La crise du 13 mai 1958",
+          "La crise de Suez",
+          "L'affaire des fuites",
+          "La crise algérienne de 1961"
+        ],
+        "explication": "Cette crise, liée à la guerre d'Algérie, entraîne la rédaction d'une nouvelle Constitution."
+      },
+      {
+        "question": "Quel roi de France, dit le 'roi bourgeois', règne de 1830 à 1848 sous la monarchie de Juillet ?",
+        "reponse": "Louis-Philippe Ier",
+        "propositions": [
+          "Louis-Philippe Ier",
+          "Charles X",
+          "Louis XVIII",
+          "Napoléon III"
+        ],
+        "explication": "Louis-Philippe est renversé par la révolution de février 1848."
+      },
+      {
+        "question": "Quel événement de 1870-1871 conduit à la chute du Second Empire et à la proclamation de la Troisième République ?",
+        "reponse": "La guerre franco-prussienne",
+        "propositions": [
+          "La guerre franco-prussienne",
+          "La Commune de Paris",
+          "La guerre de Crimée",
+          "L'expédition du Mexique"
+        ],
+        "explication": "La défaite de Sedan entraîne la capture de Napoléon III et la chute de l'Empire."
+      },
+      {
+        "question": "Quel homme politique français a été le premier président de la Commission européenne d'origine française, dans les années 1980 ?",
+        "reponse": "Jacques Delors",
+        "propositions": [
+          "Jacques Delors",
+          "Raymond Barre",
+          "Valéry Giscard d'Estaing",
+          "Simone Veil"
+        ],
+        "explication": "Jacques Delors a présidé la Commission européenne de 1985 à 1995."
+      },
+      {
+        "question": "Quelle insurrection populaire de mars à mai 1871 a brièvement instauré un gouvernement révolutionnaire à Paris ?",
+        "reponse": "La Commune de Paris",
+        "propositions": [
+          "La Commune de Paris",
+          "La révolution de 1848",
+          "Les journées de juin 1848",
+          "L'insurrection de juin 1832"
+        ],
+        "explication": "La Commune est réprimée dans le sang lors de la 'Semaine sanglante' de mai 1871."
       }
     ],
     "3": [
       {
         "question": "Quel traité de 1259 règle temporairement les conflits territoriaux entre Saint Louis et Henri III d'Angleterre ?",
         "reponse": "Le traité de Paris (1259)",
-        "propositions": ["Le traité de Paris (1259)", "Le traité de Brétigny", "Le traité de Troyes", "Le traité de Picquigny"],
+        "propositions": [
+          "Le traité de Paris (1259)",
+          "Le traité de Brétigny",
+          "Le traité de Troyes",
+          "Le traité de Picquigny"
+        ],
         "explication": "Ce traité entre Louis IX et Henri III d'Angleterre apaise durablement les tensions entre les deux couronnes."
       },
       {
         "question": "Quelle régente italienne, mère de trois rois de France, est associée au massacre de la Saint-Barthélemy en 1572 ?",
         "reponse": "Catherine de Médicis",
-        "propositions": ["Catherine de Médicis", "Anne d'Autriche", "Marie de Médicis", "Blanche de Castille"],
+        "propositions": [
+          "Catherine de Médicis",
+          "Anne d'Autriche",
+          "Marie de Médicis",
+          "Blanche de Castille"
+        ],
         "explication": "Catherine de Médicis exerce une influence majeure sur la politique française durant les guerres de Religion."
       },
       {
         "question": "Quel ministre, cardinal sous Louis XIII, a renforcé l'absolutisme royal en luttant contre la noblesse et les protestants ?",
         "reponse": "Le cardinal de Richelieu",
-        "propositions": ["Le cardinal de Richelieu", "Le cardinal Mazarin", "Colbert", "Sully"],
+        "propositions": [
+          "Le cardinal de Richelieu",
+          "Le cardinal Mazarin",
+          "Colbert",
+          "Sully"
+        ],
         "explication": "Richelieu, principal ministre de 1624 à 1642, centralise le pouvoir au profit de la couronne."
       },
       {
         "question": "Quel soulèvement nobiliaire et populaire agite la France pendant la minorité de Louis XIV, entre 1648 et 1653 ?",
         "reponse": "La Fronde",
-        "propositions": ["La Fronde", "La Jacquerie", "La révolte des Camisards", "La révolte du papier timbré"],
+        "propositions": [
+          "La Fronde",
+          "La Jacquerie",
+          "La révolte des Camisards",
+          "La révolte du papier timbré"
+        ],
         "explication": "La Fronde regroupe deux phases de révolte, parlementaire puis nobiliaire, contre l'autorité royale."
       },
       {
         "question": "Quel ministre de Louis XVI a tenté des réformes économiques libérales avant d'être renvoyé en 1776 ?",
         "reponse": "Turgot",
-        "propositions": ["Turgot", "Necker", "Calonne", "Colbert"],
+        "propositions": [
+          "Turgot",
+          "Necker",
+          "Calonne",
+          "Colbert"
+        ],
         "explication": "Anne Robert Jacques Turgot tente de libéraliser le commerce du grain, provoquant une forte opposition."
+      },
+      {
+        "question": "Quel ministre de Philippe le Bel a organisé l'arrestation des Templiers en France en 1307 ?",
+        "reponse": "Guillaume de Nogaret",
+        "propositions": [
+          "Guillaume de Nogaret",
+          "Enguerrand de Marigny",
+          "Pierre Flote",
+          "Jean de Joinville"
+        ],
+        "explication": "Cette opération, menée un vendredi 13, a alimenté de nombreuses légendes."
+      },
+      {
+        "question": "Quel traité de 1420 reconnaît temporairement le roi d'Angleterre comme héritier du trône de France ?",
+        "reponse": "Le traité de Troyes",
+        "propositions": [
+          "Le traité de Troyes",
+          "Le traité de Brétigny",
+          "Le traité de Picquigny",
+          "Le traité d'Arras"
+        ],
+        "explication": "Ce traité, imposé pendant la guerre de Cent Ans, sera annulé par les victoires françaises ultérieures."
+      },
+      {
+        "question": "Quel ministre de Louis XV a été renvoyé en 1770 après avoir tenté de réduire les pouvoirs des parlements ?",
+        "reponse": "Le chancelier Maupeou",
+        "propositions": [
+          "Le chancelier Maupeou",
+          "Le duc de Choiseul",
+          "Turgot",
+          "Necker"
+        ],
+        "explication": "La 'réforme Maupeou' visait à affaiblir l'opposition parlementaire à l'autorité royale."
+      },
+      {
+        "question": "Quelle réforme fiscale et administrative, lancée par Turgot puis reprise par la Révolution, visait à uniformiser les mesures en France ?",
+        "reponse": "Le système métrique",
+        "propositions": [
+          "Le système métrique",
+          "La gabelle unifiée",
+          "La taille tarifée",
+          "Le cadastre napoléonien"
+        ],
+        "explication": "Le système métrique est officiellement adopté en France en 1795."
+      },
+      {
+        "question": "Quel roi de France a été assassiné par Ravaillac en 1610 ?",
+        "reponse": "Henri IV",
+        "propositions": [
+          "Henri IV",
+          "Henri III",
+          "Louis XIII",
+          "François II"
+        ],
+        "explication": "Henri IV a été poignardé rue de la Ferronnerie à Paris."
+      },
+      {
+        "question": "Quel traité de 1259 voit Saint Louis céder certains droits sur des terres continentales au roi d'Angleterre, en échange de son hommage ?",
+        "reponse": "Le traité de Paris (1259)",
+        "propositions": [
+          "Le traité de Paris (1259)",
+          "Le traité de Meaux-Paris",
+          "Le traité de Corbeil",
+          "Le traité de Vincennes"
+        ],
+        "explication": "Ce traité règle temporairement les conflits territoriaux hérités de la perte de l'Anjou et de la Normandie."
+      },
+      {
+        "question": "Quel ministre de Louis XIV a fondé la Manufacture des Gobelins et développé les compagnies de commerce ?",
+        "reponse": "Jean-Baptiste Colbert",
+        "propositions": [
+          "Jean-Baptiste Colbert",
+          "Nicolas Fouquet",
+          "Michel Le Tellier",
+          "Louvois"
+        ],
+        "explication": "Colbert cherchait à renforcer l'industrie et le commerce français face aux puissances rivales."
+      },
+      {
+        "question": "Quelle bataille de 1214 renforce le pouvoir de Philippe Auguste face à une coalition anglo-germanique ?",
+        "reponse": "La bataille de Bouvines",
+        "propositions": [
+          "La bataille de Bouvines",
+          "La bataille de Taillebourg",
+          "La bataille de Muret",
+          "La bataille de Crécy"
+        ],
+        "explication": "Cette victoire consolide durablement l'autorité royale capétienne."
+      },
+      {
+        "question": "Quel surintendant des finances de Louis XIV a été arrêté par d'Artagnan en 1661 sur ordre du roi ?",
+        "reponse": "Nicolas Fouquet",
+        "propositions": [
+          "Nicolas Fouquet",
+          "Jean-Baptiste Colbert",
+          "Michel Chamillart",
+          "Nicolas Desmaretz"
+        ],
+        "explication": "Fouquet est accusé de malversations après une fastueuse fête donnée au château de Vaux-le-Vicomte."
+      },
+      {
+        "question": "Quel roi de France, dit le 'Bien-Aimé' puis très impopulaire à sa mort, règne de 1715 à 1774 ?",
+        "reponse": "Louis XV",
+        "propositions": [
+          "Louis XV",
+          "Louis XIV",
+          "Louis XVI",
+          "Louis XIII"
+        ],
+        "explication": "Son long règne est marqué par la perte de la Nouvelle-France lors de la guerre de Sept Ans."
       }
     ]
   }

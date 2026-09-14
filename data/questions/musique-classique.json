@@ -5,96 +5,501 @@
       {
         "question": "Quel compositeur allemand, devenu sourd, a composé la \"9e Symphonie\" ?",
         "reponse": "Ludwig van Beethoven",
-        "propositions": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Johannes Brahms"],
+        "propositions": [
+          "Ludwig van Beethoven",
+          "Wolfgang Amadeus Mozart",
+          "Johann Sebastian Bach",
+          "Johannes Brahms"
+        ],
         "explication": "Beethoven compose sa 9e Symphonie alors qu'il est presque totalement sourd."
       },
       {
         "question": "Quel compositeur autrichien du XVIIIe siècle est un enfant prodige ayant composé dès l'âge de 5 ans ?",
         "reponse": "Wolfgang Amadeus Mozart",
-        "propositions": ["Wolfgang Amadeus Mozart", "Joseph Haydn", "Antonio Vivaldi", "Franz Schubert"],
+        "propositions": [
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn",
+          "Antonio Vivaldi",
+          "Franz Schubert"
+        ],
         "explication": "Mozart compose ses premières œuvres dès l'âge de 5 ans, sous la direction de son père Leopold."
       },
       {
         "question": "Quel instrument à cordes se joue avec un archet et se tient sous le menton ?",
         "reponse": "Le violon",
-        "propositions": ["Le violon", "Le violoncelle", "La contrebasse", "L'alto"],
+        "propositions": [
+          "Le violon",
+          "Le violoncelle",
+          "La contrebasse",
+          "L'alto"
+        ],
         "explication": "Le violon est le plus petit et le plus aigu des instruments à cordes frottées de l'orchestre."
       },
       {
         "question": "Quel compositeur français a écrit \"Le Carnaval des animaux\" ?",
         "reponse": "Camille Saint-Saëns",
-        "propositions": ["Camille Saint-Saëns", "Maurice Ravel", "Claude Debussy", "Georges Bizet"],
+        "propositions": [
+          "Camille Saint-Saëns",
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Georges Bizet"
+        ],
         "explication": "Cette suite musicale de 1886 dépeint différents animaux à travers des mouvements variés."
       },
       {
         "question": "Comment appelle-t-on la personne qui dirige un orchestre ?",
         "reponse": "Le chef d'orchestre",
-        "propositions": ["Le chef d'orchestre", "Le soliste", "Le compositeur", "Le premier violon"],
+        "propositions": [
+          "Le chef d'orchestre",
+          "Le soliste",
+          "Le compositeur",
+          "Le premier violon"
+        ],
         "explication": "Le chef d'orchestre coordonne les musiciens et interprète l'œuvre par sa gestuelle."
+      },
+      {
+        "question": "Quel instrument à clavier possède des cordes frappées par des marteaux ?",
+        "reponse": "Le piano",
+        "propositions": [
+          "Le piano",
+          "Le clavecin",
+          "L'orgue",
+          "L'accordéon"
+        ],
+        "explication": "Contrairement au clavecin, dont les cordes sont pincées, le piano permet de nuancer l'intensité du son."
+      },
+      {
+        "question": "Quel compositeur allemand est l'auteur de la célèbre 'Lettre à Élise' ?",
+        "reponse": "Ludwig van Beethoven",
+        "propositions": [
+          "Ludwig van Beethoven",
+          "Wolfgang Amadeus Mozart",
+          "Johannes Brahms",
+          "Franz Schubert"
+        ],
+        "explication": "Cette pièce pour piano, composée vers 1810, n'a été publiée qu'après la mort de Beethoven."
+      },
+      {
+        "question": "Comment appelle-t-on un groupe de musiciens jouant ensemble de la musique classique, dirigé par un chef ?",
+        "reponse": "Un orchestre",
+        "propositions": [
+          "Un orchestre",
+          "Une chorale",
+          "Un ensemble à cordes",
+          "Un quatuor"
+        ],
+        "explication": "Un orchestre symphonique complet peut réunir une centaine de musiciens."
+      },
+      {
+        "question": "Quel instrument à vent en bois produit un son grâce à une anche double ?",
+        "reponse": "Le hautbois",
+        "propositions": [
+          "Le hautbois",
+          "La flûte traversière",
+          "La clarinette",
+          "Le basson"
+        ],
+        "explication": "Le hautbois est souvent utilisé pour donner le 'la' d'accordage à l'orchestre."
+      },
+      {
+        "question": "Quel compositeur allemand est resté célèbre pour ses neuf symphonies, dont la dernière comporte un chœur final ?",
+        "reponse": "Ludwig van Beethoven",
+        "propositions": [
+          "Ludwig van Beethoven",
+          "Johannes Brahms",
+          "Franz Schubert",
+          "Felix Mendelssohn"
+        ],
+        "explication": "La 9e Symphonie inclut 'l'Ode à la joie', devenue l'hymne officiel de l'Union européenne."
+      },
+      {
+        "question": "Comment appelle-t-on un ensemble de quatre musiciens, souvent deux violons, un alto et un violoncelle ?",
+        "reponse": "Un quatuor à cordes",
+        "propositions": [
+          "Un quatuor à cordes",
+          "Un trio",
+          "Un quintette",
+          "Un octuor"
+        ],
+        "explication": "Le quatuor à cordes est l'une des formations les plus prisées de la musique de chambre."
+      },
+      {
+        "question": "Quel instrument à cordes, le plus grave de la famille des cordes frottées, se joue debout ou assis avec un archet ?",
+        "reponse": "La contrebasse",
+        "propositions": [
+          "La contrebasse",
+          "Le violoncelle",
+          "L'alto",
+          "Le violon"
+        ],
+        "explication": "La contrebasse est également très utilisée en jazz, pincée plutôt qu'à l'archet."
+      },
+      {
+        "question": "Quel compositeur autrichien a écrit l'opéra 'La Flûte enchantée' ?",
+        "reponse": "Wolfgang Amadeus Mozart",
+        "propositions": [
+          "Wolfgang Amadeus Mozart",
+          "Joseph Haydn",
+          "Christoph Willibald Gluck",
+          "Antonio Salieri"
+        ],
+        "explication": "Cet opéra, créé en 1791, mêle éléments féeriques et symboles maçonniques."
+      },
+      {
+        "question": "Comment appelle-t-on la partition qui réunit toutes les parties instrumentales d'une œuvre, utilisée par le chef d'orchestre ?",
+        "reponse": "La partition d'orchestre",
+        "propositions": [
+          "La partition d'orchestre",
+          "Le livret",
+          "La tablature",
+          "Le solfège"
+        ],
+        "explication": "Le chef d'orchestre suit cette partition complète pour coordonner tous les pupitres."
+      },
+      {
+        "question": "Quel instrument à vent, en cuivre, est le plus aigu de sa famille et souvent utilisé pour les fanfares ?",
+        "reponse": "La trompette",
+        "propositions": [
+          "La trompette",
+          "Le trombone",
+          "Le tuba",
+          "Le cor d'harmonie"
+        ],
+        "explication": "La trompette occupe une place centrale dans l'orchestre symphonique et le jazz."
       }
     ],
     "2": [
       {
         "question": "Quel compositeur italien a écrit \"Les Quatre Saisons\" ?",
         "reponse": "Antonio Vivaldi",
-        "propositions": ["Antonio Vivaldi", "Antonio Salieri", "Gioachino Rossini", "Claudio Monteverdi"],
+        "propositions": [
+          "Antonio Vivaldi",
+          "Antonio Salieri",
+          "Gioachino Rossini",
+          "Claudio Monteverdi"
+        ],
         "explication": "Vivaldi compose ces quatre concertos pour violon vers 1723, œuvre parmi les plus jouées au monde."
       },
       {
         "question": "Quel opéra de Bizet, créé en 1875, raconte l'histoire d'une cigarière séduisante à Séville ?",
         "reponse": "Carmen",
-        "propositions": ["Carmen", "La Traviata", "Les Noces de Figaro", "La Flûte enchantée"],
+        "propositions": [
+          "Carmen",
+          "La Traviata",
+          "Les Noces de Figaro",
+          "La Flûte enchantée"
+        ],
         "explication": "Carmen, aujourd'hui l'un des opéras les plus joués au monde, fut mal accueilli à sa création."
       },
       {
         "question": "Quel compositeur français est l'auteur du \"Boléro\" (1928) ?",
         "reponse": "Maurice Ravel",
-        "propositions": ["Maurice Ravel", "Claude Debussy", "Erik Satie", "Camille Saint-Saëns"],
+        "propositions": [
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Erik Satie",
+          "Camille Saint-Saëns"
+        ],
         "explication": "Le Boléro de Ravel repose sur la répétition d'un même thème avec une orchestration progressive."
       },
       {
         "question": "Quelle période musicale précède la période classique, dominée par Bach et Haendel ?",
         "reponse": "La période baroque",
-        "propositions": ["La période baroque", "La période romantique", "La période Renaissance", "La période moderne"],
+        "propositions": [
+          "La période baroque",
+          "La période romantique",
+          "La période Renaissance",
+          "La période moderne"
+        ],
         "explication": "La période baroque s'étend environ de 1600 à 1750, année de la mort de Bach."
       },
       {
         "question": "Quel compositeur russe a écrit le ballet \"Le Lac des cygnes\" ?",
         "reponse": "Piotr Ilitch Tchaïkovski",
-        "propositions": ["Piotr Ilitch Tchaïkovski", "Igor Stravinsky", "Sergueï Rachmaninov", "Modeste Moussorgski"],
+        "propositions": [
+          "Piotr Ilitch Tchaïkovski",
+          "Igor Stravinsky",
+          "Sergueï Rachmaninov",
+          "Modeste Moussorgski"
+        ],
         "explication": "Tchaïkovski compose ce ballet en 1875-1876, aujourd'hui l'un des plus joués au monde."
+      },
+      {
+        "question": "Quel compositeur italien du XVIIIe siècle, surnommé 'le Prêtre roux', a composé 'Les Quatre Saisons' ?",
+        "reponse": "Antonio Vivaldi",
+        "propositions": [
+          "Antonio Vivaldi",
+          "Arcangelo Corelli",
+          "Domenico Scarlatti",
+          "Alessandro Scarlatti"
+        ],
+        "explication": "Vivaldi était également prêtre catholique, d'où son surnom lié à la couleur de ses cheveux."
+      },
+      {
+        "question": "Quel compositeur allemand du baroque, contemporain de Bach, est l'auteur du 'Messie', oratorio célèbre pour son 'Hallelujah' ?",
+        "reponse": "Georg Friedrich Haendel",
+        "propositions": [
+          "Georg Friedrich Haendel",
+          "Jean-Sébastien Bach",
+          "Georg Philipp Telemann",
+          "Henry Purcell"
+        ],
+        "explication": "Haendel a composé 'Le Messie' en seulement trois semaines, en 1741."
+      },
+      {
+        "question": "Quel compositeur autrichien, enfant prodige, est mort à seulement 35 ans en 1791 ?",
+        "reponse": "Wolfgang Amadeus Mozart",
+        "propositions": [
+          "Wolfgang Amadeus Mozart",
+          "Franz Schubert",
+          "Felix Mendelssohn",
+          "Franz Liszt"
+        ],
+        "explication": "Mozart a composé plus de 600 œuvres durant sa courte vie."
+      },
+      {
+        "question": "Quel compositeur français du XIXe siècle est l'auteur de la 'Symphonie fantastique' (1830) ?",
+        "reponse": "Hector Berlioz",
+        "propositions": [
+          "Hector Berlioz",
+          "Camille Saint-Saëns",
+          "César Franck",
+          "Charles Gounod"
+        ],
+        "explication": "Cette symphonie autobiographique dépeint les visions obsessionnelles d'un artiste amoureux."
+      },
+      {
+        "question": "Quel compositeur polonais du XIXe siècle, installé en France, est célèbre pour ses œuvres pour piano seul comme les Nocturnes ?",
+        "reponse": "Frédéric Chopin",
+        "propositions": [
+          "Frédéric Chopin",
+          "Franz Liszt",
+          "Robert Schumann",
+          "Johannes Brahms"
+        ],
+        "explication": "Chopin a passé une grande partie de sa vie à Paris, où il est mort en 1849."
+      },
+      {
+        "question": "Quel compositeur hongrois du XIXe siècle, virtuose du piano, est l'auteur des 'Rhapsodies hongroises' ?",
+        "reponse": "Franz Liszt",
+        "propositions": [
+          "Franz Liszt",
+          "Frédéric Chopin",
+          "Johannes Brahms",
+          "Antonín Dvořák"
+        ],
+        "explication": "Liszt est considéré comme l'un des plus grands virtuoses du piano de son époque."
+      },
+      {
+        "question": "Quel compositeur russe du XIXe siècle est l'auteur de l'opéra 'Eugène Onéguine' et de l'ouverture '1812' ?",
+        "reponse": "Piotr Ilitch Tchaïkovski",
+        "propositions": [
+          "Piotr Ilitch Tchaïkovski",
+          "Modeste Moussorgski",
+          "Nikolaï Rimski-Korsakov",
+          "Alexandre Borodine"
+        ],
+        "explication": "L'ouverture '1812' commémore la victoire russe contre Napoléon."
+      },
+      {
+        "question": "Quel terme désigne un mouvement musical lent et expressif, souvent le deuxième mouvement d'une symphonie ou d'un concerto ?",
+        "reponse": "L'adagio",
+        "propositions": [
+          "L'adagio",
+          "L'allegro",
+          "Le presto",
+          "Le scherzo"
+        ],
+        "explication": "L'adagio contraste généralement avec les mouvements plus rapides qui l'entourent."
+      },
+      {
+        "question": "Quel compositeur tchèque du XIXe siècle est l'auteur de la 'Symphonie du Nouveau Monde' ?",
+        "reponse": "Antonín Dvořák",
+        "propositions": [
+          "Antonín Dvořák",
+          "Bedřich Smetana",
+          "Leoš Janáček",
+          "Gustav Mahler"
+        ],
+        "explication": "Cette symphonie a été composée lors d'un séjour de Dvořák aux États-Unis, entre 1892 et 1895."
+      },
+      {
+        "question": "Quel compositeur allemand du XIXe siècle, ami de Robert et Clara Schumann, est l'auteur d'une célèbre 'Berceuse' ?",
+        "reponse": "Johannes Brahms",
+        "propositions": [
+          "Johannes Brahms",
+          "Franz Schubert",
+          "Felix Mendelssohn",
+          "Robert Schumann"
+        ],
+        "explication": "La 'Berceuse' de Brahms (1868) reste l'une des mélodies les plus connues au monde."
       }
     ],
     "3": [
       {
         "question": "Quel compositeur allemand a laissé inachevée son \"Art de la fugue\" à sa mort en 1750 ?",
         "reponse": "Johann Sebastian Bach",
-        "propositions": ["Johann Sebastian Bach", "Georg Philipp Telemann", "Georg Friedrich Haendel", "Dietrich Buxtehude"],
+        "propositions": [
+          "Johann Sebastian Bach",
+          "Georg Philipp Telemann",
+          "Georg Friedrich Haendel",
+          "Dietrich Buxtehude"
+        ],
         "explication": "Cette œuvre contrapuntique monumentale reste inachevée à la mort de Bach."
       },
       {
         "question": "Quelle œuvre de Stravinsky, créée en 1913 à Paris, provoqua un scandale retentissant lors de sa première ?",
         "reponse": "Le Sacre du printemps",
-        "propositions": ["Le Sacre du printemps", "L'Oiseau de feu", "Petrouchka", "Les Noces"],
+        "propositions": [
+          "Le Sacre du printemps",
+          "L'Oiseau de feu",
+          "Petrouchka",
+          "Les Noces"
+        ],
         "explication": "La création du Sacre du printemps au théâtre des Champs-Élysées provoque un chahut mémorable."
       },
       {
         "question": "Quel terme désigne une œuvre pour un soliste accompagné d'un orchestre, souvent en trois mouvements ?",
         "reponse": "Le concerto",
-        "propositions": ["Le concerto", "La symphonie", "La sonate", "La cantate"],
+        "propositions": [
+          "Le concerto",
+          "La symphonie",
+          "La sonate",
+          "La cantate"
+        ],
         "explication": "Le concerto met en valeur un ou plusieurs solistes face à l'orchestre."
       },
       {
         "question": "Quel compositeur français impressionniste a écrit \"Clair de lune\", extrait de la Suite bergamasque ?",
         "reponse": "Claude Debussy",
-        "propositions": ["Claude Debussy", "Maurice Ravel", "Gabriel Fauré", "Erik Satie"],
+        "propositions": [
+          "Claude Debussy",
+          "Maurice Ravel",
+          "Gabriel Fauré",
+          "Erik Satie"
+        ],
         "explication": "\"Clair de lune\" est l'un des morceaux de piano les plus célèbres de Debussy."
       },
       {
         "question": "Quel compositeur autrichien du XXe siècle est à l'origine du dodécaphonisme (musique sérielle) ?",
         "reponse": "Arnold Schönberg",
-        "propositions": ["Arnold Schönberg", "Alban Berg", "Anton Webern", "Gustav Mahler"],
+        "propositions": [
+          "Arnold Schönberg",
+          "Alban Berg",
+          "Anton Webern",
+          "Gustav Mahler"
+        ],
         "explication": "Schönberg développe la technique dodécaphonique dans les années 1920, fondant la Seconde École de Vienne."
+      },
+      {
+        "question": "Quel compositeur italien baroque, virtuose du violon, a composé plus de 500 concertos, dont 'Les Quatre Saisons' ne représentent qu'une infime partie ?",
+        "reponse": "Antonio Vivaldi",
+        "propositions": [
+          "Antonio Vivaldi",
+          "Giuseppe Tartini",
+          "Arcangelo Corelli",
+          "Pietro Locatelli"
+        ],
+        "explication": "Vivaldi a enseigné pendant des décennies à l'Ospedale della Pietà de Venise, un orphelinat pour jeunes filles."
+      },
+      {
+        "question": "Quel compositeur français, également organiste virtuose, a composé la Symphonie n°3 dite 'Symphonie avec orgue' (1886) ?",
+        "reponse": "Camille Saint-Saëns",
+        "propositions": [
+          "Camille Saint-Saëns",
+          "Charles-Marie Widor",
+          "Louis Vierne",
+          "César Franck"
+        ],
+        "explication": "Cette symphonie intègre un orgue à un orchestre symphonique complet, une association alors originale."
+      },
+      {
+        "question": "Quel terme italien désigne une nuance musicale signifiant 'très fort' ?",
+        "reponse": "Fortissimo",
+        "propositions": [
+          "Fortissimo",
+          "Pianissimo",
+          "Mezzo forte",
+          "Crescendo"
+        ],
+        "explication": "Fortissimo se note 'ff' sur une partition musicale."
+      },
+      {
+        "question": "Quel compositeur allemand du XIXe siècle a théorisé le concept d''œuvre d'art totale' (Gesamtkunstwerk), unifiant musique, texte et mise en scène ?",
+        "reponse": "Richard Wagner",
+        "propositions": [
+          "Richard Wagner",
+          "Franz Liszt",
+          "Hector Berlioz",
+          "Anton Bruckner"
+        ],
+        "explication": "Wagner a développé cette théorie dans ses écrits pour justifier l'ambition totalisante de ses opéras."
+      },
+      {
+        "question": "Quel terme désigne la reprise et le développement d'un thème musical selon des règles strictes de contrepoint, notamment chez Bach ?",
+        "reponse": "La fugue",
+        "propositions": [
+          "La fugue",
+          "Le canon",
+          "La sonate",
+          "Le rondo"
+        ],
+        "explication": "'L'Art de la fugue' de Bach explore de façon systématique ce procédé contrapuntique."
+      },
+      {
+        "question": "Quel compositeur autrichien du tournant XIXe-XXe siècle est l'auteur de longues symphonies souvent qualifiées de 'mondes en soi', dont la 'Symphonie n°2, Résurrection' ?",
+        "reponse": "Gustav Mahler",
+        "propositions": [
+          "Gustav Mahler",
+          "Anton Bruckner",
+          "Richard Strauss",
+          "Alexander von Zemlinsky"
+        ],
+        "explication": "Mahler a également été un chef d'orchestre renommé, notamment à l'Opéra de Vienne."
+      },
+      {
+        "question": "Quel terme musical désigne une œuvre en trois ou quatre mouvements pour un ou plusieurs instruments solistes, structurée selon une forme classique ?",
+        "reponse": "La sonate",
+        "propositions": [
+          "La sonate",
+          "Le concerto",
+          "La suite",
+          "La symphonie"
+        ],
+        "explication": "La forme sonate a fortement structuré la musique instrumentale occidentale à partir du XVIIIe siècle."
+      },
+      {
+        "question": "Quel compositeur français du XXe siècle, membre du 'Groupe des Six', est l'auteur du 'Bœuf sur le toit' ?",
+        "reponse": "Darius Milhaud",
+        "propositions": [
+          "Darius Milhaud",
+          "Francis Poulenc",
+          "Arthur Honegger",
+          "Georges Auric"
+        ],
+        "explication": "Le Groupe des Six rassemblait de jeunes compositeurs français réunis autour d'Érik Satie et Jean Cocteau."
+      },
+      {
+        "question": "Quel compositeur italien du XIXe siècle, auteur de 'La Bohème' et 'Madame Butterfly', est une figure majeure du vérisme lyrique ?",
+        "reponse": "Giacomo Puccini",
+        "propositions": [
+          "Giacomo Puccini",
+          "Giuseppe Verdi",
+          "Pietro Mascagni",
+          "Ruggero Leoncavallo"
+        ],
+        "explication": "Le vérisme cherche à représenter la réalité sociale de façon crue, à l'opposé du romantisme idéalisé."
+      },
+      {
+        "question": "Quel compositeur estonien contemporain, connu pour un style minimaliste dit 'tintinnabuli', est l'auteur de 'Spiegel im Spiegel' ?",
+        "reponse": "Arvo Pärt",
+        "propositions": [
+          "Arvo Pärt",
+          "Henryk Górecki",
+          "Philip Glass",
+          "John Tavener"
+        ],
+        "explication": "Le style 'tintinnabuli' d'Arvo Pärt repose sur une grande simplicité harmonique et une forte spiritualité."
       }
     ]
   }

@@ -5,96 +5,501 @@
       {
         "question": "Qui a écrit \"Les Misérables\" ?",
         "reponse": "Victor Hugo",
-        "propositions": ["Victor Hugo", "Émile Zola", "Honoré de Balzac", "Alexandre Dumas"],
+        "propositions": [
+          "Victor Hugo",
+          "Émile Zola",
+          "Honoré de Balzac",
+          "Alexandre Dumas"
+        ],
         "explication": "Victor Hugo publie ce roman-fleuve en 1862, l'une des œuvres majeures de la littérature française."
       },
       {
         "question": "Quel auteur français a écrit \"Le Petit Prince\" ?",
         "reponse": "Antoine de Saint-Exupéry",
-        "propositions": ["Antoine de Saint-Exupéry", "Jules Verne", "Marcel Pagnol", "Albert Camus"],
+        "propositions": [
+          "Antoine de Saint-Exupéry",
+          "Jules Verne",
+          "Marcel Pagnol",
+          "Albert Camus"
+        ],
         "explication": "Saint-Exupéry publie ce conte poétique en 1943, l'un des livres les plus traduits au monde."
       },
       {
         "question": "Qui est l'auteur des \"Trois Mousquetaires\" ?",
         "reponse": "Alexandre Dumas",
-        "propositions": ["Alexandre Dumas", "Victor Hugo", "Gustave Flaubert", "Stendhal"],
+        "propositions": [
+          "Alexandre Dumas",
+          "Victor Hugo",
+          "Gustave Flaubert",
+          "Stendhal"
+        ],
         "explication": "Alexandre Dumas publie ce roman de cape et d'épée en 1844."
       },
       {
         "question": "Quel poète français a écrit \"Les Fleurs du mal\" ?",
         "reponse": "Charles Baudelaire",
-        "propositions": ["Charles Baudelaire", "Arthur Rimbaud", "Paul Verlaine", "Victor Hugo"],
+        "propositions": [
+          "Charles Baudelaire",
+          "Arthur Rimbaud",
+          "Paul Verlaine",
+          "Victor Hugo"
+        ],
         "explication": "Ce recueil poétique de 1857 vaut à Baudelaire un procès pour outrage aux bonnes mœurs."
       },
       {
         "question": "Quel écrivain français a reçu le prix Nobel de littérature en 1957 pour une œuvre incluant \"L'Étranger\" ?",
         "reponse": "Albert Camus",
-        "propositions": ["Albert Camus", "Jean-Paul Sartre", "André Gide", "François Mauriac"],
+        "propositions": [
+          "Albert Camus",
+          "Jean-Paul Sartre",
+          "André Gide",
+          "François Mauriac"
+        ],
         "explication": "Camus reçoit le Nobel à 44 ans, l'un des plus jeunes lauréats de l'histoire du prix."
+      },
+      {
+        "question": "Quel auteur français a écrit 'Notre-Dame de Paris' (1831) ?",
+        "reponse": "Victor Hugo",
+        "propositions": [
+          "Victor Hugo",
+          "Honoré de Balzac",
+          "Émile Zola",
+          "Gustave Flaubert"
+        ],
+        "explication": "Ce roman met en scène le personnage de Quasimodo, le sonneur de cloches bossu."
+      },
+      {
+        "question": "Quel fabuliste français du XVIIe siècle est l'auteur du 'Corbeau et le Renard' ?",
+        "reponse": "Jean de La Fontaine",
+        "propositions": [
+          "Jean de La Fontaine",
+          "Charles Perrault",
+          "Nicolas Boileau",
+          "Jean Racine"
+        ],
+        "explication": "Les 'Fables' de La Fontaine sont toujours étudiées à l'école aujourd'hui."
+      },
+      {
+        "question": "Quel conteur français du XVIIe siècle a écrit 'Cendrillon' et 'Le Petit Chaperon rouge' ?",
+        "reponse": "Charles Perrault",
+        "propositions": [
+          "Charles Perrault",
+          "Jean de La Fontaine",
+          "Les frères Grimm",
+          "Hans Christian Andersen"
+        ],
+        "explication": "Charles Perrault a publié ses 'Contes de ma mère l'Oye' en 1697."
+      },
+      {
+        "question": "Quel écrivain français a créé le personnage de Tintin ?",
+        "reponse": "Hergé",
+        "propositions": [
+          "Hergé",
+          "René Goscinny",
+          "Albert Uderzo",
+          "Jean Giraud"
+        ],
+        "explication": "Hergé, de son vrai nom Georges Remi, était en réalité belge, mais Tintin est publié en France."
+      },
+      {
+        "question": "Quel écrivain français est l'auteur de 'Vingt mille lieues sous les mers' ?",
+        "reponse": "Jules Verne",
+        "propositions": [
+          "Jules Verne",
+          "H.G. Wells",
+          "Alexandre Dumas",
+          "Victor Hugo"
+        ],
+        "explication": "Jules Verne est considéré comme l'un des pères de la science-fiction moderne."
+      },
+      {
+        "question": "Quel auteur français a écrit la saga de bande dessinée 'Astérix' avec le dessinateur Albert Uderzo ?",
+        "reponse": "René Goscinny",
+        "propositions": [
+          "René Goscinny",
+          "Hergé",
+          "Jean-Michel Charlier",
+          "Morris"
+        ],
+        "explication": "Le premier album d'Astérix est publié en 1961."
+      },
+      {
+        "question": "Quel écrivain français du XXe siècle a écrit 'La Peste' et 'L'Étranger' ?",
+        "reponse": "Albert Camus",
+        "propositions": [
+          "Albert Camus",
+          "Jean-Paul Sartre",
+          "André Malraux",
+          "André Gide"
+        ],
+        "explication": "Camus a reçu le prix Nobel de littérature en 1957."
+      },
+      {
+        "question": "Quel poète et romancier français a écrit 'Les Misérables' et 'Notre-Dame de Paris' ?",
+        "reponse": "Victor Hugo",
+        "propositions": [
+          "Victor Hugo",
+          "Alphonse de Lamartine",
+          "Alfred de Musset",
+          "Théophile Gautier"
+        ],
+        "explication": "Victor Hugo est l'une des plus grandes figures du romantisme français."
+      },
+      {
+        "question": "Quel écrivain français a créé le personnage du commissaire Maigret ?",
+        "reponse": "Georges Simenon",
+        "propositions": [
+          "Georges Simenon",
+          "Agatha Christie",
+          "Boileau-Narcejac",
+          "Gaston Leroux"
+        ],
+        "explication": "Georges Simenon, écrivain belge d'expression française, a écrit plus de 75 romans mettant en scène Maigret."
+      },
+      {
+        "question": "Quel écrivain et aviateur français a écrit 'Vol de nuit' et 'Le Petit Prince' ?",
+        "reponse": "Antoine de Saint-Exupéry",
+        "propositions": [
+          "Antoine de Saint-Exupéry",
+          "Jean Mermoz",
+          "Joseph Kessel",
+          "Romain Gary"
+        ],
+        "explication": "Saint-Exupéry a disparu en vol au-dessus de la Méditerranée en 1944."
       }
     ],
     "2": [
       {
         "question": "Quel mouvement littéraire du XIXe siècle, incarné par Zola, cherche à décrire la société avec objectivité scientifique ?",
         "reponse": "Le naturalisme",
-        "propositions": ["Le naturalisme", "Le romantisme", "Le symbolisme", "Le classicisme"],
+        "propositions": [
+          "Le naturalisme",
+          "Le romantisme",
+          "Le symbolisme",
+          "Le classicisme"
+        ],
         "explication": "Le naturalisme applique une méthode d'observation quasi scientifique à la description sociale."
       },
       {
         "question": "Quel écrivain français a créé le personnage de Cyrano de Bergerac au théâtre en 1897 ?",
         "reponse": "Edmond Rostand",
-        "propositions": ["Edmond Rostand", "Molière", "Pierre Corneille", "Jean Racine"],
+        "propositions": [
+          "Edmond Rostand",
+          "Molière",
+          "Pierre Corneille",
+          "Jean Racine"
+        ],
         "explication": "Cyrano de Bergerac, pièce en vers d'Edmond Rostand, connaît un succès immédiat."
       },
       {
         "question": "Quel roman de Gustave Flaubert (1857) raconte l'histoire d'une femme insatisfaite de sa vie provinciale ?",
         "reponse": "Madame Bovary",
-        "propositions": ["Madame Bovary", "Le Rouge et le Noir", "La Cousine Bette", "Thérèse Raquin"],
+        "propositions": [
+          "Madame Bovary",
+          "Le Rouge et le Noir",
+          "La Cousine Bette",
+          "Thérèse Raquin"
+        ],
         "explication": "Madame Bovary vaut à Flaubert un procès pour immoralité, avant de devenir un classique."
       },
       {
         "question": "Quel philosophe et écrivain français est l'auteur de \"Candide\" (1759) ?",
         "reponse": "Voltaire",
-        "propositions": ["Voltaire", "Jean-Jacques Rousseau", "Denis Diderot", "Montesquieu"],
+        "propositions": [
+          "Voltaire",
+          "Jean-Jacques Rousseau",
+          "Denis Diderot",
+          "Montesquieu"
+        ],
         "explication": "Candide est un conte philosophique satirique publié en 1759."
       },
       {
         "question": "Quelle académie française, fondée en 1635, veille sur la langue française et décerne des prix littéraires ?",
         "reponse": "L'Académie française",
-        "propositions": ["L'Académie française", "La Sorbonne", "Le Collège de France", "L'Institut de France"],
+        "propositions": [
+          "L'Académie française",
+          "La Sorbonne",
+          "Le Collège de France",
+          "L'Institut de France"
+        ],
         "explication": "Fondée par Richelieu, l'Académie française compte quarante membres, les \"Immortels\"."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle est l'auteur de la vaste fresque sociale 'La Comédie humaine' ?",
+        "reponse": "Honoré de Balzac",
+        "propositions": [
+          "Honoré de Balzac",
+          "Victor Hugo",
+          "Gustave Flaubert",
+          "Stendhal"
+        ],
+        "explication": "'La Comédie humaine' regroupe plus de 90 romans et nouvelles interconnectés."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle, auteur du 'Rouge et le Noir', est associé au mouvement réaliste ?",
+        "reponse": "Stendhal",
+        "propositions": [
+          "Stendhal",
+          "Honoré de Balzac",
+          "Gustave Flaubert",
+          "Prosper Mérimée"
+        ],
+        "explication": "Stendhal, de son vrai nom Henri Beyle, publie 'Le Rouge et le Noir' en 1830."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIe siècle est l'auteur du 'Cid' ?",
+        "reponse": "Pierre Corneille",
+        "propositions": [
+          "Pierre Corneille",
+          "Jean Racine",
+          "Molière",
+          "Jean de Rotrou"
+        ],
+        "explication": "'Le Cid' (1637) a suscité une célèbre querelle littéraire, la 'Querelle du Cid'."
+      },
+      {
+        "question": "Quel écrivain français, auteur de 'Voyage au bout de la nuit', a marqué la littérature par un style argotique novateur ?",
+        "reponse": "Louis-Ferdinand Céline",
+        "propositions": [
+          "Louis-Ferdinand Céline",
+          "Jean Genet",
+          "Henry de Montherlant",
+          "Marcel Aymé"
+        ],
+        "explication": "Publié en 1932, ce roman rompt avec le style littéraire classique par son oralité crue."
+      },
+      {
+        "question": "Quelle poétesse et romancière française du XVIe siècle, sœur de François Ier, a écrit 'L'Heptaméron' ?",
+        "reponse": "Marguerite de Navarre",
+        "propositions": [
+          "Marguerite de Navarre",
+          "Louise Labé",
+          "Christine de Pizan",
+          "Marie de France"
+        ],
+        "explication": "'L'Heptaméron' est un recueil de nouvelles inspiré du 'Décaméron' de Boccace."
+      },
+      {
+        "question": "Quel écrivain français du XXe siècle, résistant et ministre de la Culture sous de Gaulle, est l'auteur de 'La Condition humaine' ?",
+        "reponse": "André Malraux",
+        "propositions": [
+          "André Malraux",
+          "André Gide",
+          "Jean-Paul Sartre",
+          "Romain Gary"
+        ],
+        "explication": "'La Condition humaine' (1933) a reçu le prix Goncourt."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, chef de file du Parnasse, est l'auteur des 'Poèmes barbares' ?",
+        "reponse": "Leconte de Lisle",
+        "propositions": [
+          "Leconte de Lisle",
+          "Théophile Gautier",
+          "José-Maria de Heredia",
+          "Sully Prudhomme"
+        ],
+        "explication": "Le mouvement parnassien prône 'l'art pour l'art', loin de l'engagement personnel du romantisme."
+      },
+      {
+        "question": "Quel romancier français, seul écrivain à avoir reçu deux fois le prix Goncourt, est l'auteur des 'Racines du ciel' ?",
+        "reponse": "Romain Gary",
+        "propositions": [
+          "Romain Gary",
+          "Marcel Pagnol",
+          "Joseph Kessel",
+          "André Malraux"
+        ],
+        "explication": "Gary a reçu un second Goncourt sous le pseudonyme d'Émile Ajar pour 'La Vie devant soi', une règle normalement interdisant ce doublon."
+      },
+      {
+        "question": "Quelle écrivaine française du XXe siècle, académicienne, est l'auteure de 'Mémoires d'Hadrien' ?",
+        "reponse": "Marguerite Yourcenar",
+        "propositions": [
+          "Marguerite Yourcenar",
+          "Simone de Beauvoir",
+          "Colette",
+          "Nathalie Sarraute"
+        ],
+        "explication": "Yourcenar a été la première femme élue à l'Académie française, en 1980."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle, auteur des 'Rougon-Macquart', est le chef de file du naturalisme ?",
+        "reponse": "Émile Zola",
+        "propositions": [
+          "Émile Zola",
+          "Guy de Maupassant",
+          "Alphonse Daudet",
+          "Edmond de Goncourt"
+        ],
+        "explication": "Zola a également joué un rôle politique majeur avec son article 'J'accuse...!' lors de l'affaire Dreyfus."
       }
     ],
     "3": [
       {
         "question": "Quel roman-fleuve de Marcel Proust, en sept volumes, s'ouvre avec l'épisode de la madeleine ?",
         "reponse": "À la recherche du temps perdu",
-        "propositions": ["À la recherche du temps perdu", "Jean-Christophe", "Les Rougon-Macquart", "La Comédie humaine"],
+        "propositions": [
+          "À la recherche du temps perdu",
+          "Jean-Christophe",
+          "Les Rougon-Macquart",
+          "La Comédie humaine"
+        ],
         "explication": "Le goût d'une madeleine trempée dans du thé déclenche la mémoire involontaire du narrateur."
       },
       {
         "question": "Quel dramaturge du XVIIe siècle, auteur de \"Phèdre\" et \"Andromaque\", incarne la tragédie classique française ?",
         "reponse": "Jean Racine",
-        "propositions": ["Jean Racine", "Pierre Corneille", "Molière", "Nicolas Boileau"],
+        "propositions": [
+          "Jean Racine",
+          "Pierre Corneille",
+          "Molière",
+          "Nicolas Boileau"
+        ],
         "explication": "Racine porte à son apogée la tragédie classique respectant la règle des trois unités."
       },
       {
         "question": "Quel mouvement poétique de la fin du XIXe siècle, autour de Mallarmé et Verlaine, privilégie la suggestion à la description ?",
         "reponse": "Le symbolisme",
-        "propositions": ["Le symbolisme", "Le parnasse", "Le naturalisme", "Le surréalisme"],
+        "propositions": [
+          "Le symbolisme",
+          "Le parnasse",
+          "Le naturalisme",
+          "Le surréalisme"
+        ],
         "explication": "Les symbolistes cherchent à évoquer plutôt qu'à décrire, par l'usage de symboles et de musicalité."
       },
       {
         "question": "Quel écrivain est l'auteur de la vaste fresque romanesque \"Les Rougon-Macquart\", peignant la société du Second Empire ?",
         "reponse": "Émile Zola",
-        "propositions": ["Émile Zola", "Honoré de Balzac", "Guy de Maupassant", "Gustave Flaubert"],
+        "propositions": [
+          "Émile Zola",
+          "Honoré de Balzac",
+          "Guy de Maupassant",
+          "Gustave Flaubert"
+        ],
         "explication": "Cette série de vingt romans suit deux branches d'une même famille sous le Second Empire."
       },
       {
         "question": "Quel philosophe des Lumières a dirigé la rédaction de \"L'Encyclopédie\" au XVIIIe siècle ?",
         "reponse": "Denis Diderot",
-        "propositions": ["Denis Diderot", "Voltaire", "Jean-Jacques Rousseau", "Montesquieu"],
+        "propositions": [
+          "Denis Diderot",
+          "Voltaire",
+          "Jean-Jacques Rousseau",
+          "Montesquieu"
+        ],
         "explication": "Diderot dirige, avec d'Alembert, cette entreprise monumentale de diffusion du savoir."
+      },
+      {
+        "question": "Quel poète français du Moyen Âge, auteur du 'Testament', est resté célèbre malgré une vie marquée par la délinquance ?",
+        "reponse": "François Villon",
+        "propositions": [
+          "François Villon",
+          "Christine de Pizan",
+          "Charles d'Orléans",
+          "Guillaume de Machaut"
+        ],
+        "explication": "Villon est notamment l'auteur de la 'Ballade des pendus'."
+      },
+      {
+        "question": "Quel romancier français du XVIIIe siècle, libertin, est l'auteur des 'Liaisons dangereuses' (1782) ?",
+        "reponse": "Pierre Choderlos de Laclos",
+        "propositions": [
+          "Pierre Choderlos de Laclos",
+          "Denis Diderot",
+          "l'abbé Prévost",
+          "Crébillon fils"
+        ],
+        "explication": "Ce roman épistolaire dépeint la manipulation et la séduction dans l'aristocratie de l'époque."
+      },
+      {
+        "question": "Quelle femme de lettres française du XVIIe siècle est célèbre pour sa correspondance abondante avec sa fille ?",
+        "reponse": "Madame de Sévigné",
+        "propositions": [
+          "Madame de Sévigné",
+          "Madame de La Fayette",
+          "Madame de Staël",
+          "Madame Du Deffand"
+        ],
+        "explication": "Ses lettres, publiées après sa mort, offrent un témoignage précieux sur la vie de cour sous Louis XIV."
+      },
+      {
+        "question": "Quelle romancière française du XVIIe siècle est l'auteure de 'La Princesse de Clèves', souvent cité comme un des premiers romans d'analyse psychologique ?",
+        "reponse": "Madame de La Fayette",
+        "propositions": [
+          "Madame de La Fayette",
+          "Madame de Sévigné",
+          "Mademoiselle de Scudéry",
+          "Madeleine de Scudéry"
+        ],
+        "explication": "Publié anonymement en 1678, ce roman explore les tourments intérieurs de l'amour et du devoir."
+      },
+      {
+        "question": "Quel écrivain et philosophe français du XXe siècle, prix Nobel de littérature en 1964, l'a refusé ?",
+        "reponse": "Jean-Paul Sartre",
+        "propositions": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "Samuel Beckett",
+          "André Malraux"
+        ],
+        "explication": "Sartre a refusé le prix, invoquant son opposition à toute institutionnalisation de l'écrivain."
+      },
+      {
+        "question": "Quel poète et théoricien du mouvement surréaliste a publié le 'Manifeste du surréalisme' en 1924 ?",
+        "reponse": "André Breton",
+        "propositions": [
+          "André Breton",
+          "Louis Aragon",
+          "Paul Éluard",
+          "Tristan Tzara"
+        ],
+        "explication": "Le surréalisme cherchait à libérer la création par l'écriture automatique et l'exploration de l'inconscient."
+      },
+      {
+        "question": "Quel dramaturge français du théâtre de l'absurde, d'origine roumaine, est l'auteur de 'La Cantatrice chauve' ?",
+        "reponse": "Eugène Ionesco",
+        "propositions": [
+          "Eugène Ionesco",
+          "Samuel Beckett",
+          "Jean Genet",
+          "Arthur Adamov"
+        ],
+        "explication": "Cette pièce, créée en 1950, est jouée sans interruption au Théâtre de la Huchette à Paris depuis 1957."
+      },
+      {
+        "question": "Quel érudit français du XVIe siècle, moine puis médecin, est l'auteur de 'Gargantua' et 'Pantagruel' ?",
+        "reponse": "François Rabelais",
+        "propositions": [
+          "François Rabelais",
+          "Michel de Montaigne",
+          "Clément Marot",
+          "Étienne Dolet"
+        ],
+        "explication": "Rabelais mêle érudition humaniste et truculence satirique dans ses récits de géants."
+      },
+      {
+        "question": "Quelle écrivaine française, née Sidonie-Gabrielle Colette, est connue pour des œuvres comme 'Le Blé en herbe' et 'Gigi' ?",
+        "reponse": "Colette",
+        "propositions": [
+          "Colette",
+          "George Sand",
+          "Simone de Beauvoir",
+          "Louise de Vilmorin"
+        ],
+        "explication": "Colette a été la deuxième femme, après Anna de Noailles, présidente de l'académie Goncourt."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle est l'auteur du recueil 'Les Contemplations', paru en 1856 ?",
+        "reponse": "Victor Hugo",
+        "propositions": [
+          "Victor Hugo",
+          "Alphonse de Lamartine",
+          "Gérard de Nerval",
+          "Alfred de Vigny"
+        ],
+        "explication": "Ce recueil est dédié en partie à la mémoire de sa fille Léopoldine, morte noyée en 1843."
       }
     ]
   }

@@ -5,96 +5,501 @@
       {
         "question": "Quel réalisateur est à l'origine de la saga 'Star Wars' ?",
         "reponse": "George Lucas",
-        "propositions": ["Steven Spielberg", "George Lucas", "James Cameron", "Ridley Scott"],
+        "propositions": [
+          "Steven Spielberg",
+          "George Lucas",
+          "James Cameron",
+          "Ridley Scott"
+        ],
         "explication": "George Lucas a créé et réalisé les trois premiers films de la saga, sortis à partir de 1977."
       },
       {
         "question": "Quel studio d'animation a produit 'Toy Story', premier long-métrage entièrement en images de synthèse ?",
         "reponse": "Pixar",
-        "propositions": ["DreamWorks", "Pixar", "Illumination", "Disney"],
+        "propositions": [
+          "DreamWorks",
+          "Pixar",
+          "Illumination",
+          "Disney"
+        ],
         "explication": "'Toy Story' est sorti en 1995 et a révolutionné l'animation par ordinateur."
       },
       {
         "question": "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?",
         "reponse": "Robert Downey Jr.",
-        "propositions": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+        "propositions": [
+          "Chris Evans",
+          "Robert Downey Jr.",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ],
         "explication": "Robert Downey Jr. incarne Tony Stark / Iron Man depuis 2008."
       },
       {
         "question": "Quelle récompense en forme de statuette dorée est remise chaque année aux Oscars ?",
         "reponse": "L'Oscar",
-        "propositions": ["La Palme d'or", "L'Oscar", "L'Ours d'or", "Le Lion d'or"],
+        "propositions": [
+          "La Palme d'or",
+          "L'Oscar",
+          "L'Ours d'or",
+          "Le Lion d'or"
+        ],
         "explication": "La cérémonie des Oscars remet des statuettes dorées, contrairement au Festival de Cannes qui décerne la Palme d'or."
       },
       {
         "question": "Quel réalisateur est connu pour des films comme 'Titanic' et 'Avatar' ?",
         "reponse": "James Cameron",
-        "propositions": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Peter Jackson"],
+        "propositions": [
+          "Steven Spielberg",
+          "James Cameron",
+          "Christopher Nolan",
+          "Peter Jackson"
+        ],
         "explication": "James Cameron a réalisé deux des plus gros succès au box-office mondial avec ces deux films."
+      },
+      {
+        "question": "Quel réalisateur américain a créé les films 'Les Dents de la mer' et 'Jurassic Park' ?",
+        "reponse": "Steven Spielberg",
+        "propositions": [
+          "Steven Spielberg",
+          "George Lucas",
+          "Martin Scorsese",
+          "Ridley Scott"
+        ],
+        "explication": "Spielberg a réalisé 'Les Dents de la mer' en 1975 et 'Jurassic Park' en 1993."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Jack Sparrow dans 'Pirates des Caraïbes' ?",
+        "reponse": "Johnny Depp",
+        "propositions": [
+          "Johnny Depp",
+          "Orlando Bloom",
+          "Geoffrey Rush",
+          "Javier Bardem"
+        ],
+        "explication": "Johnny Depp a incarné le capitaine Jack Sparrow dans toute la saga."
+      },
+      {
+        "question": "Quel studio est à l'origine des films 'Le Roi Lion' et 'La Reine des neiges' ?",
+        "reponse": "Disney",
+        "propositions": [
+          "Disney",
+          "DreamWorks",
+          "Pixar",
+          "Illumination"
+        ],
+        "explication": "Disney Animation Studios a produit ces deux longs-métrages emblématiques."
+      },
+      {
+        "question": "Quel film de 1994, réalisé par Robert Zemeckis, retrace la vie d'un homme au destin extraordinaire à travers l'histoire des États-Unis ?",
+        "reponse": "Forrest Gump",
+        "propositions": [
+          "Forrest Gump",
+          "Rain Man",
+          "Big",
+          "Le Terminal"
+        ],
+        "explication": "Tom Hanks y incarne le rôle-titre, récompensé par l'Oscar du meilleur acteur."
+      },
+      {
+        "question": "Quel acteur incarne Batman dans la trilogie 'The Dark Knight' de Christopher Nolan ?",
+        "reponse": "Christian Bale",
+        "propositions": [
+          "Christian Bale",
+          "Ben Affleck",
+          "George Clooney",
+          "Michael Keaton"
+        ],
+        "explication": "Christian Bale a incarné Batman dans 'Batman Begins', 'The Dark Knight' et 'The Dark Knight Rises'."
+      },
+      {
+        "question": "Quel film de 1997, réalisé par James Cameron, raconte le naufrage d'un célèbre paquebot ?",
+        "reponse": "Titanic",
+        "propositions": [
+          "Titanic",
+          "Le Naufrage du Poséidon",
+          "Speed",
+          "Apollo 13"
+        ],
+        "explication": "'Titanic' a remporté 11 Oscars, un record partagé avec 'Ben-Hur' et 'Le Retour du Roi'."
+      },
+      {
+        "question": "Quel personnage de fiction est un espion britannique surnommé '007' ?",
+        "reponse": "James Bond",
+        "propositions": [
+          "James Bond",
+          "Jason Bourne",
+          "Ethan Hunt",
+          "Jack Ryan"
+        ],
+        "explication": "James Bond, créé par Ian Fleming, est apparu au cinéma dès 1962."
+      },
+      {
+        "question": "Quel film d'animation met en scène des jouets qui prennent vie, dont Woody et Buzz l'Éclair ?",
+        "reponse": "Toy Story",
+        "propositions": [
+          "Toy Story",
+          "Cars",
+          "Monstres et Cie",
+          "Le Monde de Nemo"
+        ],
+        "explication": "'Toy Story' (1995) est le premier long-métrage entièrement réalisé en images de synthèse."
+      },
+      {
+        "question": "Quel réalisateur est à l'origine de la trilogie 'Le Seigneur des anneaux' ?",
+        "reponse": "Peter Jackson",
+        "propositions": [
+          "Peter Jackson",
+          "Guillermo del Toro",
+          "Ridley Scott",
+          "James Cameron"
+        ],
+        "explication": "La trilogie, tournée en Nouvelle-Zélande, est sortie entre 2001 et 2003."
+      },
+      {
+        "question": "Quel acteur incarne le rôle principal dans la saga 'Rocky' ?",
+        "reponse": "Sylvester Stallone",
+        "propositions": [
+          "Sylvester Stallone",
+          "Arnold Schwarzenegger",
+          "Bruce Willis",
+          "Chuck Norris"
+        ],
+        "explication": "Stallone a également écrit le scénario du premier film, sorti en 1976."
       }
     ],
     "2": [
       {
         "question": "Quel film d'animation du studio Ghibli a remporté l'Oscar du meilleur film d'animation en 2003 ?",
         "reponse": "Le Voyage de Chihiro",
-        "propositions": ["Princesse Mononoké", "Le Voyage de Chihiro", "Mon voisin Totoro", "Le Château ambulant"],
+        "propositions": [
+          "Princesse Mononoké",
+          "Le Voyage de Chihiro",
+          "Mon voisin Totoro",
+          "Le Château ambulant"
+        ],
         "explication": "Réalisé par Hayao Miyazaki, ce film a été le premier long-métrage du studio Ghibli à remporter cet Oscar."
       },
       {
         "question": "Quel réalisateur est connu pour des films utilisant des structures narratives non linéaires comme 'Memento' et 'Inception' ?",
         "reponse": "Christopher Nolan",
-        "propositions": ["David Fincher", "Christopher Nolan", "Denis Villeneuve", "Quentin Tarantino"],
+        "propositions": [
+          "David Fincher",
+          "Christopher Nolan",
+          "Denis Villeneuve",
+          "Quentin Tarantino"
+        ],
         "explication": "Christopher Nolan est réputé pour ses scénarios complexes jouant avec le temps et la perception."
       },
       {
         "question": "Quel est le premier long-métrage d'animation en couleur de l'histoire du cinéma, sorti en 1937 ?",
         "reponse": "Blanche-Neige et les Sept Nains",
-        "propositions": ["Fantasia", "Blanche-Neige et les Sept Nains", "Pinocchio", "Bambi"],
+        "propositions": [
+          "Fantasia",
+          "Blanche-Neige et les Sept Nains",
+          "Pinocchio",
+          "Bambi"
+        ],
         "explication": "Produit par Walt Disney, ce film est considéré comme le premier long-métrage d'animation en couleur de l'histoire."
       },
       {
         "question": "Quel acteur a incarné le Joker dans 'The Dark Knight' (2008), rôle pour lequel il a reçu un Oscar posthume ?",
         "reponse": "Heath Ledger",
-        "propositions": ["Jack Nicholson", "Heath Ledger", "Joaquin Phoenix", "Jared Leto"],
+        "propositions": [
+          "Jack Nicholson",
+          "Heath Ledger",
+          "Joaquin Phoenix",
+          "Jared Leto"
+        ],
         "explication": "Heath Ledger est décédé quelques mois avant la sortie du film et a reçu l'Oscar du meilleur acteur dans un second rôle à titre posthume."
       },
       {
         "question": "Quel réalisateur français est connu pour 'Le Fabuleux Destin d'Amélie Poulain' et 'La Cité des enfants perdus' ?",
         "reponse": "Jean-Pierre Jeunet",
-        "propositions": ["Luc Besson", "Jean-Pierre Jeunet", "Michel Gondry", "Jacques Audiard"],
+        "propositions": [
+          "Luc Besson",
+          "Jean-Pierre Jeunet",
+          "Michel Gondry",
+          "Jacques Audiard"
+        ],
         "explication": "Jean-Pierre Jeunet a réalisé 'Le Fabuleux Destin d'Amélie Poulain' en 2001."
+      },
+      {
+        "question": "Quel réalisateur américain est connu pour des films violents et non linéaires comme 'Pulp Fiction' ?",
+        "reponse": "Quentin Tarantino",
+        "propositions": [
+          "Quentin Tarantino",
+          "Martin Scorsese",
+          "David Fincher",
+          "Oliver Stone"
+        ],
+        "explication": "'Pulp Fiction' (1994) a remporté la Palme d'or à Cannes."
+      },
+      {
+        "question": "Quel film de 1999, aux effets visuels révolutionnaires, met en scène Neo dans un monde simulé ?",
+        "reponse": "Matrix",
+        "propositions": [
+          "Matrix",
+          "Terminator 2",
+          "Minority Report",
+          "Inception"
+        ],
+        "explication": "'Matrix' des sœurs Wachowski a popularisé l'effet visuel du 'bullet time'."
+      },
+      {
+        "question": "Quel réalisateur mexicain a remporté l'Oscar du meilleur réalisateur pour 'Gravity' (2013) et 'Birdman' (2014) consécutivement ?",
+        "reponse": "Alejandro González Iñárritu",
+        "propositions": [
+          "Alfonso Cuarón",
+          "Alejandro González Iñárritu",
+          "Guillermo del Toro",
+          "Guillermo Arriaga"
+        ],
+        "explication": "Iñárritu a réalisé Birdman (2014) puis The Revenant (2015), tous deux récompensés."
+      },
+      {
+        "question": "Quel acteur a incarné le professeur Dumbledore dans les deux premiers films de la saga 'Harry Potter' ?",
+        "reponse": "Richard Harris",
+        "propositions": [
+          "Richard Harris",
+          "Michael Gambon",
+          "Ian McKellen",
+          "Alan Rickman"
+        ],
+        "explication": "Après le décès de Richard Harris en 2002, Michael Gambon a repris le rôle."
+      },
+      {
+        "question": "Quel film d'horreur de 1973, sur une possession démoniaque, est resté un classique du genre ?",
+        "reponse": "L'Exorciste",
+        "propositions": [
+          "L'Exorciste",
+          "Rosemary's Baby",
+          "Halloween",
+          "The Shining"
+        ],
+        "explication": "'L'Exorciste', réalisé par William Friedkin, a été un immense succès malgré la controverse."
+      },
+      {
+        "question": "Quel réalisateur italien est connu pour la trilogie du dollar avec Clint Eastwood, dont 'Le Bon, la Brute et le Truand' ?",
+        "reponse": "Sergio Leone",
+        "propositions": [
+          "Sergio Leone",
+          "Federico Fellini",
+          "Bernardo Bertolucci",
+          "Dario Argento"
+        ],
+        "explication": "Sergio Leone est considéré comme le maître du western spaghetti."
+      },
+      {
+        "question": "Quel film de 2019, réalisé par Bong Joon-ho, est devenu le premier film non anglophone à remporter l'Oscar du meilleur film ?",
+        "reponse": "Parasite",
+        "propositions": [
+          "Parasite",
+          "Roma",
+          "Drive My Car",
+          "La Forme de l'eau"
+        ],
+        "explication": "'Parasite' a remporté quatre Oscars en 2020, dont celui du meilleur film."
+      },
+      {
+        "question": "Quel acteur incarne Tony Stark / Iron Man dans l'univers cinématographique Marvel ?",
+        "reponse": "Robert Downey Jr.",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Chris Evans",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ],
+        "explication": "Robert Downey Jr. a incarné le rôle de 2008 jusqu'à 'Avengers: Endgame' en 2019."
+      },
+      {
+        "question": "Quel réalisateur britannique a signé les films 'Dunkerque' et 'Oppenheimer' ?",
+        "reponse": "Christopher Nolan",
+        "propositions": [
+          "Christopher Nolan",
+          "Denis Villeneuve",
+          "Ridley Scott",
+          "Sam Mendes"
+        ],
+        "explication": "'Oppenheimer' (2023) a remporté sept Oscars, dont celui du meilleur film."
+      },
+      {
+        "question": "Quel film américain de 1972, réalisé par Francis Ford Coppola, dépeint une famille de la mafia new-yorkaise ?",
+        "reponse": "Le Parrain",
+        "propositions": [
+          "Le Parrain",
+          "Les Affranchis",
+          "Scarface",
+          "Casino"
+        ],
+        "explication": "'Le Parrain' est souvent cité parmi les meilleurs films de l'histoire du cinéma."
       }
     ],
     "3": [
       {
         "question": "Quel film est considéré comme le premier long-métrage parlant de l'histoire du cinéma, sorti en 1927 ?",
         "reponse": "Le Chanteur de jazz",
-        "propositions": ["Le Chanteur de jazz", "Metropolis", "Nosferatu", "Le Cuirassé Potemkine"],
+        "propositions": [
+          "Le Chanteur de jazz",
+          "Metropolis",
+          "Nosferatu",
+          "Le Cuirassé Potemkine"
+        ],
         "explication": "'The Jazz Singer' marque la transition du cinéma muet au cinéma parlant."
       },
       {
         "question": "Quel mouvement cinématographique français des années 1950-60, porté par des réalisateurs comme Godard et Truffaut, a rompu avec les conventions narratives classiques ?",
         "reponse": "La Nouvelle Vague",
-        "propositions": ["Le Réalisme poétique", "La Nouvelle Vague", "Le Cinéma vérité", "L'Impressionnisme français"],
+        "propositions": [
+          "Le Réalisme poétique",
+          "La Nouvelle Vague",
+          "Le Cinéma vérité",
+          "L'Impressionnisme français"
+        ],
         "explication": "La Nouvelle Vague a marqué une rupture esthétique et technique majeure dans l'histoire du cinéma français."
       },
       {
         "question": "Quel procédé de tournage image par image, utilisé par Tim Burton dans 'Frankenweenie' et 'Les Noces funèbres', permet d'animer des figurines ?",
         "reponse": "Le stop-motion",
-        "propositions": ["La rotoscopie", "Le stop-motion", "La motion capture", "Le clay painting"],
+        "propositions": [
+          "La rotoscopie",
+          "Le stop-motion",
+          "La motion capture",
+          "Le clay painting"
+        ],
         "explication": "Le stop-motion consiste à photographier une figurine image par image en la déplaçant légèrement à chaque prise."
       },
       {
         "question": "Quel film japonais d'Akira Kurosawa, sorti en 1954, a directement inspiré le western américain 'Les Sept Mercenaires' ?",
         "reponse": "Les Sept Samouraïs",
-        "propositions": ["Rashomon", "Les Sept Samouraïs", "Ran", "Kagemusha"],
+        "propositions": [
+          "Rashomon",
+          "Les Sept Samouraïs",
+          "Ran",
+          "Kagemusha"
+        ],
         "explication": "'Les Sept Samouraïs' est l'un des films les plus influents du cinéma mondial."
       },
       {
         "question": "Comment appelle-t-on le raccord qui enchaîne deux plans sur une action similaire pour suggérer une continuité, rendu célèbre par l'ellipse de l'os devenant vaisseau spatial dans '2001, l'Odyssée de l'espace' ?",
         "reponse": "Le raccord (match cut)",
-        "propositions": ["Le fondu enchaîné", "Le raccord (match cut)", "Le plan-séquence", "Le champ-contrechamp"],
+        "propositions": [
+          "Le fondu enchaîné",
+          "Le raccord (match cut)",
+          "Le plan-séquence",
+          "Le champ-contrechamp"
+        ],
         "explication": "Ce raccord entre l'os lancé en l'air et le vaisseau spatial est l'une des ellipses les plus célèbres de l'histoire du cinéma."
+      },
+      {
+        "question": "Quel réalisateur soviétique est l'auteur du film 'Le Cuirassé Potemkine' (1925), célèbre pour sa scène de l'escalier d'Odessa ?",
+        "reponse": "Sergueï Eisenstein",
+        "propositions": [
+          "Sergueï Eisenstein",
+          "Dziga Vertov",
+          "Andreï Tarkovski",
+          "Lev Koulechov"
+        ],
+        "explication": "Ce film muet a profondément influencé la théorie du montage cinématographique."
+      },
+      {
+        "question": "Quel réalisateur allemand expressionniste a signé 'Nosferatu le Vampire' en 1922 ?",
+        "reponse": "Friedrich Wilhelm Murnau",
+        "propositions": [
+          "Friedrich Wilhelm Murnau",
+          "Fritz Lang",
+          "Robert Wiene",
+          "Paul Wegener"
+        ],
+        "explication": "Ce film muet, adaptation non autorisée de 'Dracula', a marqué le cinéma expressionniste allemand."
+      },
+      {
+        "question": "Quel film de Stanley Kubrick, sorti en 1968, met en scène l'ordinateur HAL 9000 lors d'un voyage vers Jupiter ?",
+        "reponse": "2001, l'Odyssée de l'espace",
+        "propositions": [
+          "2001, l'Odyssée de l'espace",
+          "Orange mécanique",
+          "Docteur Folamour",
+          "Full Metal Jacket"
+        ],
+        "explication": "Le film est réputé pour ses effets spéciaux novateurs et sa narration énigmatique."
+      },
+      {
+        "question": "Quel réalisateur japonais est l'auteur de 'Rashōmon' (1950), qui a donné son nom à un procédé narratif de points de vue multiples ?",
+        "reponse": "Akira Kurosawa",
+        "propositions": [
+          "Akira Kurosawa",
+          "Yasujirō Ozu",
+          "Kenji Mizoguchi",
+          "Hayao Miyazaki"
+        ],
+        "explication": "L''effet Rashōmon' désigne aujourd'hui la présentation contradictoire d'un même événement selon différents témoins."
+      },
+      {
+        "question": "Quel courant cinématographique italien de l'après-guerre, incarné par Rossellini, filme la réalité sociale avec des acteurs souvent non professionnels ?",
+        "reponse": "Le néoréalisme italien",
+        "propositions": [
+          "Le néoréalisme italien",
+          "Le giallo",
+          "Le cinéma vérité",
+          "Le formalisme"
+        ],
+        "explication": "'Rome, ville ouverte' (1945) de Roberto Rossellini est une œuvre fondatrice du mouvement."
+      },
+      {
+        "question": "Quel réalisateur suédois est l'auteur du 'Septième Sceau' (1957), mettant en scène une partie d'échecs contre la Mort ?",
+        "reponse": "Ingmar Bergman",
+        "propositions": [
+          "Ingmar Bergman",
+          "Roy Andersson",
+          "Lasse Hallström",
+          "Jan Troell"
+        ],
+        "explication": "Ce film reste une référence du cinéma d'auteur européen sur la question de la mortalité."
+      },
+      {
+        "question": "Quel réalisateur français de la Nouvelle Vague est l'auteur d''À bout de souffle' (1960) ?",
+        "reponse": "Jean-Luc Godard",
+        "propositions": [
+          "Jean-Luc Godard",
+          "François Truffaut",
+          "Éric Rohmer",
+          "Claude Chabrol"
+        ],
+        "explication": "'À bout de souffle' popularise le montage cut et le tournage caméra à l'épaule."
+      },
+      {
+        "question": "Quel film muet américain de 1927 est considéré comme un jalon du cinéma expressionniste de science-fiction ?",
+        "reponse": "Metropolis",
+        "propositions": [
+          "Metropolis",
+          "Le Cabinet du docteur Caligari",
+          "Aelita",
+          "Frankenstein"
+        ],
+        "explication": "'Metropolis', réalisé par Fritz Lang, dépeint une cité futuriste divisée par les classes sociales."
+      },
+      {
+        "question": "Quel réalisateur polonais, naturalisé français, a signé la trilogie 'Trois Couleurs' (Bleu, Blanc, Rouge) ?",
+        "reponse": "Krzysztof Kieślowski",
+        "propositions": [
+          "Krzysztof Kieślowski",
+          "Roman Polanski",
+          "Andrzej Wajda",
+          "Agnieszka Holland"
+        ],
+        "explication": "Chaque film de la trilogie explore une valeur de la devise républicaine française."
+      },
+      {
+        "question": "Quel réalisateur danois est à l'origine, avec Thomas Vinterberg, du mouvement cinématographique Dogme 95 ?",
+        "reponse": "Lars von Trier",
+        "propositions": [
+          "Lars von Trier",
+          "Nicolas Winding Refn",
+          "Susanne Bier",
+          "Bille August"
+        ],
+        "explication": "Le Dogme 95 imposait des règles strictes (pas d'effets spéciaux, caméra à l'épaule) pour un cinéma épuré."
       }
     ]
   }

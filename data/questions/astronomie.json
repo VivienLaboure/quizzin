@@ -5,96 +5,501 @@
       {
         "question": "Quelle est la température moyenne à la surface visible du Soleil ?",
         "reponse": "Environ 5 500 °C",
-        "propositions": ["Environ 1 000 °C", "Environ 5 500 °C", "Environ 15 000 °C", "Environ 50 000 °C"],
+        "propositions": [
+          "Environ 1 000 °C",
+          "Environ 5 500 °C",
+          "Environ 15 000 °C",
+          "Environ 50 000 °C"
+        ],
         "explication": "La photosphère du Soleil atteint environ 5 500 °C, contre plus de 15 millions de degrés en son cœur."
       },
       {
         "question": "Quelle planète du système solaire tourne sur elle-même dans le sens opposé à la majorité des autres ?",
         "reponse": "Vénus",
-        "propositions": ["Mars", "Vénus", "Mercure", "Uranus"],
+        "propositions": [
+          "Mars",
+          "Vénus",
+          "Mercure",
+          "Uranus"
+        ],
         "explication": "Vénus a une rotation rétrograde, probablement due à une collision majeure dans son passé."
       },
       {
         "question": "Comment appelle-t-on le phénomène qui fait que l'on ne voit toujours que la même face de la Lune depuis la Terre ?",
         "reponse": "La rotation synchrone",
-        "propositions": ["La précession", "La rotation synchrone", "La libration", "La résonance orbitale"],
+        "propositions": [
+          "La précession",
+          "La rotation synchrone",
+          "La libration",
+          "La résonance orbitale"
+        ],
         "explication": "La Lune met le même temps à tourner sur elle-même qu'à orbiter autour de la Terre, ce qui lui fait toujours présenter la même face."
       },
       {
         "question": "Quelle est la plus grande lune du système solaire, en orbite autour de Jupiter ?",
         "reponse": "Ganymède",
-        "propositions": ["Io", "Europe", "Ganymède", "Callisto"],
+        "propositions": [
+          "Io",
+          "Europe",
+          "Ganymède",
+          "Callisto"
+        ],
         "explication": "Ganymède est plus grande que la planète Mercure."
       },
       {
         "question": "Comment appelle-t-on le point de l'orbite d'une planète le plus proche du Soleil ?",
         "reponse": "Le périhélie",
-        "propositions": ["L'aphélie", "Le périhélie", "Le zénith", "L'apogée"],
+        "propositions": [
+          "L'aphélie",
+          "Le périhélie",
+          "Le zénith",
+          "L'apogée"
+        ],
         "explication": "Le périhélie est le point de l'orbite le plus proche du Soleil ; l'aphélie en est le point le plus éloigné."
+      },
+      {
+        "question": "Quelle est l'étoile la plus proche de la Terre ?",
+        "reponse": "Le Soleil",
+        "propositions": [
+          "Le Soleil",
+          "Proxima du Centaure",
+          "Sirius",
+          "Alpha du Centaure"
+        ],
+        "explication": "Le Soleil est situé à environ 150 millions de km de la Terre."
+      },
+      {
+        "question": "Combien de temps la Lune met-elle environ pour orbiter autour de la Terre ?",
+        "reponse": "27 jours",
+        "propositions": [
+          "7 jours",
+          "27 jours",
+          "100 jours",
+          "365 jours"
+        ],
+        "explication": "La révolution sidérale de la Lune dure environ 27,3 jours."
+      },
+      {
+        "question": "Quel est le nom de notre galaxie ?",
+        "reponse": "La Voie lactée",
+        "propositions": [
+          "La Voie lactée",
+          "Andromède",
+          "Le Triangle",
+          "La Grande Ourse"
+        ],
+        "explication": "Le Soleil et le système solaire se trouvent dans un bras de la Voie lactée."
+      },
+      {
+        "question": "Quelle planète du système solaire est la plus proche du Soleil ?",
+        "reponse": "Mercure",
+        "propositions": [
+          "Mercure",
+          "Vénus",
+          "Terre",
+          "Mars"
+        ],
+        "explication": "Mercure met environ 88 jours terrestres pour orbiter autour du Soleil."
+      },
+      {
+        "question": "Comment appelle-t-on un objet céleste qui traverse l'atmosphère terrestre en se consumant, visible comme une traînée lumineuse ?",
+        "reponse": "Une étoile filante",
+        "propositions": [
+          "Une comète",
+          "Une étoile filante",
+          "Une supernova",
+          "Un quasar"
+        ],
+        "explication": "Une étoile filante est en réalité un petit débris, une météorite, qui brûle en entrant dans l'atmosphère."
+      },
+      {
+        "question": "Quel instrument permet d'observer les astres lointains en amplifiant la lumière ?",
+        "reponse": "Le télescope",
+        "propositions": [
+          "Le télescope",
+          "Le microscope",
+          "Le sextant",
+          "Le radar"
+        ],
+        "explication": "Le premier télescope astronomique a été utilisé par Galilée dès 1609."
+      },
+      {
+        "question": "Quelle est la couleur dominante de la planète Mars ?",
+        "reponse": "Le rouge",
+        "propositions": [
+          "Le bleu",
+          "Le rouge",
+          "Le vert",
+          "Le jaune"
+        ],
+        "explication": "La couleur rouge de Mars provient de l'oxyde de fer présent dans son sol."
+      },
+      {
+        "question": "Comment appelle-t-on un ensemble d'étoiles formant une figure reconnaissable dans le ciel ?",
+        "reponse": "Une constellation",
+        "propositions": [
+          "Une constellation",
+          "Une nébuleuse",
+          "Une galaxie",
+          "Un amas"
+        ],
+        "explication": "La Grande Ourse et Orion sont des constellations célèbres."
+      },
+      {
+        "question": "Quelle agence spatiale américaine a envoyé les premiers hommes sur la Lune en 1969 ?",
+        "reponse": "La NASA",
+        "propositions": [
+          "La NASA",
+          "L'ESA",
+          "Roscosmos",
+          "La CNSA"
+        ],
+        "explication": "La mission Apollo 11 a permis à Neil Armstrong et Buzz Aldrin de marcher sur la Lune."
+      },
+      {
+        "question": "Quelle planète du système solaire possède le plus grand nombre de lunes connues ?",
+        "reponse": "Saturne",
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Uranus",
+          "Neptune"
+        ],
+        "explication": "Saturne compte plus de 140 lunes confirmées, un record parmi les planètes du système solaire."
       }
     ],
     "2": [
       {
         "question": "Comment appelle-t-on le décalage vers le rouge de la lumière des galaxies lointaines, preuve de l'expansion de l'univers ?",
         "reponse": "Le redshift",
-        "propositions": ["Le redshift", "L'effet Doppler-Fizeau inverse", "Le blueshift", "L'aberration de la lumière"],
+        "propositions": [
+          "Le redshift",
+          "L'effet Doppler-Fizeau inverse",
+          "Le blueshift",
+          "L'aberration de la lumière"
+        ],
         "explication": "Découvert par Edwin Hubble en 1929, ce décalage vers le rouge montre que les galaxies s'éloignent les unes des autres."
       },
       {
         "question": "Quel instrument a permis de détecter pour la première fois des ondes gravitationnelles, en 2015 ?",
         "reponse": "LIGO",
-        "propositions": ["LIGO", "VIRGO", "LISA", "ALMA"],
+        "propositions": [
+          "LIGO",
+          "VIRGO",
+          "LISA",
+          "ALMA"
+        ],
         "explication": "LIGO (Laser Interferometer Gravitational-Wave Observatory) a détecté la fusion de deux trous noirs, confirmant une prédiction d'Einstein."
       },
       {
         "question": "Quelle est la durée approximative d'une révolution complète du Soleil autour du centre de la Voie lactée ?",
         "reponse": "Environ 230 millions d'années",
-        "propositions": ["Environ 1 million d'années", "Environ 230 millions d'années", "Environ 4,6 milliards d'années", "Environ 13,8 milliards d'années"],
+        "propositions": [
+          "Environ 1 million d'années",
+          "Environ 230 millions d'années",
+          "Environ 4,6 milliards d'années",
+          "Environ 13,8 milliards d'années"
+        ],
         "explication": "Cette période est appelée 'année galactique' ou 'année cosmique'."
       },
       {
         "question": "Quelle sonde a survolé les quatre planètes géantes du système solaire entre 1979 et 1989, et reste la seule à avoir visité Uranus et Neptune ?",
         "reponse": "Voyager 2",
-        "propositions": ["Voyager 1", "Voyager 2", "Pioneer 10", "Cassini"],
+        "propositions": [
+          "Voyager 1",
+          "Voyager 2",
+          "Pioneer 10",
+          "Cassini"
+        ],
         "explication": "Voyager 2 est à ce jour la seule sonde à avoir survolé Uranus et Neptune."
       },
       {
         "question": "Quelle est l'étoile la plus brillante du ciel nocturne, visible depuis la Terre ?",
         "reponse": "Sirius",
-        "propositions": ["Sirius", "Bételgeuse", "Véga", "Polaris"],
+        "propositions": [
+          "Sirius",
+          "Bételgeuse",
+          "Véga",
+          "Polaris"
+        ],
         "explication": "Sirius, dans la constellation du Grand Chien, doit son éclat à sa proximité relative (8,6 années-lumière)."
+      },
+      {
+        "question": "Comment appelle-t-on une étoile en fin de vie qui explose en libérant une énorme quantité d'énergie ?",
+        "reponse": "Une supernova",
+        "propositions": [
+          "Une nova",
+          "Une supernova",
+          "Une géante rouge",
+          "Une naine blanche"
+        ],
+        "explication": "Une supernova peut brièvement briller autant qu'une galaxie entière."
+      },
+      {
+        "question": "Quel est le nom de la galaxie la plus proche de la Voie lactée, visible à l'œil nu depuis l'hémisphère nord ?",
+        "reponse": "La galaxie d'Andromède",
+        "propositions": [
+          "La galaxie d'Andromède",
+          "Le Grand Nuage de Magellan",
+          "La galaxie du Triangle",
+          "La galaxie du Sombrero"
+        ],
+        "explication": "Andromède est distante d'environ 2,5 millions d'années-lumière."
+      },
+      {
+        "question": "Comment appelle-t-on la zone autour d'une étoile où l'eau liquide pourrait exister à la surface d'une planète ?",
+        "reponse": "La zone habitable",
+        "propositions": [
+          "La zone habitable",
+          "L'ellipse de Roche",
+          "L'horizon des événements",
+          "La limite de Chandrasekhar"
+        ],
+        "explication": "On l'appelle aussi parfois 'zone Boucle d'or', ni trop chaude ni trop froide."
+      },
+      {
+        "question": "Quel télescope spatial, lancé en 1990, a révolutionné l'observation astronomique depuis l'orbite terrestre ?",
+        "reponse": "Le télescope spatial Hubble",
+        "propositions": [
+          "Le télescope spatial Hubble",
+          "Le télescope James Webb",
+          "Le télescope Kepler",
+          "Le télescope Spitzer"
+        ],
+        "explication": "Hubble orbite à environ 540 km d'altitude, hors des perturbations atmosphériques."
+      },
+      {
+        "question": "Comment appelle-t-on une étoile extrêmement dense, résidu compact de l'effondrement d'une étoile massive ?",
+        "reponse": "Une étoile à neutrons",
+        "propositions": [
+          "Une naine blanche",
+          "Une étoile à neutrons",
+          "Une géante rouge",
+          "Une naine brune"
+        ],
+        "explication": "Une cuillère à café de matière d'étoile à neutrons pèserait des milliards de tonnes."
+      },
+      {
+        "question": "Quelle mission spatiale a ramené les premiers échantillons lunaires sur Terre en 1969 ?",
+        "reponse": "Apollo 11",
+        "propositions": [
+          "Apollo 8",
+          "Apollo 11",
+          "Apollo 13",
+          "Apollo 17"
+        ],
+        "explication": "Apollo 11 a rapporté environ 21,5 kg de roches lunaires."
+      },
+      {
+        "question": "Comment appelle-t-on le nuage sphérique d'objets glacés situé aux confins du système solaire, source présumée des comètes à longue période ?",
+        "reponse": "Le nuage d'Oort",
+        "propositions": [
+          "La ceinture de Kuiper",
+          "Le nuage d'Oort",
+          "La ceinture d'astéroïdes",
+          "L'héliosphère"
+        ],
+        "explication": "Le nuage d'Oort serait situé à des milliers d'unités astronomiques du Soleil."
+      },
+      {
+        "question": "Quel télescope spatial, successeur de Hubble, a été lancé fin 2021 pour observer l'univers en infrarouge ?",
+        "reponse": "Le télescope James Webb",
+        "propositions": [
+          "Le télescope James Webb",
+          "Le télescope Hubble",
+          "Le télescope Euclid",
+          "Le télescope Nancy Grace Roman"
+        ],
+        "explication": "Le télescope James Webb est positionné au point de Lagrange L2, à 1,5 million de km de la Terre."
+      },
+      {
+        "question": "Comment appelle-t-on un système de deux étoiles en orbite l'une autour de l'autre ?",
+        "reponse": "Une étoile binaire",
+        "propositions": [
+          "Une étoile binaire",
+          "Un amas globulaire",
+          "Une exoplanète",
+          "Une variable céphéide"
+        ],
+        "explication": "On estime qu'une part importante des étoiles de la Voie lactée appartient à des systèmes binaires ou multiples."
+      },
+      {
+        "question": "Quelle planète du système solaire est inclinée sur le côté, avec un axe de rotation presque parallèle à son orbite ?",
+        "reponse": "Uranus",
+        "propositions": [
+          "Uranus",
+          "Neptune",
+          "Saturne",
+          "Mars"
+        ],
+        "explication": "L'axe d'Uranus est incliné d'environ 98 degrés, probablement à la suite d'un impact ancien."
       }
     ],
     "3": [
       {
         "question": "Quel mécanisme déclenche l'explosion d'une étoile massive en fin de vie, lors d'une supernova de type II ?",
         "reponse": "L'effondrement du cœur de fer",
-        "propositions": ["La fusion de l'hélium", "L'effondrement du cœur de fer", "La combustion du carbone", "L'instabilité de paire"],
+        "propositions": [
+          "La fusion de l'hélium",
+          "L'effondrement du cœur de fer",
+          "La combustion du carbone",
+          "L'instabilité de paire"
+        ],
         "explication": "Lorsque le cœur d'une étoile massive devient du fer, la fusion nucléaire ne peut plus produire d'énergie, provoquant un effondrement gravitationnel brutal."
       },
       {
         "question": "Quelle est la magnitude apparente approximative de l'étoile Polaire ?",
         "reponse": "Environ +2",
-        "propositions": ["Environ -5", "Environ +2", "Environ +8", "Environ +15"],
+        "propositions": [
+          "Environ -5",
+          "Environ +2",
+          "Environ +8",
+          "Environ +15"
+        ],
         "explication": "L'étoile Polaire a une magnitude apparente d'environ 1,98, la rendant visible à l'œil nu mais loin d'être la plus brillante du ciel."
       },
       {
         "question": "Comment appelle-t-on le paramètre H0, qui exprime le taux d'expansion actuel de l'univers ?",
         "reponse": "La constante de Hubble-Lemaître",
-        "propositions": ["La constante cosmologique", "La constante de Hubble-Lemaître", "Le paramètre de décélération", "La constante de Planck"],
+        "propositions": [
+          "La constante cosmologique",
+          "La constante de Hubble-Lemaître",
+          "Le paramètre de décélération",
+          "La constante de Planck"
+        ],
         "explication": "La constante de Hubble-Lemaître exprime la vitesse d'éloignement des galaxies en fonction de leur distance."
       },
       {
         "question": "Comment appelle-t-on le disque de matière et de gaz en orbite autour d'un trou noir en accrétion, qui émet un fort rayonnement X ?",
         "reponse": "Le disque d'accrétion",
-        "propositions": ["L'horizon des événements", "Le disque d'accrétion", "L'ergosphère", "Le jet relativiste"],
+        "propositions": [
+          "L'horizon des événements",
+          "Le disque d'accrétion",
+          "L'ergosphère",
+          "Le jet relativiste"
+        ],
         "explication": "La matière qui spirale vers un trou noir se réchauffe intensément par friction et émet un rayonnement X caractéristique."
       },
       {
         "question": "Quelle mission de la NASA a délibérément percuté l'astéroïde Dimorphos en 2022 pour tester une technique de défense planétaire ?",
         "reponse": "La mission DART",
-        "propositions": ["La mission DART", "La mission OSIRIS-REx", "La mission Lucy", "La mission Hayabusa2"],
+        "propositions": [
+          "La mission DART",
+          "La mission OSIRIS-REx",
+          "La mission Lucy",
+          "La mission Hayabusa2"
+        ],
         "explication": "DART (Double Asteroid Redirection Test) a modifié avec succès l'orbite de Dimorphos autour de son astéroïde principal, Didymos."
+      },
+      {
+        "question": "Quelle loi de Kepler énonce que le carré de la période orbitale d'une planète est proportionnel au cube du demi-grand axe de son orbite ?",
+        "reponse": "La troisième loi de Kepler",
+        "propositions": [
+          "La première loi de Kepler",
+          "La deuxième loi de Kepler",
+          "La troisième loi de Kepler",
+          "La loi de Titius-Bode"
+        ],
+        "explication": "Cette loi, publiée en 1619, relie mathématiquement la distance au Soleil et la durée de révolution des planètes."
+      },
+      {
+        "question": "Comment appelle-t-on la limite théorique de masse au-delà de laquelle une naine blanche s'effondre en étoile à neutrons ou explose en supernova ?",
+        "reponse": "La limite de Chandrasekhar",
+        "propositions": [
+          "La limite de Chandrasekhar",
+          "La limite d'Eddington",
+          "Le rayon de Schwarzschild",
+          "La limite de Roche"
+        ],
+        "explication": "Cette limite, d'environ 1,4 masse solaire, a été calculée par l'astrophysicien Subrahmanyan Chandrasekhar."
+      },
+      {
+        "question": "Quel phénomène, prédit par la relativité générale, courbe la trajectoire de la lumière autour d'un objet massif ?",
+        "reponse": "La lentille gravitationnelle",
+        "propositions": [
+          "La lentille gravitationnelle",
+          "Le décalage vers le rouge",
+          "L'effet Doppler",
+          "La précession du périhélie"
+        ],
+        "explication": "Ce phénomène permet notamment d'observer des galaxies très lointaines déformées ou multipliées."
+      },
+      {
+        "question": "Quelle sonde de l'ESA, lancée en 2004, s'est posée sur le noyau d'une comète en 2014 via son atterrisseur Philae ?",
+        "reponse": "Rosetta",
+        "propositions": [
+          "Rosetta",
+          "Giotto",
+          "Cassini-Huygens",
+          "BepiColombo"
+        ],
+        "explication": "Rosetta a accompagné la comète 67P/Tchourioumov-Guérassimenko pendant plus de deux ans."
+      },
+      {
+        "question": "Comment appelle-t-on la région entourant un trou noir au-delà de laquelle rien, pas même la lumière, ne peut s'échapper ?",
+        "reponse": "L'horizon des événements",
+        "propositions": [
+          "L'horizon des événements",
+          "Le disque d'accrétion",
+          "L'ergosphère",
+          "La singularité"
+        ],
+        "explication": "Une fois franchi l'horizon des événements, aucune information ne peut plus revenir vers l'extérieur."
+      },
+      {
+        "question": "Quelle méthode de détection d'exoplanètes mesure la légère baisse de luminosité d'une étoile lors du passage d'une planète devant elle ?",
+        "reponse": "La méthode des transits",
+        "propositions": [
+          "La méthode des transits",
+          "La méthode des vitesses radiales",
+          "L'imagerie directe",
+          "La microlentille gravitationnelle"
+        ],
+        "explication": "Le télescope spatial Kepler a utilisé cette méthode pour découvrir des milliers d'exoplanètes."
+      },
+      {
+        "question": "Quel astronome américain a établi en 1929 la relation entre la distance des galaxies et leur vitesse d'éloignement, preuve de l'expansion de l'univers ?",
+        "reponse": "Edwin Hubble",
+        "propositions": [
+          "Edwin Hubble",
+          "Carl Sagan",
+          "Georges Lemaître",
+          "Fred Hoyle"
+        ],
+        "explication": "Cette relation, aujourd'hui appelée loi de Hubble-Lemaître, a fondé la cosmologie moderne."
+      },
+      {
+        "question": "Comment appelle-t-on un noyau galactique extrêmement lumineux, alimenté par un trou noir supermassif en accrétion ?",
+        "reponse": "Un quasar",
+        "propositions": [
+          "Un quasar",
+          "Un pulsar",
+          "Un magnétar",
+          "Un blazar"
+        ],
+        "explication": "Un quasar peut être des milliers de fois plus lumineux que toute une galaxie ordinaire."
+      },
+      {
+        "question": "Quelle mission a fourni les premières images rapprochées de Pluton en 2015, révélant notamment sa région en forme de cœur ?",
+        "reponse": "New Horizons",
+        "propositions": [
+          "New Horizons",
+          "Voyager 1",
+          "Cassini-Huygens",
+          "Juno"
+        ],
+        "explication": "La région en forme de cœur observée par New Horizons a été surnommée Tombaugh Regio."
+      },
+      {
+        "question": "Comment appelle-t-on une étoile pulsante à neutrons émettant des faisceaux réguliers de rayonnement, détectée sous forme d'impulsions périodiques ?",
+        "reponse": "Un pulsar",
+        "propositions": [
+          "Un pulsar",
+          "Un quasar",
+          "Un magnétar",
+          "Une céphéide"
+        ],
+        "explication": "Le premier pulsar a été découvert en 1967 par Jocelyn Bell Burnell."
       }
     ]
   }

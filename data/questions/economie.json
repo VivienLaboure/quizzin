@@ -5,96 +5,501 @@
       {
         "question": "Comment appelle-t-on un impôt dont le taux augmente avec le niveau de revenu ?",
         "reponse": "Un impôt progressif",
-        "propositions": ["Un impôt proportionnel", "Un impôt progressif", "Un impôt forfaitaire", "Un impôt régressif"],
+        "propositions": [
+          "Un impôt proportionnel",
+          "Un impôt progressif",
+          "Un impôt forfaitaire",
+          "Un impôt régressif"
+        ],
         "explication": "Plus le revenu est élevé, plus le taux d'imposition progressif augmente, contrairement à un impôt proportionnel à taux fixe."
       },
       {
         "question": "Comment appelle-t-on ce à quoi on renonce en choisissant une option économique plutôt qu'une autre ?",
         "reponse": "Le coût d'opportunité",
-        "propositions": ["Le coût marginal", "Le coût d'opportunité", "Le coût fixe", "La valeur ajoutée"],
+        "propositions": [
+          "Le coût marginal",
+          "Le coût d'opportunité",
+          "Le coût fixe",
+          "La valeur ajoutée"
+        ],
         "explication": "Le coût d'opportunité représente la meilleure alternative à laquelle on renonce en faisant un choix."
       },
       {
         "question": "Comment appelle-t-on la hausse continue et généralisée des prix dans une économie sur une période donnée ?",
         "reponse": "L'inflation",
-        "propositions": ["La déflation", "L'inflation", "La désinflation", "La stagflation"],
+        "propositions": [
+          "La déflation",
+          "L'inflation",
+          "La désinflation",
+          "La stagflation"
+        ],
         "explication": "L'inflation correspond à une perte du pouvoir d'achat de la monnaie liée à la hausse générale des prix."
       },
       {
         "question": "Comment appelle-t-on une entreprise dont les actions s'échangent librement sur un marché boursier réglementé ?",
         "reponse": "Une société cotée",
-        "propositions": ["Une société civile", "Une société cotée", "Une société en commandite", "Une association"],
+        "propositions": [
+          "Une société civile",
+          "Une société cotée",
+          "Une société en commandite",
+          "Une association"
+        ],
         "explication": "Une société cotée voit ses actions s'échanger sur une bourse de valeurs, contrairement à une société non cotée."
       },
       {
         "question": "Comment appelle-t-on le document qui récapitule les recettes et dépenses prévisionnelles de l'État français pour une année ?",
         "reponse": "Le budget de l'État",
-        "propositions": ["Le bilan comptable", "Le budget de l'État", "Le rapport annuel", "Le plan quinquennal"],
+        "propositions": [
+          "Le bilan comptable",
+          "Le budget de l'État",
+          "Le rapport annuel",
+          "Le plan quinquennal"
+        ],
         "explication": "En France, le budget de l'État est voté chaque année par le Parlement sous la forme de la loi de finances."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des biens et services qu'un consommateur peut acheter avec son revenu ?",
+        "reponse": "Le pouvoir d'achat",
+        "propositions": [
+          "Le pouvoir d'achat",
+          "Le PIB",
+          "L'épargne",
+          "Le taux de change"
+        ],
+        "explication": "Le pouvoir d'achat dépend du revenu disponible et du niveau général des prix."
+      },
+      {
+        "question": "Comment appelle-t-on l'argent mis de côté plutôt que dépensé ?",
+        "reponse": "L'épargne",
+        "propositions": [
+          "L'épargne",
+          "Le crédit",
+          "L'investissement",
+          "Le dividende"
+        ],
+        "explication": "L'épargne peut ensuite être placée ou investie."
+      },
+      {
+        "question": "Comment appelle-t-on une entreprise qui n'a qu'un seul propriétaire ?",
+        "reponse": "Une entreprise individuelle",
+        "propositions": [
+          "Une entreprise individuelle",
+          "Une société anonyme",
+          "Une coopérative",
+          "Un consortium"
+        ],
+        "explication": "L'entreprise individuelle n'a pas de personnalité juridique distincte de celle de son propriétaire."
+      },
+      {
+        "question": "Comment appelle-t-on le prix auquel s'échange une monnaie contre une autre ?",
+        "reponse": "Le taux de change",
+        "propositions": [
+          "Le taux d'intérêt",
+          "Le taux de change",
+          "Le taux d'inflation",
+          "Le taux d'épargne"
+        ],
+        "explication": "Le taux de change fluctue selon l'offre et la demande sur le marché des changes."
+      },
+      {
+        "question": "Comment appelle-t-on la rencontre entre l'offre et la demande d'un bien ?",
+        "reponse": "Le marché",
+        "propositions": [
+          "Le marché",
+          "Le monopole",
+          "Le cartel",
+          "L'oligopole"
+        ],
+        "explication": "Le prix d'équilibre se forme théoriquement au point où l'offre égale la demande."
+      },
+      {
+        "question": "Comment appelle-t-on la situation où une seule entreprise domine entièrement un marché ?",
+        "reponse": "Un monopole",
+        "propositions": [
+          "Un monopole",
+          "Un duopole",
+          "La concurrence pure",
+          "Un cartel"
+        ],
+        "explication": "En situation de monopole, l'entreprise unique peut fixer les prix sans concurrent direct."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des employés d'une entreprise ou d'un pays en âge de travailler ?",
+        "reponse": "La population active",
+        "propositions": [
+          "La population active",
+          "Le capital humain",
+          "La main-d'œuvre qualifiée",
+          "Le taux d'emploi"
+        ],
+        "explication": "La population active regroupe les personnes ayant un emploi et celles qui en cherchent un."
+      },
+      {
+        "question": "Comment appelle-t-on l'argent qu'une banque prête à un client, à rembourser avec des intérêts ?",
+        "reponse": "Un crédit",
+        "propositions": [
+          "Un crédit",
+          "Un dividende",
+          "Une action",
+          "Une obligation"
+        ],
+        "explication": "Le crédit permet de financer un achat ou un investissement avant d'en avoir l'épargne complète."
+      },
+      {
+        "question": "Comment appelle-t-on la part des bénéfices d'une entreprise reversée à ses actionnaires ?",
+        "reponse": "Le dividende",
+        "propositions": [
+          "Le dividende",
+          "L'intérêt",
+          "La plus-value",
+          "La cotisation"
+        ],
+        "explication": "Le dividende est versé en fonction du nombre d'actions détenues."
+      },
+      {
+        "question": "Comment appelle-t-on la situation où une personne en âge de travailler et en recherche d'emploi n'en trouve pas ?",
+        "reponse": "Le chômage",
+        "propositions": [
+          "Le chômage",
+          "L'inactivité",
+          "La précarité",
+          "Le sous-emploi"
+        ],
+        "explication": "Le taux de chômage rapporte le nombre de chômeurs à la population active totale."
       }
     ],
     "2": [
       {
         "question": "Comment appelle-t-on la situation économique caractérisée par une stagnation de la croissance combinée à une inflation élevée ?",
         "reponse": "La stagflation",
-        "propositions": ["La déflation", "La stagflation", "La récession", "La surchauffe"],
+        "propositions": [
+          "La déflation",
+          "La stagflation",
+          "La récession",
+          "La surchauffe"
+        ],
         "explication": "Ce phénomène, observé notamment dans les années 1970, contredit la relation habituelle entre chômage et inflation."
       },
       {
         "question": "Quel indicateur mesure la différence entre les exportations et les importations d'un pays ?",
         "reponse": "La balance commerciale",
-        "propositions": ["La balance des paiements", "La balance commerciale", "Le compte de capital", "La parité de pouvoir d'achat"],
+        "propositions": [
+          "La balance des paiements",
+          "La balance commerciale",
+          "Le compte de capital",
+          "La parité de pouvoir d'achat"
+        ],
         "explication": "Une balance commerciale positive (excédent) signifie que le pays exporte plus qu'il n'importe."
       },
       {
         "question": "Comment appelle-t-on le taux auquel une banque centrale prête aux banques commerciales à très court terme ?",
         "reponse": "Le taux directeur",
-        "propositions": ["Le taux d'usure", "Le taux directeur", "Le taux de change", "Le taux d'épargne"],
+        "propositions": [
+          "Le taux d'usure",
+          "Le taux directeur",
+          "Le taux de change",
+          "Le taux d'épargne"
+        ],
         "explication": "En modulant son taux directeur, une banque centrale influence le coût du crédit dans toute l'économie."
       },
       {
         "question": "Comment appelle-t-on la réduction des coûts moyens de production obtenue par une entreprise en augmentant son volume produit ?",
         "reponse": "Les économies d'échelle",
-        "propositions": ["Les économies d'échelle", "La diversification", "L'intégration verticale", "L'externalisation"],
+        "propositions": [
+          "Les économies d'échelle",
+          "La diversification",
+          "L'intégration verticale",
+          "L'externalisation"
+        ],
         "explication": "Les économies d'échelle permettent de diluer les coûts fixes sur un plus grand nombre d'unités produites."
       },
       {
         "question": "Comment appelle-t-on une baisse administrée du taux de change d'une monnaie décidée par une banque centrale, dans un régime de changes fixes ?",
         "reponse": "Une dévaluation",
-        "propositions": ["Une dévaluation", "Une inflation importée", "Une spéculation", "Une parité fixe"],
+        "propositions": [
+          "Une dévaluation",
+          "Une inflation importée",
+          "Une spéculation",
+          "Une parité fixe"
+        ],
         "explication": "Contrairement à la dépréciation qui résulte du marché, la dévaluation est une décision administrative."
+      },
+      {
+        "question": "Comment appelle-t-on un marché où seules quelques entreprises se partagent l'offre ?",
+        "reponse": "Un oligopole",
+        "propositions": [
+          "Un monopole",
+          "Un oligopole",
+          "La concurrence pure et parfaite",
+          "Un monopsone"
+        ],
+        "explication": "L'oligopole se rencontre souvent dans des secteurs à forts coûts d'entrée, comme l'aéronautique."
+      },
+      {
+        "question": "Comment appelle-t-on la banque qui contrôle la politique monétaire d'un pays ou d'une zone monétaire ?",
+        "reponse": "La banque centrale",
+        "propositions": [
+          "La banque centrale",
+          "La banque d'investissement",
+          "La banque commerciale",
+          "La banque coopérative"
+        ],
+        "explication": "La banque centrale régule la masse monétaire et fixe généralement les taux directeurs."
+      },
+      {
+        "question": "Comment appelle-t-on la théorie économique selon laquelle chaque pays doit se spécialiser dans ce qu'il produit le plus efficacement ?",
+        "reponse": "L'avantage comparatif",
+        "propositions": [
+          "L'avantage comparatif",
+          "Le protectionnisme",
+          "L'autarcie",
+          "Le mercantilisme"
+        ],
+        "explication": "Cette théorie a été formulée par David Ricardo au début du XIXe siècle."
+      },
+      {
+        "question": "Comment appelle-t-on la baisse générale et durable des prix dans une économie ?",
+        "reponse": "La déflation",
+        "propositions": [
+          "L'inflation",
+          "La déflation",
+          "La désinflation",
+          "La stagflation"
+        ],
+        "explication": "La déflation peut décourager la consommation, les acheteurs anticipant des prix encore plus bas."
+      },
+      {
+        "question": "Comment appelle-t-on un droit de douane appliqué aux produits importés pour protéger la production nationale ?",
+        "reponse": "Un tarif douanier",
+        "propositions": [
+          "Un tarif douanier",
+          "Une subvention",
+          "Un quota",
+          "Une taxe carbone"
+        ],
+        "explication": "Les tarifs douaniers renchérissent le prix des importations pour favoriser les produits locaux."
+      },
+      {
+        "question": "Comment appelle-t-on l'indicateur qui mesure les inégalités de revenus au sein d'une population ?",
+        "reponse": "Le coefficient de Gini",
+        "propositions": [
+          "Le coefficient de Gini",
+          "L'indice de développement humain",
+          "Le PIB par habitant",
+          "L'indice des prix"
+        ],
+        "explication": "Le coefficient de Gini varie de 0 (égalité parfaite) à 1 (inégalité totale)."
+      },
+      {
+        "question": "Comment appelle-t-on une entreprise qui exerce des activités dans plusieurs pays via des filiales ?",
+        "reponse": "Une multinationale",
+        "propositions": [
+          "Une multinationale",
+          "Une coopérative",
+          "Une joint-venture",
+          "Un holding national"
+        ],
+        "explication": "Les multinationales représentent une part importante des échanges commerciaux internationaux."
+      },
+      {
+        "question": "Comment appelle-t-on le montant total de la dette accumulée par un État envers ses créanciers ?",
+        "reponse": "La dette publique",
+        "propositions": [
+          "La dette publique",
+          "Le déficit budgétaire",
+          "La dette privée",
+          "La dette souveraine extérieure"
+        ],
+        "explication": "La dette publique se distingue du déficit, qui mesure le déséquilibre budgétaire d'une seule année."
+      },
+      {
+        "question": "Comment appelle-t-on le processus par lequel les économies du monde deviennent de plus en plus interconnectées ?",
+        "reponse": "La mondialisation",
+        "propositions": [
+          "La mondialisation",
+          "La délocalisation",
+          "L'intégration régionale",
+          "La financiarisation"
+        ],
+        "explication": "La mondialisation s'est fortement accélérée depuis les années 1980-1990."
+      },
+      {
+        "question": "Comment appelle-t-on la valeur ajoutée par une entreprise après déduction de tous ses coûts de production ?",
+        "reponse": "Le bénéfice (profit)",
+        "propositions": [
+          "Le chiffre d'affaires",
+          "Le bénéfice (profit)",
+          "L'actif net",
+          "Le capital social"
+        ],
+        "explication": "Le bénéfice se distingue du chiffre d'affaires, qui ne tient pas compte des charges."
       }
     ],
     "3": [
       {
         "question": "Quel économiste est à l'origine du concept de 'destruction créatrice', décrivant le renouvellement permanent du capitalisme par l'innovation ?",
         "reponse": "Joseph Schumpeter",
-        "propositions": ["Joseph Schumpeter", "Friedrich Hayek", "Thorstein Veblen", "Vilfredo Pareto"],
+        "propositions": [
+          "Joseph Schumpeter",
+          "Friedrich Hayek",
+          "Thorstein Veblen",
+          "Vilfredo Pareto"
+        ],
         "explication": "Schumpeter développe ce concept dans 'Capitalisme, socialisme et démocratie' (1942)."
       },
       {
         "question": "Comment appelle-t-on la courbe représentant la relation inverse observée entre taux de chômage et taux d'inflation ?",
         "reponse": "La courbe de Phillips",
-        "propositions": ["La courbe de Laffer", "La courbe de Phillips", "La courbe de Lorenz", "La courbe IS-LM"],
+        "propositions": [
+          "La courbe de Laffer",
+          "La courbe de Phillips",
+          "La courbe de Lorenz",
+          "La courbe IS-LM"
+        ],
         "explication": "Formulée par l'économiste néo-zélandais William Phillips en 1958, cette relation a depuis été fortement nuancée, notamment par les épisodes de stagflation."
       },
       {
         "question": "Quel modèle macroéconomique, développé par John Hicks en 1937, relie le marché des biens (IS) et le marché de la monnaie (LM) ?",
         "reponse": "Le modèle IS-LM",
-        "propositions": ["Le modèle IS-LM", "Le modèle AS-AD", "Le modèle de Solow", "Le modèle de Mundell-Fleming"],
+        "propositions": [
+          "Le modèle IS-LM",
+          "Le modèle AS-AD",
+          "Le modèle de Solow",
+          "Le modèle de Mundell-Fleming"
+        ],
         "explication": "Ce modèle synthétise les idées keynésiennes en un cadre d'équilibre simultané entre investissement/épargne et liquidité/monnaie."
       },
       {
         "question": "Quel économiste américain a développé la théorie du revenu permanent, selon laquelle la consommation dépend du revenu anticipé sur le long terme ?",
         "reponse": "Milton Friedman",
-        "propositions": ["Milton Friedman", "Paul Samuelson", "Robert Solow", "James Tobin"],
+        "propositions": [
+          "Milton Friedman",
+          "Paul Samuelson",
+          "Robert Solow",
+          "James Tobin"
+        ],
         "explication": "Friedman développe cette théorie en 1957 pour expliquer pourquoi les ménages lissent leur consommation malgré des variations de revenu ponctuelles."
       },
       {
         "question": "Quel modèle de croissance économique, publié par Robert Solow en 1956, attribue la croissance de long terme au progrès technique plutôt qu'à la seule accumulation de capital ?",
         "reponse": "Le modèle de croissance de Solow",
-        "propositions": ["Le modèle de croissance de Solow", "Le modèle de Harrod-Domar", "Le modèle de Ramsey", "Le modèle de Lucas"],
+        "propositions": [
+          "Le modèle de croissance de Solow",
+          "Le modèle de Harrod-Domar",
+          "Le modèle de Ramsey",
+          "Le modèle de Lucas"
+        ],
         "explication": "Ce modèle vaut à Robert Solow le prix Nobel d'économie en 1987."
+      },
+      {
+        "question": "Quel économiste britannique du XXe siècle prône l'intervention de l'État pour relancer la demande en période de crise ?",
+        "reponse": "John Maynard Keynes",
+        "propositions": [
+          "John Maynard Keynes",
+          "Friedrich Hayek",
+          "Milton Friedman",
+          "Ludwig von Mises"
+        ],
+        "explication": "Keynes publie sa 'Théorie générale' en 1936, en pleine Grande Dépression."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène par lequel une monnaie perd de la valeur face aux autres devises sous l'effet des marchés (sans décision administrative) ?",
+        "reponse": "Une dépréciation",
+        "propositions": [
+          "Une dépréciation",
+          "Une dévaluation",
+          "Une réévaluation",
+          "Une parité fixe"
+        ],
+        "explication": "Contrairement à la dévaluation, décidée par une autorité, la dépréciation résulte du marché des changes flottants."
+      },
+      {
+        "question": "Quel économiste autrichien est célèbre pour sa défense du libéralisme économique dans 'La Route de la servitude' (1944) ?",
+        "reponse": "Friedrich Hayek",
+        "propositions": [
+          "Friedrich Hayek",
+          "John Maynard Keynes",
+          "Karl Marx",
+          "Joseph Schumpeter"
+        ],
+        "explication": "Hayek a reçu le prix Nobel d'économie en 1974 pour ses travaux sur les cycles économiques."
+      },
+      {
+        "question": "Comment appelle-t-on la théorie selon laquelle la quantité de monnaie en circulation détermine directement le niveau général des prix ?",
+        "reponse": "Le monétarisme",
+        "propositions": [
+          "Le monétarisme",
+          "Le keynésianisme",
+          "Le structuralisme",
+          "Le marxisme"
+        ],
+        "explication": "Milton Friedman est la figure principale du monétarisme, développé au XXe siècle."
+      },
+      {
+        "question": "Quel accord de 1944 a instauré un système de changes fixes basé sur le dollar, lui-même convertible en or ?",
+        "reponse": "Les accords de Bretton Woods",
+        "propositions": [
+          "Les accords de Bretton Woods",
+          "Les accords du Plaza",
+          "Le traité de Maastricht",
+          "Les accords du GATT"
+        ],
+        "explication": "Ce système a été abandonné en 1971 avec la fin de la convertibilité du dollar en or."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des biens qu'un pays achète à l'étranger ?",
+        "reponse": "Les importations",
+        "propositions": [
+          "Les importations",
+          "Les exportations",
+          "Le solde courant",
+          "La balance des capitaux"
+        ],
+        "explication": "Le solde entre importations et exportations forme la balance commerciale."
+      },
+      {
+        "question": "Quel économiste français a théorisé, au XIXe siècle, l'idée que 'l'offre crée sa propre demande' ?",
+        "reponse": "Jean-Baptiste Say",
+        "propositions": [
+          "Jean-Baptiste Say",
+          "Léon Walras",
+          "Frédéric Bastiat",
+          "Auguste Blanqui"
+        ],
+        "explication": "Cette proposition est connue sous le nom de 'loi des débouchés' ou 'loi de Say'."
+      },
+      {
+        "question": "Comment appelle-t-on la théorie qui étudie les décisions des individus au sein de petits groupes, comme les entreprises ou les ménages ?",
+        "reponse": "La microéconomie",
+        "propositions": [
+          "La microéconomie",
+          "La macroéconomie",
+          "L'économétrie",
+          "L'économie comportementale"
+        ],
+        "explication": "Elle s'oppose à la macroéconomie, qui étudie les agrégats à l'échelle nationale ou mondiale."
+      },
+      {
+        "question": "Quel économiste indien a reçu le prix Nobel d'économie en 1998 pour ses travaux sur la pauvreté et le développement ?",
+        "reponse": "Amartya Sen",
+        "propositions": [
+          "Amartya Sen",
+          "Abhijit Banerjee",
+          "Muhammad Yunus",
+          "Jagdish Bhagwati"
+        ],
+        "explication": "Sen a notamment développé l'approche par les 'capabilités' pour mesurer le bien-être."
+      },
+      {
+        "question": "Comment appelle-t-on un bien dont la consommation par une personne n'empêche pas sa consommation par une autre, et dont personne ne peut être exclu ?",
+        "reponse": "Un bien public",
+        "propositions": [
+          "Un bien public",
+          "Un bien privé",
+          "Un bien de club",
+          "Une ressource commune"
+        ],
+        "explication": "L'éclairage public ou la défense nationale sont des exemples classiques de biens publics."
       }
     ]
   }

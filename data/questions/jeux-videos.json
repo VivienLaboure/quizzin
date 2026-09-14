@@ -5,96 +5,501 @@
       {
         "question": "Quel studio japonais a développé et édite la série 'The Legend of Zelda' ?",
         "reponse": "Nintendo",
-        "propositions": ["Sega", "Nintendo", "Capcom", "Square Enix"],
+        "propositions": [
+          "Sega",
+          "Nintendo",
+          "Capcom",
+          "Square Enix"
+        ],
         "explication": "Nintendo développe la série Zelda depuis 1986, notamment via son studio interne EAD."
       },
       {
         "question": "Dans quel jeu de plateforme les joueurs incarnent-ils un hérisson bleu ultra-rapide ?",
         "reponse": "Sonic the Hedgehog",
-        "propositions": ["Crash Bandicoot", "Sonic the Hedgehog", "Rayman", "Spyro"],
+        "propositions": [
+          "Crash Bandicoot",
+          "Sonic the Hedgehog",
+          "Rayman",
+          "Spyro"
+        ],
         "explication": "Sonic est la mascotte de Sega, créée en 1991 pour concurrencer Mario."
       },
       {
         "question": "Quel jeu de construction en monde ouvert, créé par Markus Persson ('Notch'), est le jeu vidéo le plus vendu de l'histoire ?",
         "reponse": "Minecraft",
-        "propositions": ["Roblox", "Minecraft", "Terraria", "Fortnite"],
+        "propositions": [
+          "Roblox",
+          "Minecraft",
+          "Terraria",
+          "Fortnite"
+        ],
         "explication": "Minecraft, sorti en 2011, s'est vendu à plus de 300 millions d'exemplaires et a été racheté par Microsoft en 2014."
       },
       {
         "question": "Quelle entreprise a développé la console PlayStation, lancée en 1994 ?",
         "reponse": "Sony",
-        "propositions": ["Sony", "Sega", "Nintendo", "Atari"],
+        "propositions": [
+          "Sony",
+          "Sega",
+          "Nintendo",
+          "Atari"
+        ],
         "explication": "La première PlayStation, sortie en 1994 au Japon, marque l'entrée de Sony sur le marché des consoles."
       },
       {
         "question": "Quelle série de jeux de rôle et d'aventure met en scène le chasseur de monstres Geralt de Riv ?",
         "reponse": "The Witcher",
-        "propositions": ["Dragon Age", "The Witcher", "Skyrim", "Dark Souls"],
+        "propositions": [
+          "Dragon Age",
+          "The Witcher",
+          "Skyrim",
+          "Dark Souls"
+        ],
         "explication": "La série The Witcher, développée par CD Projekt Red, s'inspire des romans de l'écrivain polonais Andrzej Sapkowski."
+      },
+      {
+        "question": "Quel jeu vidéo de bataille royale, sorti en 2017, est développé par Epic Games ?",
+        "reponse": "Fortnite",
+        "propositions": [
+          "Fortnite",
+          "PUBG",
+          "Apex Legends",
+          "Warzone"
+        ],
+        "explication": "Fortnite est devenu un phénomène culturel mondial dès sa sortie du mode Battle Royale."
+      },
+      {
+        "question": "Quel plombier moustachu, mascotte de Nintendo, doit sauver la princesse Peach ?",
+        "reponse": "Mario",
+        "propositions": [
+          "Mario",
+          "Luigi",
+          "Wario",
+          "Toad"
+        ],
+        "explication": "Mario est apparu pour la première fois dans le jeu d'arcade 'Donkey Kong' en 1981."
+      },
+      {
+        "question": "Quel jeu de tir en équipe, développé par Blizzard, met en scène des héros aux capacités variées ?",
+        "reponse": "Overwatch",
+        "propositions": [
+          "Overwatch",
+          "Valorant",
+          "Apex Legends",
+          "Team Fortress 2"
+        ],
+        "explication": "Overwatch est sorti en 2016 et a popularisé le genre du 'hero shooter'."
+      },
+      {
+        "question": "Quelle console de jeu portable, sortie par Nintendo en 2017, se connecte aussi à une télévision ?",
+        "reponse": "La Nintendo Switch",
+        "propositions": [
+          "La Nintendo Switch",
+          "La PS Vita",
+          "La Nintendo 3DS",
+          "La Steam Deck"
+        ],
+        "explication": "La Switch combine usage portable et usage sur téléviseur grâce à son dock."
+      },
+      {
+        "question": "Quel jeu de simulation de vie et de gestion d'île, développé par Nintendo, a connu un immense succès en 2020 ?",
+        "reponse": "Animal Crossing: New Horizons",
+        "propositions": [
+          "Animal Crossing: New Horizons",
+          "Stardew Valley",
+          "The Sims 4",
+          "Farming Simulator"
+        ],
+        "explication": "Sorti en pleine pandémie de Covid-19, le jeu a battu plusieurs records de ventes."
+      },
+      {
+        "question": "Quel personnage vert en forme de dinosaure accompagne souvent Mario dans ses aventures ?",
+        "reponse": "Yoshi",
+        "propositions": [
+          "Yoshi",
+          "Kirby",
+          "Toad",
+          "Bowser"
+        ],
+        "explication": "Yoshi apparaît pour la première fois dans 'Super Mario World' en 1990."
+      },
+      {
+        "question": "Quel jeu vidéo de construction et de survie, sorti en 2011, permet de bâtir des mondes en blocs cubiques ?",
+        "reponse": "Minecraft",
+        "propositions": [
+          "Minecraft",
+          "Terraria",
+          "Roblox",
+          "Lego Worlds"
+        ],
+        "explication": "Minecraft a été créé par le studio suédois Mojang."
+      },
+      {
+        "question": "Quel personnage rouge à casquette est le rival éternel de Sonic chez Sega ?",
+        "reponse": "Knuckles",
+        "propositions": [
+          "Knuckles",
+          "Tails",
+          "Shadow",
+          "Eggman"
+        ],
+        "explication": "Knuckles est apparu pour la première fois dans 'Sonic the Hedgehog 3' en 1994."
+      },
+      {
+        "question": "Quel jeu de plateforme met en scène un chasseur de trésors nommé Nathan Drake ?",
+        "reponse": "Uncharted",
+        "propositions": [
+          "Uncharted",
+          "Tomb Raider",
+          "Indiana Jones",
+          "Assassin's Creed"
+        ],
+        "explication": "La série 'Uncharted' est développée par le studio Naughty Dog."
+      },
+      {
+        "question": "Quel jeu de course automobile met en scène des personnages de l'univers Nintendo sur circuit ?",
+        "reponse": "Mario Kart",
+        "propositions": [
+          "Mario Kart",
+          "Crash Team Racing",
+          "Sonic Racing",
+          "Diddy Kong Racing"
+        ],
+        "explication": "'Mario Kart' est apparu pour la première fois sur Super Nintendo en 1992."
       }
     ],
     "2": [
       {
         "question": "Quel jeu de rôle japonais, développé par Square et sorti en 1997, met en scène le personnage Cloud Strife ?",
         "reponse": "Final Fantasy VII",
-        "propositions": ["Final Fantasy VI", "Final Fantasy VII", "Chrono Trigger", "Kingdom Hearts"],
+        "propositions": [
+          "Final Fantasy VI",
+          "Final Fantasy VII",
+          "Chrono Trigger",
+          "Kingdom Hearts"
+        ],
         "explication": "Sorti sur PlayStation, Final Fantasy VII est considéré comme l'un des jeux les plus influents du genre RPG."
       },
       {
         "question": "Quel studio, dirigé par Hidetaka Miyazaki, a développé la série 'Dark Souls' et popularisé le sous-genre 'souls-like' ?",
         "reponse": "FromSoftware",
-        "propositions": ["FromSoftware", "Team Ninja", "Capcom", "Konami"],
+        "propositions": [
+          "FromSoftware",
+          "Team Ninja",
+          "Capcom",
+          "Konami"
+        ],
         "explication": "FromSoftware s'est fait connaître à partir de 2011 pour la difficulté élevée et le level design interconnecté de ses jeux."
       },
       {
         "question": "Quel jeu de simulation de vie, sorti en 2020 sur Nintendo Switch, a connu un succès massif pendant la pandémie de COVID-19 ?",
         "reponse": "Animal Crossing: New Horizons",
-        "propositions": ["Stardew Valley", "Animal Crossing: New Horizons", "My Time at Portia", "Story of Seasons"],
+        "propositions": [
+          "Stardew Valley",
+          "Animal Crossing: New Horizons",
+          "My Time at Portia",
+          "Story of Seasons"
+        ],
         "explication": "Le jeu s'est vendu à plus de 40 millions d'exemplaires, porté par le contexte des confinements de 2020."
       },
       {
         "question": "Quel personnage rose et rond de Nintendo, capable d'aspirer ses ennemis, est apparu pour la première fois en 1992 ?",
         "reponse": "Kirby",
-        "propositions": ["Kirby", "Yoshi", "Peach", "Toad"],
+        "propositions": [
+          "Kirby",
+          "Yoshi",
+          "Peach",
+          "Toad"
+        ],
         "explication": "Kirby est apparu dans 'Kirby's Dream Land' sur Game Boy en 1992."
       },
       {
         "question": "Quel jeu de tir tactique en 5 contre 5, développé par Riot Games et sorti en 2020, s'inspire directement de Counter-Strike ?",
         "reponse": "Valorant",
-        "propositions": ["Valorant", "Apex Legends", "Rainbow Six Siege", "Overwatch"],
+        "propositions": [
+          "Valorant",
+          "Apex Legends",
+          "Rainbow Six Siege",
+          "Overwatch"
+        ],
         "explication": "Valorant combine le gunplay précis de Counter-Strike avec des capacités de héros inspirées d'Overwatch."
+      },
+      {
+        "question": "Quel studio a développé la série 'God of War', mettant en scène Kratos ?",
+        "reponse": "Santa Monica Studio",
+        "propositions": [
+          "Santa Monica Studio",
+          "Naughty Dog",
+          "Insomniac Games",
+          "Guerrilla Games"
+        ],
+        "explication": "Santa Monica Studio, filiale de Sony, développe la série depuis 2005."
+      },
+      {
+        "question": "Quel jeu vidéo de rôle et d'action, développé par CD Projekt Red, se déroule dans une ville futuriste dystopique ?",
+        "reponse": "Cyberpunk 2077",
+        "propositions": [
+          "Cyberpunk 2077",
+          "Deus Ex",
+          "Death Stranding",
+          "Watch Dogs"
+        ],
+        "explication": "Le jeu, sorti en 2020, est adapté du jeu de rôle sur table 'Cyberpunk 2020'."
+      },
+      {
+        "question": "Quel jeu de rôle japonais, sorti en 2017, met en scène le héros Link dans un vaste monde ouvert appelé Hyrule ?",
+        "reponse": "The Legend of Zelda: Breath of the Wild",
+        "propositions": [
+          "The Legend of Zelda: Breath of the Wild",
+          "The Legend of Zelda: Ocarina of Time",
+          "The Legend of Zelda: Majora's Mask",
+          "The Legend of Zelda: Skyward Sword"
+        ],
+        "explication": "Ce jeu a marqué un tournant dans la série en adoptant une structure en monde ouvert."
+      },
+      {
+        "question": "Quel studio suédois-américain a développé la franchise 'Battlefield' ?",
+        "reponse": "DICE",
+        "propositions": [
+          "DICE",
+          "Infinity Ward",
+          "Treyarch",
+          "Respawn Entertainment"
+        ],
+        "explication": "DICE (Digital Illusions CE) est une filiale d'Electronic Arts basée à Stockholm."
+      },
+      {
+        "question": "Quel jeu vidéo narratif, développé par Naughty Dog, met en scène Joel et Ellie dans un monde post-apocalyptique ?",
+        "reponse": "The Last of Us",
+        "propositions": [
+          "The Last of Us",
+          "Days Gone",
+          "Death Stranding",
+          "A Plague Tale"
+        ],
+        "explication": "'The Last of Us' est sorti en 2013 et a reçu de nombreuses récompenses pour son scénario."
+      },
+      {
+        "question": "Quel jeu de simulation de vie, créé par Will Wright et sorti en 2000, est l'une des franchises les plus vendues de l'histoire ?",
+        "reponse": "Les Sims",
+        "propositions": [
+          "Les Sims",
+          "SimCity",
+          "Animal Crossing",
+          "The Sims Social"
+        ],
+        "explication": "'Les Sims' a été édité par Electronic Arts et a donné naissance à plusieurs suites et extensions."
+      },
+      {
+        "question": "Quel jeu vidéo de rôle et d'action, développé par le studio FromSoftware, se déroule dans les Terres Intermédiaires en 2022 ?",
+        "reponse": "Elden Ring",
+        "propositions": [
+          "Elden Ring",
+          "Dark Souls III",
+          "Bloodborne",
+          "Sekiro"
+        ],
+        "explication": "Elden Ring a été conçu en collaboration avec l'écrivain George R. R. Martin pour son univers."
+      },
+      {
+        "question": "Quel jeu de tir à la première personne, sorti en 2007, a popularisé le mode multijoueur moderne militaire avec 'Call of Duty' ?",
+        "reponse": "Call of Duty 4: Modern Warfare",
+        "propositions": [
+          "Call of Duty 4: Modern Warfare",
+          "Call of Duty: World at War",
+          "Battlefield 2",
+          "Halo 3"
+        ],
+        "explication": "Ce jeu a introduit un système de progression par niveaux qui a influencé tout le genre."
+      },
+      {
+        "question": "Quel jeu vidéo japonais de rôle, sorti en 1997, met en scène le personnage Squall Leonhart ?",
+        "reponse": "Final Fantasy VIII",
+        "propositions": [
+          "Final Fantasy VIII",
+          "Final Fantasy VII",
+          "Final Fantasy IX",
+          "Final Fantasy X"
+        ],
+        "explication": "Final Fantasy VIII est sorti en 1999, réputé pour son système de 'Junction'."
+      },
+      {
+        "question": "Quel jeu vidéo de survie horreur, sorti en 1996, met en scène des zombies dans un manoir isolé ?",
+        "reponse": "Resident Evil",
+        "propositions": [
+          "Resident Evil",
+          "Silent Hill",
+          "Dead Space",
+          "The Evil Within"
+        ],
+        "explication": "'Resident Evil' a été développé par Capcom et a fondé le genre 'survival horror' moderne."
       }
     ],
     "3": [
       {
         "question": "Quel jeu du studio polonais 11 bit studios place le joueur à la tête d'un groupe de civils survivants dans une ville assiégée ?",
         "reponse": "This War of Mine",
-        "propositions": ["This War of Mine", "Frostpunk", "Papers, Please", "Valiant Hearts"],
+        "propositions": [
+          "This War of Mine",
+          "Frostpunk",
+          "Papers, Please",
+          "Valiant Hearts"
+        ],
         "explication": "Sorti en 2014, This War of Mine adopte le point de vue de civils plutôt que de soldats en temps de guerre."
       },
       {
         "question": "Quel jeu narratif, développé par Lucas Pope, met le joueur dans la peau d'un contrôleur douanier d'un régime totalitaire fictif nommé Arstotzka ?",
         "reponse": "Papers, Please",
-        "propositions": ["Return of the Obra Dinn", "Papers, Please", "The Stanley Parable", "Firewatch"],
+        "propositions": [
+          "Return of the Obra Dinn",
+          "Papers, Please",
+          "The Stanley Parable",
+          "Firewatch"
+        ],
         "explication": "Sorti en 2013, Papers, Please explore des dilemmes moraux à travers la bureaucratie d'un pays fictif."
       },
       {
         "question": "Quel studio belge a développé 'Baldur's Gate 3', sacré jeu de l'année en 2023 ?",
         "reponse": "Larian Studios",
-        "propositions": ["Bioware", "Larian Studios", "Obsidian Entertainment", "Owlcat Games"],
+        "propositions": [
+          "Bioware",
+          "Larian Studios",
+          "Obsidian Entertainment",
+          "Owlcat Games"
+        ],
         "explication": "Larian Studios adapte l'univers de Donjons et Dragons dans ce jeu de rôle sorti en 2023."
       },
       {
         "question": "Quel jeu expérimental de Jonathan Blow, sorti en 2008, utilise la manipulation du temps comme mécanique centrale de ses puzzles de plateforme ?",
         "reponse": "Braid",
-        "propositions": ["Braid", "Limbo", "Fez", "Inside"],
+        "propositions": [
+          "Braid",
+          "Limbo",
+          "Fez",
+          "Inside"
+        ],
         "explication": "Braid est considéré comme un jalon du renouveau du jeu vidéo indépendant à la fin des années 2000."
       },
       {
         "question": "Quel studio estonien a développé 'Disco Elysium', un jeu de rôle sans combat centré sur le dialogue et l'introspection d'un détective amnésique ?",
         "reponse": "ZA/UM",
-        "propositions": ["ZA/UM", "Obsidian Entertainment", "Inkle", "Failbetter Games"],
+        "propositions": [
+          "ZA/UM",
+          "Obsidian Entertainment",
+          "Inkle",
+          "Failbetter Games"
+        ],
         "explication": "Sorti en 2019, Disco Elysium est salué pour l'ampleur et la qualité de son écriture."
+      },
+      {
+        "question": "Quel jeu vidéo indépendant, développé par un seul créateur (Toby Fox), est sorti en 2015 avec des combats évitables ?",
+        "reponse": "Undertale",
+        "propositions": [
+          "Undertale",
+          "Celeste",
+          "Hollow Knight",
+          "Cave Story"
+        ],
+        "explication": "Undertale est célèbre pour son système moral où l'on peut terminer le jeu sans tuer aucun ennemi."
+      },
+      {
+        "question": "Quel studio français a développé le jeu 'Life is Strange', sorti en 2015 ?",
+        "reponse": "Dontnod Entertainment",
+        "propositions": [
+          "Dontnod Entertainment",
+          "Quantic Dream",
+          "Asobo Studio",
+          "Ubisoft Montpellier"
+        ],
+        "explication": "Dontnod est un studio basé à Paris, également connu pour 'Remember Me'."
+      },
+      {
+        "question": "Quel jeu vidéo de 2016, développé par Playdead, est le successeur spirituel de 'Limbo' ?",
+        "reponse": "Inside",
+        "propositions": [
+          "Inside",
+          "Little Nightmares",
+          "Oxenfree",
+          "Abzû"
+        ],
+        "explication": "'Inside' partage avec 'Limbo' une ambiance sombre en noir et blanc, teintée de couleur."
+      },
+      {
+        "question": "Quel jeu vidéo japonais de 2001, développé par Fumito Ueda, met en scène un jeune garçon cornu tentant de faire évader une princesse nommée Yorda d'un château ?",
+        "reponse": "Ico",
+        "propositions": [
+          "Ico",
+          "Shadow of the Colossus",
+          "The Last Guardian",
+          "Journey"
+        ],
+        "explication": "'Ico' a fortement influencé le design minimaliste de nombreux jeux narratifs ultérieurs, dont 'Shadow of the Colossus' du même créateur."
+      },
+      {
+        "question": "Quel jeu vidéo de rôle tactique, développé par le studio Owlcat Games, adapte l'univers de Pathfinder ?",
+        "reponse": "Pathfinder: Kingmaker",
+        "propositions": [
+          "Pathfinder: Kingmaker",
+          "Divinity: Original Sin",
+          "Pillars of Eternity",
+          "Wasteland 3"
+        ],
+        "explication": "Owlcat Games est un studio russe spécialisé dans les jeux de rôle inspirés du jeu de plateau."
+      },
+      {
+        "question": "Quel jeu vidéo expérimental de Jason Rohrer, sorti en 2007, résume la vie d'un homme en cinq minutes de jeu ?",
+        "reponse": "Passage",
+        "propositions": [
+          "Passage",
+          "Braid",
+          "The Beginner's Guide",
+          "Gris"
+        ],
+        "explication": "'Passage' est souvent cité comme un exemple précoce de jeu vidéo comme forme d'art personnel."
+      },
+      {
+        "question": "Quel studio polonais a développé la trilogie 'The Witcher', adaptée des romans d'Andrzej Sapkowski ?",
+        "reponse": "CD Projekt Red",
+        "propositions": [
+          "CD Projekt Red",
+          "11 bit studios",
+          "Techland",
+          "People Can Fly"
+        ],
+        "explication": "CD Projekt est également l'éditeur de la plateforme de distribution GOG.com."
+      },
+      {
+        "question": "Quel créateur japonais, ancien de Konami, a fondé le studio Kojima Productions après 'Metal Gear Solid V' ?",
+        "reponse": "Hideo Kojima",
+        "propositions": [
+          "Hideo Kojima",
+          "Shigeru Miyamoto",
+          "Hidetaka Miyazaki",
+          "Yoko Taro"
+        ],
+        "explication": "Kojima Productions a ensuite développé 'Death Stranding', sorti en 2019."
+      },
+      {
+        "question": "Quel studio français a développé le jeu de rôle 'Clair Obscur: Expedition 33', sorti en 2025 ?",
+        "reponse": "Sandfall Interactive",
+        "propositions": [
+          "Sandfall Interactive",
+          "Don't Nod",
+          "Quantic Dream",
+          "Asobo Studio"
+        ],
+        "explication": "Sandfall Interactive, studio parisien fondé en 2020, a été salué pour ce jeu de rôle au tour par tour."
+      },
+      {
+        "question": "Quel réalisateur de jeu japonais, connu pour son style narratif énigmatique, est l'auteur de 'NieR: Automata' ?",
+        "reponse": "Yoko Taro",
+        "propositions": [
+          "Yoko Taro",
+          "Hidetaka Miyazaki",
+          "Hideo Kojima",
+          "Goichi Suda"
+        ],
+        "explication": "'NieR: Automata' (2017) est développé par PlatinumGames sous la direction créative de Yoko Taro."
       }
     ]
   }

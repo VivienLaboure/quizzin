@@ -5,96 +5,501 @@
       {
         "question": "Quelle période de l'histoire se situe entre l'Antiquité et la Renaissance ?",
         "reponse": "Le Moyen Âge",
-        "propositions": ["Le Moyen Âge", "L'Antiquité", "Les Temps modernes", "La Préhistoire"],
+        "propositions": [
+          "Le Moyen Âge",
+          "L'Antiquité",
+          "Les Temps modernes",
+          "La Préhistoire"
+        ],
         "explication": "Le Moyen Âge s'étend traditionnellement de la chute de l'Empire romain d'Occident (476) à la fin du XVe siècle."
       },
       {
         "question": "Quel habitat fortifié, résidence des seigneurs, est emblématique du Moyen Âge ?",
         "reponse": "Le château fort",
-        "propositions": ["Le château fort", "Le palais", "La villa", "Le temple"],
+        "propositions": [
+          "Le château fort",
+          "Le palais",
+          "La villa",
+          "Le temple"
+        ],
         "explication": "Les châteaux forts se multiplient en Europe à partir du Xe siècle pour protéger et affirmer le pouvoir seigneurial."
       },
       {
         "question": "Quel empereur, couronné en l'an 800, a unifié une grande partie de l'Europe occidentale ?",
         "reponse": "Charlemagne",
-        "propositions": ["Charlemagne", "Clovis", "Charles Martel", "Hugues Capet"],
+        "propositions": [
+          "Charlemagne",
+          "Clovis",
+          "Charles Martel",
+          "Hugues Capet"
+        ],
         "explication": "Charlemagne est couronné empereur d'Occident par le pape Léon III le jour de Noël 800."
       },
       {
         "question": "Quelle terrible épidémie a décimé environ un tiers de la population européenne au XIVe siècle ?",
         "reponse": "La peste noire",
-        "propositions": ["La peste noire", "La variole", "Le choléra", "La grippe espagnole"],
+        "propositions": [
+          "La peste noire",
+          "La variole",
+          "Le choléra",
+          "La grippe espagnole"
+        ],
         "explication": "La peste noire frappe l'Europe entre 1347 et 1352, causant une mortalité massive."
       },
       {
         "question": "Quel type d'expéditions militaires religieuses, lancées dès 1095, visaient à reprendre Jérusalem ?",
         "reponse": "Les croisades",
-        "propositions": ["Les croisades", "La Reconquista", "Les invasions vikings", "Les grandes découvertes"],
+        "propositions": [
+          "Les croisades",
+          "La Reconquista",
+          "Les invasions vikings",
+          "Les grandes découvertes"
+        ],
         "explication": "Le pape Urbain II appelle à la première croisade en 1095 lors du concile de Clermont."
+      },
+      {
+        "question": "Comment appelle-t-on un combattant à cheval, souvent noble, au service d'un seigneur au Moyen Âge ?",
+        "reponse": "Un chevalier",
+        "propositions": [
+          "Un chevalier",
+          "Un vassal",
+          "Un serf",
+          "Un moine"
+        ],
+        "explication": "Le chevalier devait fidélité à son seigneur en échange de terres ou de protection."
+      },
+      {
+        "question": "Comment appelle-t-on les moines copistes qui recopiaient les manuscrits au Moyen Âge ?",
+        "reponse": "Des enlumineurs",
+        "propositions": [
+          "Des enlumineurs",
+          "Des troubadours",
+          "Des hérauts",
+          "Des clercs"
+        ],
+        "explication": "Les enlumineurs décoraient aussi les manuscrits de dessins colorés appelés enluminures."
+      },
+      {
+        "question": "Quel édifice religieux, avec ses arcs brisés et ses vitraux, est typique de l'architecture du Moyen Âge tardif ?",
+        "reponse": "La cathédrale gothique",
+        "propositions": [
+          "La cathédrale gothique",
+          "Le temple romain",
+          "La mosquée",
+          "La pagode"
+        ],
+        "explication": "Notre-Dame de Paris et la cathédrale de Chartres sont des exemples célèbres d'architecture gothique."
+      },
+      {
+        "question": "Comment appelle-t-on le seigneur le plus puissant, au sommet de la hiérarchie féodale ?",
+        "reponse": "Le roi",
+        "propositions": [
+          "Le roi",
+          "Le duc",
+          "Le comte",
+          "Le baron"
+        ],
+        "explication": "Au Moyen Âge, le roi est théoriquement le suzerain suprême, même si son pouvoir réel varie selon les époques."
+      },
+      {
+        "question": "Comment appelle-t-on un paysan attaché à la terre de son seigneur, sans être totalement libre ?",
+        "reponse": "Un serf",
+        "propositions": [
+          "Un serf",
+          "Un chevalier",
+          "Un vassal",
+          "Un bourgeois"
+        ],
+        "explication": "Le servage disparaît progressivement en France au cours du Moyen Âge et est aboli en 1789."
+      },
+      {
+        "question": "Quelle ville sainte, au cœur des croisades, était disputée entre chrétiens et musulmans au Moyen Âge ?",
+        "reponse": "Jérusalem",
+        "propositions": [
+          "Jérusalem",
+          "Constantinople",
+          "Rome",
+          "La Mecque"
+        ],
+        "explication": "Jérusalem est prise par les croisés en 1099 lors de la première croisade."
+      },
+      {
+        "question": "Comment appelle-t-on la cérémonie par laquelle un vassal jure fidélité à son seigneur ?",
+        "reponse": "L'hommage",
+        "propositions": [
+          "L'hommage",
+          "Le sacre",
+          "L'adoubement",
+          "Le tournoi"
+        ],
+        "explication": "Lors de l'hommage, le vassal mettait ses mains jointes dans celles de son seigneur."
+      },
+      {
+        "question": "Comment appelle-t-on la cérémonie marquant l'entrée officielle d'un jeune homme dans l'ordre de chevalerie ?",
+        "reponse": "L'adoubement",
+        "propositions": [
+          "L'adoubement",
+          "L'hommage",
+          "Le sacre",
+          "L'investiture"
+        ],
+        "explication": "L'adoubement comprenait souvent la remise d'une épée et un coup symbolique sur l'épaule."
+      },
+      {
+        "question": "Quel type de spectacle médiéval opposait des chevaliers en combat simulé à cheval, lance en main ?",
+        "reponse": "Le tournoi",
+        "propositions": [
+          "Le tournoi",
+          "Le sacre",
+          "La joute foraine",
+          "Le banquet"
+        ],
+        "explication": "Les tournois étaient à la fois un entraînement militaire et un divertissement pour la noblesse."
+      },
+      {
+        "question": "Comment appelle-t-on les poètes-musiciens qui chantaient l'amour courtois dans le sud de la France médiévale ?",
+        "reponse": "Les troubadours",
+        "propositions": [
+          "Les troubadours",
+          "Les trouvères",
+          "Les jongleurs",
+          "Les ménestrels"
+        ],
+        "explication": "Les trouvères, au nord de la France, jouaient un rôle similaire en langue d'oïl."
       }
     ],
     "2": [
       {
         "question": "Quel système social et politique du Moyen Âge repose sur des liens de vassalité entre seigneurs ?",
         "reponse": "La féodalité",
-        "propositions": ["La féodalité", "La démocratie", "La théocratie", "La république"],
+        "propositions": [
+          "La féodalité",
+          "La démocratie",
+          "La théocratie",
+          "La république"
+        ],
         "explication": "La féodalité organise la société autour de liens personnels d'allégeance entre suzerains et vassaux."
       },
       {
         "question": "Quelle dynastie franque, fondée par Clovis, précède les Carolingiens ?",
         "reponse": "Les Mérovingiens",
-        "propositions": ["Les Mérovingiens", "Les Carolingiens", "Les Capétiens", "Les Valois"],
+        "propositions": [
+          "Les Mérovingiens",
+          "Les Carolingiens",
+          "Les Capétiens",
+          "Les Valois"
+        ],
         "explication": "Clovis unifie les Francs à la fin du Ve siècle, fondant la dynastie mérovingienne."
       },
       {
         "question": "Quelle bataille de 732, remportée par Charles Martel, arrête une avancée musulmane en Gaule ?",
         "reponse": "La bataille de Poitiers",
-        "propositions": ["La bataille de Poitiers", "La bataille de Bouvines", "La bataille de Hastings", "La bataille de Roncevaux"],
+        "propositions": [
+          "La bataille de Poitiers",
+          "La bataille de Bouvines",
+          "La bataille de Hastings",
+          "La bataille de Roncevaux"
+        ],
         "explication": "Charles Martel stoppe les troupes omeyyades près de Poitiers en 732."
       },
       {
         "question": "Quel roi de France, sacré en 987, fonde la dynastie des Capétiens ?",
         "reponse": "Hugues Capet",
-        "propositions": ["Hugues Capet", "Robert le Pieux", "Philippe Auguste", "Louis VI"],
+        "propositions": [
+          "Hugues Capet",
+          "Robert le Pieux",
+          "Philippe Auguste",
+          "Louis VI"
+        ],
         "explication": "Hugues Capet est élu roi des Francs en 987, donnant son nom à la dynastie capétienne."
       },
       {
         "question": "Comment appelle-t-on les associations de marchands ou d'artisans qui régulent un métier au Moyen Âge ?",
         "reponse": "Les corporations",
-        "propositions": ["Les corporations", "Les communes", "Les confréries", "Les baillages"],
+        "propositions": [
+          "Les corporations",
+          "Les communes",
+          "Les confréries",
+          "Les baillages"
+        ],
         "explication": "Les corporations encadrent l'apprentissage, la production et le commerce d'un métier dans les villes médiévales."
+      },
+      {
+        "question": "Quel roi de France, dit 'Saint Louis', a participé à deux croisades au XIIIe siècle ?",
+        "reponse": "Louis IX",
+        "propositions": [
+          "Louis IX",
+          "Philippe Auguste",
+          "Louis VII",
+          "Philippe le Bel"
+        ],
+        "explication": "Louis IX est mort lors de la huitième croisade, à Tunis, en 1270."
+      },
+      {
+        "question": "Quel ordre militaire et religieux, fondé au XIIe siècle pour protéger les pèlerins de Jérusalem, a été dissous en 1312 ?",
+        "reponse": "L'ordre du Temple (les Templiers)",
+        "propositions": [
+          "L'ordre du Temple (les Templiers)",
+          "L'ordre de Malte",
+          "L'ordre Teutonique",
+          "L'ordre de Cluny"
+        ],
+        "explication": "Philippe le Bel a fait arrêter les Templiers en 1307 avant leur dissolution officielle par le pape."
+      },
+      {
+        "question": "Quelle université, fondée au XIIe siècle, est l'une des plus anciennes d'Europe et un grand centre intellectuel médiéval ?",
+        "reponse": "L'université de Paris (la Sorbonne)",
+        "propositions": [
+          "L'université de Paris (la Sorbonne)",
+          "L'université d'Oxford",
+          "L'université de Bologne",
+          "L'université de Salamanque"
+        ],
+        "explication": "L'université de Bologne, fondée en 1088, est toutefois considérée comme la plus ancienne d'Occident."
+      },
+      {
+        "question": "Quel style architectural précède le gothique, caractérisé par des arcs en plein cintre et des murs épais ?",
+        "reponse": "Le style roman",
+        "propositions": [
+          "Le style roman",
+          "Le style gothique",
+          "Le style byzantin",
+          "Le style baroque"
+        ],
+        "explication": "Le style roman domine en Europe occidentale du Xe au XIIe siècle environ."
+      },
+      {
+        "question": "Quelle bataille de 1214 voit Philippe Auguste vaincre une coalition menée par l'empereur germanique Otton IV ?",
+        "reponse": "La bataille de Bouvines",
+        "propositions": [
+          "La bataille de Bouvines",
+          "La bataille de Crécy",
+          "La bataille de Poitiers (1356)",
+          "La bataille d'Azincourt"
+        ],
+        "explication": "Cette victoire renforce durablement le pouvoir royal capétien en France."
+      },
+      {
+        "question": "Comment appelle-t-on le grand mouvement de construction d'édifices religieux gothiques en France aux XIIe-XIIIe siècles ?",
+        "reponse": "L'art gothique",
+        "propositions": [
+          "L'art gothique",
+          "L'art roman",
+          "L'art carolingien",
+          "L'art mérovingien"
+        ],
+        "explication": "Cet essor architectural accompagne le développement économique et démographique des villes médiévales."
+      },
+      {
+        "question": "Quelle famille de seigneurs, devenue la dynastie royale française à partir de 987, tire son nom d'Hugues Capet ?",
+        "reponse": "Les Capétiens",
+        "propositions": [
+          "Les Capétiens",
+          "Les Mérovingiens",
+          "Les Carolingiens",
+          "Les Valois"
+        ],
+        "explication": "Les Capétiens directs règnent sur la France de 987 à 1328."
+      },
+      {
+        "question": "Quelle bataille de 1346 voit l'armée anglaise, utilisant l'arc long, infliger une lourde défaite à la chevalerie française ?",
+        "reponse": "La bataille de Crécy",
+        "propositions": [
+          "La bataille de Crécy",
+          "La bataille d'Azincourt",
+          "La bataille de Poitiers (1356)",
+          "La bataille de Formigny"
+        ],
+        "explication": "Cette bataille marque l'un des premiers grands désastres militaires français de la guerre de Cent Ans."
+      },
+      {
+        "question": "Comment appelle-t-on la grande épidémie de peste qui a ravagé l'Europe à partir de 1347 ?",
+        "reponse": "La peste noire",
+        "propositions": [
+          "La peste noire",
+          "La variole",
+          "Le choléra",
+          "La grippe espagnole"
+        ],
+        "explication": "La peste noire aurait tué entre un tiers et la moitié de la population européenne en quelques années."
+      },
+      {
+        "question": "Quel roi anglais a triomphé à Azincourt en 1415 face à une armée française bien plus nombreuse ?",
+        "reponse": "Henri V",
+        "propositions": [
+          "Henri V",
+          "Édouard III",
+          "Henri VI",
+          "Édouard le Prince Noir"
+        ],
+        "explication": "La défaite française à Azincourt s'explique en partie par la supériorité des archers anglais et le terrain boueux."
       }
     ],
     "3": [
       {
         "question": "Quel document de 1215, imposé au roi Jean sans Terre, limite le pouvoir royal en Angleterre ?",
         "reponse": "La Magna Carta",
-        "propositions": ["La Magna Carta", "Le Domesday Book", "La Bulle d'or", "Le Statut de Westminster"],
+        "propositions": [
+          "La Magna Carta",
+          "Le Domesday Book",
+          "La Bulle d'or",
+          "Le Statut de Westminster"
+        ],
         "explication": "La Grande Charte de 1215 pose les bases du droit constitutionnel anglais en limitant l'arbitraire royal."
       },
       {
         "question": "Quel conflit, opposant la France et l'Angleterre, dure de 1337 à 1453 ?",
         "reponse": "La guerre de Cent Ans",
-        "propositions": ["La guerre de Cent Ans", "La guerre de Succession d'Espagne", "La guerre des Deux-Roses", "Les guerres de Religion"],
+        "propositions": [
+          "La guerre de Cent Ans",
+          "La guerre de Succession d'Espagne",
+          "La guerre des Deux-Roses",
+          "Les guerres de Religion"
+        ],
         "explication": "Ce long conflit, marqué par l'épisode de Jeanne d'Arc, s'achève par la victoire française."
       },
       {
         "question": "Quelle réforme monastique du Xe siècle, initiée à l'abbaye de Cluny, cherche à revenir à une stricte observance de la règle bénédictine ?",
         "reponse": "La réforme clunisienne",
-        "propositions": ["La réforme clunisienne", "La réforme cistercienne", "La réforme grégorienne", "Le concile de Trente"],
+        "propositions": [
+          "La réforme clunisienne",
+          "La réforme cistercienne",
+          "La réforme grégorienne",
+          "Le concile de Trente"
+        ],
         "explication": "Fondée en 909, l'abbaye de Cluny devient le centre d'un vaste mouvement de réforme monastique en Europe."
       },
       {
         "question": "Quel philosophe et théologien du XIIIe siècle, auteur de la \"Somme théologique\", a concilié la foi chrétienne avec la philosophie d'Aristote ?",
         "reponse": "Thomas d'Aquin",
-        "propositions": ["Thomas d'Aquin", "Guillaume d'Ockham", "Pierre Abélard", "Anselme de Cantorbéry"],
+        "propositions": [
+          "Thomas d'Aquin",
+          "Guillaume d'Ockham",
+          "Pierre Abélard",
+          "Anselme de Cantorbéry"
+        ],
         "explication": "Thomas d'Aquin developpe une synthèse majeure entre théologie chrétienne et philosophie aristotélicienne."
       },
       {
         "question": "Quel style architectural, caractérisé par les arcs brisés et les voûtes sur croisées d'ogives, se développe en France à partir du XIIe siècle ?",
         "reponse": "Le style gothique",
-        "propositions": ["Le style gothique", "Le style roman", "Le style baroque", "Le style byzantin"],
+        "propositions": [
+          "Le style gothique",
+          "Le style roman",
+          "Le style baroque",
+          "Le style byzantin"
+        ],
         "explication": "L'art gothique naît en Île-de-France vers 1140, avec la basilique de Saint-Denis comme jalon fondateur."
+      },
+      {
+        "question": "Quel concile de 1215, réuni sous le pape Innocent III, a notamment réglementé l'Inquisition et imposé la confession annuelle ?",
+        "reponse": "Le quatrième concile du Latran",
+        "propositions": [
+          "Le quatrième concile du Latran",
+          "Le concile de Clermont",
+          "Le concile de Trente",
+          "Le concile de Constance"
+        ],
+        "explication": "Ce concile a profondément structuré la discipline de l'Église catholique médiévale."
+      },
+      {
+        "question": "Quelle hérésie chrétienne, répandue dans le Languedoc au XIIe-XIIIe siècle, a été combattue par la croisade des Albigeois ?",
+        "reponse": "Le catharisme",
+        "propositions": [
+          "Le catharisme",
+          "Le vaudisme",
+          "L'arianisme",
+          "Le pélagianisme"
+        ],
+        "explication": "La croisade des Albigeois (1209-1229) a durablement affaibli l'indépendance politique du Languedoc."
+      },
+      {
+        "question": "Quel pape a lancé un appel à la première croisade lors du concile de Clermont en 1095 ?",
+        "reponse": "Urbain II",
+        "propositions": [
+          "Urbain II",
+          "Grégoire VII",
+          "Innocent III",
+          "Alexandre III"
+        ],
+        "explication": "Cet appel visait officiellement à secourir les chrétiens d'Orient et à reprendre Jérusalem."
+      },
+      {
+        "question": "Quelle querelle du XIe-XIIe siècle a opposé la papauté et le Saint-Empire romain germanique sur la nomination des évêques ?",
+        "reponse": "La querelle des Investitures",
+        "propositions": [
+          "La querelle des Investitures",
+          "Le Grand Schisme d'Occident",
+          "La querelle des universaux",
+          "Le conflit du sacerdoce"
+        ],
+        "explication": "Cette querelle s'est en partie résolue par le concordat de Worms en 1122."
+      },
+      {
+        "question": "Quelle réforme monastique du XIe siècle, portée par l'abbaye de Cîteaux, prône un retour à une vie plus austère que celle de Cluny ?",
+        "reponse": "L'ordre cistercien",
+        "propositions": [
+          "L'ordre cistercien",
+          "L'ordre clunisien",
+          "L'ordre chartreux",
+          "L'ordre franciscain"
+        ],
+        "explication": "Saint Bernard de Clairvaux a été la grande figure de l'expansion de l'ordre cistercien en Europe."
+      },
+      {
+        "question": "Quel philosophe et théologien du XIIe siècle, célèbre pour sa liaison tragique avec Héloïse, a été condamné pour ses positions sur la Trinité ?",
+        "reponse": "Pierre Abélard",
+        "propositions": [
+          "Pierre Abélard",
+          "Thomas d'Aquin",
+          "Anselme de Cantorbéry",
+          "Bernard de Clairvaux"
+        ],
+        "explication": "Leur correspondance amoureuse et philosophique reste l'un des textes les plus célèbres du Moyen Âge."
+      },
+      {
+        "question": "Quel schisme, entre 1378 et 1417, a vu l'Église catholique divisée entre plusieurs papes rivaux ?",
+        "reponse": "Le Grand Schisme d'Occident",
+        "propositions": [
+          "Le Grand Schisme d'Occident",
+          "Le schisme de 1054",
+          "La querelle des Investitures",
+          "Le schisme d'Avignon (seul)"
+        ],
+        "explication": "Ce schisme s'est résolu lors du concile de Constance, qui a élu un pape unique, Martin V."
+      },
+      {
+        "question": "Quelle période du XIVe siècle a vu la papauté résider à Avignon plutôt qu'à Rome ?",
+        "reponse": "La papauté d'Avignon",
+        "propositions": [
+          "La papauté d'Avignon",
+          "Le Grand Schisme",
+          "L'exil babylonien (biblique)",
+          "Le concile d'Avignon"
+        ],
+        "explication": "Sept papes successifs, tous français, ont résidé à Avignon de 1309 à 1376."
+      },
+      {
+        "question": "Quel roi de France, dit 'le Bel', a organisé la première réunion des états généraux du royaume en 1302 ?",
+        "reponse": "Philippe IV le Bel",
+        "propositions": [
+          "Philippe IV le Bel",
+          "Louis IX",
+          "Philippe III le Hardi",
+          "Charles IV le Bel"
+        ],
+        "explication": "Cette réunion visait à obtenir un soutien populaire dans son conflit avec le pape Boniface VIII."
+      },
+      {
+        "question": "Quel traité de 1259 met fin, temporairement, aux conflits territoriaux entre Saint Louis et Henri III d'Angleterre ?",
+        "reponse": "Le traité de Paris (1259)",
+        "propositions": [
+          "Le traité de Paris (1259)",
+          "Le traité de Brétigny",
+          "Le traité de Troyes",
+          "Le traité de Picquigny"
+        ],
+        "explication": "Henri III renonce à la Normandie et à l'Anjou en échange de la reconnaissance de ses droits sur la Guyenne."
       }
     ]
   }

@@ -5,96 +5,501 @@
       {
         "question": "Combien de joueurs composent une équipe de football sur le terrain (gardien inclus) ?",
         "reponse": "11",
-        "propositions": ["9", "10", "11", "12"],
+        "propositions": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
         "explication": "Une équipe de football aligne 11 joueurs, dont un gardien de but."
       },
       {
         "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
         "reponse": "4 ans",
-        "propositions": ["2 ans", "3 ans", "4 ans", "5 ans"],
+        "propositions": [
+          "2 ans",
+          "3 ans",
+          "4 ans",
+          "5 ans"
+        ],
         "explication": "Les Jeux olympiques d'été se tiennent tous les 4 ans, sauf exception (comme le report de Tokyo 2020 à 2021)."
       },
       {
         "question": "Quel sport se joue avec une raquette et un volant ?",
         "reponse": "Le badminton",
-        "propositions": ["Le tennis", "Le badminton", "Le squash", "Le tennis de table"],
+        "propositions": [
+          "Le tennis",
+          "Le badminton",
+          "Le squash",
+          "Le tennis de table"
+        ],
         "explication": "Le badminton se joue avec un volant, contrairement au tennis qui utilise une balle."
       },
       {
         "question": "Quelle nation a remporté le plus de Coupes du monde de football, avec 5 titres ?",
         "reponse": "Le Brésil",
-        "propositions": ["L'Allemagne", "Le Brésil", "L'Argentine", "L'Italie"],
+        "propositions": [
+          "L'Allemagne",
+          "Le Brésil",
+          "L'Argentine",
+          "L'Italie"
+        ],
         "explication": "Le Brésil a remporté la Coupe du monde en 1958, 1962, 1970, 1994 et 2002."
       },
       {
         "question": "Combien de sets faut-il gagner pour remporter un match de tennis en Grand Chelem chez les hommes ?",
         "reponse": "3 sets sur 5",
-        "propositions": ["2 sets sur 3", "3 sets sur 5", "4 sets sur 7", "1 set sur 1"],
+        "propositions": [
+          "2 sets sur 3",
+          "3 sets sur 5",
+          "4 sets sur 7",
+          "1 set sur 1"
+        ],
         "explication": "Les épreuves masculines des tournois du Grand Chelem se jouent au meilleur des 5 sets."
+      },
+      {
+        "question": "Quel sport se joue avec une raquette sur un court divisé par un filet, en simple ou en double ?",
+        "reponse": "Le tennis",
+        "propositions": [
+          "Le tennis",
+          "Le badminton",
+          "Le squash",
+          "Le tennis de table"
+        ],
+        "explication": "Le tennis se joue avec une balle en feutre et une raquette à cordage."
+      },
+      {
+        "question": "Quel sport d'hiver consiste à descendre une pente enneigée sur deux planches fixées aux pieds ?",
+        "reponse": "Le ski alpin",
+        "propositions": [
+          "Le ski alpin",
+          "Le snowboard",
+          "Le ski de fond",
+          "Le patinage"
+        ],
+        "explication": "Le ski alpin se distingue du ski de fond, pratiqué sur terrain plat ou vallonné."
+      },
+      {
+        "question": "Combien de joueurs composent une équipe de basketball sur le terrain ?",
+        "reponse": "5",
+        "propositions": [
+          "5",
+          "6",
+          "7",
+          "11"
+        ],
+        "explication": "Une équipe de basketball aligne 5 joueurs sur le terrain, avec des remplaçants sur le banc."
+      },
+      {
+        "question": "Quel sport nautique consiste à glisser sur l'eau tracté par un bateau, debout sur une planche ?",
+        "reponse": "Le ski nautique",
+        "propositions": [
+          "Le ski nautique",
+          "Le wakeboard",
+          "Le surf",
+          "La planche à voile"
+        ],
+        "explication": "Le ski nautique se pratique avec un ou deux skis, tracté par un câble relié à un bateau."
+      },
+      {
+        "question": "Quelle discipline olympique consiste à courir un marathon sur une distance de combien de kilomètres ?",
+        "reponse": "42,195 km",
+        "propositions": [
+          "42,195 km",
+          "21 km",
+          "50 km",
+          "100 km"
+        ],
+        "explication": "Cette distance précise a été fixée officiellement lors des Jeux olympiques de Londres en 1908."
+      },
+      {
+        "question": "Quel sport de combat japonais, aujourd'hui olympique, se pratique pieds nus sur un tatami avec des projections ?",
+        "reponse": "Le judo",
+        "propositions": [
+          "Le judo",
+          "Le karaté",
+          "L'aïkido",
+          "Le sumo"
+        ],
+        "explication": "Le judo a été fondé par Jigoro Kano à la fin du XIXe siècle au Japon."
+      },
+      {
+        "question": "Combien de joueurs composent une équipe de volleyball sur le terrain ?",
+        "reponse": "6",
+        "propositions": [
+          "6",
+          "5",
+          "7",
+          "9"
+        ],
+        "explication": "Chaque équipe de volleyball aligne 6 joueurs qui tournent à chaque changement de service."
+      },
+      {
+        "question": "Quel sport se pratique sur une piste ovale avec des vélos sans freins ni roue libre ?",
+        "reponse": "Le cyclisme sur piste",
+        "propositions": [
+          "Le cyclisme sur piste",
+          "Le BMX",
+          "Le VTT",
+          "Le cyclisme sur route"
+        ],
+        "explication": "Le cyclisme sur piste se pratique dans un vélodrome, sur des vélos à pignon fixe."
+      },
+      {
+        "question": "Quel pays est à l'origine du sport du rugby, né au XIXe siècle ?",
+        "reponse": "L'Angleterre",
+        "propositions": [
+          "L'Angleterre",
+          "La France",
+          "Le Pays de Galles",
+          "L'Irlande"
+        ],
+        "explication": "La légende attribue l'invention du rugby à un élève du collège de Rugby en 1823."
+      },
+      {
+        "question": "Quel geste, au tennis, consiste à lancer la balle en l'air pour débuter un échange ?",
+        "reponse": "Le service",
+        "propositions": [
+          "Le service",
+          "Le smash",
+          "Le revers",
+          "Le coup droit"
+        ],
+        "explication": "Le service est le premier coup joué à chaque point."
       }
     ],
     "2": [
       {
         "question": "Quel cycliste a vu ses 7 victoires au Tour de France (1999-2005) annulées pour dopage ?",
         "reponse": "Lance Armstrong",
-        "propositions": ["Eddy Merckx", "Lance Armstrong", "Bernard Hinault", "Miguel Indurain"],
+        "propositions": [
+          "Eddy Merckx",
+          "Lance Armstrong",
+          "Bernard Hinault",
+          "Miguel Indurain"
+        ],
         "explication": "Ses titres ont été annulés en 2012 après la révélation d'un dopage systématique."
       },
       {
         "question": "Quel est le nom du maillot porté par le leader du classement général du Tour de France ?",
         "reponse": "Le maillot jaune",
-        "propositions": ["Le maillot vert", "Le maillot jaune", "Le maillot à pois", "Le maillot blanc"],
+        "propositions": [
+          "Le maillot vert",
+          "Le maillot jaune",
+          "Le maillot à pois",
+          "Le maillot blanc"
+        ],
         "explication": "Le maillot jaune distingue le coureur en tête du classement général, le maillot vert récompensant le meilleur sprinteur."
       },
       {
         "question": "Combien de points rapporte un essai (avant transformation) au rugby à XV ?",
         "reponse": "5 points",
-        "propositions": ["3 points", "5 points", "6 points", "7 points"],
+        "propositions": [
+          "3 points",
+          "5 points",
+          "6 points",
+          "7 points"
+        ],
         "explication": "Un essai vaut 5 points, auxquels s'ajoutent 2 points si la transformation est réussie."
       },
       {
         "question": "Quel pays a inventé le judo ?",
         "reponse": "Le Japon",
-        "propositions": ["La Chine", "Le Japon", "La Corée du Sud", "La Thaïlande"],
+        "propositions": [
+          "La Chine",
+          "Le Japon",
+          "La Corée du Sud",
+          "La Thaïlande"
+        ],
         "explication": "Le judo a été créé par Jigoro Kano au Japon en 1882."
       },
       {
         "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres depuis 2009 ?",
         "reponse": "Usain Bolt",
-        "propositions": ["Usain Bolt", "Tyson Gay", "Justin Gatlin", "Yohan Blake"],
+        "propositions": [
+          "Usain Bolt",
+          "Tyson Gay",
+          "Justin Gatlin",
+          "Yohan Blake"
+        ],
         "explication": "Usain Bolt a établi le record en 9,58 secondes lors des championnats du monde de Berlin en 2009."
+      },
+      {
+        "question": "Quel skieur ou skieuse détient le record du plus grand nombre de victoires en Coupe du monde de ski alpin ?",
+        "reponse": "Mikaela Shiffrin",
+        "propositions": [
+          "Mikaela Shiffrin",
+          "Lindsey Vonn",
+          "Ingemar Stenmark",
+          "Marcel Hirscher"
+        ],
+        "explication": "Mikaela Shiffrin a dépassé le record d'Ingemar Stenmark au cours de la saison 2022-2023."
+      },
+      {
+        "question": "Quel joueur de tennis a remporté le plus de titres du Grand Chelem chez les hommes (à fin 2023) ?",
+        "reponse": "Novak Djokovic",
+        "propositions": [
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Roger Federer",
+          "Pete Sampras"
+        ],
+        "explication": "Djokovic a dépassé Nadal et Federer en nombre total de titres du Grand Chelem."
+      },
+      {
+        "question": "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de l'histoire ?",
+        "reponse": "Les États-Unis",
+        "propositions": [
+          "Les États-Unis",
+          "L'URSS/Russie",
+          "La Chine",
+          "La Grande-Bretagne"
+        ],
+        "explication": "Les États-Unis dominent très largement le tableau des médailles olympiques d'été cumulées."
+      },
+      {
+        "question": "Quel athlète américain a remporté quatre médailles d'or aux Jeux olympiques de Berlin en 1936, défiant la propagande nazie ?",
+        "reponse": "Jesse Owens",
+        "propositions": [
+          "Jesse Owens",
+          "Carl Lewis",
+          "Bob Beamon",
+          "Michael Johnson"
+        ],
+        "explication": "Owens a triomphé dans un contexte où le régime nazi prônait la supériorité de la 'race aryenne'."
+      },
+      {
+        "question": "Quel joueur de basketball est considéré par beaucoup comme le plus grand de l'histoire, avec six titres NBA avec les Chicago Bulls ?",
+        "reponse": "Michael Jordan",
+        "propositions": [
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant",
+          "Magic Johnson"
+        ],
+        "explication": "Jordan a remporté six titres NBA sans jamais perdre en finale, entre 1991 et 1998."
+      },
+      {
+        "question": "Quel cycliste belge est considéré comme l'un des plus grands de l'histoire, surnommé 'le Cannibale' ?",
+        "reponse": "Eddy Merckx",
+        "propositions": [
+          "Eddy Merckx",
+          "Bernard Hinault",
+          "Jacques Anquetil",
+          "Fausto Coppi"
+        ],
+        "explication": "Merckx a remporté cinq Tours de France et de nombreuses autres grandes courses."
+      },
+      {
+        "question": "Quel pays a organisé les Jeux olympiques d'été de 2021 (initialement prévus en 2020) ?",
+        "reponse": "Le Japon (Tokyo)",
+        "propositions": [
+          "Le Japon (Tokyo)",
+          "Le Brésil",
+          "La Grande-Bretagne",
+          "La Chine"
+        ],
+        "explication": "Les Jeux ont été reportés d'un an en raison de la pandémie de Covid-19, mais ont conservé le nom 'Tokyo 2020'."
+      },
+      {
+        "question": "Quelle nageuse américaine détient le record du plus grand nombre de médailles olympiques individuelles féminines ?",
+        "reponse": "Katie Ledecky",
+        "propositions": [
+          "Katie Ledecky",
+          "Missy Franklin",
+          "Simone Manuel",
+          "Natalie Coughlin"
+        ],
+        "explication": "Katie Ledecky domine notamment les épreuves de nage libre de longue distance."
+      },
+      {
+        "question": "Quel sport de raquette, originaire d'Angleterre, se joue avec un volant plutôt qu'une balle ?",
+        "reponse": "Le badminton",
+        "propositions": [
+          "Le badminton",
+          "Le squash",
+          "Le tennis",
+          "Le padel"
+        ],
+        "explication": "Le volant du badminton, très léger, peut atteindre des vitesses supérieures à 400 km/h lors d'un smash."
+      },
+      {
+        "question": "Quel golfeur américain détient le record du plus grand nombre de semaines cumulées au rang mondial numéro un ?",
+        "reponse": "Tiger Woods",
+        "propositions": [
+          "Tiger Woods",
+          "Jack Nicklaus",
+          "Rory McIlroy",
+          "Greg Norman"
+        ],
+        "explication": "Tiger Woods a dominé le golf mondial pendant une grande partie des années 2000."
       }
     ],
     "3": [
       {
         "question": "Quel boxeur a terminé sa carrière professionnelle avec un bilan parfait de 50 victoires pour 0 défaite ?",
         "reponse": "Floyd Mayweather Jr.",
-        "propositions": ["Floyd Mayweather Jr.", "Mike Tyson", "Muhammad Ali", "Manny Pacquiao"],
+        "propositions": [
+          "Floyd Mayweather Jr.",
+          "Mike Tyson",
+          "Muhammad Ali",
+          "Manny Pacquiao"
+        ],
         "explication": "Floyd Mayweather a pris sa retraite en 2017 avec un bilan de 50-0, un record largement médiatisé."
       },
       {
         "question": "Dans quel stade parisien se déroule chaque année le tournoi de tennis de Roland-Garros ?",
         "reponse": "Le stade Roland-Garros",
-        "propositions": ["Le stade Roland-Garros", "Le Parc des Princes", "Le stade de France", "Bercy"],
+        "propositions": [
+          "Le stade Roland-Garros",
+          "Le Parc des Princes",
+          "Le stade de France",
+          "Bercy"
+        ],
         "explication": "Situé dans le 16e arrondissement de Paris, ce complexe accueille le seul tournoi du Grand Chelem sur terre battue."
       },
       {
         "question": "Quel pays a remporté la toute première Coupe du monde de football en 1930 ?",
         "reponse": "L'Uruguay",
-        "propositions": ["Le Brésil", "L'Uruguay", "L'Argentine", "L'Italie"],
+        "propositions": [
+          "Le Brésil",
+          "L'Uruguay",
+          "L'Argentine",
+          "L'Italie"
+        ],
         "explication": "L'Uruguay, pays hôte, a battu l'Argentine en finale à Montevideo."
       },
       {
         "question": "Quel nageur détient le record du plus grand nombre de médailles olympiques toutes disciplines confondues ?",
         "reponse": "Michael Phelps",
-        "propositions": ["Michael Phelps", "Mark Spitz", "Katie Ledecky", "Ian Thorpe"],
+        "propositions": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Katie Ledecky",
+          "Ian Thorpe"
+        ],
         "explication": "Le nageur américain Michael Phelps a remporté 28 médailles olympiques, dont 23 en or."
       },
       {
         "question": "Quel est le nom du coup au tennis consistant à frapper la balle avant qu'elle ne touche le sol, près du filet ?",
         "reponse": "La volée",
-        "propositions": ["Le lob", "La volée", "L'amorti", "Le smash"],
+        "propositions": [
+          "Le lob",
+          "La volée",
+          "L'amorti",
+          "Le smash"
+        ],
         "explication": "La volée se joue généralement près du filet, avant que la balle ne rebondisse."
+      },
+      {
+        "question": "Quel athlète éthiopien a remporté le marathon olympique de Rome en 1960 en courant pieds nus ?",
+        "reponse": "Abebe Bikila",
+        "propositions": [
+          "Abebe Bikila",
+          "Haile Gebrselassie",
+          "Kenenisa Bekele",
+          "Mo Farah"
+        ],
+        "explication": "Bikila a défendu son titre olympique à Tokyo en 1964, chaussé cette fois-ci."
+      },
+      {
+        "question": "Quel coureur cycliste français, surnommé 'Blaireau', a remporté cinq Tours de France entre 1978 et 1985 ?",
+        "reponse": "Bernard Hinault",
+        "propositions": [
+          "Bernard Hinault",
+          "Jacques Anquetil",
+          "Laurent Fignon",
+          "Raymond Poulidor"
+        ],
+        "explication": "Hinault reste, à ce jour, le dernier vainqueur français du Tour de France (1985)."
+      },
+      {
+        "question": "Quelle joueuse de tennis australienne détient le record absolu du plus grand nombre de titres du Grand Chelem en simple dames, toutes époques confondues (24 titres) ?",
+        "reponse": "Margaret Court",
+        "propositions": [
+          "Margaret Court",
+          "Serena Williams",
+          "Steffi Graf",
+          "Martina Navratilova"
+        ],
+        "explication": "Margaret Court a remporté une partie de ses titres avant l'ère Open (à partir de 1968) ; Serena Williams détient le record de l'ère Open avec 23 titres."
+      },
+      {
+        "question": "Quel gymnaste soviétique a remporté un total record de 18 médailles olympiques en gymnastique artistique ?",
+        "reponse": "Larissa Latynina",
+        "propositions": [
+          "Larissa Latynina",
+          "Nadia Comăneci",
+          "Simone Biles",
+          "Věra Čáslavská"
+        ],
+        "explication": "Ce record est resté inégalé toutes disciplines confondues jusqu'à ce que Michael Phelps le dépasse en natation."
+      },
+      {
+        "question": "Quel coureur de l'Antiquité aurait remporté douze titres de course aux Jeux olympiques antiques, un record resté longtemps inégalé ?",
+        "reponse": "Léonidas de Rhodes",
+        "propositions": [
+          "Léonidas de Rhodes",
+          "Milon de Crotone",
+          "Diagoras de Rhodes",
+          "Théagène de Thasos"
+        ],
+        "explication": "Léonidas de Rhodes a dominé les épreuves de course aux Jeux olympiques antiques du IIIe siècle avant J.-C."
+      },
+      {
+        "question": "Quelle nageuse roumaine, à seulement 14 ans, a marqué les Jeux olympiques de 1976 avec des notes parfaites en gymnastique (pas en natation) ?",
+        "reponse": "Nadia Comăneci",
+        "propositions": [
+          "Nadia Comăneci",
+          "Olga Korbut",
+          "Larissa Latynina",
+          "Věra Čáslavská"
+        ],
+        "explication": "Nadia Comăneci a obtenu le premier 10 parfait de l'histoire des Jeux olympiques, à Montréal en 1976."
+      },
+      {
+        "question": "Quel athlète jamaïcain a couru le 100 mètres en 9,58 secondes en 2009, record du monde toujours en vigueur ?",
+        "reponse": "Usain Bolt",
+        "propositions": [
+          "Usain Bolt",
+          "Tyson Gay",
+          "Yohan Blake",
+          "Justin Gatlin"
+        ],
+        "explication": "Ce record a été établi lors des championnats du monde de Berlin en 2009."
+      },
+      {
+        "question": "Quel boxeur américain, champion du monde des poids lourds, est resté célèbre pour son combat 'Rumble in the Jungle' contre George Foreman en 1974 ?",
+        "reponse": "Mohamed Ali",
+        "propositions": [
+          "Mohamed Ali",
+          "Joe Frazier",
+          "George Foreman",
+          "Mike Tyson"
+        ],
+        "explication": "Ce combat, organisé à Kinshasa, a vu Ali reprendre son titre grâce à sa tactique du 'rope-a-dope'."
+      },
+      {
+        "question": "Quel joueur de football américain (NFL) détient le record du plus grand nombre de titres au Super Bowl en tant que quarterback ?",
+        "reponse": "Tom Brady",
+        "propositions": [
+          "Tom Brady",
+          "Joe Montana",
+          "Peyton Manning",
+          "Patrick Mahomes"
+        ],
+        "explication": "Tom Brady a remporté sept titres de Super Bowl, dont six avec les New England Patriots."
+      },
+      {
+        "question": "Quelle patineuse artistique norvégienne des années 1920-1930 a remporté trois titres olympiques consécutifs et révolutionné les costumes féminins du patinage ?",
+        "reponse": "Sonja Henie",
+        "propositions": [
+          "Sonja Henie",
+          "Katarina Witt",
+          "Peggy Fleming",
+          "Dorothy Hamill"
+        ],
+        "explication": "Sonja Henie a ensuite connu une carrière au cinéma à Hollywood."
       }
     ]
   }

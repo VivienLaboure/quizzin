@@ -5,96 +5,501 @@
       {
         "question": "Quelle est la monnaie utilisée en France depuis 2002 ?",
         "reponse": "L'euro",
-        "propositions": ["L'euro", "Le franc", "La livre", "Le dollar"],
+        "propositions": [
+          "L'euro",
+          "Le franc",
+          "La livre",
+          "Le dollar"
+        ],
         "explication": "L'euro remplace le franc français comme monnaie officielle le 1er janvier 2002."
       },
       {
         "question": "Quelle institution fixe le taux d'intérêt directeur pour l'ensemble de la zone euro, dont la France ?",
         "reponse": "La Banque centrale européenne",
-        "propositions": ["La Banque centrale européenne", "La Banque de France", "Le Trésor public", "Bercy"],
+        "propositions": [
+          "La Banque centrale européenne",
+          "La Banque de France",
+          "Le Trésor public",
+          "Bercy"
+        ],
         "explication": "La BCE, basée à Francfort, définit la politique monétaire commune à tous les pays de la zone euro."
       },
       {
         "question": "Quel impôt est prélevé directement sur le salaire depuis 2019 en France ?",
         "reponse": "L'impôt sur le revenu (prélevé à la source)",
-        "propositions": ["L'impôt sur le revenu (prélevé à la source)", "La TVA", "La taxe d'habitation", "L'impôt sur les sociétés"],
+        "propositions": [
+          "L'impôt sur le revenu (prélevé à la source)",
+          "La TVA",
+          "La taxe d'habitation",
+          "L'impôt sur les sociétés"
+        ],
         "explication": "Le prélèvement à la source de l'impôt sur le revenu est entré en vigueur en janvier 2019."
       },
       {
         "question": "Quel sigle désigne le salaire minimum légal en France ?",
         "reponse": "Le SMIC",
-        "propositions": ["Le SMIC", "Le RSA", "La CSG", "Le CDI"],
+        "propositions": [
+          "Le SMIC",
+          "Le RSA",
+          "La CSG",
+          "Le CDI"
+        ],
         "explication": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire plancher légal."
       },
       {
         "question": "Quel secteur économique regroupe l'agriculture et la pêche ?",
         "reponse": "Le secteur primaire",
-        "propositions": ["Le secteur primaire", "Le secteur secondaire", "Le secteur tertiaire", "Le secteur quaternaire"],
+        "propositions": [
+          "Le secteur primaire",
+          "Le secteur secondaire",
+          "Le secteur tertiaire",
+          "Le secteur quaternaire"
+        ],
         "explication": "Le secteur primaire regroupe les activités d'exploitation des ressources naturelles."
+      },
+      {
+        "question": "Quelle institution française est chargée de collecter les impôts ?",
+        "reponse": "La Direction générale des finances publiques",
+        "propositions": [
+          "La Direction générale des finances publiques",
+          "La Banque de France",
+          "L'INSEE",
+          "La Cour des comptes"
+        ],
+        "explication": "La DGFiP gère notamment la collecte de l'impôt sur le revenu et de la TVA."
+      },
+      {
+        "question": "Quel secteur économique regroupe l'industrie et la construction ?",
+        "reponse": "Le secteur secondaire",
+        "propositions": [
+          "Le secteur primaire",
+          "Le secteur secondaire",
+          "Le secteur tertiaire",
+          "Le secteur quaternaire"
+        ],
+        "explication": "Le secteur secondaire transforme les matières premières issues du secteur primaire."
+      },
+      {
+        "question": "Quelle est l'institution qui représente la Banque centrale européenne en France ?",
+        "reponse": "La Banque de France",
+        "propositions": [
+          "La Banque de France",
+          "La BPI",
+          "La Caisse des dépôts",
+          "L'AMF"
+        ],
+        "explication": "La Banque de France participe à la mise en œuvre de la politique monétaire de la zone euro."
+      },
+      {
+        "question": "Quel jour férié célèbre chaque année la fête du Travail en France ?",
+        "reponse": "Le 1er mai",
+        "propositions": [
+          "Le 1er mai",
+          "Le 14 juillet",
+          "Le 11 novembre",
+          "Le 8 mai"
+        ],
+        "explication": "Le 1er mai est un jour férié et chômé en France depuis 1947."
+      },
+      {
+        "question": "Quelle grande entreprise française est le premier constructeur automobile national avec Renault ?",
+        "reponse": "Stellantis (ex-PSA/Peugeot)",
+        "propositions": [
+          "Stellantis (ex-PSA/Peugeot)",
+          "Michelin",
+          "Alstom",
+          "Airbus"
+        ],
+        "explication": "Le groupe Peugeot Société Anonyme a fusionné avec Fiat Chrysler en 2021 pour former Stellantis."
+      },
+      {
+        "question": "Comment appelle-t-on l'allocation versée en France aux personnes sans emploi et sans ressources suffisantes ?",
+        "reponse": "Le RSA",
+        "propositions": [
+          "Le RSA",
+          "Le SMIC",
+          "L'ASS",
+          "La prime d'activité"
+        ],
+        "explication": "Le RSA (revenu de solidarité active) a remplacé le RMI en 2009."
+      },
+      {
+        "question": "Quelle entreprise publique française gère le réseau ferroviaire national ?",
+        "reponse": "La SNCF",
+        "propositions": [
+          "La SNCF",
+          "La RATP",
+          "Aéroports de Paris",
+          "EDF"
+        ],
+        "explication": "La SNCF exploite notamment les TGV, TER et Intercités."
+      },
+      {
+        "question": "Quelle entreprise française est le principal fournisseur d'électricité du pays ?",
+        "reponse": "EDF",
+        "propositions": [
+          "EDF",
+          "Engie",
+          "TotalEnergies",
+          "Veolia"
+        ],
+        "explication": "EDF exploite la majorité des centrales nucléaires françaises."
+      },
+      {
+        "question": "Quel est le nom du salon international qui présente chaque année les nouveautés automobiles à Paris ?",
+        "reponse": "Le Mondial de l'Auto",
+        "propositions": [
+          "Le Mondial de l'Auto",
+          "Le Salon du Bourget",
+          "Vivatech",
+          "Le Salon de l'Agriculture"
+        ],
+        "explication": "Le Mondial de l'Auto se tient traditionnellement porte de Versailles à Paris."
+      },
+      {
+        "question": "Quel secteur regroupe les activités de service comme le commerce, la banque et le tourisme ?",
+        "reponse": "Le secteur tertiaire",
+        "propositions": [
+          "Le secteur primaire",
+          "Le secteur secondaire",
+          "Le secteur tertiaire",
+          "Le secteur informel"
+        ],
+        "explication": "Le secteur tertiaire emploie aujourd'hui la grande majorité des actifs en France."
       }
     ],
     "2": [
       {
         "question": "Quel indice mesure l'évolution des prix à la consommation en France, publié par l'INSEE ?",
         "reponse": "L'indice des prix à la consommation (IPC)",
-        "propositions": ["L'indice des prix à la consommation (IPC)", "Le PIB", "Le taux de chômage", "L'indice CAC 40"],
+        "propositions": [
+          "L'indice des prix à la consommation (IPC)",
+          "Le PIB",
+          "Le taux de chômage",
+          "L'indice CAC 40"
+        ],
         "explication": "L'IPC sert notamment de référence pour mesurer l'inflation en France."
       },
       {
         "question": "Quel est le principal indice boursier de la Bourse de Paris ?",
         "reponse": "Le CAC 40",
-        "propositions": ["Le CAC 40", "Le Dow Jones", "Le DAX", "Le FTSE 100"],
+        "propositions": [
+          "Le CAC 40",
+          "Le Dow Jones",
+          "Le DAX",
+          "Le FTSE 100"
+        ],
         "explication": "Le CAC 40 regroupe les 40 plus grandes capitalisations cotées à la Bourse de Paris."
       },
       {
         "question": "Quelle taxe française, incluse dans le prix de la plupart des biens et services, est un impôt indirect sur la consommation ?",
         "reponse": "La TVA",
-        "propositions": ["La TVA", "L'impôt sur le revenu", "La CSG", "La taxe foncière"],
+        "propositions": [
+          "La TVA",
+          "L'impôt sur le revenu",
+          "La CSG",
+          "La taxe foncière"
+        ],
         "explication": "La taxe sur la valeur ajoutée est payée par le consommateur final, incluse dans le prix affiché."
       },
       {
         "question": "Quel organisme public français est chargé de produire les statistiques économiques et démographiques officielles ?",
         "reponse": "L'INSEE",
-        "propositions": ["L'INSEE", "La Banque de France", "Bercy", "Pôle emploi"],
+        "propositions": [
+          "L'INSEE",
+          "La Banque de France",
+          "Bercy",
+          "Pôle emploi"
+        ],
         "explication": "L'Institut national de la statistique et des études économiques publie les principales statistiques nationales."
       },
       {
         "question": "Comment appelle-t-on l'ensemble des richesses produites par un pays en une année ?",
         "reponse": "Le produit intérieur brut (PIB)",
-        "propositions": ["Le produit intérieur brut (PIB)", "Le revenu national", "La balance commerciale", "L'inflation"],
+        "propositions": [
+          "Le produit intérieur brut (PIB)",
+          "Le revenu national",
+          "La balance commerciale",
+          "L'inflation"
+        ],
         "explication": "Le PIB mesure la valeur totale de la production de biens et services sur une année."
+      },
+      {
+        "question": "Quelle autorité française est chargée de la régulation des marchés financiers ?",
+        "reponse": "L'Autorité des marchés financiers (AMF)",
+        "propositions": [
+          "L'Autorité des marchés financiers (AMF)",
+          "L'ACPR",
+          "La Cour des comptes",
+          "Le Conseil de la concurrence"
+        ],
+        "explication": "L'AMF veille à la protection de l'épargne et au bon fonctionnement des marchés."
+      },
+      {
+        "question": "Quel plan français, lancé en 2020 pour répondre à la crise du Covid-19, mobilisait 100 milliards d'euros ?",
+        "reponse": "Le plan France Relance",
+        "propositions": [
+          "Le plan France Relance",
+          "Le plan Juncker",
+          "Le Grand Emprunt",
+          "France 2030"
+        ],
+        "explication": "France Relance visait la reprise économique via l'écologie, la compétitivité et la cohésion sociale."
+      },
+      {
+        "question": "Quel est le nom du programme d'investissement français lancé en 2021 pour financer l'innovation et l'industrie de demain ?",
+        "reponse": "France 2030",
+        "propositions": [
+          "France 2030",
+          "France Relance",
+          "French Tech",
+          "Horizon Europe"
+        ],
+        "explication": "France 2030 vise notamment le développement de l'hydrogène vert et des semi-conducteurs."
+      },
+      {
+        "question": "Quelle banque publique française finance et accompagne les PME et entreprises innovantes ?",
+        "reponse": "Bpifrance",
+        "propositions": [
+          "Bpifrance",
+          "La Caisse des dépôts",
+          "La Banque postale",
+          "Natixis"
+        ],
+        "explication": "Bpifrance a été créée en 2013 par la fusion de plusieurs organismes de financement public."
+      },
+      {
+        "question": "Quel impôt français, supprimé pour la majorité des ménages entre 2018 et 2023, était perçu par les communes ?",
+        "reponse": "La taxe d'habitation",
+        "propositions": [
+          "La taxe d'habitation",
+          "La taxe foncière",
+          "La contribution économique territoriale",
+          "La redevance audiovisuelle"
+        ],
+        "explication": "La suppression progressive de la taxe d'habitation sur les résidences principales s'est achevée en 2023."
+      },
+      {
+        "question": "Quel organisme français collecte les cotisations sociales des entreprises et des salariés ?",
+        "reponse": "L'URSSAF",
+        "propositions": [
+          "L'URSSAF",
+          "La CAF",
+          "Pôle emploi (France Travail)",
+          "La CPAM"
+        ],
+        "explication": "L'URSSAF finance notamment la Sécurité sociale par la collecte des cotisations."
+      },
+      {
+        "question": "Quel opérateur public a remplacé Pôle emploi en 2024 pour l'accompagnement des demandeurs d'emploi ?",
+        "reponse": "France Travail",
+        "propositions": [
+          "France Travail",
+          "L'APEC",
+          "La Mission locale",
+          "L'AFPA"
+        ],
+        "explication": "France Travail a repris les missions de Pôle emploi avec un objectif de suivi renforcé."
+      },
+      {
+        "question": "Quel indicateur, publié chaque mois par l'INSEE, mesure la confiance des ménages dans la situation économique ?",
+        "reponse": "L'indicateur de confiance des ménages",
+        "propositions": [
+          "L'indicateur de confiance des ménages",
+          "L'indice de production industrielle",
+          "Le baromètre PIB",
+          "L'indice Insee-Markit"
+        ],
+        "explication": "Cet indicateur reflète le moral des Français concernant leur situation financière et l'économie générale."
+      },
+      {
+        "question": "Quelle grande entreprise française de luxe, propriétaire notamment de Louis Vuitton, est dirigée par Bernard Arnault ?",
+        "reponse": "LVMH",
+        "propositions": [
+          "LVMH",
+          "Kering",
+          "Hermès",
+          "L'Oréal"
+        ],
+        "explication": "LVMH regroupe plus de 75 maisons de luxe dans la mode, les vins et spiritueux, et la joaillerie."
+      },
+      {
+        "question": "Quel taux, fixé chaque semestre, plafonne le taux d'intérêt maximal légal des crédits à la consommation en France ?",
+        "reponse": "Le taux d'usure",
+        "propositions": [
+          "Le taux d'usure",
+          "Le taux Livret A",
+          "Le taux directeur",
+          "Le taux OAT"
+        ],
+        "explication": "Le taux d'usure est fixé par la Banque de France pour protéger les emprunteurs contre des taux abusifs."
       }
     ],
     "3": [
       {
         "question": "Quel économiste français est l'auteur du best-seller mondial \"Le Capital au XXIe siècle\" (2013), traitant des inégalités ?",
         "reponse": "Thomas Piketty",
-        "propositions": ["Thomas Piketty", "Jean Tirole", "Esther Duflo", "Olivier Blanchard"],
+        "propositions": [
+          "Thomas Piketty",
+          "Jean Tirole",
+          "Esther Duflo",
+          "Olivier Blanchard"
+        ],
         "explication": "Cet ouvrage de Thomas Piketty analyse la concentration des richesses depuis le XVIIIe siècle."
       },
       {
         "question": "Quel économiste français a reçu le prix Nobel d'économie en 2014 pour ses travaux sur la régulation des marchés ?",
         "reponse": "Jean Tirole",
-        "propositions": ["Jean Tirole", "Thomas Piketty", "Maurice Allais", "Gérard Debreu"],
+        "propositions": [
+          "Jean Tirole",
+          "Thomas Piketty",
+          "Maurice Allais",
+          "Gérard Debreu"
+        ],
         "explication": "Jean Tirole est récompensé pour ses analyses du pouvoir de marché et de la régulation."
       },
       {
         "question": "Quel plan français de relance économique d'après-guerre, porté par Jean Monnet, visait la modernisation industrielle ?",
         "reponse": "Le Plan Monnet",
-        "propositions": ["Le Plan Monnet", "Le Plan Marshall", "Le Plan Barre", "Le Plan Juppé"],
+        "propositions": [
+          "Le Plan Monnet",
+          "Le Plan Marshall",
+          "Le Plan Barre",
+          "Le Plan Juppé"
+        ],
         "explication": "Le Plan Monnet (1946) organise la modernisation et l'équipement de l'économie française d'après-guerre."
       },
       {
         "question": "Quel tournant économique français de 1983, sous le gouvernement de Pierre Mauroy, privilégie la rigueur budgétaire à la relance ?",
         "reponse": "Le tournant de la rigueur",
-        "propositions": ["Le tournant de la rigueur", "Le Plan Monnet", "Les Trente Glorieuses", "La politique de l'offre"],
+        "propositions": [
+          "Le tournant de la rigueur",
+          "Le Plan Monnet",
+          "Les Trente Glorieuses",
+          "La politique de l'offre"
+        ],
         "explication": "Ce tournant marque l'abandon de la politique de relance pour une politique de rigueur budgétaire."
       },
       {
         "question": "Comment appelle-t-on la période de forte croissance économique française entre 1945 et 1975 ?",
         "reponse": "Les Trente Glorieuses",
-        "propositions": ["Les Trente Glorieuses", "Le Plan Monnet", "La Belle Époque", "Les Golden Sixties"],
+        "propositions": [
+          "Les Trente Glorieuses",
+          "Le Plan Monnet",
+          "La Belle Époque",
+          "Les Golden Sixties"
+        ],
         "explication": "L'expression a été popularisée par l'économiste Jean Fourastié en 1979."
+      },
+      {
+        "question": "Quel ministre français des Finances sous Louis XIV est associé à une politique économique protectionniste et interventionniste ?",
+        "reponse": "Jean-Baptiste Colbert",
+        "propositions": [
+          "Jean-Baptiste Colbert",
+          "Turgot",
+          "Necker",
+          "Sully"
+        ],
+        "explication": "Le colbertisme prône le développement de l'industrie nationale et un fort contrôle étatique."
+      },
+      {
+        "question": "Quel économiste français, ministre des Finances au XVIIIe siècle, a tenté sans succès de libéraliser le commerce du grain ?",
+        "reponse": "Turgot",
+        "propositions": [
+          "Turgot",
+          "Necker",
+          "Colbert",
+          "Calonne"
+        ],
+        "explication": "Ses réformes libérales ont suscité une forte opposition et ont été abandonnées."
+      },
+      {
+        "question": "Quel plan de modernisation économique de la France d'après-guerre, dirigé par Jean Monnet, est lancé en 1946 ?",
+        "reponse": "Le Plan Monnet",
+        "propositions": [
+          "Le Plan Monnet",
+          "Le Plan Marshall",
+          "Le Plan Barre",
+          "Le Plan calcul"
+        ],
+        "explication": "Le Plan Monnet visait à moderniser les secteurs clés comme le charbon, l'acier et l'électricité."
+      },
+      {
+        "question": "Quel économiste français a dirigé le Fonds monétaire international de 2007 à 2011 ?",
+        "reponse": "Dominique Strauss-Kahn",
+        "propositions": [
+          "Dominique Strauss-Kahn",
+          "Christine Lagarde",
+          "Michel Camdessus",
+          "Jacques de Larosière"
+        ],
+        "explication": "Christine Lagarde, autre Française, lui a succédé à la tête du FMI de 2011 à 2019."
+      },
+      {
+        "question": "Quel plan de rigueur budgétaire, mis en œuvre par Raymond Barre à la fin des années 1970, vise à lutter contre l'inflation ?",
+        "reponse": "Le plan Barre",
+        "propositions": [
+          "Le plan Barre",
+          "Le plan Rueff",
+          "Le plan Pinay",
+          "Le plan Delors"
+        ],
+        "explication": "Raymond Barre était Premier ministre et ministre de l'Économie de 1976 à 1981."
+      },
+      {
+        "question": "Quelle réforme monétaire de 1958, menée par Antoine Pinay et Jacques Rueff, crée le nouveau franc ?",
+        "reponse": "Le plan Pinay-Rueff",
+        "propositions": [
+          "Le plan Pinay-Rueff",
+          "Le plan Barre",
+          "Le plan Mendès France",
+          "Le plan Debré"
+        ],
+        "explication": "Un nouveau franc valait alors 100 anciens francs, simplifiant les comptes."
+      },
+      {
+        "question": "Quelle taxe, instaurée en France en 2012 sur certaines transactions boursières, vise notamment les grandes capitalisations ?",
+        "reponse": "La taxe sur les transactions financières (TTF)",
+        "propositions": [
+          "La taxe sur les transactions financières (TTF)",
+          "La taxe Tobin européenne",
+          "La taxe GAFA",
+          "La contribution sociale de solidarité"
+        ],
+        "explication": "Cette taxe française a en partie inspiré le débat sur une taxe Tobin à l'échelle européenne."
+      },
+      {
+        "question": "Quel économiste français, professeur au Collège de France, est notamment connu pour ses travaux sur la régulation des marchés et a reçu le prix Nobel en 2014 ?",
+        "reponse": "Jean Tirole",
+        "propositions": [
+          "Jean Tirole",
+          "Esther Duflo",
+          "Thomas Piketty",
+          "Olivier Blanchard"
+        ],
+        "explication": "Jean Tirole a été récompensé pour ses analyses de la puissance de marché et de la régulation."
+      },
+      {
+        "question": "Quelle économiste française, avec Abhijit Banerjee, a reçu le prix Nobel d'économie en 2019 pour ses travaux sur la pauvreté ?",
+        "reponse": "Esther Duflo",
+        "propositions": [
+          "Esther Duflo",
+          "Christine Lagarde",
+          "Agnès Bénassy-Quéré",
+          "Anne Perrot"
+        ],
+        "explication": "Esther Duflo est la plus jeune personne, et la deuxième femme, à avoir reçu ce prix Nobel."
+      },
+      {
+        "question": "Quel accord de 1992 fixe les critères de convergence économique menant à la création de l'euro ?",
+        "reponse": "Le traité de Maastricht",
+        "propositions": [
+          "Le traité de Maastricht",
+          "Le traité de Rome",
+          "Le traité de Lisbonne",
+          "Le traité d'Amsterdam"
+        ],
+        "explication": "Les critères de Maastricht encadrent notamment le déficit public et la dette publique des États membres."
       }
     ]
   }

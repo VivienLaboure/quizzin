@@ -5,96 +5,501 @@
       {
         "question": "Quel personnage moustachu, plombier italien, est la mascotte de Nintendo ?",
         "reponse": "Mario",
-        "propositions": ["Mario", "Luigi", "Wario", "Yoshi"],
+        "propositions": [
+          "Mario",
+          "Luigi",
+          "Wario",
+          "Yoshi"
+        ],
         "explication": "Mario, créé par Shigeru Miyamoto, apparaît pour la première fois en 1981 dans Donkey Kong."
       },
       {
         "question": "Quelle console de Sega, sortie en 1991, était la grande rivale de la Super Nintendo ?",
         "reponse": "La Mega Drive",
-        "propositions": ["La Mega Drive", "La Master System", "La Saturn", "La Dreamcast"],
+        "propositions": [
+          "La Mega Drive",
+          "La Master System",
+          "La Saturn",
+          "La Dreamcast"
+        ],
         "explication": "La Mega Drive (Genesis aux États-Unis) affronte la Super Nintendo lors de la \"guerre des consoles\" des années 1990."
       },
       {
         "question": "Quel jeu d'arcade de 1980, mettant en scène une créature jaune mangeant des pac-gommes, est un classique absolu ?",
         "reponse": "Pac-Man",
-        "propositions": ["Pac-Man", "Space Invaders", "Donkey Kong", "Frogger"],
+        "propositions": [
+          "Pac-Man",
+          "Space Invaders",
+          "Donkey Kong",
+          "Frogger"
+        ],
         "explication": "Pac-Man, créé par Toru Iwatani, devient l'un des jeux d'arcade les plus populaires de tous les temps."
       },
       {
         "question": "Quelle entreprise a créé la console PlayStation, sortie en 1994 ?",
         "reponse": "Sony",
-        "propositions": ["Sony", "Sega", "Nintendo", "Atari"],
+        "propositions": [
+          "Sony",
+          "Sega",
+          "Nintendo",
+          "Atari"
+        ],
         "explication": "La PlayStation, lancée par Sony au Japon en décembre 1994, marque l'entrée du géant japonais sur le marché des consoles."
       },
       {
         "question": "Quel jeu de tir spatial de 1978 est considéré comme un pionnier du genre \"shoot 'em up\" ?",
         "reponse": "Space Invaders",
-        "propositions": ["Space Invaders", "Galaga", "Asteroids", "Defender"],
+        "propositions": [
+          "Space Invaders",
+          "Galaga",
+          "Asteroids",
+          "Defender"
+        ],
         "explication": "Space Invaders, créé par Tomohiro Nishikado, popularise le genre du tir spatial dès 1978."
+      },
+      {
+        "question": "Quelle console de Nintendo, sortie en 1996, a introduit les jeux en 3D avec un joystick analogique ?",
+        "reponse": "La Nintendo 64",
+        "propositions": [
+          "La Nintendo 64",
+          "La Super Nintendo",
+          "La GameCube",
+          "La NES"
+        ],
+        "explication": "'Super Mario 64' a marqué les esprits comme jeu de lancement de la console."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1981 met en scène un charpentier sauvant une princesse d'un gorille géant ?",
+        "reponse": "Donkey Kong",
+        "propositions": [
+          "Donkey Kong",
+          "Pac-Man",
+          "Frogger",
+          "Galaga"
+        ],
+        "explication": "Ce jeu marque la première apparition du personnage qui deviendra Mario."
+      },
+      {
+        "question": "Quelle console de Nintendo, sortie en 1990, a succédé à la NES avec des graphismes en 16 bits ?",
+        "reponse": "La Super Nintendo (SNES)",
+        "propositions": [
+          "La Super Nintendo (SNES)",
+          "La Nintendo 64",
+          "La Sega Saturn",
+          "La Mega Drive"
+        ],
+        "explication": "La Super Nintendo a accueilli des classiques comme 'Super Mario World' et 'The Legend of Zelda: A Link to the Past'."
+      },
+      {
+        "question": "Quel personnage bleu en forme de boule, capable d'aspirer ses ennemis, est apparu en 1992 chez Nintendo ?",
+        "reponse": "Kirby",
+        "propositions": [
+          "Kirby",
+          "Yoshi",
+          "Pikachu",
+          "Toad"
+        ],
+        "explication": "Kirby est en réalité rose, malgré une couleur bleutée sur certaines jaquettes originales japonaises."
+      },
+      {
+        "question": "Quelle entreprise a créé la console Atari 2600, sortie en 1977 ?",
+        "reponse": "Atari",
+        "propositions": [
+          "Atari",
+          "Nintendo",
+          "Sega",
+          "Coleco"
+        ],
+        "explication": "L'Atari 2600 a popularisé les cartouches interchangeables dans les foyers."
+      },
+      {
+        "question": "Quel jeu de rythme, sorti en arcade en 1998, se joue en dansant sur une plateforme au sol ?",
+        "reponse": "Dance Dance Revolution",
+        "propositions": [
+          "Dance Dance Revolution",
+          "Guitar Hero",
+          "Parappa the Rapper",
+          "Beatmania"
+        ],
+        "explication": "DDR a été développé par Konami et a connu un grand succès dans les salles d'arcade."
+      },
+      {
+        "question": "Quelle console portable de Sega, sortie en 1990, était l'une des premières à afficher des couleurs ?",
+        "reponse": "La Game Gear",
+        "propositions": [
+          "La Game Gear",
+          "La Game Boy",
+          "La Lynx",
+          "La Neo Geo Pocket"
+        ],
+        "explication": "La Game Gear consommait beaucoup de piles en raison de son écran rétroéclairé couleur."
+      },
+      {
+        "question": "Quel jeu vidéo de combat met en scène des personnages comme Ryu et Ken, lancé par Capcom en 1987 ?",
+        "reponse": "Street Fighter",
+        "propositions": [
+          "Street Fighter",
+          "Mortal Kombat",
+          "Tekken",
+          "King of Fighters"
+        ],
+        "explication": "Le premier 'Street Fighter' est sorti en arcade en 1987, avant le succès massif de 'Street Fighter II'."
+      },
+      {
+        "question": "Quelle entreprise japonaise a créé la console PC Engine, sortie en 1987 ?",
+        "reponse": "NEC",
+        "propositions": [
+          "NEC",
+          "Sharp",
+          "Casio",
+          "Sanyo"
+        ],
+        "explication": "La PC Engine, appelée TurboGrafx-16 aux États-Unis, a été un succès commercial notable au Japon."
+      },
+      {
+        "question": "Quel jeu de labyrinthe de 1980 met en scène un fantôme jaune évitant des fantômes colorés ?",
+        "reponse": "Pac-Man",
+        "propositions": [
+          "Pac-Man",
+          "Q*bert",
+          "Dig Dug",
+          "Bomberman"
+        ],
+        "explication": "Pac-Man, en réalité une créature jaune (pas un fantôme), est l'un des jeux les plus reconnaissables au monde."
       }
     ],
     "2": [
       {
         "question": "Quelle console, sortie par Nintendo en 1985 aux États-Unis, a relancé le marché du jeu vidéo après le krach de 1983 ?",
         "reponse": "La NES (Nintendo Entertainment System)",
-        "propositions": ["La NES (Nintendo Entertainment System)", "La SNES", "La Game Boy", "L'Atari 2600"],
+        "propositions": [
+          "La NES (Nintendo Entertainment System)",
+          "La SNES",
+          "La Game Boy",
+          "L'Atari 2600"
+        ],
         "explication": "La NES restaure la confiance du marché américain, dévasté par le krach du jeu vidéo de 1983."
       },
       {
         "question": "Quel personnage, hérisson bleu ultra-rapide, est la mascotte de Sega ?",
         "reponse": "Sonic",
-        "propositions": ["Sonic", "Tails", "Knuckles", "Shadow"],
+        "propositions": [
+          "Sonic",
+          "Tails",
+          "Knuckles",
+          "Shadow"
+        ],
         "explication": "Sonic the Hedgehog apparaît en 1991 pour concurrencer directement Mario."
       },
       {
         "question": "Quel jeu de plateforme de 1985, mettant en scène Mario pour la première fois sur console de salon, a défini le genre ?",
         "reponse": "Super Mario Bros.",
-        "propositions": ["Super Mario Bros.", "Donkey Kong", "Super Mario World", "Duck Hunt"],
+        "propositions": [
+          "Super Mario Bros.",
+          "Donkey Kong",
+          "Super Mario World",
+          "Duck Hunt"
+        ],
         "explication": "Super Mario Bros., sorti sur NES en 1985, pose les bases du jeu de plateforme moderne."
       },
       {
         "question": "Quelle console portable de Nintendo, sortie en 1989, a dominé le marché du jeu portable pendant plus d'une décennie ?",
         "reponse": "La Game Boy",
-        "propositions": ["La Game Boy", "La Game Gear", "La Lynx", "La Neo Geo Pocket"],
+        "propositions": [
+          "La Game Boy",
+          "La Game Gear",
+          "La Lynx",
+          "La Neo Geo Pocket"
+        ],
         "explication": "La Game Boy, malgré un écran monochrome, s'impose grâce à son autonomie et son catalogue de jeux."
       },
       {
         "question": "Quel jeu de combat, sorti en 1991 chez Capcom, oppose des combattants du monde entier et lance le genre \"versus fighting\" ?",
         "reponse": "Street Fighter II",
-        "propositions": ["Street Fighter II", "Mortal Kombat", "Tekken", "Fatal Fury"],
+        "propositions": [
+          "Street Fighter II",
+          "Mortal Kombat",
+          "Tekken",
+          "Fatal Fury"
+        ],
         "explication": "Street Fighter II popularise massivement le jeu de combat en arcade au début des années 1990."
+      },
+      {
+        "question": "Quel jeu, sorti sur Nintendo 64 en 1998, est souvent cité comme l'un des meilleurs jeux d'aventure de tous les temps ?",
+        "reponse": "The Legend of Zelda: Ocarina of Time",
+        "propositions": [
+          "The Legend of Zelda: Ocarina of Time",
+          "Super Mario 64",
+          "GoldenEye 007",
+          "Banjo-Kazooie"
+        ],
+        "explication": "Ocarina of Time a introduit le ciblage automatique (Z-targeting), depuis largement repris dans le genre action-aventure."
+      },
+      {
+        "question": "Quelle console de Sony, sortie en 2000, est devenue la console la plus vendue de l'histoire à l'époque ?",
+        "reponse": "La PlayStation 2",
+        "propositions": [
+          "La PlayStation 2",
+          "La PlayStation",
+          "La GameCube",
+          "La Xbox"
+        ],
+        "explication": "La PS2 s'est vendue à plus de 155 millions d'exemplaires dans le monde."
+      },
+      {
+        "question": "Quel jeu de combat de Nintendo, sorti en 1999, oppose des personnages emblématiques comme Mario, Link et Pikachu ?",
+        "reponse": "Super Smash Bros.",
+        "propositions": [
+          "Super Smash Bros.",
+          "Mario Kart 64",
+          "Mario Party",
+          "Pokémon Stadium"
+        ],
+        "explication": "Le premier 'Super Smash Bros.' est sorti sur Nintendo 64 en 1999."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1978, mettant en scène des vaisseaux extraterrestres, est considéré comme un pionnier du 'shoot 'em up' ?",
+        "reponse": "Space Invaders",
+        "propositions": [
+          "Space Invaders",
+          "Galaxian",
+          "Asteroids",
+          "Defender"
+        ],
+        "explication": "Space Invaders a été créé par Tomohiro Nishikado chez Taito."
+      },
+      {
+        "question": "Quelle console de Nintendo, sortie en 2001, a introduit les mini-disques optiques et une forme cubique caractéristique ?",
+        "reponse": "La GameCube",
+        "propositions": [
+          "La GameCube",
+          "La Nintendo 64",
+          "La Wii",
+          "La Nintendo DS"
+        ],
+        "explication": "La GameCube utilisait de petits disques optiques propriétaires plutôt que des CD standards."
+      },
+      {
+        "question": "Quel personnage vert à carapace, principal antagoniste de la série Mario, kidnappe régulièrement la princesse Peach ?",
+        "reponse": "Bowser",
+        "propositions": [
+          "Bowser",
+          "Wario",
+          "King Boo",
+          "Kamek"
+        ],
+        "explication": "Bowser est le roi des Koopas, apparu pour la première fois dans 'Super Mario Bros.' en 1985."
+      },
+      {
+        "question": "Quel jeu de tir à la première personne, sorti en 1993 par id Software, a popularisé le genre FPS ?",
+        "reponse": "Doom",
+        "propositions": [
+          "Doom",
+          "Wolfenstein 3D",
+          "Quake",
+          "Duke Nukem 3D"
+        ],
+        "explication": "Doom a introduit le multijoueur en réseau local et un moteur graphique révolutionnaire pour l'époque."
+      },
+      {
+        "question": "Quelle console de Nintendo, sortie en 2004, possède deux écrans dont un tactile ?",
+        "reponse": "La Nintendo DS",
+        "propositions": [
+          "La Nintendo DS",
+          "La Game Boy Advance",
+          "La PSP",
+          "La 3DS"
+        ],
+        "explication": "La DS a connu un immense succès commercial, notamment grâce à des jeux comme 'Nintendogs'."
+      },
+      {
+        "question": "Quel jeu vidéo de simulation de vie sur Game Boy, sorti en 1996, permet d'élever une créature virtuelle ?",
+        "reponse": "Pokémon Rouge et Bleu",
+        "propositions": [
+          "Pokémon Rouge et Bleu",
+          "Tamagotchi",
+          "Digimon World",
+          "Dragon Quest Monsters"
+        ],
+        "explication": "Bien que le Tamagotchi soit une autre créature virtuelle populaire, Pokémon Rouge et Bleu (1996) a lancé la franchise sur Game Boy."
+      },
+      {
+        "question": "Quel jeu d'arcade et de console, sorti en 1991, oppose des combattants du monde entier et lance le genre 'versus fighting' moderne ?",
+        "reponse": "Street Fighter II",
+        "propositions": [
+          "Street Fighter II",
+          "Mortal Kombat",
+          "Fatal Fury",
+          "Art of Fighting"
+        ],
+        "explication": "Street Fighter II a été un immense succès commercial pour Capcom, relançant tout le genre."
       }
     ],
     "3": [
       {
         "question": "Quel ingénieur japonais, créateur de Mario, Zelda et Donkey Kong, est surnommé le \"père du jeu vidéo moderne\" ?",
         "reponse": "Shigeru Miyamoto",
-        "propositions": ["Shigeru Miyamoto", "Hideo Kojima", "Satoshi Tajiri", "Yuji Naka"],
+        "propositions": [
+          "Shigeru Miyamoto",
+          "Hideo Kojima",
+          "Satoshi Tajiri",
+          "Yuji Naka"
+        ],
         "explication": "Shigeru Miyamoto est à l'origine de certaines des franchises les plus célèbres de Nintendo."
       },
       {
         "question": "Quel jeu vidéo, développé par Atari et sorti en 1982, est resté célèbre pour avoir contribué au krach du jeu vidéo de 1983 ?",
         "reponse": "E.T. l'extra-terrestre",
-        "propositions": ["E.T. l'extra-terrestre", "Pac-Man (Atari 2600)", "Pitfall!", "Custer's Revenge"],
+        "propositions": [
+          "E.T. l'extra-terrestre",
+          "Pac-Man (Atari 2600)",
+          "Pitfall!",
+          "Custer's Revenge"
+        ],
         "explication": "Développé en cinq semaines, E.T. est considéré comme l'un des plus grands échecs commerciaux du jeu vidéo."
       },
       {
         "question": "Quelle société a développé la console Neo Geo en 1990, réputée pour ses jeux d'arcade haut de gamme et son prix très élevé ?",
         "reponse": "SNK",
-        "propositions": ["SNK", "Capcom", "Konami", "Taito"],
+        "propositions": [
+          "SNK",
+          "Capcom",
+          "Konami",
+          "Taito"
+        ],
         "explication": "La Neo Geo, surnommée \"la Rolls-Royce des consoles\", visait un public de passionnés fortunés."
       },
       {
         "question": "Quel jeu de rôle japonais, sorti en 1987 sur NES, est le premier épisode d'une saga culte comptant aujourd'hui des dizaines d'opus ?",
         "reponse": "Final Fantasy",
-        "propositions": ["Final Fantasy", "Dragon Quest", "Chrono Trigger", "EarthBound"],
+        "propositions": [
+          "Final Fantasy",
+          "Dragon Quest",
+          "Chrono Trigger",
+          "EarthBound"
+        ],
         "explication": "Créé par Hironobu Sakaguchi, le premier Final Fantasy sort en décembre 1987 au Japon."
       },
       {
         "question": "Quel jeu de puzzle, sorti en 1984, où il faut empiler des blocs de formes différentes, a été inventé par le programmeur soviétique Alexey Pajitnov ?",
         "reponse": "Tetris",
-        "propositions": ["Tetris", "Columns", "Puyo Puyo", "Dr. Mario"],
+        "propositions": [
+          "Tetris",
+          "Columns",
+          "Puyo Puyo",
+          "Dr. Mario"
+        ],
         "explication": "Tetris devient l'un des jeux les plus vendus de tous les temps, porté notamment par la Game Boy."
+      },
+      {
+        "question": "Quelle console de 1982 se distingue par son propre écran vectoriel monochrome intégré, une rareté parmi les consoles domestiques ?",
+        "reponse": "La Vectrex",
+        "propositions": [
+          "La Vectrex",
+          "L'Atari 5200",
+          "L'Intellivision",
+          "La ColecoVision"
+        ],
+        "explication": "La Vectrex affichait des graphismes vectoriels plutôt qu'en pixels matriciels, avec des overlays en plastique colorés selon les jeux."
+      },
+      {
+        "question": "Quelle console, développée par Bandai en partenariat avec Apple, est sortie en 1996 sous le nom Pippin ?",
+        "reponse": "L'Apple Bandai Pippin",
+        "propositions": [
+          "L'Apple Bandai Pippin",
+          "La 3DO",
+          "La CD-i de Philips",
+          "La Jaguar CD"
+        ],
+        "explication": "Ce fut un échec commercial cuisant malgré la technologie Macintosh embarquée."
+      },
+      {
+        "question": "Quel ingénieur américain est considéré comme le 'père des jeux vidéo' pour avoir conçu 'Odyssey', la première console domestique, en 1972 ?",
+        "reponse": "Ralph Baer",
+        "propositions": [
+          "Ralph Baer",
+          "Nolan Bushnell",
+          "Al Alcorn",
+          "Steve Russell"
+        ],
+        "explication": "La Magnavox Odyssey, basée sur les travaux de Baer, a précédé Atari sur le marché domestique."
+      },
+      {
+        "question": "Quel jeu, créé par Steve Russell en 1962 sur un ordinateur PDP-1, est considéré comme l'un des tout premiers jeux vidéo de l'histoire ?",
+        "reponse": "Spacewar!",
+        "propositions": [
+          "Spacewar!",
+          "Tennis for Two",
+          "Pong",
+          "OXO"
+        ],
+        "explication": "Spacewar! opposait deux vaisseaux spatiaux dans un combat en apesanteur, sur un ordinateur universitaire du MIT."
+      },
+      {
+        "question": "Quelle société a développé la console Neo Geo AES, sortie en 1990 et vendue à un prix très élevé pour un usage domestique ?",
+        "reponse": "SNK",
+        "propositions": [
+          "SNK",
+          "Sega",
+          "Taito",
+          "Konami"
+        ],
+        "explication": "La Neo Geo utilisait le même matériel que les bornes d'arcade professionnelles de SNK."
+      },
+      {
+        "question": "Quel jeu vidéo de 1985, développé par Nintendo, a été inclus avec la NES et a fait connaître le personnage de Mario au grand public occidental ?",
+        "reponse": "Super Mario Bros.",
+        "propositions": [
+          "Super Mario Bros.",
+          "Duck Hunt",
+          "Donkey Kong",
+          "Excitebike"
+        ],
+        "explication": "'Super Mario Bros.' a été fourni en pack avec la NES lors de son lancement occidental."
+      },
+      {
+        "question": "Quel krach du marché du jeu vidéo, survenu en 1983 en Amérique du Nord, a fortement affecté Atari et ouvert la voie au marché japonais ?",
+        "reponse": "Le krach du jeu vidéo de 1983",
+        "propositions": [
+          "Le krach du jeu vidéo de 1983",
+          "La crise des consoles de 1977",
+          "Le krach de 1991",
+          "La crise Sega de 1998"
+        ],
+        "explication": "La surproduction et la baisse de qualité des jeux ont provoqué un effondrement du marché nord-américain."
+      },
+      {
+        "question": "Quel développeur japonais, cofondateur de Square, est le créateur de la série 'Final Fantasy' ?",
+        "reponse": "Hironobu Sakaguchi",
+        "propositions": [
+          "Hironobu Sakaguchi",
+          "Yuji Horii",
+          "Akira Toriyama",
+          "Nobuo Uematsu"
+        ],
+        "explication": "Sakaguchi a nommé le jeu 'Final Fantasy' car il pensait qu'il s'agirait de son dernier projet en cas d'échec."
+      },
+      {
+        "question": "Quel jeu d'arcade japonais de 1982, développé par Namco, met en scène un personnage qui creuse des tunnels pour éliminer des monstres souterrains ?",
+        "reponse": "Dig Dug",
+        "propositions": [
+          "Dig Dug",
+          "Mappy",
+          "Xevious",
+          "Bosconian"
+        ],
+        "explication": "Dig Dug a été développé et édité par Namco en 1982."
+      },
+      {
+        "question": "Quel concepteur de jeux japonais, créateur de 'Dragon Quest', a également écrit des scénarios pour 'Chrono Trigger' ?",
+        "reponse": "Yuji Horii",
+        "propositions": [
+          "Yuji Horii",
+          "Hironobu Sakaguchi",
+          "Shigeru Miyamoto",
+          "Koichi Nakamura"
+        ],
+        "explication": "Yuji Horii est surnommé le 'père des RPG japonais' pour son rôle fondateur avec Dragon Quest en 1986."
       }
     ]
   }

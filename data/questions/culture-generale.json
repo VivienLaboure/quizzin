@@ -5,96 +5,501 @@
       {
         "question": "Qui a peint le plafond de la chapelle Sixtine ?",
         "reponse": "Michel-Ange",
-        "propositions": ["Léonard de Vinci", "Michel-Ange", "Raphaël", "Le Titien"],
+        "propositions": [
+          "Léonard de Vinci",
+          "Michel-Ange",
+          "Raphaël",
+          "Le Titien"
+        ],
         "explication": "Michel-Ange a peint le plafond de la chapelle Sixtine entre 1508 et 1512."
       },
       {
         "question": "Quel est le plus grand organe du corps humain ?",
         "reponse": "La peau",
-        "propositions": ["Le foie", "La peau", "Le cœur", "Le cerveau"],
+        "propositions": [
+          "Le foie",
+          "La peau",
+          "Le cœur",
+          "Le cerveau"
+        ],
         "explication": "La peau représente environ 16 % du poids corporel et constitue le plus grand organe humain."
       },
       {
         "question": "Combien de dents possède un adulte humain, dents de sagesse comprises ?",
         "reponse": "32",
-        "propositions": ["28", "30", "32", "34"],
+        "propositions": [
+          "28",
+          "30",
+          "32",
+          "34"
+        ],
         "explication": "Un adulte possède normalement 32 dents en comptant les 4 dents de sagesse."
       },
       {
         "question": "Quel physicien a formulé la théorie de la relativité restreinte en 1905 ?",
         "reponse": "Albert Einstein",
-        "propositions": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Max Planck"],
+        "propositions": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Niels Bohr",
+          "Max Planck"
+        ],
         "explication": "Einstein publie sa théorie de la relativité restreinte en 1905, année qualifiée d'\"annus mirabilis\"."
       },
       {
         "question": "À quel courant artistique appartient le tableau 'La Nuit étoilée' de Van Gogh ?",
         "reponse": "Le postimpressionnisme",
-        "propositions": ["Le cubisme", "Le postimpressionnisme", "Le surréalisme", "Le fauvisme"],
+        "propositions": [
+          "Le cubisme",
+          "Le postimpressionnisme",
+          "Le surréalisme",
+          "Le fauvisme"
+        ],
         "explication": "Van Gogh est considéré comme l'un des principaux représentants du postimpressionnisme."
+      },
+      {
+        "question": "Combien de continents compte-t-on traditionnellement sur Terre ?",
+        "reponse": "7",
+        "propositions": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explication": "On distingue traditionnellement 7 continents : Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Asie, Europe et Océanie."
+      },
+      {
+        "question": "Quelle est la capitale de l'Italie ?",
+        "reponse": "Rome",
+        "propositions": [
+          "Rome",
+          "Milan",
+          "Naples",
+          "Venise"
+        ],
+        "explication": "Rome est la capitale de l'Italie depuis 1871."
+      },
+      {
+        "question": "Quel est le plus grand désert chaud du monde ?",
+        "reponse": "Le Sahara",
+        "propositions": [
+          "Le Sahara",
+          "Le Gobi",
+          "Le Kalahari",
+          "L'Atacama"
+        ],
+        "explication": "Le Sahara couvre environ 9 millions de km² en Afrique du Nord."
+      },
+      {
+        "question": "Quel océan est le plus grand du monde ?",
+        "reponse": "L'océan Pacifique",
+        "propositions": [
+          "L'océan Atlantique",
+          "L'océan Pacifique",
+          "L'océan Indien",
+          "L'océan Arctique"
+        ],
+        "explication": "Le Pacifique couvre environ un tiers de la surface du globe."
+      },
+      {
+        "question": "Combien de couleurs compte l'arc-en-ciel traditionnellement ?",
+        "reponse": "7",
+        "propositions": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explication": "On distingue traditionnellement 7 couleurs : rouge, orange, jaune, vert, bleu, indigo, violet."
+      },
+      {
+        "question": "Quelle est la monnaie officielle du Japon ?",
+        "reponse": "Le yen",
+        "propositions": [
+          "Le won",
+          "Le yen",
+          "Le yuan",
+          "Le ringgit"
+        ],
+        "explication": "Le yen est la monnaie officielle du Japon depuis 1871."
+      },
+      {
+        "question": "Quel écrivain britannique a créé le personnage de Sherlock Holmes ?",
+        "reponse": "Arthur Conan Doyle",
+        "propositions": [
+          "Agatha Christie",
+          "Arthur Conan Doyle",
+          "Edgar Allan Poe",
+          "Jules Verne"
+        ],
+        "explication": "Arthur Conan Doyle a créé Sherlock Holmes en 1887 dans 'Une étude en rouge'."
+      },
+      {
+        "question": "Quel est le plus grand mammifère terrestre ?",
+        "reponse": "L'éléphant d'Afrique",
+        "propositions": [
+          "Le rhinocéros blanc",
+          "L'éléphant d'Afrique",
+          "La girafe",
+          "L'hippopotame"
+        ],
+        "explication": "L'éléphant d'Afrique peut peser jusqu'à 7 tonnes."
+      },
+      {
+        "question": "Combien de temps la Terre met-elle pour effectuer un tour complet sur elle-même ?",
+        "reponse": "24 heures",
+        "propositions": [
+          "12 heures",
+          "24 heures",
+          "48 heures",
+          "365 jours"
+        ],
+        "explication": "Ce tour sur elle-même, en environ 24 heures, définit le jour."
+      },
+      {
+        "question": "Quel est l'organe qui pompe le sang dans le corps humain ?",
+        "reponse": "Le cœur",
+        "propositions": [
+          "Le foie",
+          "Le cœur",
+          "Le poumon",
+          "Le rein"
+        ],
+        "explication": "Le cœur pompe environ 5 litres de sang par minute au repos."
       }
     ],
     "2": [
       {
         "question": "Quelle loi énonce que la pression d'un gaz est inversement proportionnelle à son volume à température constante ?",
         "reponse": "La loi de Boyle-Mariotte",
-        "propositions": ["La loi de Charles", "La loi de Boyle-Mariotte", "La loi de Gay-Lussac", "La loi d'Avogadro"],
+        "propositions": [
+          "La loi de Charles",
+          "La loi de Boyle-Mariotte",
+          "La loi de Gay-Lussac",
+          "La loi d'Avogadro"
+        ],
         "explication": "Formulée indépendamment par Robert Boyle et Edme Mariotte au XVIIe siècle."
       },
       {
         "question": "Quel prix littéraire français, créé en 1903, récompense chaque année 'le meilleur ouvrage d'imagination en prose' ?",
         "reponse": "Le prix Goncourt",
-        "propositions": ["Le prix Renaudot", "Le prix Goncourt", "Le prix Femina", "Le prix Médicis"],
+        "propositions": [
+          "Le prix Renaudot",
+          "Le prix Goncourt",
+          "Le prix Femina",
+          "Le prix Médicis"
+        ],
         "explication": "Le prix Goncourt est décerné par l'Académie Goncourt et reste la distinction littéraire française la plus prestigieuse."
       },
       {
         "question": "Quelle protéine, contenue dans les globules rouges, transporte l'oxygène dans le sang ?",
         "reponse": "L'hémoglobine",
-        "propositions": ["La myoglobine", "L'hémoglobine", "L'albumine", "La fibrine"],
+        "propositions": [
+          "La myoglobine",
+          "L'hémoglobine",
+          "L'albumine",
+          "La fibrine"
+        ],
         "explication": "L'hémoglobine fixe l'oxygène au niveau des poumons pour le transporter vers les tissus."
       },
       {
         "question": "Quel compositeur autrichien a laissé un 'Requiem' inachevé à sa mort en 1791 ?",
         "reponse": "Wolfgang Amadeus Mozart",
-        "propositions": ["Joseph Haydn", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Franz Schubert"],
+        "propositions": [
+          "Joseph Haydn",
+          "Wolfgang Amadeus Mozart",
+          "Ludwig van Beethoven",
+          "Franz Schubert"
+        ],
         "explication": "Le Requiem de Mozart a été achevé après sa mort par son élève Franz Xaver Süssmayr."
       },
       {
         "question": "Quel philosophe allemand est l'auteur du concept du 'surhomme' (Übermensch) ?",
         "reponse": "Friedrich Nietzsche",
-        "propositions": ["Arthur Schopenhauer", "Friedrich Nietzsche", "Georg Wilhelm Friedrich Hegel", "Emmanuel Kant"],
+        "propositions": [
+          "Arthur Schopenhauer",
+          "Friedrich Nietzsche",
+          "Georg Wilhelm Friedrich Hegel",
+          "Emmanuel Kant"
+        ],
         "explication": "Nietzsche développe ce concept notamment dans 'Ainsi parlait Zarathoustra' (1883)."
+      },
+      {
+        "question": "Quel traité de 1648 met fin à la guerre de Trente Ans en Europe ?",
+        "reponse": "Le traité de Westphalie",
+        "propositions": [
+          "Le traité de Westphalie",
+          "Le traité d'Utrecht",
+          "Le traité de Tordesillas",
+          "Le traité de Vienne"
+        ],
+        "explication": "Les traités de Westphalie de 1648 posent les bases du système d'États souverains moderne."
+      },
+      {
+        "question": "Quelle organisation internationale, fondée en 1945, a son siège à New York ?",
+        "reponse": "L'Organisation des Nations unies",
+        "propositions": [
+          "L'OTAN",
+          "L'Organisation des Nations unies",
+          "L'UNESCO",
+          "L'OMS"
+        ],
+        "explication": "L'ONU a été créée en 1945 après la Seconde Guerre mondiale pour maintenir la paix internationale."
+      },
+      {
+        "question": "Quel scientifique britannique a découvert la pénicilline en 1928 ?",
+        "reponse": "Alexander Fleming",
+        "propositions": [
+          "Louis Pasteur",
+          "Alexander Fleming",
+          "Robert Koch",
+          "Marie Curie"
+        ],
+        "explication": "Fleming a découvert par hasard les propriétés antibactériennes d'une moisissure du genre Penicillium."
+      },
+      {
+        "question": "Quel est le plus long fleuve du monde ?",
+        "reponse": "Le Nil",
+        "propositions": [
+          "Le Nil",
+          "L'Amazone",
+          "Le Yangtsé",
+          "Le Mississippi"
+        ],
+        "explication": "Le Nil, avec environ 6 650 km, est traditionnellement considéré comme le plus long fleuve du monde."
+      },
+      {
+        "question": "Quel peintre norvégien est l'auteur du tableau 'Le Cri' (1893) ?",
+        "reponse": "Edvard Munch",
+        "propositions": [
+          "Salvador Dalí",
+          "Edvard Munch",
+          "Gustav Klimt",
+          "Egon Schiele"
+        ],
+        "explication": "'Le Cri' est l'œuvre la plus célèbre du peintre expressionniste norvégien Edvard Munch."
+      },
+      {
+        "question": "Quelle est la langue la plus parlée au monde en nombre de locuteurs natifs ?",
+        "reponse": "Le mandarin",
+        "propositions": [
+          "L'anglais",
+          "Le mandarin",
+          "L'espagnol",
+          "L'hindi"
+        ],
+        "explication": "Le mandarin compte plus de locuteurs natifs que toute autre langue au monde."
+      },
+      {
+        "question": "Quel navigateur portugais a été le premier Européen à atteindre l'Inde par la mer, en 1498 ?",
+        "reponse": "Vasco de Gama",
+        "propositions": [
+          "Christophe Colomb",
+          "Vasco de Gama",
+          "Fernand de Magellan",
+          "Bartolomeu Dias"
+        ],
+        "explication": "Vasco de Gama a contourné l'Afrique pour ouvrir la route maritime vers l'Inde."
+      },
+      {
+        "question": "Quelle monnaie commune est utilisée par une majorité des pays de l'Union européenne ?",
+        "reponse": "L'euro",
+        "propositions": [
+          "Le franc",
+          "L'euro",
+          "Le mark",
+          "La livre"
+        ],
+        "explication": "L'euro a été introduit en 1999 (version scripturale) puis en 2002 (pièces et billets)."
+      },
+      {
+        "question": "Quel roi d'Angleterre du XVIe siècle a eu six épouses successives ?",
+        "reponse": "Henri VIII",
+        "propositions": [
+          "Henri VII",
+          "Henri VIII",
+          "Édouard VI",
+          "Richard III"
+        ],
+        "explication": "Henri VIII a rompu avec l'Église catholique en partie à cause de ses remariages successifs."
+      },
+      {
+        "question": "Quelle est la plus grande île du monde ?",
+        "reponse": "Le Groenland",
+        "propositions": [
+          "L'Australie",
+          "Le Groenland",
+          "Madagascar",
+          "Bornéo"
+        ],
+        "explication": "Le Groenland est la plus grande île du monde ; l'Australie, plus vaste encore, est classée comme continent."
       }
     ],
     "3": [
       {
         "question": "Comment appelle-t-on le passage direct d'une substance de l'état solide à l'état gazeux, sans passer par l'état liquide ?",
         "reponse": "La sublimation",
-        "propositions": ["La sublimation", "La condensation", "La déliquescence", "L'effusion"],
+        "propositions": [
+          "La sublimation",
+          "La condensation",
+          "La déliquescence",
+          "L'effusion"
+        ],
         "explication": "La sublimation explique par exemple la disparition progressive de la neige carbonique (CO2 solide)."
       },
       {
         "question": "Quel mathématicien autrichien a démontré en 1931 les théorèmes d'incomplétude, révélant les limites des systèmes formels ?",
         "reponse": "Kurt Gödel",
-        "propositions": ["David Hilbert", "Kurt Gödel", "Alan Turing", "Bertrand Russell"],
+        "propositions": [
+          "David Hilbert",
+          "Kurt Gödel",
+          "Alan Turing",
+          "Bertrand Russell"
+        ],
         "explication": "Les théorèmes de Gödel démontrent qu'aucun système formel cohérent suffisamment puissant ne peut être à la fois complet et prouver sa propre cohérence."
       },
       {
         "question": "Quelle enzyme catalyse la synthèse du nouveau brin d'ADN lors de la réplication ?",
         "reponse": "L'ADN polymérase",
-        "propositions": ["La ligase", "L'ADN polymérase", "L'hélicase", "La topoisomérase"],
+        "propositions": [
+          "La ligase",
+          "L'ADN polymérase",
+          "L'hélicase",
+          "La topoisomérase"
+        ],
         "explication": "L'ADN polymérase ajoute les nucléotides complémentaires au brin matrice lors de la réplication."
       },
       {
         "question": "Quel traité de 1494 a partagé les terres nouvellement découvertes entre l'Espagne et le Portugal le long d'un méridien ?",
         "reponse": "Le traité de Tordesillas",
-        "propositions": ["Le traité de Tordesillas", "Le traité de Zaragoza", "Le traité de Windsor", "Le traité de Cateau-Cambrésis"],
+        "propositions": [
+          "Le traité de Tordesillas",
+          "Le traité de Zaragoza",
+          "Le traité de Windsor",
+          "Le traité de Cateau-Cambrésis"
+        ],
         "explication": "Négocié sous l'égide du pape, ce traité fixait la ligne de partage à 370 lieues à l'ouest des îles du Cap-Vert."
       },
       {
         "question": "Quel paradoxe, formulé par Bertrand Russell en 1901, porte sur l'ensemble de tous les ensembles qui ne se contiennent pas eux-mêmes ?",
         "reponse": "Le paradoxe de Russell",
-        "propositions": ["Le paradoxe de Russell", "Le paradoxe de Zénon", "Le paradoxe de Banach-Tarski", "Le paradoxe de Fermi"],
+        "propositions": [
+          "Le paradoxe de Russell",
+          "Le paradoxe de Zénon",
+          "Le paradoxe de Banach-Tarski",
+          "Le paradoxe de Fermi"
+        ],
         "explication": "Ce paradoxe a révélé une contradiction majeure dans la théorie naïve des ensembles, menant au développement de la théorie axiomatique."
+      },
+      {
+        "question": "Quel philosophe grec antique est l'auteur de 'La République' ?",
+        "reponse": "Platon",
+        "propositions": [
+          "Socrate",
+          "Platon",
+          "Aristote",
+          "Épicure"
+        ],
+        "explication": "Platon y expose sa conception de la cité idéale à travers des dialogues attribués à Socrate."
+      },
+      {
+        "question": "Quelle bataille navale de 1571 met fin à la suprématie ottomane en Méditerranée ?",
+        "reponse": "La bataille de Lépante",
+        "propositions": [
+          "La bataille de Trafalgar",
+          "La bataille de Lépante",
+          "La bataille de Salamine",
+          "La bataille d'Actium"
+        ],
+        "explication": "La Sainte Ligue chrétienne y bat la flotte ottomane au large de la Grèce."
+      },
+      {
+        "question": "Quel astronome polonais a formulé la théorie héliocentrique moderne au XVIe siècle ?",
+        "reponse": "Nicolas Copernic",
+        "propositions": [
+          "Galilée",
+          "Nicolas Copernic",
+          "Johannes Kepler",
+          "Tycho Brahe"
+        ],
+        "explication": "Copernic publie en 1543 'Des révolutions des orbes célestes', plaçant le Soleil au centre."
+      },
+      {
+        "question": "Quel empire précolombien, centré sur Cuzco, dominait les Andes avant la conquête espagnole ?",
+        "reponse": "L'empire inca",
+        "propositions": [
+          "L'empire aztèque",
+          "L'empire inca",
+          "L'empire maya",
+          "L'empire toltèque"
+        ],
+        "explication": "L'empire inca s'étendait le long des Andes avant sa chute face aux conquistadors dans les années 1530."
+      },
+      {
+        "question": "Quel économiste écossais du XVIIIe siècle est l'auteur de 'La Richesse des nations' (1776) ?",
+        "reponse": "Adam Smith",
+        "propositions": [
+          "David Ricardo",
+          "Adam Smith",
+          "John Locke",
+          "Thomas Malthus"
+        ],
+        "explication": "Adam Smith y théorise la division du travail et la 'main invisible' du marché."
+      },
+      {
+        "question": "Quel traité de 1919 met officiellement fin à la Première Guerre mondiale entre l'Allemagne et les Alliés ?",
+        "reponse": "Le traité de Versailles",
+        "propositions": [
+          "Le traité de Versailles",
+          "Le traité de Sèvres",
+          "Le traité de Trianon",
+          "Le traité de Saint-Germain"
+        ],
+        "explication": "Signé au château de Versailles, il impose de lourdes réparations à l'Allemagne."
+      },
+      {
+        "question": "Quel physicien danois a proposé en 1913 un modèle de l'atome à orbites électroniques discrètes ?",
+        "reponse": "Niels Bohr",
+        "propositions": [
+          "Ernest Rutherford",
+          "Niels Bohr",
+          "Max Planck",
+          "Erwin Schrödinger"
+        ],
+        "explication": "Le modèle de Bohr introduit la quantification des niveaux d'énergie des électrons."
+      },
+      {
+        "question": "Quel explorateur portugais a mené la première expédition à accomplir le tour du monde par voie maritime ?",
+        "reponse": "Fernand de Magellan",
+        "propositions": [
+          "Vasco de Gama",
+          "Fernand de Magellan",
+          "Christophe Colomb",
+          "James Cook"
+        ],
+        "explication": "Magellan meurt en cours de route aux Philippines en 1521 ; son expédition s'achève sans lui en 1522."
+      },
+      {
+        "question": "Quel philosophe des Lumières est l'auteur du 'Contrat social' (1762) ?",
+        "reponse": "Jean-Jacques Rousseau",
+        "propositions": [
+          "Voltaire",
+          "Jean-Jacques Rousseau",
+          "Montesquieu",
+          "Denis Diderot"
+        ],
+        "explication": "Rousseau y développe l'idée d'une souveraineté populaire fondée sur la volonté générale."
+      },
+      {
+        "question": "Quel mathématicien grec antique a développé la méthode d'exhaustion, précurseur du calcul intégral ?",
+        "reponse": "Archimède",
+        "propositions": [
+          "Euclide",
+          "Archimède",
+          "Pythagore",
+          "Thalès"
+        ],
+        "explication": "Archimède a utilisé cette méthode pour calculer des aires et des volumes de figures complexes."
       }
     ]
   }

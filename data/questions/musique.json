@@ -5,96 +5,501 @@
       {
         "question": "Quel groupe britannique a composé les albums 'Abbey Road' et 'Sgt. Pepper's Lonely Hearts Club Band' ?",
         "reponse": "The Beatles",
-        "propositions": ["The Rolling Stones", "The Beatles", "Pink Floyd", "The Who"],
+        "propositions": [
+          "The Rolling Stones",
+          "The Beatles",
+          "Pink Floyd",
+          "The Who"
+        ],
         "explication": "The Beatles, originaires de Liverpool, sont considérés comme l'un des groupes les plus influents de l'histoire de la musique."
       },
       {
         "question": "Quel instrument à cordes se joue avec un archet et se tient sous le menton ?",
         "reponse": "Le violon",
-        "propositions": ["La guitare", "Le violon", "Le violoncelle", "La harpe"],
+        "propositions": [
+          "La guitare",
+          "Le violon",
+          "Le violoncelle",
+          "La harpe"
+        ],
         "explication": "Le violon est le plus petit et le plus aigu des instruments à cordes frottées."
       },
       {
         "question": "Quelle chanteuse américaine est surnommée la \"Reine de la Pop\" ?",
         "reponse": "Madonna",
-        "propositions": ["Madonna", "Whitney Houston", "Mariah Carey", "Cher"],
+        "propositions": [
+          "Madonna",
+          "Whitney Houston",
+          "Mariah Carey",
+          "Cher"
+        ],
         "explication": "Madonna a dominé les classements internationaux depuis les années 1980."
       },
       {
         "question": "Combien de touches possède un piano standard ?",
         "reponse": "88",
-        "propositions": ["76", "84", "88", "92"],
+        "propositions": [
+          "76",
+          "84",
+          "88",
+          "92"
+        ],
         "explication": "Un piano standard possède 88 touches, réparties en 52 blanches et 36 noires."
       },
       {
         "question": "Quel chanteur est surnommé le \"King of Pop\" ?",
         "reponse": "Michael Jackson",
-        "propositions": ["Elvis Presley", "Michael Jackson", "Prince", "Stevie Wonder"],
+        "propositions": [
+          "Elvis Presley",
+          "Michael Jackson",
+          "Prince",
+          "Stevie Wonder"
+        ],
         "explication": "Michael Jackson doit ce surnom à son influence majeure sur la pop à partir des années 1980, notamment avec l'album 'Thriller'."
+      },
+      {
+        "question": "Quel groupe suédois est connu pour les tubes 'Dancing Queen' et 'Mamma Mia' ?",
+        "reponse": "ABBA",
+        "propositions": [
+          "ABBA",
+          "Roxette",
+          "Ace of Base",
+          "A-ha"
+        ],
+        "explication": "ABBA a remporté l'Eurovision 1974 avec la chanson 'Waterloo'."
+      },
+      {
+        "question": "Quel chanteur américain est surnommé 'The King' pour son influence sur le rock'n'roll ?",
+        "reponse": "Elvis Presley",
+        "propositions": [
+          "Elvis Presley",
+          "Chuck Berry",
+          "Little Richard",
+          "Jerry Lee Lewis"
+        ],
+        "explication": "Elvis Presley a connu un succès mondial dès les années 1950."
+      },
+      {
+        "question": "Quel instrument à vent possède un pavillon évasé et se joue avec une embouchure et des pistons ?",
+        "reponse": "La trompette",
+        "propositions": [
+          "La trompette",
+          "Le trombone",
+          "Le saxophone",
+          "Le cor"
+        ],
+        "explication": "La trompette est un instrument central du jazz et de la musique classique."
+      },
+      {
+        "question": "Quel groupe britannique, formé à Liverpool, comprenait John Lennon et Paul McCartney ?",
+        "reponse": "The Beatles",
+        "propositions": [
+          "The Beatles",
+          "The Rolling Stones",
+          "The Who",
+          "Queen"
+        ],
+        "explication": "Les Beatles sont l'un des groupes les plus influents de l'histoire de la musique populaire."
+      },
+      {
+        "question": "Quel chanteur français est connu pour la chanson 'Je t'aime... moi non plus' ?",
+        "reponse": "Serge Gainsbourg",
+        "propositions": [
+          "Serge Gainsbourg",
+          "Johnny Hallyday",
+          "Charles Aznavour",
+          "Jacques Brel"
+        ],
+        "explication": "Cette chanson, duo avec Jane Birkin, a fait scandale à sa sortie en 1969."
+      },
+      {
+        "question": "Quel instrument à percussion se compose de plusieurs tambours et cymbales joués avec des baguettes ?",
+        "reponse": "La batterie",
+        "propositions": [
+          "La batterie",
+          "Les congas",
+          "Le djembé",
+          "Le xylophone"
+        ],
+        "explication": "La batterie moderne s'est développée au début du XXe siècle dans le jazz américain."
+      },
+      {
+        "question": "Quelle chanteuse américaine est surnommée la 'Queen of Rock'n'Roll' ?",
+        "reponse": "Tina Turner",
+        "propositions": [
+          "Tina Turner",
+          "Aretha Franklin",
+          "Whitney Houston",
+          "Diana Ross"
+        ],
+        "explication": "Tina Turner a connu une longue carrière solo après son duo avec Ike Turner."
+      },
+      {
+        "question": "Quel groupe de rock britannique est connu pour l'album 'A Night at the Opera' et le titre 'Bohemian Rhapsody' ?",
+        "reponse": "Queen",
+        "propositions": [
+          "Queen",
+          "Led Zeppelin",
+          "Deep Purple",
+          "The Who"
+        ],
+        "explication": "'Bohemian Rhapsody' (1975) est l'un des morceaux les plus emblématiques de l'histoire du rock."
+      },
+      {
+        "question": "Quel chanteur belge est célèbre pour 'Ne me quitte pas' et 'Quand on n'a que l'amour' ?",
+        "reponse": "Jacques Brel",
+        "propositions": [
+          "Jacques Brel",
+          "Charles Aznavour",
+          "Serge Reggiani",
+          "Georges Brassens"
+        ],
+        "explication": "Jacques Brel est l'une des grandes figures de la chanson francophone du XXe siècle."
+      },
+      {
+        "question": "Quel type de voix, la plus aiguë chez les femmes, est notamment illustré par les grands rôles d'opéra ?",
+        "reponse": "Le soprano",
+        "propositions": [
+          "Le soprano",
+          "L'alto",
+          "Le mezzo-soprano",
+          "Le contralto"
+        ],
+        "explication": "Le soprano est la voix féminine la plus haute en tessiture."
       }
     ],
     "2": [
       {
         "question": "Quel compositeur autrichien du XVIIIe siècle a composé plus de 600 œuvres avant sa mort à 35 ans ?",
         "reponse": "Wolfgang Amadeus Mozart",
-        "propositions": ["Joseph Haydn", "Wolfgang Amadeus Mozart", "Antonio Salieri", "Christoph Willibald Gluck"],
+        "propositions": [
+          "Joseph Haydn",
+          "Wolfgang Amadeus Mozart",
+          "Antonio Salieri",
+          "Christoph Willibald Gluck"
+        ],
         "explication": "Mozart est mort en 1791 à seulement 35 ans, laissant un catalogue impressionnant d'œuvres."
       },
       {
         "question": "Quel genre musical est né dans les clubs de La Nouvelle-Orléans au début du XXe siècle, mêlant improvisation et syncope ?",
         "reponse": "Le jazz",
-        "propositions": ["Le blues", "Le jazz", "Le ragtime", "Le gospel"],
+        "propositions": [
+          "Le blues",
+          "Le jazz",
+          "Le ragtime",
+          "Le gospel"
+        ],
         "explication": "Le jazz est né au début du XXe siècle à La Nouvelle-Orléans, mélangeant influences africaines et européennes."
       },
       {
         "question": "Quel groupe de rock britannique a sorti l'album concept 'The Dark Side of the Moon' en 1973 ?",
         "reponse": "Pink Floyd",
-        "propositions": ["Led Zeppelin", "Pink Floyd", "Queen", "Genesis"],
+        "propositions": [
+          "Led Zeppelin",
+          "Pink Floyd",
+          "Queen",
+          "Genesis"
+        ],
         "explication": "Cet album reste l'un des plus vendus de l'histoire, resté plus de 900 semaines dans les classements américains."
       },
       {
         "question": "Quelle est la voix la plus grave chez les chanteurs hommes en musique classique ?",
         "reponse": "La basse",
-        "propositions": ["Le ténor", "Le baryton", "La basse", "Le contre-ténor"],
+        "propositions": [
+          "Le ténor",
+          "Le baryton",
+          "La basse",
+          "Le contre-ténor"
+        ],
         "explication": "Du plus aigu au plus grave chez les hommes : ténor, baryton, basse."
       },
       {
         "question": "Quel rappeur américain est l'auteur de l'album 'The Marshall Mathers LP' ?",
         "reponse": "Eminem",
-        "propositions": ["Jay-Z", "Eminem", "Kanye West", "50 Cent"],
+        "propositions": [
+          "Jay-Z",
+          "Eminem",
+          "Kanye West",
+          "50 Cent"
+        ],
         "explication": "Sorti en 2000, cet album reste l'un des albums de rap les plus vendus de l'histoire."
+      },
+      {
+        "question": "Quel groupe de rock américain, mené par Axl Rose, a sorti l'album 'Appetite for Destruction' en 1987 ?",
+        "reponse": "Guns N' Roses",
+        "propositions": [
+          "Guns N' Roses",
+          "Aerosmith",
+          "Bon Jovi",
+          "Mötley Crüe"
+        ],
+        "explication": "Cet album contient le célèbre titre 'Sweet Child O' Mine'."
+      },
+      {
+        "question": "Quelle chanteuse américaine est surnommée la 'Queen of Soul' ?",
+        "reponse": "Aretha Franklin",
+        "propositions": [
+          "Aretha Franklin",
+          "Whitney Houston",
+          "Diana Ross",
+          "Nina Simone"
+        ],
+        "explication": "Aretha Franklin est notamment célèbre pour son interprétation de 'Respect'."
+      },
+      {
+        "question": "Quel genre musical électronique, né à Chicago dans les années 1980, repose sur des rythmes répétitifs en 4/4 ?",
+        "reponse": "La house",
+        "propositions": [
+          "La house",
+          "La techno",
+          "La drum and bass",
+          "Le dubstep"
+        ],
+        "explication": "La techno, elle, est née peu après à Détroit, dans un esprit voisin mais distinct."
+      },
+      {
+        "question": "Quel compositeur allemand du XIXe siècle est célèbre pour ses opéras comme 'Tristan und Isolde' et sa 'Tétralogie' ?",
+        "reponse": "Richard Wagner",
+        "propositions": [
+          "Richard Wagner",
+          "Johannes Brahms",
+          "Robert Schumann",
+          "Franz Liszt"
+        ],
+        "explication": "Wagner a fait construire un théâtre dédié à ses œuvres à Bayreuth, en Allemagne."
+      },
+      {
+        "question": "Quel groupe de rock progressif britannique a sorti l'album concept 'The Wall' en 1979 ?",
+        "reponse": "Pink Floyd",
+        "propositions": [
+          "Pink Floyd",
+          "Genesis",
+          "Yes",
+          "King Crimson"
+        ],
+        "explication": "'The Wall' a également été adapté au cinéma en 1982."
+      },
+      {
+        "question": "Quel chanteur et musicien américain, pionnier du rock'n'roll, est connu pour 'Johnny B. Goode' ?",
+        "reponse": "Chuck Berry",
+        "propositions": [
+          "Chuck Berry",
+          "Little Richard",
+          "Bo Diddley",
+          "Fats Domino"
+        ],
+        "explication": "Chuck Berry est souvent considéré comme l'un des pères fondateurs du rock'n'roll."
+      },
+      {
+        "question": "Quel style musical, né dans les années 1970 dans le Bronx, associe rythmes samplés et paroles scandées ?",
+        "reponse": "Le hip-hop / rap",
+        "propositions": [
+          "Le hip-hop / rap",
+          "Le funk",
+          "Le disco",
+          "Le reggae"
+        ],
+        "explication": "Le hip-hop est né dans les block parties organisées par des DJ comme DJ Kool Herc."
+      },
+      {
+        "question": "Quel compositeur autrichien du XIXe siècle est surnommé le 'roi de la valse' pour des œuvres comme 'Le Beau Danube bleu' ?",
+        "reponse": "Johann Strauss II",
+        "propositions": [
+          "Johann Strauss II",
+          "Franz Schubert",
+          "Johannes Brahms",
+          "Anton Bruckner"
+        ],
+        "explication": "Il a composé plus de 500 valses, polkas et autres œuvres de musique légère viennoise."
+      },
+      {
+        "question": "Quel chanteur jamaïcain a popularisé le reggae à l'échelle mondiale avec des titres comme 'No Woman, No Cry' ?",
+        "reponse": "Bob Marley",
+        "propositions": [
+          "Bob Marley",
+          "Peter Tosh",
+          "Jimmy Cliff",
+          "Toots Hibbert"
+        ],
+        "explication": "Bob Marley reste, des décennies après sa mort en 1981, l'icône mondiale du reggae."
+      },
+      {
+        "question": "Quel pianiste et compositeur américain est l'auteur de 'Rhapsody in Blue' (1924), mêlant jazz et musique classique ?",
+        "reponse": "George Gershwin",
+        "propositions": [
+          "George Gershwin",
+          "Duke Ellington",
+          "Aaron Copland",
+          "Cole Porter"
+        ],
+        "explication": "Gershwin a également composé l'opéra 'Porgy and Bess'."
       }
     ],
     "3": [
       {
         "question": "Quel compositeur russe est l'auteur du ballet 'Le Sacre du printemps', dont la première en 1913 provoqua un scandale ?",
         "reponse": "Igor Stravinsky",
-        "propositions": ["Piotr Illitch Tchaïkovski", "Igor Stravinsky", "Sergueï Prokofiev", "Dmitri Chostakovitch"],
+        "propositions": [
+          "Piotr Illitch Tchaïkovski",
+          "Igor Stravinsky",
+          "Sergueï Prokofiev",
+          "Dmitri Chostakovitch"
+        ],
         "explication": "La création du 'Sacre du printemps' à Paris en 1913 déclencha une véritable émeute dans la salle."
       },
       {
         "question": "Comment appelle-t-on le système utilisant les syllabes do, ré, mi, fa, sol, la, si pour nommer les notes de musique ?",
         "reponse": "Le solfège",
-        "propositions": ["Le solfège", "Le tempérament égal", "La gamme chromatique", "La basse continue"],
+        "propositions": [
+          "Le solfège",
+          "Le tempérament égal",
+          "La gamme chromatique",
+          "La basse continue"
+        ],
         "explication": "Ce système de notation par syllabes, hérité de Guido d'Arezzo au Moyen Âge, est à la base de l'enseignement musical occidental."
       },
       {
         "question": "Quel instrument à clavier, ancêtre du piano, produit le son en pinçant les cordes plutôt qu'en les frappant ?",
         "reponse": "Le clavecin",
-        "propositions": ["Le clavicorde", "Le clavecin", "L'orgue", "Le célesta"],
+        "propositions": [
+          "Le clavicorde",
+          "Le clavecin",
+          "L'orgue",
+          "Le célesta"
+        ],
         "explication": "Contrairement au piano qui frappe les cordes avec des marteaux, le clavecin les pince avec un plectre."
       },
       {
         "question": "Quel compositeur allemand du baroque est l'auteur des 'Variations Goldberg' et des 'Concertos brandebourgeois' ?",
         "reponse": "Jean-Sébastien Bach",
-        "propositions": ["Georg Friedrich Haendel", "Jean-Sébastien Bach", "Antonio Vivaldi", "Henry Purcell"],
+        "propositions": [
+          "Georg Friedrich Haendel",
+          "Jean-Sébastien Bach",
+          "Antonio Vivaldi",
+          "Henry Purcell"
+        ],
         "explication": "Bach est l'une des figures majeures de la musique baroque, réputé pour sa maîtrise du contrepoint."
       },
       {
         "question": "Quel terme musical désigne un morceau interprété par un soliste accompagné d'un orchestre ?",
         "reponse": "Un concerto",
-        "propositions": ["Une symphonie", "Un concerto", "Une sonate", "Une suite"],
+        "propositions": [
+          "Une symphonie",
+          "Un concerto",
+          "Une sonate",
+          "Une suite"
+        ],
         "explication": "Le concerto met en valeur un ou plusieurs solistes face à l'orchestre, contrairement à la symphonie jouée par l'ensemble de l'orchestre."
+      },
+      {
+        "question": "Quel compositeur autrichien du XXe siècle a développé la technique dodécaphonique, utilisant les douze notes de la gamme chromatique ?",
+        "reponse": "Arnold Schönberg",
+        "propositions": [
+          "Arnold Schönberg",
+          "Alban Berg",
+          "Anton Webern",
+          "Igor Stravinsky"
+        ],
+        "explication": "Schönberg est le fondateur de la Seconde École de Vienne, avec ses élèves Berg et Webern."
+      },
+      {
+        "question": "Quel compositeur américain du XXe siècle est l'auteur de '4'33\"', œuvre entièrement silencieuse créée en 1952 ?",
+        "reponse": "John Cage",
+        "propositions": [
+          "John Cage",
+          "Pierre Boulez",
+          "Karlheinz Stockhausen",
+          "Erik Satie"
+        ],
+        "explication": "L'interprète y reste silencieux pendant quatre minutes trente-trois, laissant place aux bruits ambiants de la salle."
+      },
+      {
+        "question": "Quel compositeur français, chef de file de l'impressionnisme musical, a écrit le poème symphonique 'Prélude à l'après-midi d'un faune' ?",
+        "reponse": "Claude Debussy",
+        "propositions": [
+          "Claude Debussy",
+          "Maurice Ravel",
+          "Gabriel Fauré",
+          "Erik Satie"
+        ],
+        "explication": "Cette œuvre de 1894 est inspirée d'un poème de Stéphane Mallarmé."
+      },
+      {
+        "question": "Quel théoricien et compositeur français du XXe siècle a fondé l'IRCAM, centre de recherche musicale à Paris ?",
+        "reponse": "Pierre Boulez",
+        "propositions": [
+          "Pierre Boulez",
+          "Olivier Messiaen",
+          "Iannis Xenakis",
+          "Henri Dutilleux"
+        ],
+        "explication": "L'IRCAM, créé en 1977, est intégré au Centre Pompidou."
+      },
+      {
+        "question": "Quel compositeur français du XXe siècle, organiste et ornithologue, a intégré des chants d'oiseaux dans ses œuvres ?",
+        "reponse": "Olivier Messiaen",
+        "propositions": [
+          "Olivier Messiaen",
+          "Pierre Boulez",
+          "Francis Poulenc",
+          "Darius Milhaud"
+        ],
+        "explication": "Son 'Catalogue d'oiseaux' pour piano transcrit le chant de nombreuses espèces françaises."
+      },
+      {
+        "question": "Quel compositeur allemand du XVIIIe siècle est l'auteur des 'Concertos brandebourgeois' ?",
+        "reponse": "Jean-Sébastien Bach",
+        "propositions": [
+          "Jean-Sébastien Bach",
+          "Georg Philipp Telemann",
+          "Georg Friedrich Haendel",
+          "Antonio Vivaldi"
+        ],
+        "explication": "Ces six concertos ont été dédiés au margrave de Brandebourg en 1721."
+      },
+      {
+        "question": "Quel compositeur russe du XXe siècle a été condamné par le régime soviétique pour 'formalisme' avant d'être réhabilité ?",
+        "reponse": "Dmitri Chostakovitch",
+        "propositions": [
+          "Dmitri Chostakovitch",
+          "Sergueï Prokofiev",
+          "Igor Stravinsky",
+          "Aram Khatchaturian"
+        ],
+        "explication": "Sa 5e symphonie (1937) a été perçue comme une réponse prudente aux critiques du régime."
+      },
+      {
+        "question": "Quel genre musical né au tournant des XIXe et XXe siècles à La Nouvelle-Orléans mêle héritage africain et instrumentation européenne ?",
+        "reponse": "Le jazz",
+        "propositions": [
+          "Le jazz",
+          "Le ragtime",
+          "Le blues",
+          "Le gospel"
+        ],
+        "explication": "Le ragtime, précurseur direct, a fortement influencé la naissance du jazz."
+      },
+      {
+        "question": "Quel compositeur hongrois du XXe siècle a collecté et intégré des musiques traditionnelles d'Europe de l'Est dans ses œuvres savantes ?",
+        "reponse": "Béla Bartók",
+        "propositions": [
+          "Béla Bartók",
+          "Zoltán Kodály",
+          "Franz Liszt",
+          "György Ligeti"
+        ],
+        "explication": "Bartók a parcouru les campagnes hongroises et roumaines pour enregistrer des chants populaires."
+      },
+      {
+        "question": "Quel compositeur italien du XIXe siècle est l'auteur des opéras 'Rigoletto', 'La Traviata' et 'Aïda' ?",
+        "reponse": "Giuseppe Verdi",
+        "propositions": [
+          "Giuseppe Verdi",
+          "Giacomo Puccini",
+          "Gioachino Rossini",
+          "Vincenzo Bellini"
+        ],
+        "explication": "Verdi est l'une des figures majeures de l'opéra romantique italien."
       }
     ]
   }

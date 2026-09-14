@@ -5,96 +5,501 @@
       {
         "question": "Quel est le plus haut sommet du monde, culminant à 8 849 mètres ?",
         "reponse": "L'Everest",
-        "propositions": ["Le K2", "L'Everest", "Le Kangchenjunga", "Le Makalu"],
+        "propositions": [
+          "Le K2",
+          "L'Everest",
+          "Le Kangchenjunga",
+          "Le Makalu"
+        ],
         "explication": "L'Everest se situe à la frontière entre le Népal et le Tibet."
       },
       {
         "question": "Quel pays d'Amérique du Sud a pour capitale Buenos Aires ?",
         "reponse": "L'Argentine",
-        "propositions": ["Le Chili", "L'Argentine", "L'Uruguay", "Le Paraguay"],
+        "propositions": [
+          "Le Chili",
+          "L'Argentine",
+          "L'Uruguay",
+          "Le Paraguay"
+        ],
         "explication": "Buenos Aires est la capitale et la plus grande ville d'Argentine."
       },
       {
         "question": "Quelle mer, bordée par Israël et la Jordanie, est presque dépourvue de vie en raison de sa très forte salinité ?",
         "reponse": "La mer Morte",
-        "propositions": ["La mer Rouge", "La mer Morte", "La mer de Galilée", "La mer Caspienne"],
+        "propositions": [
+          "La mer Rouge",
+          "La mer Morte",
+          "La mer de Galilée",
+          "La mer Caspienne"
+        ],
         "explication": "Avec une salinité d'environ 34 %, la mer Morte est l'une des étendues d'eau les plus salées au monde."
       },
       {
         "question": "Quel est le fleuve le plus long d'Amérique du Sud, qui traverse la forêt amazonienne ?",
         "reponse": "L'Amazone",
-        "propositions": ["Le Paraná", "L'Amazone", "L'Orénoque", "Le São Francisco"],
+        "propositions": [
+          "Le Paraná",
+          "L'Amazone",
+          "L'Orénoque",
+          "Le São Francisco"
+        ],
         "explication": "L'Amazone est aussi le fleuve au débit le plus important du monde."
       },
       {
         "question": "Quelle chaîne de montagnes sépare traditionnellement l'Europe et l'Asie en Russie ?",
         "reponse": "L'Oural",
-        "propositions": ["Le Caucase", "L'Oural", "Les Carpates", "Les Alpes"],
+        "propositions": [
+          "Le Caucase",
+          "L'Oural",
+          "Les Carpates",
+          "Les Alpes"
+        ],
         "explication": "La chaîne de l'Oural constitue la frontière conventionnelle entre les deux continents."
+      },
+      {
+        "question": "Quelle est la capitale du Japon ?",
+        "reponse": "Tokyo",
+        "propositions": [
+          "Tokyo",
+          "Osaka",
+          "Kyoto",
+          "Séoul"
+        ],
+        "explication": "Tokyo est la capitale du Japon depuis 1868."
+      },
+      {
+        "question": "Quel est le plus petit pays du monde en superficie ?",
+        "reponse": "Le Vatican",
+        "propositions": [
+          "Le Vatican",
+          "Monaco",
+          "Saint-Marin",
+          "Malte"
+        ],
+        "explication": "Le Vatican couvre environ 0,44 km², au cœur de Rome."
+      },
+      {
+        "question": "Quel pays a la forme d'une botte dans le sud de l'Europe ?",
+        "reponse": "L'Italie",
+        "propositions": [
+          "L'Italie",
+          "L'Espagne",
+          "La Grèce",
+          "Le Portugal"
+        ],
+        "explication": "La péninsule italienne s'avance dans la mer Méditerranée."
+      },
+      {
+        "question": "Quel continent abrite le plus grand nombre de pays ?",
+        "reponse": "L'Afrique",
+        "propositions": [
+          "L'Afrique",
+          "L'Asie",
+          "L'Europe",
+          "L'Amérique"
+        ],
+        "explication": "L'Afrique compte 54 États reconnus par l'ONU."
+      },
+      {
+        "question": "Quel pays est traversé par l'équateur et donne son nom à cette ligne imaginaire ?",
+        "reponse": "L'Équateur",
+        "propositions": [
+          "L'Équateur",
+          "Le Kenya",
+          "Le Brésil",
+          "L'Indonésie"
+        ],
+        "explication": "Le pays d'Amérique du Sud tire son nom de sa position sur la ligne équatoriale."
+      },
+      {
+        "question": "Quelle mer sépare l'Europe de l'Afrique au niveau du détroit de Gibraltar ?",
+        "reponse": "La mer Méditerranée",
+        "propositions": [
+          "La mer Méditerranée",
+          "La mer Noire",
+          "La mer Rouge",
+          "La mer Adriatique"
+        ],
+        "explication": "Le détroit de Gibraltar relie l'océan Atlantique à la mer Méditerranée."
+      },
+      {
+        "question": "Quel pays d'Asie est le plus peuplé du monde ?",
+        "reponse": "L'Inde",
+        "propositions": [
+          "L'Inde",
+          "La Chine",
+          "L'Indonésie",
+          "Le Pakistan"
+        ],
+        "explication": "L'Inde a dépassé la Chine en population totale en 2023."
+      },
+      {
+        "question": "Quelle capitale européenne est traversée par la Tamise ?",
+        "reponse": "Londres",
+        "propositions": [
+          "Londres",
+          "Paris",
+          "Berlin",
+          "Amsterdam"
+        ],
+        "explication": "La Tamise traverse Londres d'ouest en est avant de se jeter dans la mer du Nord."
+      },
+      {
+        "question": "Quel pays d'Amérique du Nord partage la plus longue frontière terrestre non défendue au monde avec les États-Unis ?",
+        "reponse": "Le Canada",
+        "propositions": [
+          "Le Canada",
+          "Le Mexique",
+          "Cuba",
+          "Le Groenland"
+        ],
+        "explication": "Cette frontière s'étend sur plus de 8 800 km."
+      },
+      {
+        "question": "Quel désert froid couvre une grande partie de la Mongolie et du nord de la Chine ?",
+        "reponse": "Le désert de Gobi",
+        "propositions": [
+          "Le désert de Gobi",
+          "Le désert du Sahara",
+          "Le désert du Kalahari",
+          "Le désert d'Atacama"
+        ],
+        "explication": "Le Gobi est l'un des plus grands déserts d'Asie."
       }
     ],
     "2": [
       {
         "question": "Quel est le pays le plus vaste d'Afrique en superficie depuis la partition du Soudan en 2011 ?",
         "reponse": "L'Algérie",
-        "propositions": ["La République démocratique du Congo", "L'Algérie", "Le Soudan", "La Libye"],
+        "propositions": [
+          "La République démocratique du Congo",
+          "L'Algérie",
+          "Le Soudan",
+          "La Libye"
+        ],
         "explication": "L'Algérie couvre environ 2,38 millions de km², ce qui en fait le plus grand pays d'Afrique et le plus grand pays arabe."
       },
       {
         "question": "Quel détroit, associé à la mer de Marmara et aux Dardanelles, relie la mer Méditerranée à la mer Noire en passant par Istanbul ?",
         "reponse": "Le détroit du Bosphore",
-        "propositions": ["Le détroit du Bosphore", "Le détroit d'Otrante", "Le détroit de Messine", "Le canal de Corinthe"],
+        "propositions": [
+          "Le détroit du Bosphore",
+          "Le détroit d'Otrante",
+          "Le détroit de Messine",
+          "Le canal de Corinthe"
+        ],
         "explication": "Le Bosphore, associé aux Dardanelles, relie la Méditerranée à la mer Noire via la mer de Marmara."
       },
       {
         "question": "Quel est le point culminant de l'Amérique du Sud, situé en Argentine ?",
         "reponse": "L'Aconcagua",
-        "propositions": ["Le Chimborazo", "L'Aconcagua", "Le Huascarán", "Le Cotopaxi"],
+        "propositions": [
+          "Le Chimborazo",
+          "L'Aconcagua",
+          "Le Huascarán",
+          "Le Cotopaxi"
+        ],
         "explication": "L'Aconcagua culmine à 6 961 mètres dans la cordillère des Andes."
       },
       {
         "question": "Quel pays enclavé d'Asie centrale, ancienne république soviétique, est le plus grand pays entièrement enclavé du monde ?",
         "reponse": "Le Kazakhstan",
-        "propositions": ["L'Ouzbékistan", "Le Kazakhstan", "Le Turkménistan", "La Mongolie"],
+        "propositions": [
+          "L'Ouzbékistan",
+          "Le Kazakhstan",
+          "Le Turkménistan",
+          "La Mongolie"
+        ],
         "explication": "Le Kazakhstan est aussi le neuvième plus grand pays du monde par sa superficie."
       },
       {
         "question": "Quel territoire français de l'océan Indien, situé près de Madagascar, est un département d'outre-mer depuis 1946 ?",
         "reponse": "La Réunion",
-        "propositions": ["Mayotte", "La Réunion", "La Nouvelle-Calédonie", "La Polynésie française"],
+        "propositions": [
+          "Mayotte",
+          "La Réunion",
+          "La Nouvelle-Calédonie",
+          "La Polynésie française"
+        ],
         "explication": "Mayotte, autre île française de l'océan Indien, n'est devenue département d'outre-mer qu'en 2011."
+      },
+      {
+        "question": "Quel pays d'Amérique centrale relie l'océan Atlantique et l'océan Pacifique par un célèbre canal ?",
+        "reponse": "Le Panama",
+        "propositions": [
+          "Le Panama",
+          "Le Costa Rica",
+          "Le Nicaragua",
+          "Le Honduras"
+        ],
+        "explication": "Le canal de Panama, ouvert en 1914, est une voie majeure du commerce mondial."
+      },
+      {
+        "question": "Quelle chaîne de montagnes s'étend le long de la côte ouest de l'Amérique du Sud ?",
+        "reponse": "La cordillère des Andes",
+        "propositions": [
+          "La cordillère des Andes",
+          "Les Rocheuses",
+          "La Sierra Madre",
+          "Les Appalaches"
+        ],
+        "explication": "Les Andes forment la plus longue chaîne de montagnes continentale du monde, environ 7 000 km."
+      },
+      {
+        "question": "Quel pays africain, ancienne colonie portugaise, est le plus grand pays d'Afrique lusophone en population ?",
+        "reponse": "L'Angola",
+        "propositions": [
+          "L'Angola",
+          "Le Mozambique",
+          "La Guinée-Bissau",
+          "Le Cap-Vert"
+        ],
+        "explication": "L'Angola est l'un des principaux pays exportateurs de pétrole du continent africain."
+      },
+      {
+        "question": "Quel détroit sépare l'Asie de l'Amérique du Nord entre la Russie et l'Alaska ?",
+        "reponse": "Le détroit de Béring",
+        "propositions": [
+          "Le détroit de Béring",
+          "Le détroit de Davis",
+          "Le détroit d'Hudson",
+          "Le détroit de Malacca"
+        ],
+        "explication": "Le détroit de Béring mesure environ 82 km à son point le plus étroit."
+      },
+      {
+        "question": "Quel pays d'Europe du Nord est constitué de plus de 400 îles habitées et non habitées ?",
+        "reponse": "La Finlande",
+        "propositions": [
+          "La Finlande",
+          "La Norvège",
+          "Le Danemark",
+          "La Suède"
+        ],
+        "explication": "L'archipel des îles Åland, entre la Finlande et la Suède, en compte à lui seul plusieurs milliers."
+      },
+      {
+        "question": "Quelle capitale se trouve à la plus haute altitude au monde parmi les grandes villes ?",
+        "reponse": "La Paz",
+        "propositions": [
+          "La Paz",
+          "Quito",
+          "Bogotá",
+          "Mexico"
+        ],
+        "explication": "La Paz, en Bolivie, se situe à plus de 3 600 mètres d'altitude."
+      },
+      {
+        "question": "Quel fleuve traverse l'Égypte et se jette dans la mer Méditerranée par un vaste delta ?",
+        "reponse": "Le Nil",
+        "propositions": [
+          "Le Nil",
+          "Le Niger",
+          "Le Congo",
+          "Le Zambèze"
+        ],
+        "explication": "Le delta du Nil abrite une grande partie de la population égyptienne."
+      },
+      {
+        "question": "Quel pays insulaire d'Océanie est situé juste à l'est de l'Australie et compte deux îles principales ?",
+        "reponse": "La Nouvelle-Zélande",
+        "propositions": [
+          "La Nouvelle-Zélande",
+          "La Papouasie-Nouvelle-Guinée",
+          "Fidji",
+          "Vanuatu"
+        ],
+        "explication": "La Nouvelle-Zélande est composée de l'île du Nord et de l'île du Sud."
+      },
+      {
+        "question": "Quelle région désertique s'étend sur une grande partie du sud-ouest des États-Unis et abrite le parc de la Vallée de la Mort ?",
+        "reponse": "Le désert des Mojaves",
+        "propositions": [
+          "Le désert des Mojaves",
+          "Le désert du Sonora",
+          "Le désert de Chihuahua",
+          "Le Grand Bassin"
+        ],
+        "explication": "La Vallée de la Mort détient le record de la température la plus élevée jamais enregistrée sur Terre."
+      },
+      {
+        "question": "Quel pays européen est bordé par la mer Baltique et partage une frontière avec la Russie (enclave de Kaliningrad) ?",
+        "reponse": "La Pologne",
+        "propositions": [
+          "La Pologne",
+          "La Lituanie",
+          "La Lettonie",
+          "L'Estonie"
+        ],
+        "explication": "La Pologne borde à la fois la Russie (Kaliningrad) et plusieurs autres pays d'Europe centrale."
       }
     ],
     "3": [
       {
         "question": "Quel est le nom de la fosse océanique la plus profonde connue sur Terre, située dans l'océan Pacifique ?",
         "reponse": "La fosse des Mariannes",
-        "propositions": ["La fosse des Mariannes", "La fosse de Porto Rico", "La fosse du Pérou-Chili", "La fosse des Kouriles"],
+        "propositions": [
+          "La fosse des Mariannes",
+          "La fosse de Porto Rico",
+          "La fosse du Pérou-Chili",
+          "La fosse des Kouriles"
+        ],
         "explication": "Son point le plus profond, le Challenger Deep, atteint environ 10 935 mètres sous le niveau de la mer."
       },
       {
         "question": "Quelle limite biogéographique, traversant le détroit de Lombok en Indonésie, sépare la faune asiatique de la faune australienne ?",
         "reponse": "La ligne de Wallace",
-        "propositions": ["La ligne de Wallace", "Le tropique du Capricorne", "La ligne de démarcation", "Le méridien de Greenwich"],
+        "propositions": [
+          "La ligne de Wallace",
+          "Le tropique du Capricorne",
+          "La ligne de démarcation",
+          "Le méridien de Greenwich"
+        ],
         "explication": "Nommée d'après le naturaliste Alfred Russel Wallace, cette limite marque une rupture nette entre deux faunes."
       },
       {
         "question": "Quel est le plus grand plan d'eau intérieur du monde, situé entre l'Europe et l'Asie et souvent appelé 'mer' ?",
         "reponse": "La mer Caspienne",
-        "propositions": ["Le lac Baïkal", "La mer Caspienne", "Le lac Titicaca", "Le Grand Lac Salé"],
+        "propositions": [
+          "Le lac Baïkal",
+          "La mer Caspienne",
+          "Le lac Titicaca",
+          "Le Grand Lac Salé"
+        ],
         "explication": "Bien qu'appelée 'mer', la Caspienne n'a aucun accès à l'océan et est en réalité le plus grand lac du monde."
       },
       {
         "question": "Quel phénomène géologique est à l'origine de la formation du Grand Rift est-africain ?",
         "reponse": "La divergence de plaques tectoniques",
-        "propositions": ["La subduction", "La divergence de plaques tectoniques", "La collision continentale", "Le volcanisme de point chaud"],
+        "propositions": [
+          "La subduction",
+          "La divergence de plaques tectoniques",
+          "La collision continentale",
+          "Le volcanisme de point chaud"
+        ],
         "explication": "Le Grand Rift est-africain résulte de l'écartement progressif de la plaque africaine en deux plaques distinctes."
       },
       {
         "question": "Quel courant marin froid, longeant la côte ouest de l'Amérique du Sud, contribue à l'aridité du désert d'Atacama ?",
         "reponse": "Le courant de Humboldt",
-        "propositions": ["Le courant du Golfe", "Le courant de Humboldt", "Le courant des Aiguilles", "Le courant du Labrador"],
+        "propositions": [
+          "Le courant du Golfe",
+          "Le courant de Humboldt",
+          "Le courant des Aiguilles",
+          "Le courant du Labrador"
+        ],
         "explication": "Ce courant froid remontant vers l'équateur limite fortement les précipitations sur la côte péruvienne et chilienne."
+      },
+      {
+        "question": "Quel phénomène climatique périodique, lié au réchauffement des eaux du Pacifique équatorial, perturbe les régimes de pluie dans le monde entier ?",
+        "reponse": "El Niño",
+        "propositions": [
+          "El Niño",
+          "La Niña",
+          "La mousson",
+          "L'oscillation nord-atlantique"
+        ],
+        "explication": "El Niño survient irrégulièrement tous les deux à sept ans et affecte les climats sur plusieurs continents."
+      },
+      {
+        "question": "Quelle ligne imaginaire, tracée en 1494 par le traité de Tordesillas, partageait les terres découvertes entre l'Espagne et le Portugal ?",
+        "reponse": "Le méridien de Tordesillas",
+        "propositions": [
+          "Le méridien de Tordesillas",
+          "La ligne de Wallace",
+          "Le tropique du Capricorne",
+          "Le méridien de Greenwich"
+        ],
+        "explication": "Ce méridien passait à environ 370 lieues à l'ouest des îles du Cap-Vert."
+      },
+      {
+        "question": "Quel micro-État alpin, enclavé entre la Suisse et l'Autriche, est l'un des deux seuls pays au monde doublement enclavés ?",
+        "reponse": "Le Liechtenstein",
+        "propositions": [
+          "Le Liechtenstein",
+          "Andorre",
+          "Saint-Marin",
+          "Monaco"
+        ],
+        "explication": "Un pays doublement enclavé est entouré uniquement par des pays eux-mêmes enclavés — le Liechtenstein et l'Ouzbékistan sont les deux seuls cas au monde."
+      },
+      {
+        "question": "Quel phénomène géologique explique la formation de l'archipel volcanique d'Hawaï, situé loin de toute limite de plaques tectoniques ?",
+        "reponse": "Un point chaud",
+        "propositions": [
+          "Un point chaud",
+          "Une zone de subduction",
+          "Une dorsale océanique",
+          "Une faille transformante"
+        ],
+        "explication": "Le point chaud hawaïen reste fixe tandis que la plaque Pacifique se déplace au-dessus."
+      },
+      {
+        "question": "Quelle capitale mondiale est bâtie sur le site de l'ancienne cité aztèque de Tenochtitlan ?",
+        "reponse": "Mexico",
+        "propositions": [
+          "Mexico",
+          "Lima",
+          "Bogotá",
+          "Quito"
+        ],
+        "explication": "Tenochtitlan a été fondée sur un lac que les Espagnols ont progressivement asséché."
+      },
+      {
+        "question": "Quel pays d'Asie centrale a vu sa capitale transférée d'Almaty à Astana (aujourd'hui Nur-Sultan puis de nouveau Astana) en 1997 ?",
+        "reponse": "Le Kazakhstan",
+        "propositions": [
+          "Le Kazakhstan",
+          "L'Ouzbékistan",
+          "Le Turkménistan",
+          "Le Kirghizistan"
+        ],
+        "explication": "Ce transfert visait à recentrer le pays géographiquement et stratégiquement."
+      },
+      {
+        "question": "Quelle limite climatique et géographique traditionnelle sépare l'Europe du Nord de l'Europe du Sud, souvent associée à la culture de l'olivier ?",
+        "reponse": "La limite de l'olivier",
+        "propositions": [
+          "La limite de l'olivier",
+          "La ligne des Alpes",
+          "Le parallèle 45",
+          "La limite de la vigne"
+        ],
+        "explication": "Cette limite climatique informelle correspond approximativement à l'aire de culture traditionnelle de l'olivier en Europe."
+      },
+      {
+        "question": "Quel pays africain, traversé par le tropique du Cancer, est bordé à la fois par la mer Méditerranée et l'océan Atlantique ?",
+        "reponse": "Le Maroc",
+        "propositions": [
+          "Le Maroc",
+          "L'Algérie",
+          "La Tunisie",
+          "La Mauritanie"
+        ],
+        "explication": "Le Maroc possède une façade méditerranéenne au nord et atlantique à l'ouest."
+      },
+      {
+        "question": "Quel lac d'Afrique de l'Est, l'un des plus profonds du monde, est partagé entre la RDC, le Burundi, la Tanzanie et la Zambie ?",
+        "reponse": "Le lac Tanganyika",
+        "propositions": [
+          "Le lac Tanganyika",
+          "Le lac Victoria",
+          "Le lac Malawi",
+          "Le lac Turkana"
+        ],
+        "explication": "Le lac Tanganyika est le deuxième lac le plus profond du monde après le lac Baïkal."
+      },
+      {
+        "question": "Quelle région autonome de l'extrême nord de l'Europe, partagée entre quatre pays, est habitée par le peuple same ?",
+        "reponse": "La Laponie",
+        "propositions": [
+          "La Laponie",
+          "La Carélie",
+          "La Scanie",
+          "La Poméranie"
+        ],
+        "explication": "La Laponie s'étend sur la Norvège, la Suède, la Finlande et la Russie."
       }
     ]
   }

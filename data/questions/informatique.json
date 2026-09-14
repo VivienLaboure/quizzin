@@ -5,96 +5,501 @@
       {
         "question": "Que signifie le sigle \"CPU\" ?",
         "reponse": "Central Processing Unit",
-        "propositions": ["Central Processing Unit", "Computer Power Unit", "Central Program Utility", "Core Processing Unity"],
+        "propositions": [
+          "Central Processing Unit",
+          "Computer Power Unit",
+          "Central Program Utility",
+          "Core Processing Unity"
+        ],
         "explication": "Le CPU, ou processeur, est l'unité centrale de traitement d'un ordinateur."
       },
       {
         "question": "Quel langage de programmation, créé en 1991, est connu pour sa syntaxe simple et son usage massif en science des données ?",
         "reponse": "Python",
-        "propositions": ["Python", "Java", "C++", "Ruby"],
+        "propositions": [
+          "Python",
+          "Java",
+          "C++",
+          "Ruby"
+        ],
         "explication": "Python, créé par Guido van Rossum, est aujourd'hui l'un des langages les plus utilisés au monde."
       },
       {
         "question": "Quelle entreprise a créé le système d'exploitation Windows ?",
         "reponse": "Microsoft",
-        "propositions": ["Microsoft", "Apple", "Google", "IBM"],
+        "propositions": [
+          "Microsoft",
+          "Apple",
+          "Google",
+          "IBM"
+        ],
         "explication": "Microsoft lance la première version de Windows en 1985."
       },
       {
         "question": "Que signifie l'abréviation \"URL\" ?",
         "reponse": "Uniform Resource Locator",
-        "propositions": ["Uniform Resource Locator", "Universal Router Link", "User Resource Language", "Unified Redirect Location"],
+        "propositions": [
+          "Uniform Resource Locator",
+          "Universal Router Link",
+          "User Resource Language",
+          "Unified Redirect Location"
+        ],
         "explication": "Une URL est l'adresse qui permet de localiser une ressource sur Internet."
       },
       {
         "question": "Quelle unité mesure la quantité de données stockées, en multiples d'octets ?",
         "reponse": "Le byte (octet)",
-        "propositions": ["Le byte (octet)", "Le hertz", "Le volt", "L'ampère"],
+        "propositions": [
+          "Le byte (octet)",
+          "Le hertz",
+          "Le volt",
+          "L'ampère"
+        ],
         "explication": "L'octet (byte) est l'unité de base du stockage informatique, ses multiples étant le kilo-octet, méga-octet, etc."
+      },
+      {
+        "question": "Que signifie l'acronyme 'RAM' ?",
+        "reponse": "Random Access Memory",
+        "propositions": [
+          "Random Access Memory",
+          "Read Access Memory",
+          "Rapid Application Module",
+          "Remote Access Machine"
+        ],
+        "explication": "La RAM est la mémoire vive, utilisée temporairement pendant le fonctionnement de l'ordinateur."
+      },
+      {
+        "question": "Quel réseau social, basé sur des photos et vidéos courtes, appartient à Meta ?",
+        "reponse": "Instagram",
+        "propositions": [
+          "Instagram",
+          "Twitter (X)",
+          "TikTok",
+          "Snapchat"
+        ],
+        "explication": "Meta (anciennement Facebook) a racheté Instagram en 2012."
+      },
+      {
+        "question": "Quel type de logiciel malveillant chiffre les fichiers d'une victime pour exiger une rançon ?",
+        "reponse": "Un rançongiciel (ransomware)",
+        "propositions": [
+          "Un rançongiciel (ransomware)",
+          "Un virus",
+          "Un cheval de Troie",
+          "Un ver informatique"
+        ],
+        "explication": "Le rançongiciel bloque l'accès aux données jusqu'au paiement d'une rançon, sans garantie de déblocage."
+      },
+      {
+        "question": "Quelle entreprise a créé le moteur de recherche 'Google' ?",
+        "reponse": "Google",
+        "propositions": [
+          "Google",
+          "Microsoft",
+          "Yahoo",
+          "Amazon"
+        ],
+        "explication": "Google a été fondé en 1998 par Larry Page et Sergey Brin."
+      },
+      {
+        "question": "Que signifie l'acronyme 'PDF' ?",
+        "reponse": "Portable Document Format",
+        "propositions": [
+          "Portable Document Format",
+          "Printed Data File",
+          "Personal Digital File",
+          "Public Document Format"
+        ],
+        "explication": "Le format PDF a été créé par Adobe en 1993."
+      },
+      {
+        "question": "Quel type d'appareil de stockage, sans pièce mécanique, a remplacé progressivement le disque dur classique ?",
+        "reponse": "Le SSD",
+        "propositions": [
+          "Le SSD",
+          "La clé USB",
+          "Le CD-ROM",
+          "La disquette"
+        ],
+        "explication": "Le SSD (Solid State Drive) est plus rapide et plus résistant aux chocs qu'un disque dur mécanique."
+      },
+      {
+        "question": "Quel langage de programmation est principalement utilisé pour le développement web côté navigateur ?",
+        "reponse": "JavaScript",
+        "propositions": [
+          "JavaScript",
+          "Python",
+          "C++",
+          "Swift"
+        ],
+        "explication": "JavaScript s'exécute directement dans le navigateur pour rendre les pages web interactives."
+      },
+      {
+        "question": "Quelle entreprise a développé le réseau social 'LinkedIn' ?",
+        "reponse": "Microsoft",
+        "propositions": [
+          "Microsoft",
+          "Google",
+          "Meta",
+          "Amazon"
+        ],
+        "explication": "Microsoft a racheté LinkedIn en 2016."
+      },
+      {
+        "question": "Que signifie l'abréviation 'app' couramment utilisée pour les logiciels mobiles ?",
+        "reponse": "Application",
+        "propositions": [
+          "Application",
+          "Appareil",
+          "Approbation",
+          "Approximation"
+        ],
+        "explication": "Une 'app' est un logiciel conçu pour smartphones et tablettes."
+      },
+      {
+        "question": "Quel signe est utilisé dans une adresse email pour séparer le nom d'utilisateur du domaine ?",
+        "reponse": "@",
+        "propositions": [
+          "@",
+          "#",
+          "&",
+          "%"
+        ],
+        "explication": "L'arobase a été choisie dès les débuts du courrier électronique dans les années 1970."
       }
     ],
     "2": [
       {
         "question": "Quel protocole sécurisé permet de naviguer sur un site web de façon chiffrée (cadenas dans le navigateur) ?",
         "reponse": "HTTPS",
-        "propositions": ["HTTPS", "FTP", "SMTP", "DNS"],
+        "propositions": [
+          "HTTPS",
+          "FTP",
+          "SMTP",
+          "DNS"
+        ],
         "explication": "HTTPS chiffre les échanges entre le navigateur et le serveur grâce au protocole TLS."
       },
       {
         "question": "Quelle entreprise a lancé le premier iPhone en 2007 ?",
         "reponse": "Apple",
-        "propositions": ["Apple", "Samsung", "Google", "Nokia"],
+        "propositions": [
+          "Apple",
+          "Samsung",
+          "Google",
+          "Nokia"
+        ],
         "explication": "Steve Jobs présente le premier iPhone en janvier 2007, révolutionnant le marché du smartphone."
       },
       {
         "question": "Que signifie \"IA\" en informatique ?",
         "reponse": "Intelligence artificielle",
-        "propositions": ["Intelligence artificielle", "Interface avancée", "Infrastructure automatisée", "Interaction algorithmique"],
+        "propositions": [
+          "Intelligence artificielle",
+          "Interface avancée",
+          "Infrastructure automatisée",
+          "Interaction algorithmique"
+        ],
         "explication": "L'intelligence artificielle désigne des systèmes capables de simuler certaines capacités cognitives humaines."
       },
       {
         "question": "Quel langage de balisage sert à structurer le contenu des pages web ?",
         "reponse": "HTML",
-        "propositions": ["HTML", "CSS", "SQL", "JSON"],
+        "propositions": [
+          "HTML",
+          "CSS",
+          "SQL",
+          "JSON"
+        ],
         "explication": "HTML (HyperText Markup Language) structure le contenu, tandis que CSS gère la présentation."
       },
       {
         "question": "Quel système de contrôle de version, créé par Linus Torvalds en 2005, est aujourd'hui un standard du développement logiciel ?",
         "reponse": "Git",
-        "propositions": ["Git", "SVN", "Mercurial", "Perforce"],
+        "propositions": [
+          "Git",
+          "SVN",
+          "Mercurial",
+          "Perforce"
+        ],
         "explication": "Git a été créé par Linus Torvalds pour gérer le développement du noyau Linux."
+      },
+      {
+        "question": "Quel protocole permet de transférer des fichiers entre un client et un serveur sur un réseau ?",
+        "reponse": "FTP",
+        "propositions": [
+          "FTP",
+          "SMTP",
+          "DNS",
+          "SSH"
+        ],
+        "explication": "FTP signifie File Transfer Protocol."
+      },
+      {
+        "question": "Que signifie l'acronyme 'API', très utilisé en développement logiciel ?",
+        "reponse": "Application Programming Interface",
+        "propositions": [
+          "Application Programming Interface",
+          "Automated Program Integration",
+          "Applied Programming Instructions",
+          "Application Process Interaction"
+        ],
+        "explication": "Une API permet à différents logiciels de communiquer entre eux selon des règles définies."
+      },
+      {
+        "question": "Quel type de mémoire conserve les données même lorsque l'ordinateur est éteint ?",
+        "reponse": "La mémoire non volatile",
+        "propositions": [
+          "La mémoire non volatile",
+          "La mémoire cache",
+          "La RAM",
+          "Les registres du processeur"
+        ],
+        "explication": "Le disque dur, le SSD ou la ROM sont des exemples de mémoires non volatiles."
+      },
+      {
+        "question": "Quel modèle en sept couches décrit le fonctionnement théorique des réseaux informatiques ?",
+        "reponse": "Le modèle OSI",
+        "propositions": [
+          "Le modèle OSI",
+          "Le modèle TCP/IP",
+          "Le modèle client-serveur",
+          "Le modèle MVC"
+        ],
+        "explication": "Le modèle OSI (Open Systems Interconnection) a été normalisé dans les années 1980."
+      },
+      {
+        "question": "Quelle entreprise a créé le langage de programmation Java dans les années 1990 ?",
+        "reponse": "Sun Microsystems",
+        "propositions": [
+          "Sun Microsystems",
+          "IBM",
+          "Microsoft",
+          "Oracle"
+        ],
+        "explication": "Sun Microsystems, créateur de Java, a été rachetée par Oracle en 2010."
+      },
+      {
+        "question": "Comment appelle-t-on une attaque visant à submerger un serveur de requêtes pour le rendre indisponible ?",
+        "reponse": "Une attaque par déni de service (DDoS)",
+        "propositions": [
+          "Une attaque par déni de service (DDoS)",
+          "Un phishing",
+          "Une injection SQL",
+          "Un débordement de tampon"
+        ],
+        "explication": "Une attaque DDoS mobilise souvent un grand nombre d'appareils infectés, formant un botnet."
+      },
+      {
+        "question": "Quel type de base de données, comme MongoDB, stocke les informations sans schéma relationnel fixe ?",
+        "reponse": "Une base de données NoSQL",
+        "propositions": [
+          "Une base de données NoSQL",
+          "Une base de données relationnelle",
+          "Un entrepôt de données",
+          "Une base de données en mémoire"
+        ],
+        "explication": "NoSQL désigne des bases de données plus flexibles que les bases relationnelles classiques comme MySQL."
+      },
+      {
+        "question": "Quelle technique de conception de site web permet à une page de s'adapter à la taille de l'écran de l'utilisateur ?",
+        "reponse": "Le responsive design",
+        "propositions": [
+          "Le responsive design",
+          "Le rendu côté serveur",
+          "Le lazy loading",
+          "Le progressive enhancement"
+        ],
+        "explication": "Le responsive design ajuste automatiquement la mise en page entre ordinateur, tablette et smartphone."
+      },
+      {
+        "question": "Quel format d'image, sans perte de qualité mais avec un poids réduit, a été développé par Google en 2010 ?",
+        "reponse": "WebP",
+        "propositions": [
+          "WebP",
+          "PNG",
+          "AVIF",
+          "HEIC"
+        ],
+        "explication": "WebP vise à remplacer JPEG et PNG pour un usage web plus léger."
+      },
+      {
+        "question": "Quel type de logiciel permet d'exécuter un système d'exploitation à l'intérieur d'un autre, de façon isolée ?",
+        "reponse": "Une machine virtuelle",
+        "propositions": [
+          "Une machine virtuelle",
+          "Un conteneur",
+          "Un émulateur",
+          "Un hyperviseur physique"
+        ],
+        "explication": "VirtualBox et VMware sont des exemples de logiciels de virtualisation."
       }
     ],
     "3": [
       {
         "question": "Quel algorithme de tri, basé sur le principe \"diviser pour régner\", porte le nom de son inventeur Tony Hoare ?",
         "reponse": "Le tri rapide (quicksort)",
-        "propositions": ["Le tri rapide (quicksort)", "Le tri à bulles", "Le tri par insertion", "Le tri fusion"],
+        "propositions": [
+          "Le tri rapide (quicksort)",
+          "Le tri à bulles",
+          "Le tri par insertion",
+          "Le tri fusion"
+        ],
         "explication": "Tony Hoare invente le quicksort en 1959, l'un des algorithmes de tri les plus utilisés."
       },
       {
         "question": "Quel type de réseau de neurones, à la base des grands modèles de langage actuels, repose sur le mécanisme d'attention introduit en 2017 ?",
         "reponse": "Le Transformer",
-        "propositions": ["Le Transformer", "Le réseau convolutif (CNN)", "Le réseau récurrent (RNN)", "Le perceptron multicouche"],
+        "propositions": [
+          "Le Transformer",
+          "Le réseau convolutif (CNN)",
+          "Le réseau récurrent (RNN)",
+          "Le perceptron multicouche"
+        ],
         "explication": "L'architecture Transformer, présentée dans l'article \"Attention Is All You Need\" (2017), fonde les modèles de langage modernes."
       },
       {
         "question": "Quelle norme définit le chiffrement symétrique standardisé par le NIST en 2001, remplaçant le DES ?",
         "reponse": "AES (Advanced Encryption Standard)",
-        "propositions": ["AES (Advanced Encryption Standard)", "RSA", "SHA-256", "DES"],
+        "propositions": [
+          "AES (Advanced Encryption Standard)",
+          "RSA",
+          "SHA-256",
+          "DES"
+        ],
         "explication": "AES est adopté en 2001 comme nouveau standard fédéral américain de chiffrement symétrique."
       },
       {
         "question": "Quel paradigme de programmation, popularisé par des langages comme Haskell, évite les effets de bord et traite les fonctions comme des valeurs ?",
         "reponse": "La programmation fonctionnelle",
-        "propositions": ["La programmation fonctionnelle", "La programmation orientée objet", "La programmation procédurale", "La programmation événementielle"],
+        "propositions": [
+          "La programmation fonctionnelle",
+          "La programmation orientée objet",
+          "La programmation procédurale",
+          "La programmation événementielle"
+        ],
         "explication": "La programmation fonctionnelle repose sur l'évaluation de fonctions pures, sans effets de bord."
       },
       {
         "question": "Quelle classe de complexité regroupe les problèmes vérifiables rapidement, au cœur du problème P=NP ?",
         "reponse": "NP",
-        "propositions": ["NP", "P", "NP-complet", "PSPACE"],
+        "propositions": [
+          "NP",
+          "P",
+          "NP-complet",
+          "PSPACE"
+        ],
         "explication": "NP désigne les problèmes dont une solution proposée peut être vérifiée en temps polynomial."
+      },
+      {
+        "question": "Quel algorithme de hachage cryptographique, aujourd'hui considéré comme non sûr, a longtemps été utilisé pour vérifier l'intégrité de fichiers ?",
+        "reponse": "MD5",
+        "propositions": [
+          "MD5",
+          "SHA-256",
+          "AES",
+          "RSA"
+        ],
+        "explication": "Des collisions ont été démontrées pour MD5, le rendant impropre à un usage cryptographique sécurisé."
+      },
+      {
+        "question": "Quel problème fondamental de l'informatique théorique demande s'il existe un algorithme capable de déterminer, pour tout programme, s'il s'arrêtera ?",
+        "reponse": "Le problème de l'arrêt",
+        "propositions": [
+          "Le problème de l'arrêt",
+          "Le problème P=NP",
+          "Le théorème de Rice",
+          "Le paradoxe de Gödel"
+        ],
+        "explication": "Alan Turing a démontré en 1936 que ce problème est indécidable en général."
+      },
+      {
+        "question": "Quel type de chiffrement utilise deux clés distinctes, l'une publique et l'autre privée ?",
+        "reponse": "Le chiffrement asymétrique",
+        "propositions": [
+          "Le chiffrement asymétrique",
+          "Le chiffrement symétrique",
+          "Le hachage",
+          "Le chiffrement homomorphe"
+        ],
+        "explication": "RSA est l'un des algorithmes de chiffrement asymétrique les plus utilisés."
+      },
+      {
+        "question": "Quel informaticien britannique est considéré comme le père de l'informatique théorique moderne avec sa machine conceptuelle universelle ?",
+        "reponse": "Alan Turing",
+        "propositions": [
+          "Alan Turing",
+          "John von Neumann",
+          "Claude Shannon",
+          "Charles Babbage"
+        ],
+        "explication": "La 'machine de Turing', décrite en 1936, modélise mathématiquement tout calcul possible."
+      },
+      {
+        "question": "Quelle architecture informatique, décrite en 1945, sépare mémoire et unité de traitement et reste la base des ordinateurs modernes ?",
+        "reponse": "L'architecture de von Neumann",
+        "propositions": [
+          "L'architecture de von Neumann",
+          "L'architecture Harvard",
+          "L'architecture RISC",
+          "L'architecture x86"
+        ],
+        "explication": "John von Neumann a formalisé ce modèle où instructions et données partagent la même mémoire."
+      },
+      {
+        "question": "Quelle classe de complexité regroupe les problèmes qu'un ordinateur classique peut résoudre en temps polynomial ?",
+        "reponse": "La classe P",
+        "propositions": [
+          "La classe P",
+          "La classe NP",
+          "La classe NP-complet",
+          "La classe EXPTIME"
+        ],
+        "explication": "La question de savoir si P égale NP est l'un des plus grands problèmes ouverts de l'informatique."
+      },
+      {
+        "question": "Quel scientifique américain est considéré comme le père de la théorie de l'information avec ses travaux de 1948 ?",
+        "reponse": "Claude Shannon",
+        "propositions": [
+          "Claude Shannon",
+          "Norbert Wiener",
+          "John von Neumann",
+          "Alan Turing"
+        ],
+        "explication": "Shannon a introduit le concept de 'bit' comme unité de mesure de l'information."
+      },
+      {
+        "question": "Quel principe de conception logicielle, formulé par Robert Martin, prône qu'une classe ne devrait avoir qu'une seule raison de changer ?",
+        "reponse": "Le principe de responsabilité unique (SRP)",
+        "propositions": [
+          "Le principe de responsabilité unique (SRP)",
+          "Le principe ouvert/fermé",
+          "L'inversion de dépendance",
+          "La substitution de Liskov"
+        ],
+        "explication": "Ce principe fait partie des cinq principes SOLID de la programmation orientée objet."
+      },
+      {
+        "question": "Quel algorithme de consensus distribué, publié en 1998, est à la base de nombreux systèmes tolérants aux pannes ?",
+        "reponse": "Paxos",
+        "propositions": [
+          "Paxos",
+          "Raft",
+          "Byzantine Fault Tolerance",
+          "Two-Phase Commit"
+        ],
+        "explication": "Paxos, formulé par Leslie Lamport, a fortement influencé la conception des bases de données distribuées."
+      },
+      {
+        "question": "Quel format de compression sans perte, standard sur le web, a été normalisé en 1996 pour succéder à des formats propriétaires ?",
+        "reponse": "PNG",
+        "propositions": [
+          "PNG",
+          "JPEG",
+          "GIF",
+          "BMP"
+        ],
+        "explication": "PNG a été créé notamment pour contourner les brevets liés à l'algorithme de compression du GIF."
       }
     ]
   }

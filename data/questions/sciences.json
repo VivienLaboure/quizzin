@@ -5,96 +5,501 @@
       {
         "question": "Quel est le symbole chimique de l'or ?",
         "reponse": "Au",
-        "propositions": ["Au", "Ag", "Or", "Go"],
+        "propositions": [
+          "Au",
+          "Ag",
+          "Or",
+          "Go"
+        ],
         "explication": "Au vient du latin \"aurum\", qui signifie or."
       },
       {
         "question": "Quelle force maintient les objets au sol sur Terre ?",
         "reponse": "La gravité",
-        "propositions": ["Le magnétisme", "La gravité", "La friction", "La pression atmosphérique"],
+        "propositions": [
+          "Le magnétisme",
+          "La gravité",
+          "La friction",
+          "La pression atmosphérique"
+        ],
         "explication": "La gravité est la force d'attraction exercée par la masse de la Terre."
       },
       {
         "question": "Combien de chromosomes possède une cellule humaine normale ?",
         "reponse": "46",
-        "propositions": ["23", "44", "46", "48"],
+        "propositions": [
+          "23",
+          "44",
+          "46",
+          "48"
+        ],
         "explication": "Les cellules humaines possèdent 46 chromosomes, organisés en 23 paires."
       },
       {
         "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?",
         "reponse": "Le dioxyde de carbone",
-        "propositions": ["L'oxygène", "Le dioxyde de carbone", "L'azote", "L'hydrogène"],
+        "propositions": [
+          "L'oxygène",
+          "Le dioxyde de carbone",
+          "L'azote",
+          "L'hydrogène"
+        ],
         "explication": "Les plantes absorbent le CO2 et rejettent de l'oxygène lors de la photosynthèse."
       },
       {
         "question": "Quel scientifique est à l'origine de la théorie de l'évolution par sélection naturelle ?",
         "reponse": "Charles Darwin",
-        "propositions": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Antoine Lavoisier"],
+        "propositions": [
+          "Charles Darwin",
+          "Gregor Mendel",
+          "Louis Pasteur",
+          "Antoine Lavoisier"
+        ],
         "explication": "Darwin publie 'De l'origine des espèces' en 1859, posant les bases de la théorie de l'évolution."
+      },
+      {
+        "question": "Quel gaz les êtres humains inspirent-ils principalement pour respirer ?",
+        "reponse": "L'oxygène",
+        "propositions": [
+          "L'oxygène",
+          "L'azote",
+          "Le dioxyde de carbone",
+          "L'hydrogène"
+        ],
+        "explication": "L'air que nous respirons contient environ 21 % d'oxygène."
+      },
+      {
+        "question": "Quel organe du corps humain filtre le sang pour produire l'urine ?",
+        "reponse": "Le rein",
+        "propositions": [
+          "Le rein",
+          "Le foie",
+          "La rate",
+          "Le pancréas"
+        ],
+        "explication": "Les reins filtrent environ 180 litres de sang par jour chez un adulte."
+      },
+      {
+        "question": "Quelle planète du système solaire est la plus proche de la Terre en moyenne ?",
+        "reponse": "Vénus",
+        "propositions": [
+          "Vénus",
+          "Mars",
+          "Mercure",
+          "Jupiter"
+        ],
+        "explication": "En moyenne orbitale, Vénus est la planète la plus proche statistiquement de la Terre."
+      },
+      {
+        "question": "Quel est le processus par lequel les plantes produisent leur énergie à partir de la lumière ?",
+        "reponse": "La photosynthèse",
+        "propositions": [
+          "La photosynthèse",
+          "La respiration cellulaire",
+          "La fermentation",
+          "La transpiration"
+        ],
+        "explication": "La photosynthèse transforme le CO2 et l'eau en glucose et en oxygène, grâce à la lumière."
+      },
+      {
+        "question": "Quel est l'état de l'eau à 0°C sous pression atmosphérique normale, au point de fusion/congélation ?",
+        "reponse": "La glace (état solide)",
+        "propositions": [
+          "La glace (état solide)",
+          "La vapeur",
+          "L'eau liquide seulement",
+          "Le plasma"
+        ],
+        "explication": "0°C est la température à laquelle l'eau passe de l'état solide à l'état liquide, sous pression normale."
+      },
+      {
+        "question": "Quel type d'animal est une grenouille, capable de vivre dans l'eau et sur terre ?",
+        "reponse": "Un amphibien",
+        "propositions": [
+          "Un amphibien",
+          "Un reptile",
+          "Un poisson",
+          "Un mammifère"
+        ],
+        "explication": "Les amphibiens passent généralement par une phase larvaire aquatique avant de se métamorphoser."
+      },
+      {
+        "question": "Quel est le nom de la plus petite unité de base du vivant ?",
+        "reponse": "La cellule",
+        "propositions": [
+          "La cellule",
+          "L'atome",
+          "Le tissu",
+          "L'organite"
+        ],
+        "explication": "Tous les êtres vivants sont composés d'une ou plusieurs cellules."
+      },
+      {
+        "question": "Quel sens humain est associé aux oreilles ?",
+        "reponse": "L'ouïe",
+        "propositions": [
+          "L'ouïe",
+          "La vue",
+          "L'odorat",
+          "Le toucher"
+        ],
+        "explication": "L'oreille interne transforme les vibrations sonores en signaux nerveux."
+      },
+      {
+        "question": "Quel gaz est principalement responsable de l'effet de serre lié aux activités humaines ?",
+        "reponse": "Le dioxyde de carbone (CO2)",
+        "propositions": [
+          "Le dioxyde de carbone (CO2)",
+          "L'oxygène",
+          "L'azote",
+          "L'hélium"
+        ],
+        "explication": "Le CO2 est émis notamment par la combustion des énergies fossiles."
+      },
+      {
+        "question": "Quel est le nom du processus par lequel l'eau liquide se transforme en vapeur ?",
+        "reponse": "L'évaporation",
+        "propositions": [
+          "L'évaporation",
+          "La condensation",
+          "La sublimation",
+          "La solidification"
+        ],
+        "explication": "L'évaporation joue un rôle central dans le cycle de l'eau sur Terre."
       }
     ],
     "2": [
       {
         "question": "Quelle particule subatomique porte une charge électrique négative ?",
         "reponse": "L'électron",
-        "propositions": ["Le proton", "L'électron", "Le neutron", "Le photon"],
+        "propositions": [
+          "Le proton",
+          "L'électron",
+          "Le neutron",
+          "Le photon"
+        ],
         "explication": "L'électron, chargé négativement, orbite autour du noyau composé de protons et de neutrons."
       },
       {
         "question": "Quel est le nom du processus par lequel une cellule se divise pour former deux cellules identiques ?",
         "reponse": "La mitose",
-        "propositions": ["La méiose", "La mitose", "L'apoptose", "La mutation"],
+        "propositions": [
+          "La méiose",
+          "La mitose",
+          "L'apoptose",
+          "La mutation"
+        ],
         "explication": "La mitose permet la croissance et le renouvellement des tissus à partir d'une cellule mère."
       },
       {
         "question": "Quelle enzyme, présente dans la salive, commence la digestion de l'amidon ?",
         "reponse": "L'amylase",
-        "propositions": ["La pepsine", "L'amylase", "La lipase", "La trypsine"],
+        "propositions": [
+          "La pepsine",
+          "L'amylase",
+          "La lipase",
+          "La trypsine"
+        ],
         "explication": "L'amylase salivaire décompose l'amidon en sucres simples dès la mastication."
       },
       {
         "question": "Quel est le pH approximatif d'une solution neutre, comme l'eau pure ?",
         "reponse": "7",
-        "propositions": ["0", "7", "10", "14"],
+        "propositions": [
+          "0",
+          "7",
+          "10",
+          "14"
+        ],
         "explication": "L'échelle de pH va de 0 (très acide) à 14 (très basique), 7 étant le point neutre."
       },
       {
         "question": "Quelle loi physique énonce que pour toute action, il existe une réaction égale et opposée ?",
         "reponse": "La troisième loi de Newton",
-        "propositions": ["La première loi de Newton", "La deuxième loi de Newton", "La troisième loi de Newton", "La loi de la gravitation universelle"],
+        "propositions": [
+          "La première loi de Newton",
+          "La deuxième loi de Newton",
+          "La troisième loi de Newton",
+          "La loi de la gravitation universelle"
+        ],
         "explication": "Formulée par Isaac Newton, cette loi décrit les interactions entre deux corps."
+      },
+      {
+        "question": "Quel est le nom de l'organite cellulaire qui contient l'ADN chez les organismes eucaryotes ?",
+        "reponse": "Le noyau",
+        "propositions": [
+          "Le noyau",
+          "La mitochondrie",
+          "Le ribosome",
+          "L'appareil de Golgi"
+        ],
+        "explication": "Le noyau est délimité par une membrane et abrite le matériel génétique de la cellule."
+      },
+      {
+        "question": "Quel gaz les plantes libèrent-elles principalement lors de la photosynthèse ?",
+        "reponse": "L'oxygène",
+        "propositions": [
+          "L'oxygène",
+          "Le dioxyde de carbone",
+          "L'azote",
+          "La vapeur d'eau"
+        ],
+        "explication": "L'oxygène est un sous-produit de la photosynthèse, essentiel à la respiration de nombreux organismes."
+      },
+      {
+        "question": "Quelle hormone, produite par le pancréas, régule le taux de sucre dans le sang ?",
+        "reponse": "L'insuline",
+        "propositions": [
+          "L'insuline",
+          "L'adrénaline",
+          "La testostérone",
+          "La thyroxine"
+        ],
+        "explication": "Un déficit en insuline ou une résistance à son action caractérise le diabète."
+      },
+      {
+        "question": "Quel type de sélection, décrite par Darwin, favorise la reproduction des individus les mieux adaptés à leur environnement ?",
+        "reponse": "La sélection naturelle",
+        "propositions": [
+          "La sélection naturelle",
+          "La sélection sexuelle",
+          "La dérive génétique",
+          "La sélection artificielle"
+        ],
+        "explication": "Darwin a formulé cette théorie dans 'L'Origine des espèces' publié en 1859."
+      },
+      {
+        "question": "Quel est le nom du processus de division cellulaire qui produit des cellules reproductrices avec la moitié du nombre de chromosomes ?",
+        "reponse": "La méiose",
+        "propositions": [
+          "La méiose",
+          "La mitose",
+          "La mitochondrie (organite, pas un processus)",
+          "La fécondation"
+        ],
+        "explication": "La méiose permet de maintenir un nombre de chromosomes constant lors de la reproduction sexuée."
+      },
+      {
+        "question": "Quelle molécule transporte l'énergie utilisable dans presque toutes les cellules vivantes ?",
+        "reponse": "L'ATP (adénosine triphosphate)",
+        "propositions": [
+          "L'ATP (adénosine triphosphate)",
+          "L'ADN",
+          "Le glucose",
+          "L'hémoglobine"
+        ],
+        "explication": "L'ATP est souvent appelée la 'monnaie énergétique' de la cellule."
+      },
+      {
+        "question": "Quel scientifique français a développé le premier vaccin contre la rage en 1885 ?",
+        "reponse": "Louis Pasteur",
+        "propositions": [
+          "Louis Pasteur",
+          "Robert Koch",
+          "Alexander Fleming",
+          "Edward Jenner"
+        ],
+        "explication": "Pasteur a également développé la technique de pasteurisation, portant son nom."
+      },
+      {
+        "question": "Quel gaz noble, très léger, est utilisé pour gonfler les ballons dirigeables et les baudruches ?",
+        "reponse": "L'hélium",
+        "propositions": [
+          "L'hélium",
+          "L'hydrogène",
+          "L'argon",
+          "Le néon"
+        ],
+        "explication": "L'hélium est ininflammable, contrairement à l'hydrogène, ce qui en fait un choix plus sûr."
+      },
+      {
+        "question": "Quel processus permet à des bactéries de devenir résistantes aux antibiotiques au fil du temps ?",
+        "reponse": "La sélection naturelle (résistance acquise)",
+        "propositions": [
+          "La sélection naturelle (résistance acquise)",
+          "La mutation spontanée seule",
+          "La symbiose",
+          "La photosynthèse bactérienne"
+        ],
+        "explication": "Les bactéries résistantes survivent et se reproduisent davantage lors d'une exposition répétée aux antibiotiques."
+      },
+      {
+        "question": "Quel est le nom de la couche externe protectrice de la Terre, divisée en plaques tectoniques ?",
+        "reponse": "La croûte terrestre (lithosphère)",
+        "propositions": [
+          "La croûte terrestre (lithosphère)",
+          "Le manteau",
+          "Le noyau externe",
+          "Le noyau interne"
+        ],
+        "explication": "La lithosphère comprend la croûte terrestre et la partie supérieure rigide du manteau."
       }
     ],
     "3": [
       {
         "question": "Quel est le nom de l'organite cellulaire responsable de la production d'énergie sous forme d'ATP ?",
         "reponse": "La mitochondrie",
-        "propositions": ["Le ribosome", "La mitochondrie", "L'appareil de Golgi", "Le lysosome"],
+        "propositions": [
+          "Le ribosome",
+          "La mitochondrie",
+          "L'appareil de Golgi",
+          "Le lysosome"
+        ],
         "explication": "La mitochondrie est souvent surnommée la \"centrale énergétique\" de la cellule."
       },
       {
         "question": "Quel est le nom du phénomène par lequel des atomes légers fusionnent pour former un noyau plus lourd, source d'énergie des étoiles ?",
         "reponse": "La fusion nucléaire",
-        "propositions": ["La fission nucléaire", "La fusion nucléaire", "La radioactivité", "L'ionisation"],
+        "propositions": [
+          "La fission nucléaire",
+          "La fusion nucléaire",
+          "La radioactivité",
+          "L'ionisation"
+        ],
         "explication": "La fusion nucléaire libère une énergie considérable et alimente les étoiles comme le Soleil."
       },
       {
         "question": "Quel scientifique a formulé le principe d'incertitude en mécanique quantique en 1927 ?",
         "reponse": "Werner Heisenberg",
-        "propositions": ["Niels Bohr", "Werner Heisenberg", "Erwin Schrödinger", "Max Planck"],
+        "propositions": [
+          "Niels Bohr",
+          "Werner Heisenberg",
+          "Erwin Schrödinger",
+          "Max Planck"
+        ],
         "explication": "Le principe d'incertitude établit qu'on ne peut connaître simultanément avec précision la position et la vitesse d'une particule."
       },
       {
         "question": "Quel est le nom de la molécule qui porte l'information génétique dans presque tous les organismes vivants ?",
         "reponse": "L'ADN",
-        "propositions": ["L'ARN", "L'ADN", "L'ATP", "Le glucose"],
+        "propositions": [
+          "L'ARN",
+          "L'ADN",
+          "L'ATP",
+          "Le glucose"
+        ],
         "explication": "L'ADN (acide désoxyribonucléique) contient les instructions génétiques sous forme de séquences de nucléotides."
       },
       {
         "question": "Comment appelle-t-on une réaction chimique qui libère de la chaleur vers son environnement ?",
         "reponse": "Une réaction exothermique",
-        "propositions": ["Une réaction endothermique", "Une réaction exothermique", "Une réaction catalytique", "Une réaction réversible"],
+        "propositions": [
+          "Une réaction endothermique",
+          "Une réaction exothermique",
+          "Une réaction catalytique",
+          "Une réaction réversible"
+        ],
         "explication": "Une réaction exothermique dégage de l'énergie, contrairement à une réaction endothermique qui en absorbe."
+      },
+      {
+        "question": "Quel processus biologique permet la production de nouvelles protéines à partir de l'information contenue dans l'ARN messager ?",
+        "reponse": "La traduction",
+        "propositions": [
+          "La traduction",
+          "La transcription",
+          "La réplication",
+          "La translation (terme incorrect)"
+        ],
+        "explication": "La traduction se déroule au niveau des ribosomes, qui assemblent les acides aminés selon le code génétique."
+      },
+      {
+        "question": "Quel scientifique britannique a proposé en 1953, avec James Watson, la structure en double hélice de l'ADN ?",
+        "reponse": "Francis Crick",
+        "propositions": [
+          "Francis Crick",
+          "Rosalind Franklin",
+          "Maurice Wilkins",
+          "Erwin Chargaff"
+        ],
+        "explication": "Les travaux de cristallographie de Rosalind Franklin ont été essentiels à cette découverte, bien que moins reconnus à l'époque."
+      },
+      {
+        "question": "Quel phénomène épigénétique permet à des gènes identiques de s'exprimer différemment selon des facteurs environnementaux, sans changer la séquence d'ADN ?",
+        "reponse": "La méthylation de l'ADN (épigénétique)",
+        "propositions": [
+          "La méthylation de l'ADN (épigénétique)",
+          "La mutation génétique",
+          "Le crossing-over",
+          "La transcription inverse"
+        ],
+        "explication": "L'épigénétique étudie ces mécanismes de régulation de l'expression des gènes sans modification de la séquence génétique elle-même."
+      },
+      {
+        "question": "Quel type de cellule souche est capable de se différencier en n'importe quel type cellulaire de l'organisme adulte ?",
+        "reponse": "Une cellule souche pluripotente",
+        "propositions": [
+          "Une cellule souche pluripotente",
+          "Une cellule souche multipotente",
+          "Une cellule différenciée",
+          "Un gamète"
+        ],
+        "explication": "Les cellules souches embryonnaires sont l'exemple le plus connu de cellules pluripotentes."
+      },
+      {
+        "question": "Quel chimiste russe a proposé en 1869 une classification des éléments chimiques selon leurs propriétés périodiques ?",
+        "reponse": "Dmitri Mendeleïev",
+        "propositions": [
+          "Dmitri Mendeleïev",
+          "Antoine Lavoisier",
+          "John Dalton",
+          "Marie Curie"
+        ],
+        "explication": "Le tableau périodique de Mendeleïev a même permis de prédire l'existence d'éléments encore inconnus à l'époque."
+      },
+      {
+        "question": "Quel processus géologique explique le déplacement lent des continents au cours du temps géologique ?",
+        "reponse": "La tectonique des plaques",
+        "propositions": [
+          "La tectonique des plaques",
+          "L'isostasie",
+          "L'orogenèse (formation de montagnes)",
+          "La subduction (un seul mécanisme)"
+        ],
+        "explication": "Cette théorie, développée au XXe siècle, explique aussi les séismes et le volcanisme aux frontières de plaques."
+      },
+      {
+        "question": "Quelle enzyme est utilisée dans la technique de modification génétique CRISPR-Cas9 pour couper l'ADN à un endroit précis ?",
+        "reponse": "Cas9",
+        "propositions": [
+          "Cas9",
+          "L'ADN polymérase",
+          "La ligase",
+          "La transcriptase inverse"
+        ],
+        "explication": "CRISPR-Cas9 a valu à Emmanuelle Charpentier et Jennifer Doudna le prix Nobel de chimie en 2020."
+      },
+      {
+        "question": "Quel physiologiste français a introduit au XIXe siècle le concept de 'milieu intérieur', fondement de la notion moderne d'homéostasie ?",
+        "reponse": "Claude Bernard",
+        "propositions": [
+          "Claude Bernard",
+          "Louis Pasteur",
+          "Antoine Lavoisier",
+          "Marie François Xavier Bichat"
+        ],
+        "explication": "Claude Bernard est considéré comme le père de la médecine expérimentale moderne."
+      },
+      {
+        "question": "Quel type de liaison chimique, relativement faible, est responsable de la structure en double hélice de l'ADN entre les bases complémentaires ?",
+        "reponse": "La liaison hydrogène",
+        "propositions": [
+          "La liaison hydrogène",
+          "La liaison covalente",
+          "La liaison ionique",
+          "La liaison métallique"
+        ],
+        "explication": "Ces liaisons, plus faibles que les liaisons covalentes, permettent à l'ADN de se séparer facilement lors de la réplication."
+      },
+      {
+        "question": "Quel biologiste a formulé la théorie de l'évolution indépendamment de Darwin, poussant ce dernier à publier ses travaux en 1859 ?",
+        "reponse": "Alfred Russel Wallace",
+        "propositions": [
+          "Alfred Russel Wallace",
+          "Jean-Baptiste de Lamarck",
+          "Thomas Huxley",
+          "Gregor Mendel"
+        ],
+        "explication": "Darwin et Wallace ont présenté conjointement leurs travaux à la Société linnéenne de Londres en 1858."
       }
     ]
   }

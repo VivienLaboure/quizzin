@@ -5,96 +5,501 @@
       {
         "question": "Quelle est la planète la plus proche du Soleil ?",
         "reponse": "Mercure",
-        "propositions": ["Mercure", "Vénus", "Mars", "Terre"],
+        "propositions": [
+          "Mercure",
+          "Vénus",
+          "Mars",
+          "Terre"
+        ],
         "explication": "Mercure orbite en moyenne à environ 58 millions de km du Soleil."
       },
       {
         "question": "Quelle planète est surnommée la \"planète rouge\" ?",
         "reponse": "Mars",
-        "propositions": ["Mars", "Vénus", "Jupiter", "Saturne"],
+        "propositions": [
+          "Mars",
+          "Vénus",
+          "Jupiter",
+          "Saturne"
+        ],
         "explication": "La couleur rougeâtre de Mars vient de l'oxyde de fer présent à sa surface."
       },
       {
         "question": "Quelle est la plus grande planète du système solaire ?",
         "reponse": "Jupiter",
-        "propositions": ["Jupiter", "Saturne", "Neptune", "Uranus"],
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Neptune",
+          "Uranus"
+        ],
         "explication": "Jupiter est la plus grande planète, avec un diamètre 11 fois supérieur à celui de la Terre."
       },
       {
         "question": "Quel astre est le satellite naturel de la Terre ?",
         "reponse": "La Lune",
-        "propositions": ["La Lune", "Phobos", "Titan", "Europe"],
+        "propositions": [
+          "La Lune",
+          "Phobos",
+          "Titan",
+          "Europe"
+        ],
         "explication": "La Lune est le seul satellite naturel de la Terre."
       },
       {
         "question": "Combien de planètes compte le système solaire depuis la reclassification de Pluton en 2006 ?",
         "reponse": "8",
-        "propositions": ["8", "9", "7", "10"],
+        "propositions": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
         "explication": "Pluton a été reclassée comme planète naine en 2006, laissant huit planètes officielles."
+      },
+      {
+        "question": "Quelle planète est la plus éloignée du Soleil dans le système solaire ?",
+        "reponse": "Neptune",
+        "propositions": [
+          "Neptune",
+          "Uranus",
+          "Pluton",
+          "Saturne"
+        ],
+        "explication": "Depuis la reclassification de Pluton en planète naine en 2006, Neptune est la planète la plus lointaine."
+      },
+      {
+        "question": "Combien de lunes possède la planète Mars ?",
+        "reponse": "2",
+        "propositions": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "explication": "Mars possède deux petites lunes, Phobos et Déimos."
+      },
+      {
+        "question": "Quelle est la couleur dominante de la planète Neptune ?",
+        "reponse": "Le bleu",
+        "propositions": [
+          "Le bleu",
+          "Le vert",
+          "Le rouge",
+          "Le jaune"
+        ],
+        "explication": "La couleur bleue de Neptune provient de la présence de méthane dans son atmosphère."
+      },
+      {
+        "question": "Quelle planète du système solaire possède la journée la plus courte ?",
+        "reponse": "Jupiter",
+        "propositions": [
+          "Jupiter",
+          "Mercure",
+          "Vénus",
+          "Saturne"
+        ],
+        "explication": "Jupiter tourne sur elle-même en moins de 10 heures malgré sa taille immense."
+      },
+      {
+        "question": "Quel est le nom de l'étoile autour de laquelle tourne la Terre ?",
+        "reponse": "Le Soleil",
+        "propositions": [
+          "Le Soleil",
+          "Sirius",
+          "Proxima du Centaure",
+          "Alpha du Centaure"
+        ],
+        "explication": "Le Soleil représente à lui seul plus de 99 % de la masse du système solaire."
+      },
+      {
+        "question": "Quelle planète possède la plus grande tache orageuse connue du système solaire ?",
+        "reponse": "Jupiter",
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Neptune",
+          "Uranus"
+        ],
+        "explication": "La Grande Tache rouge de Jupiter est une tempête plus grande que la Terre."
+      },
+      {
+        "question": "Combien de temps la Terre met-elle environ pour faire le tour du Soleil ?",
+        "reponse": "1 an",
+        "propositions": [
+          "1 mois",
+          "1 an",
+          "10 ans",
+          "1 jour"
+        ],
+        "explication": "Cette révolution complète autour du Soleil définit l'année terrestre."
+      },
+      {
+        "question": "Quelle est la planète la plus grande du système solaire ?",
+        "reponse": "Jupiter",
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Neptune",
+          "Uranus"
+        ],
+        "explication": "Jupiter pourrait contenir plus de 1 300 fois le volume de la Terre."
+      },
+      {
+        "question": "Quel astre du système solaire est visible la nuit et reflète la lumière du Soleil vers la Terre ?",
+        "reponse": "La Lune",
+        "propositions": [
+          "La Lune",
+          "Mars",
+          "Vénus",
+          "Une comète"
+        ],
+        "explication": "La Lune est le seul satellite naturel de la Terre."
+      },
+      {
+        "question": "Quelle planète est connue pour ses célèbres anneaux visibles même avec un petit télescope amateur ?",
+        "reponse": "Saturne",
+        "propositions": [
+          "Saturne",
+          "Jupiter",
+          "Uranus",
+          "Neptune"
+        ],
+        "explication": "Les anneaux de Saturne sont composés principalement de particules de glace et de poussière."
       }
     ],
     "2": [
       {
         "question": "Quelle planète est entourée d'anneaux particulièrement visibles composés de glace et de roche ?",
         "reponse": "Saturne",
-        "propositions": ["Saturne", "Jupiter", "Uranus", "Neptune"],
+        "propositions": [
+          "Saturne",
+          "Jupiter",
+          "Uranus",
+          "Neptune"
+        ],
         "explication": "Les anneaux de Saturne, très étendus, sont visibles même avec un petit télescope."
       },
       {
         "question": "Quelle est la plus grande lune du système solaire, en orbite autour de Jupiter ?",
         "reponse": "Ganymède",
-        "propositions": ["Ganymède", "Titan", "Io", "Callisto"],
+        "propositions": [
+          "Ganymède",
+          "Titan",
+          "Io",
+          "Callisto"
+        ],
         "explication": "Ganymède est plus grande que la planète Mercure."
       },
       {
         "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre, en moyenne ?",
         "reponse": "Environ 8 minutes",
-        "propositions": ["Environ 8 minutes", "Environ 1 minute", "Environ 30 minutes", "Environ 1 heure"],
+        "propositions": [
+          "Environ 8 minutes",
+          "Environ 1 minute",
+          "Environ 30 minutes",
+          "Environ 1 heure"
+        ],
         "explication": "La lumière parcourt les 150 millions de km Terre-Soleil en environ 8 minutes et 20 secondes."
       },
       {
         "question": "Quelle planète est la plus chaude du système solaire malgré sa distance au Soleil, à cause de son épaisse atmosphère ?",
         "reponse": "Vénus",
-        "propositions": ["Vénus", "Mercure", "Mars", "Jupiter"],
+        "propositions": [
+          "Vénus",
+          "Mercure",
+          "Mars",
+          "Jupiter"
+        ],
         "explication": "L'effet de serre extrême dû au CO2 rend Vénus plus chaude que Mercure, pourtant plus proche du Soleil."
       },
       {
         "question": "Comment appelle-t-on la ceinture d'astéroïdes située entre Mars et Jupiter ?",
         "reponse": "La ceinture principale",
-        "propositions": ["La ceinture principale", "La ceinture de Kuiper", "Le nuage d'Oort", "La ceinture d'Orion"],
+        "propositions": [
+          "La ceinture principale",
+          "La ceinture de Kuiper",
+          "Le nuage d'Oort",
+          "La ceinture d'Orion"
+        ],
         "explication": "La ceinture principale regroupe la majorité des astéroïdes connus du système solaire."
+      },
+      {
+        "question": "Quelle sonde de la NASA a exploré Saturne et ses lunes de 2004 à 2017 ?",
+        "reponse": "Cassini-Huygens",
+        "propositions": [
+          "Cassini-Huygens",
+          "Voyager 2",
+          "Galileo",
+          "Juno"
+        ],
+        "explication": "La sonde s'est volontairement désintégrée dans l'atmosphère de Saturne en 2017 pour éviter toute contamination de ses lunes."
+      },
+      {
+        "question": "Quelle est la lune de Jupiter soupçonnée d'abriter un océan d'eau liquide sous sa croûte de glace ?",
+        "reponse": "Europe",
+        "propositions": [
+          "Europe",
+          "Io",
+          "Ganymède",
+          "Callisto"
+        ],
+        "explication": "Cet océan souterrain fait d'Europe l'une des cibles privilégiées de la recherche de vie extraterrestre."
+      },
+      {
+        "question": "Quelle lune de Jupiter est le corps le plus volcaniquement actif du système solaire ?",
+        "reponse": "Io",
+        "propositions": [
+          "Io",
+          "Europe",
+          "Ganymède",
+          "Callisto"
+        ],
+        "explication": "L'activité volcanique d'Io est due aux forces de marée exercées par Jupiter et ses autres lunes."
+      },
+      {
+        "question": "Combien de temps met environ la lumière du Soleil pour atteindre Neptune ?",
+        "reponse": "Environ 4 heures",
+        "propositions": [
+          "Environ 4 heures",
+          "Environ 8 minutes",
+          "Environ 1 heure",
+          "Environ 1 jour"
+        ],
+        "explication": "Neptune se situe à environ 30 unités astronomiques du Soleil, bien plus loin que la Terre (1 UA)."
+      },
+      {
+        "question": "Quelles sondes jumelles, lancées en 1977, ont fourni les images les plus détaillées de Jupiter, Saturne, Uranus et Neptune de leur époque ?",
+        "reponse": "Voyager 1 et 2",
+        "propositions": [
+          "Voyager 1 et 2",
+          "Pioneer 10 et 11",
+          "Cassini-Huygens",
+          "New Horizons"
+        ],
+        "explication": "Les sondes Voyager ont depuis quitté le système solaire et continuent d'envoyer des données depuis l'espace interstellaire."
+      },
+      {
+        "question": "Quelle planète du système solaire possède la plus forte pression atmosphérique de surface, environ 90 fois celle de la Terre ?",
+        "reponse": "Vénus",
+        "propositions": [
+          "Vénus",
+          "Jupiter",
+          "Mars",
+          "Mercure"
+        ],
+        "explication": "Cette pression écrasante, combinée à un effet de serre extrême, rend Vénus la planète la plus chaude du système solaire."
+      },
+      {
+        "question": "Quel objet céleste, au-delà de Neptune, a été visité par la sonde New Horizons en 2015 ?",
+        "reponse": "Pluton",
+        "propositions": [
+          "Pluton",
+          "Éris",
+          "Cérès",
+          "Charon (lune de Pluton seule)"
+        ],
+        "explication": "New Horizons a également survolé l'objet transneptunien Arrokoth en 2019."
+      },
+      {
+        "question": "Quelle est la plus grande lune de Neptune, dont l'orbite rétrograde intrigue les astronomes ?",
+        "reponse": "Triton",
+        "propositions": [
+          "Triton",
+          "Titan",
+          "Charon",
+          "Miranda"
+        ],
+        "explication": "L'orbite rétrograde de Triton suggère qu'il s'agit d'un objet capturé plutôt que formé autour de Neptune."
+      },
+      {
+        "question": "Quelle planète naine, découverte en 2005, a directement conduit à la reclassification de Pluton en 2006 ?",
+        "reponse": "Éris",
+        "propositions": [
+          "Éris",
+          "Cérès",
+          "Makemake",
+          "Hauméa"
+        ],
+        "explication": "Éris est légèrement plus massive que Pluton, ce qui a posé la question de sa classification comme neuvième planète."
+      },
+      {
+        "question": "Quelle est la plus grande lune de Mars, découverte en 1877 ?",
+        "reponse": "Phobos",
+        "propositions": [
+          "Phobos",
+          "Déimos",
+          "Titan",
+          "Charon"
+        ],
+        "explication": "Phobos orbite si proche de Mars qu'il finira par s'écraser sur la planète dans plusieurs dizaines de millions d'années."
       }
     ],
     "3": [
       {
         "question": "Quelle région glacée, au-delà de Neptune, abrite Pluton et d'autres objets transneptuniens ?",
         "reponse": "La ceinture de Kuiper",
-        "propositions": ["La ceinture de Kuiper", "Le nuage d'Oort", "La ceinture principale", "L'héliosphère"],
+        "propositions": [
+          "La ceinture de Kuiper",
+          "Le nuage d'Oort",
+          "La ceinture principale",
+          "L'héliosphère"
+        ],
         "explication": "La ceinture de Kuiper contient de nombreux objets glacés, dont la planète naine Pluton."
       },
       {
         "question": "Quelle sonde spatiale a survolé Pluton en 2015, offrant les premières images détaillées de sa surface ?",
         "reponse": "New Horizons",
-        "propositions": ["New Horizons", "Voyager 1", "Cassini-Huygens", "Juno"],
+        "propositions": [
+          "New Horizons",
+          "Voyager 1",
+          "Cassini-Huygens",
+          "Juno"
+        ],
         "explication": "New Horizons, lancée en 2006, survole Pluton en juillet 2015."
       },
       {
         "question": "Quel phénomène atmosphérique gigantesque, observé sur Jupiter, est une tempête active depuis au moins 350 ans ?",
         "reponse": "La Grande Tache rouge",
-        "propositions": ["La Grande Tache rouge", "L'Hexagone de Saturne", "La Tache sombre de Neptune", "L'Œil de Mars"],
+        "propositions": [
+          "La Grande Tache rouge",
+          "L'Hexagone de Saturne",
+          "La Tache sombre de Neptune",
+          "L'Œil de Mars"
+        ],
         "explication": "La Grande Tache rouge est un anticyclone géant plus large que la Terre."
       },
       {
         "question": "Quelle est la lune de Saturne connue pour ses lacs de méthane liquide et son atmosphère dense ?",
         "reponse": "Titan",
-        "propositions": ["Titan", "Encelade", "Mimas", "Japet"],
+        "propositions": [
+          "Titan",
+          "Encelade",
+          "Mimas",
+          "Japet"
+        ],
         "explication": "Titan est la seule lune du système solaire connue pour posséder une atmosphère dense et des liquides en surface."
       },
       {
         "question": "Quelle unité de mesure, correspondant à la distance moyenne Terre-Soleil, est utilisée pour mesurer les distances au sein du système solaire ?",
         "reponse": "L'unité astronomique (UA)",
-        "propositions": ["L'unité astronomique (UA)", "L'année-lumière", "Le parsec", "Le rayon solaire"],
+        "propositions": [
+          "L'unité astronomique (UA)",
+          "L'année-lumière",
+          "Le parsec",
+          "Le rayon solaire"
+        ],
         "explication": "Une unité astronomique équivaut à environ 150 millions de kilomètres."
+      },
+      {
+        "question": "Quelle sonde spatiale, lancée en 2018, a pour objectif d'étudier la couronne solaire en s'approchant plus près du Soleil qu'aucun engin auparavant ?",
+        "reponse": "La sonde Parker Solar Probe",
+        "propositions": [
+          "La sonde Parker Solar Probe",
+          "La sonde Solar Orbiter",
+          "La sonde Ulysses",
+          "La sonde SOHO"
+        ],
+        "explication": "Parker Solar Probe est nommée en l'honneur du physicien Eugene Parker, théoricien du vent solaire."
+      },
+      {
+        "question": "Quel phénomène atmosphérique, observé sur Saturne, forme un motif hexagonal géant autour de son pôle nord ?",
+        "reponse": "L'hexagone de Saturne",
+        "propositions": [
+          "L'hexagone de Saturne",
+          "La Grande Tache blanche",
+          "La tache sombre de Neptune",
+          "Le vortex polaire de Jupiter"
+        ],
+        "explication": "Ce motif hexagonal, observé par la sonde Voyager puis Cassini, reste partiellement mystérieux dans sa formation."
+      },
+      {
+        "question": "Quelle limite théorique, autour d'une planète, définit la distance en deçà de laquelle les forces de marée peuvent désintégrer un satellite ?",
+        "reponse": "La limite de Roche",
+        "propositions": [
+          "La limite de Roche",
+          "La sphère de Hill",
+          "Le point de Lagrange",
+          "La ceinture de Kuiper"
+        ],
+        "explication": "Les anneaux de Saturne se situent en grande partie à l'intérieur de sa limite de Roche."
+      },
+      {
+        "question": "Quels points de l'espace, au nombre de cinq pour un système à deux corps, permettent à un objet de rester en équilibre gravitationnel stable ou instable ?",
+        "reponse": "Les points de Lagrange",
+        "propositions": [
+          "Les points de Lagrange",
+          "La sphère de Hill",
+          "La limite de Roche",
+          "L'orbite géostationnaire"
+        ],
+        "explication": "Le télescope James Webb est positionné au point de Lagrange L2 du système Terre-Soleil."
+      },
+      {
+        "question": "Quelle mission de l'ESA, lancée en 2023, doit étudier les lunes glacées de Jupiter, dont Ganymède ?",
+        "reponse": "JUICE (Jupiter Icy Moons Explorer)",
+        "propositions": [
+          "JUICE (Jupiter Icy Moons Explorer)",
+          "Europa Clipper",
+          "Juno",
+          "Galileo"
+        ],
+        "explication": "JUICE doit se mettre en orbite autour de Ganymède, une première pour une lune autre que la nôtre."
+      },
+      {
+        "question": "Quelle région du système solaire, entre 30 et 55 unités astronomiques du Soleil, abrite Pluton et de nombreux objets glacés ?",
+        "reponse": "La ceinture de Kuiper",
+        "propositions": [
+          "La ceinture de Kuiper",
+          "Le nuage d'Oort",
+          "La ceinture principale d'astéroïdes",
+          "L'héliosphère"
+        ],
+        "explication": "La ceinture de Kuiper est distincte du nuage d'Oort, beaucoup plus lointain et sphérique."
+      },
+      {
+        "question": "Quel phénomène explique la présence de geysers de glace observés sur Encelade, lune de Saturne ?",
+        "reponse": "Un océan liquide sous la surface glacée",
+        "propositions": [
+          "Un océan liquide sous la surface glacée",
+          "Une activité volcanique de roche fondue",
+          "Des impacts météoritiques réguliers",
+          "Une atmosphère dense en évaporation"
+        ],
+        "explication": "Ces geysers, découverts par la sonde Cassini, ont relancé l'intérêt pour Encelade dans la recherche de vie extraterrestre."
+      },
+      {
+        "question": "Quelle est la définition officielle d'une 'planète' adoptée par l'Union astronomique internationale en 2006, qui a exclu Pluton ?",
+        "reponse": "Avoir nettoyé le voisinage de son orbite",
+        "propositions": [
+          "Avoir nettoyé le voisinage de son orbite",
+          "Avoir une atmosphère",
+          "Posséder au moins une lune",
+          "Avoir une masse supérieure à celle de la Lune"
+        ],
+        "explication": "Pluton, entourée de nombreux objets de la ceinture de Kuiper, ne remplit pas ce troisième critère de la définition."
+      },
+      {
+        "question": "Quel télescope spatial a observé, en 2012 et 2016, des panaches de vapeur d'eau jaillissant du pôle sud d'Europe, lune de Jupiter ?",
+        "reponse": "Le télescope spatial Hubble",
+        "propositions": [
+          "Le télescope spatial Hubble",
+          "Le télescope James Webb",
+          "Le télescope Kepler",
+          "Le télescope Spitzer"
+        ],
+        "explication": "Ces observations ont renforcé l'hypothèse d'un océan liquide sous la croûte glacée d'Europe et motivé la mission Europa Clipper."
+      },
+      {
+        "question": "Quel astéroïde, le plus grand de la ceinture principale, a été visité et est aujourd'hui classé comme planète naine ?",
+        "reponse": "Cérès",
+        "propositions": [
+          "Cérès",
+          "Vesta",
+          "Pallas",
+          "Hygie"
+        ],
+        "explication": "Cérès a été survolée par la sonde Dawn de la NASA, qui s'est mise en orbite autour d'elle en 2015."
       }
     ]
   }

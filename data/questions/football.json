@@ -5,96 +5,501 @@
       {
         "question": "Combien de joueurs composent une équipe de football sur le terrain (gardien inclus) ?",
         "reponse": "11",
-        "propositions": ["11", "10", "9", "12"],
+        "propositions": [
+          "11",
+          "10",
+          "9",
+          "12"
+        ],
         "explication": "Une équipe de football aligne 11 joueurs sur le terrain, dont un gardien de but."
       },
       {
         "question": "Quel pays a remporté la Coupe du monde de football 2018 ?",
         "reponse": "La France",
-        "propositions": ["La France", "Le Brésil", "L'Allemagne", "La Croatie"],
+        "propositions": [
+          "La France",
+          "Le Brésil",
+          "L'Allemagne",
+          "La Croatie"
+        ],
         "explication": "La France bat la Croatie 4-2 en finale du Mondial 2018 en Russie."
       },
       {
         "question": "Quel club est basé au Camp Nou ?",
         "reponse": "Le FC Barcelone",
-        "propositions": ["Le FC Barcelone", "Le Real Madrid", "L'Atlético Madrid", "Le FC Séville"],
+        "propositions": [
+          "Le FC Barcelone",
+          "Le Real Madrid",
+          "L'Atlético Madrid",
+          "Le FC Séville"
+        ],
         "explication": "Le Camp Nou est le stade historique du FC Barcelone depuis 1957."
       },
       {
         "question": "Quel joueur est surnommé \"CR7\" ?",
         "reponse": "Cristiano Ronaldo",
-        "propositions": ["Cristiano Ronaldo", "Lionel Messi", "Neymar", "Kylian Mbappé"],
+        "propositions": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Neymar",
+          "Kylian Mbappé"
+        ],
         "explication": "\"CR7\" combine les initiales de Cristiano Ronaldo et son numéro de maillot fétiche, le 7."
       },
       {
         "question": "Combien de temps dure un match de football (temps réglementaire, hors prolongations) ?",
         "reponse": "90 minutes",
-        "propositions": ["90 minutes", "80 minutes", "100 minutes", "120 minutes"],
+        "propositions": [
+          "90 minutes",
+          "80 minutes",
+          "100 minutes",
+          "120 minutes"
+        ],
         "explication": "Un match se joue en deux mi-temps de 45 minutes, soit 90 minutes réglementaires."
+      },
+      {
+        "question": "Quelle couleur de carton signifie l'exclusion définitive d'un joueur ?",
+        "reponse": "Rouge",
+        "propositions": [
+          "Jaune",
+          "Rouge",
+          "Bleu",
+          "Orange"
+        ],
+        "explication": "Un carton rouge exclut immédiatement le joueur pour le reste du match."
+      },
+      {
+        "question": "Quel joueur argentin a remporté la Coupe du monde 2022 avec son pays ?",
+        "reponse": "Lionel Messi",
+        "propositions": [
+          "Lionel Messi",
+          "Diego Maradona",
+          "Sergio Agüero",
+          "Ángel Di María"
+        ],
+        "explication": "L'Argentine a battu la France en finale aux tirs au but à Doha."
+      },
+      {
+        "question": "Quel club français est basé au Parc des Princes à Paris ?",
+        "reponse": "Le Paris Saint-Germain",
+        "propositions": [
+          "Le Paris Saint-Germain",
+          "L'Olympique de Marseille",
+          "L'AS Monaco",
+          "L'Olympique Lyonnais"
+        ],
+        "explication": "Le PSG joue à domicile au Parc des Princes depuis 1974."
+      },
+      {
+        "question": "Combien de temps dure la mi-temps au football ?",
+        "reponse": "15 minutes",
+        "propositions": [
+          "10 minutes",
+          "15 minutes",
+          "20 minutes",
+          "5 minutes"
+        ],
+        "explication": "La pause entre les deux mi-temps dure au maximum 15 minutes selon les règles standards."
+      },
+      {
+        "question": "Quel pays organise la Coupe du monde de football 2026 ?",
+        "reponse": "Les États-Unis, le Canada et le Mexique",
+        "propositions": [
+          "Les États-Unis, le Canada et le Mexique",
+          "Le Qatar",
+          "L'Allemagne",
+          "Le Maroc"
+        ],
+        "explication": "Ce sera la première Coupe du monde coorganisée par trois pays."
+      },
+      {
+        "question": "Quel geste technique consiste à faire une passe du pied vers un coéquipier avec la tête ?",
+        "reponse": "Une passe de la tête",
+        "propositions": [
+          "Un centre",
+          "Une passe de la tête",
+          "Un tacle",
+          "Un corner"
+        ],
+        "explication": "Un joueur peut relayer le ballon avec la tête pour le transmettre à un coéquipier."
+      },
+      {
+        "question": "Quelle est la durée réglementaire d'une prolongation au football (deux périodes) ?",
+        "reponse": "30 minutes",
+        "propositions": [
+          "15 minutes",
+          "20 minutes",
+          "30 minutes",
+          "45 minutes"
+        ],
+        "explication": "La prolongation se joue en deux périodes de 15 minutes chacune."
+      },
+      {
+        "question": "Quel pays a remporté la première Coupe du monde féminine de football en 1991 ?",
+        "reponse": "Les États-Unis",
+        "propositions": [
+          "Les États-Unis",
+          "L'Allemagne",
+          "La Norvège",
+          "La Chine"
+        ],
+        "explication": "La compétition s'est déroulée en Chine, mais l'équipe américaine a remporté le titre."
+      },
+      {
+        "question": "Quel joueur français est le meilleur buteur de l'histoire de l'équipe de France ?",
+        "reponse": "Olivier Giroud",
+        "propositions": [
+          "Olivier Giroud",
+          "Thierry Henry",
+          "Kylian Mbappé",
+          "Antoine Griezmann"
+        ],
+        "explication": "Olivier Giroud a dépassé le record de buts de Thierry Henry en équipe de France en 2022."
+      },
+      {
+        "question": "Combien de remplacements les équipes peuvent-elles effectuer en temps réglementaire lors des grandes compétitions internationales actuelles ?",
+        "reponse": "5",
+        "propositions": [
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "explication": "La règle des 5 remplacements a été généralisée après la pandémie de Covid-19."
       }
     ],
     "2": [
       {
         "question": "Quel joueur détient le record de buts en phase finale de Coupe du monde masculine ?",
         "reponse": "Miroslav Klose",
-        "propositions": ["Miroslav Klose", "Ronaldo", "Pelé", "Just Fontaine"],
+        "propositions": [
+          "Miroslav Klose",
+          "Ronaldo",
+          "Pelé",
+          "Just Fontaine"
+        ],
         "explication": "L'Allemand Miroslav Klose a marqué 16 buts en Coupe du monde entre 2002 et 2014."
       },
       {
         "question": "Quelle compétition annuelle oppose les meilleurs clubs européens ?",
         "reponse": "La Ligue des champions",
-        "propositions": ["La Ligue des champions", "La Coupe du monde", "L'Europa League", "La Coupe des confédérations"],
+        "propositions": [
+          "La Ligue des champions",
+          "La Coupe du monde",
+          "L'Europa League",
+          "La Coupe des confédérations"
+        ],
         "explication": "La Ligue des champions de l'UEFA réunit chaque saison les meilleurs clubs du continent."
       },
       {
         "question": "Quel pays a remporté le plus de Coupes du monde de football masculin ?",
         "reponse": "Le Brésil",
-        "propositions": ["Le Brésil", "L'Allemagne", "L'Italie", "L'Argentine"],
+        "propositions": [
+          "Le Brésil",
+          "L'Allemagne",
+          "L'Italie",
+          "L'Argentine"
+        ],
         "explication": "Le Brésil a remporté cinq titres mondiaux (1958, 1962, 1970, 1994, 2002)."
       },
       {
         "question": "En quelle année la France a-t-elle remporté sa première Coupe du monde ?",
         "reponse": "1998",
-        "propositions": ["1998", "2000", "2006", "2018"],
+        "propositions": [
+          "1998",
+          "2000",
+          "2006",
+          "2018"
+        ],
         "explication": "La France, pays organisateur, bat le Brésil 3-0 en finale en 1998."
       },
       {
         "question": "Quel poste désigne le joueur chargé d'arrêter les tirs adverses ?",
         "reponse": "Le gardien de but",
-        "propositions": ["Le gardien de but", "Le défenseur central", "Le milieu défensif", "L'arrière latéral"],
+        "propositions": [
+          "Le gardien de but",
+          "Le défenseur central",
+          "Le milieu défensif",
+          "L'arrière latéral"
+        ],
         "explication": "Le gardien de but est le seul joueur autorisé à toucher le ballon avec les mains, dans sa surface."
+      },
+      {
+        "question": "Quel pays a remporté l'Euro de football 2016, organisé en France ?",
+        "reponse": "Le Portugal",
+        "propositions": [
+          "Le Portugal",
+          "La France",
+          "L'Allemagne",
+          "L'Italie"
+        ],
+        "explication": "Le Portugal a battu la France en finale au Stade de France, après prolongation."
+      },
+      {
+        "question": "Quel joueur français a inscrit un triplé en finale de la Coupe du monde 2022 contre l'Argentine ?",
+        "reponse": "Kylian Mbappé",
+        "propositions": [
+          "Kylian Mbappé",
+          "Olivier Giroud",
+          "Antoine Griezmann",
+          "Ousmane Dembélé"
+        ],
+        "explication": "Malgré ce triplé, la France s'est inclinée aux tirs au but."
+      },
+      {
+        "question": "Quel club anglais a remporté la première édition de la Ligue des champions sous ce nom, en 1993 ?",
+        "reponse": "L'Olympique de Marseille",
+        "propositions": [
+          "L'Olympique de Marseille",
+          "L'AC Milan",
+          "Manchester United",
+          "Le Real Madrid"
+        ],
+        "explication": "L'OM reste, à ce jour, le seul club français vainqueur de la Ligue des champions."
+      },
+      {
+        "question": "Quel entraîneur portugais a remporté la Ligue des champions avec deux clubs différents, le FC Porto (2004) et l'Inter Milan (2010) ?",
+        "reponse": "José Mourinho",
+        "propositions": [
+          "José Mourinho",
+          "Carlo Ancelotti",
+          "Pep Guardiola",
+          "Zinédine Zidane"
+        ],
+        "explication": "Mourinho reste l'un des rares entraîneurs à avoir soulevé le trophée avec deux clubs distincts."
+      },
+      {
+        "question": "Quel gardien de but italien est considéré comme l'un des plus grands de l'histoire, avec une longue carrière à la Juventus ?",
+        "reponse": "Gianluigi Buffon",
+        "propositions": [
+          "Gianluigi Buffon",
+          "Dino Zoff",
+          "Iker Casillas",
+          "Manuel Neuer"
+        ],
+        "explication": "Buffon a également remporté la Coupe du monde 2006 avec l'Italie."
+      },
+      {
+        "question": "Quelle compétition sud-américaine des sélections nationales est l'équivalent continental de l'Euro ?",
+        "reponse": "La Copa América",
+        "propositions": [
+          "La Copa América",
+          "La Copa Libertadores",
+          "La Coupe des confédérations",
+          "La Copa Sudamericana"
+        ],
+        "explication": "La Copa América, créée en 1916, est la plus ancienne compétition internationale de sélections encore disputée."
+      },
+      {
+        "question": "Quel joueur brésilien, surnommé 'le Phénomène', a été triple lauréat du Ballon d'or ou du titre de meilleur joueur FIFA dans les années 1990-2000 ?",
+        "reponse": "Ronaldo (Ronaldo Nazário)",
+        "propositions": [
+          "Ronaldo (Ronaldo Nazário)",
+          "Ronaldinho",
+          "Rivaldo",
+          "Romário"
+        ],
+        "explication": "Ronaldo Nazário a remporté deux Coupes du monde avec le Brésil, en 1994 et 2002."
+      },
+      {
+        "question": "Quel club espagnol partage avec le FC Barcelone la plus grande rivalité du championnat, appelée 'El Clásico' ?",
+        "reponse": "Le Real Madrid",
+        "propositions": [
+          "Le Real Madrid",
+          "L'Atlético de Madrid",
+          "Le Séville FC",
+          "Le Valence CF"
+        ],
+        "explication": "El Clásico est l'un des matchs les plus suivis au monde."
+      },
+      {
+        "question": "Quel pays africain a atteint les demi-finales de la Coupe du monde 2022, une première pour le continent ?",
+        "reponse": "Le Maroc",
+        "propositions": [
+          "Le Maroc",
+          "Le Sénégal",
+          "Le Ghana",
+          "La Tunisie"
+        ],
+        "explication": "Le Maroc s'est incliné en demi-finale face à la France avant de terminer quatrième."
+      },
+      {
+        "question": "Quel joueur détient le record de buts marqués en une seule édition de Coupe du monde masculine (13 buts en 1958) ?",
+        "reponse": "Just Fontaine",
+        "propositions": [
+          "Just Fontaine",
+          "Pelé",
+          "Gerd Müller",
+          "Miroslav Klose"
+        ],
+        "explication": "Ce record français de 1958, lors de la Coupe du monde en Suède, n'a jamais été battu."
       }
     ],
     "3": [
       {
         "question": "Quel joueur a remporté le plus de Ballons d'or à ce jour ?",
         "reponse": "Lionel Messi",
-        "propositions": ["Lionel Messi", "Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
+        "propositions": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Michel Platini",
+          "Johan Cruyff"
+        ],
         "explication": "Lionel Messi détient le record avec huit Ballons d'or remportés."
       },
       {
         "question": "Quelle règle permet d'annuler un but si l'attaquant est plus proche de la ligne de but adverse que l'avant-dernier défenseur au moment de la passe ?",
         "reponse": "Le hors-jeu",
-        "propositions": ["Le hors-jeu", "La main volontaire", "Le tacle par derrière", "Le jeu dangereux"],
+        "propositions": [
+          "Le hors-jeu",
+          "La main volontaire",
+          "Le tacle par derrière",
+          "Le jeu dangereux"
+        ],
         "explication": "La règle du hors-jeu vise à éviter que des attaquants restent en permanence près du but adverse."
       },
       {
         "question": "Quel entraîneur a mené l'équipe de France au titre de champion du monde 1998 ?",
         "reponse": "Aimé Jacquet",
-        "propositions": ["Aimé Jacquet", "Roger Lemerre", "Didier Deschamps", "Michel Hidalgo"],
+        "propositions": [
+          "Aimé Jacquet",
+          "Roger Lemerre",
+          "Didier Deschamps",
+          "Michel Hidalgo"
+        ],
         "explication": "Aimé Jacquet dirige les Bleus vers leur premier titre mondial en 1998."
       },
       {
         "question": "Quel club anglais a remporté un \"treble\" (championnat, coupe nationale, Ligue des champions) en 1999 ?",
         "reponse": "Manchester United",
-        "propositions": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
+        "propositions": [
+          "Manchester United",
+          "Liverpool",
+          "Chelsea",
+          "Arsenal"
+        ],
         "explication": "Manchester United réalise le triplé historique en 1999 sous Alex Ferguson."
       },
       {
         "question": "Quel joueur détient le record du plus grand nombre de sélections en équipe de France ?",
         "reponse": "Hugo Lloris",
-        "propositions": ["Hugo Lloris", "Lilian Thuram", "Thierry Henry", "Olivier Giroud"],
+        "propositions": [
+          "Hugo Lloris",
+          "Lilian Thuram",
+          "Thierry Henry",
+          "Olivier Giroud"
+        ],
         "explication": "Le gardien Hugo Lloris détient le record de sélections avec l'équipe de France."
+      },
+      {
+        "question": "Quel entraîneur néerlandais a théorisé le 'football total' avec l'Ajax Amsterdam et les Pays-Bas dans les années 1970 ?",
+        "reponse": "Rinus Michels",
+        "propositions": [
+          "Rinus Michels",
+          "Johan Cruyff",
+          "Louis van Gaal",
+          "Guus Hiddink"
+        ],
+        "explication": "Le football total repose sur l'interchangeabilité des postes entre joueurs."
+      },
+      {
+        "question": "Quel joueur néerlandais, star de l'Ajax puis du FC Barcelone, a donné son nom à un célèbre contrôle-retourné ?",
+        "reponse": "Johan Cruyff",
+        "propositions": [
+          "Johan Cruyff",
+          "Marco van Basten",
+          "Dennis Bergkamp",
+          "Ruud Gullit"
+        ],
+        "explication": "Le 'Cruyff Turn', réalisé lors du Mondial 1974, reste un geste technique emblématique."
+      },
+      {
+        "question": "Quelle règle, instaurée en 1992, interdit au gardien de contrôler le ballon à la main sur une passe volontaire d'un partenaire ?",
+        "reponse": "La règle de la passe en retrait",
+        "propositions": [
+          "La règle de la passe en retrait",
+          "La règle du hors-jeu",
+          "La règle de l'avantage",
+          "La règle des six secondes"
+        ],
+        "explication": "Cette règle a été introduite par l'IFAB pour fluidifier le jeu et limiter les pertes de temps."
+      },
+      {
+        "question": "Quel joueur hongrois des années 1950, capitaine du 'Onze d'or', est resté célèbre pour son but face à l'Angleterre en 1953 ?",
+        "reponse": "Ferenc Puskás",
+        "propositions": [
+          "Ferenc Puskás",
+          "Sándor Kocsis",
+          "Nándor Hidegkuti",
+          "Zoltán Czibor"
+        ],
+        "explication": "La victoire hongroise 6-3 à Wembley a marqué l'histoire du football européen."
+      },
+      {
+        "question": "Quel club italien a inventé la tactique défensive du 'catenaccio' popularisée dans les années 1960 ?",
+        "reponse": "L'Inter Milan",
+        "propositions": [
+          "L'Inter Milan",
+          "L'AC Milan",
+          "La Juventus",
+          "L'AS Roma"
+        ],
+        "explication": "Le catenaccio, sous l'entraîneur Helenio Herrera, reposait sur une défense extrêmement solide."
+      },
+      {
+        "question": "Quel organisme dirige le football mondial et organise la Coupe du monde ?",
+        "reponse": "La FIFA",
+        "propositions": [
+          "La FIFA",
+          "L'UEFA",
+          "Le CIO",
+          "La CAF"
+        ],
+        "explication": "La FIFA, fondée en 1904, regroupe plus de 200 fédérations nationales."
+      },
+      {
+        "question": "Quel footballeur anglais a été le premier joueur transféré pour plus d'un million de livres, en 1979 ?",
+        "reponse": "Trevor Francis",
+        "propositions": [
+          "Trevor Francis",
+          "Kevin Keegan",
+          "Gary Lineker",
+          "Bryan Robson"
+        ],
+        "explication": "Trevor Francis a rejoint Nottingham Forest pour un montant alors inédit."
+      },
+      {
+        "question": "Quel gardien de but soviétique, surnommé 'l'araignée noire', est le seul gardien à avoir remporté le Ballon d'or (1963) ?",
+        "reponse": "Lev Yachine",
+        "propositions": [
+          "Lev Yachine",
+          "Rinat Dassaïev",
+          "Vladimir Beara",
+          "Anzor Kavazashvili"
+        ],
+        "explication": "Yachine reste, à ce jour, le seul gardien de but sacré Ballon d'or."
+      },
+      {
+        "question": "Quelle compétition de clubs, créée en 1955, était réservée aux vainqueurs des coupes nationales européennes jusqu'à sa disparition en 1999 ?",
+        "reponse": "La Coupe des vainqueurs de coupe",
+        "propositions": [
+          "La Coupe des vainqueurs de coupe",
+          "La Coupe UEFA",
+          "La Coupe latine",
+          "La Coupe des villes de foires"
+        ],
+        "explication": "Cette compétition a été supprimée en 1999 au profit d'une Coupe UEFA élargie."
+      },
+      {
+        "question": "Quel sélectionneur a mené le Brésil à son cinquième titre mondial en 2002 ?",
+        "reponse": "Luiz Felipe Scolari",
+        "propositions": [
+          "Luiz Felipe Scolari",
+          "Carlos Alberto Parreira",
+          "Mário Zagallo",
+          "Tite"
+        ],
+        "explication": "Le Brésil, mené par le trio Ronaldo-Rivaldo-Ronaldinho, a battu l'Allemagne en finale."
       }
     ]
   }

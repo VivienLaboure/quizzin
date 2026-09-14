@@ -5,96 +5,501 @@
       {
         "question": "Quelle est la capitale de la France ?",
         "reponse": "Paris",
-        "propositions": ["Paris", "Lyon", "Marseille", "Toulouse"],
+        "propositions": [
+          "Paris",
+          "Lyon",
+          "Marseille",
+          "Toulouse"
+        ],
         "explication": "Paris est la capitale de la France depuis le Moyen Âge et son centre politique, économique et culturel."
       },
       {
         "question": "Quel est le plus long fleuve de France ?",
         "reponse": "La Loire",
-        "propositions": ["La Loire", "La Seine", "Le Rhône", "La Garonne"],
+        "propositions": [
+          "La Loire",
+          "La Seine",
+          "Le Rhône",
+          "La Garonne"
+        ],
         "explication": "La Loire s'étend sur environ 1 012 km, ce qui en fait le plus long fleuve entièrement français."
       },
       {
         "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
         "reponse": "Les Pyrénées",
-        "propositions": ["Les Pyrénées", "Les Alpes", "Le Massif central", "Le Jura"],
+        "propositions": [
+          "Les Pyrénées",
+          "Les Alpes",
+          "Le Massif central",
+          "Le Jura"
+        ],
         "explication": "Les Pyrénées forment une frontière naturelle entre la France et l'Espagne, sur environ 430 km."
       },
       {
         "question": "Quelle mer borde la Côte d'Azur ?",
         "reponse": "La mer Méditerranée",
-        "propositions": ["La mer Méditerranée", "L'océan Atlantique", "La Manche", "La mer du Nord"],
+        "propositions": [
+          "La mer Méditerranée",
+          "L'océan Atlantique",
+          "La Manche",
+          "La mer du Nord"
+        ],
         "explication": "La Côte d'Azur, au sud-est de la France, longe la mer Méditerranée."
       },
       {
         "question": "Quel est le plus haut sommet de France (et d'Europe occidentale) ?",
         "reponse": "Le mont Blanc",
-        "propositions": ["Le mont Blanc", "Le Puy de Dôme", "Le mont Ventoux", "Le Vignemale"],
+        "propositions": [
+          "Le mont Blanc",
+          "Le Puy de Dôme",
+          "Le mont Ventoux",
+          "Le Vignemale"
+        ],
         "explication": "Le mont Blanc culmine à 4 805 mètres, dans les Alpes, à la frontière franco-italienne."
+      },
+      {
+        "question": "Quel est le deuxième plus long fleuve de France après la Loire ?",
+        "reponse": "Le Rhône",
+        "propositions": [
+          "Le Rhône",
+          "La Seine",
+          "La Garonne",
+          "Le Rhin"
+        ],
+        "explication": "Le Rhône mesure environ 812 km, dont une partie en Suisse."
+      },
+      {
+        "question": "Quelle mer borde la façade nord-ouest de la France, entre la Bretagne et l'Angleterre ?",
+        "reponse": "La Manche",
+        "propositions": [
+          "La Manche",
+          "La mer du Nord",
+          "L'océan Atlantique",
+          "La mer Méditerranée"
+        ],
+        "explication": "La Manche est traversée par le tunnel sous la Manche reliant la France au Royaume-Uni."
+      },
+      {
+        "question": "Quelle grande île française se situe au large de la côte méditerranéenne ?",
+        "reponse": "La Corse",
+        "propositions": [
+          "La Corse",
+          "L'île de Ré",
+          "L'île d'Oléron",
+          "Belle-Île"
+        ],
+        "explication": "La Corse est une collectivité territoriale à statut particulier."
+      },
+      {
+        "question": "Dans quelle région se trouve la ville de Bordeaux ?",
+        "reponse": "La Nouvelle-Aquitaine",
+        "propositions": [
+          "La Nouvelle-Aquitaine",
+          "L'Occitanie",
+          "Les Pays de la Loire",
+          "La Bretagne"
+        ],
+        "explication": "Bordeaux est la préfecture de la région Nouvelle-Aquitaine."
+      },
+      {
+        "question": "Quel fleuve traverse la ville de Paris ?",
+        "reponse": "La Seine",
+        "propositions": [
+          "La Seine",
+          "La Loire",
+          "La Marne",
+          "L'Oise"
+        ],
+        "explication": "La Seine se jette dans la Manche au niveau du Havre."
+      },
+      {
+        "question": "Quelle chaîne de montagnes se situe à la frontière entre la France et l'Italie ?",
+        "reponse": "Les Alpes",
+        "propositions": [
+          "Les Alpes",
+          "Les Pyrénées",
+          "Le Jura",
+          "Les Vosges"
+        ],
+        "explication": "Les Alpes abritent le mont Blanc, point culminant de France."
+      },
+      {
+        "question": "Quelle ville est la préfecture de la région Bretagne ?",
+        "reponse": "Rennes",
+        "propositions": [
+          "Rennes",
+          "Nantes",
+          "Brest",
+          "Quimper"
+        ],
+        "explication": "Rennes est la plus grande ville de Bretagne administrative."
+      },
+      {
+        "question": "Quel océan borde la façade ouest de la France ?",
+        "reponse": "L'océan Atlantique",
+        "propositions": [
+          "L'océan Atlantique",
+          "La mer Méditerranée",
+          "La mer du Nord",
+          "L'océan Pacifique"
+        ],
+        "explication": "La côte atlantique française s'étend de la Bretagne au Pays basque."
+      },
+      {
+        "question": "Quelle est la plus grande ville de France après Paris en nombre d'habitants intra-muros ?",
+        "reponse": "Marseille",
+        "propositions": [
+          "Marseille",
+          "Lyon",
+          "Toulouse",
+          "Nice"
+        ],
+        "explication": "Marseille est la préfecture des Bouches-du-Rhône et de la région Provence-Alpes-Côte d'Azur."
+      },
+      {
+        "question": "Quelle région française est célèbre pour sa production de champagne ?",
+        "reponse": "Le Grand Est (Champagne)",
+        "propositions": [
+          "Le Grand Est (Champagne)",
+          "La Bourgogne",
+          "L'Alsace",
+          "Les Hauts-de-France"
+        ],
+        "explication": "La région historique de Champagne se trouve aujourd'hui dans la région administrative du Grand Est."
       }
     ],
     "2": [
       {
         "question": "Combien de régions administratives compte la France métropolitaine depuis la réforme de 2016 ?",
         "reponse": "13",
-        "propositions": ["13", "22", "18", "27"],
+        "propositions": [
+          "13",
+          "22",
+          "18",
+          "27"
+        ],
         "explication": "La réforme territoriale de 2016 a fait passer la métropole de 22 à 13 régions par fusion."
       },
       {
         "question": "Quel département français porte le numéro 75 ?",
         "reponse": "Paris",
-        "propositions": ["Paris", "Hauts-de-Seine", "Seine-Saint-Denis", "Val-de-Marne"],
+        "propositions": [
+          "Paris",
+          "Hauts-de-Seine",
+          "Seine-Saint-Denis",
+          "Val-de-Marne"
+        ],
         "explication": "Paris est à la fois une commune, un département et une région, numéroté 75."
       },
       {
         "question": "Quelle ville est surnommée \"la capitale des Gaules\" ?",
         "reponse": "Lyon",
-        "propositions": ["Lyon", "Marseille", "Bordeaux", "Strasbourg"],
+        "propositions": [
+          "Lyon",
+          "Marseille",
+          "Bordeaux",
+          "Strasbourg"
+        ],
         "explication": "Lyon, fondée sous le nom de Lugdunum, était la capitale des Trois Gaules à l'époque romaine."
       },
       {
         "question": "Quel massif montagneux occupe le centre de la France ?",
         "reponse": "Le Massif central",
-        "propositions": ["Le Massif central", "Le Massif armoricain", "Les Vosges", "Le Jura"],
+        "propositions": [
+          "Le Massif central",
+          "Le Massif armoricain",
+          "Les Vosges",
+          "Le Jura"
+        ],
         "explication": "Le Massif central couvre environ un sixième du territoire français, au cœur du pays."
       },
       {
         "question": "Quel est le point culminant du Massif central ?",
         "reponse": "Le Puy de Sancy",
-        "propositions": ["Le Puy de Sancy", "Le Puy de Dôme", "Le mont Mézenc", "Le mont Aigoual"],
+        "propositions": [
+          "Le Puy de Sancy",
+          "Le Puy de Dôme",
+          "Le mont Mézenc",
+          "Le mont Aigoual"
+        ],
         "explication": "Le Puy de Sancy culmine à 1 886 mètres, dans le massif des monts Dore."
+      },
+      {
+        "question": "Quel est le plus grand lac naturel de France métropolitaine ?",
+        "reponse": "Le lac du Bourget",
+        "propositions": [
+          "Le lac du Bourget",
+          "Le lac d'Annecy",
+          "Le lac Léman (partie française)",
+          "Le lac de Serre-Ponçon"
+        ],
+        "explication": "Le lac du Bourget, en Savoie, s'étend sur environ 44 km²."
+      },
+      {
+        "question": "Quel pont français, achevé en 2004, est le plus haut pont routier du monde lors de sa construction ?",
+        "reponse": "Le viaduc de Millau",
+        "propositions": [
+          "Le viaduc de Millau",
+          "Le pont de Normandie",
+          "Le pont de l'Île de Ré",
+          "Le viaduc de Garabit"
+        ],
+        "explication": "Le viaduc de Millau, dans l'Aveyron, culmine à 343 mètres au-dessus du Tarn."
+      },
+      {
+        "question": "Quelle région française borde à la fois l'Allemagne, la Belgique, le Luxembourg et la Suisse ?",
+        "reponse": "Le Grand Est",
+        "propositions": [
+          "Le Grand Est",
+          "Les Hauts-de-France",
+          "La Bourgogne-Franche-Comté",
+          "L'Île-de-France"
+        ],
+        "explication": "Le Grand Est, créé en 2016, résulte de la fusion de l'Alsace, la Champagne-Ardenne et la Lorraine."
+      },
+      {
+        "question": "Quel est le nom du plus grand parc naturel régional de France métropolitaine ?",
+        "reponse": "Le parc naturel régional des Landes de Gascogne",
+        "propositions": [
+          "Le parc naturel régional des Landes de Gascogne",
+          "Le parc du Vercors",
+          "Le parc des Volcans d'Auvergne",
+          "Le parc du Luberon"
+        ],
+        "explication": "La forêt des Landes est la plus grande forêt cultivée d'Europe occidentale."
+      },
+      {
+        "question": "Quel est le département français le plus peuplé, dans la région Hauts-de-France ?",
+        "reponse": "Le Nord",
+        "propositions": [
+          "Le Nord",
+          "Paris",
+          "Les Bouches-du-Rhône",
+          "Le Pas-de-Calais"
+        ],
+        "explication": "Le département du Nord compte plus de 2,6 millions d'habitants, devant Paris."
+      },
+      {
+        "question": "Quelle presqu'île française, dans le Finistère, est réputée pour ses falaises et ses phares ?",
+        "reponse": "La pointe du Raz",
+        "propositions": [
+          "La pointe du Raz",
+          "Le cap Fréhel",
+          "La pointe du Grouin",
+          "La presqu'île de Crozon"
+        ],
+        "explication": "La pointe du Raz est l'un des sites naturels les plus emblématiques de Bretagne."
+      },
+      {
+        "question": "Quel massif montagneux sépare la vallée du Rhône du Massif central ?",
+        "reponse": "Les Cévennes",
+        "propositions": [
+          "Les Cévennes",
+          "Le Vercors",
+          "Le Jura",
+          "Les Vosges"
+        ],
+        "explication": "Les Cévennes constituent la bordure sud-est du Massif central."
+      },
+      {
+        "question": "Quelle ville française est surnommée 'la Venise du Nord' pour ses canaux ?",
+        "reponse": "Amiens",
+        "propositions": [
+          "Amiens",
+          "Colmar",
+          "Annecy",
+          "Bruges (Belgique)"
+        ],
+        "explication": "Amiens est réputée pour son quartier des Hortillonnages, traversé par de nombreux canaux."
+      },
+      {
+        "question": "Quel est le point culminant des Pyrénées françaises ?",
+        "reponse": "Le pic Vignemale",
+        "propositions": [
+          "Le pic Vignemale",
+          "Le pic du Midi d'Ossau",
+          "Le pic d'Aneto (Espagne)",
+          "Le pic de Néouvielle"
+        ],
+        "explication": "Le Vignemale culmine à 3 298 mètres, sur le versant français des Pyrénées."
+      },
+      {
+        "question": "Quel fleuve français se jette dans l'océan Atlantique au niveau de Bordeaux, via l'estuaire de la Gironde ?",
+        "reponse": "La Garonne",
+        "propositions": [
+          "La Garonne",
+          "La Dordogne",
+          "Le Lot",
+          "L'Adour"
+        ],
+        "explication": "La Garonne et la Dordogne se rejoignent pour former l'estuaire de la Gironde."
       }
     ],
     "3": [
       {
         "question": "Quel est le plus grand département français en superficie (hors DOM-TOM) ?",
         "reponse": "La Gironde",
-        "propositions": ["La Gironde", "Les Landes", "La Dordogne", "Le Var"],
+        "propositions": [
+          "La Gironde",
+          "Les Landes",
+          "La Dordogne",
+          "Le Var"
+        ],
         "explication": "La Gironde s'étend sur environ 10 000 km², le plus vaste département métropolitain."
       },
       {
         "question": "Quelle région française partage une frontière avec quatre pays différents ?",
         "reponse": "Le Grand Est",
-        "propositions": ["Le Grand Est", "Auvergne-Rhône-Alpes", "Provence-Alpes-Côte d'Azur", "Bourgogne-Franche-Comté"],
+        "propositions": [
+          "Le Grand Est",
+          "Auvergne-Rhône-Alpes",
+          "Provence-Alpes-Côte d'Azur",
+          "Bourgogne-Franche-Comté"
+        ],
         "explication": "Le Grand Est borde la Belgique, le Luxembourg, l'Allemagne et la Suisse."
       },
       {
         "question": "Quel fleuve français se jette dans la Méditerranée après avoir traversé Lyon et Avignon ?",
         "reponse": "Le Rhône",
-        "propositions": ["Le Rhône", "La Loire", "La Garonne", "La Seine"],
+        "propositions": [
+          "Le Rhône",
+          "La Loire",
+          "La Garonne",
+          "La Seine"
+        ],
         "explication": "Le Rhône prend sa source en Suisse et rejoint la Méditerranée par un delta en Camargue."
       },
       {
         "question": "Quelle île française est surnommée \"l'île de Beauté\" ?",
         "reponse": "La Corse",
-        "propositions": ["La Corse", "Belle-Île", "L'île de Ré", "L'île d'Oléron"],
+        "propositions": [
+          "La Corse",
+          "Belle-Île",
+          "L'île de Ré",
+          "L'île d'Oléron"
+        ],
         "explication": "La Corse, en Méditerranée, doit ce surnom à ses reliefs et paysages contrastés."
       },
       {
         "question": "Quel est le point culminant du massif des Vosges ?",
         "reponse": "Le Grand Ballon",
-        "propositions": ["Le Grand Ballon", "Le Ballon d'Alsace", "Le Hohneck", "Le Donon"],
+        "propositions": [
+          "Le Grand Ballon",
+          "Le Ballon d'Alsace",
+          "Le Hohneck",
+          "Le Donon"
+        ],
         "explication": "Le Grand Ballon culmine à 1 424 mètres, dans le Haut-Rhin."
+      },
+      {
+        "question": "Quel est le point culminant du massif du Jura, à la frontière franco-suisse ?",
+        "reponse": "Le Crêt de la Neige",
+        "propositions": [
+          "Le Crêt de la Neige",
+          "Le mont Tendre",
+          "La Dôle",
+          "Le Reculet"
+        ],
+        "explication": "Le Crêt de la Neige culmine à 1 720 mètres d'altitude."
+      },
+      {
+        "question": "Quel département français d'outre-mer, situé dans l'océan Indien, est devenu département en 2011 ?",
+        "reponse": "Mayotte",
+        "propositions": [
+          "Mayotte",
+          "La Réunion",
+          "Les Comores",
+          "Les Terres australes"
+        ],
+        "explication": "Mayotte est le département français le plus récent, après un référendum en 2009."
+      },
+      {
+        "question": "Quel massif constitue le principal 'château d'eau' de France, alimentant des fleuves coulant vers l'Atlantique comme vers la Méditerranée ?",
+        "reponse": "Le Massif central",
+        "propositions": [
+          "Le Massif central",
+          "Les Vosges",
+          "Le Jura",
+          "Les Pyrénées"
+        ],
+        "explication": "La Loire, l'Allier et la Dordogne notamment y prennent leur source."
+      },
+      {
+        "question": "Quel canal français, achevé en 1681, relie l'Atlantique à la Méditerranée en traversant l'Occitanie ?",
+        "reponse": "Le canal du Midi",
+        "propositions": [
+          "Le canal du Midi",
+          "Le canal de Bourgogne",
+          "Le canal du Rhône au Rhin",
+          "Le canal de la Marne au Rhin"
+        ],
+        "explication": "Le canal du Midi, œuvre de Pierre-Paul Riquet, est classé au patrimoine mondial de l'UNESCO."
+      },
+      {
+        "question": "Près de quelle ville suisse se trouve le point triple où se rejoignent les frontières de la France, de l'Allemagne et de la Suisse ?",
+        "reponse": "Bâle",
+        "propositions": [
+          "Bâle",
+          "Genève",
+          "Zurich",
+          "Berne"
+        ],
+        "explication": "Ce point tripoint, sur le Rhin, a donné son nom à l'aéroport binational de Bâle-Mulhouse."
+      },
+      {
+        "question": "Quel ensemble de plateaux calcaires du sud du Massif central est célèbre pour ses gorges creusées par le Tarn ?",
+        "reponse": "Les Causses",
+        "propositions": [
+          "Les Causses",
+          "Le plateau de Millevaches",
+          "Le plateau du Larzac",
+          "Le plateau ardéchois"
+        ],
+        "explication": "Les Gorges du Tarn traversent les Grands Causses, classés au patrimoine mondial de l'UNESCO."
+      },
+      {
+        "question": "Quelle trouée géographique, entre les Vosges et le Jura, a historiquement facilité les invasions et migrations entre le Rhin et le bassin parisien ?",
+        "reponse": "La trouée de Belfort",
+        "propositions": [
+          "La trouée de Belfort",
+          "Le seuil du Poitou",
+          "Le seuil de Naurouze",
+          "La trouée de Carcassonne"
+        ],
+        "explication": "La trouée de Belfort relie la plaine d'Alsace à la vallée du Doubs."
+      },
+      {
+        "question": "Quel est le plus grand estuaire d'Europe occidentale, situé entre la Gironde et l'océan Atlantique ?",
+        "reponse": "L'estuaire de la Gironde",
+        "propositions": [
+          "L'estuaire de la Gironde",
+          "L'estuaire de la Loire",
+          "L'estuaire de la Seine",
+          "La rade de Brest"
+        ],
+        "explication": "L'estuaire de la Gironde s'étend sur environ 75 km de long."
+      },
+      {
+        "question": "Quel massif volcanique éteint d'Auvergne, classé à l'UNESCO en 2018, comprend le puy de Dôme ?",
+        "reponse": "La chaîne des Puys",
+        "propositions": [
+          "La chaîne des Puys",
+          "Le Cantal",
+          "Le Mézenc",
+          "Les monts Dore"
+        ],
+        "explication": "La chaîne des Puys compte une centaine de volcans, tous éteints depuis plusieurs millénaires."
+      },
+      {
+        "question": "Quelle région historique française, aujourd'hui partagée entre plusieurs départements, doit son nom à un ancien duché rattaché au royaume en 1766 ?",
+        "reponse": "La Lorraine",
+        "propositions": [
+          "La Lorraine",
+          "La Bourgogne",
+          "La Bretagne",
+          "La Savoie"
+        ],
+        "explication": "Le duché de Lorraine a été rattaché à la France au décès de son dernier duc, Stanislas Leszczyński."
       }
     ]
   }

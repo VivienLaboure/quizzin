@@ -117,12 +117,16 @@ async function seed() {
   for (const { file, theme, questions } of batches) {
     // doc.get()/doc.set() plutôt que doc[theme] = ... : sur un schéma
     // strict:false, l'assignation directe d'une clé top-level qui n'existe
-    // pas encore sur le document ne persiste pas au save(), même avec
-    // markModified() — Mongoose ne l'enregistre tout simplement pas comme un
-    // chemin du document. doc.set() est la façon fiable d'ajouter un tout
-    // nouveau thème (constaté en pratique : les thèmes déjà existants se
-    // mettaient à jour correctement, mais un thème inédit disparaissait
-    // silencieusement après doc.save()).
+    // pas encore sur le document ne persiste pas au save(). MAIS doc.set()
+    // seul ne suffit pas non plus, contrairement à ce qu'affirmait ce
+    // commentaire avant correction : sans l'appel explicite à
+    // doc.markModified(theme) ci-dessous, doc.modifiedPaths() reste VIDE
+    // même pour un thème déjà existant (vérifié : deux exécutions
+    // successives du script réaffichaient "+10 ajoutée(s)" pour tous les
+    // thèmes sans qu'aucune des deux ne persiste quoi que ce soit en base —
+    // save() renvoyait un succès, mais n'envoyait en réalité aucune
+    // modification à MongoDB). markModified() force Mongoose à inclure ce
+    // chemin dans la mise à jour envoyée par save().
     const themeData = doc.get(theme) || {};
 
     for (const difficulty of Object.keys(questions)) {
@@ -144,6 +148,7 @@ async function seed() {
     }
 
     doc.set(theme, themeData);
+    doc.markModified(theme);
   }
 
   await doc.save();

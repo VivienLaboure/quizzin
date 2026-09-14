@@ -5,96 +5,501 @@
       {
         "question": "Sur quelle île méditerranéenne Napoléon Bonaparte est-il né en 1769 ?",
         "reponse": "La Corse",
-        "propositions": ["La Corse", "La Sardaigne", "La Sicile", "Malte"],
+        "propositions": [
+          "La Corse",
+          "La Sardaigne",
+          "La Sicile",
+          "Malte"
+        ],
         "explication": "Napoléon naît à Ajaccio, en Corse, le 15 août 1769."
       },
       {
         "question": "En quelle année Napoléon se fait-il couronner empereur des Français ?",
         "reponse": "1804",
-        "propositions": ["1799", "1802", "1804", "1808"],
+        "propositions": [
+          "1799",
+          "1802",
+          "1804",
+          "1808"
+        ],
         "explication": "Napoléon est sacré empereur à Notre-Dame de Paris le 2 décembre 1804."
       },
       {
         "question": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?",
         "reponse": "La bataille de Waterloo",
-        "propositions": ["La bataille d'Austerlitz", "La bataille de Waterloo", "La bataille de Leipzig", "La bataille de Wagram"],
+        "propositions": [
+          "La bataille d'Austerlitz",
+          "La bataille de Waterloo",
+          "La bataille de Leipzig",
+          "La bataille de Wagram"
+        ],
         "explication": "Napoléon est vaincu à Waterloo le 18 juin 1815 par les troupes britanniques et prussiennes."
       },
       {
         "question": "Sur quelle île Napoléon est-il exilé après sa première abdication en 1814 ?",
         "reponse": "L'île d'Elbe",
-        "propositions": ["L'île d'Elbe", "Sainte-Hélène", "La Corse", "Malte"],
+        "propositions": [
+          "L'île d'Elbe",
+          "Sainte-Hélène",
+          "La Corse",
+          "Malte"
+        ],
         "explication": "Napoléon est exilé sur l'île d'Elbe en 1814, avant de s'en échapper pour reconquérir le pouvoir durant les Cent-Jours."
       },
       {
         "question": "Où Napoléon meurt-il en exil en 1821 ?",
         "reponse": "Sainte-Hélène",
-        "propositions": ["Sainte-Hélène", "L'île d'Elbe", "La Corse", "Malte"],
+        "propositions": [
+          "Sainte-Hélène",
+          "L'île d'Elbe",
+          "La Corse",
+          "Malte"
+        ],
         "explication": "Après Waterloo, Napoléon est exilé sur l'île isolée de Sainte-Hélène, dans l'Atlantique Sud, où il meurt en 1821."
+      },
+      {
+        "question": "Quel est le nom de la première épouse de Napoléon, qu'il épouse en 1796 ?",
+        "reponse": "Joséphine de Beauharnais",
+        "propositions": [
+          "Joséphine de Beauharnais",
+          "Marie-Louise d'Autriche",
+          "Marie Walewska",
+          "Hortense de Beauharnais"
+        ],
+        "explication": "Napoléon divorce de Joséphine en 1809, faute d'héritier, pour épouser Marie-Louise d'Autriche."
+      },
+      {
+        "question": "Quel frère de Napoléon est devenu roi de Hollande ?",
+        "reponse": "Louis Bonaparte",
+        "propositions": [
+          "Louis Bonaparte",
+          "Joseph Bonaparte",
+          "Jérôme Bonaparte",
+          "Lucien Bonaparte"
+        ],
+        "explication": "Louis Bonaparte, père du futur Napoléon III, règne sur la Hollande de 1806 à 1810."
+      },
+      {
+        "question": "Quel grade militaire Napoléon obtient-il rapidement grâce à son succès au siège de Toulon en 1793 ?",
+        "reponse": "Général de brigade",
+        "propositions": [
+          "Général de brigade",
+          "Colonel",
+          "Maréchal",
+          "Général de division"
+        ],
+        "explication": "Ce succès précoce propulse la carrière militaire du jeune officier corse."
+      },
+      {
+        "question": "Quel symbole animalier Napoléon a-t-il choisi comme emblème impérial ?",
+        "reponse": "L'aigle",
+        "propositions": [
+          "L'aigle",
+          "Le lion",
+          "L'abeille",
+          "Le coq"
+        ],
+        "explication": "L'aigle impérial, inspiré de la Rome antique, orne les étendards de la Grande Armée. L'abeille était également un symbole napoléonien fréquent."
+      },
+      {
+        "question": "Dans quelle cathédrale parisienne Napoléon se fait-il couronner empereur en 1804 ?",
+        "reponse": "Notre-Dame de Paris",
+        "propositions": [
+          "Notre-Dame de Paris",
+          "La basilique Saint-Denis",
+          "La Sainte-Chapelle",
+          "Le Panthéon"
+        ],
+        "explication": "Le pape Pie VII assiste au sacre, mais c'est Napoléon lui-même qui se couronne."
+      },
+      {
+        "question": "Quel surnom est donné à l'armée commandée par Napoléon lors de ses grandes campagnes ?",
+        "reponse": "La Grande Armée",
+        "propositions": [
+          "La Grande Armée",
+          "L'Armée du Rhin",
+          "L'Armée d'Italie",
+          "La Vieille Garde (unité, pas l'armée entière)"
+        ],
+        "explication": "La Grande Armée a été créée en 1805 pour la campagne contre l'Autriche et la Russie."
+      },
+      {
+        "question": "Quel est le nom du fils unique de Napoléon et Marie-Louise, surnommé 'l'Aiglon' ?",
+        "reponse": "Napoléon II",
+        "propositions": [
+          "Napoléon II",
+          "Napoléon III",
+          "Charles Bonaparte",
+          "Jérôme Bonaparte II"
+        ],
+        "explication": "Napoléon II n'a jamais réellement régné et meurt en 1832 à seulement 21 ans."
+      },
+      {
+        "question": "Quelle île Napoléon a-t-il gouvernée en exil de 1814 à 1815, avant son retour surprise en France ?",
+        "reponse": "L'île d'Elbe",
+        "propositions": [
+          "L'île d'Elbe",
+          "Sainte-Hélène",
+          "La Corse",
+          "La Sardaigne"
+        ],
+        "explication": "Napoléon s'évade de l'île d'Elbe en février 1815 pour reconquérir brièvement le pouvoir."
+      },
+      {
+        "question": "Quel corps d'élite, fidèle entre tous, escortait Napoléon lors de ses campagnes ?",
+        "reponse": "La Garde impériale",
+        "propositions": [
+          "La Garde impériale",
+          "Les mousquetaires",
+          "La Gendarmerie",
+          "Les grognards (surnom informel de la Garde)"
+        ],
+        "explication": "La Garde impériale, surnommée familièrement les 'grognards', était réputée pour sa loyauté et son expérience."
+      },
+      {
+        "question": "Quel titre Napoléon porte-t-il de 1799 à 1804, avant de se proclamer empereur ?",
+        "reponse": "Premier Consul",
+        "propositions": [
+          "Premier Consul",
+          "Directeur",
+          "Général en chef",
+          "Consul à vie (titre ultérieur)"
+        ],
+        "explication": "Il devient ensuite 'Consul à vie' en 1802, avant l'Empire en 1804."
       }
     ],
     "2": [
       {
         "question": "Quelle bataille de 1805, considérée comme le chef-d'œuvre militaire de Napoléon, voit la défaite des armées russe et autrichienne ?",
         "reponse": "La bataille d'Austerlitz",
-        "propositions": ["La bataille d'Austerlitz", "La bataille d'Iéna", "La bataille de Friedland", "La bataille de Wagram"],
+        "propositions": [
+          "La bataille d'Austerlitz",
+          "La bataille d'Iéna",
+          "La bataille de Friedland",
+          "La bataille de Wagram"
+        ],
         "explication": "Surnommée la \"bataille des Trois Empereurs\", Austerlitz est remportée le 2 décembre 1805."
       },
       {
         "question": "Quel code juridique, promulgué en 1804, réforme en profondeur le droit civil français sous Napoléon ?",
         "reponse": "Le Code civil (Code Napoléon)",
-        "propositions": ["Le Code civil (Code Napoléon)", "Le Code pénal", "La Constitution de l'an VIII", "Le Concordat"],
+        "propositions": [
+          "Le Code civil (Code Napoléon)",
+          "Le Code pénal",
+          "La Constitution de l'an VIII",
+          "Le Concordat"
+        ],
         "explication": "Le Code civil unifie le droit français et influence de nombreuses législations européennes."
       },
       {
         "question": "Quelle campagne militaire désastreuse de 1812 marque le début du déclin de Napoléon ?",
         "reponse": "La campagne de Russie",
-        "propositions": ["La campagne d'Égypte", "La campagne de Russie", "La campagne d'Espagne", "La campagne d'Italie"],
+        "propositions": [
+          "La campagne d'Égypte",
+          "La campagne de Russie",
+          "La campagne d'Espagne",
+          "La campagne d'Italie"
+        ],
         "explication": "L'invasion de la Russie se solde par une retraite catastrophique et la perte de la majeure partie de la Grande Armée."
       },
       {
         "question": "Quel accord signé en 1801 avec le pape Pie VII réconcilie l'État français et l'Église catholique ?",
         "reponse": "Le Concordat de 1801",
-        "propositions": ["Le Concordat de 1801", "L'édit de Fontainebleau", "Le traité de Tolentino", "La Constitution civile du clergé"],
+        "propositions": [
+          "Le Concordat de 1801",
+          "L'édit de Fontainebleau",
+          "Le traité de Tolentino",
+          "La Constitution civile du clergé"
+        ],
         "explication": "Le Concordat rétablit le catholicisme comme religion majoritaire tout en maintenant la liberté de culte."
       },
       {
         "question": "Quel nom porte la période de 1815 entre le retour de Napoléon de l'île d'Elbe et sa défaite à Waterloo ?",
         "reponse": "Les Cent-Jours",
-        "propositions": ["Les Cent-Jours", "Le Consulat", "Le Directoire", "La Restauration"],
+        "propositions": [
+          "Les Cent-Jours",
+          "Le Consulat",
+          "Le Directoire",
+          "La Restauration"
+        ],
         "explication": "Les Cent-Jours désignent la brève reprise du pouvoir par Napoléon entre mars et juillet 1815."
+      },
+      {
+        "question": "Quel maréchal d'Empire, surnommé 'le Brave des braves', a commandé l'arrière-garde lors de la retraite de Russie ?",
+        "reponse": "Michel Ney",
+        "propositions": [
+          "Michel Ney",
+          "Joachim Murat",
+          "Louis-Nicolas Davout",
+          "Jean Lannes"
+        ],
+        "explication": "Ney a été fusillé en 1815 après la seconde Restauration, accusé de trahison envers Louis XVIII."
+      },
+      {
+        "question": "Quel maréchal d'Empire, beau-frère de Napoléon, est devenu roi de Naples ?",
+        "reponse": "Joachim Murat",
+        "propositions": [
+          "Joachim Murat",
+          "Michel Ney",
+          "Jean-Baptiste Bernadotte",
+          "Louis-Nicolas Davout"
+        ],
+        "explication": "Murat a épousé Caroline Bonaparte, sœur de Napoléon."
+      },
+      {
+        "question": "Quel code juridique de 1807, distinct du Code civil, réforme les règles du commerce sous Napoléon ?",
+        "reponse": "Le Code de commerce",
+        "propositions": [
+          "Le Code de commerce",
+          "Le Code pénal",
+          "Le Code forestier",
+          "Le Code rural"
+        ],
+        "explication": "Ce code encadre notamment les sociétés commerciales et les faillites."
+      },
+      {
+        "question": "Quelle institution financière, encore en activité aujourd'hui, a été fondée par Napoléon en 1800 ?",
+        "reponse": "La Banque de France",
+        "propositions": [
+          "La Banque de France",
+          "La Caisse d'Épargne",
+          "Le Crédit Lyonnais",
+          "La Société Générale"
+        ],
+        "explication": "La Banque de France a reçu le monopole d'émission des billets à Paris en 1803."
+      },
+      {
+        "question": "Quelle distinction honorifique, encore décernée aujourd'hui, a été créée par Napoléon en 1802 ?",
+        "reponse": "La Légion d'honneur",
+        "propositions": [
+          "La Légion d'honneur",
+          "L'ordre du Mérite",
+          "La médaille militaire",
+          "L'ordre de la Libération"
+        ],
+        "explication": "La Légion d'honneur récompense les mérites civils et militaires éminents."
+      },
+      {
+        "question": "Quelle bataille de 1809, l'une des plus dures de Napoléon, se solde par une victoire française coûteuse contre l'Autriche ?",
+        "reponse": "La bataille de Wagram",
+        "propositions": [
+          "La bataille de Wagram",
+          "La bataille d'Eylau",
+          "La bataille de Friedland",
+          "La bataille d'Essling"
+        ],
+        "explication": "Cette bataille, près de Vienne, force l'Autriche à demander la paix."
+      },
+      {
+        "question": "Quel type d'établissement d'enseignement secondaire, encore utilisé en France aujourd'hui, a été créé par Napoléon en 1802 ?",
+        "reponse": "Le lycée",
+        "propositions": [
+          "Le lycée",
+          "Le collège",
+          "L'université impériale (l'institution globale)",
+          "L'école normale"
+        ],
+        "explication": "Les lycées napoléoniens visaient à former les futurs cadres de l'administration et de l'armée."
+      },
+      {
+        "question": "Quelle institution administrative locale, encore en place aujourd'hui, a été créée par Napoléon pour représenter l'État dans chaque département ?",
+        "reponse": "Le préfet",
+        "propositions": [
+          "Le préfet",
+          "Le maire",
+          "Le gouverneur",
+          "L'intendant (Ancien Régime)"
+        ],
+        "explication": "Le poste de préfet a été créé par la loi du 28 pluviôse an VIII (1800)."
+      },
+      {
+        "question": "Quelle bataille navale de 1805 voit la flotte franco-espagnole détruite par la marine britannique de Nelson ?",
+        "reponse": "La bataille de Trafalgar",
+        "propositions": [
+          "La bataille de Trafalgar",
+          "La bataille du Nil",
+          "La bataille de Copenhague",
+          "La bataille des Quatre-Jours"
+        ],
+        "explication": "Cette défaite met fin aux ambitions navales de Napoléon contre le Royaume-Uni."
+      },
+      {
+        "question": "Quel congrès de 1814-1815 a réorganisé l'Europe après la première chute de Napoléon ?",
+        "reponse": "Le congrès de Vienne",
+        "propositions": [
+          "Le congrès de Vienne",
+          "Le congrès d'Aix-la-Chapelle",
+          "Le congrès de Châtillon",
+          "Le traité de Fontainebleau (accord, pas congrès)"
+        ],
+        "explication": "Ce congrès, mené par Metternich, redessine durablement les frontières européennes."
       }
     ],
     "3": [
       {
         "question": "Quel blocus économique, décrété par Napoléon en 1806, visait à isoler économiquement le Royaume-Uni ?",
         "reponse": "Le blocus continental",
-        "propositions": ["Le blocus continental", "Le traité de Tilsit", "La paix d'Amiens", "Le blocus de Toulon"],
+        "propositions": [
+          "Le blocus continental",
+          "Le traité de Tilsit",
+          "La paix d'Amiens",
+          "Le blocus de Toulon"
+        ],
         "explication": "Le blocus continental interdisait aux pays européens sous influence française de commercer avec le Royaume-Uni."
       },
       {
         "question": "Quel frère de Napoléon a été placé sur le trône d'Espagne en 1808, provoquant un soulèvement populaire ?",
         "reponse": "Joseph Bonaparte",
-        "propositions": ["Joseph Bonaparte", "Louis Bonaparte", "Jérôme Bonaparte", "Lucien Bonaparte"],
+        "propositions": [
+          "Joseph Bonaparte",
+          "Louis Bonaparte",
+          "Jérôme Bonaparte",
+          "Lucien Bonaparte"
+        ],
         "explication": "L'installation de Joseph Bonaparte sur le trône espagnol déclenche la guerre d'indépendance espagnole."
       },
       {
         "question": "Quelle expédition militaire de 1798-1801, menée par Napoléon, a permis la découverte de la pierre de Rosette ?",
         "reponse": "La campagne d'Égypte",
-        "propositions": ["La campagne d'Égypte", "La campagne d'Italie", "La campagne de Syrie", "La campagne des Indes"],
+        "propositions": [
+          "La campagne d'Égypte",
+          "La campagne d'Italie",
+          "La campagne de Syrie",
+          "La campagne des Indes"
+        ],
         "explication": "Cette expédition scientifique et militaire a notamment permis de déchiffrer les hiéroglyphes grâce à la pierre de Rosette."
       },
       {
         "question": "Quel traité de 1807, signé avec la Russie, consacre l'apogée de la puissance napoléonienne en Europe ?",
         "reponse": "Le traité de Tilsit",
-        "propositions": ["Le traité de Tilsit", "Le traité de Presbourg", "Le traité de Lunéville", "Le traité d'Amiens"],
+        "propositions": [
+          "Le traité de Tilsit",
+          "Le traité de Presbourg",
+          "Le traité de Lunéville",
+          "Le traité d'Amiens"
+        ],
         "explication": "Le traité de Tilsit scelle une alliance temporaire entre Napoléon et le tsar Alexandre Ier."
       },
       {
         "question": "Quel titre Napoléon prend-il immédiatement après le coup d'État du 18 Brumaire en 1799 ?",
         "reponse": "Premier Consul",
-        "propositions": ["Premier Consul", "Consul à vie", "Directeur", "Empereur"],
+        "propositions": [
+          "Premier Consul",
+          "Consul à vie",
+          "Directeur",
+          "Empereur"
+        ],
         "explication": "Napoléon devient l'un des trois consuls, puis rapidement le seul détenteur réel du pouvoir exécutif, avant d'être proclamé Consul à vie en 1802 puis empereur en 1804."
+      },
+      {
+        "question": "Quel général autrichien Napoléon bat-il à la bataille de Marengo en 1800, consolidant son pouvoir de Premier Consul ?",
+        "reponse": "Michael von Melas",
+        "propositions": [
+          "Michael von Melas",
+          "Karl Mack von Leiberich",
+          "L'archiduc Charles",
+          "Karl von Schwarzenberg"
+        ],
+        "explication": "La victoire de Marengo a été obtenue de justesse, grâce à l'arrivée in extremis du général Desaix."
+      },
+      {
+        "question": "Quel physicien et chimiste français a accompagné Napoléon lors de la campagne d'Égypte et présidé plus tard l'Institut d'Égypte ?",
+        "reponse": "Gaspard Monge",
+        "propositions": [
+          "Gaspard Monge",
+          "Claude Louis Berthollet",
+          "Dominique Vivant Denon",
+          "Jean-Baptiste Fourier"
+        ],
+        "explication": "L'expédition d'Égypte comprenait près de 150 savants et scientifiques, fondant l'égyptologie moderne."
+      },
+      {
+        "question": "Quel diplomate français, ministre des Relations extérieures, a négocié pour Napoléon puis contribué à sa chute au congrès de Vienne ?",
+        "reponse": "Talleyrand",
+        "propositions": [
+          "Talleyrand",
+          "Fouché",
+          "Caulaincourt",
+          "Metternich (autrichien)"
+        ],
+        "explication": "Talleyrand a su se maintenir influent sous plusieurs régimes successifs grâce à son habileté diplomatique."
+      },
+      {
+        "question": "Quel ministre de la Police de Napoléon, ancien conventionnel régicide, est resté célèbre pour son efficacité et sa duplicité ?",
+        "reponse": "Joseph Fouché",
+        "propositions": [
+          "Joseph Fouché",
+          "Talleyrand",
+          "Savary",
+          "Réal"
+        ],
+        "explication": "Fouché a servi successivement la Révolution, le Directoire, l'Empire et la Restauration."
+      },
+      {
+        "question": "Quelle bataille de 1807, en Prusse-Orientale, voit un affrontement particulièrement meurtrier dans la neige entre Français et Russo-Prussiens ?",
+        "reponse": "La bataille d'Eylau",
+        "propositions": [
+          "La bataille d'Eylau",
+          "La bataille de Friedland",
+          "La bataille d'Iéna",
+          "La bataille d'Auerstaedt"
+        ],
+        "explication": "Cette bataille indécise, très meurtrière, a marqué les esprits par son bilan humain."
+      },
+      {
+        "question": "Quel maréchal d'Empire, réputé pour sa rigueur, a remporté seul la bataille d'Auerstaedt en 1806 contre des forces prussiennes supérieures ?",
+        "reponse": "Louis-Nicolas Davout",
+        "propositions": [
+          "Louis-Nicolas Davout",
+          "Michel Ney",
+          "Jean Lannes",
+          "Nicolas Soult"
+        ],
+        "explication": "Davout, surnommé 'le duc d'Auerstaedt', est considéré comme l'un des meilleurs tacticiens de l'Empire."
+      },
+      {
+        "question": "Quel savant français a déchiffré les hiéroglyphes égyptiens en 1822 grâce à la pierre de Rosette découverte lors de la campagne d'Égypte ?",
+        "reponse": "Jean-François Champollion",
+        "propositions": [
+          "Jean-François Champollion",
+          "Vivant Denon",
+          "Gaspard Monge",
+          "Thomas Young"
+        ],
+        "explication": "La pierre de Rosette, trouvée en 1799, comporte un même texte en trois écritures différentes."
+      },
+      {
+        "question": "Quelle bataille de 1814, l'une des dernières victoires de Napoléon lors de la campagne de France, s'est déroulée contre les Prussiens de Blücher ?",
+        "reponse": "La bataille de Montmirail",
+        "propositions": [
+          "La bataille de Montmirail",
+          "La bataille de Champaubert",
+          "La bataille de Laon",
+          "La bataille de Craonne"
+        ],
+        "explication": "La campagne de France de 1814 est souvent citée comme un chef-d'œuvre tactique malgré la défaite finale."
+      },
+      {
+        "question": "Quel amiral britannique, mort au combat, a vaincu la flotte franco-espagnole à Trafalgar en 1805 ?",
+        "reponse": "Horatio Nelson",
+        "propositions": [
+          "Horatio Nelson",
+          "Arthur Wellesley (duc de Wellington)",
+          "Cuthbert Collingwood",
+          "John Jervis"
+        ],
+        "explication": "Nelson meurt sur son navire, le HMS Victory, en plein combat, mais sa flotte remporte une victoire décisive."
+      },
+      {
+        "question": "Quel général britannique a vaincu Napoléon à Waterloo en 1815, aux côtés des forces prussiennes de Blücher ?",
+        "reponse": "Le duc de Wellington",
+        "propositions": [
+          "Le duc de Wellington",
+          "Horatio Nelson",
+          "William Beresford",
+          "Henry Paget"
+        ],
+        "explication": "Wellington avait déjà combattu les troupes françaises en Espagne lors de la guerre d'indépendance espagnole."
       }
     ]
   }

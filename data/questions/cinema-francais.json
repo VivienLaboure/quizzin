@@ -5,96 +5,501 @@
       {
         "question": "Quel réalisateur français est connu pour \"Le Fabuleux Destin d'Amélie Poulain\" ?",
         "reponse": "Jean-Pierre Jeunet",
-        "propositions": ["Jean-Pierre Jeunet", "Luc Besson", "Jean-Luc Godard", "François Truffaut"],
+        "propositions": [
+          "Jean-Pierre Jeunet",
+          "Luc Besson",
+          "Jean-Luc Godard",
+          "François Truffaut"
+        ],
         "explication": "Jean-Pierre Jeunet réalise ce film en 2001, immense succès populaire en France et à l'étranger."
       },
       {
         "question": "Quel acteur français a joué dans \"Intouchables\" (2011) aux côtés d'Omar Sy ?",
         "reponse": "François Cluzet",
-        "propositions": ["François Cluzet", "Gérard Depardieu", "Jean Dujardin", "Vincent Cassel"],
+        "propositions": [
+          "François Cluzet",
+          "Gérard Depardieu",
+          "Jean Dujardin",
+          "Vincent Cassel"
+        ],
         "explication": "François Cluzet incarne Philippe, le tétraplégique aidé par Driss (Omar Sy)."
       },
       {
         "question": "Quelle récompense française du cinéma est remise chaque année depuis 1976 ?",
         "reponse": "Le César",
-        "propositions": ["Le César", "L'Oscar", "La Palme d'or", "Le Molière"],
+        "propositions": [
+          "Le César",
+          "L'Oscar",
+          "La Palme d'or",
+          "Le Molière"
+        ],
         "explication": "Les César récompensent chaque année les meilleurs films et artistes du cinéma français."
       },
       {
         "question": "Dans quelle ville se déroule le célèbre Festival de Cannes ?",
         "reponse": "Cannes",
-        "propositions": ["Cannes", "Nice", "Deauville", "Biarritz"],
+        "propositions": [
+          "Cannes",
+          "Nice",
+          "Deauville",
+          "Biarritz"
+        ],
         "explication": "Le Festival de Cannes se tient chaque année sur la Côte d'Azur, à Cannes."
       },
       {
         "question": "Quel acteur a incarné le personnage de OSS 117 au cinéma ?",
         "reponse": "Jean Dujardin",
-        "propositions": ["Jean Dujardin", "Omar Sy", "Dany Boon", "Gad Elmaleh"],
+        "propositions": [
+          "Jean Dujardin",
+          "Omar Sy",
+          "Dany Boon",
+          "Gad Elmaleh"
+        ],
         "explication": "Jean Dujardin campe l'espion maladroit OSS 117 dans les films de Michel Hazanavicius."
+      },
+      {
+        "question": "Quel acteur français incarne le personnage de Astérix dans plusieurs films ?",
+        "reponse": "Gérard Depardieu",
+        "propositions": [
+          "Gérard Depardieu",
+          "Christian Clavier",
+          "Jean Reno",
+          "Clovis Cornillac"
+        ],
+        "explication": "Gérard Depardieu a incarné Obélix ; Christian Clavier, Astérix, dans les premiers films de la saga."
+      },
+      {
+        "question": "Quel réalisateur français est connu pour la comédie 'Bienvenue chez les Ch'tis' (2008) ?",
+        "reponse": "Dany Boon",
+        "propositions": [
+          "Dany Boon",
+          "Francis Veber",
+          "Alain Chabat",
+          "Michel Hazanavicius"
+        ],
+        "explication": "Dany Boon y tient également l'un des rôles principaux aux côtés de Kad Merad."
+      },
+      {
+        "question": "Quel acteur français est connu pour ses rôles dans 'Léon' et 'Taxi' ?",
+        "reponse": "Jean Reno",
+        "propositions": [
+          "Jean Reno",
+          "Vincent Cassel",
+          "Daniel Auteuil",
+          "Gérard Depardieu"
+        ],
+        "explication": "Jean Reno a également joué dans plusieurs films américains comme 'Mission : Impossible'."
+      },
+      {
+        "question": "Quel film français d'animation raconte l'histoire d'un rat qui rêve de devenir grand chef cuisinier à Paris ?",
+        "reponse": "Ratatouille",
+        "propositions": [
+          "Ratatouille",
+          "Kirikou et la Sorcière",
+          "Azur et Asmar",
+          "Persepolis"
+        ],
+        "explication": "'Ratatouille' (2007), bien que produit par Pixar, se déroule entièrement à Paris."
+      },
+      {
+        "question": "Quelle actrice française a incarné Amélie Poulain dans le film éponyme de 2001 ?",
+        "reponse": "Audrey Tautou",
+        "propositions": [
+          "Audrey Tautou",
+          "Marion Cotillard",
+          "Sophie Marceau",
+          "Juliette Binoche"
+        ],
+        "explication": "Le film, réalisé par Jean-Pierre Jeunet, se déroule dans le quartier de Montmartre à Paris."
+      },
+      {
+        "question": "Quel acteur français incarne l'inspecteur dans la série de films 'Le Gendarme de Saint-Tropez' ?",
+        "reponse": "Louis de Funès",
+        "propositions": [
+          "Louis de Funès",
+          "Bourvil",
+          "Fernandel",
+          "Michel Galabru"
+        ],
+        "explication": "Louis de Funès y incarne le maréchal des logis-chef Ludovic Cruchot."
+      },
+      {
+        "question": "Quel film français de Luc Besson, sorti en 1997, se déroule dans un futur où le personnage principal est une taxi-driveuse orange géante ?",
+        "reponse": "Le Cinquième Élément",
+        "propositions": [
+          "Le Cinquième Élément",
+          "Nikita",
+          "Léon",
+          "Lucy"
+        ],
+        "explication": "Le film met en vedette Bruce Willis et Milla Jovovich."
+      },
+      {
+        "question": "Quel acteur français a incarné le rôle principal du film 'Intouchables' (2011), aux côtés de François Cluzet ?",
+        "reponse": "Omar Sy",
+        "propositions": [
+          "Omar Sy",
+          "Jamel Debbouze",
+          "Gad Elmaleh",
+          "Kad Merad"
+        ],
+        "explication": "'Intouchables' est l'un des plus grands succès du cinéma français au box-office."
+      },
+      {
+        "question": "Quelle actrice française a incarné Édith Piaf dans le film 'La Môme' (2007) ?",
+        "reponse": "Marion Cotillard",
+        "propositions": [
+          "Marion Cotillard",
+          "Audrey Tautou",
+          "Juliette Binoche",
+          "Catherine Deneuve"
+        ],
+        "explication": "Marion Cotillard a reçu l'Oscar de la meilleure actrice pour ce rôle en 2008."
+      },
+      {
+        "question": "Quel humoriste et acteur français a créé le personnage de Brice de Nice ?",
+        "reponse": "Jean Dujardin",
+        "propositions": [
+          "Jean Dujardin",
+          "Franck Dubosc",
+          "Alain Chabat",
+          "Édouard Baer"
+        ],
+        "explication": "'Brice de Nice' (2005) est devenu culte pour ses répliques sur le surf et OSS 117."
       }
     ],
     "2": [
       {
         "question": "Quel film muet français, sorti en 2011, a remporté l'Oscar du meilleur film en 2012 ?",
         "reponse": "The Artist",
-        "propositions": ["The Artist", "Amour", "La Vie d'Adèle", "Intouchables"],
+        "propositions": [
+          "The Artist",
+          "Amour",
+          "La Vie d'Adèle",
+          "Intouchables"
+        ],
         "explication": "Réalisé par Michel Hazanavicius, The Artist devient le premier film majoritairement muet à remporter l'Oscar du meilleur film depuis 1929."
       },
       {
         "question": "Quel réalisateur est à l'origine de la saga \"Léon\", \"Nikita\" et \"Le Cinquième Élément\" ?",
         "reponse": "Luc Besson",
-        "propositions": ["Luc Besson", "Jean-Pierre Jeunet", "Claude Lelouch", "Bertrand Tavernier"],
+        "propositions": [
+          "Luc Besson",
+          "Jean-Pierre Jeunet",
+          "Claude Lelouch",
+          "Bertrand Tavernier"
+        ],
         "explication": "Luc Besson signe ces succès populaires français à dimension internationale."
       },
       {
         "question": "Quel duo d'acteurs forme le tandem principal du film \"La Grande Vadrouille\" (1966) ?",
         "reponse": "Louis de Funès et Bourvil",
-        "propositions": ["Louis de Funès et Bourvil", "Gérard Depardieu et Pierre Richard", "Fernandel et Bourvil", "Coluche et Depardieu"],
+        "propositions": [
+          "Louis de Funès et Bourvil",
+          "Gérard Depardieu et Pierre Richard",
+          "Fernandel et Bourvil",
+          "Coluche et Depardieu"
+        ],
         "explication": "Ce film de Gérard Oury reste l'un des plus grands succès du box-office français."
       },
       {
         "question": "Quel réalisateur franco-tunisien a signé \"La Vie d'Adèle\", Palme d'or 2013 ?",
         "reponse": "Abdellatif Kechiche",
-        "propositions": ["Abdellatif Kechiche", "Jacques Audiard", "Michel Hazanavicius", "Xavier Dolan"],
+        "propositions": [
+          "Abdellatif Kechiche",
+          "Jacques Audiard",
+          "Michel Hazanavicius",
+          "Xavier Dolan"
+        ],
         "explication": "Abdellatif Kechiche remporte la Palme d'or à Cannes en 2013 pour ce film."
       },
       {
         "question": "Quel film d'animation français, sorti en 2003, suit des triplettes excentriques à la recherche de leur neveu cycliste ?",
         "reponse": "Les Triplettes de Belleville",
-        "propositions": ["Les Triplettes de Belleville", "Kirikou et la Sorcière", "Persepolis", "Ernest et Célestine"],
+        "propositions": [
+          "Les Triplettes de Belleville",
+          "Kirikou et la Sorcière",
+          "Persepolis",
+          "Ernest et Célestine"
+        ],
         "explication": "Réalisé par Sylvain Chomet, ce film est nommé aux Oscars du meilleur film d'animation."
+      },
+      {
+        "question": "Quel réalisateur français a mis en scène 'La Haine' (1995), portrait de la banlieue parisienne en noir et blanc ?",
+        "reponse": "Mathieu Kassovitz",
+        "propositions": [
+          "Mathieu Kassovitz",
+          "Jacques Audiard",
+          "Kim Chapiron",
+          "Ladj Ly"
+        ],
+        "explication": "'La Haine' vaut à Mathieu Kassovitz le prix de la mise en scène à Cannes en 1995."
+      },
+      {
+        "question": "Quelle actrice française a joué dans 'Trois Couleurs : Bleu' de Krzysztof Kieślowski ?",
+        "reponse": "Juliette Binoche",
+        "propositions": [
+          "Juliette Binoche",
+          "Isabelle Adjani",
+          "Catherine Deneuve",
+          "Isabelle Huppert"
+        ],
+        "explication": "Juliette Binoche y incarne une femme reconstruisant sa vie après un deuil."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Le Fabuleux Destin d'Amélie Poulain' et 'Alien : la résurrection' ?",
+        "reponse": "Jean-Pierre Jeunet",
+        "propositions": [
+          "Jean-Pierre Jeunet",
+          "Marc Caro",
+          "Luc Besson",
+          "Jean-Jacques Beineix"
+        ],
+        "explication": "Jeunet a coréalisé plusieurs de ses premiers films avec Marc Caro."
+      },
+      {
+        "question": "Quel acteur français a incarné le commissaire Jules Maigret dans plusieurs adaptations ?",
+        "reponse": "Jean Gabin",
+        "propositions": [
+          "Jean Gabin",
+          "Bruno Cremer",
+          "Gérard Depardieu",
+          "Rowan Atkinson"
+        ],
+        "explication": "Jean Gabin a incarné Maigret au cinéma dans les années 1950-60, un rôle repris ensuite par d'autres acteurs."
+      },
+      {
+        "question": "Quel réalisateur français a signé le film 'Amour' (2012), Palme d'or à Cannes, sur la vieillesse d'un couple ?",
+        "reponse": "Michael Haneke",
+        "propositions": [
+          "Michael Haneke",
+          "François Ozon",
+          "Claude Sautet",
+          "Bertrand Tavernier"
+        ],
+        "explication": "Bien que réalisé par l'Autrichien Michael Haneke, 'Amour' est une coproduction française tournée en français."
+      },
+      {
+        "question": "Quel film français de 1966, avec Louis de Funès et Bourvil, se déroule pendant l'Occupation ?",
+        "reponse": "La Grande Vadrouille",
+        "propositions": [
+          "La Grande Vadrouille",
+          "Papy fait de la résistance",
+          "L'Armée des ombres",
+          "Le Vieux Fusil"
+        ],
+        "explication": "Le film fut, pendant des décennies, le plus grand succès du box-office français."
+      },
+      {
+        "question": "Quelle réalisatrice française a signé 'Portrait de la jeune fille en feu' (2019) ?",
+        "reponse": "Céline Sciamma",
+        "propositions": [
+          "Céline Sciamma",
+          "Mia Hansen-Løve",
+          "Justine Triet",
+          "Alice Winocour"
+        ],
+        "explication": "Le film a reçu le prix du scénario au Festival de Cannes 2019."
+      },
+      {
+        "question": "Quel acteur français a incarné Cyrano de Bergerac dans le film de 1990 de Jean-Paul Rappeneau ?",
+        "reponse": "Gérard Depardieu",
+        "propositions": [
+          "Gérard Depardieu",
+          "Jean Reno",
+          "Daniel Auteuil",
+          "Philippe Noiret"
+        ],
+        "explication": "Le film, adapté de la pièce d'Edmond Rostand, a reçu de nombreuses récompenses."
+      },
+      {
+        "question": "Quel réalisateur français est connu pour les films 'La Reine Margot' et 'La Fille sur le pont' ?",
+        "reponse": "Patrice Chéreau",
+        "propositions": [
+          "Patrice Chéreau",
+          "Bertrand Blier",
+          "Claude Chabrol",
+          "André Téchiné"
+        ],
+        "explication": "Patrice Chéreau était également metteur en scène de théâtre et d'opéra reconnu."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'La Discrète' et 'Un cœur en hiver', explorant les sentiments retenus dans la bourgeoisie ?",
+        "reponse": "Claude Sautet",
+        "propositions": [
+          "Claude Sautet",
+          "Éric Rohmer",
+          "Claude Chabrol",
+          "Bertrand Tavernier"
+        ],
+        "explication": "'Un cœur en hiver' (1992) met en vedette Daniel Auteuil et Emmanuelle Béart."
       }
     ],
     "3": [
       {
         "question": "Quel mouvement cinématographique français des années 1950-60, porté par Godard et Truffaut, rompt avec les codes classiques ?",
         "reponse": "La Nouvelle Vague",
-        "propositions": ["La Nouvelle Vague", "Le Cinéma vérité", "Le Réalisme poétique", "La Qualité française"],
+        "propositions": [
+          "La Nouvelle Vague",
+          "Le Cinéma vérité",
+          "Le Réalisme poétique",
+          "La Qualité française"
+        ],
         "explication": "La Nouvelle Vague renouvelle la mise en scène et la narration du cinéma français à la fin des années 1950."
       },
       {
         "question": "Quel film de Marcel Carné (1945), souvent cité parmi les plus grands films français, se déroule dans le monde du théâtre parisien du XIXe siècle ?",
         "reponse": "Les Enfants du paradis",
-        "propositions": ["Les Enfants du paradis", "Le Jour se lève", "Hôtel du Nord", "Quai des brumes"],
+        "propositions": [
+          "Les Enfants du paradis",
+          "Le Jour se lève",
+          "Hôtel du Nord",
+          "Quai des brumes"
+        ],
         "explication": "Tourné pendant l'Occupation, ce film est régulièrement classé parmi les meilleurs films français de tous les temps."
       },
       {
         "question": "Quel réalisateur français a remporté la Palme d'or à Cannes pour \"Dheepan\" en 2015 ?",
         "reponse": "Jacques Audiard",
-        "propositions": ["Jacques Audiard", "Xavier Dolan", "Arnaud Desplechin", "Olivier Assayas"],
+        "propositions": [
+          "Jacques Audiard",
+          "Xavier Dolan",
+          "Arnaud Desplechin",
+          "Olivier Assayas"
+        ],
         "explication": "Jacques Audiard remporte sa première Palme d'or avec ce film sur des réfugiés srilankais à Paris."
       },
       {
         "question": "Quel acteur emblématique du cinéma français est surnommé \"Le Grand Blond\" pour son rôle de 1972 ?",
         "reponse": "Pierre Richard",
-        "propositions": ["Pierre Richard", "Gérard Depardieu", "Jean Rochefort", "Jean-Paul Belmondo"],
+        "propositions": [
+          "Pierre Richard",
+          "Gérard Depardieu",
+          "Jean Rochefort",
+          "Jean-Paul Belmondo"
+        ],
         "explication": "Pierre Richard incarne \"Le Grand Blond avec une chaussure noire\" dans le film d'Yves Robert."
       },
       {
         "question": "Quel réalisateur est le père du \"réalisme poétique\" avec des films comme \"Quai des brumes\" (1938) ?",
         "reponse": "Marcel Carné",
-        "propositions": ["Marcel Carné", "Jean Renoir", "Julien Duvivier", "René Clair"],
+        "propositions": [
+          "Marcel Carné",
+          "Jean Renoir",
+          "Julien Duvivier",
+          "René Clair"
+        ],
         "explication": "Marcel Carné, avec le scénariste Jacques Prévert, incarne ce courant du cinéma français des années 1930."
+      },
+      {
+        "question": "Quel réalisateur français, figure de la Nouvelle Vague, est l'auteur des '400 Coups' (1959) ?",
+        "reponse": "François Truffaut",
+        "propositions": [
+          "François Truffaut",
+          "Jean-Luc Godard",
+          "Claude Chabrol",
+          "Alain Resnais"
+        ],
+        "explication": "'Les 400 Coups' suit le jeune Antoine Doinel, personnage que Truffaut retrouvera dans plusieurs films."
+      },
+      {
+        "question": "Quel réalisateur français est l'auteur de 'Hiroshima mon amour' (1959), sur un scénario de Marguerite Duras ?",
+        "reponse": "Alain Resnais",
+        "propositions": [
+          "Alain Resnais",
+          "Chris Marker",
+          "Agnès Varda",
+          "Jacques Demy"
+        ],
+        "explication": "Le film entrelace la mémoire d'Hiroshima et une histoire d'amour franco-japonaise."
+      },
+      {
+        "question": "Quelle réalisatrice, souvent associée à la Nouvelle Vague, a signé 'Cléo de 5 à 7' (1962) ?",
+        "reponse": "Agnès Varda",
+        "propositions": [
+          "Agnès Varda",
+          "Chantal Akerman",
+          "Marguerite Duras",
+          "Nelly Kaplan"
+        ],
+        "explication": "Agnès Varda est parfois surnommée la 'grand-mère de la Nouvelle Vague'."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Les Parapluies de Cherbourg' (1964), film entièrement chanté ?",
+        "reponse": "Jacques Demy",
+        "propositions": [
+          "Jacques Demy",
+          "Claude Lelouch",
+          "Éric Rohmer",
+          "Louis Malle"
+        ],
+        "explication": "Le film, avec Catherine Deneuve, a remporté la Palme d'or à Cannes en 1964."
+      },
+      {
+        "question": "Quel réalisateur français, connu pour un cinéma minimaliste, a signé 'Un condamné à mort s'est échappé' (1956) ?",
+        "reponse": "Robert Bresson",
+        "propositions": [
+          "Robert Bresson",
+          "Jean-Pierre Melville",
+          "Henri-Georges Clouzot",
+          "Marcel Pagnol"
+        ],
+        "explication": "Bresson privilégiait des acteurs non professionnels, qu'il appelait des 'modèles'."
+      },
+      {
+        "question": "Quel cinéaste français est l'auteur du 'Salaire de la peur' (1953), souvent surnommé le 'Hitchcock français' ?",
+        "reponse": "Henri-Georges Clouzot",
+        "propositions": [
+          "Henri-Georges Clouzot",
+          "Jean-Pierre Melville",
+          "Claude Sautet",
+          "Georges Franju"
+        ],
+        "explication": "'Le Salaire de la peur' suit des chauffeurs transportant de la nitroglycérine sur des routes dangereuses."
+      },
+      {
+        "question": "Quel réalisateur français, spécialiste du film noir et du milieu du grand banditisme, a signé 'Le Samouraï' (1967) ?",
+        "reponse": "Jean-Pierre Melville",
+        "propositions": [
+          "Jean-Pierre Melville",
+          "Henri Verneuil",
+          "José Giovanni",
+          "Claude Sautet"
+        ],
+        "explication": "Alain Delon y incarne un tueur à gages solitaire, dans un style épuré très influent."
+      },
+      {
+        "question": "Quel réalisateur français a signé la trilogie marseillaise 'Marius', 'Fanny' et 'César' dans les années 1930 ?",
+        "reponse": "Marcel Pagnol",
+        "propositions": [
+          "Marcel Pagnol",
+          "Jean Renoir",
+          "Sacha Guitry",
+          "Julien Duvivier"
+        ],
+        "explication": "Pagnol a été le premier cinéaste élu à l'Académie française, en 1946."
+      },
+      {
+        "question": "Quel réalisateur français, fils du peintre Auguste Renoir, a signé 'La Grande Illusion' (1937) ?",
+        "reponse": "Jean Renoir",
+        "propositions": [
+          "Jean Renoir",
+          "Marcel Carné",
+          "Julien Duvivier",
+          "Jean Vigo"
+        ],
+        "explication": "'La Grande Illusion' est souvent cité parmi les plus grands films pacifistes de l'histoire du cinéma."
+      },
+      {
+        "question": "Quel réalisateur franco-polonais a signé 'Le Pianiste' (2002), Palme d'or et Oscar du meilleur réalisateur ?",
+        "reponse": "Roman Polanski",
+        "propositions": [
+          "Roman Polanski",
+          "Andrzej Wajda",
+          "Krzysztof Kieślowski",
+          "Agnieszka Holland"
+        ],
+        "explication": "Le film retrace le parcours d'un pianiste juif polonais pendant l'occupation nazie de Varsovie."
       }
     ]
   }
