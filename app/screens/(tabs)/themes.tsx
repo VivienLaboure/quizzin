@@ -320,6 +320,11 @@ const Themes: React.FC = () => {
 
   const [themesList, setThemesList] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
+  // Thèmes "dépliés" — l'arbre affichait tout d'un coup (racines + tous les
+  // sous-thèmes), ce qui devenait vite illisible. Un sous-thème n'apparaît
+  // désormais qu'une fois son parent déplié (les racines, elles, n'ont pas
+  // de parent : toujours visibles autour du centre).
+  const [expandedThemes, setExpandedThemes] = useState<Set<string>>(new Set());
 
   // Déplacement libre de l'arbre (glissement dans n'importe quelle direction,
   // diagonale comprise) + zoom au pincement à deux doigts. Un ScrollView
@@ -523,6 +528,8 @@ const Themes: React.FC = () => {
   // pouvoir tester le quiz sans passer par tout l'arbre de déblocage.
   const effectiveUnlockedThemes = isMock ? themesList : progress.unlockedThemes;
 
+  const hasChildren = (theme: string) => themesList.some(t => getParent(t) === theme);
+
   const goToQuiz = (theme: string) => {
     router.push({
       pathname: '/screens/quizzPage',
@@ -531,6 +538,14 @@ const Themes: React.FC = () => {
   };
 
   const handleThemePress = (theme: string, isUnlocked: boolean) => {
+    // Premier tap sur un thème qui a des sous-thèmes pas encore révélés :
+    // on les déplie plutôt que de lancer le quiz/la popup de déblocage —
+    // un second tap (une fois déplié) déclenche le comportement normal.
+    if (hasChildren(theme) && !expandedThemes.has(theme)) {
+      setExpandedThemes(prev => new Set(prev).add(theme));
+      return;
+    }
+
     if (isUnlocked) {
       goToQuiz(theme);
       return;
@@ -578,8 +593,15 @@ const Themes: React.FC = () => {
   const rootRadius = desiredHalf - sizeRangeForDepth(1)[1] / 2 - 4;
   const radiusByDepth = [0, rootRadius, rootRadius * 0.62, rootRadius * 0.5];
 
-  const hasCenter = themesList.includes(CENTER_THEME);
-  const rawNodes = buildTreeNodes(themesList, 0, 0, radiusByDepth);
+  // Un sous-thème n'entre dans la géométrie que si son parent est déplié —
+  // buildTreeNodes n'a besoin d'aucune modification pour ça : il ne place
+  // que les nœuds qu'on lui donne, donc filtrer la liste en amont suffit.
+  const visibleThemes = themesList.filter(t => {
+    const parent = getParent(t);
+    return !parent || expandedThemes.has(parent);
+  });
+  const hasCenter = visibleThemes.includes(CENTER_THEME);
+  const rawNodes = buildTreeNodes(visibleThemes, 0, 0, radiusByDepth);
 
   // Le libellé ne s'étend que vers le bas (sous le cercle) — réservé côté +y
   // (LABEL_RESERVE est défini plus haut, partagé avec buildTreeNodes).
@@ -856,6 +878,20 @@ const Themes: React.FC = () => {
                         borderColor: colors.surface,
                       }]} />
                     )}
+                    {hasChildren(node.theme) && !expandedThemes.has(node.theme) && (
+                      // Signale qu'un tap révèle des sous-thèmes cachés —
+                      // sans ça, rien n'indique que ce nœud a plus à offrir
+                      // qu'un thème "feuille".
+                      <View style={[pageStyles.expandBadge, {
+                        width: node.size * 0.32,
+                        height: node.size * 0.32,
+                        borderRadius: node.size * 0.16,
+                        left: -2,
+                        bottom: -2,
+                      }]}>
+                        <Ionicons name="add" size={node.size * 0.22} color={colors.white} />
+                      </View>
+                    )}
                   </TouchableOpacity>
                   <Text
                     numberOfLines={3}
@@ -1010,6 +1046,14 @@ const pageStyles = StyleSheet.create({
     shadowOpacity: 0.04,
     shadowRadius: 2,
     elevation: 1,
+  },
+  expandBadge: {
+    position: 'absolute',
+    backgroundColor: colors.secondary,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1.5,
+    borderColor: colors.surface,
   },
   // Sur le web, un mot long sans espace ("Géographie", "Astronomie"...) ne se
   // coupe pas par défaut et déborde de sa boîte au lieu de passer à la ligne
