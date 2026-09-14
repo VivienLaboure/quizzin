@@ -309,6 +309,37 @@ function buildTreeNodes(themesList: string[], centerX: number, centerY: number, 
   return nodes;
 }
 
+// Anime l'apparition d'un nœud : fondu + léger zoom, en "jaillissant" depuis
+// la position de son parent (dx/dy) vers sa position finale — avant, un
+// sous-thème révélé par un tap apparaissait instantanément, sans aucune
+// transition. Un composant séparé plutôt qu'un simple Animated.View inline :
+// c'est le montage (premier rendu) de CE composant, déclenché une seule fois
+// par thème quand il devient visible pour la première fois (clé stable
+// node.theme), qui sert de signal de départ — les nœuds déjà visibles ne
+// remontent pas et ne rejouent donc pas l'animation.
+function AnimatedThemeNode({ dx, dy, children }: { dx: number; dy: number; children: React.ReactNode }) {
+  const progress = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    Animated.spring(progress, {
+      toValue: 1,
+      friction: 7,
+      tension: 60,
+      useNativeDriver: true,
+    }).start();
+  }, [progress]);
+
+  const scale = progress.interpolate({ inputRange: [0, 1], outputRange: [0.3, 1] });
+  const translateX = progress.interpolate({ inputRange: [0, 1], outputRange: [dx, 0] });
+  const translateY = progress.interpolate({ inputRange: [0, 1], outputRange: [dy, 0] });
+
+  return (
+    <Animated.View style={{ opacity: progress, transform: [{ translateX }, { translateY }, { scale }] }}>
+      {children}
+    </Animated.View>
+  );
+}
+
 const Themes: React.FC = () => {
   const router = useRouter();
   // Progression (thèmes débloqués, jetons, XP par thème) stockée localement
@@ -849,6 +880,7 @@ const Themes: React.FC = () => {
                     alignItems: 'center',
                   }}
                 >
+                  <AnimatedThemeNode dx={node.parentX - node.x} dy={node.parentY - node.y}>
                   <TouchableOpacity
                     onPress={() => handleThemePress(node.theme, isUnlocked)}
                     style={[
@@ -902,6 +934,7 @@ const Themes: React.FC = () => {
                   >
                     {getThemeDisplayName(node.theme)}
                   </Text>
+                  </AnimatedThemeNode>
                 </View>
               );
             })}
