@@ -32,6 +32,10 @@ export default function QuizzPage() {
     // bloquent un second tap pendant la transition.
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [answerStatus, setAnswerStatus] = useState<'correct' | 'incorrect' | null>(null);
+    // Échec réseau lors du chargement de la question suivante (après une
+    // bonne réponse) — la question précédente reste affichée, ce message
+    // explique juste pourquoi rien n'a changé.
+    const [loadError, setLoadError] = useState(false);
 
     // Anime l'apparition de chaque nouvelle question (fondu + léger
     // glissement) — avant, la question suivante remplaçait la précédente
@@ -79,8 +83,15 @@ export default function QuizzPage() {
         ]).start();
     }, [currentQuestion, fadeAnim, slideAnim]);
 
-    // Récupère la prochaine question (API ou mock) en évitant les doublons
-    const fetchNextQuestion = async (seen: Set<string> = seenQuestions) => {
+    // Récupère la prochaine question (API ou mock) en évitant les doublons —
+    // ne touche à AUCUN état d'affichage (ni la question courante, ni
+    // l'animation) : à l'appelant de décider quand l'appliquer. Séparé de
+    // loadQuestion volontairement : avant, la question suivante n'était
+    // demandée qu'APRÈS le début du fondu de sortie, donc tant que la
+    // requête réseau n'avait pas répondu (souvent plusieurs secondes sur
+    // mobile, parfois avec plusieurs essais en cas de doublon), la zone de
+    // question restait invisible — d'où l'écran blanc pendant la partie.
+    const getNextQuestion = async (seen: Set<string> = seenQuestions): Promise<IQuizz | null> => {
         if (Constants.expoConfig?.extra?.MOCK) {
             // Mode mock : on avance dans la file locale (déjà mélangée, pas de doublon)
             const quizzList = mockQueue.length > 0
@@ -91,46 +102,46 @@ export default function QuizzPage() {
 
             const nextIndex = mockQueue.length === 0 ? 0 : mockIndex;
             if (nextIndex < quizzList.length) {
-                loadQuestion(quizzList[nextIndex]);
                 setMockIndex(nextIndex + 1);
+                return quizzList[nextIndex];
             }
-        } else {
-            const MAX_RETRIES = 5;
-            let attempts = 0;
-
-            while (attempts < MAX_RETRIES) {
-                try {
-                    const raw = await getRandomQuizByTheme(safeCategory, safeDifficulty);
-                    const quizz: IQuizz = Array.isArray(raw) ? raw[0] : raw;
-
-                    // Identifiant unique : _id si disponible, sinon le texte de la question
-                    const uid = quizz._id ?? quizz.question;
-
-                    if (!seen.has(uid)) {
-                        // Nouvelle question : on l'enregistre et on l'affiche
-                        const updated = new Set(seen).add(uid);
-                        setSeenQuestions(updated);
-                        loadQuestion(quizz);
-                        return;
-                    }
-
-                    // Doublon détecté : on réessaie
-                    attempts++;
-                    console.log(`Question déjà vue, nouvel essai (${attempts}/${MAX_RETRIES})`);
-                } catch (error) {
-                    console.error("Erreur lors du chargement de la question :", error);
-                    return;
-                }
-            }
-
-            // Après MAX_RETRIES tentatives sans nouvelle question, on affiche quand même la dernière
-            console.warn("Impossible de trouver une nouvelle question après plusieurs essais");
+            return null;
         }
+
+        const MAX_RETRIES = 5;
+        let attempts = 0;
+
+        while (attempts < MAX_RETRIES) {
+            try {
+                const raw = await getRandomQuizByTheme(safeCategory, safeDifficulty);
+                const quizz: IQuizz = Array.isArray(raw) ? raw[0] : raw;
+
+                // Identifiant unique : _id si disponible, sinon le texte de la question
+                const uid = quizz._id ?? quizz.question;
+
+                if (!seen.has(uid)) {
+                    // Nouvelle question : on l'enregistre et on la renvoie
+                    setSeenQuestions(new Set(seen).add(uid));
+                    return quizz;
+                }
+
+                // Doublon détecté : on réessaie
+                attempts++;
+                console.log(`Question déjà vue, nouvel essai (${attempts}/${MAX_RETRIES})`);
+            } catch (error) {
+                console.error("Erreur lors du chargement de la question :", error);
+                return null;
+            }
+        }
+
+        console.warn("Impossible de trouver une nouvelle question après plusieurs essais");
+        return null;
     };
 
-    // Chargement de la première question au montage
+    // Chargement de la première question au montage — rien à faire
+    // disparaître à l'écran, donc pas besoin de passer par le fondu.
     useEffect(() => {
-        fetchNextQuestion();
+        getNextQuestion().then(next => { if (next) loadQuestion(next); });
     }, []);
 
     const goToResults = (finalScore: number) => {
@@ -162,14 +173,27 @@ export default function QuizzPage() {
         setSelectedAnswer(answer);
 
         if (answer === currentQuestion?.reponse) {
-            // Bonne réponse : surligné en vert un court instant avant de
-            // s'effacer et d'enchaîner sur la question suivante — avant,
-            // la question changeait sans aucun accusé de réception.
+            // Bonne réponse : surligné en vert un court instant, PUIS on va
+            // chercher la question suivante — le fondu ne démarre qu'une
+            // fois cette question déjà en main (voir getNextQuestion), pour
+            // ne jamais laisser l'écran vide pendant l'attente réseau.
             setAnswerStatus('correct');
             setScore(prev => prev + 1);
+            setLoadError(false);
             setTimeout(() => {
-                Animated.timing(fadeAnim, { toValue: 0, duration: 180, useNativeDriver: true }).start(() => {
-                    fetchNextQuestion();
+                getNextQuestion().then(next => {
+                    if (!next) {
+                        // Échec réseau : la question actuelle reste affichée
+                        // (avec son surlignage) plutôt que de disparaître sur
+                        // un écran vide — on redonne la main pour réessayer.
+                        setSelectedAnswer(null);
+                        setAnswerStatus(null);
+                        setLoadError(true);
+                        return;
+                    }
+                    Animated.timing(fadeAnim, { toValue: 0, duration: 180, useNativeDriver: true }).start(() => {
+                        loadQuestion(next);
+                    });
                 });
             }, 500);
         } else {
@@ -242,6 +266,14 @@ export default function QuizzPage() {
                     </Card>
                 </View>
             )}
+
+            {loadError && (
+                <TouchableOpacity onPress={() => setLoadError(false)} style={styles.toast}>
+                    <Text style={styles.toastText}>
+                        Impossible de charger la question suivante — retape ta réponse pour réessayer.
+                    </Text>
+                </TouchableOpacity>
+            )}
         </View>
     );
 }
@@ -299,4 +331,15 @@ const styles = StyleSheet.create({
         lineHeight: 20,
         marginBottom: spacing.lg,
     },
+    toast: {
+        position: 'absolute',
+        bottom: spacing.xl,
+        left: spacing.lg,
+        right: spacing.lg,
+        backgroundColor: colors.textPrimary,
+        borderRadius: radius.full,
+        paddingVertical: 10,
+        paddingHorizontal: spacing.md,
+    },
+    toastText: { color: colors.white, fontSize: 13, textAlign: 'center' },
 });

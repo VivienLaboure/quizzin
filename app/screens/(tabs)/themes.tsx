@@ -47,6 +47,42 @@ const THEME_ORDER = [
   'Jeux vidéos',
 ];
 
+// Icône représentative de chaque thème — affichée dans le nœud à la place
+// d'un simple cadenas, en couleur si débloqué ou en gris (voir
+// isUnlocked ? colors.primary : colors.textMuted plus bas) sinon, pour que
+// le thème reste identifiable même verrouillé.
+const THEME_ICON: Record<string, keyof typeof Ionicons.glyphMap> = {
+  'Culture-generale': 'sparkles',
+  // Racines
+  'Histoire': 'time',
+  'Géographie': 'earth',
+  'Sciences': 'flask',
+  'Sport': 'basketball',
+  'Cinéma': 'film',
+  'Musique': 'musical-notes',
+  'Art-et-littérature': 'book',
+  'Technologie': 'hardware-chip',
+  'Astronomie': 'telescope',
+  'Economie': 'trending-up',
+  'Jeux vidéos': 'game-controller',
+  // Sous-thèmes — icône distincte de leur parent pour rester identifiable
+  // dans l'arbre une fois débloqué.
+  'Histoire de France': 'flag',
+  'Napoleon': 'ribbon',
+  'Moyen Âge': 'shield',
+  'Géographie de la France': 'map',
+  'Physique': 'flash',
+  'Football': 'football',
+  'Cinéma français': 'videocam',
+  'Musique classique': 'musical-note',
+  'Littérature française': 'library',
+  'Informatique': 'code-slash',
+  'Système solaire': 'planet',
+  'Economie française': 'cash',
+  'Jeux vidéo rétro': 'tv',
+};
+const DEFAULT_THEME_ICON: keyof typeof Ionicons.glyphMap = 'help-circle-outline';
+
 function sortByGenerality(themes: string[]): string[] {
   return [...themes].sort((a, b) => {
     const ia = THEME_ORDER.indexOf(a);
@@ -799,17 +835,27 @@ const Themes: React.FC = () => {
                       { width: node.size, height: node.size, borderRadius: node.size / 2 },
                     ]}
                   >
-                    {isUnlocked
-                      ? <View style={[pageStyles.dot, {
-                          width: node.size * 0.28,
-                          height: node.size * 0.28,
-                          borderRadius: node.size * 0.14,
-                          backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)],
-                          borderWidth: 1.5,
-                          borderColor: colors.surface,
-                        }]} />
-                      : <Text style={{ fontSize: node.size * 0.32 }}>🔒</Text>
-                    }
+                    <Ionicons
+                      name={THEME_ICON[node.theme] ?? DEFAULT_THEME_ICON}
+                      size={node.size * 0.46}
+                      // Verrouillé : icône en gris ("noir et blanc") plutôt
+                      // qu'un cadenas — le thème reste identifiable même
+                      // avant d'être débloqué.
+                      color={isUnlocked ? colors.primary : colors.textMuted}
+                    />
+                    {isUnlocked && (
+                      <View style={[pageStyles.dot, {
+                        position: 'absolute',
+                        right: -1,
+                        bottom: -1,
+                        width: node.size * 0.28,
+                        height: node.size * 0.28,
+                        borderRadius: node.size * 0.14,
+                        backgroundColor: DIFFICULTY_COLOR[getThemeDifficulty(node.theme)],
+                        borderWidth: 1.5,
+                        borderColor: colors.surface,
+                      }]} />
+                    )}
                   </TouchableOpacity>
                   <Text
                     numberOfLines={3}
