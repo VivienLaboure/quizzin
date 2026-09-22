@@ -351,11 +351,6 @@ const Themes: React.FC = () => {
 
   const [themesList, setThemesList] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
-  // Thèmes "dépliés" — l'arbre affichait tout d'un coup (racines + tous les
-  // sous-thèmes), ce qui devenait vite illisible. Un sous-thème n'apparaît
-  // désormais qu'une fois son parent déplié (les racines, elles, n'ont pas
-  // de parent : toujours visibles autour du centre).
-  const [expandedThemes, setExpandedThemes] = useState<Set<string>>(new Set());
 
   // Déplacement libre de l'arbre (glissement dans n'importe quelle direction,
   // diagonale comprise) + zoom au pincement à deux doigts. Un ScrollView
@@ -559,8 +554,6 @@ const Themes: React.FC = () => {
   // pouvoir tester le quiz sans passer par tout l'arbre de déblocage.
   const effectiveUnlockedThemes = isMock ? themesList : progress.unlockedThemes;
 
-  const hasChildren = (theme: string) => themesList.some(t => getParent(t) === theme);
-
   const goToQuiz = (theme: string) => {
     router.push({
       pathname: '/screens/quizzPage',
@@ -569,14 +562,6 @@ const Themes: React.FC = () => {
   };
 
   const handleThemePress = (theme: string, isUnlocked: boolean) => {
-    // Premier tap sur un thème qui a des sous-thèmes pas encore révélés :
-    // on les déplie plutôt que de lancer le quiz/la popup de déblocage —
-    // un second tap (une fois déplié) déclenche le comportement normal.
-    if (hasChildren(theme) && !expandedThemes.has(theme)) {
-      setExpandedThemes(prev => new Set(prev).add(theme));
-      return;
-    }
-
     if (isUnlocked) {
       goToQuiz(theme);
       return;
@@ -624,15 +609,8 @@ const Themes: React.FC = () => {
   const rootRadius = desiredHalf - sizeRangeForDepth(1)[1] / 2 - 4;
   const radiusByDepth = [0, rootRadius, rootRadius * 0.62, rootRadius * 0.5];
 
-  // Un sous-thème n'entre dans la géométrie que si son parent est déplié —
-  // buildTreeNodes n'a besoin d'aucune modification pour ça : il ne place
-  // que les nœuds qu'on lui donne, donc filtrer la liste en amont suffit.
-  const visibleThemes = themesList.filter(t => {
-    const parent = getParent(t);
-    return !parent || expandedThemes.has(parent);
-  });
-  const hasCenter = visibleThemes.includes(CENTER_THEME);
-  const rawNodes = buildTreeNodes(visibleThemes, 0, 0, radiusByDepth);
+  const hasCenter = themesList.includes(CENTER_THEME);
+  const rawNodes = buildTreeNodes(themesList, 0, 0, radiusByDepth);
 
   // Le libellé ne s'étend que vers le bas (sous le cercle) — réservé côté +y
   // (LABEL_RESERVE est défini plus haut, partagé avec buildTreeNodes).
@@ -868,6 +846,13 @@ const Themes: React.FC = () => {
                 petits nœuds. */}
             {treeNodes.map(node => {
               const isUnlocked = effectiveUnlockedThemes.includes(node.theme);
+              // Les petits-enfants (profondeur 3, ex: Napoleon sous Histoire
+              // de France) restent affichés — tout l'arbre est de nouveau
+              // visible d'un coup, sans dépliage au tap — mais en grisé et
+              // transparent : l'accent visuel reste sur les racines et leurs
+              // enfants directs, les plus proches d'être débloqués.
+              const isGrandchild = node.depth >= 3;
+              const showAsUnlocked = isUnlocked && !isGrandchild;
 
               return (
                 <View
@@ -878,6 +863,7 @@ const Themes: React.FC = () => {
                     top: node.y - node.size / 2,
                     width: node.labelWidth,
                     alignItems: 'center',
+                    opacity: isGrandchild ? 0.4 : 1,
                   }}
                 >
                   <AnimatedThemeNode dx={node.parentX - node.x} dy={node.parentY - node.y}>
@@ -885,19 +871,19 @@ const Themes: React.FC = () => {
                     onPress={() => handleThemePress(node.theme, isUnlocked)}
                     style={[
                       pageStyles.node,
-                      isUnlocked ? pageStyles.nodeUnlocked : pageStyles.nodeLocked,
+                      showAsUnlocked ? pageStyles.nodeUnlocked : pageStyles.nodeLocked,
                       { width: node.size, height: node.size, borderRadius: node.size / 2 },
                     ]}
                   >
                     <Ionicons
                       name={THEME_ICON[node.theme] ?? DEFAULT_THEME_ICON}
                       size={node.size * 0.46}
-                      // Verrouillé : icône en gris ("noir et blanc") plutôt
-                      // qu'un cadenas — le thème reste identifiable même
-                      // avant d'être débloqué.
-                      color={isUnlocked ? colors.primary : colors.textMuted}
+                      // Verrouillé (ou petit-enfant, toujours atténué) :
+                      // icône en gris plutôt qu'un cadenas — le thème reste
+                      // identifiable même avant d'être débloqué.
+                      color={showAsUnlocked ? colors.primary : colors.textMuted}
                     />
-                    {isUnlocked && (
+                    {showAsUnlocked && (
                       <View style={[pageStyles.dot, {
                         position: 'absolute',
                         right: -1,
@@ -910,25 +896,11 @@ const Themes: React.FC = () => {
                         borderColor: colors.surface,
                       }]} />
                     )}
-                    {hasChildren(node.theme) && !expandedThemes.has(node.theme) && (
-                      // Signale qu'un tap révèle des sous-thèmes cachés —
-                      // sans ça, rien n'indique que ce nœud a plus à offrir
-                      // qu'un thème "feuille".
-                      <View style={[pageStyles.expandBadge, {
-                        width: node.size * 0.32,
-                        height: node.size * 0.32,
-                        borderRadius: node.size * 0.16,
-                        left: -2,
-                        bottom: -2,
-                      }]}>
-                        <Ionicons name="add" size={node.size * 0.22} color={colors.white} />
-                      </View>
-                    )}
                   </TouchableOpacity>
                   <Text
                     numberOfLines={3}
                     style={[
-                      isUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked,
+                      showAsUnlocked ? pageStyles.nodeTextUnlocked : pageStyles.nodeTextLocked,
                       { fontSize: fontSizeForDepth(node.depth), marginTop: 4 },
                     ]}
                   >
@@ -1079,14 +1051,6 @@ const pageStyles = StyleSheet.create({
     shadowOpacity: 0.04,
     shadowRadius: 2,
     elevation: 1,
-  },
-  expandBadge: {
-    position: 'absolute',
-    backgroundColor: colors.secondary,
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderWidth: 1.5,
-    borderColor: colors.surface,
   },
   // Sur le web, un mot long sans espace ("Géographie", "Astronomie"...) ne se
   // coupe pas par défaut et déborde de sa boîte au lieu de passer à la ligne
