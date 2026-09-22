@@ -80,6 +80,22 @@ const THEME_ICON: Record<string, keyof typeof Ionicons.glyphMap> = {
   'Système solaire': 'planet',
   'Economie française': 'cash',
   'Jeux vidéo rétro': 'tv',
+  // Deuxièmes enfants
+  'Océans et mers': 'boat',
+  'Chimie': 'flask-outline',
+  'Jeux Olympiques': 'medal',
+  'Cinéma d\'animation': 'color-palette',
+  'Musique électronique': 'pulse',
+  'Peinture': 'brush',
+  'Intelligence artificielle': 'bulb',
+  'Exploration spatiale': 'rocket',
+  'Grandes crises économiques': 'trending-down',
+  'Esport': 'trophy',
+  // Petits-enfants
+  'Jeux Olympiques d\'hiver': 'snow',
+  'Studio Ghibli': 'leaf',
+  'IA générative': 'chatbubbles',
+  'Opéra': 'mic',
 };
 const DEFAULT_THEME_ICON: keyof typeof Ionicons.glyphMap = 'help-circle-outline';
 

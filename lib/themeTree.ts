@@ -22,6 +22,24 @@ export const THEME_PARENT: Record<string, string> = {
   'Système solaire': 'Astronomie',
   'Economie française': 'Economie',
   'Jeux vidéo rétro': 'Jeux vidéos',
+  // Deuxième enfant pour chaque racine qui n'en avait qu'un — étoffe
+  // l'arbre au-delà de la seule spécialisation "française"/historique.
+  'Océans et mers': 'Géographie',
+  'Chimie': 'Sciences',
+  'Jeux Olympiques': 'Sport',
+  'Cinéma d\'animation': 'Cinéma',
+  'Musique électronique': 'Musique',
+  'Peinture': 'Art-et-littérature',
+  'Intelligence artificielle': 'Technologie',
+  'Exploration spatiale': 'Astronomie',
+  'Grandes crises économiques': 'Economie',
+  'Esport': 'Jeux vidéos',
+  // Petits-enfants (profondeur 3) — plusieurs branches, pas seulement
+  // Histoire de France → Napoleon comme avant.
+  'Jeux Olympiques d\'hiver': 'Jeux Olympiques',
+  'Studio Ghibli': 'Cinéma d\'animation',
+  'IA générative': 'Intelligence artificielle',
+  'Opéra': 'Musique classique',
 };
 
 export function getParent(theme: string): string | null {
