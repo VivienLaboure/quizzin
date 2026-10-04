@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
+import { syncAnalytics } from './analytics';
 import { getDifficultyForLevel, getLevel, getTokensForLevel } from './LevelSystem';
 import { getThemeDisplayName } from './getThemeDisplayName';
 import { getParent } from './themeTree';
@@ -92,6 +93,9 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     progressRef.current = next;
     setProgress(next);
     persist(next);
+    // Fire-and-forget : la télémétrie ne doit jamais ralentir ni bloquer une
+    // mutation de progression locale (voir lib/analytics.ts).
+    syncAnalytics(next);
     return next;
   }, []);
 
