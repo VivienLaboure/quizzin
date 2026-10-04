@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
@@ -11,6 +12,8 @@ const quizRoutes = require("./routes/quizRoutes");
 const scoreRoutes = require("./routes/scoreRoutes");
 const authRoutes = require("./routes/authRoutes");
 const friendRoutes = require("./routes/friendRoutes");
+const analyticsRoutes = require("./routes/analyticsRoutes");
+const analyticsController = require("./controllers/analyticsControllers");
 
 const app = express();
 
@@ -94,6 +97,20 @@ app.use("/api/auth", authLimiter, authRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/score", scoreRoutes);
 app.use("/api/friends", friendRoutes);
+app.use("/api/analytics", analyticsRoutes);
+app.get("/api/admin/stats", analyticsController.getAdminStats);
+
+// Tableau de bord de statistiques — page HTML autonome (script/style inline),
+// protégée côté client par ADMIN_SECRET (voir /api/admin/stats ci-dessus).
+// La CSP par défaut de helmet() bloque les scripts inline : on la relâche
+// uniquement pour cette route plutôt que globalement.
+app.get("/admin", (req, res) => {
+  res.setHeader(
+    "Content-Security-Policy",
+    "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'"
+  );
+  res.sendFile(path.join(__dirname, "public", "admin.html"));
+});
 
 // ─── 404 ─────────────────────────────────────────────────────────────────────
 
