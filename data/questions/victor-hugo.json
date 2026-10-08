@@ -1,0 +1,191 @@
+{
+  "theme": "Victor Hugo",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel roman de Victor Hugo met en scène le bagnard Jean Valjean ?",
+        "reponse": "Les Misérables",
+        "propositions": ["Les Misérables", "Notre-Dame de Paris", "Les Travailleurs de la mer", "Quatrevingt-treize"],
+        "explication": "Les Misérables, publié en 1862, raconte le parcours de rédemption de Jean Valjean."
+      },
+      {
+        "question": "Quel roman de Victor Hugo se déroule autour de la cathédrale parisienne et met en scène Quasimodo ?",
+        "reponse": "Notre-Dame de Paris",
+        "propositions": ["Notre-Dame de Paris", "Les Misérables", "L'Homme qui rit", "Han d'Islande"],
+        "explication": "Publié en 1831, Notre-Dame de Paris met en scène le sonneur de cloches Quasimodo et la bohémienne Esmeralda."
+      },
+      {
+        "question": "À quel mouvement littéraire du XIXe siècle Victor Hugo est-il rattaché ?",
+        "reponse": "Le romantisme",
+        "propositions": ["Le romantisme", "Le classicisme", "Le surréalisme", "Le naturalisme"],
+        "explication": "Victor Hugo est l'une des grandes figures du romantisme français."
+      },
+      {
+        "question": "Dans quelle ville française Victor Hugo est-il né en 1802 ?",
+        "reponse": "Besançon",
+        "propositions": ["Besançon", "Paris", "Lyon", "Marseille"],
+        "explication": "Victor Hugo est né le 26 février 1802 à Besançon."
+      },
+      {
+        "question": "Quel personnage de Notre-Dame de Paris est le sonneur de cloches bossu de la cathédrale ?",
+        "reponse": "Quasimodo",
+        "propositions": ["Quasimodo", "Frollo", "Gringoire", "Phœbus"],
+        "explication": "Quasimodo, recueilli par l'archidiacre Claude Frollo, est le sonneur de cloches de Notre-Dame."
+      },
+      {
+        "question": "Dans quel monument parisien Victor Hugo repose-t-il ?",
+        "reponse": "Le Panthéon",
+        "propositions": ["Le Panthéon", "Les Invalides", "Notre-Dame", "Le Père-Lachaise"],
+        "explication": "Victor Hugo a été inhumé au Panthéon en 1885, après des funérailles nationales suivies par des millions de personnes."
+      },
+      {
+        "question": "Quel est le titre du célèbre recueil de poèmes que Victor Hugo consacre à sa fille Léopoldine ?",
+        "reponse": "Les Contemplations",
+        "propositions": ["Les Contemplations", "Les Châtiments", "La Légende des siècles", "Les Orientales"],
+        "explication": "Les Contemplations (1856) est en grande partie un hommage à sa fille Léopoldine, morte noyée en 1843."
+      },
+      {
+        "question": "Victor Hugo a-t-il également été un homme politique français ?",
+        "reponse": "Oui, il fut député puis sénateur",
+        "propositions": ["Oui, il fut député puis sénateur", "Non, il est resté éloigné de la politique", "Oui, il fut ministre de la Culture", "Non, il a toujours refusé tout mandat"],
+        "explication": "Victor Hugo fut élu député puis sénateur, et s'engagea notamment contre la peine de mort et pour la République."
+      },
+      {
+        "question": "Dans quel pays Victor Hugo a-t-il vécu une grande partie de son exil, notamment à Guernesey ?",
+        "reponse": "Les îles anglo-normandes",
+        "propositions": ["Les îles anglo-normandes", "L'Italie", "L'Espagne", "L'Allemagne"],
+        "explication": "Opposé à Napoléon III, Victor Hugo s'exile à Jersey puis à Guernesey, dans les îles anglo-normandes, pendant près de vingt ans."
+      },
+      {
+        "question": "Quel est le métier de Jean Valjean au début des Misérables, qui le mène au bagne ?",
+        "reponse": "Il vole un pain pour nourrir sa famille",
+        "propositions": ["Il vole un pain pour nourrir sa famille", "Il est accusé de meurtre", "Il déserte l'armée", "Il falsifie des documents"],
+        "explication": "Jean Valjean est condamné au bagne pour avoir volé un pain afin de nourrir les enfants de sa sœur."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel inspecteur de police poursuit inlassablement Jean Valjean tout au long des Misérables ?",
+        "reponse": "Javert",
+        "propositions": ["Javert", "Thénardier", "Marius", "Gavroche"],
+        "explication": "L'inspecteur Javert incarne une justice inflexible et traque Jean Valjean pendant des décennies."
+      },
+      {
+        "question": "Quelle préface théâtrale de Victor Hugo, publiée en 1827, est considérée comme un manifeste du romantisme ?",
+        "reponse": "La préface de Cromwell",
+        "propositions": ["La préface de Cromwell", "La préface d'Hernani", "La préface des Misérables", "La préface de Ruy Blas"],
+        "explication": "Dans la préface de son drame Cromwell, Hugo théorise le mélange des genres et le rejet des règles classiques."
+      },
+      {
+        "question": "Quelle bataille théâtrale a opposé romantiques et classiques lors de la première d'Hernani en 1830 ?",
+        "reponse": "La bataille d'Hernani",
+        "propositions": ["La bataille d'Hernani", "La querelle des Anciens et des Modernes", "La bataille de Ruy Blas", "La querelle du Cid"],
+        "explication": "La première d'Hernani, le 25 février 1830, donna lieu à des affrontements célèbres entre partisans du romantisme et tenants du classicisme."
+      },
+      {
+        "question": "Quel enfant des rues, personnage emblématique des Misérables, meurt sur les barricades en chantant ?",
+        "reponse": "Gavroche",
+        "propositions": ["Gavroche", "Cosette", "Éponine", "Marius"],
+        "explication": "Gavroche, gamin de Paris plein de malice, meurt héroïquement lors de l'insurrection de 1832."
+      },
+      {
+        "question": "Quel roman de Victor Hugo, publié en 1874, évoque la guerre de Vendée et la Révolution française ?",
+        "reponse": "Quatrevingt-treize",
+        "propositions": ["Quatrevingt-treize", "L'Homme qui rit", "Les Travailleurs de la mer", "Bug-Jargal"],
+        "explication": "Quatrevingt-treize (1793) est le dernier roman de Victor Hugo, consacré aux soubresauts de la Révolution en Vendée."
+      },
+      {
+        "question": "Dans quel recueil Victor Hugo publie-t-il le poème satirique « Souvenir de la nuit du 4 » contre Napoléon III ?",
+        "reponse": "Les Châtiments",
+        "propositions": ["Les Châtiments", "Les Contemplations", "Les Rayons et les Ombres", "Les Feuilles d'automne"],
+        "explication": "Les Châtiments (1853), écrit en exil, est un recueil violemment satirique contre Napoléon III."
+      },
+      {
+        "question": "Quel personnage des Misérables, aubergiste malhonnête, exploite la petite Cosette ?",
+        "reponse": "Thénardier",
+        "propositions": ["Thénardier", "Javert", "Marius", "Enjolras"],
+        "explication": "Les Thénardier, aubergistes cupides, maltraitent Cosette avant que Jean Valjean ne la recueille."
+      },
+      {
+        "question": "Quel long poème épique de Victor Hugo retrace, à travers les âges, l'histoire symbolique de l'humanité ?",
+        "reponse": "La Légende des siècles",
+        "propositions": ["La Légende des siècles", "Les Orientales", "Les Feuilles d'automne", "Les Voix intérieures"],
+        "explication": "La Légende des siècles (1859-1883) est une vaste fresque poétique retraçant l'évolution de l'humanité."
+      },
+      {
+        "question": "Quel jeune révolutionnaire idéaliste dirige le groupe des Amis de l'ABC dans Les Misérables ?",
+        "reponse": "Enjolras",
+        "propositions": ["Enjolras", "Marius", "Combeferre", "Courfeyrac"],
+        "explication": "Enjolras est le chef charismatique des étudiants révolutionnaires qui meurent sur la barricade de la rue de la Chanvrerie."
+      },
+      {
+        "question": "Quel événement personnel tragique de 1843 a profondément marqué l'œuvre poétique ultérieure de Victor Hugo ?",
+        "reponse": "La noyade de sa fille Léopoldine",
+        "propositions": ["La noyade de sa fille Léopoldine", "La mort de son père", "Son exil forcé", "L'échec d'Hernani"],
+        "explication": "La mort accidentelle de Léopoldine, noyée dans la Seine en 1843, hante une grande partie des Contemplations."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel roman méconnu de jeunesse, publié en 1826, Victor Hugo situe-t-il lors d'une révolte d'esclaves à Saint-Domingue ?",
+        "reponse": "Bug-Jargal",
+        "propositions": ["Bug-Jargal", "Han d'Islande", "Le Dernier Jour d'un condamné", "Claude Gueux"],
+        "explication": "Bug-Jargal, remanié en 1826, se déroule pendant la révolte des esclaves de Saint-Domingue en 1791."
+      },
+      {
+        "question": "Dans quel court roman de 1829, Victor Hugo dénonce-t-il la peine de mort à travers le monologue d'un condamné anonyme ?",
+        "reponse": "Le Dernier Jour d'un condamné",
+        "propositions": ["Le Dernier Jour d'un condamné", "Claude Gueux", "Bug-Jargal", "Han d'Islande"],
+        "explication": "Le Dernier Jour d'un condamné (1829) est un plaidoyer contre la peine de mort sous forme de journal intime fictif."
+      },
+      {
+        "question": "Quel discours célèbre Victor Hugo prononce-t-il en 1849 devant l'Assemblée législative, prônant une union pacifique du continent ?",
+        "reponse": "Le discours sur les États-Unis d'Europe",
+        "propositions": ["Le discours sur les États-Unis d'Europe", "Le discours sur la misère", "Le discours sur l'instruction gratuite", "Le discours sur la liberté de la presse"],
+        "explication": "Dans ce discours de 1849, Hugo évoque l'idée visionnaire d'« États-Unis d'Europe » unis par une paix durable."
+      },
+      {
+        "question": "Quel drame de Victor Hugo, créé en 1838, met en scène un valet amoureux de la reine d'Espagne ?",
+        "reponse": "Ruy Blas",
+        "propositions": ["Ruy Blas", "Hernani", "Marion de Lorme", "Lucrèce Borgia"],
+        "explication": "Ruy Blas (1838) met en scène un valet épris de la reine d'Espagne, sur fond de critique sociale et politique."
+      },
+      {
+        "question": "Dans quel roman de 1866, situé à Guernesey, Victor Hugo décrit-il la lutte d'un marin pêcheur contre une pieuvre géante ?",
+        "reponse": "Les Travailleurs de la mer",
+        "propositions": ["Les Travailleurs de la mer", "L'Homme qui rit", "Quatrevingt-treize", "Bug-Jargal"],
+        "explication": "Les Travailleurs de la mer (1866), écrit en exil à Guernesey, met en scène le combat de Gilliatt contre la mer et une pieuvre."
+      },
+      {
+        "question": "Quel roman de 1869, situé en Angleterre au XVIIe siècle, met en scène Gwynplaine, un homme au visage mutilé en un rictus permanent ?",
+        "reponse": "L'Homme qui rit",
+        "propositions": ["L'Homme qui rit", "Les Travailleurs de la mer", "Quatrevingt-treize", "Han d'Islande"],
+        "explication": "L'Homme qui rit (1869) raconte le destin de Gwynplaine, mutilé enfant par des trafiquants pour en faire un saltimbanque."
+      },
+      {
+        "question": "Quel nom porte le gouvernement français dont Victor Hugo refuse de reconnaître le coup d'État de 1851, le poussant à l'exil ?",
+        "reponse": "Le Second Empire de Napoléon III",
+        "propositions": ["Le Second Empire de Napoléon III", "La Monarchie de Juillet", "La Restauration", "Le gouvernement de Vichy"],
+        "explication": "Opposé au coup d'État du 2 décembre 1851 de Louis-Napoléon Bonaparte, futur Napoléon III, Hugo s'exile pendant près de vingt ans."
+      },
+      {
+        "question": "Quel texte en prose de 1834, inspiré d'un fait divers, préfigure les thèmes sociaux des Misérables ?",
+        "reponse": "Claude Gueux",
+        "propositions": ["Claude Gueux", "Bug-Jargal", "Han d'Islande", "Le Rhin"],
+        "explication": "Claude Gueux (1834), récit inspiré d'un fait réel, dénonce la misère sociale et le système carcéral, annonçant Les Misérables."
+      },
+      {
+        "question": "Dans quelle ville Victor Hugo est-il mort en 1885, donnant lieu à des funérailles nationales grandioses ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Guernesey", "Besançon", "Bruxelles"],
+        "explication": "Victor Hugo meurt à Paris le 22 mai 1885 ; ses funérailles nationales rassemblent près de deux millions de personnes."
+      },
+      {
+        "question": "Quel est le titre du roman inachevé de Victor Hugo évoquant le Rhin et publié de son vivant sous forme de lettres de voyage ?",
+        "reponse": "Le Rhin",
+        "propositions": ["Le Rhin", "Les Pyrénées", "Alpes et Pyrénées", "France et Belgique"],
+        "explication": "Le Rhin (1842) est un récit de voyage de Victor Hugo sous forme de lettres, mêlant description et réflexion historique."
+      }
+    ]
+  }
+}

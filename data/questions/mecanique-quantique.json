@@ -1,0 +1,191 @@
+{
+  "theme": "Mécanique quantique",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel physicien est célèbre pour son « chat » imaginaire, à la fois vivant et mort ?",
+        "reponse": "Erwin Schrödinger",
+        "propositions": ["Erwin Schrödinger", "Albert Einstein", "Niels Bohr", "Werner Heisenberg"],
+        "explication": "Erwin Schrödinger a imaginé cette expérience de pensée en 1935 pour illustrer les paradoxes de la superposition quantique."
+      },
+      {
+        "question": "Comment appelle-t-on la plus petite quantité indivisible d'énergie en physique quantique ?",
+        "reponse": "Un quantum",
+        "propositions": ["Un quantum", "Un photon", "Un électron", "Un atome"],
+        "explication": "Le mot « quantum » désigne une quantité discrète, indivisible, d'une grandeur physique comme l'énergie."
+      },
+      {
+        "question": "Quelle particule élémentaire est associée à la lumière en physique quantique ?",
+        "reponse": "Le photon",
+        "propositions": ["Le photon", "Le neutron", "Le proton", "Le muon"],
+        "explication": "Le photon est le quantum du champ électromagnétique, c'est-à-dire la particule de lumière."
+      },
+      {
+        "question": "Quel principe stipule qu'on ne peut connaître simultanément et avec précision la position et la vitesse d'une particule ?",
+        "reponse": "Le principe d'incertitude",
+        "propositions": ["Le principe d'incertitude", "Le principe de relativité", "Le principe d'inertie", "Le principe d'exclusion"],
+        "explication": "Formulé par Werner Heisenberg en 1927, ce principe est un fondement de la mécanique quantique."
+      },
+      {
+        "question": "Quel physicien a reçu le prix Nobel pour son explication de l'effet photoélectrique ?",
+        "reponse": "Albert Einstein",
+        "propositions": ["Albert Einstein", "Max Planck", "Niels Bohr", "Paul Dirac"],
+        "explication": "Einstein a reçu le prix Nobel de physique 1921 pour son explication quantique de l'effet photoélectrique."
+      },
+      {
+        "question": "Quel terme désigne le fait qu'une particule quantique puisse se trouver dans plusieurs états à la fois ?",
+        "reponse": "La superposition",
+        "propositions": ["La superposition", "La réfraction", "La polarisation", "La diffraction"],
+        "explication": "La superposition quantique permet à une particule d'exister dans une combinaison de plusieurs états avant mesure."
+      },
+      {
+        "question": "Quel physicien allemand est considéré comme le père de la théorie des quanta, introduite en 1900 ?",
+        "reponse": "Max Planck",
+        "propositions": ["Max Planck", "Niels Bohr", "Wolfgang Pauli", "Louis de Broglie"],
+        "explication": "Max Planck a introduit la notion de quantum d'énergie en 1900 pour expliquer le rayonnement du corps noir."
+      },
+      {
+        "question": "Comment appelle-t-on le lien quantique entre deux particules qui réagissent instantanément l'une à l'autre, même à distance ?",
+        "reponse": "L'intrication quantique",
+        "propositions": ["L'intrication quantique", "La fusion nucléaire", "La polarisation", "La dilatation du temps"],
+        "explication": "L'intrication quantique relie l'état de deux particules, quelle que soit la distance qui les sépare."
+      },
+      {
+        "question": "Quel ordinateur, basé sur les principes de la mécanique quantique, utilise des qubits au lieu de bits ?",
+        "reponse": "L'ordinateur quantique",
+        "propositions": ["L'ordinateur quantique", "L'ordinateur analogique", "Le supercalculateur classique", "L'ordinateur optique"],
+        "explication": "L'ordinateur quantique exploite la superposition et l'intrication pour traiter l'information via des qubits."
+      },
+      {
+        "question": "Quelle expérience célèbre, menée avec de la lumière passant par deux fentes, illustre la dualité onde-particule ?",
+        "reponse": "L'expérience des fentes de Young",
+        "propositions": ["L'expérience des fentes de Young", "L'expérience de Michelson-Morley", "L'expérience de Rutherford", "L'expérience de Millikan"],
+        "explication": "L'expérience des fentes de Young, revisitée avec des particules uniques, montre que la lumière se comporte à la fois comme une onde et un corpuscule."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel physicien danois a proposé un modèle de l'atome avec des niveaux d'énergie quantifiés en 1913 ?",
+        "reponse": "Niels Bohr",
+        "propositions": ["Niels Bohr", "Ernest Rutherford", "J.J. Thomson", "Erwin Schrödinger"],
+        "explication": "Niels Bohr a proposé en 1913 un modèle atomique où les électrons occupent des orbites d'énergie quantifiées."
+      },
+      {
+        "question": "Quelle équation fondamentale de la mécanique quantique décrit l'évolution de la fonction d'onde d'une particule ?",
+        "reponse": "L'équation de Schrödinger",
+        "propositions": ["L'équation de Schrödinger", "L'équation de Maxwell", "L'équation de Newton", "L'équation d'Einstein"],
+        "explication": "L'équation de Schrödinger, formulée en 1926, décrit comment la fonction d'onde évolue dans le temps."
+      },
+      {
+        "question": "Quel physicien français a proposé en 1924 que toute matière possède une nature ondulatoire ?",
+        "reponse": "Louis de Broglie",
+        "propositions": ["Louis de Broglie", "Paul Dirac", "Pierre Curie", "Jean Perrin"],
+        "explication": "Louis de Broglie a généralisé la dualité onde-particule à toute la matière dans sa thèse de 1924."
+      },
+      {
+        "question": "Quel principe, énoncé par Wolfgang Pauli, stipule que deux fermions identiques ne peuvent occuper le même état quantique ?",
+        "reponse": "Le principe d'exclusion de Pauli",
+        "propositions": ["Le principe d'exclusion de Pauli", "Le principe de complémentarité", "Le principe de correspondance", "Le principe variationnel"],
+        "explication": "Le principe d'exclusion de Pauli, énoncé en 1925, explique notamment la structure en couches des atomes."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène par lequel la fonction d'onde d'une particule « se réduit » à un état défini lors d'une mesure ?",
+        "reponse": "La réduction du paquet d'onde",
+        "propositions": ["La réduction du paquet d'onde", "La décohérence relativiste", "La dilatation temporelle", "La résonance magnétique"],
+        "explication": "La mesure provoque l'effondrement, ou réduction, de la fonction d'onde vers un seul état observé."
+      },
+      {
+        "question": "Quelle expérience de pensée, proposée par Einstein, Podolsky et Rosen, interroge la complétude de la mécanique quantique ?",
+        "reponse": "Le paradoxe EPR",
+        "propositions": ["Le paradoxe EPR", "Le paradoxe des jumeaux", "Le paradoxe de Fermi", "Le paradoxe de Zénon"],
+        "explication": "Le paradoxe EPR (1935) questionne l'intrication quantique et la notion de réalité locale."
+      },
+      {
+        "question": "Quel physicien irlandais a formulé une inégalité permettant de tester expérimentalement le réalisme local en 1964 ?",
+        "reponse": "John Stewart Bell",
+        "propositions": ["John Stewart Bell", "Richard Feynman", "David Bohm", "Hugh Everett"],
+        "explication": "Les inégalités de Bell ont permis, des décennies plus tard, de confirmer expérimentalement l'intrication quantique."
+      },
+      {
+        "question": "Quel physicien américain a développé l'électrodynamique quantique en utilisant des diagrammes qui portent son nom ?",
+        "reponse": "Richard Feynman",
+        "propositions": ["Richard Feynman", "Murray Gell-Mann", "Steven Weinberg", "Paul Dirac"],
+        "explication": "Richard Feynman a introduit des diagrammes graphiques pour représenter les interactions de particules en électrodynamique quantique."
+      },
+      {
+        "question": "Quel terme désigne la perte de cohérence quantique d'un système au contact de son environnement ?",
+        "reponse": "La décohérence quantique",
+        "propositions": ["La décohérence quantique", "La résonance de spin", "La réfraction critique", "La polarisation de vide"],
+        "explication": "La décohérence explique pourquoi les effets quantiques ne sont généralement pas observés à l'échelle macroscopique."
+      },
+      {
+        "question": "Quelle interprétation de la mécanique quantique, proposée par Hugh Everett, postule l'existence de mondes parallèles ?",
+        "reponse": "L'interprétation des mondes multiples",
+        "propositions": ["L'interprétation des mondes multiples", "L'interprétation de Copenhague", "La théorie des variables cachées", "La théorie de la décohérence seule"],
+        "explication": "Hugh Everett a proposé en 1957 que chaque mesure quantique fasse se ramifier l'univers en plusieurs branches."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel physicien a formulé l'équation relativiste décrivant l'électron et prédisant l'existence de l'antimatière ?",
+        "reponse": "Paul Dirac",
+        "propositions": ["Paul Dirac", "Wolfgang Pauli", "Max Born", "Werner Heisenberg"],
+        "explication": "L'équation de Dirac (1928) unifie mécanique quantique et relativité restreinte et prédit le positron."
+      },
+      {
+        "question": "Quelle interprétation de la mécanique quantique, portée notamment par Niels Bohr, considère que la fonction d'onde n'a de sens physique qu'au moment de la mesure ?",
+        "reponse": "L'interprétation de Copenhague",
+        "propositions": ["L'interprétation de Copenhague", "L'interprétation transactionnelle", "La théorie de de Broglie-Bohm", "L'interprétation des mondes multiples"],
+        "explication": "L'interprétation de Copenhague, développée par Bohr et Heisenberg dans les années 1920, reste la lecture la plus enseignée de la mécanique quantique."
+      },
+      {
+        "question": "Quel physicien a formulé, avec Max Born, l'interprétation probabiliste du carré du module de la fonction d'onde ?",
+        "reponse": "Max Born",
+        "propositions": ["Max Born", "Erwin Schrödinger", "Pascual Jordan", "Arnold Sommerfeld"],
+        "explication": "Max Born a proposé en 1926 que le carré du module de la fonction d'onde représente une densité de probabilité de présence."
+      },
+      {
+        "question": "Comment appelle-t-on la théorie alternative, portée par Louis de Broglie puis David Bohm, qui réintroduit des trajectoires définies guidées par une onde pilote ?",
+        "reponse": "La théorie de de Broglie-Bohm",
+        "propositions": ["La théorie de de Broglie-Bohm", "La théorie GRW", "L'électrodynamique stochastique", "La théorie des cordes"],
+        "explication": "Cette théorie à variables cachées non locales propose que chaque particule suive une trajectoire réelle guidée par une onde pilote."
+      },
+      {
+        "question": "Quelle expérience, réalisée par Alain Aspect en 1982, a confirmé la violation des inégalités de Bell ?",
+        "reponse": "L'expérience d'Aspect sur l'intrication quantique",
+        "propositions": ["L'expérience d'Aspect sur l'intrication quantique", "L'expérience de la goutte de Couder", "L'expérience du choix retardé de Wheeler seule", "L'expérience de Stern-Gerlach"],
+        "explication": "Les expériences d'Alain Aspect ont confirmé que la nature viole les inégalités de Bell, validant la non-localité quantique — ce qui lui vaut le prix Nobel de physique 2022."
+      },
+      {
+        "question": "Quel nombre quantique, introduit pour expliquer la structure fine des raies spectrales, décrit le moment angulaire intrinsèque de l'électron ?",
+        "reponse": "Le spin",
+        "propositions": ["Le spin", "Le nombre quantique principal", "Le nombre azimutal", "Le nombre magnétique"],
+        "explication": "Le spin, proposé par Uhlenbeck et Goudsmit en 1925, est un moment angulaire intrinsèque sans équivalent classique exact."
+      },
+      {
+        "question": "Quel formalisme mathématique, développé par Heisenberg, Born et Jordan, décrit la mécanique quantique à l'aide de matrices plutôt que d'équations d'onde ?",
+        "reponse": "La mécanique matricielle",
+        "propositions": ["La mécanique matricielle", "La mécanique ondulatoire", "L'intégrale de chemin", "La théorie des perturbations"],
+        "explication": "La mécanique matricielle (1925) est la première formulation complète et cohérente de la mécanique quantique, antérieure à celle de Schrödinger."
+      },
+      {
+        "question": "Quel physicien a introduit la formulation de la mécanique quantique par intégrale de chemin, sommant toutes les trajectoires possibles ?",
+        "reponse": "Richard Feynman",
+        "propositions": ["Richard Feynman", "Julian Schwinger", "Freeman Dyson", "Tomonaga Shin'ichirō"],
+        "explication": "L'intégrale de chemin de Feynman (1948) reformule la mécanique quantique en sommant l'amplitude de toutes les trajectoires possibles d'une particule."
+      },
+      {
+        "question": "Quel phénomène quantique permet à une particule de traverser une barrière de potentiel qu'elle ne pourrait franchir classiquement ?",
+        "reponse": "L'effet tunnel",
+        "propositions": ["L'effet tunnel", "L'effet Compton", "L'effet Zeeman", "L'effet Casimir"],
+        "explication": "L'effet tunnel, conséquence directe de la nature ondulatoire des particules, est notamment exploité dans la fusion nucléaire stellaire et les microscopes à effet tunnel."
+      },
+      {
+        "question": "Quel théorème, démontré en 1982, stipule qu'il est impossible de copier parfaitement un état quantique inconnu ?",
+        "reponse": "Le théorème de non-clonage",
+        "propositions": ["Le théorème de non-clonage", "Le théorème de Bell", "Le théorème de Noether", "Le théorème de Gleason"],
+        "explication": "Le théorème de non-clonage quantique, démontré par Wootters et Zurek, est un principe fondamental sur lequel repose la cryptographie quantique."
+      }
+    ]
+  }
+}

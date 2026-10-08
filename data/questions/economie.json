@@ -166,6 +166,116 @@
           "Le sous-emploi"
         ],
         "explication": "Le taux de chômage rapporte le nombre de chômeurs à la population active totale."
+      },
+      {
+        "question": "Comment appelle-t-on la richesse totale produite par un pays en une année ?",
+        "reponse": "Le PIB (produit intérieur brut)",
+        "propositions": [
+          "Le PIB (produit intérieur brut)",
+          "Le revenu national brut",
+          "La balance commerciale",
+          "L'inflation"
+        ],
+        "explication": "Le PIB mesure la valeur de l'ensemble des biens et services produits sur le territoire d'un pays en un an."
+      },
+      {
+        "question": "Comment appelle-t-on un titre représentant une part de propriété dans une entreprise ?",
+        "reponse": "Une action",
+        "propositions": [
+          "Une action",
+          "Une obligation",
+          "Un dividende",
+          "Un crédit"
+        ],
+        "explication": "Détenir une action donne droit à une partie des bénéfices (dividendes) et à un droit de vote."
+      },
+      {
+        "question": "Comment appelle-t-on un titre de créance émis par une entreprise ou un État pour emprunter de l'argent auprès d'investisseurs ?",
+        "reponse": "Une obligation",
+        "propositions": [
+          "Une obligation",
+          "Une action",
+          "Un dividende",
+          "Une part sociale"
+        ],
+        "explication": "L'émetteur d'une obligation s'engage à rembourser le capital emprunté et à verser des intérêts."
+      },
+      {
+        "question": "Comment appelle-t-on la quantité d'un bien que les vendeurs sont prêts à vendre à un prix donné ?",
+        "reponse": "L'offre",
+        "propositions": [
+          "L'offre",
+          "La demande",
+          "Le stock",
+          "La production"
+        ],
+        "explication": "L'offre et la demande déterminent ensemble le prix d'équilibre d'un bien sur un marché."
+      },
+      {
+        "question": "Comment appelle-t-on la quantité d'un bien que les acheteurs souhaitent acquérir à un prix donné ?",
+        "reponse": "La demande",
+        "propositions": [
+          "La demande",
+          "L'offre",
+          "La consommation finale",
+          "L'épargne"
+        ],
+        "explication": "La demande varie généralement de façon inverse au prix du bien considéré."
+      },
+      {
+        "question": "Comment appelle-t-on les biens durables, comme les machines ou les bâtiments, utilisés pour produire d'autres biens ?",
+        "reponse": "Le capital",
+        "propositions": [
+          "Le capital",
+          "Le travail",
+          "La matière première",
+          "Le stock"
+        ],
+        "explication": "Le capital, avec le travail, est l'un des deux grands facteurs de production étudiés en économie."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des échanges de biens et de services entre les différents pays du monde ?",
+        "reponse": "Le commerce international",
+        "propositions": [
+          "Le commerce international",
+          "Le marché intérieur",
+          "L'autoconsommation",
+          "Le troc"
+        ],
+        "explication": "Le commerce international permet à chaque pays de se spécialiser dans ce qu'il produit le plus efficacement."
+      },
+      {
+        "question": "Comment appelle-t-on une entreprise détenue et contrôlée collectivement par ses membres, qui en partagent les bénéfices ?",
+        "reponse": "Une coopérative",
+        "propositions": [
+          "Une coopérative",
+          "Une société anonyme",
+          "Une multinationale",
+          "Une entreprise individuelle"
+        ],
+        "explication": "Dans une coopérative, chaque membre dispose généralement d'une voix, quel que soit son apport en capital."
+      },
+      {
+        "question": "Comment appelle-t-on la valeur totale des biens et services qu'un ménage dépense sur une période donnée ?",
+        "reponse": "La consommation",
+        "propositions": [
+          "La consommation",
+          "L'épargne",
+          "L'investissement",
+          "Le revenu disponible"
+        ],
+        "explication": "La consommation des ménages est l'un des principaux moteurs de la croissance économique."
+      },
+      {
+        "question": "Comment appelle-t-on les impôts prélevés sur la consommation, intégrés dans le prix des biens et services ?",
+        "reponse": "Les impôts indirects",
+        "propositions": [
+          "Les impôts indirects",
+          "Les impôts directs",
+          "Les cotisations sociales",
+          "Les droits de douane"
+        ],
+        "explication": "La TVA est l'exemple le plus connu d'impôt indirect, payé par le consommateur final."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Le capital social"
         ],
         "explication": "Le bénéfice se distingue du chiffre d'affaires, qui ne tient pas compte des charges."
+      },
+      {
+        "question": "Comment appelle-t-on un revenu minimum garanti par un État à l'ensemble de ses citoyens, indépendamment de leur activité ?",
+        "reponse": "Le revenu universel de base",
+        "propositions": [
+          "Le revenu universel de base",
+          "Le salaire minimum",
+          "L'allocation chômage",
+          "Le crédit d'impôt"
+        ],
+        "explication": "Ce dispositif, testé dans plusieurs pays, fait l'objet de débats sur son coût et ses effets sur l'emploi."
+      },
+      {
+        "question": "Comment appelle-t-on une politique qui consiste à augmenter les dépenses publiques et/ou réduire les impôts pour stimuler l'activité économique ?",
+        "reponse": "La politique budgétaire de relance",
+        "propositions": [
+          "La politique budgétaire de relance",
+          "La politique de rigueur",
+          "La politique monétaire restrictive",
+          "Le protectionnisme"
+        ],
+        "explication": "Cette politique s'oppose à la rigueur budgétaire, qui vise au contraire à réduire le déficit public."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène par lequel une entreprise déplace sa production vers un pays offrant des coûts plus faibles ?",
+        "reponse": "La délocalisation",
+        "propositions": [
+          "La délocalisation",
+          "La relocalisation",
+          "La sous-traitance locale",
+          "L'intégration verticale"
+        ],
+        "explication": "La délocalisation vise souvent à réduire les coûts de main-d'œuvre ou de production."
+      },
+      {
+        "question": "Comment appelle-t-on la différence entre les recettes et les dépenses d'un État sur une année ?",
+        "reponse": "Le solde budgétaire",
+        "propositions": [
+          "Le solde budgétaire",
+          "La dette publique",
+          "La balance commerciale",
+          "Le PIB potentiel"
+        ],
+        "explication": "Un solde budgétaire négatif correspond à un déficit, un solde positif à un excédent."
+      },
+      {
+        "question": "Comment appelle-t-on un marché où un seul acheteur fait face à de nombreux vendeurs ?",
+        "reponse": "Un monopsone",
+        "propositions": [
+          "Un monopsone",
+          "Un monopole",
+          "Un oligopole",
+          "Un duopole"
+        ],
+        "explication": "Le monopsone est le symétrique du monopole, du côté de la demande plutôt que de l'offre."
+      },
+      {
+        "question": "Comment appelle-t-on une hausse administrée du taux de change d'une monnaie, décidée par une autorité dans un régime de changes fixes ?",
+        "reponse": "Une réévaluation",
+        "propositions": [
+          "Une réévaluation",
+          "Une dévaluation",
+          "Une dépréciation",
+          "Une appréciation"
+        ],
+        "explication": "La réévaluation est l'inverse de la dévaluation et rend les exportations plus coûteuses pour les acheteurs étrangers."
+      },
+      {
+        "question": "Comment appelle-t-on la pratique consistant à vendre un produit à l'étranger à un prix inférieur à son coût de production pour éliminer la concurrence locale ?",
+        "reponse": "Le dumping",
+        "propositions": [
+          "Le dumping",
+          "Le protectionnisme",
+          "La subvention à l'export",
+          "L'arbitrage commercial"
+        ],
+        "explication": "Le dumping est généralement interdit par les règles du commerce international de l'OMC."
+      },
+      {
+        "question": "Comment appelle-t-on le document comptable qui présente l'ensemble des actifs et des dettes d'une entreprise à un instant donné ?",
+        "reponse": "Le bilan comptable",
+        "propositions": [
+          "Le bilan comptable",
+          "Le compte de résultat",
+          "Le tableau de flux de trésorerie",
+          "Le grand livre"
+        ],
+        "explication": "Le bilan comptable présente la situation patrimoniale de l'entreprise, contrairement au compte de résultat qui mesure son activité sur une période."
+      },
+      {
+        "question": "Comment appelle-t-on la théorie selon laquelle le taux de change entre deux monnaies devrait égaliser le pouvoir d'achat dans chaque pays ?",
+        "reponse": "La parité de pouvoir d'achat (PPA)",
+        "propositions": [
+          "La parité de pouvoir d'achat (PPA)",
+          "L'avantage comparatif",
+          "La loi de l'offre et de la demande",
+          "La théorie quantitative de la monnaie"
+        ],
+        "explication": "L'indice Big Mac est un exemple ludique et simplifié d'application de la parité de pouvoir d'achat."
+      },
+      {
+        "question": "Comment appelle-t-on un regroupement d'entreprises qui s'entendent pour fixer les prix ou limiter la concurrence sur un marché ?",
+        "reponse": "Un cartel",
+        "propositions": [
+          "Un cartel",
+          "Un consortium",
+          "Une coopérative",
+          "Un holding"
+        ],
+        "explication": "Les ententes de type cartel sont généralement interdites par le droit de la concurrence."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Une ressource commune"
         ],
         "explication": "L'éclairage public ou la défense nationale sont des exemples classiques de biens publics."
+      },
+      {
+        "question": "Quel économiste américain a développé la théorie des anticipations rationnelles, selon laquelle les agents économiques utilisent efficacement toute l'information disponible ?",
+        "reponse": "Robert Lucas",
+        "propositions": [
+          "Robert Lucas",
+          "Milton Friedman",
+          "Paul Samuelson",
+          "Edmund Phelps"
+        ],
+        "explication": "Cette théorie, développée dans les années 1970, a profondément renouvelé la macroéconomie et valu à Lucas le prix Nobel en 1995."
+      },
+      {
+        "question": "Quel économiste britannique du XIXe siècle est l'auteur des 'Principes d'économie politique et de l'impôt' (1817), où il théorise l'avantage comparatif ?",
+        "reponse": "David Ricardo",
+        "propositions": [
+          "David Ricardo",
+          "Adam Smith",
+          "John Stuart Mill",
+          "Thomas Malthus"
+        ],
+        "explication": "Ricardo y démontre qu'un pays a intérêt à se spécialiser même s'il est moins efficace que son partenaire dans tous les domaines."
+      },
+      {
+        "question": "Quel économiste écossais du XVIIIe siècle, auteur de 'La Richesse des nations' (1776), est considéré comme le père du libéralisme économique moderne ?",
+        "reponse": "Adam Smith",
+        "propositions": [
+          "Adam Smith",
+          "David Ricardo",
+          "David Hume",
+          "Jeremy Bentham"
+        ],
+        "explication": "Smith y développe notamment la métaphore de la 'main invisible' du marché."
+      },
+      {
+        "question": "Quel économiste et philosophe allemand est l'auteur du 'Capital', analyse critique majeure du système capitaliste publiée à partir de 1867 ?",
+        "reponse": "Karl Marx",
+        "propositions": [
+          "Karl Marx",
+          "Friedrich Engels",
+          "Max Weber",
+          "Vladimir Lénine"
+        ],
+        "explication": "Marx y développe notamment sa théorie de la valeur-travail et de la lutte des classes."
+      },
+      {
+        "question": "Quel économiste américain, prix Nobel 1970 et auteur du célèbre manuel 'Economics', est l'une des grandes figures de la synthèse néoclassique du XXe siècle ?",
+        "reponse": "Paul Samuelson",
+        "propositions": [
+          "Paul Samuelson",
+          "Milton Friedman",
+          "Robert Solow",
+          "James Tobin"
+        ],
+        "explication": "Son manuel 'Economics', publié en 1948, a formé des générations d'étudiants en économie dans le monde entier."
+      },
+      {
+        "question": "Quelle théorie économique soutient que, au-delà d'un certain seuil, une baisse des impôts peut accroître les recettes fiscales en stimulant l'activité économique ?",
+        "reponse": "La courbe de Laffer",
+        "propositions": [
+          "La courbe de Laffer",
+          "La courbe de Phillips",
+          "La courbe de Lorenz",
+          "La loi de Say"
+        ],
+        "explication": "Popularisée dans les années 1970-1980, cette courbe a notamment influencé les politiques fiscales de l'ère Reagan."
+      },
+      {
+        "question": "Quel économiste américain a reçu le prix Nobel d'économie en 2001, avec George Akerlof et Michael Spence, pour ses travaux sur les marchés à information asymétrique ?",
+        "reponse": "Joseph Stiglitz",
+        "propositions": [
+          "Joseph Stiglitz",
+          "Paul Krugman",
+          "Daniel Kahneman",
+          "Richard Thaler"
+        ],
+        "explication": "Leurs travaux ont montré comment une information inégalement répartie entre acheteurs et vendeurs peut dérégler un marché."
+      },
+      {
+        "question": "Quel économiste britannique est le fondateur de l'école néoclassique marginaliste, auteur des 'Principles of Economics' (1890) ?",
+        "reponse": "Alfred Marshall",
+        "propositions": [
+          "Alfred Marshall",
+          "William Jevons",
+          "Léon Walras",
+          "Arthur Pigou"
+        ],
+        "explication": "Marshall y introduit notamment les outils graphiques de l'offre et de la demande encore utilisés aujourd'hui."
+      },
+      {
+        "question": "Quelle théorie économique explique les cycles longs de l'économie mondiale par des vagues successives d'innovations technologiques majeures, d'une durée d'environ 50 ans ?",
+        "reponse": "Les cycles de Kondratiev",
+        "propositions": [
+          "Les cycles de Kondratiev",
+          "Les cycles de Juglar",
+          "Les cycles de Kitchin",
+          "La courbe de Phillips"
+        ],
+        "explication": "Nommés d'après l'économiste soviétique Nikolaï Kondratiev, ces cycles sont associés à des révolutions technologiques comme la vapeur ou l'électricité."
+      },
+      {
+        "question": "Quel économiste américain a formalisé le théorème de l'impossibilité, démontrant qu'aucun système de vote ne peut satisfaire simultanément certains critères démocratiques de base ?",
+        "reponse": "Kenneth Arrow",
+        "propositions": [
+          "Kenneth Arrow",
+          "John Nash",
+          "Amartya Sen",
+          "Gérard Debreu"
+        ],
+        "explication": "Ce théorème, publié en 1951, a été un apport fondateur à la théorie du choix social."
       }
     ]
   }

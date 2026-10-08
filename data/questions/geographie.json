@@ -166,6 +166,116 @@
           "Le désert d'Atacama"
         ],
         "explication": "Le Gobi est l'un des plus grands déserts d'Asie."
+      },
+      {
+        "question": "Quelle est la capitale de l'Allemagne ?",
+        "reponse": "Berlin",
+        "propositions": [
+          "Berlin",
+          "Munich",
+          "Francfort",
+          "Hambourg"
+        ],
+        "explication": "Berlin est redevenue la capitale de l'Allemagne réunifiée en 1990."
+      },
+      {
+        "question": "Quel est le plus grand océan du monde ?",
+        "reponse": "L'océan Pacifique",
+        "propositions": [
+          "L'océan Pacifique",
+          "L'océan Atlantique",
+          "L'océan Indien",
+          "L'océan Arctique"
+        ],
+        "explication": "L'océan Pacifique couvre environ un tiers de la surface totale du globe."
+      },
+      {
+        "question": "Quel pays d'Amérique du Nord a pour capitale Ottawa ?",
+        "reponse": "Le Canada",
+        "propositions": [
+          "Le Canada",
+          "Les États-Unis",
+          "Le Mexique",
+          "Cuba"
+        ],
+        "explication": "Ottawa a été choisie comme capitale en 1857 pour sa position entre les populations francophone et anglophone."
+      },
+      {
+        "question": "Quel continent abrite le désert du Sahara, le plus grand désert chaud du monde ?",
+        "reponse": "L'Afrique",
+        "propositions": [
+          "L'Afrique",
+          "L'Asie",
+          "L'Amérique du Sud",
+          "L'Australie"
+        ],
+        "explication": "Le Sahara s'étend sur une dizaine de pays d'Afrique du Nord et s'étend sur environ 9 millions de km²."
+      },
+      {
+        "question": "Quelle est la capitale de l'Espagne ?",
+        "reponse": "Madrid",
+        "propositions": [
+          "Madrid",
+          "Barcelone",
+          "Séville",
+          "Valence"
+        ],
+        "explication": "Madrid, située au centre du pays, en est la capitale depuis le XVIe siècle."
+      },
+      {
+        "question": "Quel micro-État est entièrement enclavé dans le territoire italien, au cœur des Apennins ?",
+        "reponse": "Saint-Marin",
+        "propositions": [
+          "Saint-Marin",
+          "Le Vatican",
+          "Monaco",
+          "Andorre"
+        ],
+        "explication": "Saint-Marin revendique être la plus ancienne république encore existante au monde."
+      },
+      {
+        "question": "Quel est le plus grand pays du monde par sa superficie ?",
+        "reponse": "La Russie",
+        "propositions": [
+          "La Russie",
+          "Le Canada",
+          "La Chine",
+          "Les États-Unis"
+        ],
+        "explication": "La Russie s'étend sur plus de 17 millions de km², à travers onze fuseaux horaires."
+      },
+      {
+        "question": "Quelle mer borde l'Égypte à l'est, entre l'Afrique et la péninsule arabique ?",
+        "reponse": "La mer Rouge",
+        "propositions": [
+          "La mer Rouge",
+          "La mer Méditerranée",
+          "La mer Noire",
+          "La mer d'Oman"
+        ],
+        "explication": "La mer Rouge est l'une des mers les plus salées du monde, bordée notamment par l'Égypte et l'Arabie saoudite."
+      },
+      {
+        "question": "Quelle ville est la capitale du Pérou ?",
+        "reponse": "Lima",
+        "propositions": [
+          "Lima",
+          "Cusco",
+          "Quito",
+          "La Paz"
+        ],
+        "explication": "Lima, fondée en 1535, est située sur la côte pacifique du pays."
+      },
+      {
+        "question": "Quel pays d'Asie du Sud-Est est constitué de plus de 17 000 îles, dont Java et Sumatra ?",
+        "reponse": "L'Indonésie",
+        "propositions": [
+          "L'Indonésie",
+          "Les Philippines",
+          "La Malaisie",
+          "Le Vietnam"
+        ],
+        "explication": "L'Indonésie est le plus grand archipel du monde et le pays le plus peuplé d'Asie du Sud-Est."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "L'Estonie"
         ],
         "explication": "La Pologne borde à la fois la Russie (Kaliningrad) et plusieurs autres pays d'Europe centrale."
+      },
+      {
+        "question": "Quel est le deuxième plus long fleuve d'Afrique, traversant plusieurs pays d'Afrique centrale ?",
+        "reponse": "Le fleuve Congo",
+        "propositions": [
+          "Le fleuve Congo",
+          "Le Niger",
+          "Le Zambèze",
+          "L'Orange"
+        ],
+        "explication": "Le fleuve Congo est le plus profond du monde et le deuxième par son débit après l'Amazone."
+      },
+      {
+        "question": "Quel pays scandinave possède le Groenland comme territoire autonome ?",
+        "reponse": "Le Danemark",
+        "propositions": [
+          "Le Danemark",
+          "La Norvège",
+          "La Suède",
+          "L'Islande"
+        ],
+        "explication": "Le Groenland dispose d'une large autonomie depuis 1979, tout en restant lié au royaume du Danemark."
+      },
+      {
+        "question": "Quel pays d'Asie du Sud-Est, ancien royaume du Siam, n'a jamais été colonisé par une puissance européenne ?",
+        "reponse": "La Thaïlande",
+        "propositions": [
+          "La Thaïlande",
+          "Le Vietnam",
+          "Le Cambodge",
+          "La Birmanie"
+        ],
+        "explication": "La Thaïlande a changé de nom en 1939, abandonnant l'appellation de Siam."
+      },
+      {
+        "question": "Quel est le plus haut sommet d'Afrique, un volcan situé en Tanzanie ?",
+        "reponse": "Le Kilimandjaro",
+        "propositions": [
+          "Le Kilimandjaro",
+          "Le mont Kenya",
+          "Le Ruwenzori",
+          "Le Rás Dejen"
+        ],
+        "explication": "Le Kilimandjaro culmine à environ 5 892 mètres et est le plus haut sommet isolé du monde."
+      },
+      {
+        "question": "Quel pays d'Europe de l'Est, ancienne république soviétique, a pour capitale Kiev ?",
+        "reponse": "L'Ukraine",
+        "propositions": [
+          "L'Ukraine",
+          "La Biélorussie",
+          "La Moldavie",
+          "La Roumanie"
+        ],
+        "explication": "L'Ukraine est, après la Russie, le plus grand pays entièrement situé en Europe par sa superficie."
+      },
+      {
+        "question": "Quelle est la plus grande île du monde, appartenant au royaume du Danemark ?",
+        "reponse": "Le Groenland",
+        "propositions": [
+          "Le Groenland",
+          "La Nouvelle-Guinée",
+          "Bornéo",
+          "Madagascar"
+        ],
+        "explication": "Le Groenland est recouvert à plus de 80 % par une calotte glaciaire permanente."
+      },
+      {
+        "question": "Quel pays d'Amérique du Sud, enclavé entre le Brésil et l'Argentine, n'a aucun accès direct à la mer ?",
+        "reponse": "Le Paraguay",
+        "propositions": [
+          "Le Paraguay",
+          "La Bolivie",
+          "L'Uruguay",
+          "L'Équateur"
+        ],
+        "explication": "Le Paraguay et la Bolivie sont les deux seuls pays enclavés d'Amérique du Sud."
+      },
+      {
+        "question": "Quelle est la capitale africaine la plus peuplée du continent ?",
+        "reponse": "Le Caire",
+        "propositions": [
+          "Le Caire",
+          "Lagos",
+          "Kinshasa",
+          "Johannesburg"
+        ],
+        "explication": "Le Caire et son agglomération comptent plus de 20 millions d'habitants."
+      },
+      {
+        "question": "Quel archipel espagnol, situé dans l'océan Atlantique au large du Maroc, est une destination touristique volcanique populaire ?",
+        "reponse": "Les îles Canaries",
+        "propositions": [
+          "Les îles Canaries",
+          "Les Baléares",
+          "Les Açores",
+          "Madère"
+        ],
+        "explication": "Les îles Canaries comptent notamment Tenerife et Gran Canaria, les plus peuplées de l'archipel."
+      },
+      {
+        "question": "Quel pays du Moyen-Orient, situé sur la péninsule arabique, abrite les deux villes saintes de l'islam, La Mecque et Médine ?",
+        "reponse": "L'Arabie saoudite",
+        "propositions": [
+          "L'Arabie saoudite",
+          "Les Émirats arabes unis",
+          "Le Qatar",
+          "La Jordanie"
+        ],
+        "explication": "L'Arabie saoudite accueille chaque année des millions de pèlerins pour le hajj, le pèlerinage à La Mecque."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "La Poméranie"
         ],
         "explication": "La Laponie s'étend sur la Norvège, la Suède, la Finlande et la Russie."
+      },
+      {
+        "question": "Quel détroit, le plus fréquenté au monde pour le trafic maritime, relie l'océan Indien à la mer de Chine méridionale entre l'Indonésie et la Malaisie ?",
+        "reponse": "Le détroit de Malacca",
+        "propositions": [
+          "Le détroit de Malacca",
+          "Le détroit de Formose",
+          "Le détroit de la Sonde",
+          "Le détroit d'Ormuz"
+        ],
+        "explication": "Près d'un quart du commerce maritime mondial transite chaque année par ce détroit stratégique."
+      },
+      {
+        "question": "Quel phénomène climatique, opposé à El Niño, correspond à un refroidissement anormal des eaux du Pacifique équatorial ?",
+        "reponse": "La Niña",
+        "propositions": [
+          "La Niña",
+          "El Niño",
+          "La mousson",
+          "L'oscillation nord-atlantique"
+        ],
+        "explication": "La Niña et El Niño forment ensemble le cycle climatique appelé 'El Niño-Oscillation australe' (ENSO)."
+      },
+      {
+        "question": "Quelle limite invisible marque la latitude à partir de laquelle il existe au moins un jour entier de nuit polaire par an ?",
+        "reponse": "Le cercle polaire arctique",
+        "propositions": [
+          "Le cercle polaire arctique",
+          "Le tropique du Cancer",
+          "L'équateur",
+          "Le méridien de Greenwich"
+        ],
+        "explication": "Le cercle polaire arctique se situe à environ 66° 33' de latitude nord."
+      },
+      {
+        "question": "Quel pays est traversé par le plus grand nombre de fuseaux horaires au monde, grâce à l'étendue de ses territoires d'outre-mer ?",
+        "reponse": "La France",
+        "propositions": [
+          "La France",
+          "La Russie",
+          "Les États-Unis",
+          "Le Royaume-Uni"
+        ],
+        "explication": "Grâce à ses douze fuseaux horaires, la France est le pays du monde qui en compte le plus, devant la Russie."
+      },
+      {
+        "question": "Où se situe le point le plus bas de la surface terrestre émergée, à environ 430 mètres sous le niveau de la mer ?",
+        "reponse": "Les rives de la mer Morte",
+        "propositions": [
+          "Les rives de la mer Morte",
+          "Le lac Assal à Djibouti",
+          "La dépression de Qattara en Égypte",
+          "La vallée de la Mort aux États-Unis"
+        ],
+        "explication": "Les rives de la mer Morte constituent le point le plus bas de la surface terrestre non recouverte par l'océan."
+      },
+      {
+        "question": "Quelle est la plus grande plaque tectonique du globe, couvrant une large partie de l'océan Pacifique ?",
+        "reponse": "La plaque Pacifique",
+        "propositions": [
+          "La plaque Pacifique",
+          "La plaque eurasiatique",
+          "La plaque africaine",
+          "La plaque nord-américaine"
+        ],
+        "explication": "La plaque Pacifique est entièrement océanique et bordée par la 'ceinture de feu' volcanique."
+      },
+      {
+        "question": "Quel est le plus grand désert froid du monde, si l'on inclut les déserts polaires dans cette catégorie ?",
+        "reponse": "Le désert Antarctique",
+        "propositions": [
+          "Le désert Antarctique",
+          "Le désert de Gobi",
+          "Le désert de l'Arctique",
+          "Le désert de Patagonie"
+        ],
+        "explication": "Un désert se définissant par sa faible pluviométrie, l'Antarctique, extrêmement sec, en est le plus vaste exemple."
+      },
+      {
+        "question": "Quelle île, rattachée au Chili dans le Pacifique Sud, est célèbre pour ses statues monumentales appelées moaïs ?",
+        "reponse": "L'île de Pâques",
+        "propositions": [
+          "L'île de Pâques",
+          "L'île de Robinson Crusoé",
+          "L'île de Chiloé",
+          "L'archipel Juan Fernández"
+        ],
+        "explication": "L'île de Pâques, ou Rapa Nui, se situe à plus de 3 500 km des côtes chiliennes."
+      },
+      {
+        "question": "Quelle fosse océanique, dans l'océan Atlantique près de Porto Rico, est la plus profonde de cet océan ?",
+        "reponse": "La fosse de Porto Rico",
+        "propositions": [
+          "La fosse de Porto Rico",
+          "La fosse des Mariannes",
+          "La fosse du Pérou-Chili",
+          "La fosse des Kouriles"
+        ],
+        "explication": "Cette fosse atteint environ 8 400 mètres de profondeur, bien moins que la fosse des Mariannes dans le Pacifique."
+      },
+      {
+        "question": "Quel grand fleuve d'Asie, souvent surnommé 'le fleuve Jaune' en raison des sédiments qu'il transporte, est aussi connu pour ses crues historiquement dévastatrices en Chine ?",
+        "reponse": "Le Huang He",
+        "propositions": [
+          "Le Huang He",
+          "Le Yangtsé",
+          "Le Mékong",
+          "L'Amour"
+        ],
+        "explication": "Le Huang He est surnommé 'le berceau de la civilisation chinoise' malgré ses crues parfois catastrophiques."
       }
     ]
   }

@@ -166,6 +166,105 @@
           "Alfred Sisley"
         ],
         "explication": "Monet a peint plus de 250 tableaux de nénuphars dans son jardin de Giverny."
+      },
+      {
+        "question": "Quel écrivain français a écrit 'Les Misérables' ?",
+        "reponse": "Victor Hugo",
+        "propositions": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Émile Zola",
+          "Honoré de Balzac"
+        ],
+        "explication": "Publié en 1862, ce roman suit notamment le destin de Jean Valjean dans la France du XIXe siècle."
+      },
+      {
+        "question": "Quel peintre français a peint 'Bal du moulin de la Galette', scène de danse à Montmartre ?",
+        "reponse": "Pierre-Auguste Renoir",
+        "propositions": [
+          "Pierre-Auguste Renoir",
+          "Claude Monet",
+          "Edgar Degas",
+          "Edouard Manet"
+        ],
+        "explication": "Ce tableau de 1876 est l'une des œuvres majeures du mouvement impressionniste."
+      },
+      {
+        "question": "Quel peintre surréaliste espagnol est célèbre pour ses horloges molles dans 'La Persistance de la mémoire' ?",
+        "reponse": "Salvador Dalí",
+        "propositions": [
+          "Salvador Dalí",
+          "René Magritte",
+          "Joan Miró",
+          "Max Ernst"
+        ],
+        "explication": "Ce tableau, peint en 1931, est l'une des images les plus reconnaissables du surréalisme."
+      },
+      {
+        "question": "Quel écrivain français est l'auteur de 'Vingt mille lieues sous les mers' ?",
+        "reponse": "Jules Verne",
+        "propositions": [
+          "Jules Verne",
+          "Victor Hugo",
+          "H.G. Wells",
+          "Gustave Flaubert"
+        ],
+        "explication": "Jules Verne est considéré comme l'un des pères fondateurs de la science-fiction."
+      },
+      {
+        "question": "Quel peintre italien de la Renaissance a peint le plafond de la chapelle Sixtine au Vatican ?",
+        "reponse": "Michel-Ange",
+        "propositions": [
+          "Michel-Ange",
+          "Raphaël",
+          "Léonard de Vinci",
+          "Le Titien"
+        ],
+        "explication": "Michel-Ange a réalisé cette fresque monumentale entre 1508 et 1512."
+      },
+      {
+        "question": "Quel écrivain britannique du XIXe siècle est l'auteur d''Oliver Twist' ?",
+        "reponse": "Charles Dickens",
+        "propositions": [
+          "Charles Dickens",
+          "Thomas Hardy",
+          "William Thackeray",
+          "Walter Scott"
+        ],
+        "explication": "Dickens y dénonce les conditions de vie des enfants pauvres dans l'Angleterre victorienne."
+      },
+      {
+        "question": "Quel écrivain américain du XIXe siècle est considéré comme un pionnier du roman policier avec 'Double Assassinat dans la rue Morgue' ?",
+        "reponse": "Edgar Allan Poe",
+        "propositions": [
+          "Edgar Allan Poe",
+          "Nathaniel Hawthorne",
+          "Herman Melville",
+          "Washington Irving"
+        ],
+        "explication": "Poe a créé le détective Auguste Dupin, inspirant plus tard des personnages comme Sherlock Holmes."
+      },
+      {
+        "question": "Quel peintre français est le fondateur du mouvement fauviste avec des œuvres comme 'La Danse' ?",
+        "reponse": "Henri Matisse",
+        "propositions": [
+          "Henri Matisse",
+          "André Derain",
+          "Maurice de Vlaminck",
+          "Raoul Dufy"
+        ],
+        "explication": "Le fauvisme, apparu vers 1905, se caractérise par des couleurs vives et non naturalistes."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle est l'auteur du recueil 'Les Fleurs du mal' ?",
+        "reponse": "Charles Baudelaire",
+        "propositions": [
+          "Charles Baudelaire",
+          "Arthur Rimbaud",
+          "Paul Verlaine",
+          "Stéphane Mallarmé"
+        ],
+        "explication": "Publié en 1857, ce recueil a valu à Baudelaire un procès pour outrage à la morale publique."
       }
     ],
     "2": [
@@ -333,6 +432,116 @@
           "Frans Hals"
         ],
         "explication": "Ce tableau collectif de 1642 est exposé au Rijksmuseum d'Amsterdam."
+      },
+      {
+        "question": "Quel peintre français, précurseur du cubisme, est l'auteur de 'Les Joueurs de cartes' ?",
+        "reponse": "Paul Cézanne",
+        "propositions": [
+          "Paul Cézanne",
+          "Georges Braque",
+          "Henri Matisse",
+          "Georges Seurat"
+        ],
+        "explication": "Cézanne a profondément influencé Picasso et Braque dans l'élaboration du cubisme."
+      },
+      {
+        "question": "Quel écrivain français a été jugé pour outrage à la morale publique après la publication de 'Madame Bovary' en 1857 ?",
+        "reponse": "Gustave Flaubert",
+        "propositions": [
+          "Gustave Flaubert",
+          "Émile Zola",
+          "Guy de Maupassant",
+          "Stendhal"
+        ],
+        "explication": "Flaubert a finalement été acquitté, et le roman est devenu un classique du réalisme français."
+      },
+      {
+        "question": "Quel peintre français, proche des impressionnistes, est surtout connu pour ses représentations de danseuses de ballet ?",
+        "reponse": "Edgar Degas",
+        "propositions": [
+          "Edgar Degas",
+          "Pierre-Auguste Renoir",
+          "Claude Monet",
+          "Henri de Toulouse-Lautrec"
+        ],
+        "explication": "Degas a réalisé de nombreuses peintures, pastels et sculptures de danseuses de l'Opéra de Paris."
+      },
+      {
+        "question": "Quel peintre post-impressionniste français s'est installé à Tahiti pour y peindre ses œuvres les plus célèbres ?",
+        "reponse": "Paul Gauguin",
+        "propositions": [
+          "Paul Gauguin",
+          "Vincent van Gogh",
+          "Paul Cézanne",
+          "Henri Rousseau"
+        ],
+        "explication": "Gauguin a cherché à Tahiti un mode de vie et une inspiration picturale éloignés de la société occidentale."
+      },
+      {
+        "question": "Quelle écrivaine britannique du XXe siècle, figure du modernisme, est l'auteure de 'Mrs Dalloway' ?",
+        "reponse": "Virginia Woolf",
+        "propositions": [
+          "Virginia Woolf",
+          "Agatha Christie",
+          "Katherine Mansfield",
+          "Daphne du Maurier"
+        ],
+        "explication": "Woolf est connue pour sa technique narrative du flux de conscience."
+      },
+      {
+        "question": "Quel peintre espagnol du XVIIe siècle est l'auteur du tableau 'Les Ménines' ?",
+        "reponse": "Diego Velázquez",
+        "propositions": [
+          "Diego Velázquez",
+          "Francisco de Goya",
+          "Le Greco",
+          "Francisco de Zurbarán"
+        ],
+        "explication": "'Les Ménines' (1656) met en scène la cour du roi Philippe IV d'Espagne avec une mise en abyme célèbre."
+      },
+      {
+        "question": "Quel écrivain français du XIXe siècle est l'auteur de la 'Comédie humaine', vaste cycle de romans sur la société de son temps ?",
+        "reponse": "Honoré de Balzac",
+        "propositions": [
+          "Honoré de Balzac",
+          "Victor Hugo",
+          "Gustave Flaubert",
+          "Émile Zola"
+        ],
+        "explication": "Ce cycle regroupe plus de 90 romans et nouvelles, dont 'Le Père Goriot' et 'Eugénie Grandet'."
+      },
+      {
+        "question": "Quel peintre américain réaliste du XXe siècle est l'auteur du tableau 'Nighthawks', représentant un bar-restaurant la nuit ?",
+        "reponse": "Edward Hopper",
+        "propositions": [
+          "Edward Hopper",
+          "Norman Rockwell",
+          "Grant Wood",
+          "Andrew Wyeth"
+        ],
+        "explication": "Peint en 1942, ce tableau est devenu une icône de la solitude urbaine américaine."
+      },
+      {
+        "question": "Quel écrivain français, prix Nobel de littérature en 1957, est l'auteur de 'L'Étranger' ?",
+        "reponse": "Albert Camus",
+        "propositions": [
+          "Albert Camus",
+          "Jean-Paul Sartre",
+          "André Malraux",
+          "André Gide"
+        ],
+        "explication": "'L'Étranger' (1942) met en scène Meursault, figure emblématique de la philosophie de l'absurde."
+      },
+      {
+        "question": "Quel écrivain français du XIXe siècle est l'auteur du roman 'Le Rouge et le Noir' ?",
+        "reponse": "Stendhal",
+        "propositions": [
+          "Stendhal",
+          "Honoré de Balzac",
+          "Gustave Flaubert",
+          "Prosper Mérimée"
+        ],
+        "explication": "Publié en 1830, ce roman suit l'ascension sociale de Julien Sorel."
       }
     ],
     "3": [
@@ -500,6 +709,116 @@
           "Camilo Castelo Branco"
         ],
         "explication": "Pessoa a créé des dizaines d'hétéronymes, chacun doté d'une biographie et d'un style propres."
+      },
+      {
+        "question": "Quel artiste français a présenté en 1917 un urinoir retourné intitulé 'Fontaine', fondant le concept de ready-made ?",
+        "reponse": "Marcel Duchamp",
+        "propositions": [
+          "Marcel Duchamp",
+          "Francis Picabia",
+          "Man Ray",
+          "Jean Arp"
+        ],
+        "explication": "Ce geste provocateur a bouleversé la définition même de l'œuvre d'art au XXe siècle."
+      },
+      {
+        "question": "Quel écrivain français est l'auteur de 'La Disparition' (1969), roman entièrement écrit sans la lettre 'e' ?",
+        "reponse": "Georges Perec",
+        "propositions": [
+          "Georges Perec",
+          "Raymond Queneau",
+          "Boris Vian",
+          "Italo Calvino"
+        ],
+        "explication": "Ce tour de force littéraire, appelé lipogramme, est associé au groupe de l'Oulipo."
+      },
+      {
+        "question": "Quel peintre grec, actif en Espagne, est célèbre pour ses figures allongées et ses couleurs irréelles peintes à Tolède ?",
+        "reponse": "Le Greco",
+        "propositions": [
+          "Le Greco",
+          "Le Caravage",
+          "Francisco de Zurbarán",
+          "Diego Velázquez"
+        ],
+        "explication": "Né en Crète, Domínikos Theotokópoulos, dit 'Le Greco', a développé un style maniériste très personnel à Tolède."
+      },
+      {
+        "question": "Quel écrivain allemand, prix Nobel de littérature en 1929, est l'auteur de 'La Montagne magique' ?",
+        "reponse": "Thomas Mann",
+        "propositions": [
+          "Thomas Mann",
+          "Hermann Hesse",
+          "Günter Grass",
+          "Rainer Maria Rilke"
+        ],
+        "explication": "Ce roman de 1924 se déroule dans un sanatorium suisse avant la Première Guerre mondiale."
+      },
+      {
+        "question": "Quel peintre flamand du XVIe siècle est l'auteur du tableau 'Chasseurs dans la neige' ?",
+        "reponse": "Pieter Brueghel l'Ancien",
+        "propositions": [
+          "Pieter Brueghel l'Ancien",
+          "Jérôme Bosch",
+          "Jan van Eyck",
+          "Hans Memling"
+        ],
+        "explication": "Cette œuvre fait partie d'un cycle consacré aux mois de l'année, peint vers 1565."
+      },
+      {
+        "question": "Quel dramaturge irlandais, prix Nobel de littérature, est l'auteur d''En attendant Godot', pièce emblématique du théâtre de l'absurde ?",
+        "reponse": "Samuel Beckett",
+        "propositions": [
+          "Samuel Beckett",
+          "Eugène Ionesco",
+          "Jean Genet",
+          "Arthur Adamov"
+        ],
+        "explication": "Dans cette pièce de 1952, deux personnages attendent en vain un certain Godot qui ne vient jamais."
+      },
+      {
+        "question": "Quel peintre français du XIXe siècle, chef de file du réalisme, est l'auteur d''Un enterrement à Ornans' ?",
+        "reponse": "Gustave Courbet",
+        "propositions": [
+          "Gustave Courbet",
+          "Jean-François Millet",
+          "Honoré Daumier",
+          "Édouard Manet"
+        ],
+        "explication": "Ce tableau monumental de 1850 représentait des villageois anonymes, ce qui a choqué le public de l'époque."
+      },
+      {
+        "question": "Quel peintre italien est à l'origine de la 'pittura metafisica', courant précurseur du surréalisme fait de places désertes et de mannequins ?",
+        "reponse": "Giorgio de Chirico",
+        "propositions": [
+          "Giorgio de Chirico",
+          "Carlo Carrà",
+          "Giorgio Morandi",
+          "Umberto Boccioni"
+        ],
+        "explication": "Ses tableaux énigmatiques des années 1910 ont profondément marqué André Breton et les surréalistes."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, auteur des 'Poèmes saturniens', a eu une liaison tumultueuse avec Arthur Rimbaud ?",
+        "reponse": "Paul Verlaine",
+        "propositions": [
+          "Paul Verlaine",
+          "Stéphane Mallarmé",
+          "Tristan Corbière",
+          "Charles Cros"
+        ],
+        "explication": "Verlaine a été emprisonné après avoir blessé Rimbaud par balle à Bruxelles en 1873."
+      },
+      {
+        "question": "Quel peintre italien, installé à Paris, est connu pour ses portraits aux visages allongés et ses nus, avant sa mort précoce en 1920 ?",
+        "reponse": "Amedeo Modigliani",
+        "propositions": [
+          "Amedeo Modigliani",
+          "Chaïm Soutine",
+          "Marc Chagall",
+          "Maurice Utrillo"
+        ],
+        "explication": "Modigliani fait partie de l'École de Paris et a mené une vie marquée par la pauvreté et les excès."
       }
     ]
   }

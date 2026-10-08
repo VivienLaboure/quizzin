@@ -1,0 +1,191 @@
+{
+  "theme": "La Bourse de Paris",
+  "questions": {
+    "1": [
+      {
+        "question": "Comment s'appelle l'indice boursier phare de la Bourse de Paris ?",
+        "reponse": "Le CAC 40",
+        "propositions": ["Le CAC 40", "Le Dow Jones", "Le DAX", "Le FTSE 100"],
+        "explication": "Le CAC 40 regroupe les 40 plus grandes capitalisations boursières cotées à Paris."
+      },
+      {
+        "question": "Que signifie l'acronyme « CAC » dans CAC 40 ?",
+        "reponse": "Cotation Assistée en Continu",
+        "propositions": ["Cotation Assistée en Continu", "Capital Actions Commerce", "Compagnie des Agents de Change", "Conseil des Affaires et du Commerce"],
+        "explication": "CAC signifie Cotation Assistée en Continu, le système informatique de cotation mis en place en 1988."
+      },
+      {
+        "question": "Dans quel quartier d'affaires parisien se trouve le siège d'Euronext Paris, qui gère la Bourse ?",
+        "reponse": "Le Palais Brongniart / La Défense",
+        "propositions": ["Le Palais Brongniart / La Défense", "Montmartre", "Le Marais", "Belleville"],
+        "explication": "Historiquement logée au Palais Brongniart, l'activité de cotation d'Euronext Paris est aujourd'hui essentiellement dématérialisée, avec des bureaux à La Défense."
+      },
+      {
+        "question": "Qu'est-ce qu'une action, achetée et vendue en Bourse ?",
+        "reponse": "Une part de propriété d'une entreprise",
+        "propositions": ["Une part de propriété d'une entreprise", "Un prêt accordé à l'État", "Une monnaie étrangère", "Un contrat d'assurance"],
+        "explication": "Une action représente une part du capital d'une entreprise, donnant droit à une fraction de ses bénéfices et de son contrôle."
+      },
+      {
+        "question": "Comment appelle-t-on une entreprise qui entre pour la première fois en Bourse ?",
+        "reponse": "Une introduction en Bourse",
+        "propositions": ["Une introduction en Bourse", "Une fusion-acquisition", "Une privatisation", "Un rachat d'actions"],
+        "explication": "Une introduction en Bourse (IPO) est l'opération par laquelle une société propose ses actions au public pour la première fois."
+      },
+      {
+        "question": "Quel est le nombre d'entreprises composant l'indice CAC 40, comme son nom l'indique ?",
+        "reponse": "40",
+        "propositions": ["40", "35", "50", "100"],
+        "explication": "Le CAC 40 regroupe 40 valeurs parmi les plus importantes capitalisations françaises cotées à Paris."
+      },
+      {
+        "question": "Comment appelle-t-on une forte baisse rapide et généralisée des cours de Bourse ?",
+        "reponse": "Un krach boursier",
+        "propositions": ["Un krach boursier", "Une introduction en Bourse", "Un dividende", "Un split d'action"],
+        "explication": "Un krach boursier désigne un effondrement brutal des cours sur un marché financier."
+      },
+      {
+        "question": "Comment appelle-t-on la part des bénéfices qu'une entreprise reverse à ses actionnaires ?",
+        "reponse": "Un dividende",
+        "propositions": ["Un dividende", "Un coupon d'État", "Une plus-value forcée", "Une prime d'émission"],
+        "explication": "Le dividende est la partie du bénéfice qu'une société décide de distribuer à ses actionnaires."
+      },
+      {
+        "question": "Quelle entreprise française du luxe a longtemps occupé la première place de capitalisation boursière du CAC 40 ?",
+        "reponse": "LVMH",
+        "propositions": ["LVMH", "TotalEnergies", "Danone", "Air France-KLM"],
+        "explication": "LVMH, groupe de luxe dirigé par Bernard Arnault, est régulièrement la plus grosse capitalisation du CAC 40."
+      },
+      {
+        "question": "Quel est le nom de l'opérateur qui gère aujourd'hui la Bourse de Paris ainsi que plusieurs autres places européennes ?",
+        "reponse": "Euronext",
+        "propositions": ["Euronext", "Nasdaq", "London Stock Exchange", "Deutsche Börse"],
+        "explication": "Euronext est née en 2000 de la fusion des Bourses de Paris, Amsterdam et Bruxelles, et gère désormais plusieurs places européennes."
+      }
+    ],
+    "2": [
+      {
+        "question": "En quelle année la corbeille historique de la Bourse de Paris a-t-elle été remplacée par la cotation électronique ?",
+        "reponse": "1987",
+        "propositions": ["1987", "1995", "1975", "2000"],
+        "explication": "La corbeille, lieu physique de négociation à la criée, a disparu en 1987 au profit de la cotation électronique."
+      },
+      {
+        "question": "Quel bâtiment parisien, édifié au XIXe siècle, a longtemps abrité la Bourse de Paris ?",
+        "reponse": "Le Palais Brongniart",
+        "propositions": ["Le Palais Brongniart", "Le Palais Garnier", "Le Palais-Royal", "L'Hôtel de la Monnaie"],
+        "explication": "Le Palais Brongniart, construit sous Napoléon Ier, a abrité la corbeille de la Bourse de Paris jusqu'en 1987."
+      },
+      {
+        "question": "Comment appelle-t-on l'indice qui, contrairement au CAC 40, regroupe les 120 plus grandes valeurs françaises ?",
+        "reponse": "Le SBF 120",
+        "propositions": ["Le SBF 120", "Le CAC Next 20", "Le CAC All-Tradable", "Le CAC Mid 60"],
+        "explication": "Le SBF 120 est un indice plus large que le CAC 40, regroupant 120 valeurs cotées sur Euronext Paris."
+      },
+      {
+        "question": "Quelle opération consiste, pour une société, à racheter ses propres actions sur le marché pour en réduire le nombre ?",
+        "reponse": "Un rachat d'actions",
+        "propositions": ["Un rachat d'actions", "Une augmentation de capital", "Une offre publique d'achat", "Un split d'action"],
+        "explication": "Un rachat d'actions réduit le nombre de titres en circulation, ce qui peut mécaniquement augmenter le bénéfice par action."
+      },
+      {
+        "question": "Comment appelle-t-on une offre par laquelle une entreprise propose de racheter la totalité des actions d'une autre société cotée ?",
+        "reponse": "Une offre publique d'achat (OPA)",
+        "propositions": ["Une offre publique d'achat (OPA)", "Une introduction en Bourse", "Un dividende exceptionnel", "Une augmentation de capital"],
+        "explication": "Une OPA est une offre faite publiquement aux actionnaires d'une société cotée pour racheter leurs titres."
+      },
+      {
+        "question": "Quelle autorité française est chargée de réguler les marchés financiers et de protéger les investisseurs ?",
+        "reponse": "L'Autorité des marchés financiers (AMF)",
+        "propositions": ["L'Autorité des marchés financiers (AMF)", "La Banque de France", "La Cour des comptes", "L'INSEE"],
+        "explication": "L'AMF veille au bon fonctionnement des marchés financiers français et à la protection de l'épargne investie."
+      },
+      {
+        "question": "Comment appelle-t-on la division de la valeur nominale d'une action en plusieurs titres, sans changer la valeur totale détenue ?",
+        "reponse": "Un split d'action",
+        "propositions": ["Un split d'action", "Une OPA", "Un dividende en actions", "Une radiation de cote"],
+        "explication": "Un split d'action divise chaque titre en plusieurs, rendant l'action plus accessible sans modifier la capitalisation totale."
+      },
+      {
+        "question": "Quel indice du CAC 40 reflète les performances des 40 valeurs en tenant compte des dividendes réinvestis ?",
+        "reponse": "Le CAC 40 GR (Gross Return)",
+        "propositions": ["Le CAC 40 GR (Gross Return)", "Le CAC 40 NR", "Le CAC Small", "Le CAC Growth"],
+        "explication": "Le CAC 40 GR intègre le réinvestissement des dividendes, contrairement à l'indice CAC 40 classique qui ne suit que les cours."
+      },
+      {
+        "question": "Comment appelle-t-on la pratique consistant à vendre un titre qu'on ne possède pas encore, en pariant sur sa baisse ?",
+        "reponse": "La vente à découvert",
+        "propositions": ["La vente à découvert", "L'achat au comptant", "Le portage financier", "L'amortissement"],
+        "explication": "La vente à découvert consiste à emprunter puis vendre un titre pour le racheter moins cher plus tard et empocher la différence."
+      },
+      {
+        "question": "En quelle année le krach boursier mondial dit « Octobre noir » a-t-il frappé les marchés, y compris Paris ?",
+        "reponse": "1987",
+        "propositions": ["1987", "1929", "2001", "2008"],
+        "explication": "Le krach d'octobre 1987, déclenché à Wall Street le 19 octobre (« lundi noir »), a entraîné une chute mondiale des marchés."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quelle réforme de 1988 a profondément transformé le statut des agents de change historiques de la Bourse de Paris ?",
+        "reponse": "La loi sur la banque et la désintermédiation financière",
+        "propositions": ["La loi sur la banque et la désintermédiation financière", "La loi de séparation bancaire", "La loi Macron", "La loi NRE"],
+        "explication": "La réforme de 1988 a mis fin au monopole des agents de change, créant les sociétés de Bourse et ouvrant la profession à la concurrence."
+      },
+      {
+        "question": "Quel krach boursier français de 1882, lié à la faillite de l'Union Générale, a durablement marqué la place de Paris ?",
+        "reponse": "Le krach de l'Union Générale",
+        "propositions": ["Le krach de l'Union Générale", "Le krach de la Compagnie du Panama", "Le krach de 1929", "Le krach du Crédit Mobilier"],
+        "explication": "La faillite de la banque catholique l'Union Générale en 1882 provoqua un krach retentissant à la Bourse de Paris."
+      },
+      {
+        "question": "Comment s'appelait l'ancêtre de la Bourse de Paris, créé par un arrêté du Conseil d'État en 1724 ?",
+        "reponse": "La Bourse de Paris sous l'Ancien Régime",
+        "propositions": ["La Bourse de Paris sous l'Ancien Régime", "La Compagnie des Indes", "Le Trésor royal", "La Chambre syndicale"],
+        "explication": "Un arrêté du Conseil d'État de 1724 organise officiellement la Bourse de Paris, après l'épisode retentissant du système de Law."
+      },
+      {
+        "question": "Quel scandale financier français du XIXe siècle, lié au percement d'un canal, a provoqué un krach impliquant des milliers de petits actionnaires ?",
+        "reponse": "Le scandale de Panama",
+        "propositions": ["Le scandale de Panama", "Le scandale de l'Union Générale", "L'affaire Stavisky", "L'affaire du Crédit Lyonnais"],
+        "explication": "La faillite de la Compagnie universelle du canal de Panama, dans les années 1880-1890, ruina des milliers d'épargnants français."
+      },
+      {
+        "question": "Quelle directive européenne de 2007, transposée en droit français, a mis fin à l'obligation de centraliser les ordres sur un marché réglementé unique ?",
+        "reponse": "La directive MIF (Marchés d'instruments financiers)",
+        "propositions": ["La directive MIF (Marchés d'instruments financiers)", "La directive Solvabilité II", "La directive Bâle III", "La directive UCITS"],
+        "explication": "La directive MIF de 2007 a ouvert la négociation des actions européennes à la concurrence entre plateformes, mettant fin au monopole historique des Bourses nationales."
+      },
+      {
+        "question": "Quel indice, créé en 1991, est considéré comme le successeur direct de l'ancien indice CAC général utilisé avant 1988 ?",
+        "reponse": "Le CAC All-Tradable",
+        "propositions": ["Le CAC All-Tradable", "Le CAC Next 20", "Le CAC Mid & Small", "Le CAC 40 ESG"],
+        "explication": "Le CAC All-Tradable (anciennement SBF 250) prolonge la logique de l'ancien indice général de la Bourse de Paris."
+      },
+      {
+        "question": "Quelle est la différence fondamentale entre le marché primaire et le marché secondaire des actions ?",
+        "reponse": "Le primaire émet des titres neufs, le secondaire les échange déjà émis",
+        "propositions": ["Le primaire émet des titres neufs, le secondaire les échange déjà émis", "Le primaire concerne les obligations, le secondaire les actions", "Le primaire est réservé aux banques, le secondaire aux particuliers", "Il n'y a aucune différence"],
+        "explication": "Le marché primaire est celui de l'émission de nouveaux titres (introduction en Bourse, augmentation de capital), le marché secondaire celui de leur échange ultérieur entre investisseurs."
+      },
+      {
+        "question": "Quel indice sectoriel du CAC 40 a été retiré en 2020 après l'exclusion de plusieurs grandes valeurs bancaires du calcul pondéré ?",
+        "reponse": "Aucun indice n'a été retiré ; la méthode de pondération du flottant a évolué en continu",
+        "propositions": ["Aucun indice n'a été retiré ; la méthode de pondération du flottant a évolué en continu", "Le CAC Financières", "Le CAC Bancaire", "Le CAC Mid 60"],
+        "explication": "Le CAC 40 n'a jamais supprimé d'indice sectoriel pour cette raison : sa composition est révisée trimestriellement selon la capitalisation flottante des valeurs, sans suppression d'indice associé."
+      },
+      {
+        "question": "Quelle place boursière européenne a fusionné avec la Bourse de Paris en 2002, avant d'intégrer également Euronext ?",
+        "reponse": "La Bourse de Lisbonne (BVLP)",
+        "propositions": ["La Bourse de Lisbonne (BVLP)", "La Bourse de Milan", "La Bourse de Francfort", "La Bourse de Madrid"],
+        "explication": "La Bourse de Lisbonne a rejoint Euronext en 2002, après les Bourses de Paris, Amsterdam et Bruxelles réunies en 2000."
+      },
+      {
+        "question": "Quel mécanisme, mis en place après le krach de 1987, suspend automatiquement la cotation d'une valeur en cas de variation de cours excessive ?",
+        "reponse": "Le seuil de réservation (coupe-circuit)",
+        "propositions": ["Le seuil de réservation (coupe-circuit)", "Le carnet d'ordres centralisé", "Le fixing d'ouverture", "Le market making obligatoire"],
+        "explication": "Les seuils de réservation suspendent temporairement la cotation d'un titre dont le cours varie trop brutalement, afin de limiter la panique."
+      }
+    ]
+  }
+}

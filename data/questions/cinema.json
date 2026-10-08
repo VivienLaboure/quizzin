@@ -166,6 +166,116 @@
           "Chuck Norris"
         ],
         "explication": "Stallone a également écrit le scénario du premier film, sorti en 1976."
+      },
+      {
+        "question": "Quel acteur américain incarne l'archéologue aventurier Indiana Jones ?",
+        "reponse": "Harrison Ford",
+        "propositions": [
+          "Harrison Ford",
+          "Tom Selleck",
+          "Kurt Russell",
+          "Mel Gibson"
+        ],
+        "explication": "Harrison Ford incarne aussi Han Solo dans la saga 'Star Wars'."
+      },
+      {
+        "question": "Quel acteur a incarné le personnage principal du film 'Titanic' (1997) ?",
+        "reponse": "Leonardo DiCaprio",
+        "propositions": [
+          "Leonardo DiCaprio",
+          "Brad Pitt",
+          "Matt Damon",
+          "Johnny Depp"
+        ],
+        "explication": "Leonardo DiCaprio a remporté son premier Oscar en 2016 pour 'The Revenant'."
+      },
+      {
+        "question": "Quel acteur incarne Neo, le héros du film 'Matrix' ?",
+        "reponse": "Keanu Reeves",
+        "propositions": [
+          "Keanu Reeves",
+          "Will Smith",
+          "Brad Pitt",
+          "Tom Cruise"
+        ],
+        "explication": "Keanu Reeves a repris le rôle de Neo dans les quatre films de la saga 'Matrix'."
+      },
+      {
+        "question": "Quel acteur américain est la vedette de la saga de comédies de science-fiction 'Men in Black' ?",
+        "reponse": "Will Smith",
+        "propositions": [
+          "Will Smith",
+          "Eddie Murphy",
+          "Denzel Washington",
+          "Chris Rock"
+        ],
+        "explication": "Will Smith y incarne l'agent J, membre d'une organisation secrète surveillant les extraterrestres sur Terre."
+      },
+      {
+        "question": "De quels romans britanniques la saga de films 'Harry Potter' est-elle adaptée ?",
+        "reponse": "Les romans de J.K. Rowling",
+        "propositions": [
+          "Les romans de J.K. Rowling",
+          "Les romans de C.S. Lewis",
+          "Les romans de Terry Pratchett",
+          "Les romans de Philip Pullman"
+        ],
+        "explication": "La saga cinématographique compte huit films sortis entre 2001 et 2011."
+      },
+      {
+        "question": "Quel film Marvel de 2012 réunit pour la première fois Iron Man, Captain America, Thor et Hulk dans une seule équipe ?",
+        "reponse": "Avengers",
+        "propositions": [
+          "Avengers",
+          "Iron Man 3",
+          "Captain America : Civil War",
+          "Les Gardiens de la Galaxie"
+        ],
+        "explication": "'Avengers' (2012) est réalisé par Joss Whedon et marque un tournant dans l'univers cinématographique Marvel."
+      },
+      {
+        "question": "Quel film de Steven Spielberg (1982) raconte l'amitié entre un jeune garçon et un extraterrestre bloqué sur Terre ?",
+        "reponse": "E.T. l'extra-terrestre",
+        "propositions": [
+          "E.T. l'extra-terrestre",
+          "Rencontres du troisième type",
+          "Cocoon",
+          "La Guerre des mondes"
+        ],
+        "explication": "Le film est resté le plus gros succès au box-office mondial pendant plus de dix ans."
+      },
+      {
+        "question": "Quel gigantesque singe, héros de plusieurs films depuis 1933, grimpe au sommet d'un gratte-ciel de New York ?",
+        "reponse": "King Kong",
+        "propositions": [
+          "King Kong",
+          "Godzilla",
+          "Mighty Joe Young",
+          "Donkey Kong"
+        ],
+        "explication": "Le King Kong original de 1933 a révolutionné les effets spéciaux au cinéma pour l'époque."
+      },
+      {
+        "question": "Quel acteur incarne l'agent Ethan Hunt dans la saga 'Mission : Impossible' ?",
+        "reponse": "Tom Cruise",
+        "propositions": [
+          "Tom Cruise",
+          "Matt Damon",
+          "George Clooney",
+          "Pierce Brosnan"
+        ],
+        "explication": "Tom Cruise réalise lui-même une grande partie de ses cascades dans cette saga d'action."
+      },
+      {
+        "question": "Quel personnage de fiction, comte vampire transylvanien, a été incarné au cinéma par Bela Lugosi puis Christopher Lee ?",
+        "reponse": "Dracula",
+        "propositions": [
+          "Dracula",
+          "Frankenstein",
+          "Nosferatu",
+          "Le Fantôme de l'Opéra"
+        ],
+        "explication": "Dracula, créé par l'écrivain irlandais Bram Stoker en 1897, a inspiré d'innombrables adaptations cinématographiques."
       }
     ],
     "2": [
@@ -247,7 +357,7 @@
         "explication": "'Matrix' des sœurs Wachowski a popularisé l'effet visuel du 'bullet time'."
       },
       {
-        "question": "Quel réalisateur mexicain a remporté l'Oscar du meilleur réalisateur pour 'Gravity' (2013) et 'Birdman' (2014) consécutivement ?",
+        "question": "Quel réalisateur mexicain a remporté l'Oscar du meilleur réalisateur pour 'Birdman' (2014) ?",
         "reponse": "Alejandro González Iñárritu",
         "propositions": [
           "Alfonso Cuarón",
@@ -255,7 +365,7 @@
           "Guillermo del Toro",
           "Guillermo Arriaga"
         ],
-        "explication": "Iñárritu a réalisé Birdman (2014) puis The Revenant (2015), tous deux récompensés."
+        "explication": "Iñárritu a remporté l'Oscar du meilleur réalisateur pour Birdman (2014), puis à nouveau l'année suivante pour The Revenant — juste après le sacre de son compatriote Alfonso Cuarón pour Gravity (2013)."
       },
       {
         "question": "Quel acteur a incarné le professeur Dumbledore dans les deux premiers films de la saga 'Harry Potter' ?",
@@ -333,6 +443,116 @@
           "Casino"
         ],
         "explication": "'Le Parrain' est souvent cité parmi les meilleurs films de l'histoire du cinéma."
+      },
+      {
+        "question": "Quel réalisateur américain est connu pour des films sur la pègre new-yorkaise comme 'Taxi Driver' et 'Les Affranchis' ?",
+        "reponse": "Martin Scorsese",
+        "propositions": [
+          "Martin Scorsese",
+          "Francis Ford Coppola",
+          "Brian De Palma",
+          "Sidney Lumet"
+        ],
+        "explication": "Scorsese a souvent collaboré avec l'acteur Robert De Niro puis avec Leonardo DiCaprio."
+      },
+      {
+        "question": "Quel réalisateur britannique, surnommé le 'maître du suspense', a réalisé 'Psychose' (1960) ?",
+        "reponse": "Alfred Hitchcock",
+        "propositions": [
+          "Alfred Hitchcock",
+          "David Lean",
+          "Carol Reed",
+          "Michael Powell"
+        ],
+        "explication": "La scène de la douche dans 'Psychose' est l'une des plus célèbres de l'histoire du cinéma."
+      },
+      {
+        "question": "Quel acteur américain, également réalisateur, a reçu l'Oscar du meilleur réalisateur pour 'Impitoyable' (Unforgiven) en 1993 ?",
+        "reponse": "Clint Eastwood",
+        "propositions": [
+          "Clint Eastwood",
+          "Kevin Costner",
+          "Mel Gibson",
+          "Robert Redford"
+        ],
+        "explication": "Clint Eastwood s'est fait connaître comme acteur de westerns avant de devenir réalisateur reconnu."
+      },
+      {
+        "question": "Quelle actrice américaine détient le record du plus grand nombre de nominations aux Oscars de l'histoire ?",
+        "reponse": "Meryl Streep",
+        "propositions": [
+          "Meryl Streep",
+          "Katharine Hepburn",
+          "Cate Blanchett",
+          "Judi Dench"
+        ],
+        "explication": "Meryl Streep a été nominée plus de 20 fois aux Oscars et en a remporté trois."
+      },
+      {
+        "question": "Quel acteur américain incarne Jack Torrance, écrivain qui perd la raison, dans 'Shining' (1980) de Stanley Kubrick ?",
+        "reponse": "Jack Nicholson",
+        "propositions": [
+          "Jack Nicholson",
+          "Robert De Niro",
+          "Al Pacino",
+          "Dustin Hoffman"
+        ],
+        "explication": "La scène où Jack Torrance défonce une porte à la hache est devenue une image culte du cinéma d'horreur."
+      },
+      {
+        "question": "Quel acteur américain a incarné Don Vito Corleone dans 'Le Parrain' (1972) ?",
+        "reponse": "Marlon Brando",
+        "propositions": [
+          "Marlon Brando",
+          "Al Pacino",
+          "Robert De Niro",
+          "James Caan"
+        ],
+        "explication": "Brando a refusé en personne son Oscar du meilleur acteur, envoyant une représentante amérindienne à sa place pour protester contre le traitement des Amérindiens à Hollywood."
+      },
+      {
+        "question": "Quelle actrice britannique a incarné Holly Golightly dans 'Diamants sur canapé' (Breakfast at Tiffany's, 1961) ?",
+        "reponse": "Audrey Hepburn",
+        "propositions": [
+          "Audrey Hepburn",
+          "Grace Kelly",
+          "Elizabeth Taylor",
+          "Ingrid Bergman"
+        ],
+        "explication": "Ce film a contribué à faire de la petite robe noire un symbole de style indémodable."
+      },
+      {
+        "question": "Quel réalisateur canadien a signé 'Blade Runner 2049' et les deux premiers volets de 'Dune' ?",
+        "reponse": "Denis Villeneuve",
+        "propositions": [
+          "Denis Villeneuve",
+          "James Cameron",
+          "Ridley Scott",
+          "Christopher Nolan"
+        ],
+        "explication": "Denis Villeneuve s'est imposé comme l'un des grands noms de la science-fiction au cinéma dans les années 2010-2020."
+      },
+      {
+        "question": "Quel réalisateur mexicain a remporté l'Oscar du meilleur film pour 'La Forme de l'eau' (The Shape of Water) en 2018 ?",
+        "reponse": "Guillermo del Toro",
+        "propositions": [
+          "Guillermo del Toro",
+          "Alfonso Cuarón",
+          "Alejandro González Iñárritu",
+          "Alejandro Jodorowsky"
+        ],
+        "explication": "Del Toro est également connu pour 'Le Labyrinthe de Pan' (2006), mêlant fantastique et guerre civile espagnole."
+      },
+      {
+        "question": "Quelle actrice américaine a remporté deux Oscars de la meilleure actrice pour 'Les Accusés' (1988) et 'Le Silence des agneaux' (1991) ?",
+        "reponse": "Jodie Foster",
+        "propositions": [
+          "Jodie Foster",
+          "Sigourney Weaver",
+          "Sharon Stone",
+          "Kathy Bates"
+        ],
+        "explication": "Jodie Foster y incarne l'agent du FBI Clarice Starling, face au tueur en série Hannibal Lecter."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Bille August"
         ],
         "explication": "Le Dogme 95 imposait des règles strictes (pas d'effets spéciaux, caméra à l'épaule) pour un cinéma épuré."
+      },
+      {
+        "question": "Quel réalisateur japonais, connu pour ses cadrages au niveau du tatami, est l'auteur de 'Voyage à Tokyo' (1953) ?",
+        "reponse": "Yasujirō Ozu",
+        "propositions": [
+          "Yasujirō Ozu",
+          "Akira Kurosawa",
+          "Kenji Mizoguchi",
+          "Mikio Naruse"
+        ],
+        "explication": "Ozu filmait souvent à hauteur d'une personne assise sur un tatami, une signature visuelle immédiatement reconnaissable."
+      },
+      {
+        "question": "Quel réalisateur soviétique est l'auteur du film documentaire expérimental 'L'Homme à la caméra' (1929), sans intertitres ni acteurs ?",
+        "reponse": "Dziga Vertov",
+        "propositions": [
+          "Dziga Vertov",
+          "Sergueï Eisenstein",
+          "Lev Koulechov",
+          "Esfir Choub"
+        ],
+        "explication": "Vertov y théorise le concept de 'ciné-œil', une caméra capable de capter une réalité que l'œil humain ne peut percevoir seul."
+      },
+      {
+        "question": "Quel réalisateur espagnol, en collaboration avec Salvador Dalí, a réalisé le court métrage surréaliste 'Un chien andalou' (1929) ?",
+        "reponse": "Luis Buñuel",
+        "propositions": [
+          "Luis Buñuel",
+          "Salvador Dalí (seul réalisateur)",
+          "Jean Epstein",
+          "Germaine Dulac"
+        ],
+        "explication": "Ce court métrage, célèbre pour sa scène d'œil tranché à la lame de rasoir, reste une œuvre fondatrice du cinéma surréaliste."
+      },
+      {
+        "question": "Quel réalisateur italien, figure du modernisme cinématographique, est l'auteur de 'L'Avventura' (1960) ?",
+        "reponse": "Michelangelo Antonioni",
+        "propositions": [
+          "Michelangelo Antonioni",
+          "Federico Fellini",
+          "Luchino Visconti",
+          "Pier Paolo Pasolini"
+        ],
+        "explication": "Antonioni y développe une narration elliptique centrée sur l'incommunicabilité entre les personnages."
+      },
+      {
+        "question": "Quel réalisateur et écrivain italien, figure controversée du cinéma d'auteur, a réalisé 'Salò ou les 120 journées de Sodome' (1975) ?",
+        "reponse": "Pier Paolo Pasolini",
+        "propositions": [
+          "Pier Paolo Pasolini",
+          "Michelangelo Antonioni",
+          "Bernardo Bertolucci",
+          "Marco Bellocchio"
+        ],
+        "explication": "Pasolini a été assassiné quelques mois avant la sortie de ce film, l'un des plus controversés de l'histoire du cinéma."
+      },
+      {
+        "question": "Quel réalisateur danois du cinéma muet est l'auteur de 'La Passion de Jeanne d'Arc' (1928) ?",
+        "reponse": "Carl Theodor Dreyer",
+        "propositions": [
+          "Carl Theodor Dreyer",
+          "Victor Sjöström",
+          "Benjamin Christensen",
+          "Mauritz Stiller"
+        ],
+        "explication": "Le film est réputé pour ses gros plans intenses sur le visage de l'actrice Renée Falconetti."
+      },
+      {
+        "question": "Quel réalisateur allemand a signé 'Le Cabinet du docteur Caligari' (1920), œuvre fondatrice de l'expressionnisme cinématographique ?",
+        "reponse": "Robert Wiene",
+        "propositions": [
+          "Robert Wiene",
+          "Fritz Lang",
+          "Friedrich Wilhelm Murnau",
+          "Paul Leni"
+        ],
+        "explication": "Ses décors peints délibérément déformés traduisent visuellement la folie du récit."
+      },
+      {
+        "question": "Quel réalisateur suédois du cinéma muet, pionnier avec 'La Charrette fantôme' (1921), a ensuite eu une influence durable sur Ingmar Bergman ?",
+        "reponse": "Victor Sjöström",
+        "propositions": [
+          "Victor Sjöström",
+          "Mauritz Stiller",
+          "Carl Theodor Dreyer",
+          "Benjamin Christensen"
+        ],
+        "explication": "Sjöström a aussi joué l'acteur principal du film de Bergman 'Les Fraises sauvages' (1957) à la fin de sa carrière."
+      },
+      {
+        "question": "Quel réalisateur français, fils du peintre impressionniste Auguste Renoir, a signé 'La Règle du jeu' (1939), satire de la bourgeoisie française ?",
+        "reponse": "Jean Renoir",
+        "propositions": [
+          "Jean Renoir",
+          "Marcel Carné",
+          "Julien Duvivier",
+          "Sacha Guitry"
+        ],
+        "explication": "Mal accueilli à sa sortie, 'La Règle du jeu' est aujourd'hui considéré comme l'un des plus grands films français."
+      },
+      {
+        "question": "Quel réalisateur et acteur américain a réalisé 'Citizen Kane' (1941) à seulement 25 ans, souvent cité comme le plus grand film de l'histoire du cinéma ?",
+        "reponse": "Orson Welles",
+        "propositions": [
+          "Orson Welles",
+          "John Huston",
+          "William Wyler",
+          "Preston Sturges"
+        ],
+        "explication": "Welles y a innové avec des techniques de profondeur de champ et une structure narrative non chronologique."
       }
     ]
   }

@@ -166,6 +166,116 @@
           "Consul à vie (titre ultérieur)"
         ],
         "explication": "Il devient ensuite 'Consul à vie' en 1802, avant l'Empire en 1804."
+      },
+      {
+        "question": "Quelle est la date de naissance de Napoléon Bonaparte ?",
+        "reponse": "Le 15 août 1769",
+        "propositions": [
+          "Le 15 août 1769",
+          "Le 5 mai 1769",
+          "Le 20 avril 1770",
+          "Le 2 décembre 1769"
+        ],
+        "explication": "Napoléon est né à Ajaccio le 15 août 1769, le jour même de la fête de l'Assomption."
+      },
+      {
+        "question": "Quel est le nom de la mère de Napoléon Bonaparte ?",
+        "reponse": "Letizia Bonaparte",
+        "propositions": [
+          "Letizia Bonaparte",
+          "Joséphine de Beauharnais",
+          "Marie-Louise d'Autriche",
+          "Pauline Bonaparte"
+        ],
+        "explication": "Letizia Ramolino, dite Letizia Bonaparte, a eu huit enfants, dont Napoléon est le deuxième à avoir survécu."
+      },
+      {
+        "question": "Quelle bataille de 1800 permet à Napoléon, alors Premier Consul, de battre les Autrichiens en Italie du Nord ?",
+        "reponse": "La bataille de Marengo",
+        "propositions": [
+          "La bataille de Marengo",
+          "La bataille d'Austerlitz",
+          "La bataille de Wagram",
+          "La bataille d'Iéna"
+        ],
+        "explication": "Cette victoire, acquise de justesse, consolide durablement l'autorité politique de Napoléon en France."
+      },
+      {
+        "question": "Un an avant la naissance de Napoléon, quelle île venait d'être rattachée à la France ?",
+        "reponse": "La Corse",
+        "propositions": [
+          "La Corse",
+          "La Sardaigne",
+          "La Sicile",
+          "Malte"
+        ],
+        "explication": "La Corse, cédée par la République de Gênes, devient française en 1768, un an avant la naissance de Napoléon."
+      },
+      {
+        "question": "Quel palais parisien est devenu la résidence principale de Napoléon lorsqu'il était empereur ?",
+        "reponse": "Le palais des Tuileries",
+        "propositions": [
+          "Le palais des Tuileries",
+          "Le palais de Versailles",
+          "Le palais du Luxembourg",
+          "Le palais de l'Élysée"
+        ],
+        "explication": "Napoléon résidait principalement aux Tuileries, au cœur de Paris, lorsqu'il n'était pas en campagne."
+      },
+      {
+        "question": "Quelle taille mesurait approximativement Napoléon, contrairement à l'idée répandue selon laquelle il aurait été très petit ?",
+        "reponse": "Environ 1,68 m",
+        "propositions": [
+          "Environ 1,68 m",
+          "Environ 1,50 m",
+          "Environ 1,90 m",
+          "Environ 1,75 m"
+        ],
+        "explication": "Cette taille était proche de la moyenne des hommes de son époque ; la légende du 'petit' Napoléon vient en partie d'une confusion de mesure britannique-française."
+      },
+      {
+        "question": "Quel est le nom du cheval le plus célèbre de Napoléon, qui l'a accompagné lors de nombreuses batailles ?",
+        "reponse": "Marengo",
+        "propositions": [
+          "Marengo",
+          "Vizir",
+          "Austerlitz",
+          "Désirée"
+        ],
+        "explication": "Ce cheval gris arabe doit son nom à la bataille de Marengo et a survécu à Napoléon."
+      },
+      {
+        "question": "Quel est le prénom du frère aîné de Napoléon, qui deviendra roi d'Espagne ?",
+        "reponse": "Joseph",
+        "propositions": [
+          "Joseph",
+          "Lucien",
+          "Louis",
+          "Jérôme"
+        ],
+        "explication": "Joseph Bonaparte, l'aîné des frères, a d'abord régné sur Naples avant d'être placé sur le trône d'Espagne en 1808."
+      },
+      {
+        "question": "Quelle institution militaire Napoléon a-t-il intégrée comme élève avant de devenir officier d'artillerie ?",
+        "reponse": "L'École militaire de Paris",
+        "propositions": [
+          "L'École militaire de Paris",
+          "Saint-Cyr",
+          "Polytechnique",
+          "L'École navale"
+        ],
+        "explication": "Napoléon a étudié à l'École royale militaire de Brienne puis à celle de Paris avant d'entrer dans l'artillerie."
+      },
+      {
+        "question": "Quel est le nom de la sœur de Napoléon qui a épousé le général Murat, futur roi de Naples ?",
+        "reponse": "Caroline Bonaparte",
+        "propositions": [
+          "Caroline Bonaparte",
+          "Pauline Bonaparte",
+          "Élisa Bonaparte",
+          "Letizia Bonaparte"
+        ],
+        "explication": "Caroline Bonaparte est devenue reine de Naples aux côtés de son mari Joachim Murat."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Le traité de Fontainebleau (accord, pas congrès)"
         ],
         "explication": "Ce congrès, mené par Metternich, redessine durablement les frontières européennes."
+      },
+      {
+        "question": "Quelle bataille de 1806 voit Napoléon écraser l'armée prussienne en une seule journée, entraînant l'occupation de Berlin ?",
+        "reponse": "La bataille d'Iéna",
+        "propositions": [
+          "La bataille d'Iéna",
+          "La bataille d'Austerlitz",
+          "La bataille de Wagram",
+          "La bataille d'Eylau"
+        ],
+        "explication": "Cette double victoire d'Iéna et d'Auerstaedt, remportée le même jour, brise durablement la puissance militaire prussienne."
+      },
+      {
+        "question": "Quelle constitution de 1799, rédigée après le coup d'État du 18 Brumaire, établit le régime du Consulat ?",
+        "reponse": "La Constitution de l'an VIII",
+        "propositions": [
+          "La Constitution de l'an VIII",
+          "La Constitution de l'an III",
+          "La Constitution de l'an I",
+          "La Charte de 1814"
+        ],
+        "explication": "Cette constitution concentre l'essentiel du pouvoir exécutif dans les mains du Premier Consul."
+      },
+      {
+        "question": "Quel système de mesure, aujourd'hui utilisé dans le monde entier, a été généralisé en France sous le Consulat et l'Empire ?",
+        "reponse": "Le système métrique",
+        "propositions": [
+          "Le système métrique",
+          "Le système impérial",
+          "Le système sexagésimal",
+          "Le calendrier révolutionnaire"
+        ],
+        "explication": "Napoléon rend obligatoire l'usage du système métrique décimal par un décret de 1801, confirmé en 1812."
+      },
+      {
+        "question": "Quel maréchal d'Empire a occupé le poste de major général (chef d'état-major) de la Grande Armée tout au long des campagnes napoléoniennes ?",
+        "reponse": "Louis-Alexandre Berthier",
+        "propositions": [
+          "Louis-Alexandre Berthier",
+          "Jean-de-Dieu Soult",
+          "André Masséna",
+          "Jean Lannes"
+        ],
+        "explication": "Berthier a organisé la logistique et les communications de la Grande Armée pendant près de vingt ans."
+      },
+      {
+        "question": "Quel traité de 1802, signé avec le Royaume-Uni, instaure une paix de courte durée avant la reprise des hostilités en 1803 ?",
+        "reponse": "La paix d'Amiens",
+        "propositions": [
+          "La paix d'Amiens",
+          "Le traité de Lunéville",
+          "Le traité de Presbourg",
+          "Le traité de Tilsit"
+        ],
+        "explication": "Cette paix est rompue dès 1803, relançant les guerres napoléoniennes pour plus d'une décennie."
+      },
+      {
+        "question": "Quelle institution centralisée, créée par Napoléon en 1808, a été chargée de superviser l'ensemble de l'enseignement public français ?",
+        "reponse": "L'Université impériale",
+        "propositions": [
+          "L'Université impériale",
+          "L'École normale supérieure",
+          "Le Collège de France",
+          "La Sorbonne"
+        ],
+        "explication": "Cette institution centralisait l'organisation de tout l'enseignement, du primaire à l'université."
+      },
+      {
+        "question": "Quel territoire américain, vendu par Napoléon aux États-Unis en 1803, a doublé la superficie de ce pays ?",
+        "reponse": "La Louisiane",
+        "propositions": [
+          "La Louisiane",
+          "La Floride",
+          "Le Texas",
+          "Le Québec"
+        ],
+        "explication": "Cette vente, négociée pour environ 15 millions de dollars, a financé en partie les guerres napoléoniennes en Europe."
+      },
+      {
+        "question": "Quel soulèvement, déclenché par l'occupation française de l'Espagne en 1808, a enlisé durablement une partie de l'armée napoléonienne ?",
+        "reponse": "La guerre d'indépendance espagnole",
+        "propositions": [
+          "La guerre d'indépendance espagnole",
+          "La révolte des Vendéens",
+          "Le soulèvement tyrolien",
+          "La guerre carliste"
+        ],
+        "explication": "Ce conflit, marqué par une guérilla acharnée, est resté dans la mémoire napoléonienne comme 'l'ulcère espagnol'."
+      },
+      {
+        "question": "Quel traité de 1797, signé après la victorieuse campagne d'Italie, met fin à la guerre entre la France et l'Autriche ?",
+        "reponse": "Le traité de Campoformio",
+        "propositions": [
+          "Le traité de Campoformio",
+          "Le traité de Lunéville",
+          "Le traité de Presbourg",
+          "Le traité d'Amiens"
+        ],
+        "explication": "Ce traité confirme les conquêtes françaises en Italie et consacre la fin de la première coalition contre la France."
+      },
+      {
+        "question": "Quel code juridique napoléonien de 1810 fixe les infractions et les peines applicables en France ?",
+        "reponse": "Le Code pénal",
+        "propositions": [
+          "Le Code pénal",
+          "Le Code civil",
+          "Le Code de commerce",
+          "Le Code forestier"
+        ],
+        "explication": "Ce code remplace l'ancien droit pénal révolutionnaire et reste la base du droit pénal français pendant près de deux siècles."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Henry Paget"
         ],
         "explication": "Wellington avait déjà combattu les troupes françaises en Espagne lors de la guerre d'indépendance espagnole."
+      },
+      {
+        "question": "Quel général français, tué au combat à la bataille de Marengo en 1800, a permis par son arrivée inopinée de transformer une défaite apparente en victoire ?",
+        "reponse": "Louis Desaix",
+        "propositions": [
+          "Louis Desaix",
+          "Jean Lannes",
+          "Jean-Baptiste Kléber",
+          "André Masséna"
+        ],
+        "explication": "Desaix meurt au moment même où sa contre-attaque permet de renverser le cours de la bataille."
+      },
+      {
+        "question": "Quel général français a été assassiné au Caire en 1800, alors qu'il commandait l'armée d'Égypte après le départ de Napoléon ?",
+        "reponse": "Jean-Baptiste Kléber",
+        "propositions": [
+          "Jean-Baptiste Kléber",
+          "Jacques-François Menou",
+          "Louis Desaix",
+          "Jean Lannes"
+        ],
+        "explication": "Kléber a été poignardé par un étudiant syrien peu après sa victoire sur les Ottomans à Héliopolis."
+      },
+      {
+        "question": "Quel fils adoptif de Napoléon, né du premier mariage de Joséphine, a été nommé vice-roi d'Italie en 1805 ?",
+        "reponse": "Eugène de Beauharnais",
+        "propositions": [
+          "Eugène de Beauharnais",
+          "Joachim Murat",
+          "Jérôme Bonaparte",
+          "Louis Bonaparte"
+        ],
+        "explication": "Eugène de Beauharnais, fils de Joséphine, a été adopté par Napoléon et a gouverné le royaume d'Italie napoléonien."
+      },
+      {
+        "question": "Quel était le nom du navire amiral de l'amiral Nelson lors de la bataille de Trafalgar en 1805 ?",
+        "reponse": "Le HMS Victory",
+        "propositions": [
+          "Le HMS Victory",
+          "Le HMS Bellerophon",
+          "Le HMS Téméraire",
+          "Le HMS Royal Sovereign"
+        ],
+        "explication": "Nelson est mortellement blessé sur ce navire, aujourd'hui conservé à Portsmouth."
+      },
+      {
+        "question": "Sur quel navire britannique Napoléon s'est-il rendu après Waterloo, avant son transfert final vers Sainte-Hélène ?",
+        "reponse": "Le HMS Bellerophon",
+        "propositions": [
+          "Le HMS Bellerophon",
+          "Le HMS Victory",
+          "Le HMS Northumberland",
+          "Le HMS Téméraire"
+        ],
+        "explication": "Napoléon a ensuite été transféré sur le HMS Northumberland pour la traversée finale vers Sainte-Hélène."
+      },
+      {
+        "question": "Quel médecin corse a assisté Napoléon lors de ses derniers jours à Sainte-Hélène et pratiqué son autopsie en 1821 ?",
+        "reponse": "Francesco Antommarchi",
+        "propositions": [
+          "Francesco Antommarchi",
+          "Barry O'Meara",
+          "John Stokoe",
+          "Archibald Arnott"
+        ],
+        "explication": "L'autopsie a conclu à un cancer de l'estomac comme cause probable du décès, une thèse toujours débattue aujourd'hui."
+      },
+      {
+        "question": "Quel mathématicien et physicien français, membre de l'expédition d'Égypte, a laissé son nom à une loi fondamentale de la conduction thermique ?",
+        "reponse": "Jean-Baptiste Joseph Fourier",
+        "propositions": [
+          "Jean-Baptiste Joseph Fourier",
+          "Gaspard Monge",
+          "Claude Louis Berthollet",
+          "Étienne-Louis Malus"
+        ],
+        "explication": "Fourier a également présidé la commission des sciences et des arts durant la campagne d'Égypte."
+      },
+      {
+        "question": "Quelle bataille de 1813, l'une des plus grandes d'Europe avant la Première Guerre mondiale, voit la défaite décisive de Napoléon face à la coalition près de Leipzig ?",
+        "reponse": "La bataille de Leipzig",
+        "propositions": [
+          "La bataille de Leipzig",
+          "La bataille de Dresde",
+          "La bataille de Lützen",
+          "La bataille de Bautzen"
+        ],
+        "explication": "Cette bataille, surnommée 'la Bataille des Nations', rassemble plus de 500 000 combattants."
+      },
+      {
+        "question": "Quel fleuve, franchi dans des conditions catastrophiques en novembre 1812, est resté le symbole du désastre de la retraite de Russie ?",
+        "reponse": "La Bérézina",
+        "propositions": [
+          "La Bérézina",
+          "Le Niémen",
+          "Le Dniepr",
+          "La Moskova"
+        ],
+        "explication": "Le passage de la Bérézina, sous le feu ennemi, a causé d'énormes pertes parmi les soldats et les traînards de la Grande Armée."
+      },
+      {
+        "question": "Quel surnom affectueux désigne les soldats vétérans de la Garde impériale, réputés pour leur bravoure autant que pour leurs récriminations ?",
+        "reponse": "Les grognards",
+        "propositions": [
+          "Les grognards",
+          "Les cuirassiers",
+          "Les voltigeurs",
+          "Les carabiniers"
+        ],
+        "explication": "Ce surnom leur aurait été donné par Napoléon lui-même, malgré leurs plaintes continuelles, en raison de leur fidélité inébranlable."
       }
     ]
   }

@@ -166,6 +166,116 @@
           "Le solide"
         ],
         "explication": "Le plasma est un gaz ionisé, considéré comme le quatrième état de la matière."
+      },
+      {
+        "question": "Quelle unité mesure l'intensité d'un courant électrique ?",
+        "reponse": "L'ampère",
+        "propositions": [
+          "L'ampère",
+          "Le volt",
+          "Le watt",
+          "L'ohm"
+        ],
+        "explication": "L'ampère porte le nom du physicien français André-Marie Ampère."
+      },
+      {
+        "question": "Quelle unité du Système international mesure une longueur ?",
+        "reponse": "Le mètre",
+        "propositions": [
+          "Le mètre",
+          "Le litre",
+          "Le kilogramme",
+          "Le watt"
+        ],
+        "explication": "Le mètre a été initialement défini à partir du méridien terrestre."
+      },
+      {
+        "question": "Quelle loi relie la tension, l'intensité et la résistance dans un circuit électrique (U = R × I) ?",
+        "reponse": "La loi d'Ohm",
+        "propositions": [
+          "La loi d'Ohm",
+          "La loi de Newton",
+          "La loi de Hooke",
+          "La loi de Coulomb"
+        ],
+        "explication": "Cette loi, formulée par Georg Ohm, est fondamentale en électricité."
+      },
+      {
+        "question": "Dans quel milieu le son ne peut-il pas se propager, faute de matière pour le transmettre ?",
+        "reponse": "Le vide",
+        "propositions": [
+          "Le vide",
+          "L'air",
+          "L'eau",
+          "Le métal"
+        ],
+        "explication": "Le son a besoin d'un support matériel (gaz, liquide ou solide) pour se propager, contrairement à la lumière."
+      },
+      {
+        "question": "Quel physicien américain est connu pour son expérience du cerf-volant démontrant la nature électrique de la foudre ?",
+        "reponse": "Benjamin Franklin",
+        "propositions": [
+          "Benjamin Franklin",
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Alessandro Volta"
+        ],
+        "explication": "Cette expérience, menée en 1752, a contribué à l'invention du paratonnerre."
+      },
+      {
+        "question": "Quelle force s'oppose au mouvement d'un objet glissant sur une surface ?",
+        "reponse": "Le frottement",
+        "propositions": [
+          "Le frottement",
+          "La gravité",
+          "L'inertie",
+          "La poussée d'Archimède"
+        ],
+        "explication": "Le frottement dissipe de l'énergie sous forme de chaleur et ralentit les objets en mouvement."
+      },
+      {
+        "question": "Quelle unité du Système international mesure le temps ?",
+        "reponse": "La seconde",
+        "propositions": [
+          "La seconde",
+          "Le hertz",
+          "Le joule",
+          "Le watt"
+        ],
+        "explication": "La seconde est aujourd'hui définie à partir des oscillations d'un atome de césium."
+      },
+      {
+        "question": "Quel outil simple permet de démultiplier une force en s'appuyant sur un point fixe appelé pivot ?",
+        "reponse": "Le levier",
+        "propositions": [
+          "Le levier",
+          "La poulie",
+          "Le plan incliné",
+          "La vis"
+        ],
+        "explication": "Le levier est l'une des machines simples les plus anciennes utilisées par l'humanité."
+      },
+      {
+        "question": "Quel phénomène permet à un aimant d'attirer des objets en fer sans contact direct ?",
+        "reponse": "Le magnétisme",
+        "propositions": [
+          "Le magnétisme",
+          "La gravité",
+          "L'électricité statique",
+          "La pression"
+        ],
+        "explication": "Le magnétisme est une force fondamentale exploitée notamment dans les boussoles."
+      },
+      {
+        "question": "Comment appelle-t-on le passage de la chaleur d'un corps chaud vers un corps plus froid ?",
+        "reponse": "Le transfert de chaleur",
+        "propositions": [
+          "Le transfert de chaleur",
+          "La dilatation",
+          "L'évaporation",
+          "La combustion"
+        ],
+        "explication": "La chaleur se transmet par conduction, convection ou rayonnement, toujours du chaud vers le froid."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "L'inertie rotationnelle"
         ],
         "explication": "Cet effet est utilisé dans les gyroscopes de navigation et de stabilisation."
+      },
+      {
+        "question": "Quelle unité mesure la quantité d'électricité, c'est-à-dire la charge électrique ?",
+        "reponse": "Le coulomb",
+        "propositions": [
+          "Le coulomb",
+          "L'ampère",
+          "Le volt",
+          "Le farad"
+        ],
+        "explication": "Le coulomb correspond à la charge transportée par un courant d'un ampère pendant une seconde."
+      },
+      {
+        "question": "Quelle loi décrit la déviation d'un rayon lumineux passant d'un milieu transparent à un autre ?",
+        "reponse": "La loi de la réfraction (loi de Snell-Descartes)",
+        "propositions": [
+          "La loi de la réfraction (loi de Snell-Descartes)",
+          "La loi de la réflexion",
+          "La loi de Hooke",
+          "La loi de Coulomb"
+        ],
+        "explication": "Cette loi relie les angles d'incidence et de réfraction aux indices optiques des deux milieux."
+      },
+      {
+        "question": "Quel ingénieur français du XIXe siècle est considéré comme le fondateur de la thermodynamique grâce à ses travaux sur le rendement des machines à vapeur ?",
+        "reponse": "Sadi Carnot",
+        "propositions": [
+          "Sadi Carnot",
+          "James Joule",
+          "Rudolf Clausius",
+          "William Thomson (Lord Kelvin)"
+        ],
+        "explication": "Carnot a décrit en 1824 le cycle théorique idéal portant son nom, fixant une limite au rendement des moteurs thermiques."
+      },
+      {
+        "question": "Quelle force, dirigée vers le centre, maintient un objet sur une trajectoire circulaire ?",
+        "reponse": "La force centripète",
+        "propositions": [
+          "La force centripète",
+          "La force centrifuge",
+          "La force de Coriolis",
+          "La force de frottement"
+        ],
+        "explication": "Sans cette force, un objet en mouvement circulaire partirait en ligne droite, selon le principe d'inertie."
+      },
+      {
+        "question": "Quelle grandeur physique indique la quantité de chaleur nécessaire pour élever d'un degré la température d'un kilogramme de matière ?",
+        "reponse": "La chaleur spécifique (capacité thermique massique)",
+        "propositions": [
+          "La chaleur spécifique (capacité thermique massique)",
+          "La conductivité thermique",
+          "La chaleur latente",
+          "L'entropie"
+        ],
+        "explication": "L'eau possède une chaleur spécifique élevée, ce qui lui permet de stocker beaucoup d'énergie thermique."
+      },
+      {
+        "question": "Quel phénomène se produit lorsqu'un système oscillant est excité à une fréquence proche de sa fréquence propre, amplifiant fortement les oscillations ?",
+        "reponse": "La résonance",
+        "propositions": [
+          "La résonance",
+          "L'interférence",
+          "La diffraction",
+          "L'amortissement"
+        ],
+        "explication": "La résonance peut, dans certains cas, provoquer la destruction de structures comme des ponts ou des verres."
+      },
+      {
+        "question": "Quel principe de mécanique des fluides explique qu'une augmentation de la vitesse d'un fluide s'accompagne d'une diminution de sa pression, expliquant la portance d'une aile d'avion ?",
+        "reponse": "Le principe de Bernoulli",
+        "propositions": [
+          "Le principe de Bernoulli",
+          "Le principe d'Archimède",
+          "Le principe de Pascal",
+          "Le théorème de Torricelli"
+        ],
+        "explication": "Daniel Bernoulli a formulé ce principe au XVIIIe siècle dans le cadre de ses travaux sur l'hydrodynamique."
+      },
+      {
+        "question": "Quel physicien italien a inventé la première pile électrique en 1800, permettant de produire un courant continu ?",
+        "reponse": "Alessandro Volta",
+        "propositions": [
+          "Alessandro Volta",
+          "André-Marie Ampère",
+          "Luigi Galvani",
+          "Georg Ohm"
+        ],
+        "explication": "Le volt, unité de tension électrique, a été nommé en son honneur."
+      },
+      {
+        "question": "Quelle grandeur, mesurée en pascals-seconde, caractérise la résistance d'un fluide à l'écoulement ?",
+        "reponse": "La viscosité",
+        "propositions": [
+          "La viscosité",
+          "La densité",
+          "La tension superficielle",
+          "La pression"
+        ],
+        "explication": "Le miel, par exemple, possède une viscosité beaucoup plus élevée que l'eau."
+      },
+      {
+        "question": "Quel effet, lié à la rotation de la Terre, dévie la trajectoire des vents et des courants marins vers la droite dans l'hémisphère nord ?",
+        "reponse": "L'effet Coriolis",
+        "propositions": [
+          "L'effet Coriolis",
+          "L'effet gyroscopique",
+          "L'effet Doppler",
+          "L'effet de serre"
+        ],
+        "explication": "L'effet Coriolis influence notamment la formation des cyclones et des courants océaniques."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Enrico Fermi"
         ],
         "explication": "L'équation de Dirac a permis de prédire l'existence du positron, confirmée expérimentalement en 1932."
+      },
+      {
+        "question": "Quelle interaction fondamentale est responsable de la radioactivité bêta, en permettant à un neutron de se transformer en proton ?",
+        "reponse": "L'interaction nucléaire faible",
+        "propositions": [
+          "L'interaction nucléaire faible",
+          "L'interaction nucléaire forte",
+          "L'interaction électromagnétique",
+          "La gravitation"
+        ],
+        "explication": "L'interaction faible est médiée par les bosons W et Z, découverts expérimentalement au CERN en 1983."
+      },
+      {
+        "question": "Combien de types ('saveurs') de quarks le modèle standard de la physique des particules compte-t-il ?",
+        "reponse": "6",
+        "propositions": [
+          "6",
+          "4",
+          "8",
+          "3"
+        ],
+        "explication": "Les six quarks sont nommés up, down, charm, strange, top et bottom."
+      },
+      {
+        "question": "Quel théorème mathématique, formulé en 1918, relie les symétries continues d'un système physique à des lois de conservation (énergie, quantité de mouvement...) ?",
+        "reponse": "Le théorème de Noether",
+        "propositions": [
+          "Le théorème de Noether",
+          "Le principe d'incertitude de Heisenberg",
+          "Le théorème de Bell",
+          "Le théorème H de Boltzmann"
+        ],
+        "explication": "Emmy Noether a démontré ce théorème fondamental, reliant par exemple l'invariance temporelle à la conservation de l'énergie."
+      },
+      {
+        "question": "Quelle expérience, menée par Chien-Shiung Wu en 1956, a démontré que l'interaction faible ne respecte pas la symétrie de parité ?",
+        "reponse": "L'expérience de Wu sur la désintégration bêta du cobalt-60",
+        "propositions": [
+          "L'expérience de Wu sur la désintégration bêta du cobalt-60",
+          "L'expérience de Michelson-Morley",
+          "L'expérience de la double fente",
+          "L'expérience de Stern-Gerlach"
+        ],
+        "explication": "Cette découverte a valu le prix Nobel de physique 1957 à Tsung-Dao Lee et Chen-Ning Yang, qui avaient prédit ce résultat."
+      },
+      {
+        "question": "Quel phénomène, confirmé en 1998 et récompensé par le prix Nobel 2015, montre que les neutrinos possèdent une masse non nulle en changeant de type en se déplaçant ?",
+        "reponse": "L'oscillation des neutrinos",
+        "propositions": [
+          "L'oscillation des neutrinos",
+          "La désintégration bêta",
+          "L'effet tunnel",
+          "L'intrication quantique"
+        ],
+        "explication": "Ce phénomène a été observé grâce à des détecteurs comme Super-Kamiokande au Japon."
+      },
+      {
+        "question": "Quel rayonnement théorique, prédit par Stephen Hawking en 1974, suggère que les trous noirs peuvent émettre des particules et s'évaporer lentement ?",
+        "reponse": "Le rayonnement de Hawking",
+        "propositions": [
+          "Le rayonnement de Hawking",
+          "Le rayonnement de Cherenkov",
+          "Le rayonnement de freinage (bremsstrahlung)",
+          "Le rayonnement de fond cosmologique"
+        ],
+        "explication": "Ce rayonnement résulterait de la création de paires de particules virtuelles près de l'horizon des événements."
+      },
+      {
+        "question": "Quel effet quantique, observé entre deux plaques métalliques très proches placées dans le vide, montre l'existence de fluctuations d'énergie du vide ?",
+        "reponse": "L'effet Casimir",
+        "propositions": [
+          "L'effet Casimir",
+          "L'effet tunnel",
+          "L'effet Doppler",
+          "L'effet photoélectrique"
+        ],
+        "explication": "Prédit par Hendrik Casimir en 1948, cet effet attire légèrement les deux plaques l'une vers l'autre."
+      },
+      {
+        "question": "Quel principe de la mécanique quantique stipule que deux fermions identiques (comme deux électrons) ne peuvent occuper simultanément le même état quantique ?",
+        "reponse": "Le principe d'exclusion de Pauli",
+        "propositions": [
+          "Le principe d'exclusion de Pauli",
+          "Le principe d'incertitude de Heisenberg",
+          "Le théorème de Noether",
+          "La dualité onde-corpuscule"
+        ],
+        "explication": "Ce principe, formulé par Wolfgang Pauli en 1925, explique notamment la structure en couches des atomes."
+      },
+      {
+        "question": "Quelle découverte expérimentale, confirmée en 2015 par les détecteurs LIGO, a validé une prédiction d'Einstein datant de 1916 ?",
+        "reponse": "Les ondes gravitationnelles",
+        "propositions": [
+          "Les ondes gravitationnelles",
+          "Le boson de Higgs",
+          "La lentille gravitationnelle",
+          "L'expansion accélérée de l'univers"
+        ],
+        "explication": "Ces ondes, issues de la fusion de deux trous noirs, déforment infinitésimalement l'espace-temps lors de leur passage."
+      },
+      {
+        "question": "Quel physicien américain a développé la formulation de la mécanique quantique par intégrale de chemin et contribué à l'électrodynamique quantique (QED) ?",
+        "reponse": "Richard Feynman",
+        "propositions": [
+          "Richard Feynman",
+          "Julian Schwinger",
+          "Sin-Itiro Tomonaga",
+          "Freeman Dyson"
+        ],
+        "explication": "Feynman, Schwinger et Tomonaga ont partagé le prix Nobel de physique 1965 pour leurs travaux sur l'électrodynamique quantique."
       }
     ]
   }

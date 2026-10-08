@@ -166,6 +166,116 @@
           "La solidification"
         ],
         "explication": "L'évaporation joue un rôle central dans le cycle de l'eau sur Terre."
+      },
+      {
+        "question": "Quelle est la formule chimique de l'eau ?",
+        "reponse": "H2O",
+        "propositions": [
+          "H2O",
+          "CO2",
+          "O2",
+          "H2O2"
+        ],
+        "explication": "L'eau est composée de deux atomes d'hydrogène et d'un atome d'oxygène."
+      },
+      {
+        "question": "Quel est le plus grand organe du corps humain ?",
+        "reponse": "La peau",
+        "propositions": [
+          "La peau",
+          "Le foie",
+          "Le cœur",
+          "Le cerveau"
+        ],
+        "explication": "La peau représente environ 16 % du poids total du corps humain."
+      },
+      {
+        "question": "Combien d'os compte en moyenne le squelette d'un adulte humain ?",
+        "reponse": "206",
+        "propositions": [
+          "206",
+          "150",
+          "300",
+          "100"
+        ],
+        "explication": "Un nouveau-né possède plus d'os qu'un adulte, certains fusionnant au cours de la croissance."
+      },
+      {
+        "question": "Pourquoi la Terre est-elle parfois surnommée la 'planète bleue' ?",
+        "reponse": "Parce que les océans couvrent environ 70 % de sa surface",
+        "propositions": [
+          "Parce que les océans couvrent environ 70 % de sa surface",
+          "Parce que son atmosphère est bleue vue de près",
+          "Parce qu'elle est entièrement recouverte de glace",
+          "Parce que son noyau est composé de cuivre"
+        ],
+        "explication": "Vue de l'espace, la Terre apparaît dominée par le bleu des océans."
+      },
+      {
+        "question": "Quel produit sucré les abeilles fabriquent-elles à partir du nectar des fleurs ?",
+        "reponse": "Le miel",
+        "propositions": [
+          "Le miel",
+          "La cire",
+          "La gelée royale",
+          "Le pollen"
+        ],
+        "explication": "Les abeilles transforment le nectar en miel pour le stocker comme réserve de nourriture."
+      },
+      {
+        "question": "Quel gaz est le plus abondant dans l'atmosphère terrestre, représentant environ 78 % de sa composition ?",
+        "reponse": "L'azote",
+        "propositions": [
+          "L'azote",
+          "L'oxygène",
+          "Le dioxyde de carbone",
+          "L'argon"
+        ],
+        "explication": "L'oxygène, bien que vital pour la respiration, ne représente qu'environ 21 % de l'atmosphère."
+      },
+      {
+        "question": "Comment appelle-t-on un animal qui se nourrit exclusivement de végétaux ?",
+        "reponse": "Un herbivore",
+        "propositions": [
+          "Un herbivore",
+          "Un carnivore",
+          "Un omnivore",
+          "Un détritivore"
+        ],
+        "explication": "La vache ou le lapin sont des exemples d'animaux herbivores."
+      },
+      {
+        "question": "Quel organe du corps humain est chargé de pomper le sang dans tout le corps ?",
+        "reponse": "Le cœur",
+        "propositions": [
+          "Le cœur",
+          "Le foie",
+          "Le poumon",
+          "Le rein"
+        ],
+        "explication": "Le cœur bat en moyenne plus de 100 000 fois par jour chez un adulte."
+      },
+      {
+        "question": "Combien de sens principaux l'être humain possède-t-il traditionnellement ?",
+        "reponse": "5",
+        "propositions": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "explication": "La vue, l'ouïe, l'odorat, le goût et le toucher constituent les cinq sens traditionnels."
+      },
+      {
+        "question": "Quel astre est principalement responsable des marées océaniques sur Terre ?",
+        "reponse": "La Lune",
+        "propositions": [
+          "La Lune",
+          "Le Soleil",
+          "Mars",
+          "Vénus"
+        ],
+        "explication": "La Lune exerce une attraction gravitationnelle qui soulève les océans, créant les marées, le Soleil ayant une influence secondaire."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Le noyau interne"
         ],
         "explication": "La lithosphère comprend la croûte terrestre et la partie supérieure rigide du manteau."
+      },
+      {
+        "question": "Quel phénomène physique décrit le déplacement de l'eau à travers une membrane semi-perméable, d'un milieu moins concentré vers un milieu plus concentré en soluté ?",
+        "reponse": "L'osmose",
+        "propositions": [
+          "L'osmose",
+          "La diffusion simple",
+          "La capillarité",
+          "La filtration"
+        ],
+        "explication": "L'osmose joue un rôle essentiel dans l'absorption de l'eau par les racines des plantes."
+      },
+      {
+        "question": "Comment appelle-t-on les protéines produites par le système immunitaire pour neutraliser un agent pathogène spécifique ?",
+        "reponse": "Les anticorps",
+        "propositions": [
+          "Les anticorps",
+          "Les antigènes",
+          "Les cytokines",
+          "Les enzymes"
+        ],
+        "explication": "Un vaccin stimule la production d'anticorps spécifiques avant une éventuelle infection réelle."
+      },
+      {
+        "question": "Quel rôle jouent les enzymes dans une réaction chimique biologique ?",
+        "reponse": "Elles accélèrent la réaction en abaissant l'énergie d'activation",
+        "propositions": [
+          "Elles accélèrent la réaction en abaissant l'énergie d'activation",
+          "Elles fournissent l'énergie nécessaire à la réaction",
+          "Elles consomment la totalité des réactifs",
+          "Elles empêchent la réaction de se produire"
+        ],
+        "explication": "Les enzymes sont des catalyseurs biologiques, généralement des protéines, spécifiques à une réaction donnée."
+      },
+      {
+        "question": "Quel géophysicien allemand a proposé en 1912 la théorie de la dérive des continents, précurseur de la tectonique des plaques ?",
+        "reponse": "Alfred Wegener",
+        "propositions": [
+          "Alfred Wegener",
+          "Charles Lyell",
+          "James Hutton",
+          "Harry Hess"
+        ],
+        "explication": "Wegener s'appuyait notamment sur la correspondance des côtes de l'Afrique et de l'Amérique du Sud."
+      },
+      {
+        "question": "Combien de groupes sanguins principaux existe-t-il dans le système ABO ?",
+        "reponse": "4",
+        "propositions": [
+          "4",
+          "2",
+          "3",
+          "6"
+        ],
+        "explication": "Les groupes A, B, AB et O se distinguent par la présence ou l'absence d'antigènes à la surface des globules rouges."
+      },
+      {
+        "question": "Comment appelle-t-on la capacité d'un organisme à maintenir stable son milieu intérieur malgré les variations extérieures ?",
+        "reponse": "L'homéostasie",
+        "propositions": [
+          "L'homéostasie",
+          "La photosynthèse",
+          "L'osmose",
+          "La mitose"
+        ],
+        "explication": "La régulation de la température corporelle ou de la glycémie sont des exemples d'homéostasie chez l'humain."
+      },
+      {
+        "question": "Quel est le pH approximatif du suc gastrique présent dans l'estomac humain, très acide ?",
+        "reponse": "Environ 1 à 2",
+        "propositions": [
+          "Environ 1 à 2",
+          "Environ 7",
+          "Environ 10",
+          "Environ 4 à 5"
+        ],
+        "explication": "Cette forte acidité permet de dégrader les aliments et de détruire une grande partie des micro-organismes ingérés."
+      },
+      {
+        "question": "Quel type de roche se forme par le refroidissement et la solidification du magma ou de la lave ?",
+        "reponse": "Une roche magmatique (ignée)",
+        "propositions": [
+          "Une roche magmatique (ignée)",
+          "Une roche sédimentaire",
+          "Une roche métamorphique",
+          "Une roche carbonatée"
+        ],
+        "explication": "Le granite et le basalte sont deux exemples courants de roches magmatiques."
+      },
+      {
+        "question": "Quelle maladie, aujourd'hui rare, est causée par une carence sévère en vitamine C ?",
+        "reponse": "Le scorbut",
+        "propositions": [
+          "Le scorbut",
+          "Le rachitisme",
+          "Le béribéri",
+          "La pellagre"
+        ],
+        "explication": "Le scorbut a longtemps touché les marins privés de fruits et légumes frais lors de longues traversées."
+      },
+      {
+        "question": "Quelle couche de l'atmosphère terrestre contient la majorité de l'ozone qui filtre les rayons ultraviolets du Soleil ?",
+        "reponse": "La stratosphère",
+        "propositions": [
+          "La stratosphère",
+          "La troposphère",
+          "La mésosphère",
+          "La thermosphère"
+        ],
+        "explication": "La couche d'ozone, située dans la stratosphère, protège la vie terrestre des rayonnements UV nocifs."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Gregor Mendel"
         ],
         "explication": "Darwin et Wallace ont présenté conjointement leurs travaux à la Société linnéenne de Londres en 1858."
+      },
+      {
+        "question": "Quelles structures protectrices, situées aux extrémités des chromosomes, raccourcissent à chaque division cellulaire et sont associées au vieillissement cellulaire ?",
+        "reponse": "Les télomères",
+        "propositions": [
+          "Les télomères",
+          "Les centromères",
+          "Les histones",
+          "Les ribosomes"
+        ],
+        "explication": "L'enzyme télomérase peut allonger les télomères, un mécanisme étudié notamment dans la recherche sur le cancer et le vieillissement."
+      },
+      {
+        "question": "Quel mécanisme permet à des bactéries d'échanger directement du matériel génétique, comme des gènes de résistance aux antibiotiques, sans reproduction sexuée ?",
+        "reponse": "Le transfert horizontal de gènes",
+        "propositions": [
+          "Le transfert horizontal de gènes",
+          "La mitose",
+          "La méiose",
+          "La transcription inverse"
+        ],
+        "explication": "Ce transfert se fait notamment via des plasmides, de petits fragments d'ADN circulaires indépendants du chromosome bactérien."
+      },
+      {
+        "question": "Comment appelle-t-on la régulation de l'activité d'une enzyme par la fixation d'une molécule à un site distinct du site actif ?",
+        "reponse": "La régulation allostérique",
+        "propositions": [
+          "La régulation allostérique",
+          "La régulation génique",
+          "La rétro-inhibition compétitive",
+          "La phosphorylation simple"
+        ],
+        "explication": "Cette fixation modifie la forme tridimensionnelle de l'enzyme, augmentant ou diminuant son activité."
+      },
+      {
+        "question": "Quelle hypothèse scientifique, encore débattue, propose que la vie microbienne (ou ses précurseurs) aurait pu voyager entre planètes ou être apportée sur Terre par des météorites ?",
+        "reponse": "La panspermie",
+        "propositions": [
+          "La panspermie",
+          "L'abiogenèse spontanée",
+          "La théorie endosymbiotique",
+          "La théorie de la soupe primitive"
+        ],
+        "explication": "La panspermie reste une hypothèse marginale par rapport aux théories d'une apparition de la vie directement sur Terre."
+      },
+      {
+        "question": "Quel principe de chimie énonce qu'un système à l'équilibre, soumis à une perturbation, évolue pour s'opposer partiellement à cette perturbation ?",
+        "reponse": "Le principe de Le Chatelier",
+        "propositions": [
+          "Le principe de Le Chatelier",
+          "La loi d'action de masse",
+          "Le principe de Pauli",
+          "La loi de Hess"
+        ],
+        "explication": "Ce principe permet de prédire le déplacement d'un équilibre chimique sous l'effet d'un changement de température, pression ou concentration."
+      },
+      {
+        "question": "Quel nombre, égal à environ 6,022 × 10²³, correspond au nombre d'entités présentes dans une mole de matière ?",
+        "reponse": "Le nombre d'Avogadro",
+        "propositions": [
+          "Le nombre d'Avogadro",
+          "La constante de Planck",
+          "Le nombre de Boltzmann",
+          "La constante de Faraday"
+        ],
+        "explication": "Ce nombre, nommé en l'honneur d'Amedeo Avogadro, est fondamental pour relier la masse molaire au nombre de particules."
+      },
+      {
+        "question": "Quelle théorie, défendue notamment par la biologiste Lynn Margulis, explique l'origine des mitochondries et des chloroplastes par l'intégration d'anciennes bactéries dans des cellules hôtes ?",
+        "reponse": "La théorie endosymbiotique",
+        "propositions": [
+          "La théorie endosymbiotique",
+          "La théorie de la panspermie",
+          "La théorie de l'abiogenèse",
+          "La théorie synthétique de l'évolution"
+        ],
+        "explication": "Les mitochondries possèdent encore leur propre ADN, un indice fort en faveur de cette théorie."
+      },
+      {
+        "question": "Quel type d'agent infectieux, dépourvu d'acide nucléique et constitué uniquement d'une protéine mal repliée, est responsable de maladies comme la maladie de la vache folle ?",
+        "reponse": "Un prion",
+        "propositions": [
+          "Un prion",
+          "Un virus",
+          "Un viroïde",
+          "Une bactérie"
+        ],
+        "explication": "Stanley Prusiner a reçu le prix Nobel de médecine en 1997 pour la découverte des prions."
+      },
+      {
+        "question": "Quel moine et botaniste autrichien a établi, dans les années 1860, les lois fondamentales de la transmission héréditaire des caractères grâce à ses expériences sur les petits pois ?",
+        "reponse": "Gregor Mendel",
+        "propositions": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Hugo de Vries",
+          "Thomas Hunt Morgan"
+        ],
+        "explication": "Ses lois sur la dominance et la ségrégation des caractères n'ont été pleinement reconnues qu'au début du XXe siècle."
+      },
+      {
+        "question": "Quelle hypothèse propose que l'ARN, capable à la fois de porter l'information génétique et de catalyser des réactions, ait précédé l'ADN et les protéines dans l'apparition de la vie ?",
+        "reponse": "L'hypothèse du monde à ARN",
+        "propositions": [
+          "L'hypothèse du monde à ARN",
+          "La théorie endosymbiotique",
+          "L'hypothèse de la panspermie",
+          "La théorie de la génération spontanée"
+        ],
+        "explication": "Les ribozymes, des molécules d'ARN aux propriétés catalytiques, soutiennent cette hypothèse."
       }
     ]
   }

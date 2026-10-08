@@ -166,6 +166,116 @@
           "Le contralto"
         ],
         "explication": "Le soprano est la voix féminine la plus haute en tessiture."
+      },
+      {
+        "question": "Quel groupe britannique de rock, formé en 1970, est connu pour l'album 'Led Zeppelin IV' et le titre 'Stairway to Heaven' ?",
+        "reponse": "Led Zeppelin",
+        "propositions": [
+          "Led Zeppelin",
+          "Deep Purple",
+          "Black Sabbath",
+          "The Who"
+        ],
+        "explication": "'Stairway to Heaven', sorti en 1971, est l'un des morceaux de rock les plus diffusés à la radio."
+      },
+      {
+        "question": "Quelle chanteuse française, interprète de 'Non, je ne regrette rien', est une icône de la chanson française du XXe siècle ?",
+        "reponse": "Édith Piaf",
+        "propositions": [
+          "Édith Piaf",
+          "Mireille Mathieu",
+          "Juliette Gréco",
+          "Barbara"
+        ],
+        "explication": "Édith Piaf, surnommée 'la Môme', a marqué durablement la chanson réaliste française."
+      },
+      {
+        "question": "Quel instrument à cordes, emblématique du rock et du blues, se joue généralement avec un médiator ou les doigts ?",
+        "reponse": "La guitare électrique",
+        "propositions": [
+          "La guitare électrique",
+          "Le banjo",
+          "La mandoline",
+          "Le ukulélé"
+        ],
+        "explication": "La guitare électrique s'est généralisée à partir des années 1950 avec l'essor du rock'n'roll."
+      },
+      {
+        "question": "Quel groupe de rock américain, formé à Los Angeles, est connu pour l'album 'Hotel California' (1976) ?",
+        "reponse": "Eagles",
+        "propositions": [
+          "Eagles",
+          "Fleetwood Mac",
+          "The Doors",
+          "Creedence Clearwater Revival"
+        ],
+        "explication": "La chanson-titre de cet album reste l'un des morceaux de rock les plus connus au monde."
+      },
+      {
+        "question": "Quelle chanteuse américaine, surnommée 'Queen Bey', est connue pour les albums 'Lemonade' et 'Renaissance' ?",
+        "reponse": "Beyoncé",
+        "propositions": [
+          "Beyoncé",
+          "Rihanna",
+          "Alicia Keys",
+          "Mariah Carey"
+        ],
+        "explication": "Beyoncé a débuté sa carrière au sein du groupe Destiny's Child avant de devenir une immense star solo."
+      },
+      {
+        "question": "Quel instrument à vent, emblématique du jazz, est notamment joué par Charlie Parker et John Coltrane ?",
+        "reponse": "Le saxophone",
+        "propositions": [
+          "Le saxophone",
+          "La clarinette",
+          "La trompette",
+          "Le trombone"
+        ],
+        "explication": "Inventé par Adolphe Sax au XIXe siècle, le saxophone est devenu un instrument central du jazz au XXe siècle."
+      },
+      {
+        "question": "Quel chanteur britannique, leader du groupe Queen, est connu pour sa voix puissante et le titre 'Bohemian Rhapsody' ?",
+        "reponse": "Freddie Mercury",
+        "propositions": [
+          "Freddie Mercury",
+          "Brian May",
+          "Roger Taylor",
+          "John Deacon"
+        ],
+        "explication": "Freddie Mercury est mort en 1991, peu après avoir révélé publiquement être atteint du sida."
+      },
+      {
+        "question": "Quel groupe sud-coréen de K-pop, formé en 2013, est devenu un phénomène mondial avec des titres comme 'Dynamite' ?",
+        "reponse": "BTS",
+        "propositions": [
+          "BTS",
+          "BLACKPINK",
+          "EXO",
+          "Stray Kids"
+        ],
+        "explication": "BTS est l'un des groupes musicaux les plus vendeurs de la décennie 2010-2020 à l'échelle mondiale."
+      },
+      {
+        "question": "Quel genre musical, né en Jamaïque dans les années 1960, est caractérisé par un rythme marqué à contretemps ?",
+        "reponse": "Le reggae",
+        "propositions": [
+          "Le reggae",
+          "Le ska",
+          "Le dub",
+          "Le calypso"
+        ],
+        "explication": "Le reggae s'est développé à partir du ska et du rocksteady dans les sound systems jamaïcains."
+      },
+      {
+        "question": "Quel instrument à quatre cordes, pincées, constitue la base rythmique et harmonique de la plupart des groupes de rock ?",
+        "reponse": "La guitare basse",
+        "propositions": [
+          "La guitare basse",
+          "La guitare rythmique",
+          "Le banjo",
+          "La contrebasse"
+        ],
+        "explication": "La guitare basse électrique a été popularisée dans les années 1950 par la marque Fender."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Cole Porter"
         ],
         "explication": "Gershwin a également composé l'opéra 'Porgy and Bess'."
+      },
+      {
+        "question": "Quel groupe britannique de rock progressif, formé en 1965, est l'auteur de l'album concept 'The Lamb Lies Down on Broadway' ?",
+        "reponse": "Genesis",
+        "propositions": [
+          "Genesis",
+          "Yes",
+          "King Crimson",
+          "Jethro Tull"
+        ],
+        "explication": "Peter Gabriel, alors chanteur du groupe, interprétait ce double album sur scène avec des costumes théâtraux élaborés."
+      },
+      {
+        "question": "Quel chanteur et guitariste américain, mort en 1970, est réputé pour sa virtuosité révolutionnaire à la guitare électrique, notamment à Woodstock ?",
+        "reponse": "Jimi Hendrix",
+        "propositions": [
+          "Jimi Hendrix",
+          "Eric Clapton",
+          "Jimmy Page",
+          "Carlos Santana"
+        ],
+        "explication": "Son interprétation de l'hymne américain à la guitare électrique lors du festival de Woodstock en 1969 est devenue légendaire."
+      },
+      {
+        "question": "Quel groupe britannique de rock, rival emblématique des Beatles, est connu pour '(I Can't Get No) Satisfaction' ?",
+        "reponse": "The Rolling Stones",
+        "propositions": [
+          "The Rolling Stones",
+          "The Who",
+          "The Kinks",
+          "The Animals"
+        ],
+        "explication": "Mick Jagger et Keith Richards forment le noyau créatif de ce groupe actif depuis 1962."
+      },
+      {
+        "question": "Quel compositeur et pianiste américain de jazz, surnommé 'le Duc', est l'auteur de 'Take the A Train' ?",
+        "reponse": "Duke Ellington",
+        "propositions": [
+          "Duke Ellington",
+          "Count Basie",
+          "Thelonious Monk",
+          "Dizzy Gillespie"
+        ],
+        "explication": "Duke Ellington a dirigé son propre orchestre pendant plus de cinquante ans, notamment au Cotton Club de Harlem."
+      },
+      {
+        "question": "Quel genre musical latino, né à Porto Rico et au Panama dans les années 1990, mélange reggae jamaïcain et rap en espagnol ?",
+        "reponse": "Le reggaeton",
+        "propositions": [
+          "Le reggaeton",
+          "La salsa",
+          "La bachata",
+          "La cumbia"
+        ],
+        "explication": "Le reggaeton s'est largement diffusé dans le monde hispanophone à partir des années 2000."
+      },
+      {
+        "question": "Quelle chanteuse islandaise, connue pour son univers musical atypique, est l'auteure de l'album 'Homogenic' (1997) ?",
+        "reponse": "Björk",
+        "propositions": [
+          "Björk",
+          "Alison Goldfrapp",
+          "Kate Bush",
+          "Imogen Heap"
+        ],
+        "explication": "Björk mêle dans ses albums musique électronique, cordes orchestrales et expérimentations vocales."
+      },
+      {
+        "question": "Quel trompettiste et chanteur américain, surnommé 'Satchmo', est une figure majeure du jazz de La Nouvelle-Orléans ?",
+        "reponse": "Louis Armstrong",
+        "propositions": [
+          "Louis Armstrong",
+          "Miles Davis",
+          "Dizzy Gillespie",
+          "Chet Baker"
+        ],
+        "explication": "Sa voix rauque et son jeu de trompette ont profondément marqué l'histoire du jazz dès les années 1920."
+      },
+      {
+        "question": "Quel groupe britannique new wave des années 1980, mené par Robert Smith, est connu pour le titre 'Friday I'm in Love' ?",
+        "reponse": "The Cure",
+        "propositions": [
+          "The Cure",
+          "Depeche Mode",
+          "Joy Division",
+          "New Order"
+        ],
+        "explication": "The Cure s'est imposé comme l'un des groupes majeurs de la scène gothique et new wave britannique."
+      },
+      {
+        "question": "Quelle chanteuse française, révélée par le titre 'Je veux' en 2010, s'est imposée sur la scène internationale avec un style inspiré du jazz manouche ?",
+        "reponse": "Zaz",
+        "propositions": [
+          "Zaz",
+          "Jain",
+          "Pomme",
+          "Angèle"
+        ],
+        "explication": "Zaz a connu un succès rapide en France puis à l'international dès son premier album éponyme."
+      },
+      {
+        "question": "Quel pianiste et chanteur britannique, interprète de 'Your Song' et 'Rocket Man', est l'une des plus grandes stars du rock des années 1970 ?",
+        "reponse": "Elton John",
+        "propositions": [
+          "Elton John",
+          "Rod Stewart",
+          "David Bowie",
+          "Freddie Mercury"
+        ],
+        "explication": "Elton John a vendu plus de 300 millions d'albums au cours de sa carrière."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Vincenzo Bellini"
         ],
         "explication": "Verdi est l'une des figures majeures de l'opéra romantique italien."
+      },
+      {
+        "question": "Quel saxophoniste et compositeur américain, pionnier du free jazz, est l'auteur de l'album 'The Shape of Jazz to Come' (1959) ?",
+        "reponse": "Ornette Coleman",
+        "propositions": [
+          "Ornette Coleman",
+          "John Coltrane",
+          "Albert Ayler",
+          "Cecil Taylor"
+        ],
+        "explication": "Ce courant a rompu avec les structures harmoniques traditionnelles du jazz au profit d'une improvisation totalement libre."
+      },
+      {
+        "question": "Quel musicologue hongrois, ami de Béla Bartók, a œuvré avec lui à la collecte systématique de musiques populaires d'Europe centrale ?",
+        "reponse": "Zoltán Kodály",
+        "propositions": [
+          "Zoltán Kodály",
+          "Ernő Dohnányi",
+          "György Ligeti",
+          "Franz Liszt"
+        ],
+        "explication": "Kodály a également développé une méthode pédagogique d'enseignement musical encore utilisée aujourd'hui."
+      },
+      {
+        "question": "Quel terme désigne l'improvisation structurée caractéristique du jazz, où un musicien développe librement un thème sur une grille harmonique ?",
+        "reponse": "Le chorus",
+        "propositions": [
+          "Le chorus",
+          "Le riff",
+          "Le standard",
+          "Le bridge"
+        ],
+        "explication": "Chaque musicien du groupe prend généralement à son tour un ou plusieurs chorus lors d'un morceau de jazz."
+      },
+      {
+        "question": "Quel guitariste belgo-romani, né sans l'usage de deux doigts de la main gauche, a fondé le jazz manouche avec le Quintette du Hot Club de France ?",
+        "reponse": "Django Reinhardt",
+        "propositions": [
+          "Django Reinhardt",
+          "Stéphane Grappelli",
+          "Biréli Lagrène",
+          "Christian Escoudé"
+        ],
+        "explication": "Malgré sa main blessée dans un incendie, Django Reinhardt a développé une technique de jeu novatrice."
+      },
+      {
+        "question": "Quel compositeur américain minimaliste est l'auteur de 'In C' (1964), œuvre fondatrice reposant sur des motifs répétés librement synchronisés par les musiciens ?",
+        "reponse": "Terry Riley",
+        "propositions": [
+          "Terry Riley",
+          "Steve Reich",
+          "Philip Glass",
+          "La Monte Young"
+        ],
+        "explication": "'In C' est considérée comme l'une des œuvres fondatrices du mouvement minimaliste américain."
+      },
+      {
+        "question": "Quel chanteur et guitariste américain de blues, surnommé le 'King of the Delta Blues', est mort en 1938 à 27 ans après avoir enregistré seulement 29 chansons ?",
+        "reponse": "Robert Johnson",
+        "propositions": [
+          "Robert Johnson",
+          "Muddy Waters",
+          "Howlin' Wolf",
+          "Son House"
+        ],
+        "explication": "Une légende tenace prétend que Robert Johnson aurait vendu son âme au diable à un carrefour pour acquérir son talent."
+      },
+      {
+        "question": "Quel compositeur russe du XXe siècle, élève de Rimski-Korsakov, est l'auteur du ballet 'Roméo et Juliette' et de 'Pierre et le Loup' ?",
+        "reponse": "Sergueï Prokofiev",
+        "propositions": [
+          "Sergueï Prokofiev",
+          "Igor Stravinsky",
+          "Dmitri Chostakovitch",
+          "Aram Khatchaturian"
+        ],
+        "explication": "'Pierre et le Loup' (1936) associe à chaque personnage un instrument et un thème musical, à des fins pédagogiques."
+      },
+      {
+        "question": "Quel théoricien musical autrichien du début du XXe siècle a développé l'analyse schenkérienne, influente dans l'analyse de la musique tonale ?",
+        "reponse": "Heinrich Schenker",
+        "propositions": [
+          "Heinrich Schenker",
+          "Hugo Riemann",
+          "Arnold Schering",
+          "Guido Adler"
+        ],
+        "explication": "Sa méthode d'analyse réduit une œuvre tonale à des structures harmoniques et mélodiques fondamentales sous-jacentes."
+      },
+      {
+        "question": "Quelle technique vocale, utilisée notamment dans le chant traditionnel mongol et tuvain, permet de produire simultanément deux hauteurs de son avec une seule voix ?",
+        "reponse": "Le chant diphonique",
+        "propositions": [
+          "Le chant diphonique",
+          "Le yodel",
+          "Le scat",
+          "Le vibrato"
+        ],
+        "explication": "Le chant diphonique exploite les harmoniques naturelles de la voix pour faire entendre une seconde note distincte."
+      },
+      {
+        "question": "Quel compositeur autrichien, élève de Schönberg, est resté fidèle au dodécaphonisme tout en lui conférant une dimension lyrique marquée, notamment dans son Concerto pour violon 'À la mémoire d'un ange' ?",
+        "reponse": "Alban Berg",
+        "propositions": [
+          "Alban Berg",
+          "Anton Webern",
+          "Arnold Schönberg",
+          "Ernst Krenek"
+        ],
+        "explication": "Ce concerto, composé en 1935, est dédié à la mémoire de Manon Gropius, fille d'Alma Mahler, morte à 18 ans."
       }
     ]
   }

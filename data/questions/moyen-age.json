@@ -166,6 +166,116 @@
           "Les ménestrels"
         ],
         "explication": "Les trouvères, au nord de la France, jouaient un rôle similaire en langue d'oïl."
+      },
+      {
+        "question": "Comment appelle-t-on le domaine agricole et administratif dirigé par un seigneur au Moyen Âge ?",
+        "reponse": "La seigneurie",
+        "propositions": [
+          "La seigneurie",
+          "Le fief",
+          "Le village",
+          "La commune"
+        ],
+        "explication": "La seigneurie regroupait les terres, les paysans et les droits qu'un seigneur exerçait sur un territoire donné."
+      },
+      {
+        "question": "Quel édifice religieux abritait une communauté de moines vivant selon une règle commune, au Moyen Âge ?",
+        "reponse": "Le monastère",
+        "propositions": [
+          "Le monastère",
+          "Le palais",
+          "Le château",
+          "La cathédrale"
+        ],
+        "explication": "Les monastères étaient aussi d'importants centres de copie de manuscrits et de savoir au Moyen Âge."
+      },
+      {
+        "question": "Quel roi franc, baptisé en 496, est considéré comme le fondateur du royaume de France ?",
+        "reponse": "Clovis",
+        "propositions": [
+          "Clovis",
+          "Charlemagne",
+          "Charles Martel",
+          "Pépin le Bref"
+        ],
+        "explication": "Clovis a unifié les tribus franques et converti son royaume au christianisme catholique."
+      },
+      {
+        "question": "Comment appelle-t-on l'arme principale du chevalier médiéval, longue lame tranchante à double tranchant ?",
+        "reponse": "L'épée",
+        "propositions": [
+          "L'épée",
+          "La lance",
+          "La hache",
+          "L'arbalète"
+        ],
+        "explication": "L'épée était aussi un symbole de statut social pour le chevalier, remise lors de son adoubement."
+      },
+      {
+        "question": "Quel engin de siège, projetant de grosses pierres, servait à attaquer les châteaux forts au Moyen Âge ?",
+        "reponse": "La catapulte",
+        "propositions": [
+          "La catapulte",
+          "Le bélier",
+          "La baliste",
+          "La bombarde"
+        ],
+        "explication": "Le trébuchet, une variante perfectionnée de la catapulte, pouvait projeter des pierres très lourdes sur de longues distances."
+      },
+      {
+        "question": "Comment appelle-t-on les grands marchés périodiques où se vendaient les marchandises dans les villes médiévales ?",
+        "reponse": "Les foires",
+        "propositions": [
+          "Les foires",
+          "Les corporations",
+          "Les tournois",
+          "Les guildes"
+        ],
+        "explication": "Les foires de Champagne, au nord-est de la France, étaient parmi les plus importantes d'Europe médiévale."
+      },
+      {
+        "question": "Quel type de vêtement protecteur, fait d'anneaux de métal entrelacés, portaient les chevaliers au combat ?",
+        "reponse": "La cotte de mailles",
+        "propositions": [
+          "La cotte de mailles",
+          "L'armure de plates",
+          "Le bouclier",
+          "Le gambison"
+        ],
+        "explication": "L'armure de plates, plus lourde et plus protectrice, ne s'est généralisée qu'à la fin du Moyen Âge."
+      },
+      {
+        "question": "Quelle ville espagnole était, avec Rome et Jérusalem, l'une des principales destinations de pèlerinage au Moyen Âge ?",
+        "reponse": "Saint-Jacques-de-Compostelle",
+        "propositions": [
+          "Saint-Jacques-de-Compostelle",
+          "Tolède",
+          "Grenade",
+          "Burgos"
+        ],
+        "explication": "De nombreux chemins de pèlerinage, dont la Via Podiensis, traversaient la France pour y mener."
+      },
+      {
+        "question": "Comment appelle-t-on la langue parlée dans le nord de la France au Moyen Âge, ancêtre du français moderne ?",
+        "reponse": "La langue d'oïl",
+        "propositions": [
+          "La langue d'oïl",
+          "La langue d'oc",
+          "Le latin",
+          "Le francique"
+        ],
+        "explication": "La langue d'oc, parlée dans le sud de la France, a donné naissance à l'occitan moderne."
+      },
+      {
+        "question": "Quel personnage féminin français, surnommée 'la Pucelle d'Orléans', a mené les troupes françaises pendant la guerre de Cent Ans ?",
+        "reponse": "Jeanne d'Arc",
+        "propositions": [
+          "Jeanne d'Arc",
+          "Christine de Pizan",
+          "Isabeau de Bavière",
+          "Agnès Sorel"
+        ],
+        "explication": "Jeanne d'Arc a contribué à lever le siège d'Orléans en 1429 avant d'être capturée puis brûlée en 1431."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Édouard le Prince Noir"
         ],
         "explication": "La défaite française à Azincourt s'explique en partie par la supériorité des archers anglais et le terrain boueux."
+      },
+      {
+        "question": "Quelle bataille de 1066 voit Guillaume le Conquérant envahir l'Angleterre et vaincre le roi Harold II ?",
+        "reponse": "La bataille de Hastings",
+        "propositions": [
+          "La bataille de Hastings",
+          "La bataille de Bouvines",
+          "La bataille de Poitiers",
+          "La bataille de Crécy"
+        ],
+        "explication": "Cette victoire a permis à Guillaume de devenir roi d'Angleterre tout en restant duc de Normandie."
+      },
+      {
+        "question": "Quel duc normand est devenu roi d'Angleterre après sa victoire à Hastings en 1066 ?",
+        "reponse": "Guillaume le Conquérant",
+        "propositions": [
+          "Guillaume le Conquérant",
+          "Richard Cœur de Lion",
+          "Jean sans Terre",
+          "Henri II Plantagenêt"
+        ],
+        "explication": "Son règne a profondément transformé la société et l'administration anglaises, en y important des institutions féodales normandes."
+      },
+      {
+        "question": "Quelle dynastie anglo-française, issue des comtes d'Anjou, a régné sur l'Angleterre de 1154 à 1485 en comptant ses branches ?",
+        "reponse": "Les Plantagenêts",
+        "propositions": [
+          "Les Plantagenêts",
+          "Les Tudors",
+          "Les Normands",
+          "Les Lancastre"
+        ],
+        "explication": "Les Plantagenêts possédaient à leur apogée un immense empire territorial incluant une grande partie de l'ouest de la France."
+      },
+      {
+        "question": "Quel empereur germanique, excommunié par le pape Grégoire VII, a dû faire pénitence à Canossa en 1077 ?",
+        "reponse": "Henri IV du Saint-Empire",
+        "propositions": [
+          "Henri IV du Saint-Empire",
+          "Frédéric Barberousse",
+          "Otton IV",
+          "Henri V du Saint-Empire"
+        ],
+        "explication": "Cet épisode, survenu lors de la querelle des Investitures, illustre le rapport de force entre papauté et pouvoir impérial."
+      },
+      {
+        "question": "Quel roi d'Angleterre, dit 'Cœur de Lion', a participé à la troisième croisade avant d'être emprisonné sur le chemin du retour ?",
+        "reponse": "Richard Cœur de Lion",
+        "propositions": [
+          "Richard Cœur de Lion",
+          "Jean sans Terre",
+          "Édouard Ier",
+          "Henri II"
+        ],
+        "explication": "Richard a été retenu prisonnier par le duc d'Autriche, avant d'être libéré contre une importante rançon."
+      },
+      {
+        "question": "Quelle guerre civile anglaise du XVe siècle, opposant les maisons de Lancastre et d'York, précède l'avènement des Tudors ?",
+        "reponse": "La guerre des Deux-Roses",
+        "propositions": [
+          "La guerre des Deux-Roses",
+          "La guerre de Cent Ans",
+          "La guerre des Barons",
+          "La révolte des Comuneros"
+        ],
+        "explication": "Ce conflit tire son nom des emblèmes floraux des deux maisons rivales, une rose rouge et une rose blanche."
+      },
+      {
+        "question": "Quel grand port marchand et militaire italien, rival de Gênes, a dominé le commerce en Méditerranée orientale au Moyen Âge ?",
+        "reponse": "Venise",
+        "propositions": [
+          "Venise",
+          "Gênes",
+          "Pise",
+          "Amalfi"
+        ],
+        "explication": "Venise contrôlait un vaste réseau de comptoirs commerciaux à travers la Méditerranée et la mer Égée."
+      },
+      {
+        "question": "Quel mouvement d'expansion chrétienne dans la péninsule Ibérique, visant à repousser les royaumes musulmans, s'est achevé en 1492 ?",
+        "reponse": "La Reconquista",
+        "propositions": [
+          "La Reconquista",
+          "La croisade albigeoise",
+          "La guerre de Cent Ans",
+          "La guerre de Grenade"
+        ],
+        "explication": "La prise de Grenade en 1492 a marqué l'achèvement de ce long processus de reconquête chrétienne."
+      },
+      {
+        "question": "Quel roi de France, fils de Saint Louis, a poursuivi la lutte contre les Plantagenêts et consolidé le domaine royal au XIIIe siècle ?",
+        "reponse": "Philippe III le Hardi",
+        "propositions": [
+          "Philippe III le Hardi",
+          "Philippe IV le Bel",
+          "Louis X",
+          "Charles IV"
+        ],
+        "explication": "Philippe III a notamment hérité des terres du comté de Toulouse à la mort de son oncle en 1271."
+      },
+      {
+        "question": "Quelle technique agricole, répandue au Moyen Âge, consiste à diviser les terres en trois parties pour alterner cultures et jachère ?",
+        "reponse": "L'assolement triennal",
+        "propositions": [
+          "L'assolement triennal",
+          "La jachère biennale",
+          "La rotation quadriennale",
+          "Le système openfield"
+        ],
+        "explication": "Cette méthode a contribué à améliorer les rendements agricoles en Europe du Nord à partir du haut Moyen Âge."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Le traité de Picquigny"
         ],
         "explication": "Henri III renonce à la Normandie et à l'Anjou en échange de la reconnaissance de ses droits sur la Guyenne."
+      },
+      {
+        "question": "Quel traité de 1360, mettant fin à une phase de la guerre de Cent Ans, cède de vastes territoires français à l'Angleterre en échange d'une rançon pour le roi Jean le Bon ?",
+        "reponse": "Le traité de Brétigny",
+        "propositions": [
+          "Le traité de Brétigny",
+          "Le traité de Troyes",
+          "Le traité de Paris (1259)",
+          "Le traité de Picquigny"
+        ],
+        "explication": "Ce traité accordait à l'Angleterre la pleine souveraineté sur l'Aquitaine, en échange de la renonciation d'Édouard III à la couronne de France."
+      },
+      {
+        "question": "Quel traité de 1420, signé sous Charles VI, reconnaît le roi d'Angleterre Henri V comme héritier du trône de France ?",
+        "reponse": "Le traité de Troyes",
+        "propositions": [
+          "Le traité de Troyes",
+          "Le traité de Brétigny",
+          "Le traité d'Arras",
+          "Le traité de Picquigny"
+        ],
+        "explication": "Ce traité déshéritait le dauphin, futur Charles VII, au profit d'Henri V d'Angleterre."
+      },
+      {
+        "question": "Quel roi de France, dit 'le Victorieux', a définitivement chassé les Anglais du territoire français, à l'exception de Calais, à la fin de la guerre de Cent Ans ?",
+        "reponse": "Charles VII",
+        "propositions": [
+          "Charles VII",
+          "Louis XI",
+          "Charles VI",
+          "Philippe VI"
+        ],
+        "explication": "Charles VII a été sacré à Reims en 1429 grâce au soutien décisif de Jeanne d'Arc."
+      },
+      {
+        "question": "Quelle bataille de 1356 voit le roi Jean II le Bon être capturé par le Prince Noir, aggravant la crise française pendant la guerre de Cent Ans ?",
+        "reponse": "La bataille de Poitiers (1356)",
+        "propositions": [
+          "La bataille de Poitiers (1356)",
+          "La bataille de Crécy",
+          "La bataille d'Azincourt",
+          "La bataille de Formigny"
+        ],
+        "explication": "La capture du roi a plongé le royaume de France dans une grave crise politique et financière."
+      },
+      {
+        "question": "Quel philosophe franciscain anglais du XIVe siècle, défenseur du nominalisme, est connu pour le principe du 'rasoir' portant son nom ?",
+        "reponse": "Guillaume d'Ockham",
+        "propositions": [
+          "Guillaume d'Ockham",
+          "Duns Scot",
+          "Thomas d'Aquin",
+          "Roger Bacon"
+        ],
+        "explication": "Le 'rasoir d'Ockham' est un principe de parcimonie recommandant de ne pas multiplier les explications inutilement."
+      },
+      {
+        "question": "Quel mystique et théologien allemand du XIVe siècle, dominicain, a influencé la pensée mystique rhénane ?",
+        "reponse": "Maître Eckhart",
+        "propositions": [
+          "Maître Eckhart",
+          "Thomas d'Aquin",
+          "Bernard de Clairvaux",
+          "Jean Gerson"
+        ],
+        "explication": "Certaines des thèses de Maître Eckhart ont été condamnées par l'Église après sa mort pour leur radicalité."
+      },
+      {
+        "question": "Quelle hérésie des XIVe-XVe siècles, portée par John Wyclif puis Jan Hus, préfigure certaines idées de la Réforme protestante ?",
+        "reponse": "Le wyclifisme (hussitisme en Bohême)",
+        "propositions": [
+          "Le wyclifisme (hussitisme en Bohême)",
+          "Le catharisme",
+          "Le vaudisme",
+          "Le messalianisme"
+        ],
+        "explication": "Ces courants critiquaient déjà certaines pratiques de l'Église catholique, plus d'un siècle avant Luther."
+      },
+      {
+        "question": "Quel réformateur religieux tchèque, précurseur de la Réforme, a été condamné et brûlé au concile de Constance en 1415 ?",
+        "reponse": "Jan Hus",
+        "propositions": [
+          "Jan Hus",
+          "John Wyclif",
+          "Girolamo Savonarole",
+          "Pierre Valdo"
+        ],
+        "explication": "Sa mort a provoqué des révoltes hussites prolongées en Bohême dans les décennies suivantes."
+      },
+      {
+        "question": "Quelle dynastie a succédé aux Capétiens directs sur le trône de France à partir de 1328, en vertu de la loi salique excluant les femmes ?",
+        "reponse": "Les Valois",
+        "propositions": [
+          "Les Valois",
+          "Les Plantagenêts",
+          "Les Bourbons",
+          "Les Lancastre"
+        ],
+        "explication": "Ce changement de dynastie a été l'une des causes profondes du déclenchement de la guerre de Cent Ans."
+      },
+      {
+        "question": "Quel marchand et armateur français du XVe siècle, conseiller financier de Charles VII, a accumulé une immense fortune avant d'être disgracié ?",
+        "reponse": "Jacques Cœur",
+        "propositions": [
+          "Jacques Cœur",
+          "Étienne Marcel",
+          "Nicolas Rolin",
+          "Arnold Fitz Thedmar"
+        ],
+        "explication": "Jacques Cœur a bâti sa fortune sur le commerce méditerranéen avant d'être arrêté sur accusation d'empoisonnement, jamais prouvée."
       }
     ]
   }

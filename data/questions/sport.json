@@ -166,6 +166,116 @@
           "Le coup droit"
         ],
         "explication": "Le service est le premier coup joué à chaque point."
+      },
+      {
+        "question": "Combien de joueurs par équipe sont présents sur la glace en hockey sur glace, gardien inclus ?",
+        "reponse": "6",
+        "propositions": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "explication": "Une équipe de hockey sur glace aligne habituellement 5 joueurs de champ et un gardien."
+      },
+      {
+        "question": "Combien d'anneaux comporte le drapeau olympique ?",
+        "reponse": "5",
+        "propositions": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "explication": "Les cinq anneaux représentent les cinq continents unis par l'olympisme."
+      },
+      {
+        "question": "Combien de jeux faut-il généralement gagner pour remporter un set au tennis ?",
+        "reponse": "6",
+        "propositions": [
+          "6",
+          "4",
+          "8",
+          "5"
+        ],
+        "explication": "Un set se termine à 6 jeux, avec au moins deux jeux d'écart, sauf cas particulier du jeu décisif."
+      },
+      {
+        "question": "Combien de minutes dure un match de football, hors prolongations, réparties en deux mi-temps ?",
+        "reponse": "90 minutes",
+        "propositions": [
+          "90 minutes",
+          "80 minutes",
+          "60 minutes",
+          "120 minutes"
+        ],
+        "explication": "Un match de football se joue en deux mi-temps de 45 minutes chacune."
+      },
+      {
+        "question": "Combien de points rapporte un panier marqué derrière la ligne à trois points en basketball ?",
+        "reponse": "3 points",
+        "propositions": [
+          "3 points",
+          "2 points",
+          "1 point",
+          "4 points"
+        ],
+        "explication": "Un panier marqué à l'intérieur de cette ligne ne rapporte que 2 points."
+      },
+      {
+        "question": "Combien de rounds compte traditionnellement un championnat du monde de boxe professionnelle ?",
+        "reponse": "12 rounds",
+        "propositions": [
+          "12 rounds",
+          "10 rounds",
+          "15 rounds",
+          "8 rounds"
+        ],
+        "explication": "Le nombre de rounds a été réduit de 15 à 12 dans les années 1980 pour des raisons de sécurité."
+      },
+      {
+        "question": "Quel style de nage est généralement considéré comme le plus rapide en compétition ?",
+        "reponse": "Le crawl",
+        "propositions": [
+          "Le crawl",
+          "La brasse",
+          "Le dos crawlé",
+          "Le papillon"
+        ],
+        "explication": "Le crawl, aussi appelé nage libre, permet d'atteindre les vitesses les plus élevées en natation."
+      },
+      {
+        "question": "Combien de trous compte un parcours de golf standard ?",
+        "reponse": "18",
+        "propositions": [
+          "18",
+          "9",
+          "12",
+          "24"
+        ],
+        "explication": "Un parcours de golf standard comporte 18 trous, souvent organisés en deux boucles de 9."
+      },
+      {
+        "question": "Quel drapeau signale l'arrivée du vainqueur lors d'une course de Formule 1 ?",
+        "reponse": "Le drapeau à damier",
+        "propositions": [
+          "Le drapeau à damier",
+          "Le drapeau jaune",
+          "Le drapeau rouge",
+          "Le drapeau bleu"
+        ],
+        "explication": "Le drapeau à damier, noir et blanc, marque la fin officielle de la course."
+      },
+      {
+        "question": "Combien de points faut-il remporter pour gagner un set de volleyball, avec deux points d'écart minimum ?",
+        "reponse": "25 points",
+        "propositions": [
+          "25 points",
+          "21 points",
+          "15 points",
+          "30 points"
+        ],
+        "explication": "Le dernier set décisif d'un match de volleyball se joue généralement en 15 points."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Greg Norman"
         ],
         "explication": "Tiger Woods a dominé le golf mondial pendant une grande partie des années 2000."
+      },
+      {
+        "question": "Quel footballeur brésilien est le seul à avoir remporté trois Coupes du monde en tant que joueur (1958, 1962, 1970) ?",
+        "reponse": "Pelé",
+        "propositions": [
+          "Pelé",
+          "Garrincha",
+          "Zico",
+          "Ronaldo"
+        ],
+        "explication": "Pelé reste considéré comme l'un des plus grands footballeurs de l'histoire."
+      },
+      {
+        "question": "Quel footballeur français a marqué deux buts en finale de la Coupe du monde 1998, remportée par la France ?",
+        "reponse": "Zinédine Zidane",
+        "propositions": [
+          "Zinédine Zidane",
+          "Thierry Henry",
+          "Didier Deschamps",
+          "Youri Djorkaeff"
+        ],
+        "explication": "La France a battu le Brésil 3-0 en finale, au Stade de France."
+      },
+      {
+        "question": "Quelle joueuse de tennis américaine détient le record de titres du Grand Chelem en simple dames depuis le début de l'ère Open (1968), avec 23 titres ?",
+        "reponse": "Serena Williams",
+        "propositions": [
+          "Serena Williams",
+          "Venus Williams",
+          "Steffi Graf",
+          "Martina Navratilova"
+        ],
+        "explication": "Serena Williams a remporté son dernier titre du Grand Chelem à l'Open d'Australie 2017."
+      },
+      {
+        "question": "Quelle gymnaste américaine détient le record du plus grand nombre de médailles aux championnats du monde de gymnastique artistique ?",
+        "reponse": "Simone Biles",
+        "propositions": [
+          "Simone Biles",
+          "Nadia Comăneci",
+          "Larissa Latynina",
+          "Shannon Miller"
+        ],
+        "explication": "Simone Biles a aussi quatre figures acrobatiques nommées en son honneur dans le code de pointage international."
+      },
+      {
+        "question": "Quels deux pilotes de Formule 1 se partagent le record de sept titres de champion du monde ?",
+        "reponse": "Michael Schumacher et Lewis Hamilton",
+        "propositions": [
+          "Michael Schumacher et Lewis Hamilton",
+          "Ayrton Senna et Alain Prost",
+          "Juan Manuel Fangio et Jim Clark",
+          "Sebastian Vettel et Max Verstappen"
+        ],
+        "explication": "Lewis Hamilton a égalé le record de Michael Schumacher en 2020."
+      },
+      {
+        "question": "Quel joueur de tennis espagnol est surnommé le 'Roi de la terre battue' pour ses 14 titres à Roland-Garros ?",
+        "reponse": "Rafael Nadal",
+        "propositions": [
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Roger Federer",
+          "Carlos Alcaraz"
+        ],
+        "explication": "Nadal a remporté son premier titre à Roland-Garros en 2005 et son dernier en 2022."
+      },
+      {
+        "question": "Quel footballeur argentin a marqué le but controversé de la 'main de Dieu' lors de la Coupe du monde 1986 ?",
+        "reponse": "Diego Maradona",
+        "propositions": [
+          "Diego Maradona",
+          "Lionel Messi",
+          "Gabriel Batistuta",
+          "Mario Kempes"
+        ],
+        "explication": "Maradona a inscrit ce but de la main contre l'Angleterre, en quart de finale, sans être sanctionné par l'arbitre."
+      },
+      {
+        "question": "Quel footballeur argentin détient le record du plus grand nombre de Ballons d'Or remportés (8 en 2023) ?",
+        "reponse": "Lionel Messi",
+        "propositions": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Diego Maradona",
+          "Pelé"
+        ],
+        "explication": "Messi a dépassé le record de Cristiano Ronaldo et Michel Platini, qui comptaient respectivement 5 et 3 Ballons d'Or."
+      },
+      {
+        "question": "Comment appelle-t-on le maillot porté par le meilleur grimpeur du classement du Tour de France ?",
+        "reponse": "Le maillot à pois",
+        "propositions": [
+          "Le maillot à pois",
+          "Le maillot jaune",
+          "Le maillot vert",
+          "Le maillot blanc"
+        ],
+        "explication": "Ce maillot blanc à pois rouges récompense le coureur ayant accumulé le plus de points dans les cols et côtes."
+      },
+      {
+        "question": "Comment appelle-t-on le maillot porté par le meilleur sprinteur au classement par points du Tour de France ?",
+        "reponse": "Le maillot vert",
+        "propositions": [
+          "Le maillot vert",
+          "Le maillot à pois",
+          "Le maillot blanc",
+          "Le maillot jaune"
+        ],
+        "explication": "Ce maillot récompense le coureur ayant marqué le plus de points lors des sprints intermédiaires et des arrivées d'étape."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Dorothy Hamill"
         ],
         "explication": "Sonja Henie a ensuite connu une carrière au cinéma à Hollywood."
+      },
+      {
+        "question": "Quel joueur brésilien, à seulement 17 ans, est devenu le plus jeune buteur en finale de Coupe du monde, en 1958 ?",
+        "reponse": "Pelé",
+        "propositions": [
+          "Pelé",
+          "Garrincha",
+          "Didi",
+          "Vavá"
+        ],
+        "explication": "Pelé a inscrit deux buts en finale contre la Suède, à Stockholm, lors de son premier Mondial."
+      },
+      {
+        "question": "Quel joueur de squash pakistanais est resté invaincu pendant environ 5 ans et 555 matchs consécutifs, entre 1981 et 1986 ?",
+        "reponse": "Jahangir Khan",
+        "propositions": [
+          "Jahangir Khan",
+          "Jansher Khan",
+          "Ramy Ashour",
+          "Amr Shabana"
+        ],
+        "explication": "Cette série d'invincibilité est considérée comme l'une des plus longues de l'histoire du sport professionnel."
+      },
+      {
+        "question": "Quel athlète américain a révolutionné le saut en hauteur en 1968 avec une technique de franchissement dorsal portant désormais son nom ?",
+        "reponse": "Dick Fosbury",
+        "propositions": [
+          "Dick Fosbury",
+          "Carl Lewis",
+          "Jesse Owens",
+          "Bob Beamon"
+        ],
+        "explication": "Le 'rouleau Fosbury' a rapidement remplacé les techniques ventrales utilisées jusqu'alors."
+      },
+      {
+        "question": "Quel coureur de fond tchécoslovaque a remporté trois médailles d'or (5000 m, 10000 m et marathon) aux Jeux olympiques d'Helsinki en 1952 ?",
+        "reponse": "Emil Zátopek",
+        "propositions": [
+          "Emil Zátopek",
+          "Abebe Bikila",
+          "Paavo Nurmi",
+          "Haile Gebrselassie"
+        ],
+        "explication": "Zátopek a remporté le marathon olympique alors qu'il n'en avait jamais couru auparavant en compétition."
+      },
+      {
+        "question": "Quel skieur alpin français a remporté les trois épreuves de ski alpin masculin aux Jeux olympiques de Grenoble en 1968 ?",
+        "reponse": "Jean-Claude Killy",
+        "propositions": [
+          "Jean-Claude Killy",
+          "Alberto Tomba",
+          "Henri Oreiller",
+          "Jean Vuarnet"
+        ],
+        "explication": "Jean-Claude Killy a réalisé un triplé historique, devant son public, lors de ces Jeux olympiques d'hiver organisés en France."
+      },
+      {
+        "question": "Quel athlète britannique est devenu, en 1954, le premier homme à courir le mile (1 609 m) en moins de 4 minutes ?",
+        "reponse": "Roger Bannister",
+        "propositions": [
+          "Roger Bannister",
+          "Jim Ryun",
+          "Sebastian Coe",
+          "Hicham El Guerrouj"
+        ],
+        "explication": "Bannister a réalisé cet exploit à Oxford en 3 min 59 s 4, une barrière symbolique longtemps jugée infranchissable."
+      },
+      {
+        "question": "Quel surnom est donné à la victoire surprise de l'équipe américaine de hockey sur glace, composée d'amateurs, contre l'URSS aux Jeux olympiques de 1980 ?",
+        "reponse": "Le Miracle sur la glace (Miracle on Ice)",
+        "propositions": [
+          "Le Miracle sur la glace (Miracle on Ice)",
+          "La Remontada",
+          "Le Match du siècle",
+          "La Main de Dieu"
+        ],
+        "explication": "Cette victoire 4-3 à Lake Placid reste l'un des plus grands exploits sportifs américains du XXe siècle, en plein contexte de guerre froide."
+      },
+      {
+        "question": "Quel athlète américain a égalé l'exploit de Jesse Owens en remportant quatre médailles d'or d'athlétisme aux Jeux olympiques de Los Angeles en 1984 ?",
+        "reponse": "Carl Lewis",
+        "propositions": [
+          "Carl Lewis",
+          "Michael Johnson",
+          "Edwin Moses",
+          "Maurice Greene"
+        ],
+        "explication": "Carl Lewis a triomphé sur 100 m, 200 m, longueur et relais 4x100 m, comme Owens en 1936."
+      },
+      {
+        "question": "Quel pays a remporté la première Coupe du monde de football féminine, organisée en Chine en 1991 ?",
+        "reponse": "Les États-Unis",
+        "propositions": [
+          "Les États-Unis",
+          "La Norvège",
+          "L'Allemagne",
+          "La Chine"
+        ],
+        "explication": "Les Américaines ont battu la Norvège en finale lors de cette première édition."
+      },
+      {
+        "question": "Comment surnomme-t-on la remontée légendaire du FC Barcelone, qui renverse un déficit de 4-0 face au PSG en 8e de finale retour de Ligue des champions 2017 (victoire 6-1) ?",
+        "reponse": "La Remontada",
+        "propositions": [
+          "La Remontada",
+          "Le Miracle sur la glace",
+          "Le Match du siècle",
+          "La Manita"
+        ],
+        "explication": "Ce retournement spectaculaire, avec un but victorieux à la 95e minute, reste l'un des plus grands exploits de l'histoire de la Ligue des champions."
       }
     ]
   }

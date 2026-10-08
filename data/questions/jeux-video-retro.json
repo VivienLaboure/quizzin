@@ -166,6 +166,116 @@
           "Bomberman"
         ],
         "explication": "Pac-Man, en réalité une créature jaune (pas un fantôme), est l'un des jeux les plus reconnaissables au monde."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1972, simulant un match de tennis en 2D très simplifié, est le premier grand succès commercial d'Atari ?",
+        "reponse": "Pong",
+        "propositions": [
+          "Pong",
+          "Breakout",
+          "Asteroids",
+          "Space Invaders"
+        ],
+        "explication": "Pong a été créé par Allan Alcorn sous la direction de Nolan Bushnell, cofondateur d'Atari."
+      },
+      {
+        "question": "Quelle série de jeux de combat met en scène les personnages Scorpion et Sub-Zero, lancée en 1992 ?",
+        "reponse": "Mortal Kombat",
+        "propositions": [
+          "Mortal Kombat",
+          "Street Fighter",
+          "Tekken",
+          "Killer Instinct"
+        ],
+        "explication": "Mortal Kombat s'est distingué dès sa sortie par sa violence graphique, qui a suscité une vive controverse aux États-Unis."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1982 met en scène un personnage nommé Q*bert sautant sur une pyramide de cubes colorés ?",
+        "reponse": "Q*bert",
+        "propositions": [
+          "Q*bert",
+          "Dig Dug",
+          "Frogger",
+          "Burgertime"
+        ],
+        "explication": "Q*bert doit éviter des serpents et autres ennemis en changeant la couleur des cubes sur lesquels il bondit."
+      },
+      {
+        "question": "Quel petit champignon humanoïde de l'univers Mario sert souvent d'assistant ou de messager à la princesse Peach ?",
+        "reponse": "Toad",
+        "propositions": [
+          "Toad",
+          "Yoshi",
+          "Kirby",
+          "Luigi"
+        ],
+        "explication": "Toad apparaît pour la première fois dans 'Super Mario Bros. 2' en 1988."
+      },
+      {
+        "question": "Quelle console portable, sortie par Atari en 1989, concurrençait la Game Boy avec un écran couleur mais une faible autonomie ?",
+        "reponse": "La Atari Lynx",
+        "propositions": [
+          "La Atari Lynx",
+          "La Game Gear",
+          "La Neo Geo Pocket",
+          "La Wonderswan"
+        ],
+        "explication": "La Lynx affichait des graphismes en couleur avant la Game Gear, mais ses piles se vidaient très rapidement."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1981, mettant en scène une grenouille devant traverser une route puis une rivière, est un classique du genre ?",
+        "reponse": "Frogger",
+        "propositions": [
+          "Frogger",
+          "Q*bert",
+          "Dig Dug",
+          "Centipede"
+        ],
+        "explication": "Frogger a été développé par Konami et édité par Sega en arcade."
+      },
+      {
+        "question": "Quelle entreprise japonaise a créé la série de jeux de rythme 'Dance Dance Revolution' ainsi que 'Metal Gear' ?",
+        "reponse": "Konami",
+        "propositions": [
+          "Konami",
+          "Capcom",
+          "Sega",
+          "Namco"
+        ],
+        "explication": "Konami est l'un des plus anciens éditeurs japonais de jeux vidéo, fondé en 1969."
+      },
+      {
+        "question": "Quelle console de salon, sortie par Sega en 1998, a été la dernière fabriquée par l'entreprise avant son retrait du marché des consoles ?",
+        "reponse": "La Dreamcast",
+        "propositions": [
+          "La Dreamcast",
+          "La Saturn",
+          "La Mega Drive",
+          "La Game Gear"
+        ],
+        "explication": "Après l'échec commercial de la Dreamcast, Sega s'est recentré sur l'édition de jeux pour d'autres plateformes."
+      },
+      {
+        "question": "Quel jeu de plateforme met en scène un marsupial orange exclusif à la PlayStation dans les années 1990, créé par Naughty Dog ?",
+        "reponse": "Crash Bandicoot",
+        "propositions": [
+          "Crash Bandicoot",
+          "Spyro the Dragon",
+          "Rayman",
+          "Gex"
+        ],
+        "explication": "Crash Bandicoot est devenu une mascotte officieuse de la première PlayStation."
+      },
+      {
+        "question": "Quel personnage de Sega, hérisson bleu capable de courir à très grande vitesse, est devenu la mascotte de la marque en 1991 ?",
+        "reponse": "Sonic the Hedgehog",
+        "propositions": [
+          "Sonic the Hedgehog",
+          "Tails",
+          "Knuckles",
+          "Dr. Robotnik"
+        ],
+        "explication": "Sonic a été créé pour concurrencer directement Mario, mascotte de Nintendo."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Art of Fighting"
         ],
         "explication": "Street Fighter II a été un immense succès commercial pour Capcom, relançant tout le genre."
+      },
+      {
+        "question": "Quel jeu vidéo de plateforme met en scène un gorille portant une cravate, lancé par Nintendo en 1994 en remake amélioré du jeu d'arcade original ?",
+        "reponse": "Donkey Kong Country",
+        "propositions": [
+          "Donkey Kong Country",
+          "Donkey Kong",
+          "Diddy Kong Racing",
+          "Donkey Kong 64"
+        ],
+        "explication": "Donkey Kong Country impressionnait par ses graphismes en images précalculées pour l'époque, sur Super Nintendo."
+      },
+      {
+        "question": "Quel studio a développé la série 'Metal Gear', créée par Hideo Kojima et débutée en 1987 ?",
+        "reponse": "Konami",
+        "propositions": [
+          "Konami",
+          "Capcom",
+          "Square",
+          "Enix"
+        ],
+        "explication": "Le premier 'Metal Gear' est sorti sur MSX2, avant d'être adapté sur NES."
+      },
+      {
+        "question": "Quel jeu de combat en 3D, sorti par Namco en 1994, oppose des personnages comme Kazuya et Heihachi Mishima ?",
+        "reponse": "Tekken",
+        "propositions": [
+          "Tekken",
+          "Virtua Fighter",
+          "Soulcalibur",
+          "Dead or Alive"
+        ],
+        "explication": "Tekken a été l'une des premières grandes franchises de combat en 3D sur console de salon, via la PlayStation."
+      },
+      {
+        "question": "Quelle console de Sega, sortie en 1994, a échoué commercialement face à la PlayStation malgré une puissance 3D novatrice ?",
+        "reponse": "La Saturn",
+        "propositions": [
+          "La Saturn",
+          "La Mega Drive",
+          "La Dreamcast",
+          "La Game Gear"
+        ],
+        "explication": "La Saturn souffrait d'une architecture complexe qui rendait le développement de jeux plus difficile que sur PlayStation."
+      },
+      {
+        "question": "Quel jeu vidéo d'aventure, sorti en 1996 sur PlayStation, met en scène Lara Croft, archéologue aventurière ?",
+        "reponse": "Tomb Raider",
+        "propositions": [
+          "Tomb Raider",
+          "Uncharted",
+          "Prince of Persia",
+          "Indiana Jones"
+        ],
+        "explication": "Lara Croft est devenue l'un des premiers personnages féminins emblématiques du jeu vidéo."
+      },
+      {
+        "question": "Quel jeu de course, sorti sur Super Nintendo en 1992, met en scène des personnages de l'univers Nintendo sur des circuits semés d'obstacles ?",
+        "reponse": "Super Mario Kart",
+        "propositions": [
+          "Super Mario Kart",
+          "Mario Kart 64",
+          "Diddy Kong Racing",
+          "F-Zero"
+        ],
+        "explication": "Super Mario Kart a fondé le genre du jeu de course avec objets malus, encore très populaire aujourd'hui."
+      },
+      {
+        "question": "Quel jeu de rôle, développé par Squaresoft et sorti en 1994 au Japon, met en scène des personnages comme Terra et Kefka dans un monde mêlant magie et technologie ?",
+        "reponse": "Final Fantasy VI",
+        "propositions": [
+          "Final Fantasy VI",
+          "Final Fantasy VII",
+          "Chrono Trigger",
+          "Secret of Mana"
+        ],
+        "explication": "Final Fantasy VI est souvent cité parmi les meilleurs jeux de rôle de l'ère 16 bits."
+      },
+      {
+        "question": "Quelle borne d'arcade japonaise de 1979, créée par Namco, met en scène un vaisseau combattant des insectes extraterrestres ?",
+        "reponse": "Galaxian",
+        "propositions": [
+          "Galaxian",
+          "Galaga",
+          "Xevious",
+          "Defender"
+        ],
+        "explication": "Galaxian a introduit des ennemis capables de quitter la formation pour attaquer le joueur individuellement."
+      },
+      {
+        "question": "Quel jeu de plateforme met en scène un renard pilotant un vaisseau spatial, sorti sur Super Nintendo en 1993 avec la puce graphique Super FX ?",
+        "reponse": "Star Fox",
+        "propositions": [
+          "Star Fox",
+          "F-Zero",
+          "Pilotwings",
+          "Star Wing"
+        ],
+        "explication": "La puce Super FX permettait d'afficher des graphismes en 3D polygonale, une première pour la console."
+      },
+      {
+        "question": "Quelle console portable de Nintendo, sortie en 2001, a succédé à la Game Boy Color avec un écran plus large en format paysage ?",
+        "reponse": "La Game Boy Advance",
+        "propositions": [
+          "La Game Boy Advance",
+          "La Game Boy Color",
+          "La Nintendo DS",
+          "La Virtual Boy"
+        ],
+        "explication": "La Game Boy Advance a conservé une rétrocompatibilité avec les jeux Game Boy et Game Boy Color."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Koichi Nakamura"
         ],
         "explication": "Yuji Horii est surnommé le 'père des RPG japonais' pour son rôle fondateur avec Dragon Quest en 1986."
+      },
+      {
+        "question": "Quel programmeur américain, employé d'Atari, a créé le jeu 'Adventure' sur Atari 2600 en 1979, y cachant le premier easter egg connu du jeu vidéo ?",
+        "reponse": "Warren Robinett",
+        "propositions": [
+          "Warren Robinett",
+          "Nolan Bushnell",
+          "Howard Scott Warshaw",
+          "Steve Cartwright"
+        ],
+        "explication": "Robinett a dissimulé son nom dans une salle secrète du jeu, en représailles à l'absence de crédit des programmeurs par Atari."
+      },
+      {
+        "question": "Quelle société américaine a développé la console ColecoVision, sortie en 1982, réputée pour la qualité de ses portages de jeux d'arcade ?",
+        "reponse": "Coleco",
+        "propositions": [
+          "Coleco",
+          "Mattel",
+          "Atari",
+          "Magnavox"
+        ],
+        "explication": "La ColecoVision proposait des portages de 'Donkey Kong' jugés très fidèles à l'original en arcade."
+      },
+      {
+        "question": "Quelle console domestique, lancée par Mattel en 1979, rivalisait avec l'Atari 2600 grâce à des graphismes jugés supérieurs pour l'époque ?",
+        "reponse": "L'Intellivision",
+        "propositions": [
+          "L'Intellivision",
+          "L'Atari 5200",
+          "La ColecoVision",
+          "L'Odyssey2"
+        ],
+        "explication": "L'Intellivision mettait en avant des graphismes plus détaillés que l'Atari 2600 dans ses publicités comparatives."
+      },
+      {
+        "question": "Quel jeu d'arcade japonais de 1986, développé par Taito, met en scène deux dragons capables d'emprisonner leurs ennemis dans des bulles ?",
+        "reponse": "Bubble Bobble",
+        "propositions": [
+          "Bubble Bobble",
+          "Snow Bros",
+          "Rainbow Islands",
+          "New Zealand Story"
+        ],
+        "explication": "Les deux dragons, Bub et Bob, redeviennent humains à la fin du jeu dans son scénario original."
+      },
+      {
+        "question": "Quel programmeur, cofondateur d'id Software avec John Carmack, a conçu le level design de 'Doom' et 'Wolfenstein 3D' ?",
+        "reponse": "John Romero",
+        "propositions": [
+          "John Romero",
+          "John Carmack",
+          "Tom Hall",
+          "Adrian Carmack"
+        ],
+        "explication": "John Romero est devenu une figure emblématique du jeu vidéo des années 1990, notamment grâce à Doom."
+      },
+      {
+        "question": "Quelle société japonaise, éditrice de 'Dragon Quest', a fusionné avec Square en 2003 pour former Square Enix ?",
+        "reponse": "Enix",
+        "propositions": [
+          "Enix",
+          "Taito",
+          "Hudson Soft",
+          "Namco"
+        ],
+        "explication": "Cette fusion a réuni deux des plus grands éditeurs japonais de jeux de rôle de l'époque."
+      },
+      {
+        "question": "Quel jeu vidéo d'aventure textuelle, sorti en 1976 sur mainframe et inspiré des grottes du Kentucky, est considéré comme un ancêtre du genre 'adventure' ?",
+        "reponse": "Colossal Cave Adventure",
+        "propositions": [
+          "Colossal Cave Adventure",
+          "Zork",
+          "Mystery House",
+          "Adventureland"
+        ],
+        "explication": "Ce jeu, écrit par Will Crowther puis enrichi par Don Woods, a influencé toute une génération de jeux d'aventure textuels."
+      },
+      {
+        "question": "Quelle entreprise américaine a sorti en 1986 aux États-Unis la console 'Atari 7800', peu après le lancement de la NES japonaise ?",
+        "reponse": "Atari",
+        "propositions": [
+          "Atari",
+          "Coleco",
+          "Commodore",
+          "Mattel"
+        ],
+        "explication": "L'Atari 7800 n'a jamais réussi à s'imposer face à la domination écrasante de la NES sur le marché américain."
+      },
+      {
+        "question": "Quel jeu vidéo japonais de 1987, développé par Konami, introduit sur MSX2 l'agent secret Solid Snake, sous le titre original 'Metal Gear' ?",
+        "reponse": "Metal Gear",
+        "propositions": [
+          "Metal Gear",
+          "Metal Gear Solid",
+          "Contra",
+          "Gradius"
+        ],
+        "explication": "Ce jeu, dirigé par Hideo Kojima, posait déjà les bases de l'infiltration furtive, genre qu'il allait populariser."
+      },
+      {
+        "question": "Quelle société a développé la console '3DO Interactive Multiplayer', lancée en 1993 à un prix très élevé malgré une technologie avancée pour l'époque ?",
+        "reponse": "La 3DO Company",
+        "propositions": [
+          "La 3DO Company",
+          "Philips",
+          "Commodore",
+          "Atari"
+        ],
+        "explication": "Fondée par Trip Hawkins, la 3DO Company vendait sa console à un prix bien supérieur à celui de ses concurrentes."
       }
     ]
   }

@@ -166,6 +166,116 @@
           "Charles X"
         ],
         "explication": "Les états généraux, réunis à Versailles, n'avaient pas été convoqués depuis 1614."
+      },
+      {
+        "question": "Quelle bataille de 732 voit Charles Martel arrêter l'avancée des troupes musulmanes près de Poitiers ?",
+        "reponse": "La bataille de Poitiers",
+        "propositions": [
+          "La bataille de Poitiers",
+          "La bataille de Tours",
+          "La bataille de Bouvines",
+          "La bataille de Hastings"
+        ],
+        "explication": "Cette victoire de 732 a marqué un coup d'arrêt à l'expansion musulmane en Europe occidentale."
+      },
+      {
+        "question": "Quel roi de France, parti en croisade et mort à Tunis en 1270, a été canonisé sous le nom de Saint Louis ?",
+        "reponse": "Louis IX",
+        "propositions": [
+          "Louis IX",
+          "Louis VII",
+          "Philippe Auguste",
+          "Louis VIII"
+        ],
+        "explication": "Louis IX est le seul roi de France à avoir été canonisé par l'Église catholique."
+      },
+      {
+        "question": "Quel empereur français a été définitivement vaincu à la bataille de Waterloo en 1815 ?",
+        "reponse": "Napoléon Bonaparte",
+        "propositions": [
+          "Napoléon Bonaparte",
+          "Louis XVIII",
+          "Charles X",
+          "Napoléon III"
+        ],
+        "explication": "Cette défaite met fin à l'épopée napoléonienne et à la période des Cent-Jours."
+      },
+      {
+        "question": "Quelle reine de France a assuré la régence pendant la minorité de son fils Louis XIV ?",
+        "reponse": "Anne d'Autriche",
+        "propositions": [
+          "Anne d'Autriche",
+          "Catherine de Médicis",
+          "Marie de Médicis",
+          "Marie-Antoinette"
+        ],
+        "explication": "Anne d'Autriche s'appuie alors sur le cardinal Mazarin pour gouverner le royaume."
+      },
+      {
+        "question": "Quel président de la République française a été assassiné à Lyon en 1894 ?",
+        "reponse": "Sadi Carnot",
+        "propositions": [
+          "Sadi Carnot",
+          "Jules Grévy",
+          "Félix Faure",
+          "Armand Fallières"
+        ],
+        "explication": "Sadi Carnot est tué par un anarchiste italien lors d'une visite officielle."
+      },
+      {
+        "question": "Quel ancien palais royal parisien abrite aujourd'hui l'un des plus grands musées du monde ?",
+        "reponse": "Le Louvre",
+        "propositions": [
+          "Le Louvre",
+          "Le palais du Luxembourg",
+          "Le palais de l'Élysée",
+          "Le palais Bourbon"
+        ],
+        "explication": "Le Louvre a été transformé en musée ouvert au public pendant la Révolution française, en 1793."
+      },
+      {
+        "question": "Quel conflit mondial a pris fin en France avec la libération du territoire en 1944-1945 ?",
+        "reponse": "La Seconde Guerre mondiale",
+        "propositions": [
+          "La Seconde Guerre mondiale",
+          "La Première Guerre mondiale",
+          "La guerre d'Algérie",
+          "La guerre franco-prussienne"
+        ],
+        "explication": "La libération de Paris a lieu en août 1944, suivie par celle du reste du territoire français."
+      },
+      {
+        "question": "Quelle dynastie royale française a été fondée par Hugues Capet, élu roi en 987 ?",
+        "reponse": "Les Capétiens",
+        "propositions": [
+          "Les Capétiens",
+          "Les Carolingiens",
+          "Les Mérovingiens",
+          "Les Valois"
+        ],
+        "explication": "La dynastie capétienne règne directement sur la France jusqu'en 1328, avant ses branches cadettes des Valois et des Bourbons."
+      },
+      {
+        "question": "Quel événement du 6 juin 1944 marque le débarquement des forces alliées sur les plages normandes ?",
+        "reponse": "Le débarquement de Normandie",
+        "propositions": [
+          "Le débarquement de Normandie",
+          "Le débarquement de Provence",
+          "L'opération Overlord (nom de code, pas le débarquement lui-même)",
+          "La bataille des Ardennes"
+        ],
+        "explication": "Ce débarquement ouvre un nouveau front décisif à l'ouest contre l'Allemagne nazie."
+      },
+      {
+        "question": "Quel long conflit, de 1337 à 1453, a opposé le royaume de France au royaume d'Angleterre ?",
+        "reponse": "La guerre de Cent Ans",
+        "propositions": [
+          "La guerre de Cent Ans",
+          "La guerre de Succession d'Espagne",
+          "La guerre de Sept Ans",
+          "Les guerres de Religion"
+        ],
+        "explication": "Ce conflit se termine par la victoire française, portée notamment par Jeanne d'Arc."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "L'insurrection de juin 1832"
         ],
         "explication": "La Commune est réprimée dans le sang lors de la 'Semaine sanglante' de mai 1871."
+      },
+      {
+        "question": "Quelle loi de 1905 instaure la séparation des Églises et de l'État en France ?",
+        "reponse": "La loi de séparation des Églises et de l'État",
+        "propositions": [
+          "La loi de séparation des Églises et de l'État",
+          "Le Concordat de 1801",
+          "La loi Falloux",
+          "L'édit de Fontainebleau"
+        ],
+        "explication": "Cette loi met fin au régime concordataire issu de Napoléon Bonaparte et fonde la laïcité républicaine."
+      },
+      {
+        "question": "Quel gouvernement provisoire, dirigé par Charles de Gaulle à la Libération, a créé la Sécurité sociale par ordonnances en 1945 ?",
+        "reponse": "Le Gouvernement provisoire de la République française (GPRF)",
+        "propositions": [
+          "Le Gouvernement provisoire de la République française (GPRF)",
+          "Le Front populaire",
+          "Le régime de Vichy",
+          "La IVe République"
+        ],
+        "explication": "Ces ordonnances de 1945 posent les bases du système français de protection sociale moderne."
+      },
+      {
+        "question": "Quelle guerre coloniale, de 1946 à 1954, oppose la France au Viêt Minh et s'achève par la défaite de Diên Biên Phu ?",
+        "reponse": "La guerre d'Indochine",
+        "propositions": [
+          "La guerre d'Indochine",
+          "La guerre d'Algérie",
+          "La guerre de Corée",
+          "La guerre du Rif"
+        ],
+        "explication": "La défaite de Diên Biên Phu en 1954 conduit aux accords de Genève et au retrait français d'Indochine."
+      },
+      {
+        "question": "Quel roi de France est renversé par la révolution de Juillet 1830 ?",
+        "reponse": "Charles X",
+        "propositions": [
+          "Charles X",
+          "Louis XVIII",
+          "Louis-Philippe Ier",
+          "Louis XVI"
+        ],
+        "explication": "Charles X est remplacé par Louis-Philippe Ier à l'issue des 'Trois Glorieuses'."
+      },
+      {
+        "question": "Quelles lois de 1982-1983, portées par le ministre Gaston Defferre, ont lancé la décentralisation en France ?",
+        "reponse": "Les lois Defferre",
+        "propositions": [
+          "Les lois Defferre",
+          "Les lois Jules Ferry",
+          "Les lois Auroux",
+          "Les lois Veil"
+        ],
+        "explication": "Ces lois transfèrent de nombreuses compétences de l'État vers les régions et les départements."
+      },
+      {
+        "question": "Quel président de la République a fait adopter par référendum le passage du septennat au quinquennat, en 2000 ?",
+        "reponse": "Jacques Chirac",
+        "propositions": [
+          "Jacques Chirac",
+          "François Mitterrand",
+          "Valéry Giscard d'Estaing",
+          "Nicolas Sarkozy"
+        ],
+        "explication": "Ce référendum réduit la durée du mandat présidentiel français de sept à cinq ans."
+      },
+      {
+        "question": "Quel débarquement allié d'août 1944, complémentaire de celui de Normandie, a eu lieu sur les côtes méditerranéennes françaises ?",
+        "reponse": "Le débarquement de Provence",
+        "propositions": [
+          "Le débarquement de Provence",
+          "Le débarquement de Normandie",
+          "L'opération Market Garden",
+          "L'opération Torch"
+        ],
+        "explication": "Ce débarquement permet la libération rapide du sud de la France et la remontée vers le nord."
+      },
+      {
+        "question": "Quel ministre des Finances d'origine suisse, sous Louis XVI, publie en 1781 un controversé 'Compte rendu au roi' sur les finances publiques ?",
+        "reponse": "Jacques Necker",
+        "propositions": [
+          "Jacques Necker",
+          "Turgot",
+          "Calonne",
+          "Loménie de Brienne"
+        ],
+        "explication": "Son renvoi en 1789 contribuera à l'agitation populaire précédant la prise de la Bastille."
+      },
+      {
+        "question": "Quelle crise politique de mai 1877 voit le président Mac Mahon tenter en vain d'imposer sa autorité face à une majorité parlementaire républicaine ?",
+        "reponse": "La crise du 16 mai 1877",
+        "propositions": [
+          "La crise du 16 mai 1877",
+          "La crise du 13 mai 1958",
+          "L'affaire des fuites",
+          "La crise boulangiste"
+        ],
+        "explication": "Cette crise consacre durablement la prééminence du Parlement sur le président sous la IIIe République."
+      },
+      {
+        "question": "Quelles lois des années 1881-1882, portées par Jules Ferry, instaurent une école primaire gratuite, laïque et obligatoire en France ?",
+        "reponse": "Les lois Jules Ferry",
+        "propositions": [
+          "Les lois Jules Ferry",
+          "Les lois Defferre",
+          "La loi Falloux",
+          "La loi Guizot"
+        ],
+        "explication": "Ces lois fondatrices de l'école républicaine renforcent l'instruction publique sur tout le territoire."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Louis XIII"
         ],
         "explication": "Son long règne est marqué par la perte de la Nouvelle-France lors de la guerre de Sept Ans."
+      },
+      {
+        "question": "Quel ministre a négocié pour la France les traités de Westphalie de 1648, mettant fin à la guerre de Trente Ans ?",
+        "reponse": "Le cardinal Mazarin",
+        "propositions": [
+          "Le cardinal Mazarin",
+          "Le cardinal de Richelieu",
+          "Colbert",
+          "Michel Le Tellier"
+        ],
+        "explication": "Ces traités consacrent l'affaiblissement du Saint-Empire et renforcent la position de la France en Europe."
+      },
+      {
+        "question": "Quelle bataille de 1346, défaite majeure française face aux archers anglais, ouvre une période noire de la guerre de Cent Ans ?",
+        "reponse": "La bataille de Crécy",
+        "propositions": [
+          "La bataille de Crécy",
+          "La bataille de Poitiers (1356)",
+          "La bataille d'Azincourt",
+          "La bataille de Formigny"
+        ],
+        "explication": "Les archers anglais, armés de l'arc long, infligent de lourdes pertes à la chevalerie française."
+      },
+      {
+        "question": "Quel archevêque, contrôleur général des finances de 1787 à 1788, échoue à réformer la fiscalité royale juste avant la convocation des états généraux ?",
+        "reponse": "Loménie de Brienne",
+        "propositions": [
+          "Loménie de Brienne",
+          "Calonne",
+          "Necker",
+          "Turgot"
+        ],
+        "explication": "Son échec précipite le rappel de Necker et la convocation des états généraux de 1789."
+      },
+      {
+        "question": "Quelle défaite navale française de 1692, au large de Barfleur et de la Hougue, met fin aux projets de débarquement en faveur des Stuarts ?",
+        "reponse": "La bataille de Barfleur-la Hougue",
+        "propositions": [
+          "La bataille de Barfleur-la Hougue",
+          "La bataille des Dunes",
+          "La bataille de Trafalgar",
+          "La bataille de Lépante"
+        ],
+        "explication": "Cette défaite affaiblit durablement la marine de guerre française face à la flotte anglo-néerlandaise."
+      },
+      {
+        "question": "Quel édit de 1685, signé par Louis XIV, révoque l'édit de Nantes et provoque l'exil de nombreux protestants français ?",
+        "reponse": "L'édit de Fontainebleau",
+        "propositions": [
+          "L'édit de Fontainebleau",
+          "L'édit de Nantes",
+          "L'édit de tolérance de 1787",
+          "L'édit de Saint-Germain"
+        ],
+        "explication": "Cette révocation entraîne le départ de dizaines de milliers de huguenots vers les pays voisins."
+      },
+      {
+        "question": "Quel marquis, secrétaire d'État à la Guerre sous Louis XIV, a réorganisé en profondeur l'armée royale française ?",
+        "reponse": "Louvois",
+        "propositions": [
+          "Louvois",
+          "Colbert",
+          "Vauban",
+          "Richelieu"
+        ],
+        "explication": "Louvois modernise la discipline, l'approvisionnement et le recrutement de l'armée royale."
+      },
+      {
+        "question": "Quelle guerre de 1635 à 1659 oppose la France aux Habsbourg d'Espagne et s'achève par le traité des Pyrénées ?",
+        "reponse": "La guerre franco-espagnole",
+        "propositions": [
+          "La guerre franco-espagnole",
+          "La guerre de Trente Ans",
+          "La guerre de Succession d'Espagne",
+          "La guerre de Hollande"
+        ],
+        "explication": "Le traité des Pyrénées de 1659 scelle également le mariage de Louis XIV avec l'infante Marie-Thérèse."
+      },
+      {
+        "question": "Quel philosophe des Lumières a été emprisonné à plusieurs reprises à la Bastille pour ses écrits satiriques avant de devenir une figure majeure du XVIIIe siècle ?",
+        "reponse": "Voltaire",
+        "propositions": [
+          "Voltaire",
+          "Diderot",
+          "Montesquieu",
+          "Rousseau"
+        ],
+        "explication": "Voltaire a notamment été emprisonné en 1717 et en 1726 avant de s'exiler temporairement en Angleterre."
+      },
+      {
+        "question": "Quelle ordonnance de 1629, dite 'Code Michau', tente une vaste réforme administrative et judiciaire sous le ministère de Richelieu ?",
+        "reponse": "Le Code Michau",
+        "propositions": [
+          "Le Code Michau",
+          "L'ordonnance de Villers-Cotterêts",
+          "Le Code noir",
+          "L'édit de Fontainebleau"
+        ],
+        "explication": "Ce texte, resté largement inappliqué, doit son surnom au garde des Sceaux Michel de Marillac."
+      },
+      {
+        "question": "Quel maréchal de France, d'origine saxonne, remporte la victoire de Fontenoy en 1745 contre les troupes anglo-néerlandaises ?",
+        "reponse": "Maurice de Saxe",
+        "propositions": [
+          "Maurice de Saxe",
+          "Vauban",
+          "Turenne",
+          "Louvois"
+        ],
+        "explication": "Cette victoire, remportée pendant la guerre de Succession d'Autriche, est l'une des plus célèbres de l'armée royale française au XVIIIe siècle."
       }
     ]
   }

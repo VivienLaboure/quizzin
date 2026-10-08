@@ -166,6 +166,116 @@
           "7"
         ],
         "explication": "La règle des 5 remplacements a été généralisée après la pandémie de Covid-19."
+      },
+      {
+        "question": "Comment appelle-t-on l'action d'envoyer le ballon dans le but adverse pour marquer un point ?",
+        "reponse": "Un but",
+        "propositions": [
+          "Un but",
+          "Un corner",
+          "Un hors-jeu",
+          "Un penalty"
+        ],
+        "explication": "Un but est marqué lorsque le ballon franchit entièrement la ligne entre les deux poteaux et sous la barre transversale."
+      },
+      {
+        "question": "Quel club anglais est basé au stade d'Old Trafford, à Manchester ?",
+        "reponse": "Manchester United",
+        "propositions": [
+          "Manchester United",
+          "Manchester City",
+          "Liverpool",
+          "Chelsea"
+        ],
+        "explication": "Old Trafford est surnommé 'le théâtre des rêves' et accueille Manchester United depuis 1910."
+      },
+      {
+        "question": "Quel pays est considéré comme le berceau du football moderne, dont les règles ont été codifiées au XIXe siècle ?",
+        "reponse": "L'Angleterre",
+        "propositions": [
+          "L'Angleterre",
+          "L'Écosse",
+          "La France",
+          "L'Italie"
+        ],
+        "explication": "La Football Association, fondée à Londres en 1863, a établi les premières règles officielles du football."
+      },
+      {
+        "question": "Quelle couleur de carton signifie un simple avertissement, sans exclusion immédiate du joueur ?",
+        "reponse": "Jaune",
+        "propositions": [
+          "Jaune",
+          "Rouge",
+          "Bleu",
+          "Vert"
+        ],
+        "explication": "Un deuxième carton jaune dans le même match entraîne automatiquement l'expulsion du joueur."
+      },
+      {
+        "question": "À quelle distance du but se situe le point de penalty ?",
+        "reponse": "11 mètres",
+        "propositions": [
+          "11 mètres",
+          "9 mètres",
+          "16 mètres",
+          "6 mètres"
+        ],
+        "explication": "Le point de penalty se trouve à 11 mètres de la ligne de but, au centre de celle-ci."
+      },
+      {
+        "question": "Quel pays a remporté la Coupe du monde de football 2022 au Qatar ?",
+        "reponse": "L'Argentine",
+        "propositions": [
+          "L'Argentine",
+          "La France",
+          "Le Brésil",
+          "Le Maroc"
+        ],
+        "explication": "L'Argentine a battu la France aux tirs au but après un match nul 3-3 au terme des prolongations."
+      },
+      {
+        "question": "Quel club italien, basé à Turin, est le club le plus titré du championnat d'Italie ?",
+        "reponse": "La Juventus",
+        "propositions": [
+          "La Juventus",
+          "L'AC Milan",
+          "L'Inter Milan",
+          "L'AS Roma"
+        ],
+        "explication": "La Juventus a remporté le plus grand nombre de titres de champion d'Italie (Serie A) de l'histoire."
+      },
+      {
+        "question": "Quel pays a remporté l'Euro de football 2020, disputé en 2021 en raison de la pandémie de Covid-19 ?",
+        "reponse": "L'Italie",
+        "propositions": [
+          "L'Italie",
+          "L'Angleterre",
+          "L'Espagne",
+          "La France"
+        ],
+        "explication": "L'Italie a battu l'Angleterre aux tirs au but en finale, à Wembley."
+      },
+      {
+        "question": "Comment appelle-t-on la zone rectangulaire devant le but où le gardien est autorisé à utiliser ses mains ?",
+        "reponse": "La surface de réparation",
+        "propositions": [
+          "La surface de réparation",
+          "La zone neutre",
+          "Le rond central",
+          "La surface de but"
+        ],
+        "explication": "Toute faute commise par la défense dans la surface de réparation peut entraîner un penalty."
+      },
+      {
+        "question": "Quel objet l'arbitre utilise-t-il pour signaler les fautes et les interruptions de jeu ?",
+        "reponse": "Un sifflet",
+        "propositions": [
+          "Un sifflet",
+          "Un drapeau",
+          "Une cloche",
+          "Une corne"
+        ],
+        "explication": "L'arbitre central est le seul, avec les arbitres assistants et leurs drapeaux, à pouvoir interrompre officiellement le jeu."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Miroslav Klose"
         ],
         "explication": "Ce record français de 1958, lors de la Coupe du monde en Suède, n'a jamais été battu."
+      },
+      {
+        "question": "Quel club allemand, basé à Munich, est le club le plus titré du championnat d'Allemagne ?",
+        "reponse": "Le Bayern Munich",
+        "propositions": [
+          "Le Bayern Munich",
+          "Le Borussia Dortmund",
+          "Le RB Leipzig",
+          "Le Werder Brême"
+        ],
+        "explication": "Le Bayern Munich a remporté la très grande majorité des titres de Bundesliga depuis les années 2000."
+      },
+      {
+        "question": "Quel pays a remporté la Coupe du monde 2010, organisée en Afrique du Sud ?",
+        "reponse": "L'Espagne",
+        "propositions": [
+          "L'Espagne",
+          "Les Pays-Bas",
+          "L'Allemagne",
+          "Le Brésil"
+        ],
+        "explication": "L'Espagne a battu les Pays-Bas 1-0 en finale, remportant son premier titre mondial."
+      },
+      {
+        "question": "Quel joueur portugais détient le record de buts marqués en sélection nationale, toutes confédérations confondues ?",
+        "reponse": "Cristiano Ronaldo",
+        "propositions": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Ali Daei",
+          "Robert Lewandowski"
+        ],
+        "explication": "Cristiano Ronaldo a dépassé la centaine de buts en sélection portugaise au cours de sa carrière internationale."
+      },
+      {
+        "question": "Quelle compétition est l'équivalent féminin de la Ligue des champions pour les clubs européens ?",
+        "reponse": "La Ligue des champions féminine de l'UEFA",
+        "propositions": [
+          "La Ligue des champions féminine de l'UEFA",
+          "La Coupe du monde féminine",
+          "L'Euro féminin",
+          "La Coupe de France féminine"
+        ],
+        "explication": "Cette compétition annuelle réunit les meilleurs clubs féminins du continent européen."
+      },
+      {
+        "question": "Quel entraîneur français a mené l'équipe de France au titre de championne du monde en 2018 ?",
+        "reponse": "Didier Deschamps",
+        "propositions": [
+          "Didier Deschamps",
+          "Aimé Jacquet",
+          "Raymond Domenech",
+          "Roger Lemerre"
+        ],
+        "explication": "Didier Deschamps a ainsi remporté la Coupe du monde comme capitaine en 1998 puis comme sélectionneur en 2018."
+      },
+      {
+        "question": "Quel est le nom du stade du Borussia Dortmund, surnommé 'le mur jaune' en raison de l'impressionnante tribune de ses supporters ?",
+        "reponse": "Le Signal Iduna Park",
+        "propositions": [
+          "Le Signal Iduna Park",
+          "L'Allianz Arena",
+          "L'Olympiastadion",
+          "La Veltins-Arena"
+        ],
+        "explication": "La tribune sud du stade, le 'Südtribüne', peut accueillir plus de 24 000 spectateurs debout."
+      },
+      {
+        "question": "Quel gardien belge a reçu le Gant d'or (meilleur gardien) de la Coupe du monde 2018 ?",
+        "reponse": "Thibaut Courtois",
+        "propositions": [
+          "Thibaut Courtois",
+          "Hugo Lloris",
+          "Kasper Schmeichel",
+          "Jordan Pickford"
+        ],
+        "explication": "La Belgique avait terminé troisième de cette Coupe du monde, remportée par la France."
+      },
+      {
+        "question": "Comment appelle-t-on la compétition annuelle qui oppose le vainqueur de la Ligue des champions à celui de l'Europa League ?",
+        "reponse": "La Supercoupe de l'UEFA",
+        "propositions": [
+          "La Supercoupe de l'UEFA",
+          "La Coupe Intercontinentale",
+          "Le Trophée des champions",
+          "La Coupe du monde des clubs"
+        ],
+        "explication": "La Supercoupe de l'UEFA se joue traditionnellement en début de saison, avant le début des championnats nationaux."
+      },
+      {
+        "question": "Quel joueur sénégalais, Ballon d'or africain et vainqueur de la CAN 2021/2022, évoluait alors au FC Liverpool ?",
+        "reponse": "Sadio Mané",
+        "propositions": [
+          "Sadio Mané",
+          "Mohamed Salah",
+          "Kalidou Koulibaly",
+          "Idrissa Gueye"
+        ],
+        "explication": "Sadio Mané a inscrit le tir au but décisif lors de la finale de la CAN 2022 face à l'Égypte."
+      },
+      {
+        "question": "Quel pays a accueilli la Coupe du monde de football 2014 ?",
+        "reponse": "Le Brésil",
+        "propositions": [
+          "Le Brésil",
+          "L'Afrique du Sud",
+          "La Russie",
+          "Le Qatar"
+        ],
+        "explication": "L'Allemagne y a remporté le titre en battant l'Argentine en finale, après avoir écrasé le pays hôte 7-1 en demi-finale."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Tite"
         ],
         "explication": "Le Brésil, mené par le trio Ronaldo-Rivaldo-Ronaldinho, a battu l'Allemagne en finale."
+      },
+      {
+        "question": "Quel joueur néerlandais a marqué un but resté célèbre en finale de l'Euro 1988 contre l'URSS, d'une volée depuis un angle extrême ?",
+        "reponse": "Marco van Basten",
+        "propositions": [
+          "Marco van Basten",
+          "Ruud Gullit",
+          "Dennis Bergkamp",
+          "Johan Cruyff"
+        ],
+        "explication": "Ce but est considéré comme l'un des plus beaux de l'histoire des compétitions internationales."
+      },
+      {
+        "question": "Quel joueur allemand, meilleur buteur de l'histoire de la Coupe du monde avant Miroslav Klose, a marqué 14 buts dans les années 1970 ?",
+        "reponse": "Gerd Müller",
+        "propositions": [
+          "Gerd Müller",
+          "Franz Beckenbauer",
+          "Karl-Heinz Rummenigge",
+          "Jürgen Klinsmann"
+        ],
+        "explication": "Gerd Müller a notamment inscrit le but vainqueur de la finale de la Coupe du monde 1974."
+      },
+      {
+        "question": "Quel club écossais a remporté la Coupe d'Europe des clubs champions (ancien nom de la Ligue des champions) en 1967 ?",
+        "reponse": "Le Celtic FC",
+        "propositions": [
+          "Le Celtic FC",
+          "Les Rangers FC",
+          "Le Hibernian",
+          "L'Aberdeen FC"
+        ],
+        "explication": "Le Celtic Glasgow reste, à ce jour, le seul club écossais vainqueur de cette compétition."
+      },
+      {
+        "question": "Quel entraîneur argentin a mené l'Argentine à la victoire lors de la Coupe du monde 1986, avec Diego Maradona comme capitaine ?",
+        "reponse": "Carlos Bilardo",
+        "propositions": [
+          "Carlos Bilardo",
+          "César Luis Menotti",
+          "Alejandro Sabella",
+          "Lionel Scaloni"
+        ],
+        "explication": "César Luis Menotti avait déjà mené l'Argentine à son premier titre mondial en 1978."
+      },
+      {
+        "question": "Quel joueur brésilien, surnommé 'le Roi', a remporté trois Coupes du monde avec le Brésil, en 1958, 1962 et 1970 ?",
+        "reponse": "Pelé",
+        "propositions": [
+          "Pelé",
+          "Garrincha",
+          "Zico",
+          "Romário"
+        ],
+        "explication": "Pelé est le seul joueur de l'histoire à avoir remporté trois titres mondiaux masculins."
+      },
+      {
+        "question": "Quelle règle du football interdit aux joueurs de toucher intentionnellement le ballon avec la main ou le bras, hors du gardien dans sa propre surface ?",
+        "reponse": "La règle de la main",
+        "propositions": [
+          "La règle de la main",
+          "La règle du hors-jeu",
+          "La règle de l'avantage",
+          "La règle des six secondes"
+        ],
+        "explication": "Une main volontaire dans la surface de réparation est sanctionnée par un penalty."
+      },
+      {
+        "question": "Quel club portugais a remporté la Ligue des champions 2003-2004 sous la direction de José Mourinho ?",
+        "reponse": "Le FC Porto",
+        "propositions": [
+          "Le FC Porto",
+          "Le Sporting Portugal",
+          "Le Benfica Lisbonne",
+          "Le Vitória Guimarães"
+        ],
+        "explication": "Cette victoire a lancé la carrière internationale de José Mourinho, qui a rejoint Chelsea l'été suivant."
+      },
+      {
+        "question": "Quel joueur allemand a soulevé la Coupe du monde comme capitaine en 1974, puis comme sélectionneur en 1990 ?",
+        "reponse": "Franz Beckenbauer",
+        "propositions": [
+          "Franz Beckenbauer",
+          "Gerd Müller",
+          "Lothar Matthäus",
+          "Rudi Völler"
+        ],
+        "explication": "Beckenbauer fait partie des rares personnes à avoir remporté la Coupe du monde en tant que joueur puis comme entraîneur."
+      },
+      {
+        "question": "Quelle compétition, disputée pour la première fois en 1960, opposait le vainqueur de la Coupe d'Europe des clubs champions au vainqueur de la Copa Libertadores sud-américaine ?",
+        "reponse": "La Coupe Intercontinentale",
+        "propositions": [
+          "La Coupe Intercontinentale",
+          "La Coupe du monde des clubs",
+          "La Supercoupe de l'UEFA",
+          "La Coupe Latine"
+        ],
+        "explication": "Cette compétition a existé jusqu'en 2004, avant d'être remplacée par la Coupe du monde des clubs de la FIFA."
+      },
+      {
+        "question": "Quel ancien numéro 10 français, capitaine de l'équipe de France championne du monde en 1998, a été élu meilleur joueur du Mondial cette année-là ?",
+        "reponse": "Zinédine Zidane",
+        "propositions": [
+          "Zinédine Zidane",
+          "Didier Deschamps",
+          "Youri Djorkaeff",
+          "Thierry Henry"
+        ],
+        "explication": "Zidane avait inscrit deux buts de la tête lors de la finale remportée face au Brésil."
       }
     ]
   }

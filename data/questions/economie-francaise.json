@@ -166,6 +166,116 @@
           "Le secteur informel"
         ],
         "explication": "Le secteur tertiaire emploie aujourd'hui la grande majorité des actifs en France."
+      },
+      {
+        "question": "Comment appelle-t-on la contribution, créée en 1991, prélevée sur la quasi-totalité des revenus pour financer la protection sociale française ?",
+        "reponse": "La CSG (contribution sociale généralisée)",
+        "propositions": [
+          "La CSG (contribution sociale généralisée)",
+          "La TVA",
+          "Le RSA",
+          "La taxe d'habitation"
+        ],
+        "explication": "La CSG a été instaurée en 1991 et constitue l'une des principales ressources de la Sécurité sociale."
+      },
+      {
+        "question": "Quelle entreprise française est le leader mondial des cosmétiques ?",
+        "reponse": "L'Oréal",
+        "propositions": [
+          "L'Oréal",
+          "LVMH",
+          "Sephora",
+          "Chanel"
+        ],
+        "explication": "L'Oréal, fondé en 1909, est le premier groupe mondial de cosmétiques en chiffre d'affaires."
+      },
+      {
+        "question": "Quel est le nom du plus grand marché de produits frais du monde, situé au sud de Paris ?",
+        "reponse": "Le marché de Rungis",
+        "propositions": [
+          "Le marché de Rungis",
+          "Les Halles de Paris",
+          "Le marché Saint-Germain",
+          "Le MIN de Lyon"
+        ],
+        "explication": "Le marché d'intérêt national de Rungis approvisionne notamment la région parisienne en produits frais."
+      },
+      {
+        "question": "Quelle entreprise française, basée à Clermont-Ferrand, est un leader mondial du pneumatique ?",
+        "reponse": "Michelin",
+        "propositions": [
+          "Michelin",
+          "Continental",
+          "Bridgestone",
+          "Goodyear"
+        ],
+        "explication": "Michelin a été fondé en 1889 et est aussi connu pour son célèbre guide gastronomique."
+      },
+      {
+        "question": "Quel est le principal aéroport international de la région parisienne, plus grand hub aérien de France ?",
+        "reponse": "L'aéroport Paris-Charles de Gaulle",
+        "propositions": [
+          "L'aéroport Paris-Charles de Gaulle",
+          "L'aéroport d'Orly",
+          "L'aéroport de Beauvais",
+          "L'aéroport du Bourget"
+        ],
+        "explication": "Roissy - Charles de Gaulle est la principale plateforme du groupe Air France et d'ADP."
+      },
+      {
+        "question": "Quelle entreprise française de distribution, fondée en 1958, est l'un des plus grands groupes mondiaux de supermarchés et hypermarchés ?",
+        "reponse": "Carrefour",
+        "propositions": [
+          "Carrefour",
+          "Auchan",
+          "Leclerc",
+          "Casino"
+        ],
+        "explication": "Carrefour a ouvert le premier hypermarché français en 1963, à Sainte-Geneviève-des-Bois."
+      },
+      {
+        "question": "Quelle entreprise aéronautique franco-européenne construit des avions de ligne comme l'A320 et l'A380 ?",
+        "reponse": "Airbus",
+        "propositions": [
+          "Airbus",
+          "Boeing",
+          "Dassault Aviation",
+          "ATR"
+        ],
+        "explication": "Airbus est né en 1970 d'une coopération entre la France, l'Allemagne et d'autres pays européens."
+      },
+      {
+        "question": "Quelle grande banque française est née en 2000 de la fusion entre la BNP et Paribas ?",
+        "reponse": "BNP Paribas",
+        "propositions": [
+          "BNP Paribas",
+          "Société Générale",
+          "Crédit Agricole",
+          "La Banque Postale"
+        ],
+        "explication": "BNP Paribas est aujourd'hui l'une des plus grandes banques de la zone euro."
+      },
+      {
+        "question": "Quel grand salon professionnel se tient chaque année porte de Versailles à Paris pour présenter les acteurs du monde agricole ?",
+        "reponse": "Le Salon de l'Agriculture",
+        "propositions": [
+          "Le Salon de l'Agriculture",
+          "Le Mondial de l'Auto",
+          "Vivatech",
+          "Le Salon du Bourget"
+        ],
+        "explication": "Le Salon international de l'agriculture attire chaque année des centaines de milliers de visiteurs."
+      },
+      {
+        "question": "Comment appelle-t-on le produit d'épargne réglementée le plus répandu en France, dont les intérêts sont exonérés d'impôt ?",
+        "reponse": "Le Livret A",
+        "propositions": [
+          "Le Livret A",
+          "Le PEL",
+          "L'assurance-vie",
+          "Le PEA"
+        ],
+        "explication": "Le taux du Livret A est fixé par les pouvoirs publics et révisé périodiquement."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Le taux OAT"
         ],
         "explication": "Le taux d'usure est fixé par la Banque de France pour protéger les emprunteurs contre des taux abusifs."
+      },
+      {
+        "question": "Quel est le taux normal de TVA appliqué en France à la majorité des biens et services ?",
+        "reponse": "20 %",
+        "propositions": [
+          "20 %",
+          "5,5 %",
+          "10 %",
+          "33 %"
+        ],
+        "explication": "Des taux réduits (5,5 % et 10 %) existent pour certains produits comme l'alimentation ou les livres."
+      },
+      {
+        "question": "Comment appelle-t-on l'impôt payé par les entreprises françaises sur leurs bénéfices ?",
+        "reponse": "L'impôt sur les sociétés (IS)",
+        "propositions": [
+          "L'impôt sur les sociétés (IS)",
+          "La TVA",
+          "La CSG",
+          "La taxe professionnelle"
+        ],
+        "explication": "Le taux normal de l'impôt sur les sociétés est de 25 % en France depuis 2022."
+      },
+      {
+        "question": "Quelle est la durée légale hebdomadaire du travail en France, instaurée en 2000 ?",
+        "reponse": "35 heures",
+        "propositions": [
+          "35 heures",
+          "39 heures",
+          "40 heures",
+          "32 heures"
+        ],
+        "explication": "La loi Aubry a généralisé les 35 heures hebdomadaires au début des années 2000."
+      },
+      {
+        "question": "Quel organisme gère les retraites de base des salariés du secteur privé en France ?",
+        "reponse": "L'Assurance retraite (CNAV)",
+        "propositions": [
+          "L'Assurance retraite (CNAV)",
+          "L'URSSAF",
+          "La CAF",
+          "Pôle emploi"
+        ],
+        "explication": "La CNAV, caisse nationale d'assurance vieillesse, verse les pensions de retraite de base."
+      },
+      {
+        "question": "Comment appelle-t-on, par métonymie, le ministère français de l'Économie et des Finances en raison de sa localisation parisienne ?",
+        "reponse": "Bercy",
+        "propositions": [
+          "Bercy",
+          "Matignon",
+          "L'Élysée",
+          "Le Palais Bourbon"
+        ],
+        "explication": "Le ministère de l'Économie est installé dans le quartier de Bercy, à Paris, depuis 1989."
+      },
+      {
+        "question": "Quel est le nom officiel de la Bourse de Paris, intégrée au groupe paneuropéen Euronext ?",
+        "reponse": "Euronext Paris",
+        "propositions": [
+          "Euronext Paris",
+          "Le NYSE",
+          "Le London Stock Exchange",
+          "Le Nasdaq"
+        ],
+        "explication": "Euronext regroupe plusieurs places boursières européennes, dont Paris, Amsterdam et Bruxelles."
+      },
+      {
+        "question": "À quel âge légal minimal de départ à la retraite la réforme française de 2023 porte-t-elle progressivement l'âge de départ ?",
+        "reponse": "64 ans",
+        "propositions": [
+          "64 ans",
+          "62 ans",
+          "65 ans",
+          "60 ans"
+        ],
+        "explication": "La réforme de 2023 relève progressivement l'âge légal de départ de 62 à 64 ans."
+      },
+      {
+        "question": "Quel sigle désigne, en France, les petites et moyennes entreprises ?",
+        "reponse": "PME",
+        "propositions": [
+          "PME",
+          "ETI",
+          "TPE",
+          "GE"
+        ],
+        "explication": "Les PME se distinguent des très petites entreprises (TPE) et des entreprises de taille intermédiaire (ETI)."
+      },
+      {
+        "question": "Quel groupe énergétique français, issu de la fusion de Gaz de France et Suez en 2008, est un acteur majeur du gaz et des services énergétiques ?",
+        "reponse": "Engie",
+        "propositions": [
+          "Engie",
+          "TotalEnergies",
+          "EDF",
+          "Veolia"
+        ],
+        "explication": "Engie, anciennement GDF Suez, a adopté son nom actuel en 2015."
+      },
+      {
+        "question": "Comment appelle-t-on la loi votée chaque année par le Parlement pour fixer le budget de l'État français ?",
+        "reponse": "La loi de finances",
+        "propositions": [
+          "La loi de finances",
+          "Le projet de société",
+          "La loi de programmation",
+          "Le contrat de plan"
+        ],
+        "explication": "La loi de finances doit être adoptée avant le 31 décembre pour s'appliquer l'année suivante."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Le traité d'Amsterdam"
         ],
         "explication": "Les critères de Maastricht encadrent notamment le déficit public et la dette publique des États membres."
+      },
+      {
+        "question": "Quel ministre des Finances de Louis XVI a publié en 1781 un controversé 'Compte rendu au roi' détaillant les finances publiques ?",
+        "reponse": "Jacques Necker",
+        "propositions": [
+          "Jacques Necker",
+          "Turgot",
+          "Calonne",
+          "Colbert"
+        ],
+        "explication": "Ce document, inédit pour l'époque, visait à rassurer les créanciers de la monarchie en pleine crise financière."
+      },
+      {
+        "question": "Quel système financier, mis en place sous la Régence par l'Écossais John Law, s'est effondré en 1720 en ruinant de nombreux épargnants français ?",
+        "reponse": "Le système de Law",
+        "propositions": [
+          "Le système de Law",
+          "Le système de Necker",
+          "La banqueroute des deux tiers",
+          "Le système de Colbert"
+        ],
+        "explication": "La Banque royale de Law avait émis en masse des billets de banque, provoquant une bulle spéculative puis un krach."
+      },
+      {
+        "question": "Quel économiste français du XVIIIe siècle, chef de file de l'école physiocratique, considérait l'agriculture comme la seule source de richesse nationale ?",
+        "reponse": "François Quesnay",
+        "propositions": [
+          "François Quesnay",
+          "Turgot",
+          "Jean-Baptiste Say",
+          "Sully"
+        ],
+        "explication": "Quesnay est notamment l'auteur du 'Tableau économique', ancêtre des modèles de circuit économique."
+      },
+      {
+        "question": "Quel traité, signé par la France en 1957, a créé la Communauté économique européenne (CEE), ancêtre de l'Union européenne ?",
+        "reponse": "Le traité de Rome",
+        "propositions": [
+          "Le traité de Rome",
+          "Le traité de Maastricht",
+          "Le traité de Paris (CECA)",
+          "Le traité de Lisbonne"
+        ],
+        "explication": "Le traité de Rome est signé par six pays fondateurs, dont la France, l'Allemagne et l'Italie."
+      },
+      {
+        "question": "Quel économiste français du XIXe siècle, défenseur du libre-échange, est l'auteur des 'Harmonies économiques' ?",
+        "reponse": "Frédéric Bastiat",
+        "propositions": [
+          "Frédéric Bastiat",
+          "Jean-Baptiste Say",
+          "Léon Walras",
+          "Auguste Blanqui"
+        ],
+        "explication": "Bastiat est également connu pour sa satire 'Pétition des fabricants de chandelles' contre le protectionnisme."
+      },
+      {
+        "question": "Quelle banque d'affaires française, fondée en 1872, a fusionné avec la BNP en 2000 pour former BNP Paribas ?",
+        "reponse": "Paribas",
+        "propositions": [
+          "Paribas",
+          "Indosuez",
+          "Natixis",
+          "Société Générale"
+        ],
+        "explication": "Paribas, à l'origine 'Banque de Paris et des Pays-Bas', a financé de nombreux grands projets industriels."
+      },
+      {
+        "question": "Quelle banqueroute de 1882, provoquée par la faillite de la banque catholique L'Union Générale, a entraîné un krach à la Bourse de Paris et surtout de Lyon ?",
+        "reponse": "Le krach de l'Union Générale",
+        "propositions": [
+          "Le krach de l'Union Générale",
+          "Le krach de 1929",
+          "Le krach de Law",
+          "La crise du franc de 1924"
+        ],
+        "explication": "Ce krach a durement touché les petits épargnants catholiques de la bourgeoisie lyonnaise."
+      },
+      {
+        "question": "Quel impôt sur le patrimoine, créé en 1989 sous le gouvernement de Michel Rocard et supprimé en 2018 au profit de l'IFI, visait les plus grandes fortunes françaises ?",
+        "reponse": "L'impôt de solidarité sur la fortune (ISF)",
+        "propositions": [
+          "L'impôt de solidarité sur la fortune (ISF)",
+          "La taxe d'habitation",
+          "L'impôt sur le revenu",
+          "La contribution économique territoriale"
+        ],
+        "explication": "L'ISF a été remplacé en 2018 par l'impôt sur la fortune immobilière (IFI), limité aux actifs immobiliers."
+      },
+      {
+        "question": "Quelle crise économique mondiale, débutée en 1929, a touché la France avec un certain décalage, frappant durement son économie au début des années 1930 ?",
+        "reponse": "La Grande Dépression (crise de 1929)",
+        "propositions": [
+          "La Grande Dépression (crise de 1929)",
+          "Le choc pétrolier de 1973",
+          "La crise de la dette de 1982",
+          "La crise de 2008"
+        ],
+        "explication": "La France a été relativement épargnée dans un premier temps avant de subir une crise prolongée jusqu'au milieu des années 1930."
+      },
+      {
+        "question": "Quels accords sociaux de juin 1936, négociés sous le gouvernement du Front populaire, instaurent les congés payés et la semaine de 40 heures ?",
+        "reponse": "Les accords de Matignon",
+        "propositions": [
+          "Les accords de Matignon",
+          "Le Plan Monnet",
+          "Le tournant de la rigueur",
+          "Les accords de Grenelle"
+        ],
+        "explication": "Ces accords, signés à l'hôtel Matignon, font suite à un vaste mouvement de grèves ouvrières."
       }
     ]
   }

@@ -1,0 +1,191 @@
+{
+  "theme": "League of Legends",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel studio a développé et édité League of Legends ?",
+        "reponse": "Riot Games",
+        "propositions": ["Riot Games", "Blizzard Entertainment", "Valve", "Epic Games"],
+        "explication": "League of Legends a été développé par Riot Games et lancé en 2009."
+      },
+      {
+        "question": "Dans quel genre de jeu vidéo classe-t-on League of Legends ?",
+        "reponse": "Le MOBA",
+        "propositions": ["Le MOBA", "Le FPS", "Le jeu de rythme", "Le RPG solo"],
+        "explication": "League of Legends est un MOBA (Multiplayer Online Battle Arena), un genre de jeu de stratégie en équipe."
+      },
+      {
+        "question": "Combien de joueurs s'affrontent typiquement dans un match classique de League of Legends (5 contre 5) ?",
+        "reponse": "Dix",
+        "propositions": ["Dix", "Six", "Huit", "Douze"],
+        "explication": "Un match standard de League of Legends oppose deux équipes de cinq joueurs, soit dix joueurs au total."
+      },
+      {
+        "question": "Comment appelle-t-on les personnages jouables dans League of Legends ?",
+        "reponse": "Des champions",
+        "propositions": ["Des champions", "Des héros", "Des avatars", "Des unités"],
+        "explication": "Les personnages contrôlés par les joueurs dans League of Legends sont appelés des champions."
+      },
+      {
+        "question": "Quel est le nom de la compétition mondiale annuelle qui couronne le champion international de League of Legends ?",
+        "reponse": "Les World Championships (Worlds)",
+        "propositions": ["Les World Championships (Worlds)", "La Coupe du monde", "Les Masters", "L'International"],
+        "explication": "Les Worlds sont le tournoi international annuel le plus prestigieux de League of Legends."
+      },
+      {
+        "question": "League of Legends est-il un jeu gratuit à télécharger ?",
+        "reponse": "Oui, il est free-to-play",
+        "propositions": ["Oui, il est free-to-play", "Non, il faut l'acheter", "Non, il est sur abonnement obligatoire", "Oui, mais seulement un mois d'essai"],
+        "explication": "League of Legends est free-to-play : le jeu est gratuit, les revenus provenant de contenus cosmétiques optionnels."
+      },
+      {
+        "question": "Comment appelle-t-on la carte principale sur laquelle se déroule le mode de jeu classique de League of Legends ?",
+        "reponse": "La Faille de l'invocateur",
+        "propositions": ["La Faille de l'invocateur", "Le Nexus", "La Forêt hurlante", "L'Abysse tordu"],
+        "explication": "La Faille de l'invocateur (Summoner's Rift) est la carte emblématique du mode 5 contre 5 de League of Legends."
+      },
+      {
+        "question": "Quel bâtiment, situé dans la base de chaque équipe, doit être détruit pour remporter la victoire ?",
+        "reponse": "Le Nexus",
+        "propositions": ["Le Nexus", "La tourelle centrale", "Le camp de jungle", "L'inhibiteur principal"],
+        "explication": "La destruction du Nexus adverse met fin à la partie et donne la victoire à l'équipe qui l'a détruit."
+      },
+      {
+        "question": "En quelle année League of Legends a-t-il été lancé officiellement ?",
+        "reponse": "2009",
+        "propositions": ["2009", "2005", "2013", "2015"],
+        "explication": "League of Legends a été lancé par Riot Games le 27 octobre 2009."
+      },
+      {
+        "question": "Quelle série animée, diffusée sur Netflix, est adaptée de l'univers de League of Legends ?",
+        "reponse": "Arcane",
+        "propositions": ["Arcane", "Castlevania", "Cyberpunk Edgerunners", "DOTA : Dragon's Blood"],
+        "explication": "Arcane, sortie en 2021, est une série animée Netflix basée sur l'univers de League of Legends, saluée par la critique."
+      }
+    ],
+    "2": [
+      {
+        "question": "Comment appelle-t-on les créatures neutres que les joueurs peuvent éliminer dans la jungle pour gagner de l'expérience et des bonus ?",
+        "reponse": "Les monstres de jungle",
+        "propositions": ["Les monstres de jungle", "Les sbires", "Les champions ennemis", "Les tourelles"],
+        "explication": "Les monstres de jungle, comme le Dragon ou le Héraut, offrent des bonus puissants à l'équipe qui les élimine."
+      },
+      {
+        "question": "Comment appelle-t-on les unités contrôlées par l'ordinateur qui avancent automatiquement le long des voies ?",
+        "reponse": "Les sbires (minions)",
+        "propositions": ["Les sbires (minions)", "Les champions", "Les wards", "Les invocateurs"],
+        "explication": "Les sbires avancent automatiquement sur les voies et constituent la principale source d'or et d'expérience en début de partie."
+      },
+      {
+        "question": "Quel grand monstre neutre, situé dans la jungle, offre un buff puissant facilitant les combats de groupe une fois vaincu ?",
+        "reponse": "Le Baron Nashor",
+        "propositions": ["Le Baron Nashor", "Le Dragon ancien", "Le Héraut de la faille", "Le Loup ancestral"],
+        "explication": "Le Baron Nashor confère un puissant buff temporaire à toute l'équipe qui parvient à le tuer."
+      },
+      {
+        "question": "Comment appelle-t-on les objets posés sur la carte pour révéler une zone et donner de la vision à son équipe ?",
+        "reponse": "Les balises (wards)",
+        "propositions": ["Les balises (wards)", "Les sbires", "Les potions", "Les runes"],
+        "explication": "Les wards sont des balises posées par les joueurs pour obtenir de la vision sur des zones de la carte, souvent stratégiques."
+      },
+      {
+        "question": "Quelle équipe sud-coréenne a remporté un nombre record de titres mondiaux (Worlds), s'imposant comme la plus titrée de l'histoire ?",
+        "reponse": "T1 (anciennement SK Telecom T1)",
+        "propositions": ["T1 (anciennement SK Telecom T1)", "Fnatic", "G2 Esports", "Cloud9"],
+        "explication": "T1, portée notamment par le joueur légendaire Faker, est l'équipe la plus titrée de l'histoire des Worlds."
+      },
+      {
+        "question": "Quel rôle désigne le joueur qui évolue principalement seul sur la voie du haut de la carte ?",
+        "reponse": "Le top laner",
+        "propositions": ["Le top laner", "Le support", "Le jungler", "L'ADC"],
+        "explication": "Le top laner occupe la voie du haut, souvent en duel isolé contre son adversaire direct."
+      },
+      {
+        "question": "Comment appelle-t-on le rôle du joueur spécialisé dans les dégâts à distance, généralement positionné en voie du bas ?",
+        "reponse": "L'ADC (Attack Damage Carry)",
+        "propositions": ["L'ADC (Attack Damage Carry)", "Le support", "Le jungler", "Le mid laner"],
+        "explication": "L'ADC inflige des dégâts physiques soutenus à distance et dépend fortement des objets achetés au fil de la partie."
+      },
+      {
+        "question": "Quelle ligue professionnelle regroupe les principales équipes européennes de League of Legends ?",
+        "reponse": "La LEC (League of Legends EMEA Championship)",
+        "propositions": ["La LEC (League of Legends EMEA Championship)", "La LCK", "La LCS", "La LPL"],
+        "explication": "La LEC est la ligue professionnelle majeure regroupant les meilleures équipes d'Europe, du Moyen-Orient et d'Afrique."
+      },
+      {
+        "question": "Comment appelle-t-on la monnaie virtuelle du jeu, utilisée pour acheter des champions avec de l'argent réel ou des points d'influence ?",
+        "reponse": "Les points Riot (RP) et points d'influence (PI/essence bleue)",
+        "propositions": ["Les points Riot (RP) et points d'influence (PI/essence bleue)", "Les cristaux de faille", "Les jetons d'invocateur", "Les gemmes de Nexus"],
+        "explication": "Les RP s'achètent avec de l'argent réel pour des cosmétiques, tandis que l'essence bleue, gagnée en jeu, permet de débloquer des champions."
+      },
+      {
+        "question": "Quel pays domine traditionnellement la scène professionnelle mondiale de League of Legends, à travers sa ligue la LCK ?",
+        "reponse": "La Corée du Sud",
+        "propositions": ["La Corée du Sud", "Les États-Unis", "La Chine", "L'Allemagne"],
+        "explication": "La Corée du Sud, via sa ligue LCK, est historiquement la région la plus titrée et la plus respectée de League of Legends."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel joueur sud-coréen, considéré comme le meilleur de l'histoire, évolue chez T1 sous le pseudonyme « Faker » ?",
+        "reponse": "Lee Sang-hyeok",
+        "propositions": ["Lee Sang-hyeok", "Kang Seung-lok", "Heo Seung-hoon", "Bae Jun-sik"],
+        "explication": "Lee Sang-hyeok, alias Faker, est considéré par beaucoup comme le meilleur joueur de l'histoire de League of Legends."
+      },
+      {
+        "question": "En quelle année l'équipe européenne Fnatic a-t-elle remporté le tout premier championnat du monde de League of Legends ?",
+        "reponse": "2011",
+        "propositions": ["2011", "2009", "2013", "2015"],
+        "explication": "Fnatic a remporté la première édition des World Championships en 2011, à l'époque du jeu DreamHack Summer."
+      },
+      {
+        "question": "Quel moteur de jeu, dérivé à l'origine d'un mod de Warcraft III, a inspiré la création de League of Legends ?",
+        "reponse": "Defense of the Ancients (DotA)",
+        "propositions": ["Defense of the Ancients (DotA)", "Counter-Strike", "StarCraft", "Diablo"],
+        "explication": "League of Legends a été créé par d'anciens développeurs du mod communautaire DotA, sur Warcraft III."
+      },
+      {
+        "question": "Quelle académie de formation de joueurs, filiale des grandes ligues, a été mise en place pour développer la relève professionnelle ?",
+        "reponse": "Les Academy Leagues (ligues de développement)",
+        "propositions": ["Les Academy Leagues (ligues de développement)", "Les Challenger Series uniquement", "Les Rift Rivals", "Les All-Star Games"],
+        "explication": "Les ligues Academy, notamment en Amérique du Nord, permettent aux jeunes talents de progresser avant d'intégrer l'élite professionnelle."
+      },
+      {
+        "question": "Quel événement de 2014, opposant plusieurs régions, a précédé la création du format actuel des Rift Rivals ?",
+        "reponse": "L'International Wildcard Invitational",
+        "propositions": ["L'International Wildcard Invitational", "La Mid-Season Invitational", "La Demacia Cup", "La All-Star Week"],
+        "explication": "Avant l'instauration du format Rift Rivals, Riot Games organisait divers tournois inter-régionaux pour confronter les styles de jeu."
+      },
+      {
+        "question": "Quelle compétition, créée en 2015, oppose chaque année en milieu de saison les champions de chaque grande ligue régionale ?",
+        "reponse": "Le Mid-Season Invitational (MSI)",
+        "propositions": ["Le Mid-Season Invitational (MSI)", "Les Rift Rivals", "La Demacia Cup", "La All-Star Week"],
+        "explication": "Le MSI, lancé en 2015, réunit les champions de chaque grande région en milieu de saison, avant les Worlds."
+      },
+      {
+        "question": "Quelle équipe chinoise a mis fin à la domination sud-coréenne en remportant les Worlds 2018, la première victoire chinoise au tournoi ?",
+        "reponse": "Invictus Gaming",
+        "propositions": ["Invictus Gaming", "Royal Never Give Up", "FunPlus Phoenix", "EDward Gaming"],
+        "explication": "Invictus Gaming a remporté les Worlds 2018, offrant à la Chine son premier titre mondial sur League of Legends."
+      },
+      {
+        "question": "Quel système de classement par ligues, du plus bas au plus haut, structure le mode compétitif « classé » du jeu ?",
+        "reponse": "Fer, Bronze, Argent, Or, Platine, Émeraude, Diamant, Maître, Grand Maître, Challenger",
+        "propositions": ["Fer, Bronze, Argent, Or, Platine, Émeraude, Diamant, Maître, Grand Maître, Challenger", "Bronze, Argent, Or, Platine, Diamant uniquement", "Débutant, Amateur, Semi-pro, Pro", "Niveau 1 à Niveau 10"],
+        "explication": "Le mode classé de League of Legends utilise une hiérarchie de rangs allant de Fer jusqu'à Challenger, le sommet du classement."
+      },
+      {
+        "question": "Quel ancien jeu, également développé par Riot Games, partage l'univers narratif de League of Legends sous forme de jeu de cartes ?",
+        "reponse": "Legends of Runeterra",
+        "propositions": ["Legends of Runeterra", "Teamfight Tactics", "Valorant", "Wild Rift"],
+        "explication": "Legends of Runeterra est un jeu de cartes à collectionner développé par Riot Games, situé dans l'univers de Runeterra."
+      },
+      {
+        "question": "Quelle franchise de League of Legends, lancée en 2020, a introduit un système de partenariats fermes remplaçant la montée/descente entre divisions en Amérique du Nord et en Europe ?",
+        "reponse": "La franchise des ligues LCS et LEC",
+        "propositions": ["La franchise des ligues LCS et LEC", "La franchise de la LCK", "La franchise de la LPL", "La franchise des Worlds"],
+        "explication": "À partir de 2018-2020, la LCS puis la LEC sont passées à un système de franchises, avec des équipes partenaires permanentes sans relégation."
+      }
+    ]
+  }
+}

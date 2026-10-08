@@ -166,6 +166,116 @@
           "Le rein"
         ],
         "explication": "Le cœur pompe environ 5 litres de sang par minute au repos."
+      },
+      {
+        "question": "Quelle est la plus haute montagne du monde ?",
+        "reponse": "Le mont Everest",
+        "propositions": [
+          "Le mont Everest",
+          "Le K2",
+          "Le Kilimandjaro",
+          "Le mont Blanc"
+        ],
+        "explication": "L'Everest culmine à 8 849 mètres d'altitude, à la frontière entre le Népal et le Tibet."
+      },
+      {
+        "question": "Quel est le plus long mur construit par l'homme, situé en Chine ?",
+        "reponse": "La Grande Muraille de Chine",
+        "propositions": [
+          "La Grande Muraille de Chine",
+          "Le mur d'Hadrien",
+          "La muraille de Theodosius",
+          "Le mur de Berlin"
+        ],
+        "explication": "La Grande Muraille de Chine s'étend sur plusieurs milliers de kilomètres et a été construite sur plusieurs siècles."
+      },
+      {
+        "question": "En quelle année a eu lieu la prise de la Bastille, marquant le début de la Révolution française ?",
+        "reponse": "1789",
+        "propositions": [
+          "1789",
+          "1799",
+          "1804",
+          "1848"
+        ],
+        "explication": "La prise de la Bastille, le 14 juillet 1789, est devenue un symbole de la fin de l'Ancien Régime."
+      },
+      {
+        "question": "Quelle est la capitale de l'Espagne ?",
+        "reponse": "Madrid",
+        "propositions": [
+          "Madrid",
+          "Barcelone",
+          "Séville",
+          "Valence"
+        ],
+        "explication": "Madrid est la capitale et la plus grande ville d'Espagne."
+      },
+      {
+        "question": "Combien d'os compte en moyenne le squelette d'un adulte humain ?",
+        "reponse": "206",
+        "propositions": [
+          "186",
+          "206",
+          "226",
+          "256"
+        ],
+        "explication": "Un nouveau-né possède davantage d'os, dont certains fusionnent en grandissant."
+      },
+      {
+        "question": "Quel est le plus petit pays du monde par sa superficie ?",
+        "reponse": "Le Vatican",
+        "propositions": [
+          "Le Vatican",
+          "Monaco",
+          "Saint-Marin",
+          "Liechtenstein"
+        ],
+        "explication": "La cité-État du Vatican couvre environ 0,44 km², en plein cœur de Rome."
+      },
+      {
+        "question": "Combien de joueurs une équipe de football aligne-t-elle simultanément sur le terrain ?",
+        "reponse": "11",
+        "propositions": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "explication": "Chaque équipe compte 11 joueurs sur le terrain, dont un gardien de but."
+      },
+      {
+        "question": "Quelle tour parisienne a été construite pour l'Exposition universelle de 1889 ?",
+        "reponse": "La tour Eiffel",
+        "propositions": [
+          "La tour Eiffel",
+          "La tour Montparnasse",
+          "L'Arc de triomphe",
+          "La tour Saint-Jacques"
+        ],
+        "explication": "Conçue par l'ingénieur Gustave Eiffel, elle devait initialement être démontée après l'exposition."
+      },
+      {
+        "question": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+        "reponse": "Environ 300 000 km/s",
+        "propositions": [
+          "Environ 30 000 km/s",
+          "Environ 300 000 km/s",
+          "Environ 3 000 000 km/s",
+          "Environ 300 km/s"
+        ],
+        "explication": "Cette vitesse, notée c, est une constante fondamentale de la physique."
+      },
+      {
+        "question": "Quelle ancienne merveille du monde antique, encore debout aujourd'hui, se trouve en Égypte ?",
+        "reponse": "La grande pyramide de Gizeh",
+        "propositions": [
+          "La grande pyramide de Gizeh",
+          "Le phare d'Alexandrie",
+          "Les jardins suspendus de Babylone",
+          "Le colosse de Rhodes"
+        ],
+        "explication": "C'est la seule des sept merveilles du monde antique encore largement conservée aujourd'hui."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Bornéo"
         ],
         "explication": "Le Groenland est la plus grande île du monde ; l'Australie, plus vaste encore, est classée comme continent."
+      },
+      {
+        "question": "En quelle année le mur de Berlin est-il tombé, symbolisant la fin de la guerre froide en Europe ?",
+        "reponse": "1989",
+        "propositions": [
+          "1989",
+          "1991",
+          "1985",
+          "1979"
+        ],
+        "explication": "La chute du mur de Berlin, le 9 novembre 1989, a précédé la réunification allemande en 1990."
+      },
+      {
+        "question": "Quel document, signé en 1215 en Angleterre, limite pour la première fois les pouvoirs du roi face à ses barons ?",
+        "reponse": "La Magna Carta",
+        "propositions": [
+          "La Magna Carta",
+          "Le Bill of Rights",
+          "L'Habeas Corpus",
+          "La Déclaration de Westminster"
+        ],
+        "explication": "Imposée au roi Jean sans Terre, la Magna Carta est considérée comme un jalon du constitutionnalisme moderne."
+      },
+      {
+        "question": "Quel congrès européen de 1815 a redessiné les frontières du continent après les guerres napoléoniennes ?",
+        "reponse": "Le congrès de Vienne",
+        "propositions": [
+          "Le congrès de Vienne",
+          "Le congrès de Berlin",
+          "Le traité de Paris",
+          "Le congrès d'Aix-la-Chapelle"
+        ],
+        "explication": "Ce congrès a réuni les grandes puissances européennes pour restaurer un équilibre politique après la chute de Napoléon."
+      },
+      {
+        "question": "Quelle invention de Johannes Gutenberg, vers 1450, a révolutionné la diffusion du savoir en Europe ?",
+        "reponse": "L'imprimerie à caractères mobiles",
+        "propositions": [
+          "L'imprimerie à caractères mobiles",
+          "Le papier",
+          "La presse hydraulique",
+          "La gravure sur bois"
+        ],
+        "explication": "Cette invention a considérablement accéléré la production et la diffusion des livres en Europe."
+      },
+      {
+        "question": "Quel est le plus grand système corallien du monde, situé au large de l'Australie ?",
+        "reponse": "La Grande Barrière de corail",
+        "propositions": [
+          "La Grande Barrière de corail",
+          "Le triangle de corail",
+          "Le récif de Belize",
+          "L'atoll de Bikini"
+        ],
+        "explication": "Elle s'étend sur plus de 2 300 km le long de la côte nord-est de l'Australie."
+      },
+      {
+        "question": "Quelle est la fosse océanique la plus profonde connue, située dans l'océan Pacifique ?",
+        "reponse": "La fosse des Mariannes",
+        "propositions": [
+          "La fosse des Mariannes",
+          "La fosse du Pérou-Chili",
+          "La fosse des Tonga",
+          "La fosse des Kermadec"
+        ],
+        "explication": "Son point le plus profond, Challenger Deep, atteint près de 11 000 mètres."
+      },
+      {
+        "question": "Quel naturaliste britannique a formulé la théorie de l'évolution par sélection naturelle dans 'L'Origine des espèces' (1859) ?",
+        "reponse": "Charles Darwin",
+        "propositions": [
+          "Charles Darwin",
+          "Alfred Russel Wallace",
+          "Gregor Mendel",
+          "Jean-Baptiste de Lamarck"
+        ],
+        "explication": "Ce livre a profondément transformé la compréhension scientifique de l'origine des espèces vivantes."
+      },
+      {
+        "question": "Quel canal, ouvert en 1869, relie la mer Méditerranée à la mer Rouge ?",
+        "reponse": "Le canal de Suez",
+        "propositions": [
+          "Le canal de Suez",
+          "Le canal de Panama",
+          "Le canal de Corinthe",
+          "Le canal du Nord"
+        ],
+        "explication": "Ce canal a considérablement raccourci la route maritime entre l'Europe et l'Asie."
+      },
+      {
+        "question": "Quelle reine d'Angleterre, surnommée la 'Reine vierge', a régné de 1558 à 1603 ?",
+        "reponse": "Élisabeth I",
+        "propositions": [
+          "Élisabeth I",
+          "Marie Tudor",
+          "Victoria",
+          "Anne Boleyn"
+        ],
+        "explication": "Son règne, appelé l'ère élisabéthaine, correspond à l'épanouissement du théâtre de Shakespeare."
+      },
+      {
+        "question": "Quel grand incendie a détruit une large partie de la ville de Londres en 1666 ?",
+        "reponse": "Le grand incendie de Londres",
+        "propositions": [
+          "Le grand incendie de Londres",
+          "L'incendie de Rome",
+          "L'incendie de Chicago",
+          "L'incendie de Moscou"
+        ],
+        "explication": "Cet incendie a détruit une grande partie de la City médiévale, favorisant une reconstruction plus moderne de la ville."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Thalès"
         ],
         "explication": "Archimède a utilisé cette méthode pour calculer des aires et des volumes de figures complexes."
+      },
+      {
+        "question": "Quelle pierre, découverte en 1799 et déchiffrée par Jean-François Champollion en 1822, a permis de comprendre les hiéroglyphes égyptiens ?",
+        "reponse": "La pierre de Rosette",
+        "propositions": [
+          "La pierre de Rosette",
+          "Le disque de Phaistos",
+          "La stèle de Palerme",
+          "Le papyrus de Turin"
+        ],
+        "explication": "Cette stèle trilingue, gravée en hiéroglyphes, démotique et grec, a servi de clé de déchiffrement."
+      },
+      {
+        "question": "Quel roi babylonien du XVIIIe siècle avant notre ère a promulgué l'un des plus anciens codes de lois connus ?",
+        "reponse": "Hammurabi",
+        "propositions": [
+          "Hammurabi",
+          "Nabuchodonosor II",
+          "Sargon d'Akkad",
+          "Assurbanipal"
+        ],
+        "explication": "Le code d'Hammurabi, gravé sur une stèle, établit notamment le principe de la loi du talion."
+      },
+      {
+        "question": "Quelle guerre antique, opposant Athènes et Sparte au Ve siècle avant notre ère, est racontée par l'historien Thucydide ?",
+        "reponse": "La guerre du Péloponnèse",
+        "propositions": [
+          "La guerre du Péloponnèse",
+          "Les guerres médiques",
+          "La guerre de Corinthe",
+          "La guerre de Troie"
+        ],
+        "explication": "Ce conflit, qui dura près de trente ans, a profondément affaibli les cités grecques."
+      },
+      {
+        "question": "Quel empereur byzantin du VIe siècle a fait compiler le 'Corpus Juris Civilis', fondement du droit romain codifié ?",
+        "reponse": "Justinien Ier",
+        "propositions": [
+          "Justinien Ier",
+          "Constantin Ier",
+          "Théodose Ier",
+          "Héraclius"
+        ],
+        "explication": "Ce recueil juridique a profondément influencé le droit civil européen pendant des siècles."
+      },
+      {
+        "question": "Quelle bataille de 1066 a permis à Guillaume le Conquérant de s'emparer du trône d'Angleterre ?",
+        "reponse": "La bataille de Hastings",
+        "propositions": [
+          "La bataille de Hastings",
+          "La bataille d'Azincourt",
+          "La bataille de Bosworth",
+          "La bataille de Crécy"
+        ],
+        "explication": "Cette victoire normande a profondément transformé la société et la langue anglaises."
+      },
+      {
+        "question": "Quel médecin et philosophe perse du Xe-XIe siècle est l'auteur du 'Canon de la médecine', référence médicale pendant des siècles ?",
+        "reponse": "Avicenne",
+        "propositions": [
+          "Avicenne",
+          "Averroès",
+          "Al-Razi",
+          "Al-Khwarizmi"
+        ],
+        "explication": "Le 'Canon de la médecine' a été utilisé comme ouvrage de référence dans les universités européennes jusqu'au XVIIe siècle."
+      },
+      {
+        "question": "Quel humaniste néerlandais de la Renaissance est l'auteur de 'L'Éloge de la folie' (1511) ?",
+        "reponse": "Érasme",
+        "propositions": [
+          "Érasme",
+          "Thomas More",
+          "Michel de Montaigne",
+          "Jean Calvin"
+        ],
+        "explication": "Cette satire critique avec ironie les travers de la société et de l'Église de son temps."
+      },
+      {
+        "question": "Quel sociologue allemand est l'auteur de 'L'Éthique protestante et l'esprit du capitalisme' (1905) ?",
+        "reponse": "Max Weber",
+        "propositions": [
+          "Max Weber",
+          "Émile Durkheim",
+          "Karl Marx",
+          "Georg Simmel"
+        ],
+        "explication": "Weber y analyse le lien entre l'éthique du travail protestante et le développement du capitalisme moderne."
+      },
+      {
+        "question": "Quelle paix religieuse de 1555 a permis une coexistence provisoire entre catholiques et luthériens dans le Saint Empire romain germanique ?",
+        "reponse": "La paix d'Augsbourg",
+        "propositions": [
+          "La paix d'Augsbourg",
+          "La paix de Westphalie",
+          "L'édit de Nantes",
+          "La diète de Worms"
+        ],
+        "explication": "Cette paix consacrait le principe selon lequel chaque prince déterminait la religion de son territoire."
+      },
+      {
+        "question": "Quel congrès diplomatique de 1878 a réorganisé les Balkans après la guerre russo-turque ?",
+        "reponse": "Le congrès de Berlin",
+        "propositions": [
+          "Le congrès de Berlin",
+          "Le congrès de Vienne",
+          "La conférence de Londres",
+          "Le traité de San Stefano"
+        ],
+        "explication": "Ce congrès, présidé par Otto von Bismarck, a redessiné les frontières de plusieurs États balkaniques."
       }
     ]
   }

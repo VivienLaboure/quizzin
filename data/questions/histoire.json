@@ -166,6 +166,116 @@
           "Le traité d'Utrecht"
         ],
         "explication": "Ce traité reconnaît officiellement l'indépendance des treize colonies américaines vis-à-vis de la Grande-Bretagne."
+      },
+      {
+        "question": "Quelle civilisation antique a construit le Colisée à Rome ?",
+        "reponse": "Les Romains",
+        "propositions": [
+          "Les Romains",
+          "Les Grecs",
+          "Les Étrusques",
+          "Les Carthaginois"
+        ],
+        "explication": "Le Colisée, inauguré vers 80 après J.-C., pouvait accueillir des dizaines de milliers de spectateurs."
+      },
+      {
+        "question": "Quel explorateur portugais a été le premier Européen à atteindre les Indes par la mer, en 1498 ?",
+        "reponse": "Vasco de Gama",
+        "propositions": [
+          "Vasco de Gama",
+          "Christophe Colomb",
+          "Fernand de Magellan",
+          "Bartolomeu Dias"
+        ],
+        "explication": "Vasco de Gama contourne l'Afrique par le cap de Bonne-Espérance pour ouvrir une route maritime vers l'Inde."
+      },
+      {
+        "question": "Quel conflit mondial débute en 1914 après l'assassinat de l'archiduc François-Ferdinand à Sarajevo ?",
+        "reponse": "La Première Guerre mondiale",
+        "propositions": [
+          "La Première Guerre mondiale",
+          "La Seconde Guerre mondiale",
+          "La guerre franco-prussienne",
+          "La guerre de Crimée"
+        ],
+        "explication": "Cet attentat déclenche un engrenage d'alliances qui plonge l'Europe dans la guerre."
+      },
+      {
+        "question": "Quel chef militaire carthaginois a traversé les Alpes avec des éléphants pour envahir l'Italie romaine ?",
+        "reponse": "Hannibal Barca",
+        "propositions": [
+          "Hannibal Barca",
+          "Scipion l'Africain",
+          "Jugurtha",
+          "Spartacus"
+        ],
+        "explication": "Hannibal mène cette campagne lors de la deuxième guerre punique, au IIIe siècle avant J.-C."
+      },
+      {
+        "question": "Quelle dynastie anglaise, à laquelle appartient Henri VIII, a régné de 1485 à 1603 ?",
+        "reponse": "Les Tudor",
+        "propositions": [
+          "Les Tudor",
+          "Les Stuart",
+          "Les Plantagenêt",
+          "Les York"
+        ],
+        "explication": "La dynastie des Tudor s'achève avec la mort d'Élisabeth Ire en 1603."
+      },
+      {
+        "question": "Quel président américain a œuvré pour l'abolition de l'esclavage pendant la guerre de Sécession ?",
+        "reponse": "Abraham Lincoln",
+        "propositions": [
+          "Abraham Lincoln",
+          "George Washington",
+          "Thomas Jefferson",
+          "Ulysses S. Grant"
+        ],
+        "explication": "Lincoln est assassiné en 1865, peu après la fin de la guerre de Sécession."
+      },
+      {
+        "question": "Quelle civilisation précolombienne du Mexique a été conquise par Hernán Cortés en 1521 ?",
+        "reponse": "Les Aztèques",
+        "propositions": [
+          "Les Aztèques",
+          "Les Incas",
+          "Les Mayas",
+          "Les Olmèques"
+        ],
+        "explication": "La chute de leur capitale, Tenochtitlan, marque la fin de l'Empire aztèque."
+      },
+      {
+        "question": "Quel vaste empire antique, dont Rome était la capitale, a dominé le pourtour méditerranéen pendant plusieurs siècles ?",
+        "reponse": "L'Empire romain",
+        "propositions": [
+          "L'Empire romain",
+          "L'Empire perse",
+          "L'Empire macédonien",
+          "L'Empire byzantin"
+        ],
+        "explication": "À son apogée, l'Empire romain s'étendait de la Bretagne à la Mésopotamie."
+      },
+      {
+        "question": "Quel traité de 1919 met officiellement fin à la Première Guerre mondiale entre les Alliés et l'Allemagne ?",
+        "reponse": "Le traité de Versailles",
+        "propositions": [
+          "Le traité de Versailles",
+          "Le traité de Sèvres",
+          "Le traité de Trianon",
+          "Le traité de Rapallo"
+        ],
+        "explication": "Ce traité impose de lourdes réparations à l'Allemagne, alimentant un fort ressentiment national."
+      },
+      {
+        "question": "Quelle reine britannique a régné plus de 63 ans au XIXe siècle, donnant son nom à toute une époque ?",
+        "reponse": "La reine Victoria",
+        "propositions": [
+          "La reine Victoria",
+          "La reine Elizabeth Ire",
+          "La reine Anne",
+          "La reine Mary"
+        ],
+        "explication": "L'époque victorienne est marquée par l'expansion de l'Empire britannique et la révolution industrielle."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "La bataille de Nicée"
         ],
         "explication": "Cette défaite ouvre l'Anatolie à l'installation durable des Turcs."
+      },
+      {
+        "question": "Quelle dynastie égyptienne a fait construire les grandes pyramides de Gizeh, vers 2600 avant J.-C. ?",
+        "reponse": "La IVe dynastie",
+        "propositions": [
+          "La IVe dynastie",
+          "La XVIIIe dynastie",
+          "La XIXe dynastie",
+          "La Ire dynastie"
+        ],
+        "explication": "Le pharaon Khéops, de la IVe dynastie, est associé à la plus grande des pyramides de Gizeh."
+      },
+      {
+        "question": "Quels traités de 1648 mettent fin à la guerre de Trente Ans en Europe ?",
+        "reponse": "Les traités de Westphalie",
+        "propositions": [
+          "Les traités de Westphalie",
+          "Le congrès de Vienne",
+          "Les accords de Munich",
+          "Le traité d'Utrecht"
+        ],
+        "explication": "Ces traités consacrent la souveraineté des États allemands et affaiblissent durablement le Saint-Empire."
+      },
+      {
+        "question": "Quelle bataille navale de 1571 voit une coalition chrétienne vaincre la flotte ottomane en Méditerranée ?",
+        "reponse": "La bataille de Lépante",
+        "propositions": [
+          "La bataille de Lépante",
+          "La bataille de Trafalgar",
+          "La bataille de Navarin",
+          "La bataille des Dardanelles"
+        ],
+        "explication": "Cette victoire de la Sainte Ligue met fin, temporairement, à la suprématie navale ottomane en Méditerranée."
+      },
+      {
+        "question": "Quel empire précolombien andin, dirigé par Atahualpa, est conquis par Francisco Pizarro dans les années 1530 ?",
+        "reponse": "L'empire inca",
+        "propositions": [
+          "L'empire inca",
+          "L'empire aztèque",
+          "L'empire maya",
+          "L'empire toltèque"
+        ],
+        "explication": "La capture puis l'exécution d'Atahualpa en 1533 précipitent l'effondrement de l'empire inca."
+      },
+      {
+        "question": "Quelle dynastie arabe, qui a précédé les Abbassides, a établi sa capitale à Damas ?",
+        "reponse": "Les Omeyyades",
+        "propositions": [
+          "Les Omeyyades",
+          "Les Abbassides",
+          "Les Fatimides",
+          "Les Ayyoubides"
+        ],
+        "explication": "Les Omeyyades règnent de 661 à 750, avant d'être renversés par les Abbassides."
+      },
+      {
+        "question": "Quelle guerre, de 1950 à 1953, oppose la Corée du Nord et la Corée du Sud avec l'intervention de puissances étrangères ?",
+        "reponse": "La guerre de Corée",
+        "propositions": [
+          "La guerre de Corée",
+          "La guerre du Viêt Nam",
+          "La guerre d'Indochine",
+          "La guerre sino-japonaise"
+        ],
+        "explication": "Ce conflit se termine par un armistice en 1953, sans traité de paix, laissant la péninsule coréenne divisée."
+      },
+      {
+        "question": "Quel roi d'Angleterre a rompu avec l'Église catholique pour fonder l'Église anglicane dans les années 1530 ?",
+        "reponse": "Henri VIII",
+        "propositions": [
+          "Henri VIII",
+          "Édouard VI",
+          "Henri VII",
+          "Jacques Ier"
+        ],
+        "explication": "Ce schisme fait suite au refus du pape d'annuler son mariage avec Catherine d'Aragon."
+      },
+      {
+        "question": "Quelle expédition militaire française, menée par Bonaparte de 1798 à 1801, visait à couper la route des Indes aux Britanniques ?",
+        "reponse": "La campagne d'Égypte",
+        "propositions": [
+          "La campagne d'Égypte",
+          "La campagne d'Italie",
+          "La campagne de Russie",
+          "La campagne des Flandres"
+        ],
+        "explication": "Cette expédition se solde par un échec militaire malgré d'importantes découvertes scientifiques, comme la pierre de Rosette."
+      },
+      {
+        "question": "Quelle révolte d'esclaves, menée notamment par Toussaint Louverture, aboutit à l'indépendance d'Haïti en 1804 ?",
+        "reponse": "La révolution haïtienne",
+        "propositions": [
+          "La révolution haïtienne",
+          "La révolution cubaine",
+          "La guerre d'indépendance du Brésil",
+          "La révolte des Boxers"
+        ],
+        "explication": "Haïti devient ainsi la première république noire indépendante de l'histoire."
+      },
+      {
+        "question": "Quel traité de 1905 met fin à la guerre russo-japonaise, négocié sous la médiation du président américain Theodore Roosevelt ?",
+        "reponse": "Le traité de Portsmouth",
+        "propositions": [
+          "Le traité de Portsmouth",
+          "Le traité de Shimonoseki",
+          "Le traité de Tianjin",
+          "Le traité de Kanagawa"
+        ],
+        "explication": "Cette médiation vaut à Theodore Roosevelt le prix Nobel de la paix en 1906."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "La bataille de Bouvines"
         ],
         "explication": "Cette bataille doit son surnom aux nombreux éperons dorés récupérés sur les chevaliers français vaincus."
+      },
+      {
+        "question": "Quelle bataille de 1683 voit une armée polono-impériale lever le siège ottoman de Vienne, tournant majeur des guerres ottomanes en Europe ?",
+        "reponse": "La bataille de Vienne",
+        "propositions": [
+          "La bataille de Vienne",
+          "La bataille de Mohács",
+          "La bataille de Lépante",
+          "Le siège de Belgrade"
+        ],
+        "explication": "Le roi de Pologne Jean III Sobieski mène la charge décisive qui repousse les troupes ottomanes."
+      },
+      {
+        "question": "Quelle bataille de 1525 voit François Ier vaincu et capturé par les troupes de Charles Quint en Italie ?",
+        "reponse": "La bataille de Pavie",
+        "propositions": [
+          "La bataille de Pavie",
+          "La bataille de Marignan",
+          "La bataille de Ravenne",
+          "La bataille de Cérisoles"
+        ],
+        "explication": "François Ier est retenu prisonnier en Espagne jusqu'à la signature du traité de Madrid en 1526."
+      },
+      {
+        "question": "Quel philosophe chinois, fondateur du confucianisme, a vécu au VIe-Ve siècle avant J.-C. ?",
+        "reponse": "Confucius",
+        "propositions": [
+          "Confucius",
+          "Lao-Tseu",
+          "Mencius",
+          "Sun Tzu"
+        ],
+        "explication": "Sa pensée, centrée sur l'éthique et l'harmonie sociale, a profondément influencé la civilisation chinoise."
+      },
+      {
+        "question": "Quel empire mésopotamien, antérieur aux Achéménides, a été renversé par Cyrus le Grand au VIe siècle avant J.-C. ?",
+        "reponse": "L'empire médique",
+        "propositions": [
+          "L'empire médique",
+          "L'empire assyrien",
+          "L'empire babylonien",
+          "L'empire hittite"
+        ],
+        "explication": "La victoire de Cyrus le Grand sur les Mèdes fonde l'Empire perse achéménide."
+      },
+      {
+        "question": "Quel empereur romain a divisé l'Empire en deux administrations distinctes à la fin du IIIe siècle, préfigurant sa partition future ?",
+        "reponse": "Dioclétien",
+        "propositions": [
+          "Dioclétien",
+          "Constantin Ier",
+          "Théodose Ier",
+          "Aurélien"
+        ],
+        "explication": "Ce système, appelé tétrarchie, visait à mieux gérer l'immensité et les menaces pesant sur l'Empire romain."
+      },
+      {
+        "question": "Quelle bataille de 1453 voit la chute de Constantinople face aux troupes ottomanes de Mehmed II, marquant la fin de l'Empire byzantin ?",
+        "reponse": "La chute de Constantinople",
+        "propositions": [
+          "La chute de Constantinople",
+          "La bataille de Manzikert",
+          "Le siège de Vienne",
+          "La bataille de Kosovo"
+        ],
+        "explication": "Cet événement est traditionnellement considéré comme marquant la fin du Moyen Âge en Europe."
+      },
+      {
+        "question": "Quel traité de 1555 reconnaît la coexistence légale du catholicisme et du luthéranisme au sein du Saint-Empire romain germanique ?",
+        "reponse": "La paix d'Augsbourg",
+        "propositions": [
+          "La paix d'Augsbourg",
+          "La paix de Westphalie",
+          "L'édit de Nantes",
+          "La paix de Cateau-Cambrésis"
+        ],
+        "explication": "Ce compromis religieux précède de plusieurs décennies les traités de Westphalie de 1648."
+      },
+      {
+        "question": "Quel roi wisigoth a été vaincu par Clovis à la bataille de Vouillé en 507 ?",
+        "reponse": "Alaric II",
+        "propositions": [
+          "Alaric II",
+          "Alaric Ier",
+          "Théodoric le Grand",
+          "Euric"
+        ],
+        "explication": "Cette victoire permet à Clovis d'étendre son royaume franc sur une grande partie du sud-ouest de la Gaule."
+      },
+      {
+        "question": "Quelle bataille de 1212, en Espagne, marque un tournant décisif de la Reconquista chrétienne contre les Almohades ?",
+        "reponse": "La bataille de Las Navas de Tolosa",
+        "propositions": [
+          "La bataille de Las Navas de Tolosa",
+          "La bataille de Covadonga",
+          "La bataille de Tolède",
+          "La bataille de Grenade"
+        ],
+        "explication": "Cette victoire d'une coalition de royaumes chrétiens ibériques accélère le déclin de la puissance almohade en Espagne."
+      },
+      {
+        "question": "Quel traité de 1526, signé par François Ier alors captif de Charles Quint, prévoit la cession de la Bourgogne mais ne sera jamais appliqué ?",
+        "reponse": "Le traité de Madrid",
+        "propositions": [
+          "Le traité de Madrid",
+          "Le traité de Cambrai",
+          "Le traité de Crépy",
+          "Le traité de Cateau-Cambrésis"
+        ],
+        "explication": "François Ier renie ce traité dès sa libération, invoquant qu'il l'avait signé sous la contrainte."
       }
     ]
   }

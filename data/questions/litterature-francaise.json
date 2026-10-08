@@ -166,6 +166,116 @@
           "Romain Gary"
         ],
         "explication": "Saint-Exupéry a disparu en vol au-dessus de la Méditerranée en 1944."
+      },
+      {
+        "question": "Quel écrivain français du XIXe siècle est l'auteur de 'Germinal', roman sur la vie des mineurs ?",
+        "reponse": "Émile Zola",
+        "propositions": [
+          "Émile Zola",
+          "Victor Hugo",
+          "Honoré de Balzac",
+          "Guy de Maupassant"
+        ],
+        "explication": "'Germinal' (1885) dépeint les conditions de vie très dures des mineurs du nord de la France."
+      },
+      {
+        "question": "Quel écrivain français du XIXe siècle a écrit 'Le Comte de Monte-Cristo' ?",
+        "reponse": "Alexandre Dumas",
+        "propositions": [
+          "Alexandre Dumas",
+          "Victor Hugo",
+          "Gustave Flaubert",
+          "Stendhal"
+        ],
+        "explication": "Ce roman d'aventure et de vengeance, publié en 1844-1846, est l'un des plus célèbres de la littérature française."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle est l'auteur de 'Bel-Ami' et de nombreuses nouvelles réalistes ?",
+        "reponse": "Guy de Maupassant",
+        "propositions": [
+          "Guy de Maupassant",
+          "Émile Zola",
+          "Gustave Flaubert",
+          "Alphonse Daudet"
+        ],
+        "explication": "Maupassant, disciple de Flaubert, est l'auteur de près de 300 nouvelles en plus de ses romans."
+      },
+      {
+        "question": "Quelle autrice française du XXe siècle, philosophe féministe, a écrit 'Le Deuxième Sexe' ?",
+        "reponse": "Simone de Beauvoir",
+        "propositions": [
+          "Simone de Beauvoir",
+          "Marguerite Duras",
+          "Colette",
+          "Nathalie Sarraute"
+        ],
+        "explication": "Publié en 1949, cet essai est devenu un texte fondateur du féminisme moderne."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, auteur du poème 'Le Dormeur du val', est mort à 37 ans après une vie aventureuse ?",
+        "reponse": "Arthur Rimbaud",
+        "propositions": [
+          "Arthur Rimbaud",
+          "Paul Verlaine",
+          "Stéphane Mallarmé",
+          "Charles Baudelaire"
+        ],
+        "explication": "Rimbaud a cessé d'écrire de la poésie avant vingt ans pour mener une vie de voyageur et de négociant."
+      },
+      {
+        "question": "Quel écrivain français, auteur de 'Le Grand Meaulnes', est mort au combat lors de la Première Guerre mondiale ?",
+        "reponse": "Alain-Fournier",
+        "propositions": [
+          "Alain-Fournier",
+          "Guillaume Apollinaire",
+          "Charles Péguy",
+          "Henri Barbusse"
+        ],
+        "explication": "'Le Grand Meaulnes' (1913) reste son unique roman, publié un an avant sa mort au front en 1914."
+      },
+      {
+        "question": "Quelle autrice française du XXe siècle est l'auteure du roman autobiographique 'L'Amant' ?",
+        "reponse": "Marguerite Duras",
+        "propositions": [
+          "Marguerite Duras",
+          "Simone de Beauvoir",
+          "Annie Ernaux",
+          "Françoise Sagan"
+        ],
+        "explication": "'L'Amant' (1984), récompensé par le prix Goncourt, évoque son enfance en Indochine française."
+      },
+      {
+        "question": "Quel romancier et dramaturge français, auteur de 'Huis clos', a développé la philosophie existentialiste ?",
+        "reponse": "Jean-Paul Sartre",
+        "propositions": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Malraux",
+          "Simone de Beauvoir"
+        ],
+        "explication": "La formule 'L'enfer, c'est les autres' provient de cette pièce de théâtre de 1944."
+      },
+      {
+        "question": "Quelle romancière française, publiée dès 18 ans avec 'Bonjour tristesse' en 1954, est devenue une figure littéraire précoce ?",
+        "reponse": "Françoise Sagan",
+        "propositions": [
+          "Françoise Sagan",
+          "Marguerite Duras",
+          "Nathalie Sarraute",
+          "Christiane Rochefort"
+        ],
+        "explication": "Ce premier roman a connu un immense succès et un scandale pour l'époque, en raison de sa liberté de ton."
+      },
+      {
+        "question": "Quel dessinateur belge, cocréateur d'Astérix avec René Goscinny, a dessiné la série jusqu'en 1977 puis seul ensuite ?",
+        "reponse": "Albert Uderzo",
+        "propositions": [
+          "Albert Uderzo",
+          "Hergé",
+          "Jean Giraud (Moebius)",
+          "Morris"
+        ],
+        "explication": "Après la mort de Goscinny en 1977, Uderzo a continué seul à écrire et dessiner les albums d'Astérix."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Edmond de Goncourt"
         ],
         "explication": "Zola a également joué un rôle politique majeur avec son article 'J'accuse...!' lors de l'affaire Dreyfus."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, chef de file du romantisme, est l'auteur des 'Méditations poétiques' (1820) ?",
+        "reponse": "Alphonse de Lamartine",
+        "propositions": [
+          "Alphonse de Lamartine",
+          "Victor Hugo",
+          "Alfred de Vigny",
+          "Alfred de Musset"
+        ],
+        "explication": "Ce recueil marque les débuts du romantisme lyrique en France et connaît un immense succès à sa parution."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIe siècle, auteur du 'Misanthrope' et du 'Tartuffe', est le maître de la comédie classique ?",
+        "reponse": "Molière",
+        "propositions": [
+          "Molière",
+          "Jean Racine",
+          "Pierre Corneille",
+          "Jean de Rotrou"
+        ],
+        "explication": "Molière a aussi dirigé sa propre troupe de théâtre, protégée par Louis XIV."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle, auteur de 'Carmen', a aussi écrit des nouvelles fantastiques comme 'La Vénus d'Ille' ?",
+        "reponse": "Prosper Mérimée",
+        "propositions": [
+          "Prosper Mérimée",
+          "Théophile Gautier",
+          "Alexandre Dumas",
+          "Stendhal"
+        ],
+        "explication": "'Carmen' a inspiré le célèbre opéra de Georges Bizet, créé en 1875."
+      },
+      {
+        "question": "Quelle femme de lettres française du XVIIIe siècle, salonnière influente, est l'auteure de 'De l'Allemagne' et opposante à Napoléon ?",
+        "reponse": "Madame de Staël",
+        "propositions": [
+          "Madame de Staël",
+          "Madame de Sévigné",
+          "Olympe de Gouges",
+          "Madame du Châtelet"
+        ],
+        "explication": "Napoléon, méfiant envers son influence intellectuelle, l'a contrainte à l'exil."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, auteur des 'Nuits', incarne le mal du siècle romantique après sa rupture avec George Sand ?",
+        "reponse": "Alfred de Musset",
+        "propositions": [
+          "Alfred de Musset",
+          "Alfred de Vigny",
+          "Gérard de Nerval",
+          "Théophile Gautier"
+        ],
+        "explication": "Musset a aussi raconté cette liaison tourmentée dans son roman 'La Confession d'un enfant du siècle'."
+      },
+      {
+        "question": "Quelle romancière française, née Amantine Lucile Aurore Dupin, a pris un pseudonyme masculin pour publier ses œuvres au XIXe siècle ?",
+        "reponse": "George Sand",
+        "propositions": [
+          "George Sand",
+          "Colette",
+          "Daniel Stern",
+          "Marguerite Yourcenar"
+        ],
+        "explication": "George Sand a aussi choqué son époque par ses tenues masculines et son mode de vie indépendant."
+      },
+      {
+        "question": "Quel auteur français du XXe siècle, dramaturge et romancier, est connu pour 'La Guerre de Troie n'aura pas lieu' ?",
+        "reponse": "Jean Giraudoux",
+        "propositions": [
+          "Jean Giraudoux",
+          "Jean Anouilh",
+          "Jean Cocteau",
+          "Marcel Pagnol"
+        ],
+        "explication": "Cette pièce de 1935 est une réflexion sur la fatalité de la guerre, écrite peu avant la Seconde Guerre mondiale."
+      },
+      {
+        "question": "Quel écrivain et cinéaste français, auteur de 'La Gloire de mon père', a situé son œuvre autobiographique en Provence ?",
+        "reponse": "Marcel Pagnol",
+        "propositions": [
+          "Marcel Pagnol",
+          "Jean Giono",
+          "Albert Camus",
+          "Frédéric Mistral"
+        ],
+        "explication": "Pagnol a également été le premier cinéaste élu à l'Académie française, en 1946."
+      },
+      {
+        "question": "Quel romancier et académicien français, auteur du cycle 'Jean-Christophe', a reçu le prix Nobel de littérature en 1915 ?",
+        "reponse": "Romain Rolland",
+        "propositions": [
+          "Romain Rolland",
+          "Anatole France",
+          "Henri Bergson",
+          "André Gide"
+        ],
+        "explication": "Romain Rolland était aussi un pacifiste engagé pendant la Première Guerre mondiale."
+      },
+      {
+        "question": "Quel romancier français, auteur des 'Faux-Monnayeurs' et figure du mouvement gidien, a reçu le prix Nobel de littérature en 1947 ?",
+        "reponse": "André Gide",
+        "propositions": [
+          "André Gide",
+          "François Mauriac",
+          "Anatole France",
+          "Romain Rolland"
+        ],
+        "explication": "Gide a également tenu un 'Journal' publié tout au long de sa vie, considéré comme une œuvre majeure en soi."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Alfred de Vigny"
         ],
         "explication": "Ce recueil est dédié en partie à la mémoire de sa fille Léopoldine, morte noyée en 1843."
+      },
+      {
+        "question": "Quel poète français du Moyen Âge, duc emprisonné 25 ans en Angleterre après la bataille d'Azincourt, a composé des ballades mélancoliques ?",
+        "reponse": "Charles d'Orléans",
+        "propositions": [
+          "Charles d'Orléans",
+          "François Villon",
+          "Christine de Pizan",
+          "Guillaume de Machaut"
+        ],
+        "explication": "Capturé en 1415, Charles d'Orléans a composé une grande partie de son œuvre poétique durant sa captivité anglaise."
+      },
+      {
+        "question": "Quelle autrice franco-italienne du Moyen Âge, considérée comme l'une des premières femmes de lettres professionnelles, a écrit 'La Cité des dames' ?",
+        "reponse": "Christine de Pizan",
+        "propositions": [
+          "Christine de Pizan",
+          "Marguerite de Navarre",
+          "Marie de France",
+          "Louise Labé"
+        ],
+        "explication": "Christine de Pizan a défendu la dignité des femmes dans une œuvre rédigée au début du XVe siècle."
+      },
+      {
+        "question": "Quel poète français du XVIe siècle, membre de la Pléiade, est l'auteur des sonnets 'Les Regrets' et de 'Défense et illustration de la langue française' ?",
+        "reponse": "Joachim du Bellay",
+        "propositions": [
+          "Joachim du Bellay",
+          "Pierre de Ronsard",
+          "Clément Marot",
+          "Jean de Sponde"
+        ],
+        "explication": "Ce manifeste de 1549 défendait l'usage du français face à la domination du latin dans la littérature savante."
+      },
+      {
+        "question": "Quel poète de la Pléiade, surnommé 'le prince des poètes', est l'auteur des 'Sonnets pour Hélène' ?",
+        "reponse": "Pierre de Ronsard",
+        "propositions": [
+          "Pierre de Ronsard",
+          "Joachim du Bellay",
+          "Rémy Belleau",
+          "Jean-Antoine de Baïf"
+        ],
+        "explication": "Ronsard a écrit ces sonnets pour Hélène de Surgères, une demoiselle d'honneur de Catherine de Médicis."
+      },
+      {
+        "question": "Quel moraliste français du XVIIe siècle est l'auteur des 'Maximes', recueil de pensées sur l'amour-propre et les passions humaines ?",
+        "reponse": "La Rochefoucauld",
+        "propositions": [
+          "La Rochefoucauld",
+          "Jean de La Bruyère",
+          "Blaise Pascal",
+          "Vauvenargues"
+        ],
+        "explication": "Les 'Maximes' (1665) proposent une analyse souvent pessimiste des motivations réelles des comportements humains."
+      },
+      {
+        "question": "Quel philosophe et mathématicien français du XVIIe siècle, auteur des 'Pensées', a défendu la foi face au scepticisme dans son 'pari' célèbre ?",
+        "reponse": "Blaise Pascal",
+        "propositions": [
+          "Blaise Pascal",
+          "René Descartes",
+          "La Rochefoucauld",
+          "Bossuet"
+        ],
+        "explication": "Les 'Pensées', publiées après sa mort, sont restées inachevées à la mort de Pascal en 1662."
+      },
+      {
+        "question": "Quel romancier et essayiste français, auteur de 'Voyage en Grande Garabagne', a inventé des pays imaginaires dans son œuvre poétique ?",
+        "reponse": "Henri Michaux",
+        "propositions": [
+          "Henri Michaux",
+          "Henri Bosco",
+          "Julien Gracq",
+          "René Char"
+        ],
+        "explication": "Michaux a mêlé poésie, dessin et expérimentation littéraire tout au long de son œuvre du XXe siècle."
+      },
+      {
+        "question": "Quel poète français de la Résistance, auteur du recueil 'Fureur et Mystère', a combattu dans le maquis sous le pseudonyme 'Capitaine Alexandre' ?",
+        "reponse": "René Char",
+        "propositions": [
+          "René Char",
+          "Paul Éluard",
+          "Louis Aragon",
+          "Robert Desnos"
+        ],
+        "explication": "René Char a allié engagement poétique et action clandestine durant l'Occupation."
+      },
+      {
+        "question": "Quel romancier et académicien français, auteur de 'Le Hussard sur le toit', situe nombre de ses œuvres dans la Provence rurale ?",
+        "reponse": "Jean Giono",
+        "propositions": [
+          "Jean Giono",
+          "Marcel Pagnol",
+          "Henri Bosco",
+          "Frédéric Mistral"
+        ],
+        "explication": "'Le Hussard sur le toit' (1951) se déroule en Provence lors d'une épidémie de choléra au XIXe siècle."
+      },
+      {
+        "question": "Quel théoricien et critique littéraire français, figure du structuralisme, est l'auteur de 'Mythologies' et 'S/Z' ?",
+        "reponse": "Roland Barthes",
+        "propositions": [
+          "Roland Barthes",
+          "Michel Foucault",
+          "Gérard Genette",
+          "Tzvetan Todorov"
+        ],
+        "explication": "Roland Barthes a analysé les mythes de la culture populaire contemporaine dans 'Mythologies' (1957)."
       }
     ]
   }

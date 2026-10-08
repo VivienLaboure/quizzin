@@ -166,6 +166,116 @@
           "Les Hauts-de-France"
         ],
         "explication": "La région historique de Champagne se trouve aujourd'hui dans la région administrative du Grand Est."
+      },
+      {
+        "question": "Quelle ville française est la préfecture de la région Auvergne-Rhône-Alpes ?",
+        "reponse": "Lyon",
+        "propositions": [
+          "Lyon",
+          "Grenoble",
+          "Clermont-Ferrand",
+          "Saint-Étienne"
+        ],
+        "explication": "Lyon est la troisième plus grande ville de France et la préfecture de la région Auvergne-Rhône-Alpes."
+      },
+      {
+        "question": "Quel est le nom de la plus grande forêt cultivée de France métropolitaine, située en Nouvelle-Aquitaine ?",
+        "reponse": "La forêt des Landes",
+        "propositions": [
+          "La forêt des Landes",
+          "La forêt de Fontainebleau",
+          "La forêt de Chantilly",
+          "La forêt des Vosges"
+        ],
+        "explication": "La forêt des Landes de Gascogne couvre près d'un million d'hectares de pins maritimes."
+      },
+      {
+        "question": "Quelle île française, au large de la Charente-Maritime, est reliée au continent par un pont depuis 1988 ?",
+        "reponse": "L'île de Ré",
+        "propositions": [
+          "L'île de Ré",
+          "L'île d'Oléron",
+          "Belle-Île",
+          "L'île de Noirmoutier"
+        ],
+        "explication": "Le pont de l'île de Ré mesure environ 3 kilomètres de long."
+      },
+      {
+        "question": "Quelle montagne volcanique emblématique d'Auvergne est visible depuis la ville de Clermont-Ferrand ?",
+        "reponse": "Le Puy de Dôme",
+        "propositions": [
+          "Le Puy de Dôme",
+          "Le Puy de Sancy",
+          "Le mont Mézenc",
+          "Le Cantal"
+        ],
+        "explication": "Le Puy de Dôme culmine à 1 465 mètres et fait partie de la chaîne des Puys."
+      },
+      {
+        "question": "Quelle ville française est la préfecture de la région Occitanie ?",
+        "reponse": "Toulouse",
+        "propositions": [
+          "Toulouse",
+          "Montpellier",
+          "Perpignan",
+          "Nîmes"
+        ],
+        "explication": "Toulouse est aussi surnommée 'la Ville rose' en raison de la couleur de ses briques traditionnelles."
+      },
+      {
+        "question": "Quelles deux rivières se rejoignent à Lyon, donnant à la ville son surnom de 'cité des confluences' ?",
+        "reponse": "Le Rhône et la Saône",
+        "propositions": [
+          "Le Rhône et la Saône",
+          "La Loire et l'Allier",
+          "La Garonne et le Lot",
+          "La Seine et la Marne"
+        ],
+        "explication": "La presqu'île lyonnaise se situe précisément entre ces deux cours d'eau."
+      },
+      {
+        "question": "Dans quel département français se situe la ville de Nice ?",
+        "reponse": "Les Alpes-Maritimes",
+        "propositions": [
+          "Les Alpes-Maritimes",
+          "Le Var",
+          "Les Bouches-du-Rhône",
+          "Les Alpes-de-Haute-Provence"
+        ],
+        "explication": "Les Alpes-Maritimes, dont Nice est la préfecture, bordent la mer Méditerranée et la frontière italienne."
+      },
+      {
+        "question": "Quelle chaîne de montagnes se situe dans l'est de la France, entre l'Alsace et la Lorraine ?",
+        "reponse": "Les Vosges",
+        "propositions": [
+          "Les Vosges",
+          "Le Jura",
+          "Les Alpes",
+          "Le Massif central"
+        ],
+        "explication": "Les Vosges culminent au Grand Ballon, à 1 424 mètres d'altitude."
+      },
+      {
+        "question": "Quel est le nom du tunnel ferroviaire qui relie la France au Royaume-Uni sous la Manche ?",
+        "reponse": "Le tunnel sous la Manche",
+        "propositions": [
+          "Le tunnel sous la Manche",
+          "Le tunnel du Mont-Blanc",
+          "Le tunnel du Fréjus",
+          "Le tunnel de Toulon"
+        ],
+        "explication": "Ouvert en 1994, il relie Calais à Folkestone sur une longueur de 50 km, dont 38 km sous la mer."
+      },
+      {
+        "question": "Quelle région française forme une péninsule bordée à la fois par l'océan Atlantique et la Manche ?",
+        "reponse": "La Bretagne",
+        "propositions": [
+          "La Bretagne",
+          "La Normandie",
+          "Les Pays de la Loire",
+          "La Nouvelle-Aquitaine"
+        ],
+        "explication": "La Bretagne s'avance largement dans l'océan, offrant un très long littoral découpé."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "L'Adour"
         ],
         "explication": "La Garonne et la Dordogne se rejoignent pour former l'estuaire de la Gironde."
+      },
+      {
+        "question": "Quel est le nom de la première ligne à grande vitesse de France, mise en service en 1981 entre Paris et Lyon ?",
+        "reponse": "La LGV Sud-Est",
+        "propositions": [
+          "La LGV Sud-Est",
+          "La LGV Atlantique",
+          "La LGV Nord",
+          "La LGV Méditerranée"
+        ],
+        "explication": "Cette ligne a permis la mise en service du TGV, réduisant fortement le temps de trajet entre les deux villes."
+      },
+      {
+        "question": "Quelle région française, avec Paris comme préfecture, est la région la plus peuplée du pays ?",
+        "reponse": "L'Île-de-France",
+        "propositions": [
+          "L'Île-de-France",
+          "Auvergne-Rhône-Alpes",
+          "Les Hauts-de-France",
+          "Provence-Alpes-Côte d'Azur"
+        ],
+        "explication": "L'Île-de-France compte plus de 12 millions d'habitants, soit près d'un cinquième de la population française."
+      },
+      {
+        "question": "Quel est le point culminant de la Corse ?",
+        "reponse": "Le Monte Cinto",
+        "propositions": [
+          "Le Monte Cinto",
+          "Le Monte Rotondo",
+          "Le Monte d'Oro",
+          "Le Monte Renoso"
+        ],
+        "explication": "Le Monte Cinto culmine à 2 706 mètres, au cœur du parc naturel régional de Corse."
+      },
+      {
+        "question": "Quel fleuve français, prenant sa source dans le Massif central, se jette dans l'océan Atlantique avec la Garonne au niveau de l'estuaire de la Gironde ?",
+        "reponse": "La Dordogne",
+        "propositions": [
+          "La Dordogne",
+          "Le Lot",
+          "La Vézère",
+          "L'Isle"
+        ],
+        "explication": "La Dordogne naît au pied du Puy de Sancy, dans le massif des monts Dore."
+      },
+      {
+        "question": "Quelle ville est la préfecture de la région Pays de la Loire ?",
+        "reponse": "Nantes",
+        "propositions": [
+          "Nantes",
+          "Angers",
+          "Le Mans",
+          "La Roche-sur-Yon"
+        ],
+        "explication": "Nantes a longtemps été rattachée administrativement à la Bretagne avant de devenir préfecture des Pays de la Loire."
+      },
+      {
+        "question": "Quelle ville portuaire du Nord de la France, proche de la frontière belge, est un grand port de la mer du Nord ?",
+        "reponse": "Dunkerque",
+        "propositions": [
+          "Dunkerque",
+          "Calais",
+          "Boulogne-sur-Mer",
+          "Le Havre"
+        ],
+        "explication": "Dunkerque est le troisième port de commerce de France, après Marseille et Le Havre."
+      },
+      {
+        "question": "Quelle rivière, affluent du Rhône, traverse la ville de Grenoble après avoir pris sa source dans les Alpes ?",
+        "reponse": "L'Isère",
+        "propositions": [
+          "L'Isère",
+          "Le Drac",
+          "L'Arve",
+          "La Durance"
+        ],
+        "explication": "L'Isère se jette dans le Rhône au nord de Valence, après un parcours de plus de 280 km."
+      },
+      {
+        "question": "Quelle ville est la préfecture de la Corse ?",
+        "reponse": "Ajaccio",
+        "propositions": [
+          "Ajaccio",
+          "Bastia",
+          "Corte",
+          "Calvi"
+        ],
+        "explication": "Ajaccio est également la ville natale de Napoléon Bonaparte."
+      },
+      {
+        "question": "Quel pont suspendu, achevé en 1995, relie Honfleur au Havre au-dessus de l'estuaire de la Seine ?",
+        "reponse": "Le pont de Normandie",
+        "propositions": [
+          "Le pont de Normandie",
+          "Le viaduc de Millau",
+          "Le pont de l'Île de Ré",
+          "Le pont de Tancarville"
+        ],
+        "explication": "Lors de sa construction, le pont de Normandie détenait le record du monde de portée pour un pont à câbles."
+      },
+      {
+        "question": "Quel est le nom du plus grand parc national de France métropolitaine, situé dans les Alpes et célèbre pour ses glaciers ?",
+        "reponse": "Le parc national de la Vanoise",
+        "propositions": [
+          "Le parc national de la Vanoise",
+          "Le parc national des Écrins",
+          "Le parc national du Mercantour",
+          "Le parc national des Cévennes"
+        ],
+        "explication": "Créé en 1963, ce fut le premier parc national métropolitain de France."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "La Savoie"
         ],
         "explication": "Le duché de Lorraine a été rattaché à la France au décès de son dernier duc, Stanislas Leszczyński."
+      },
+      {
+        "question": "Quel est le point culminant des Alpes françaises après le mont Blanc, dépassant les 4 000 mètres d'altitude ?",
+        "reponse": "La barre des Écrins",
+        "propositions": [
+          "La barre des Écrins",
+          "Le mont Pelvoux",
+          "La pointe Dufour",
+          "Le mont Viso"
+        ],
+        "explication": "La barre des Écrins culmine à 4 102 mètres, dans le massif des Écrins en Isère et dans les Hautes-Alpes."
+      },
+      {
+        "question": "Quelle collectivité française d'outre-mer, dans le Pacifique, dispose d'un statut particulier négocié par l'accord de Nouméa de 1998 ?",
+        "reponse": "La Nouvelle-Calédonie",
+        "propositions": [
+          "La Nouvelle-Calédonie",
+          "La Polynésie française",
+          "Wallis-et-Futuna",
+          "Saint-Pierre-et-Miquelon"
+        ],
+        "explication": "L'accord de Nouméa a notamment organisé un transfert progressif de compétences et des référendums d'autodétermination."
+      },
+      {
+        "question": "Quel est le nom du plus grand glacier de France, situé dans le massif du Mont-Blanc ?",
+        "reponse": "La mer de Glace",
+        "propositions": [
+          "La mer de Glace",
+          "Le glacier d'Argentière",
+          "Le glacier Blanc",
+          "Le glacier de la Girose"
+        ],
+        "explication": "La mer de Glace s'étend sur environ 7 km de longueur, mais recule fortement sous l'effet du réchauffement climatique."
+      },
+      {
+        "question": "Quel site mégalithique breton, situé près de Carnac, est l'un des plus grands ensembles d'alignements de pierres dressées au monde ?",
+        "reponse": "Les alignements de Carnac",
+        "propositions": [
+          "Les alignements de Carnac",
+          "Le cairn de Barnenez",
+          "Le site de Gavrinis",
+          "Le tumulus de Bougon"
+        ],
+        "explication": "Ces alignements comptent plusieurs milliers de menhirs, érigés durant le Néolithique."
+      },
+      {
+        "question": "Quel détroit sépare la Corse de la Sardaigne ?",
+        "reponse": "Les bouches de Bonifacio",
+        "propositions": [
+          "Les bouches de Bonifacio",
+          "Le détroit de Messine",
+          "Le canal de Corse",
+          "Le détroit de Piombino"
+        ],
+        "explication": "Ce détroit mesure environ 12 km de large à son point le plus étroit."
+      },
+      {
+        "question": "Quel plateau du Massif central, le plus vaste et l'un des plus désertiques de France métropolitaine, est aussi surnommé 'le plateau des mille sources' ?",
+        "reponse": "Le plateau de Millevaches",
+        "propositions": [
+          "Le plateau de Millevaches",
+          "Le plateau du Larzac",
+          "Le plateau ardéchois",
+          "Le plateau de l'Aubrac"
+        ],
+        "explication": "Ce plateau, situé notamment en Haute-Vienne et en Corrèze, est à l'origine de plusieurs rivières importantes."
+      },
+      {
+        "question": "Quelle île française, la plus grande des îles du Ponant après la Corse, se situe au large du Morbihan ?",
+        "reponse": "Belle-Île-en-Mer",
+        "propositions": [
+          "Belle-Île-en-Mer",
+          "L'île de Groix",
+          "L'île d'Yeu",
+          "L'île de Noirmoutier"
+        ],
+        "explication": "Belle-Île-en-Mer est accessible depuis Quiberon et s'étend sur environ 85 km²."
+      },
+      {
+        "question": "Quel traité de 1860 a cédé le comté de Nice et la Savoie à la France par le royaume de Sardaigne ?",
+        "reponse": "Le traité de Turin",
+        "propositions": [
+          "Le traité de Turin",
+          "Le traité de Vienne",
+          "Le traité de Paris",
+          "Le traité de Campo-Formio"
+        ],
+        "explication": "Ce traité fait suite au soutien français au royaume de Sardaigne lors de la deuxième guerre d'indépendance italienne."
+      },
+      {
+        "question": "Quel gouffre des Pyrénées-Atlantiques, l'un des plus profonds du monde, a longtemps été une référence pour la spéléologie internationale ?",
+        "reponse": "Le gouffre de la Pierre Saint-Martin",
+        "propositions": [
+          "Le gouffre de la Pierre Saint-Martin",
+          "Le gouffre Berger",
+          "L'aven Armand",
+          "La grotte de Lascaux"
+        ],
+        "explication": "Ce gouffre, découvert dans les années 1950, dépasse les 1 400 mètres de profondeur."
+      },
+      {
+        "question": "Quel cirque naturel des Pyrénées françaises, classé au patrimoine mondial de l'UNESCO, est célèbre pour ses falaises et ses cascades ?",
+        "reponse": "Le cirque de Gavarnie",
+        "propositions": [
+          "Le cirque de Gavarnie",
+          "Le cirque de Troumouse",
+          "Le cirque de Mafate",
+          "Le cirque de Salazie"
+        ],
+        "explication": "Le cirque de Gavarnie abrite l'une des plus hautes cascades d'Europe, avec une chute d'environ 420 mètres."
       }
     ]
   }

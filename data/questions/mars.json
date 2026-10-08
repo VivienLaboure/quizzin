@@ -1,0 +1,191 @@
+{
+  "theme": "Mars",
+  "questions": {
+    "1": [
+      {
+        "question": "Quelle est la couleur caractéristique de la planète Mars, qui lui vaut son surnom ?",
+        "reponse": "La planète rouge",
+        "propositions": ["La planète rouge", "La planète bleue", "La planète verte", "La planète blanche"],
+        "explication": "Mars doit sa couleur rouge-orangé à l'oxyde de fer présent en abondance à sa surface."
+      },
+      {
+        "question": "Combien Mars compte-t-elle de lunes ?",
+        "reponse": "Deux",
+        "propositions": ["Deux", "Une", "Zéro", "Quatre"],
+        "explication": "Mars possède deux petites lunes, Phobos et Deimos."
+      },
+      {
+        "question": "Quelle est la position de Mars par rapport au Soleil dans le système solaire ?",
+        "reponse": "La quatrième planète",
+        "propositions": ["La quatrième planète", "La troisième planète", "La cinquième planète", "La deuxième planète"],
+        "explication": "Mars est la quatrième planète du système solaire, juste après la Terre."
+      },
+      {
+        "question": "Comment s'appelle le plus grand volcan connu du système solaire, situé sur Mars ?",
+        "reponse": "Olympus Mons",
+        "propositions": ["Olympus Mons", "Valles Marineris", "Mont Everest", "Mauna Kea"],
+        "explication": "Olympus Mons, sur Mars, culmine à environ 22 km d'altitude, ce qui en fait le plus haut volcan connu du système solaire."
+      },
+      {
+        "question": "Quel dieu romain a donné son nom à la planète Mars ?",
+        "reponse": "Le dieu de la guerre",
+        "propositions": ["Le dieu de la guerre", "Le dieu du ciel", "Le dieu de la mer", "Le dieu du soleil"],
+        "explication": "Mars porte le nom du dieu romain de la guerre, en raison de sa couleur rougeâtre évoquant le sang."
+      },
+      {
+        "question": "Quel type de véhicule la NASA utilise-t-elle pour explorer la surface de Mars ?",
+        "reponse": "Un rover",
+        "propositions": ["Un rover", "Un sous-marin", "Un dirigeable", "Un hélicoptère uniquement"],
+        "explication": "Les rovers, comme Curiosity ou Perseverance, sont des robots mobiles qui explorent la surface martienne."
+      },
+      {
+        "question": "Mars est-elle plus petite ou plus grande que la Terre ?",
+        "reponse": "Plus petite",
+        "propositions": ["Plus petite", "Plus grande", "De taille identique", "Deux fois plus grande"],
+        "explication": "Mars a un diamètre d'environ 6 800 km, soit un peu plus de la moitié de celui de la Terre."
+      },
+      {
+        "question": "Quel est le nom du plus célèbre canyon martien, l'un des plus grands du système solaire ?",
+        "reponse": "Valles Marineris",
+        "propositions": ["Valles Marineris", "Olympus Mons", "Le Grand Canyon", "Hellas Planitia"],
+        "explication": "Valles Marineris est un système de canyons s'étendant sur plus de 4 000 km à la surface de Mars."
+      },
+      {
+        "question": "De quoi est principalement composée la fine atmosphère de Mars ?",
+        "reponse": "Du dioxyde de carbone",
+        "propositions": ["Du dioxyde de carbone", "De l'oxygène", "De l'azote pur", "De la vapeur d'eau"],
+        "explication": "L'atmosphère martienne, très ténue, est composée à environ 95 % de dioxyde de carbone."
+      },
+      {
+        "question": "Quelle agence spatiale a envoyé le rover Perseverance sur Mars en 2021 ?",
+        "reponse": "La NASA",
+        "propositions": ["La NASA", "L'ESA", "Roscosmos", "L'agence spatiale chinoise"],
+        "explication": "Le rover Perseverance, lancé par la NASA, s'est posé sur Mars en février 2021 dans le cratère Jezero."
+      }
+    ],
+    "2": [
+      {
+        "question": "Comment s'appellent les deux petites lunes de Mars ?",
+        "reponse": "Phobos et Deimos",
+        "propositions": ["Phobos et Deimos", "Io et Europe", "Titan et Encelade", "Triton et Charon"],
+        "explication": "Phobos et Deimos, découvertes en 1877 par Asaph Hall, portent les noms des compagnons du dieu grec de la guerre Arès."
+      },
+      {
+        "question": "Quelle est la durée approximative d'un jour martien (sol), comparée à un jour terrestre ?",
+        "reponse": "Un peu plus de 24 heures",
+        "propositions": ["Un peu plus de 24 heures", "12 heures", "48 heures", "Exactement 24 heures"],
+        "explication": "Un jour martien, appelé « sol », dure environ 24 heures et 37 minutes, proche de la durée terrestre."
+      },
+      {
+        "question": "Combien de temps Mars met-elle approximativement à faire le tour du Soleil ?",
+        "reponse": "Environ 687 jours terrestres",
+        "propositions": ["Environ 687 jours terrestres", "365 jours terrestres", "1 000 jours terrestres", "200 jours terrestres"],
+        "explication": "Une année martienne dure environ 687 jours terrestres, soit près du double d'une année terrestre."
+      },
+      {
+        "question": "Quel rover de la NASA, actif depuis 2012, explore le cratère Gale sur Mars ?",
+        "reponse": "Curiosity",
+        "propositions": ["Curiosity", "Perseverance", "Opportunity", "Spirit"],
+        "explication": "Curiosity s'est posé dans le cratère Gale en août 2012 pour étudier l'habitabilité passée de Mars."
+      },
+      {
+        "question": "Quel petit hélicoptère expérimental a effectué les premiers vols motorisés sur une autre planète, accompagnant Perseverance ?",
+        "reponse": "Ingenuity",
+        "propositions": ["Ingenuity", "Sojourner", "InSight", "ExoMars"],
+        "explication": "Ingenuity a réalisé en avril 2021 le premier vol motorisé et contrôlé d'un engin sur une autre planète."
+      },
+      {
+        "question": "Quelle mission de la NASA, posée en 2018, a étudié la structure interne de Mars grâce à un sismomètre ?",
+        "reponse": "InSight",
+        "propositions": ["InSight", "Phoenix", "Viking 1", "Mars Pathfinder"],
+        "explication": "InSight a utilisé un sismomètre pour détecter les « séismes martiens » et étudier l'intérieur profond de la planète."
+      },
+      {
+        "question": "Quelle était la première mission à faire atterrir avec succès une sonde fonctionnelle sur Mars, en 1976 ?",
+        "reponse": "Viking 1",
+        "propositions": ["Viking 1", "Mars Pathfinder", "Mariner 4", "Phoenix"],
+        "explication": "Viking 1, lancée par la NASA, s'est posée sur Mars en juillet 1976, une première historique."
+      },
+      {
+        "question": "Quel phénomène météorologique peut parfois envelopper la totalité de la surface de Mars pendant plusieurs semaines ?",
+        "reponse": "Une tempête de poussière globale",
+        "propositions": ["Une tempête de poussière globale", "Un ouragan", "Une pluie acide", "Un blizzard de glace sèche"],
+        "explication": "Mars connaît parfois d'immenses tempêtes de poussière capables d'envelopper toute la planète, comme celle de 2018."
+      },
+      {
+        "question": "Sous quelle forme l'eau a-t-elle été confirmée présente aux pôles de Mars ?",
+        "reponse": "De la glace d'eau",
+        "propositions": ["De la glace d'eau", "Des océans liquides", "De la vapeur uniquement", "Des rivières permanentes"],
+        "explication": "Les calottes polaires martiennes contiennent de la glace d'eau mêlée à de la glace de dioxyde de carbone."
+      },
+      {
+        "question": "Quel programme européen, en partenariat avec Roscosmos, vise à rechercher des traces de vie passée sur Mars ?",
+        "reponse": "ExoMars",
+        "propositions": ["ExoMars", "ARTEMIS", "BepiColombo", "Juice"],
+        "explication": "ExoMars est un programme de l'Agence spatiale européenne visant à étudier le potentiel biologique passé ou présent de Mars."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel cratère martien, exploré par le rover Perseverance, est considéré comme un ancien lit de delta fluvial ?",
+        "reponse": "Le cratère Jezero",
+        "propositions": ["Le cratère Jezero", "Le cratère Gale", "Le cratère Gusev", "Le cratère Hellas"],
+        "explication": "Le cratère Jezero abritait un lac alimenté par une rivière il y a des milliards d'années, ce qui en fait une cible privilégiée pour chercher des traces de vie passée."
+      },
+      {
+        "question": "Quelle hypothèse explique la disparition progressive de l'atmosphère dense que Mars aurait possédée il y a plusieurs milliards d'années ?",
+        "reponse": "La perte du champ magnétique global",
+        "propositions": ["La perte du champ magnétique global", "Une collision avec un astéroïde géant", "Le refroidissement du Soleil", "L'explosion d'un volcan unique"],
+        "explication": "Sans champ magnétique global pour la protéger, l'atmosphère martienne aurait été progressivement érodée par le vent solaire."
+      },
+      {
+        "question": "Quelle mission a permis, en 1997, le premier déploiement réussi d'un petit rover autonome à la surface de Mars ?",
+        "reponse": "Mars Pathfinder (avec le rover Sojourner)",
+        "propositions": ["Mars Pathfinder (avec le rover Sojourner)", "Viking 2", "Mars Global Surveyor", "Mars Odyssey"],
+        "explication": "La mission Mars Pathfinder a déposé en 1997 le petit rover Sojourner, premier véhicule robotisé à circuler sur Mars."
+      },
+      {
+        "question": "Quel phénomène, observé par la sonde Mars Express, suggère la présence possible d'eau liquide salée sous la calotte polaire sud ?",
+        "reponse": "Des échos radars évoquant un lac sous-glaciaire",
+        "propositions": ["Des échos radars évoquant un lac sous-glaciaire", "Des geysers actifs observés directement", "Des rivières de surface détectées en été", "Des nuages de vapeur d'eau permanents"],
+        "explication": "En 2018, des données radar de la sonde Mars Express ont suggéré l'existence d'un possible lac d'eau liquide salée sous la calotte polaire sud."
+      },
+      {
+        "question": "Quel astronome italien a cru observer au XIXe siècle des « canaux » artificiels à la surface de Mars, alimentant longtemps le mythe des Martiens ?",
+        "reponse": "Giovanni Schiaparelli",
+        "propositions": ["Giovanni Schiaparelli", "Percival Lowell", "Christiaan Huygens", "Galileo Galilei"],
+        "explication": "Giovanni Schiaparelli a décrit en 1877 des « canali » (canaux) martiens, mal traduits en anglais, qui ont alimenté le mythe d'une civilisation martienne."
+      },
+      {
+        "question": "Quelle météorite martienne, découverte en Antarctique en 1984, a un temps relancé le débat sur une possible vie microbienne passée sur Mars ?",
+        "reponse": "ALH84001",
+        "propositions": ["ALH84001", "Shergotty", "Nakhla", "Chassigny"],
+        "explication": "La météorite ALH84001 a fait l'objet d'une controverse en 1996 après l'annonce (contestée depuis) de structures évoquant des fossiles bactériens."
+      },
+      {
+        "question": "Quelle est la cause principale des variations saisonnières de la calotte polaire martienne de dioxyde de carbone ?",
+        "reponse": "La sublimation et condensation saisonnière du CO2 atmosphérique",
+        "propositions": ["La sublimation et condensation saisonnière du CO2 atmosphérique", "L'activité volcanique périodique", "Les marées gravitationnelles de Phobos", "Les tempêtes de sable permanentes"],
+        "explication": "Selon les saisons, une partie du CO2 atmosphérique se condense en glace aux pôles martiens, puis se sublime à nouveau, faisant varier la taille des calottes."
+      },
+      {
+        "question": "Quelle sonde orbitale, lancée en 2013 par l'Inde, a fait de l'ISRO la première agence asiatique à atteindre l'orbite martienne ?",
+        "reponse": "Mars Orbiter Mission (Mangalyaan)",
+        "propositions": ["Mars Orbiter Mission (Mangalyaan)", "Tianwen-1", "Hope (Al-Amal)", "Nozomi"],
+        "explication": "La sonde indienne Mangalyaan a atteint l'orbite martienne en 2014, faisant de l'Inde le premier pays asiatique à y parvenir dès sa première tentative."
+      },
+      {
+        "question": "Quelle particularité orbitale fait que Phobos, lune de Mars, finira par se désintégrer ou s'écraser sur la planète dans plusieurs dizaines de millions d'années ?",
+        "reponse": "Son orbite se rapproche progressivement de Mars",
+        "propositions": ["Son orbite se rapproche progressivement de Mars", "Elle perd de la masse par évaporation", "Elle est freinée par l'atmosphère martienne", "Elle entre en collision régulière avec Deimos"],
+        "explication": "Les forces de marée font spiraler Phobos vers Mars ; dans environ 30 à 50 millions d'années, elle se brisera ou s'écrasera sur la planète."
+      },
+      {
+        "question": "Quel programme chinois a réussi, en 2021, à faire atterrir avec succès un rover sur Mars dès sa première tentative ?",
+        "reponse": "Tianwen-1 (avec le rover Zhurong)",
+        "propositions": ["Tianwen-1 (avec le rover Zhurong)", "Chang'e 5", "Shenzhou", "Tiangong"],
+        "explication": "La mission chinoise Tianwen-1 a déposé le rover Zhurong sur Mars en mai 2021, faisant de la Chine le deuxième pays à réussir un atterrissage martien fonctionnel."
+      }
+    ]
+  }
+}

@@ -166,6 +166,116 @@
           "La 5G"
         ],
         "explication": "Le Bluetooth doit son nom à un roi viking danois du Xe siècle, Harald à la dent bleue."
+      },
+      {
+        "question": "Quel type de code-barres carré, lisible avec un smartphone, permet d'accéder rapidement à un site internet ou une information ?",
+        "reponse": "Un QR code",
+        "propositions": [
+          "Un QR code",
+          "Un code-barres classique",
+          "Un NFC",
+          "Un hashtag"
+        ],
+        "explication": "QR signifie 'Quick Response' (réponse rapide) en anglais."
+      },
+      {
+        "question": "Quel type de connecteur, universel, permet de relier de nombreux appareils électroniques (clé USB, souris, chargeur) à un ordinateur ?",
+        "reponse": "Le port USB",
+        "propositions": [
+          "Le port USB",
+          "Le port HDMI",
+          "Le port Ethernet",
+          "Le port Jack"
+        ],
+        "explication": "USB signifie 'Universal Serial Bus', conçu pour standardiser les connexions entre appareils."
+      },
+      {
+        "question": "Quelle technologie sans fil permet de connecter un appareil à internet dans un rayon de quelques dizaines de mètres, sans câble ni données mobiles ?",
+        "reponse": "Le Wi-Fi",
+        "propositions": [
+          "Le Wi-Fi",
+          "Le Bluetooth",
+          "Le NFC",
+          "La 4G"
+        ],
+        "explication": "Le Wi-Fi utilise des ondes radio pour relier des appareils à une box ou un routeur internet."
+      },
+      {
+        "question": "Quel est le nom du courrier électronique envoyé via internet, remplaçant largement le courrier postal pour de nombreux usages ?",
+        "reponse": "Un e-mail (courriel)",
+        "propositions": [
+          "Un e-mail (courriel)",
+          "Un SMS",
+          "Une notification",
+          "Un chat"
+        ],
+        "explication": "Le premier e-mail aurait été envoyé en 1971 par l'ingénieur américain Ray Tomlinson."
+      },
+      {
+        "question": "Quelle entreprise américaine est à l'origine du moteur de recherche le plus utilisé au monde ?",
+        "reponse": "Google",
+        "propositions": [
+          "Google",
+          "Microsoft",
+          "Yahoo",
+          "Amazon"
+        ],
+        "explication": "Google a été fondé en 1998 par Larry Page et Sergey Brin, alors étudiants à Stanford."
+      },
+      {
+        "question": "Quelle plateforme de partage de vidéos en ligne, fondée en 2005, appartient aujourd'hui à Google ?",
+        "reponse": "YouTube",
+        "propositions": [
+          "YouTube",
+          "Vimeo",
+          "Twitch",
+          "Dailymotion"
+        ],
+        "explication": "Google a racheté YouTube en 2006, un an seulement après sa création."
+      },
+      {
+        "question": "Quel format de fichier, créé par Adobe, est très utilisé pour partager des documents en conservant leur mise en page d'origine ?",
+        "reponse": "Le PDF",
+        "propositions": [
+          "Le PDF",
+          "Le DOCX",
+          "Le JPEG",
+          "Le HTML"
+        ],
+        "explication": "PDF signifie 'Portable Document Format', lancé par Adobe en 1993."
+      },
+      {
+        "question": "Comment appelle-t-on une petite caméra intégrée ou branchée à un ordinateur, utilisée notamment pour les visioconférences ?",
+        "reponse": "Une webcam",
+        "propositions": [
+          "Une webcam",
+          "Un scanner",
+          "Un capteur",
+          "Un micro"
+        ],
+        "explication": "Les webcams se sont généralisées avec l'essor du télétravail et des appels vidéo."
+      },
+      {
+        "question": "Quel élément, composé de lettres, chiffres et symboles, sert à sécuriser l'accès à un compte en ligne ?",
+        "reponse": "Un mot de passe",
+        "propositions": [
+          "Un mot de passe",
+          "Un pseudonyme",
+          "Un cookie",
+          "Un certificat"
+        ],
+        "explication": "Il est recommandé d'utiliser un mot de passe différent et complexe pour chaque service en ligne."
+      },
+      {
+        "question": "Comment appelle-t-on une photo que l'on prend de soi-même, souvent à l'aide d'un smartphone ?",
+        "reponse": "Un selfie",
+        "propositions": [
+          "Un selfie",
+          "Un avatar",
+          "Un filtre",
+          "Un screenshot"
+        ],
+        "explication": "Le mot 'selfie' a été élu mot de l'année 2013 par le dictionnaire Oxford."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Garmin"
         ],
         "explication": "L'Apple Watch a largement contribué à populariser les objets connectés portables (wearables)."
+      },
+      {
+        "question": "Quel langage de programmation, principalement utilisé pour rendre les pages web interactives, est exécuté directement dans le navigateur ?",
+        "reponse": "JavaScript",
+        "propositions": [
+          "JavaScript",
+          "Python",
+          "PHP",
+          "SQL"
+        ],
+        "explication": "Malgré son nom, JavaScript n'a pas de lien direct avec le langage Java."
+      },
+      {
+        "question": "Quel type de mémoire de stockage, sans pièce mécanique mobile, est plus rapide et plus résistant aux chocs qu'un disque dur classique ?",
+        "reponse": "Le SSD",
+        "propositions": [
+          "Le SSD",
+          "Le HDD",
+          "La RAM",
+          "La ROM"
+        ],
+        "explication": "SSD signifie 'Solid State Drive', utilisant des puces de mémoire flash plutôt que des disques magnétiques."
+      },
+      {
+        "question": "Quel outil technique permet de chiffrer sa connexion internet et de masquer son adresse IP en la faisant transiter par un serveur distant ?",
+        "reponse": "Un VPN",
+        "propositions": [
+          "Un VPN",
+          "Un pare-feu",
+          "Un proxy simple",
+          "Un antivirus"
+        ],
+        "explication": "VPN signifie 'Virtual Private Network' (réseau privé virtuel)."
+      },
+      {
+        "question": "Que signifie l'acronyme 'API', désignant une interface permettant à deux logiciels de communiquer entre eux ?",
+        "reponse": "Application Programming Interface",
+        "propositions": [
+          "Application Programming Interface",
+          "Automated Program Integration",
+          "Advanced Protocol Interchange",
+          "Application Protocol Index"
+        ],
+        "explication": "Les API permettent par exemple à une application météo d'afficher des données fournies par un autre service."
+      },
+      {
+        "question": "Quel système d'exploitation, créé par Linus Torvalds en 1991 et distribué gratuitement, est à la base de nombreux serveurs et du système Android ?",
+        "reponse": "Linux",
+        "propositions": [
+          "Linux",
+          "Windows",
+          "macOS",
+          "Unix (BSD)"
+        ],
+        "explication": "Linux est un exemple emblématique de logiciel open source, dont le code source est librement modifiable."
+      },
+      {
+        "question": "Quel petit logiciel, intégré directement dans une puce électronique, permet de démarrer et de faire fonctionner un appareil avant le chargement du système d'exploitation ?",
+        "reponse": "Le firmware (micrologiciel)",
+        "propositions": [
+          "Le firmware (micrologiciel)",
+          "Le pilote (driver)",
+          "Le navigateur",
+          "Le système d'exploitation"
+        ],
+        "explication": "Le BIOS ou l'UEFI d'un ordinateur sont des exemples courants de firmware."
+      },
+      {
+        "question": "Quel système informatique, utilisé par les réseaux sociaux, sélectionne et classe automatiquement les contenus affichés selon les goûts supposés de chaque utilisateur ?",
+        "reponse": "Un algorithme de recommandation",
+        "propositions": [
+          "Un algorithme de recommandation",
+          "Un pare-feu",
+          "Un VPN",
+          "Un moteur de recherche"
+        ],
+        "explication": "Ces algorithmes s'appuient notamment sur l'historique de navigation et les interactions passées de l'utilisateur."
+      },
+      {
+        "question": "Comment appelle-t-on une vidéo ou une image truquée grâce à l'intelligence artificielle, faisant dire ou faire à une personne des choses fictives ?",
+        "reponse": "Un deepfake",
+        "propositions": [
+          "Un deepfake",
+          "Un hologramme",
+          "Un avatar",
+          "Un rendu 3D"
+        ],
+        "explication": "Les deepfakes utilisent des réseaux de neurones pour générer des visages ou des voix bluffants de réalisme."
+      },
+      {
+        "question": "Quelle technologie superpose des éléments virtuels (textes, objets 3D) directement sur la vue réelle de l'utilisateur, par exemple via un smartphone ?",
+        "reponse": "La réalité augmentée",
+        "propositions": [
+          "La réalité augmentée",
+          "La réalité virtuelle",
+          "L'intelligence artificielle",
+          "Le cloud computing"
+        ],
+        "explication": "Le jeu Pokémon GO a popularisé la réalité augmentée auprès du grand public en 2016."
+      },
+      {
+        "question": "Quelle technologie plonge totalement l'utilisateur dans un environnement numérique grâce à un casque couvrant l'ensemble du champ de vision ?",
+        "reponse": "La réalité virtuelle",
+        "propositions": [
+          "La réalité virtuelle",
+          "La réalité augmentée",
+          "La réalité mixte",
+          "L'hologramme"
+        ],
+        "explication": "Des casques comme le Meta Quest ou le PlayStation VR exploitent cette technologie pour le jeu vidéo immersif."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "La réalité augmentée"
         ],
         "explication": "Les montres connectées, thermostats intelligents ou ampoules connectées font partie de l'IoT."
+      },
+      {
+        "question": "Quel algorithme de chiffrement asymétrique, nommé d'après les initiales de ses trois inventeurs (Rivest, Shamir, Adleman), est largement utilisé pour sécuriser les échanges en ligne ?",
+        "reponse": "RSA",
+        "propositions": [
+          "RSA",
+          "AES",
+          "SHA-256",
+          "DES"
+        ],
+        "explication": "Contrairement à l'AES, le RSA utilise une paire de clés différentes pour chiffrer et déchiffrer les données."
+      },
+      {
+        "question": "Quel mathématicien britannique a conceptualisé en 1936 une machine théorique capable d'exécuter n'importe quel calcul, posant les bases de l'informatique moderne ?",
+        "reponse": "Alan Turing",
+        "propositions": [
+          "Alan Turing",
+          "Claude Shannon",
+          "John von Neumann",
+          "Charles Babbage"
+        ],
+        "explication": "Turing a également proposé en 1950 un test, portant son nom, pour évaluer si une machine peut 'penser'."
+      },
+      {
+        "question": "Quel ingénieur américain est considéré comme le père de la théorie de l'information, avec ses travaux fondateurs de 1948 sur la quantification de l'information en bits ?",
+        "reponse": "Claude Shannon",
+        "propositions": [
+          "Claude Shannon",
+          "Alan Turing",
+          "Norbert Wiener",
+          "John von Neumann"
+        ],
+        "explication": "Shannon a notamment introduit le concept d'entropie de l'information, central en théorie des communications."
+      },
+      {
+        "question": "Quelle architecture informatique de base, décrite en 1945, sépare une mémoire commune pour les données et les instructions d'un programme ?",
+        "reponse": "L'architecture de von Neumann",
+        "propositions": [
+          "L'architecture de von Neumann",
+          "L'architecture Harvard",
+          "L'architecture RISC",
+          "L'architecture CISC"
+        ],
+        "explication": "Cette architecture reste le modèle de référence de la quasi-totalité des ordinateurs modernes."
+      },
+      {
+        "question": "Quelle technique d'intelligence artificielle, inventée en 2014 par Ian Goodfellow, fait s'affronter deux réseaux de neurones pour générer des contenus réalistes (images, visages) ?",
+        "reponse": "Les réseaux antagonistes génératifs (GAN)",
+        "propositions": [
+          "Les réseaux antagonistes génératifs (GAN)",
+          "Les réseaux de neurones convolutifs (CNN)",
+          "Les Transformers",
+          "Les réseaux de neurones récurrents (RNN)"
+        ],
+        "explication": "Un réseau 'générateur' crée des contenus tandis qu'un réseau 'discriminateur' tente de les distinguer des vrais, les deux s'améliorant mutuellement."
+      },
+      {
+        "question": "Quel paradigme informatique consiste à traiter les données directement à la source (capteur, appareil local), plutôt que de tout envoyer vers des serveurs distants ?",
+        "reponse": "Le edge computing",
+        "propositions": [
+          "Le edge computing",
+          "Le cloud computing",
+          "Le grid computing",
+          "Le fog computing"
+        ],
+        "explication": "Le edge computing réduit la latence et la bande passante nécessaire, utile par exemple pour les voitures autonomes."
+      },
+      {
+        "question": "Quel algorithme de hachage cryptographique, produisant une empreinte de 256 bits, est utilisé pour sécuriser la blockchain du Bitcoin ?",
+        "reponse": "SHA-256",
+        "propositions": [
+          "SHA-256",
+          "MD5",
+          "AES-256",
+          "RSA-2048"
+        ],
+        "explication": "SHA-256 fait partie de la famille SHA-2, développée par la NSA et publiée en 2001."
+      },
+      {
+        "question": "Quel ingénieur américain a inventé le protocole Ethernet en 1973, aujourd'hui standard des réseaux locaux filaires ?",
+        "reponse": "Robert Metcalfe",
+        "propositions": [
+          "Robert Metcalfe",
+          "Vint Cerf",
+          "Tim Berners-Lee",
+          "Bob Kahn"
+        ],
+        "explication": "Metcalfe a aussi énoncé la loi portant son nom, selon laquelle la valeur d'un réseau croît proportionnellement au carré du nombre de ses utilisateurs."
+      },
+      {
+        "question": "Quelle loi empirique énonce que la valeur d'un réseau de télécommunication croît proportionnellement au carré du nombre de ses utilisateurs connectés ?",
+        "reponse": "La loi de Metcalfe",
+        "propositions": [
+          "La loi de Metcalfe",
+          "La loi de Moore",
+          "La loi d'Amdahl",
+          "La loi de Kryder"
+        ],
+        "explication": "Cette loi explique en partie l'effet de réseau qui favorise les plateformes déjà largement adoptées."
+      },
+      {
+        "question": "Quel standard d'encodage de caractères, successeur de l'ASCII, permet de représenter la quasi-totalité des systèmes d'écriture mondiaux dans un texte numérique ?",
+        "reponse": "L'Unicode",
+        "propositions": [
+          "L'Unicode",
+          "L'ASCII",
+          "L'UTF-32",
+          "Le Latin-1"
+        ],
+        "explication": "UTF-8, l'une des façons d'encoder l'Unicode, est aujourd'hui l'encodage le plus utilisé sur le web."
       }
     ]
   }

@@ -166,6 +166,116 @@
           "Le cor d'harmonie"
         ],
         "explication": "La trompette occupe une place centrale dans l'orchestre symphonique et le jazz."
+      },
+      {
+        "question": "Quel compositeur allemand est l'auteur de la \"Symphonie n°5\", débutant par un célèbre motif rythmique en quatre notes ?",
+        "reponse": "Ludwig van Beethoven",
+        "propositions": [
+          "Ludwig van Beethoven",
+          "Johannes Brahms",
+          "Joseph Haydn",
+          "Franz Schubert"
+        ],
+        "explication": "Cette symphonie, achevée en 1808, est l'une des œuvres les plus connues de la musique classique."
+      },
+      {
+        "question": "Quel instrument à vent en bois, le plus aigu de sa famille, se tient horizontalement pour être joué ?",
+        "reponse": "La flûte traversière",
+        "propositions": [
+          "La flûte traversière",
+          "Le hautbois",
+          "La clarinette",
+          "Le basson"
+        ],
+        "explication": "Elle se tient horizontalement, contrairement à la flûte à bec qui se tient verticalement."
+      },
+      {
+        "question": "Quel compositeur autrichien du XVIIIe siècle, surnommé \"le Père de la symphonie\", en a composé plus d'une centaine ?",
+        "reponse": "Joseph Haydn",
+        "propositions": [
+          "Joseph Haydn",
+          "Wolfgang Amadeus Mozart",
+          "Ludwig van Beethoven",
+          "Johann Sebastian Bach"
+        ],
+        "explication": "Haydn a notamment été le mentor de Mozart et le professeur de Beethoven."
+      },
+      {
+        "question": "Quelle nuance musicale, indiquée par la lettre 'p' sur une partition, signifie 'doucement' ?",
+        "reponse": "Piano",
+        "propositions": [
+          "Piano",
+          "Forte",
+          "Allegro",
+          "Adagio"
+        ],
+        "explication": "'Piano' signifie 'doucement' en italien, d'où le nom de l'instrument capable de moduler cette nuance."
+      },
+      {
+        "question": "Quel instrument à cordes pincées, de grande taille et de forme triangulaire, se joue posé contre l'épaule ?",
+        "reponse": "La harpe",
+        "propositions": [
+          "La harpe",
+          "La guitare",
+          "La mandoline",
+          "Le luth"
+        ],
+        "explication": "La harpe de concert comporte généralement 47 cordes et 7 pédales."
+      },
+      {
+        "question": "Quel instrument à clavier utilise des tuyaux pour produire le son et se trouve souvent dans les églises ?",
+        "reponse": "L'orgue",
+        "propositions": [
+          "L'orgue",
+          "Le piano",
+          "Le clavecin",
+          "L'accordéon"
+        ],
+        "explication": "L'air est propulsé dans les tuyaux grâce à une soufflerie actionnée électriquement ou manuellement."
+      },
+      {
+        "question": "Quel compositeur allemand, surnommé à sa mort 'le cantor de Leipzig', est un maître du contrepoint baroque ?",
+        "reponse": "Jean-Sébastien Bach",
+        "propositions": [
+          "Jean-Sébastien Bach",
+          "Georg Friedrich Haendel",
+          "Georg Philipp Telemann",
+          "Antonio Vivaldi"
+        ],
+        "explication": "Bach a occupé le poste de cantor à l'église Saint-Thomas de Leipzig pendant 27 ans."
+      },
+      {
+        "question": "Comment appelle-t-on un spectacle mêlant danse et musique classique, généralement sans paroles chantées ?",
+        "reponse": "Le ballet",
+        "propositions": [
+          "Le ballet",
+          "L'opéra",
+          "L'opérette",
+          "La comédie musicale"
+        ],
+        "explication": "'Le Lac des cygnes' de Tchaïkovski est l'un des ballets les plus célèbres au monde."
+      },
+      {
+        "question": "Quel instrument à percussion, composé de lames de bois frappées avec des mailloches, est parfois utilisé à l'orchestre ?",
+        "reponse": "Le xylophone",
+        "propositions": [
+          "Le xylophone",
+          "Le vibraphone",
+          "Les timbales",
+          "Le célesta"
+        ],
+        "explication": "Le xylophone produit un son sec et clair grâce à ses lames de bois disposées comme un clavier."
+      },
+      {
+        "question": "Comment appelle-t-on la vitesse d'exécution d'un morceau de musique ?",
+        "reponse": "Le tempo",
+        "propositions": [
+          "Le tempo",
+          "Le rythme",
+          "La mesure",
+          "La nuance"
+        ],
+        "explication": "Le tempo peut être indiqué par des termes italiens comme 'allegro' (rapide) ou 'lento' (lent)."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Robert Schumann"
         ],
         "explication": "La 'Berceuse' de Brahms (1868) reste l'une des mélodies les plus connues au monde."
+      },
+      {
+        "question": "Quel compositeur russe du XXe siècle, virtuose du piano, est l'auteur du 'Concerto pour piano n°2' et des 'Variations sur un thème de Paganini' ?",
+        "reponse": "Sergueï Rachmaninov",
+        "propositions": [
+          "Sergueï Rachmaninov",
+          "Alexandre Scriabine",
+          "Sergueï Prokofiev",
+          "Dmitri Chostakovitch"
+        ],
+        "explication": "Rachmaninov avait des mains exceptionnellement grandes, ce qui a influencé l'écriture virtuose de ses œuvres pour piano."
+      },
+      {
+        "question": "Quel compositeur norvégien du XIXe siècle est l'auteur de la musique de scène 'Peer Gynt', incluant 'Au matin' ?",
+        "reponse": "Edvard Grieg",
+        "propositions": [
+          "Edvard Grieg",
+          "Jean Sibelius",
+          "Carl Nielsen",
+          "Niels Gade"
+        ],
+        "explication": "Cette musique de scène a été composée pour la pièce de théâtre d'Henrik Ibsen."
+      },
+      {
+        "question": "Quel compositeur français du XIXe siècle, auteur d'un célèbre 'Requiem', a dirigé le Conservatoire de Paris ?",
+        "reponse": "Gabriel Fauré",
+        "propositions": [
+          "Gabriel Fauré",
+          "Camille Saint-Saëns",
+          "César Franck",
+          "Vincent d'Indy"
+        ],
+        "explication": "Fauré a été directeur du Conservatoire de Paris de 1905 à 1920."
+      },
+      {
+        "question": "Quel compositeur finlandais est l'auteur du poème symphonique 'Finlandia', devenu un symbole patriotique national ?",
+        "reponse": "Jean Sibelius",
+        "propositions": [
+          "Jean Sibelius",
+          "Edvard Grieg",
+          "Carl Nielsen",
+          "Niels Gade"
+        ],
+        "explication": "'Finlandia' a été composé en 1899, en partie en réaction à la censure russe de la presse finlandaise."
+      },
+      {
+        "question": "Quel terme désigne une courte pièce pour piano de caractère libre et rêveur, très utilisée par les compositeurs romantiques ?",
+        "reponse": "Le nocturne",
+        "propositions": [
+          "Le nocturne",
+          "L'étude",
+          "La ballade",
+          "Le prélude"
+        ],
+        "explication": "Le nocturne évoque généralement une atmosphère nocturne et intime, propre à l'introspection."
+      },
+      {
+        "question": "Quel compositeur tchèque du XIXe siècle est l'auteur du poème symphonique 'Vltava' (La Moldau), dépeignant le fleuve traversant Prague ?",
+        "reponse": "Bedřich Smetana",
+        "propositions": [
+          "Bedřich Smetana",
+          "Antonín Dvořák",
+          "Leoš Janáček",
+          "Zdeněk Fibich"
+        ],
+        "explication": "Cette œuvre fait partie du cycle 'Ma patrie' composé entre 1874 et 1879."
+      },
+      {
+        "question": "Quel compositeur français du XIXe siècle est l'auteur des opéras 'Manon' et 'Werther' ?",
+        "reponse": "Jules Massenet",
+        "propositions": [
+          "Jules Massenet",
+          "Charles Gounod",
+          "Ambroise Thomas",
+          "Léo Delibes"
+        ],
+        "explication": "'Manon' (1884) et 'Werther' (1892) comptent parmi ses œuvres les plus populaires."
+      },
+      {
+        "question": "Quel compositeur allemand romantique, mari de la pianiste Clara Wieck, est l'auteur du 'Carnaval' et des 'Scènes d'enfants' pour piano ?",
+        "reponse": "Robert Schumann",
+        "propositions": [
+          "Robert Schumann",
+          "Johannes Brahms",
+          "Felix Mendelssohn",
+          "Franz Liszt"
+        ],
+        "explication": "Schumann a épousé la pianiste virtuose Clara Wieck en 1840."
+      },
+      {
+        "question": "Quel compositeur allemand du début du XIXe siècle, mort à 31 ans, a laissé plus de 600 Lieder et une 'Symphonie inachevée' ?",
+        "reponse": "Franz Schubert",
+        "propositions": [
+          "Franz Schubert",
+          "Robert Schumann",
+          "Felix Mendelssohn",
+          "Carl Maria von Weber"
+        ],
+        "explication": "Sa 'Symphonie n°8', dite 'inachevée', ne comporte que deux mouvements complets."
+      },
+      {
+        "question": "Quel compositeur français du XIXe siècle, auteur de 'Danse macabre' (1874), s'est aussi illustré comme organiste virtuose ?",
+        "reponse": "Camille Saint-Saëns",
+        "propositions": [
+          "Camille Saint-Saëns",
+          "César Franck",
+          "Charles Gounod",
+          "Gabriel Fauré"
+        ],
+        "explication": "Ce poème symphonique illustre musicalement une légende de squelettes dansant à minuit le soir d'Halloween."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "John Tavener"
         ],
         "explication": "Le style 'tintinnabuli' d'Arvo Pärt repose sur une grande simplicité harmonique et une forte spiritualité."
+      },
+      {
+        "question": "Quel compositeur italien baroque, maître du contrepoint, a composé un 'Stabat Mater' resté l'une des œuvres sacrées les plus poignantes du répertoire ?",
+        "reponse": "Giovanni Battista Pergolesi",
+        "propositions": [
+          "Giovanni Battista Pergolesi",
+          "Alessandro Scarlatti",
+          "Antonio Vivaldi",
+          "Domenico Scarlatti"
+        ],
+        "explication": "Pergolesi meurt en 1736 à seulement 26 ans, peu après avoir achevé cette œuvre."
+      },
+      {
+        "question": "Quel compositeur français, théoricien des modes à transpositions limitées, a composé le 'Quatuor pour la fin du Temps' en captivité en 1941 ?",
+        "reponse": "Olivier Messiaen",
+        "propositions": [
+          "Olivier Messiaen",
+          "Pierre Boulez",
+          "Henri Dutilleux",
+          "André Jolivet"
+        ],
+        "explication": "Messiaen compose et crée cette œuvre dans un camp de prisonniers de guerre allemand, le Stalag VIII-A."
+      },
+      {
+        "question": "Quel compositeur italien du XXe siècle, lié au futurisme, a théorisé 'L'Art des bruits', prônant l'intégration des sons bruts dans la musique ?",
+        "reponse": "Luigi Russolo",
+        "propositions": [
+          "Luigi Russolo",
+          "Ottorino Respighi",
+          "Luigi Dallapiccola",
+          "Ferruccio Busoni"
+        ],
+        "explication": "Son manifeste de 1913 est considéré comme un texte fondateur de la musique bruitiste du XXe siècle."
+      },
+      {
+        "question": "Quel terme italien désigne un ralentissement progressif du tempo à la fin d'une phrase musicale ?",
+        "reponse": "Le rallentando",
+        "propositions": [
+          "Le rallentando",
+          "L'accelerando",
+          "Le rubato",
+          "Le ritenuto"
+        ],
+        "explication": "Contrairement au ritenuto, qui marque un ralentissement plus immédiat, le rallentando est progressif."
+      },
+      {
+        "question": "Quel compositeur belge naturalisé français, organiste à Sainte-Clotilde à Paris, est l'auteur de la 'Symphonie en ré mineur' (1888) ?",
+        "reponse": "César Franck",
+        "propositions": [
+          "César Franck",
+          "Camille Saint-Saëns",
+          "Charles-Marie Widor",
+          "Vincent d'Indy"
+        ],
+        "explication": "Franck a profondément influencé la musique symphonique et de chambre française de la fin du XIXe siècle."
+      },
+      {
+        "question": "Quel compositeur russe, auteur des 'Tableaux d'une exposition', a composé cette suite pour piano en hommage à son ami peintre Victor Hartmann ?",
+        "reponse": "Modeste Moussorgski",
+        "propositions": [
+          "Modeste Moussorgski",
+          "Alexandre Borodine",
+          "Nikolaï Rimski-Korsakov",
+          "Mili Balakirev"
+        ],
+        "explication": "L'œuvre a ensuite été célèbrement orchestrée par Maurice Ravel en 1922."
+      },
+      {
+        "question": "Quel compositeur italien du XXe siècle, l'un des premiers de ce pays à adopter pleinement le dodécaphonisme, est l'auteur de l'opéra 'Il Prigioniero' ?",
+        "reponse": "Luigi Dallapiccola",
+        "propositions": [
+          "Luigi Dallapiccola",
+          "Luigi Nono",
+          "Bruno Maderna",
+          "Goffredo Petrassi"
+        ],
+        "explication": "Son œuvre dénonce les totalitarismes à travers une écriture sérielle rigoureuse."
+      },
+      {
+        "question": "Quel terme musical désigne une cadence dont l'accord final laisse une impression d'inachevé, typiquement sur le degré V ?",
+        "reponse": "La cadence suspensive",
+        "propositions": [
+          "La cadence suspensive",
+          "La cadence parfaite",
+          "La cadence rompue",
+          "La cadence plagale"
+        ],
+        "explication": "Contrairement à la cadence parfaite, la cadence suspensive ne referme pas complètement le discours harmonique."
+      },
+      {
+        "question": "Quel compositeur italien romantique, virtuose du violon, est resté célèbre pour ses '24 Caprices' et une réputation quasi diabolique ?",
+        "reponse": "Niccolò Paganini",
+        "propositions": [
+          "Niccolò Paganini",
+          "Giuseppe Tartini",
+          "Pietro Locatelli",
+          "Heinrich Wilhelm Ernst"
+        ],
+        "explication": "Sa virtuosité légendaire a nourri une rumeur selon laquelle il aurait vendu son âme au diable."
+      },
+      {
+        "question": "Quel compositeur allemand du XXe siècle, actif sous le régime nazi puis réhabilité après-guerre, est l'auteur du cycle des 'Quatre Derniers Lieder' ?",
+        "reponse": "Richard Strauss",
+        "propositions": [
+          "Richard Strauss",
+          "Paul Hindemith",
+          "Hans Pfitzner",
+          "Carl Orff"
+        ],
+        "explication": "Composés en 1948, peu avant sa mort, 'Les Quatre Derniers Lieder' sont souvent perçus comme un adieu testamentaire à la vie et à l'art."
       }
     ]
   }

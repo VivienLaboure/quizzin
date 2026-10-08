@@ -166,6 +166,116 @@
           "Neptune"
         ],
         "explication": "Les anneaux de Saturne sont composés principalement de particules de glace et de poussière."
+      },
+      {
+        "question": "Quelle planète est célèbre pour être presque 'couchée' sur le côté, avec un axe de rotation incliné à environ 98 degrés ?",
+        "reponse": "Uranus",
+        "propositions": [
+          "Uranus",
+          "Saturne",
+          "Neptune",
+          "Vénus"
+        ],
+        "explication": "Cette inclinaison extrême provoque des saisons particulièrement longues et marquées sur Uranus."
+      },
+      {
+        "question": "Quelle comète célèbre, visible depuis la Terre environ tous les 76 ans, doit son nom à l'astronome qui a calculé son orbite ?",
+        "reponse": "La comète de Halley",
+        "propositions": [
+          "La comète de Halley",
+          "La comète Hale-Bopp",
+          "La comète Encke",
+          "La comète Hyakutake"
+        ],
+        "explication": "Edmund Halley a prédit en 1705 le retour de cette comète, observée pour la dernière fois en 1986."
+      },
+      {
+        "question": "Quel phénomène astronomique se produit lorsque la Lune passe exactement entre la Terre et le Soleil, cachant partiellement ou totalement ce dernier ?",
+        "reponse": "Une éclipse solaire",
+        "propositions": [
+          "Une éclipse solaire",
+          "Une éclipse lunaire",
+          "Une pleine lune",
+          "Un transit planétaire"
+        ],
+        "explication": "Une éclipse solaire totale n'est visible que depuis une zone étroite de la Terre, appelée la bande de totalité."
+      },
+      {
+        "question": "Quelle est la plus grande lune de la planète Saturne ?",
+        "reponse": "Titan",
+        "propositions": [
+          "Titan",
+          "Encelade",
+          "Mimas",
+          "Rhéa"
+        ],
+        "explication": "Titan est la deuxième plus grande lune du système solaire, juste derrière Ganymède."
+      },
+      {
+        "question": "Comment appelle-t-on les phénomènes lumineux colorés visibles près des pôles, causés par les particules solaires interagissant avec l'atmosphère ?",
+        "reponse": "Les aurores polaires",
+        "propositions": [
+          "Les aurores polaires",
+          "Les éclipses",
+          "Les étoiles filantes",
+          "Les halos lunaires"
+        ],
+        "explication": "On parle d'aurores boréales dans l'hémisphère nord et d'aurores australes dans l'hémisphère sud."
+      },
+      {
+        "question": "Quelle est la deuxième planète du système solaire en partant du Soleil ?",
+        "reponse": "Vénus",
+        "propositions": [
+          "Vénus",
+          "Mercure",
+          "Mars",
+          "la Terre"
+        ],
+        "explication": "Vénus est souvent surnommée 'étoile du Berger' car elle est très brillante au crépuscule ou à l'aube."
+      },
+      {
+        "question": "Comment appelle-t-on la traînée lumineuse produite par un petit corps rocheux se consumant en entrant dans l'atmosphère terrestre ?",
+        "reponse": "Une étoile filante (météore)",
+        "propositions": [
+          "Une étoile filante (météore)",
+          "Une comète",
+          "Un astéroïde",
+          "Une éclipse"
+        ],
+        "explication": "Lorsqu'un fragment de ce corps atteint le sol, on l'appelle une météorite."
+      },
+      {
+        "question": "Combien de temps dure environ une rotation complète de la Terre sur elle-même, définissant un jour ?",
+        "reponse": "24 heures",
+        "propositions": [
+          "24 heures",
+          "12 heures",
+          "365 jours",
+          "48 heures"
+        ],
+        "explication": "Cette rotation sur son axe est à l'origine de l'alternance entre le jour et la nuit."
+      },
+      {
+        "question": "Quel est le nom de la galaxie dans laquelle se trouve notre système solaire ?",
+        "reponse": "La Voie lactée",
+        "propositions": [
+          "La Voie lactée",
+          "Andromède",
+          "Le Grand Nuage de Magellan",
+          "La galaxie du Sombrero"
+        ],
+        "explication": "La Voie lactée est une galaxie spirale contenant plusieurs centaines de milliards d'étoiles."
+      },
+      {
+        "question": "Quelle mission spatiale américaine a permis à des astronautes de marcher pour la première fois sur la Lune, en juillet 1969 ?",
+        "reponse": "Apollo 11",
+        "propositions": [
+          "Apollo 11",
+          "Apollo 13",
+          "Apollo 8",
+          "Gemini 7"
+        ],
+        "explication": "Neil Armstrong et Buzz Aldrin ont foulé le sol lunaire, tandis que Michael Collins restait en orbite."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Charon"
         ],
         "explication": "Phobos orbite si proche de Mars qu'il finira par s'écraser sur la planète dans plusieurs dizaines de millions d'années."
+      },
+      {
+        "question": "Quel astronome français a prédit, par le calcul, l'existence de Neptune avant sa découverte en 1846 ?",
+        "reponse": "Urbain Le Verrier",
+        "propositions": [
+          "Urbain Le Verrier",
+          "Johann Galle",
+          "William Herschel",
+          "Giovanni Cassini"
+        ],
+        "explication": "Le Verrier a calculé la position de Neptune à partir des perturbations observées dans l'orbite d'Uranus ; l'astronome Johann Galle l'a ensuite observée au télescope."
+      },
+      {
+        "question": "Quel astronome britannique a découvert la planète Uranus en 1781, la première découverte planétaire à l'aide d'un télescope ?",
+        "reponse": "William Herschel",
+        "propositions": [
+          "William Herschel",
+          "Urbain Le Verrier",
+          "Galilée",
+          "Johannes Kepler"
+        ],
+        "explication": "Herschel pensait initialement avoir découvert une comète, avant que sa nature planétaire ne soit confirmée."
+      },
+      {
+        "question": "Quelle est la durée approximative du cycle d'activité des taches solaires, alternant minimum et maximum d'activité ?",
+        "reponse": "Environ 11 ans",
+        "propositions": [
+          "Environ 11 ans",
+          "Environ 1 an",
+          "Environ 100 ans",
+          "Environ 5 ans"
+        ],
+        "explication": "Ce cycle est lié à l'inversion périodique du champ magnétique du Soleil."
+      },
+      {
+        "question": "Quel volcan, situé sur Mars, est le plus grand connu de tout le système solaire ?",
+        "reponse": "Olympus Mons",
+        "propositions": [
+          "Olympus Mons",
+          "Mauna Kea",
+          "Mont Everest",
+          "Maxwell Montes"
+        ],
+        "explication": "Olympus Mons culmine à environ 22 km d'altitude, soit près de trois fois la hauteur de l'Everest."
+      },
+      {
+        "question": "Quelle particularité présente la rotation de Vénus sur elle-même, contrairement à la plupart des autres planètes ?",
+        "reponse": "Elle tourne en sens rétrograde (à l'envers)",
+        "propositions": [
+          "Elle tourne en sens rétrograde (à l'envers)",
+          "Elle ne tourne pas du tout",
+          "Elle tourne à une vitesse extrême",
+          "Elle change de sens chaque année"
+        ],
+        "explication": "Sur Vénus, le Soleil se lèverait donc à l'ouest et se coucherait à l'est, si on pouvait l'observer à travers les nuages."
+      },
+      {
+        "question": "Quel est le nom de la plus grande lune de Pluton, suffisamment massive pour former avec elle un système binaire ?",
+        "reponse": "Charon",
+        "propositions": [
+          "Charon",
+          "Nix",
+          "Hydra",
+          "Styx"
+        ],
+        "explication": "Pluton et Charon orbitent autour d'un centre de masse commun situé en dehors de Pluton elle-même."
+      },
+      {
+        "question": "Quelle petite lune de Saturne, marquée d'un immense cratère, est souvent comparée à l'Étoile de la Mort de 'Star Wars' ?",
+        "reponse": "Mimas",
+        "propositions": [
+          "Mimas",
+          "Encelade",
+          "Japet",
+          "Phœbé"
+        ],
+        "explication": "Ce cratère, appelé Herschel, mesure environ 130 km de diamètre, soit un tiers du diamètre de Mimas lui-même."
+      },
+      {
+        "question": "Comment surnomme-t-on familièrement les comètes, en référence à leur composition de glace, de poussière et de roche ?",
+        "reponse": "Des boules de neige sale",
+        "propositions": [
+          "Des boules de neige sale",
+          "Des étoiles mortes",
+          "Des astéroïdes gelés",
+          "Des météores froids"
+        ],
+        "explication": "Cette expression, due à l'astronome Fred Whipple, décrit bien la composition des noyaux cométaires."
+      },
+      {
+        "question": "Quel astronome italien a découvert en 1610, à l'aide d'une lunette, les quatre principales lunes de Jupiter, portant aujourd'hui son nom ?",
+        "reponse": "Galilée",
+        "propositions": [
+          "Galilée",
+          "Johannes Kepler",
+          "Giovanni Cassini",
+          "Christian Huygens"
+        ],
+        "explication": "Io, Europe, Ganymède et Callisto sont appelées 'lunes galiléennes' en hommage à cette découverte."
+      },
+      {
+        "question": "Pourquoi les écarts de température entre le jour et la nuit sont-ils extrêmes sur Mercure, malgré sa proximité avec le Soleil ?",
+        "reponse": "Parce qu'elle ne possède pratiquement pas d'atmosphère pour retenir la chaleur",
+        "propositions": [
+          "Parce qu'elle ne possède pratiquement pas d'atmosphère pour retenir la chaleur",
+          "Parce qu'elle tourne trop vite sur elle-même",
+          "Parce qu'elle est recouverte de glace en permanence",
+          "Parce qu'elle n'a pas de champ magnétique"
+        ],
+        "explication": "La température peut varier de plus de 500°C entre le jour brûlant et la nuit glaciale sur Mercure."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Hygie"
         ],
         "explication": "Cérès a été survolée par la sonde Dawn de la NASA, qui s'est mise en orbite autour d'elle en 2015."
+      },
+      {
+        "question": "Quel vaste réservoir sphérique d'objets glacés, situé aux confins du système solaire, est considéré comme la source des comètes à longue période ?",
+        "reponse": "Le nuage d'Oort",
+        "propositions": [
+          "Le nuage d'Oort",
+          "La ceinture de Kuiper",
+          "La ceinture principale",
+          "L'héliosphère"
+        ],
+        "explication": "Le nuage d'Oort serait situé entre 2 000 et 100 000 unités astronomiques du Soleil, bien plus loin que la ceinture de Kuiper."
+      },
+      {
+        "question": "Quelle sonde spatiale a été la première à franchir l'héliopause, frontière entre l'héliosphère solaire et l'espace interstellaire, en 2012 ?",
+        "reponse": "Voyager 1",
+        "propositions": [
+          "Voyager 1",
+          "Voyager 2",
+          "Pioneer 10",
+          "New Horizons"
+        ],
+        "explication": "Voyager 2 a franchi à son tour cette frontière en 2018, confirmant les données de sa sonde jumelle."
+      },
+      {
+        "question": "Quelle sonde de la NASA, en orbite polaire autour de Jupiter depuis 2016, étudie notamment sa structure interne et son champ magnétique ?",
+        "reponse": "Juno",
+        "propositions": [
+          "Juno",
+          "Cassini",
+          "Galileo",
+          "JUICE"
+        ],
+        "explication": "Juno utilise une orbite polaire elliptique pour éviter la zone de rayonnement la plus intense autour de Jupiter."
+      },
+      {
+        "question": "Quel est le deuxième plus gros astéroïde de la ceinture principale, visité par la sonde Dawn avant Cérès ?",
+        "reponse": "Vesta",
+        "propositions": [
+          "Vesta",
+          "Pallas",
+          "Hygie",
+          "Junon"
+        ],
+        "explication": "Vesta est aussi l'astéroïde le plus brillant visible depuis la Terre, parfois à l'œil nu dans de bonnes conditions."
+      },
+      {
+        "question": "Quelle planète naine de la ceinture de Kuiper, à la forme très allongée et à la rotation extrêmement rapide (moins de 4 heures), possède son propre système d'anneaux ?",
+        "reponse": "Hauméa",
+        "propositions": [
+          "Hauméa",
+          "Makemake",
+          "Éris",
+          "Cérès"
+        ],
+        "explication": "Découverte en 2004, Hauméa est l'une des rares planètes naines connues à posséder des anneaux."
+      },
+      {
+        "question": "Quelle planète naine, découverte en 2005 et nommée d'après une divinité pascuane de la fertilité, orbite dans la ceinture de Kuiper ?",
+        "reponse": "Makemake",
+        "propositions": [
+          "Makemake",
+          "Hauméa",
+          "Éris",
+          "Sedna"
+        ],
+        "explication": "Makemake a été découverte peu après Pâques, ce qui explique son nom inspiré de la mythologie de l'île de Pâques."
+      },
+      {
+        "question": "Quelle faible lueur diffuse, visible juste après le coucher ou avant le lever du Soleil, est causée par la lumière solaire diffusée par la poussière interplanétaire ?",
+        "reponse": "La lumière zodiacale",
+        "propositions": [
+          "La lumière zodiacale",
+          "L'aurore boréale",
+          "Le halo lunaire",
+          "La lumière cendrée"
+        ],
+        "explication": "Cette poussière s'est accumulée dans le plan du système solaire, principalement issue de comètes et d'astéroïdes."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène qui fait que la Lune présente toujours la même face à la Terre ?",
+        "reponse": "La rotation synchrone (verrouillage gravitationnel)",
+        "propositions": [
+          "La rotation synchrone (verrouillage gravitationnel)",
+          "La résonance orbitale",
+          "La précession des équinoxes",
+          "La libration"
+        ],
+        "explication": "Ce phénomène résulte du freinage progressif de la rotation lunaire par les forces de marée exercées par la Terre."
+      },
+      {
+        "question": "Quel objet transneptunien, découvert en 2003, possède l'une des orbites les plus excentriques et les plus lointaines connues, l'éloignant jusqu'à environ 900 unités astronomiques du Soleil ?",
+        "reponse": "Sedna",
+        "propositions": [
+          "Sedna",
+          "Éris",
+          "Makemake",
+          "Hauméa"
+        ],
+        "explication": "L'orbite extrême de Sedna met environ 11 400 ans à être complétée, alimentant des hypothèses sur une éventuelle neuvième planète lointaine."
+      },
+      {
+        "question": "Comment appelle-t-on le flux continu de particules chargées émises par la couronne solaire, qui façonne notamment la forme des queues de comètes ?",
+        "reponse": "Le vent solaire",
+        "propositions": [
+          "Le vent solaire",
+          "Le rayonnement cosmique",
+          "La lumière zodiacale",
+          "L'effet Doppler"
+        ],
+        "explication": "Le vent solaire a été théorisé par Eugene Parker en 1958 puis confirmé par les mesures de la sonde Mariner 2 en 1962."
       }
     ]
   }

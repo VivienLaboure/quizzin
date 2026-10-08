@@ -166,6 +166,116 @@
           "Diddy Kong Racing"
         ],
         "explication": "'Mario Kart' est apparu pour la première fois sur Super Nintendo en 1992."
+      },
+      {
+        "question": "Quelle entreprise a développé la console Xbox, lancée en 2001 ?",
+        "reponse": "Microsoft",
+        "propositions": [
+          "Microsoft",
+          "Sony",
+          "Nintendo",
+          "Sega"
+        ],
+        "explication": "La Xbox a marqué l'entrée de Microsoft sur le marché des consoles de jeux vidéo."
+      },
+      {
+        "question": "Quel jeu vidéo de bac à sable, où les joueurs créent leurs propres mini-jeux et mondes, appartient à la société Roblox Corporation ?",
+        "reponse": "Roblox",
+        "propositions": [
+          "Roblox",
+          "Minecraft",
+          "Fortnite",
+          "Among Us"
+        ],
+        "explication": "Roblox permet aux joueurs de concevoir et de publier leurs propres expériences de jeu."
+      },
+      {
+        "question": "Quel jeu vidéo multijoueur met en scène un équipage dont un ou plusieurs membres, des 'imposteurs', doivent saboter secrètement la mission ?",
+        "reponse": "Among Us",
+        "propositions": [
+          "Among Us",
+          "Fall Guys",
+          "Fortnite",
+          "Rocket League"
+        ],
+        "explication": "Among Us a connu un succès mondial soudain en 2020, porté par les diffusions en streaming."
+      },
+      {
+        "question": "Quel jeu vidéo de football, publié chaque année par Electronic Arts, a été rebaptisé 'EA Sports FC' depuis 2023 ?",
+        "reponse": "FIFA",
+        "propositions": [
+          "FIFA",
+          "PES",
+          "Football Manager",
+          "Rocket League"
+        ],
+        "explication": "Ce changement de nom fait suite à la fin du partenariat entre Electronic Arts et la FIFA."
+      },
+      {
+        "question": "Quel jeu de combat en arène, développé par Psyonix, mélange football et course de véhicules autour d'un ballon géant ?",
+        "reponse": "Rocket League",
+        "propositions": [
+          "Rocket League",
+          "Fall Guys",
+          "Overwatch",
+          "Among Us"
+        ],
+        "explication": "Rocket League est sorti en 2015 et a connu un grand succès dans le milieu de l'esport."
+      },
+      {
+        "question": "Quel est le nom du héros de la série 'The Legend of Zelda', chargé de sauver la princesse Zelda ?",
+        "reponse": "Link",
+        "propositions": [
+          "Link",
+          "Zelda",
+          "Ganon",
+          "Navi"
+        ],
+        "explication": "Contrairement à une idée reçue répandue, le héros de la série ne s'appelle pas Zelda mais Link."
+      },
+      {
+        "question": "Quel jeu vidéo multijoueur de type 'battle royale', développé par PUBG Corporation, a popularisé ce genre dès 2017 ?",
+        "reponse": "PUBG",
+        "propositions": [
+          "PUBG",
+          "Fortnite",
+          "Apex Legends",
+          "Warzone"
+        ],
+        "explication": "PUBG (PlayerUnknown's Battlegrounds) a précédé Fortnite dans la popularisation du genre battle royale."
+      },
+      {
+        "question": "Quel jeu vidéo de simulation agricole indépendant, développé presque seul par Eric Barone (ConcernedApe), est sorti en 2016 ?",
+        "reponse": "Stardew Valley",
+        "propositions": [
+          "Stardew Valley",
+          "Animal Crossing",
+          "Farming Simulator",
+          "My Time at Portia"
+        ],
+        "explication": "Stardew Valley s'inspire fortement de la série japonaise 'Harvest Moon'."
+      },
+      {
+        "question": "Quel jeu vidéo de tir à la première personne, développé par Activision, est l'une des franchises les plus vendues au monde depuis 2003 ?",
+        "reponse": "Call of Duty",
+        "propositions": [
+          "Call of Duty",
+          "Battlefield",
+          "Halo",
+          "Doom"
+        ],
+        "explication": "La série Call of Duty publie un nouvel épisode presque chaque année depuis plus de vingt ans."
+      },
+      {
+        "question": "Quel jeu vidéo indépendant met en scène une jeune fille qui doit gravir une montagne difficile, sorti en 2018 ?",
+        "reponse": "Celeste",
+        "propositions": [
+          "Celeste",
+          "Hollow Knight",
+          "Cuphead",
+          "Ori and the Blind Forest"
+        ],
+        "explication": "Celeste a été salué pour la précision de son gameplay de plateforme et son propos sur la santé mentale."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "The Evil Within"
         ],
         "explication": "'Resident Evil' a été développé par Capcom et a fondé le genre 'survival horror' moderne."
+      },
+      {
+        "question": "Quel studio américain, filiale de Sony, a développé 'Horizon Zero Dawn' et 'Horizon Forbidden West' ?",
+        "reponse": "Guerrilla Games",
+        "propositions": [
+          "Guerrilla Games",
+          "Naughty Dog",
+          "Insomniac Games",
+          "Sucker Punch"
+        ],
+        "explication": "Guerrilla Games, studio néerlandais, était auparavant connu pour la série 'Killzone'."
+      },
+      {
+        "question": "Quel jeu vidéo d'action-aventure en monde ouvert, développé par Rockstar Games, se déroule dans la ville fictive de Los Santos ?",
+        "reponse": "Grand Theft Auto V",
+        "propositions": [
+          "Grand Theft Auto V",
+          "Red Dead Redemption",
+          "Saints Row",
+          "Watch Dogs"
+        ],
+        "explication": "Los Santos est une parodie à peine voilée de la ville de Los Angeles."
+      },
+      {
+        "question": "Quel studio a développé 'Red Dead Redemption 2', jeu de western en monde ouvert sorti en 2018 ?",
+        "reponse": "Rockstar Games",
+        "propositions": [
+          "Rockstar Games",
+          "Bethesda",
+          "CD Projekt Red",
+          "Ubisoft"
+        ],
+        "explication": "Rockstar Games est aussi le studio derrière la série 'Grand Theft Auto'."
+      },
+      {
+        "question": "Quel jeu de rôle d'action, développé par Bethesda et sorti en 2011, se déroule dans la province fantastique de Bordeciel ?",
+        "reponse": "The Elder Scrolls V: Skyrim",
+        "propositions": [
+          "The Elder Scrolls V: Skyrim",
+          "The Witcher 3",
+          "Dragon Age",
+          "Fallout 4"
+        ],
+        "explication": "Skyrim est resté disponible à l'achat sur de très nombreuses plateformes bien après sa sortie initiale."
+      },
+      {
+        "question": "Quel jeu vidéo narratif, développé par Quantic Dream, met en scène des androïdes dans une société futuriste, sorti en 2018 ?",
+        "reponse": "Detroit: Become Human",
+        "propositions": [
+          "Detroit: Become Human",
+          "Death Stranding",
+          "Beyond: Two Souls",
+          "Heavy Rain"
+        ],
+        "explication": "Le joueur y incarne plusieurs androïdes dont les choix influencent le déroulement de l'histoire."
+      },
+      {
+        "question": "Quel studio français, dirigé par David Cage, est connu pour ses jeux narratifs cinématographiques comme 'Heavy Rain' ?",
+        "reponse": "Quantic Dream",
+        "propositions": [
+          "Quantic Dream",
+          "Dontnod Entertainment",
+          "Asobo Studio",
+          "Don't Nod"
+        ],
+        "explication": "Quantic Dream est basé à Paris et a également développé 'Detroit: Become Human'."
+      },
+      {
+        "question": "Quel jeu vidéo de super-héros, développé par Insomniac Games, met en scène Peter Parker à New York, sorti en 2018 sur PlayStation ?",
+        "reponse": "Marvel's Spider-Man",
+        "propositions": [
+          "Marvel's Spider-Man",
+          "Batman: Arkham Knight",
+          "Marvel's Avengers",
+          "Gotham Knights"
+        ],
+        "explication": "Insomniac Games a ensuite développé une suite consacrée à Miles Morales."
+      },
+      {
+        "question": "Quel jeu vidéo multijoueur en ligne de type MOBA, développé par Riot Games, est devenu l'un des esports les plus regardés au monde depuis 2009 ?",
+        "reponse": "League of Legends",
+        "propositions": [
+          "League of Legends",
+          "Dota 2",
+          "Heroes of the Storm",
+          "Smite"
+        ],
+        "explication": "Les championnats mondiaux de League of Legends réunissent des millions de spectateurs chaque année."
+      },
+      {
+        "question": "Quel jeu vidéo de rôle et d'exploration spatiale, développé par Hello Games, a connu une sortie controversée en 2016 avant de s'améliorer considérablement ?",
+        "reponse": "No Man's Sky",
+        "propositions": [
+          "No Man's Sky",
+          "Starfield",
+          "Elite Dangerous",
+          "Star Citizen"
+        ],
+        "explication": "Le studio britannique Hello Games a continué à enrichir gratuitement le jeu pendant de nombreuses années."
+      },
+      {
+        "question": "Quel studio japonais, filiale de Sony, développe la série de courses automobiles 'Gran Turismo' depuis 1997 ?",
+        "reponse": "Polyphony Digital",
+        "propositions": [
+          "Polyphony Digital",
+          "Codemasters",
+          "Turn 10 Studios",
+          "Slightly Mad Studios"
+        ],
+        "explication": "Gran Turismo est réputé pour son souci de réalisme dans la simulation automobile."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Goichi Suda"
         ],
         "explication": "'NieR: Automata' (2017) est développé par PlatinumGames sous la direction créative de Yoko Taro."
+      },
+      {
+        "question": "Quel studio suédois, créateur de 'Hotline Miami', est connu pour son esthétique rétro ultraviolente ?",
+        "reponse": "Dennaton Games",
+        "propositions": [
+          "Dennaton Games",
+          "Vlambeer",
+          "Mediatonic",
+          "Devolver Digital"
+        ],
+        "explication": "Hotline Miami (2012) a marqué les joueurs par sa violence stylisée et sa bande-son synthwave."
+      },
+      {
+        "question": "Quel studio indépendant français, créateur de 'Dead Cells', est à l'origine de ce jeu de rogue-lite en 2D sorti en 2018 ?",
+        "reponse": "Motion Twin",
+        "propositions": [
+          "Motion Twin",
+          "Evil Empire",
+          "The Game Bakers",
+          "Amplitude Studios"
+        ],
+        "explication": "Motion Twin est historiquement organisé en coopérative de travailleurs, un modèle rare dans l'industrie du jeu vidéo."
+      },
+      {
+        "question": "Quel jeu vidéo indépendant, développé par le studio australien Team Cherry, met en scène un petit chevalier insectoïde explorant un royaume souterrain ?",
+        "reponse": "Hollow Knight",
+        "propositions": [
+          "Hollow Knight",
+          "Ori and the Blind Forest",
+          "Axiom Verge",
+          "Blasphemous"
+        ],
+        "explication": "Hollow Knight (2017) est salué pour la richesse de son monde et l'exigence de ses combats."
+      },
+      {
+        "question": "Quel réalisateur de jeux japonais, fondateur de Grasshopper Manufacture, est connu pour des œuvres excentriques comme 'Killer7' et 'No More Heroes' ?",
+        "reponse": "Goichi Suda (Suda51)",
+        "propositions": [
+          "Goichi Suda (Suda51)",
+          "Hidetaka Miyazaki",
+          "Shinji Mikami",
+          "Yoko Taro"
+        ],
+        "explication": "Suda51 est réputé pour son style narratif décalé et ses univers souvent surréalistes."
+      },
+      {
+        "question": "Quel studio japonais, fondé par Shinji Mikami, créateur de 'Resident Evil', a développé 'The Evil Within' ?",
+        "reponse": "Tango Gameworks",
+        "propositions": [
+          "Tango Gameworks",
+          "PlatinumGames",
+          "Capcom",
+          "Grasshopper Manufacture"
+        ],
+        "explication": "Tango Gameworks a été fondé en 2010 par Shinji Mikami, considéré comme le père du 'survival horror'."
+      },
+      {
+        "question": "Quel développeur indépendant américain, également auteur de 'Papers, Please', a créé 'Return of the Obra Dinn', jeu d'enquête en noir et blanc sorti en 2018 ?",
+        "reponse": "Lucas Pope",
+        "propositions": [
+          "Lucas Pope",
+          "Jonathan Blow",
+          "Davey Wreden",
+          "Edmund McMillen"
+        ],
+        "explication": "Return of the Obra Dinn utilise un style visuel en un seul bit par pixel, inspiré des premiers Macintosh."
+      },
+      {
+        "question": "Quel jeu vidéo narratif, développé par le studio américain Giant Sparrow, explore les souvenirs d'une famille à travers des histoires courtes et surréalistes ?",
+        "reponse": "What Remains of Edith Finch",
+        "propositions": [
+          "What Remains of Edith Finch",
+          "Gone Home",
+          "Firewatch",
+          "Dear Esther"
+        ],
+        "explication": "Chaque membre de la famille Finch y est raconté selon un style de jeu totalement différent."
+      },
+      {
+        "question": "Quelle scénariste et réalisatrice américaine a dirigé les trois premiers jeux de la série 'Uncharted' chez Naughty Dog ?",
+        "reponse": "Amy Hennig",
+        "propositions": [
+          "Amy Hennig",
+          "Neil Druckmann",
+          "Bruce Straley",
+          "Christophe Balestra"
+        ],
+        "explication": "Amy Hennig a quitté Naughty Dog avant la sortie du quatrième épisode de la série."
+      },
+      {
+        "question": "Quel jeu vidéo de puzzle en monde ouvert, créé par Jonathan Blow (auteur de 'Braid'), sorti en 2016, se déroule sur une île mystérieuse semée d'énigmes visuelles ?",
+        "reponse": "The Witness",
+        "propositions": [
+          "The Witness",
+          "Braid",
+          "Myst",
+          "Monument Valley"
+        ],
+        "explication": "The Witness a nécessité plusieurs années de développement, financées en partie par le succès de 'Braid'."
+      },
+      {
+        "question": "Quel créateur indépendant américain est l'auteur des jeux 'Super Meat Boy' et 'The Binding of Isaac' ?",
+        "reponse": "Edmund McMillen",
+        "propositions": [
+          "Edmund McMillen",
+          "Jonathan Blow",
+          "Lucas Pope",
+          "Davey Wreden"
+        ],
+        "explication": "Edmund McMillen est également connu pour son travail artistique distinctif et provocateur."
       }
     ]
   }

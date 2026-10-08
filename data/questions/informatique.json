@@ -166,6 +166,116 @@
           "%"
         ],
         "explication": "L'arobase a été choisie dès les débuts du courrier électronique dans les années 1970."
+      },
+      {
+        "question": "Que signifie le sigle \"GPU\" ?",
+        "reponse": "Graphics Processing Unit",
+        "propositions": [
+          "Graphics Processing Unit",
+          "General Processing Unit",
+          "Graphic Program Utility",
+          "Global Processing Unity"
+        ],
+        "explication": "Le GPU est spécialisé dans le calcul graphique et parallèle, notamment pour les jeux vidéo et l'intelligence artificielle."
+      },
+      {
+        "question": "Quel réseau social de microblogging a été renommé \"X\" après son rachat par Elon Musk en 2022 ?",
+        "reponse": "Twitter",
+        "propositions": [
+          "Twitter",
+          "Tumblr",
+          "Reddit",
+          "Snapchat"
+        ],
+        "explication": "Le rachat de Twitter par Elon Musk s'est conclu en octobre 2022, avant son changement de nom l'année suivante."
+      },
+      {
+        "question": "Quelle entreprise a créé le navigateur web \"Chrome\" ?",
+        "reponse": "Google",
+        "propositions": [
+          "Google",
+          "Microsoft",
+          "Mozilla",
+          "Apple"
+        ],
+        "explication": "Chrome a été lancé par Google en 2008 et est devenu le navigateur le plus utilisé au monde."
+      },
+      {
+        "question": "Quelle entreprise a conçu le système d'exploitation mobile \"Android\" ?",
+        "reponse": "Google",
+        "propositions": [
+          "Google",
+          "Apple",
+          "Samsung",
+          "Microsoft"
+        ],
+        "explication": "Android équipe aujourd'hui la majorité des smartphones vendus dans le monde."
+      },
+      {
+        "question": "Que signifie l'acronyme \"USB\", désignant un type de connecteur informatique très répandu ?",
+        "reponse": "Universal Serial Bus",
+        "propositions": [
+          "Universal Serial Bus",
+          "Universal System Board",
+          "United Serial Base",
+          "Unified Storage Bus"
+        ],
+        "explication": "L'USB a été conçu pour standardiser la connexion de périphériques à un ordinateur."
+      },
+      {
+        "question": "Quel type de logiciel protège un ordinateur contre les virus et autres programmes malveillants ?",
+        "reponse": "Un antivirus",
+        "propositions": [
+          "Un antivirus",
+          "Un navigateur",
+          "Un compilateur",
+          "Un pilote (driver)"
+        ],
+        "explication": "Un antivirus analyse les fichiers et programmes à la recherche de menaces connues ou suspectes."
+      },
+      {
+        "question": "Quelle entreprise a créé la suite bureautique \"Microsoft Office\", incluant Word et Excel ?",
+        "reponse": "Microsoft",
+        "propositions": [
+          "Microsoft",
+          "Google",
+          "Apple",
+          "IBM"
+        ],
+        "explication": "La première version de Microsoft Office a été lancée en 1990."
+      },
+      {
+        "question": "Quel appareil convertit les signaux numériques d'un ordinateur en signaux transmissibles sur une ligne, pour permettre une connexion à Internet ?",
+        "reponse": "Un modem",
+        "propositions": [
+          "Un modem",
+          "Un routeur",
+          "Un commutateur (switch)",
+          "Un répéteur Wi-Fi"
+        ],
+        "explication": "Le mot 'modem' est la contraction de 'modulateur-démodulateur'."
+      },
+      {
+        "question": "Quelle entreprise possède aujourd'hui la plateforme de partage de vidéos YouTube ?",
+        "reponse": "Google",
+        "propositions": [
+          "Google",
+          "Meta",
+          "Amazon",
+          "Microsoft"
+        ],
+        "explication": "Google a racheté YouTube en 2006, un an seulement après sa création."
+      },
+      {
+        "question": "Quelle entreprise possède aujourd'hui l'application de messagerie WhatsApp ?",
+        "reponse": "Meta",
+        "propositions": [
+          "Meta",
+          "Google",
+          "Microsoft",
+          "Apple"
+        ],
+        "explication": "Meta (alors Facebook) a racheté WhatsApp en 2014."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Un hyperviseur physique"
         ],
         "explication": "VirtualBox et VMware sont des exemples de logiciels de virtualisation."
+      },
+      {
+        "question": "Quel protocole permet l'envoi de courriels depuis un client vers un serveur de messagerie ?",
+        "reponse": "SMTP",
+        "propositions": [
+          "SMTP",
+          "POP3",
+          "IMAP",
+          "FTP"
+        ],
+        "explication": "SMTP (Simple Mail Transfer Protocol) gère l'envoi des emails, tandis que POP3 et IMAP servent à leur réception."
+      },
+      {
+        "question": "Quel système traduit les noms de domaine lisibles par un humain en adresses IP compréhensibles par les machines ?",
+        "reponse": "Le DNS",
+        "propositions": [
+          "Le DNS",
+          "Le DHCP",
+          "Le VPN",
+          "Le CDN"
+        ],
+        "explication": "Le DNS (Domain Name System) fonctionne comme un gigantesque annuaire décentralisé d'Internet."
+      },
+      {
+        "question": "Quel informaticien néerlandais a créé le langage de programmation Python en 1991 ?",
+        "reponse": "Guido van Rossum",
+        "propositions": [
+          "Guido van Rossum",
+          "Linus Torvalds",
+          "James Gosling",
+          "Bjarne Stroustrup"
+        ],
+        "explication": "Guido van Rossum a nommé le langage en référence à la troupe comique britannique Monty Python."
+      },
+      {
+        "question": "Quel protocole permet de se connecter à distance à un serveur via une ligne de commande chiffrée ?",
+        "reponse": "SSH",
+        "propositions": [
+          "SSH",
+          "FTP",
+          "HTTP",
+          "Telnet"
+        ],
+        "explication": "SSH (Secure Shell) a largement remplacé Telnet, jugé peu sûr car non chiffré."
+      },
+      {
+        "question": "Quelle structure de données fonctionne selon le principe \"premier entré, premier sorti\" ?",
+        "reponse": "Une file (queue)",
+        "propositions": [
+          "Une file (queue)",
+          "Une pile (stack)",
+          "Un arbre binaire",
+          "Une table de hachage"
+        ],
+        "explication": "Contrairement à la pile, où le dernier élément entré est le premier sorti, la file respecte l'ordre d'arrivée."
+      },
+      {
+        "question": "Quel modèle d'architecture logicielle sépare une application en trois composants : Modèle, Vue et Contrôleur ?",
+        "reponse": "Le MVC",
+        "propositions": [
+          "Le MVC",
+          "Le MVVM",
+          "Le REST",
+          "Le SOA"
+        ],
+        "explication": "Le MVC facilite la séparation entre la logique métier, les données et l'affichage d'une application."
+      },
+      {
+        "question": "Quel langage de requête standard est utilisé pour interroger et manipuler les bases de données relationnelles ?",
+        "reponse": "Le SQL",
+        "propositions": [
+          "Le SQL",
+          "Le HTML",
+          "Le YAML",
+          "Le XML"
+        ],
+        "explication": "SQL signifie Structured Query Language et permet notamment de sélectionner, insérer ou supprimer des données."
+      },
+      {
+        "question": "Quel format de données léger, basé sur la syntaxe JavaScript, est largement utilisé pour échanger des informations entre client et serveur web ?",
+        "reponse": "JSON",
+        "propositions": [
+          "JSON",
+          "XML",
+          "CSV",
+          "YAML"
+        ],
+        "explication": "JSON (JavaScript Object Notation) a largement remplacé XML pour les échanges de données des API web modernes."
+      },
+      {
+        "question": "Quelle technique de développement web permet de charger ou d'envoyer des données en arrière-plan sans recharger toute la page ?",
+        "reponse": "AJAX",
+        "propositions": [
+          "AJAX",
+          "le responsive design",
+          "le rendu côté serveur",
+          "le lazy loading"
+        ],
+        "explication": "AJAX (Asynchronous JavaScript And XML) a popularisé les applications web plus fluides et réactives."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des objets physiques connectés à Internet, capables de collecter et d'échanger des données ?",
+        "reponse": "L'Internet des objets (IoT)",
+        "propositions": [
+          "L'Internet des objets (IoT)",
+          "Le cloud computing",
+          "L'informatique embarquée",
+          "Le edge computing"
+        ],
+        "explication": "Montres connectées, thermostats intelligents ou capteurs industriels sont des exemples d'objets de l'IoT."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "BMP"
         ],
         "explication": "PNG a été créé notamment pour contourner les brevets liés à l'algorithme de compression du GIF."
+      },
+      {
+        "question": "Quel algorithme de plus court chemin dans un graphe à poids positifs, publié en 1959, porte le nom de son inventeur néerlandais ?",
+        "reponse": "L'algorithme de Dijkstra",
+        "propositions": [
+          "L'algorithme de Dijkstra",
+          "L'algorithme de Bellman-Ford",
+          "L'algorithme A*",
+          "L'algorithme de Kruskal"
+        ],
+        "explication": "Cet algorithme est notamment utilisé dans les systèmes de navigation GPS et le routage réseau."
+      },
+      {
+        "question": "Quelle structure de données arborescente, utilisée notamment pour l'indexation des bases de données, reste équilibrée et garantit un temps de recherche logarithmique ?",
+        "reponse": "L'arbre B (B-tree)",
+        "propositions": [
+          "L'arbre B (B-tree)",
+          "La liste chaînée",
+          "La table de hachage",
+          "Le tas binaire (heap)"
+        ],
+        "explication": "Les arbres B sont particulièrement adaptés au stockage sur disque grâce à leurs nœuds à plusieurs branches."
+      },
+      {
+        "question": "Quel théorème, démontré par Kurt Gödel en 1931, établit qu'il existe des énoncés vrais dans un système formel qui ne peuvent pas y être démontrés ?",
+        "reponse": "Le théorème d'incomplétude de Gödel",
+        "propositions": [
+          "Le théorème d'incomplétude de Gödel",
+          "Le théorème de Church-Turing",
+          "Le théorème de Rice",
+          "Le paradoxe de Russell"
+        ],
+        "explication": "Ce théorème a eu des répercussions profondes sur les fondements des mathématiques et de l'informatique théorique."
+      },
+      {
+        "question": "Quel protocole cryptographique, publié en 1976, permet à deux parties d'établir une clé secrète commune sur un canal de communication non sécurisé ?",
+        "reponse": "L'échange de clés Diffie-Hellman",
+        "propositions": [
+          "L'échange de clés Diffie-Hellman",
+          "L'algorithme RSA",
+          "Le protocole SSL",
+          "La signature DSA"
+        ],
+        "explication": "Ce protocole, antérieur à RSA, a posé les bases de la cryptographie à clé publique moderne."
+      },
+      {
+        "question": "Quel algorithme de chiffrement asymétrique, inventé en 1977, porte les initiales de ses trois inventeurs Rivest, Shamir et Adleman ?",
+        "reponse": "RSA",
+        "propositions": [
+          "RSA",
+          "AES",
+          "DES",
+          "ECC"
+        ],
+        "explication": "RSA repose sur la difficulté mathématique de factoriser de très grands nombres premiers entre eux."
+      },
+      {
+        "question": "Quel modèle théorique de calcul, équivalent à la machine de Turing, repose sur l'application répétée de fonctions et a été introduit par Alonzo Church ?",
+        "reponse": "Le lambda-calcul",
+        "propositions": [
+          "Le lambda-calcul",
+          "La machine de Turing",
+          "L'automate cellulaire",
+          "La logique combinatoire pure"
+        ],
+        "explication": "Le lambda-calcul a fortement influencé la conception des langages de programmation fonctionnelle comme Haskell ou Lisp."
+      },
+      {
+        "question": "Quelle classe de complexité regroupe les problèmes les plus difficiles de NP, vers lesquels tout problème de NP peut être réduit en temps polynomial ?",
+        "reponse": "NP-complet",
+        "propositions": [
+          "NP-complet",
+          "P",
+          "PSPACE",
+          "EXPTIME"
+        ],
+        "explication": "Le problème du voyageur de commerce et le problème SAT sont des exemples classiques de problèmes NP-complets."
+      },
+      {
+        "question": "Quel principe de programmation orientée objet, parmi les cinq principes SOLID, stipule qu'une sous-classe doit pouvoir remplacer sa classe de base sans altérer le comportement attendu du programme ?",
+        "reponse": "Le principe de substitution de Liskov",
+        "propositions": [
+          "Le principe de substitution de Liskov",
+          "Le principe de responsabilité unique",
+          "Le principe ouvert/fermé",
+          "L'inversion de dépendance"
+        ],
+        "explication": "Ce principe a été formulé par l'informaticienne Barbara Liskov en 1987."
+      },
+      {
+        "question": "Quel algorithme de consensus distribué, conçu pour être plus facile à comprendre et à implémenter que Paxos, a été publié en 2014 ?",
+        "reponse": "Raft",
+        "propositions": [
+          "Raft",
+          "Paxos",
+          "Zab",
+          "Byzantine Fault Tolerance"
+        ],
+        "explication": "Raft est aujourd'hui utilisé dans de nombreux systèmes distribués comme etcd ou Consul."
+      },
+      {
+        "question": "Quel langage de programmation, créé par Dennis Ritchie dans les années 1970 aux laboratoires Bell, a servi à réécrire le système d'exploitation Unix ?",
+        "reponse": "Le langage C",
+        "propositions": [
+          "Le langage C",
+          "Le langage B",
+          "Le langage Pascal",
+          "Le langage Fortran"
+        ],
+        "explication": "Le langage C a profondément influencé de nombreux langages ultérieurs, dont C++, Java et Python."
       }
     ]
   }

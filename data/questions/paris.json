@@ -1,0 +1,191 @@
+{
+  "theme": "Paris",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel fleuve traverse Paris ?",
+        "reponse": "La Seine",
+        "propositions": ["La Seine", "La Loire", "Le Rhône", "La Marne"],
+        "explication": "La Seine traverse Paris d'est en ouest, divisant la ville en rive droite et rive gauche."
+      },
+      {
+        "question": "Comment s'appelle la célèbre tour construite pour l'Exposition universelle de 1889 ?",
+        "reponse": "La tour Eiffel",
+        "propositions": ["La tour Eiffel", "La tour Montparnasse", "La tour Saint-Jacques", "La tour de Babel"],
+        "explication": "La tour Eiffel a été construite par Gustave Eiffel pour l'Exposition universelle de 1889."
+      },
+      {
+        "question": "Quel est le nom de la célèbre cathédrale gothique située sur l'île de la Cité ?",
+        "reponse": "Notre-Dame de Paris",
+        "propositions": ["Notre-Dame de Paris", "La Sainte-Chapelle", "Le Sacré-Cœur", "Saint-Sulpice"],
+        "explication": "Notre-Dame de Paris est une cathédrale gothique située sur l'île de la Cité, au cœur de Paris."
+      },
+      {
+        "question": "Comment appelle-t-on les numéros qui désignent les quartiers administratifs de Paris ?",
+        "reponse": "Arrondissements",
+        "propositions": ["Arrondissements", "Districts", "Cantons", "Préfectures"],
+        "explication": "Paris est divisée en 20 arrondissements, numérotés en spirale à partir du centre."
+      },
+      {
+        "question": "Sur quelle colline se trouve la basilique du Sacré-Cœur ?",
+        "reponse": "Montmartre",
+        "propositions": ["Montmartre", "Montparnasse", "Belleville", "Chaillot"],
+        "explication": "La basilique du Sacré-Cœur domine Paris depuis le sommet de la butte Montmartre."
+      },
+      {
+        "question": "Quel est le plus grand musée de Paris, qui abrite la Joconde ?",
+        "reponse": "Le Louvre",
+        "propositions": ["Le Louvre", "Le musée d'Orsay", "Le Centre Pompidou", "Le Petit Palais"],
+        "explication": "Le musée du Louvre, installé dans un ancien palais royal, est le plus grand musée de Paris."
+      },
+      {
+        "question": "Quelle avenue célèbre relie la place de la Concorde à l'Arc de Triomphe ?",
+        "reponse": "Les Champs-Élysées",
+        "propositions": ["Les Champs-Élysées", "Le boulevard Haussmann", "La rue de Rivoli", "L'avenue Montaigne"],
+        "explication": "Les Champs-Élysées sont surnommés « la plus belle avenue du monde »."
+      },
+      {
+        "question": "Comment s'appelle le réseau de transport souterrain de Paris ?",
+        "reponse": "Le métro",
+        "propositions": ["Le métro", "Le tramway", "Le RER", "Le funiculaire"],
+        "explication": "Le métro parisien, ouvert en 1900, compte aujourd'hui plus de 300 stations."
+      },
+      {
+        "question": "Dans quel grand parc parisien se trouve le zoo de Vincennes ?",
+        "reponse": "Le bois de Vincennes",
+        "propositions": ["Le bois de Vincennes", "Le bois de Boulogne", "Le parc Monceau", "Le parc des Buttes-Chaumont"],
+        "explication": "Le bois de Vincennes, à l'est de Paris, abrite le plus grand parc zoologique de France."
+      },
+      {
+        "question": "Quel est le surnom donné à Paris en raison de son rayonnement culturel ?",
+        "reponse": "La Ville Lumière",
+        "propositions": ["La Ville Lumière", "La Ville Rose", "La Cité des Doges", "La Ville Éternelle"],
+        "explication": "Paris est surnommée « la Ville Lumière », notamment en référence aux Lumières et à son éclairage public précoce."
+      }
+    ],
+    "2": [
+      {
+        "question": "En quelle année la tour Eiffel a-t-elle été inaugurée ?",
+        "reponse": "1889",
+        "propositions": ["1889", "1900", "1878", "1870"],
+        "explication": "La tour Eiffel a été inaugurée le 31 mars 1889, pour le centenaire de la Révolution française."
+      },
+      {
+        "question": "Quel est le plus ancien pont de Paris encore debout, malgré son nom ?",
+        "reponse": "Le Pont Neuf",
+        "propositions": ["Le Pont Neuf", "Le pont de l'Alma", "Le pont Alexandre III", "Le pont Mirabeau"],
+        "explication": "Le Pont Neuf, achevé en 1607, est paradoxalement le plus ancien pont de Paris encore en place."
+      },
+      {
+        "question": "Quel baron a dirigé les grands travaux de rénovation urbaine de Paris sous le Second Empire ?",
+        "reponse": "Le baron Haussmann",
+        "propositions": ["Le baron Haussmann", "Le baron de Rothschild", "Le baron Taylor", "Le baron de Montesquieu"],
+        "explication": "Georges-Eugène Haussmann a réaménagé Paris entre 1853 et 1870 sous Napoléon III."
+      },
+      {
+        "question": "Quel cimetière parisien accueille les tombes de Jim Morrison et d'Édith Piaf ?",
+        "reponse": "Le Père-Lachaise",
+        "propositions": ["Le Père-Lachaise", "Le cimetière de Montmartre", "Le cimetière du Montparnasse", "Les Catacombes"],
+        "explication": "Le cimetière du Père-Lachaise, ouvert en 1804, est le plus grand cimetière de Paris intra-muros."
+      },
+      {
+        "question": "Comment s'appelle l'île située juste derrière l'île de la Cité ?",
+        "reponse": "L'île Saint-Louis",
+        "propositions": ["L'île Saint-Louis", "L'île aux Cygnes", "L'île de la Jatte", "L'île Seguin"],
+        "explication": "L'île Saint-Louis est reliée à l'île de la Cité par le pont Saint-Louis."
+      },
+      {
+        "question": "Quel monument parisien abrite le tombeau de Napoléon Ier ?",
+        "reponse": "Les Invalides",
+        "propositions": ["Les Invalides", "Le Panthéon", "Notre-Dame", "L'Arc de Triomphe"],
+        "explication": "Le dôme des Invalides abrite le tombeau de Napoléon Ier depuis 1861."
+      },
+      {
+        "question": "Quel est le nom du célèbre marché aux puces situé au nord de Paris ?",
+        "reponse": "Les puces de Saint-Ouen",
+        "propositions": ["Les puces de Saint-Ouen", "Le marché d'Aligre", "Le marché Bastille", "Le marché Belleville"],
+        "explication": "Les puces de Saint-Ouen, aux portes de Paris, forment l'un des plus grands marchés aux puces du monde."
+      },
+      {
+        "question": "Quel édifice parisien, surnommé « Beaubourg », abrite un grand musée d'art moderne ?",
+        "reponse": "Le Centre Pompidou",
+        "propositions": ["Le Centre Pompidou", "Le Grand Palais", "Le Palais de Tokyo", "L'Institut du monde arabe"],
+        "explication": "Le Centre Pompidou, avec sa structure tubulaire apparente, abrite le musée national d'Art moderne."
+      },
+      {
+        "question": "Quelle place parisienne porte le nom de l'ancienne prison détruite en 1789 ?",
+        "reponse": "La place de la Bastille",
+        "propositions": ["La place de la Bastille", "La place des Vosges", "La place Vendôme", "La place de la Nation"],
+        "explication": "La place de la Bastille occupe l'emplacement de l'ancienne forteresse prise le 14 juillet 1789."
+      },
+      {
+        "question": "Quel est le plus ancien quartier commerçant couvert de Paris, construit au XIXe siècle ?",
+        "reponse": "Les passages couverts",
+        "propositions": ["Les passages couverts", "Les halles", "Les arcades du Louvre", "La galerie Vivienne uniquement"],
+        "explication": "Les passages couverts parisiens, nés au début du XIXe siècle, sont les ancêtres des galeries marchandes modernes."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel architecte a conçu la pyramide de verre du Louvre inaugurée en 1989 ?",
+        "reponse": "Ieoh Ming Pei",
+        "propositions": ["Ieoh Ming Pei", "Jean Nouvel", "Renzo Piano", "Le Corbusier"],
+        "explication": "L'architecte sino-américain Ieoh Ming Pei a conçu la pyramide du Louvre, inaugurée en 1989."
+      },
+      {
+        "question": "Quel est le nom du réseau d'anciennes carrières souterraines transformées en ossuaire au XVIIIe siècle ?",
+        "reponse": "Les Catacombes de Paris",
+        "propositions": ["Les Catacombes de Paris", "Les égouts de Paris", "La Crypte archéologique", "Le Carreau du Temple"],
+        "explication": "Les Catacombes rassemblent les ossements de plusieurs millions de Parisiens, transférés à partir de 1786."
+      },
+      {
+        "question": "Quel traité, signé à Paris en 1951, a posé les bases de la construction européenne ?",
+        "reponse": "Le traité de Paris (CECA)",
+        "propositions": ["Le traité de Paris (CECA)", "Le traité de Rome", "Le traité de Maastricht", "Le traité de Versailles"],
+        "explication": "Le traité de Paris de 1951 institue la Communauté européenne du charbon et de l'acier (CECA)."
+      },
+      {
+        "question": "Quel ingénieur est à l'origine du plan d'éclairage au gaz qui a valu à Paris son surnom de Ville Lumière ?",
+        "reponse": "Philippe Lebon",
+        "propositions": ["Philippe Lebon", "Gustave Eiffel", "André Citroën", "Jean-Antoine Chaptal"],
+        "explication": "Philippe Lebon fut un pionnier de l'éclairage au gaz en France, à l'origine de la réputation lumineuse de Paris."
+      },
+      {
+        "question": "En quelle année le premier arrondissement administratif moderne de Paris a-t-il été créé sous sa forme actuelle de vingt arrondissements ?",
+        "reponse": "1860",
+        "propositions": ["1860", "1795", "1900", "1944"],
+        "explication": "En 1860, Paris annexe les communes limitrophes et adopte sa division en vingt arrondissements."
+      },
+      {
+        "question": "Quel est le nom de la flèche de Notre-Dame, détruite lors de l'incendie de 2019, et conçue au XIXe siècle ?",
+        "reponse": "La flèche de Viollet-le-Duc",
+        "propositions": ["La flèche de Viollet-le-Duc", "La flèche de Haussmann", "La flèche de Garnier", "La flèche de Lassus seul"],
+        "explication": "La flèche détruite en 2019 avait été conçue par l'architecte Eugène Viollet-le-Duc lors de la restauration du XIXe siècle."
+      },
+      {
+        "question": "Quel philosophe des Lumières est inhumé au Panthéon aux côtés de Voltaire ?",
+        "reponse": "Jean-Jacques Rousseau",
+        "propositions": ["Jean-Jacques Rousseau", "Denis Diderot", "Montesquieu", "Condorcet"],
+        "explication": "Jean-Jacques Rousseau repose au Panthéon de Paris, non loin de la tombe de Voltaire."
+      },
+      {
+        "question": "Quel est le nom de l'ancien marché central de Paris, démoli en 1971 et longtemps surnommé le « ventre de Paris » ?",
+        "reponse": "Les Halles",
+        "propositions": ["Les Halles", "Le marché Saint-Germain", "Le Carreau du Temple", "Le marché d'Aligre"],
+        "explication": "Les Halles centrales, immortalisées par Émile Zola, furent démolies en 1971 et remplacées par un centre commercial."
+      },
+      {
+        "question": "Quel est le nom du quartier d'affaires parisien situé à l'ouest de la capitale, hors de Paris intra-muros ?",
+        "reponse": "La Défense",
+        "propositions": ["La Défense", "Belleville", "Bercy", "La Villette"],
+        "explication": "La Défense, situé dans les Hauts-de-Seine, est le principal quartier d'affaires de l'agglomération parisienne."
+      },
+      {
+        "question": "Quel préfet de la Seine a fait réaliser, en complément des travaux d'Haussmann, le grand réseau d'égouts de Paris ?",
+        "reponse": "Eugène Belgrand",
+        "propositions": ["Eugène Belgrand", "Jean-Charles Alphand", "Hector Guimard", "Adolphe Alphand"],
+        "explication": "L'ingénieur Eugène Belgrand a conçu le réseau moderne des égouts parisiens sous l'autorité du baron Haussmann."
+      }
+    ]
+  }
+}

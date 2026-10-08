@@ -166,6 +166,116 @@
           "Neptune"
         ],
         "explication": "Saturne compte plus de 140 lunes confirmées, un record parmi les planètes du système solaire."
+      },
+      {
+        "question": "Quelle est la plus grande planète du système solaire ?",
+        "reponse": "Jupiter",
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Uranus",
+          "Neptune"
+        ],
+        "explication": "Jupiter est si grande qu'elle pourrait contenir plus de 1 300 fois le volume de la Terre."
+      },
+      {
+        "question": "Quelle est la seule planète du système solaire connue pour abriter la vie ?",
+        "reponse": "La Terre",
+        "propositions": [
+          "La Terre",
+          "Mars",
+          "Vénus",
+          "Europe"
+        ],
+        "explication": "À ce jour, la Terre reste le seul endroit connu de l'univers où la vie a été confirmée."
+      },
+      {
+        "question": "Entre quelles deux planètes se situe la ceinture d'astéroïdes principale ?",
+        "reponse": "Mars et Jupiter",
+        "propositions": [
+          "Mars et Jupiter",
+          "Terre et Mars",
+          "Jupiter et Saturne",
+          "Vénus et Terre"
+        ],
+        "explication": "Cette ceinture contient des millions de corps rocheux, dont Cérès, la plus grosse d'entre eux."
+      },
+      {
+        "question": "Quelle unité de distance correspond au chemin parcouru par la lumière en une année ?",
+        "reponse": "L'année-lumière",
+        "propositions": [
+          "L'année-lumière",
+          "L'unité astronomique",
+          "Le parsec",
+          "Le kilomètre"
+        ],
+        "explication": "Une année-lumière représente environ 9 460 milliards de kilomètres."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène où la Lune passe entre le Soleil et la Terre, cachant tout ou partie du Soleil ?",
+        "reponse": "Une éclipse solaire",
+        "propositions": [
+          "Une éclipse solaire",
+          "Une éclipse lunaire",
+          "Une conjonction",
+          "Une occultation"
+        ],
+        "explication": "Une éclipse solaire totale n'est visible que depuis une étroite bande de la surface terrestre."
+      },
+      {
+        "question": "Quelle théorie scientifique décrit l'origine de l'univers il y a environ 13,8 milliards d'années ?",
+        "reponse": "Le Big Bang",
+        "propositions": [
+          "Le Big Bang",
+          "La théorie de l'état stationnaire",
+          "Le Big Crunch",
+          "La théorie des multivers"
+        ],
+        "explication": "Selon cette théorie, l'univers a connu une expansion extrêmement rapide depuis un état initial extrêmement dense et chaud."
+      },
+      {
+        "question": "Quelle est la planète la plus éloignée du Soleil dans le système solaire ?",
+        "reponse": "Neptune",
+        "propositions": [
+          "Neptune",
+          "Uranus",
+          "Saturne",
+          "Pluton"
+        ],
+        "explication": "Depuis la reclassification de Pluton en planète naine en 2006, Neptune est la planète la plus lointaine."
+      },
+      {
+        "question": "Quel astronome italien du XVIIe siècle a été l'un des premiers à utiliser une lunette pour observer systématiquement le ciel ?",
+        "reponse": "Galilée",
+        "propositions": [
+          "Galilée",
+          "Nicolas Copernic",
+          "Johannes Kepler",
+          "Tycho Brahe"
+        ],
+        "explication": "Galilée a notamment découvert les quatre principales lunes de Jupiter en 1610."
+      },
+      {
+        "question": "Quelle cosmonaute soviétique est devenue en 1963 la première femme à voyager dans l'espace ?",
+        "reponse": "Valentina Terechkova",
+        "propositions": [
+          "Valentina Terechkova",
+          "Svetlana Savitskaïa",
+          "Sally Ride",
+          "Youri Gagarine"
+        ],
+        "explication": "Elle a effectué 48 orbites autour de la Terre à bord de Vostok 6."
+      },
+      {
+        "question": "Quel objet céleste, découvert en 1930, a été reclassé 'planète naine' par l'Union astronomique internationale en 2006 ?",
+        "reponse": "Pluton",
+        "propositions": [
+          "Pluton",
+          "Cérès",
+          "Éris",
+          "Hauméa"
+        ],
+        "explication": "Cette reclassification a fait suite à la découverte d'autres objets similaires dans la ceinture de Kuiper."
       }
     ],
     "2": [
@@ -333,6 +443,116 @@
           "Mars"
         ],
         "explication": "L'axe d'Uranus est incliné d'environ 98 degrés, probablement à la suite d'un impact ancien."
+      },
+      {
+        "question": "Comment appelle-t-on la région du système solaire, au-delà de Neptune, qui abrite de nombreux objets glacés dont Pluton ?",
+        "reponse": "La ceinture de Kuiper",
+        "propositions": [
+          "La ceinture de Kuiper",
+          "Le nuage d'Oort",
+          "La ceinture d'astéroïdes",
+          "L'héliopause"
+        ],
+        "explication": "La ceinture de Kuiper s'étend d'environ 30 à 50 unités astronomiques du Soleil."
+      },
+      {
+        "question": "Quelle sonde de la NASA a orbité autour de Saturne de 2004 à 2017, étudiant ses anneaux et ses lunes ?",
+        "reponse": "Cassini",
+        "propositions": [
+          "Cassini",
+          "Juno",
+          "Galileo",
+          "New Horizons"
+        ],
+        "explication": "La mission s'est achevée par une plongée volontaire de la sonde dans l'atmosphère de Saturne."
+      },
+      {
+        "question": "Quel est le nom du plus grand volcan connu du système solaire, situé sur Mars ?",
+        "reponse": "Olympus Mons",
+        "propositions": [
+          "Olympus Mons",
+          "Mauna Kea",
+          "Maxwell Montes",
+          "Elysium Mons"
+        ],
+        "explication": "Olympus Mons mesure environ 22 km de hauteur, près de deux fois et demie la hauteur de l'Everest."
+      },
+      {
+        "question": "Quelle méthode utilise le léger déplacement apparent d'une étoile proche, observé depuis deux points opposés de l'orbite terrestre, pour mesurer sa distance ?",
+        "reponse": "La méthode de la parallaxe",
+        "propositions": [
+          "La méthode de la parallaxe",
+          "La méthode des transits",
+          "La méthode des vitesses radiales",
+          "La photométrie différentielle"
+        ],
+        "explication": "Cette méthode reste l'une des bases de la mesure des distances aux étoiles proches."
+      },
+      {
+        "question": "Comment appelle-t-on le résidu compact et très dense d'une étoile comme le Soleil, après épuisement de son combustible nucléaire ?",
+        "reponse": "Une naine blanche",
+        "propositions": [
+          "Une naine blanche",
+          "Une étoile à neutrons",
+          "Une géante rouge",
+          "Un trou noir"
+        ],
+        "explication": "Une naine blanche concentre une masse proche de celle du Soleil dans un volume comparable à celui de la Terre."
+      },
+      {
+        "question": "Quelle exoplanète, découverte en 1995 par Michel Mayor et Didier Queloz, a été la première détectée en orbite autour d'une étoile de type solaire ?",
+        "reponse": "51 Pegasi b",
+        "propositions": [
+          "51 Pegasi b",
+          "Proxima b",
+          "Kepler-186f",
+          "TRAPPIST-1e"
+        ],
+        "explication": "Cette découverte a valu à Mayor et Queloz le prix Nobel de physique en 2019."
+      },
+      {
+        "question": "Comment appelle-t-on le trou noir supermassif situé au centre de la Voie lactée ?",
+        "reponse": "Sagittarius A*",
+        "propositions": [
+          "Sagittarius A*",
+          "Messier 87*",
+          "Cygnus X-1",
+          "TON 618"
+        ],
+        "explication": "Son image a été capturée pour la première fois en 2022 par la collaboration Event Horizon Telescope."
+      },
+      {
+        "question": "Quelle comète périodique, visible à l'œil nu environ tous les 76 ans, doit son nom à l'astronome qui a calculé son orbite ?",
+        "reponse": "La comète de Halley",
+        "propositions": [
+          "La comète de Halley",
+          "La comète Hale-Bopp",
+          "La comète Tchourioumov-Guérassimenko",
+          "La comète Shoemaker-Levy 9"
+        ],
+        "explication": "Edmond Halley a prédit en 1705 le retour de cette comète, confirmé après sa mort en 1758."
+      },
+      {
+        "question": "Quelle est la plus grande lune de Saturne, dotée d'une atmosphère dense et de lacs de méthane liquide ?",
+        "reponse": "Titan",
+        "propositions": [
+          "Titan",
+          "Encelade",
+          "Rhéa",
+          "Japet"
+        ],
+        "explication": "Titan est la seule lune du système solaire connue pour posséder une atmosphère épaisse."
+      },
+      {
+        "question": "Comment appelle-t-on la matière invisible, détectée uniquement par ses effets gravitationnels, qui composerait une grande partie de la masse de l'univers ?",
+        "reponse": "La matière noire",
+        "propositions": [
+          "La matière noire",
+          "L'énergie noire",
+          "L'antimatière",
+          "La matière baryonique"
+        ],
+        "explication": "La matière noire n'émet, n'absorbe ni ne réfléchit de lumière, mais influence la rotation des galaxies."
       }
     ],
     "3": [
@@ -500,6 +720,116 @@
           "Une céphéide"
         ],
         "explication": "Le premier pulsar a été découvert en 1967 par Jocelyn Bell Burnell."
+      },
+      {
+        "question": "Quel phénomène théorique, prédit par Stephen Hawking en 1974, suggère que les trous noirs émettent lentement un rayonnement et finissent par s'évaporer ?",
+        "reponse": "Le rayonnement de Hawking",
+        "propositions": [
+          "Le rayonnement de Hawking",
+          "L'effet Unruh",
+          "Le rayonnement synchrotron",
+          "L'effet Casimir"
+        ],
+        "explication": "Ce rayonnement résulterait d'effets quantiques se produisant près de l'horizon des événements."
+      },
+      {
+        "question": "Quelle découverte de 1965, par Arno Penzias et Robert Wilson, a fourni une preuve observationnelle majeure du Big Bang ?",
+        "reponse": "Le fond diffus cosmologique",
+        "propositions": [
+          "Le fond diffus cosmologique",
+          "Le rayonnement synchrotron galactique",
+          "Les ondes gravitationnelles primordiales",
+          "Le vent solaire"
+        ],
+        "explication": "Ce rayonnement fossile, émis environ 380 000 ans après le Big Bang, a valu à ses découvreurs le prix Nobel de physique en 1978."
+      },
+      {
+        "question": "Quelle équation, formulée en 1961, estime le nombre de civilisations extraterrestres communicantes potentiellement détectables dans notre galaxie ?",
+        "reponse": "L'équation de Drake",
+        "propositions": [
+          "L'équation de Drake",
+          "L'équation de Friedmann",
+          "L'équation de Fermi",
+          "La formule de Tsiolkovski"
+        ],
+        "explication": "Cette équation combine plusieurs facteurs probabilistes, dont beaucoup restent aujourd'hui très incertains."
+      },
+      {
+        "question": "Comment appelle-t-on le paradoxe soulignant la contradiction entre la forte probabilité de civilisations extraterrestres et l'absence totale de preuve de leur existence ?",
+        "reponse": "Le paradoxe de Fermi",
+        "propositions": [
+          "Le paradoxe de Fermi",
+          "Le paradoxe d'Olbers",
+          "Le paradoxe de Hubbert",
+          "Le paradoxe des jumeaux"
+        ],
+        "explication": "Enrico Fermi aurait posé cette question dès 1950 : 'Où sont-ils tous ?'."
+      },
+      {
+        "question": "Quelle théorie cosmologique, proposée par Alan Guth en 1980, décrit une expansion extrêmement rapide de l'univers durant sa première fraction de seconde ?",
+        "reponse": "La théorie de l'inflation cosmique",
+        "propositions": [
+          "La théorie de l'inflation cosmique",
+          "La théorie de l'état stationnaire",
+          "La théorie des cordes",
+          "La théorie du Big Crunch"
+        ],
+        "explication": "Cette théorie permet notamment d'expliquer l'homogénéité observée du fond diffus cosmologique."
+      },
+      {
+        "question": "Comment appelle-t-on une étoile à neutrons dotée d'un champ magnétique des milliers de fois plus intense que celui d'un pulsar ordinaire ?",
+        "reponse": "Un magnétar",
+        "propositions": [
+          "Un magnétar",
+          "Un pulsar milliseconde",
+          "Un blazar",
+          "Une naine brune"
+        ],
+        "explication": "Le champ magnétique d'un magnétar peut déformer les atomes situés à proximité de sa surface."
+      },
+      {
+        "question": "Comment appelle-t-on la distance minimale à laquelle un corps céleste peut s'approcher d'un astre plus massif avant d'être désintégré par les forces de marée ?",
+        "reponse": "La limite de Roche",
+        "propositions": [
+          "La limite de Roche",
+          "La limite de Chandrasekhar",
+          "L'horizon des événements",
+          "Le rayon de Schwarzschild"
+        ],
+        "explication": "Cette limite explique notamment la formation des anneaux autour de certaines planètes géantes."
+      },
+      {
+        "question": "Quel type d'étoile variable, dont la luminosité pulse à intervalles réguliers liés à sa luminosité intrinsèque, sert de 'chandelle standard' pour mesurer les distances cosmiques ?",
+        "reponse": "Une céphéide",
+        "propositions": [
+          "Une céphéide",
+          "Une naine brune",
+          "Une étoile Wolf-Rayet",
+          "Une géante bleue"
+        ],
+        "explication": "Henrietta Leavitt a établi en 1912 la relation entre la période et la luminosité de ces étoiles."
+      },
+      {
+        "question": "Quelle forme d'énergie hypothétique, mise en évidence par l'étude de supernovae de type Ia en 1998, serait responsable de l'accélération de l'expansion de l'univers ?",
+        "reponse": "L'énergie noire",
+        "propositions": [
+          "L'énergie noire",
+          "La matière noire",
+          "L'énergie du point zéro",
+          "L'antimatière"
+        ],
+        "explication": "Cette découverte a valu le prix Nobel de physique 2011 à Saul Perlmutter, Brian Schmidt et Adam Riess."
+      },
+      {
+        "question": "Comment appelle-t-on la masse maximale théorique au-delà de laquelle une étoile à neutrons s'effondre inévitablement en trou noir ?",
+        "reponse": "La limite de Tolman-Oppenheimer-Volkoff",
+        "propositions": [
+          "La limite de Tolman-Oppenheimer-Volkoff",
+          "La limite de Chandrasekhar",
+          "La limite d'Eddington",
+          "La limite de Roche"
+        ],
+        "explication": "Au-delà de cette masse, estimée à environ 2 à 3 masses solaires, aucune force connue ne peut empêcher l'effondrement gravitationnel."
       }
     ]
   }
