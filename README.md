@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# Quizzin — Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Application mobile de quiz développée avec [Expo](https://expo.dev) et React Native.
 
-## Get started
+## Stack technique
 
-1. Install dependencies
+- **Expo** / React Native
+- **expo-router** (navigation basée sur les fichiers)
+- **TypeScript**
+- **TailwindCSS** (via NativeWind)
 
-   ```bash
-   npm install
-   ```
+## Installation
 
-2. Start the app
+```bash
+npm install
+```
 
-   ```bash
-   npx expo start
-   ```
+## Lancer l'application
 
-In the output, you'll find options to open the app in a
+```bash
+npx expo start
+```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Puis ouvrir sur :
+- Android (émulateur ou appareil physique via Expo Go)
+- iOS (simulateur ou appareil physique via Expo Go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Configuration (`app.json`)
 
-## Get a fresh project
+Les variables d'environnement sont définies dans `app.json` sous la clé `extra` :
 
-When you're ready, run:
+| Variable   | Description                          | Défaut               |
+|------------|--------------------------------------|----------------------|
+| `API_URL`  | URL de base de l'API backend         | `http://localhost`   |
+| `PORT`     | Port de l'API backend                | `5000`               |
+| `MOCK`     | Utiliser les données JSON locales    | `false`              |
+| `MOCK_URL` | Chemin vers le fichier JSON de mock  | `../api/quizzFR.json`|
 
+Pour activer le mode mock (sans backend) :
+```json
+"MOCK": true
+```
+
+## Structure du projet
+
+```
+app/
+  screens/       # Écrans de l'application
+  styles/        # Feuilles de style
+  assets/        # Images, icônes
+api/             # Données JSON locales (mock)
+interfaces/      # Types et interfaces TypeScript
+lib/             # Fonctions utilitaires
+API.ts           # Client HTTP vers le backend
+```
+
+## Navigation
+
+```
+home → themes → difficulty → quizzPage → resultatsPage
+```
+
+## Dépannage
+
+**Erreur ADB (Android) :**
+```bash
+adb kill-server
+adb start-server
+```
+
+**Réinitialiser le projet :**
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Règles du jeu:
 
-## Learn more
+on choisit un thème puis une difficulté.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Le but est de répondre correctement à la question pour pouvoir passer à la question suivante. Si ce n'est pas la bonne réponse, la partie s'arrete et on affiche le score. On obtient de l'XP sur notre profil pour débloquer d'autres thèmes
