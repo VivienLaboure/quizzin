@@ -96,6 +96,13 @@ const THEME_ICON: Record<string, keyof typeof Ionicons.glyphMap> = {
   'Studio Ghibli': 'leaf',
   'IA générative': 'chatbubbles',
   'Opéra': 'mic',
+  // Nouveaux petits-enfants
+  'Paris': 'business',
+  'Mécanique quantique': 'infinite',
+  'Victor Hugo': 'create',
+  'La Bourse de Paris': 'bar-chart',
+  'Mars': 'disc-outline',
+  'League of Legends': 'skull-outline',
 };
 const DEFAULT_THEME_ICON: keyof typeof Ionicons.glyphMap = 'help-circle-outline';
 

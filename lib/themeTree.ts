@@ -40,6 +40,15 @@ export const THEME_PARENT: Record<string, string> = {
   'Studio Ghibli': 'Cinéma d\'animation',
   'IA générative': 'Intelligence artificielle',
   'Opéra': 'Musique classique',
+  // Nouveaux petits-enfants — comblent les branches qui n'avaient encore
+  // aucune spécialisation de profondeur 3 (Géographie, Sciences,
+  // Art-et-littérature, Economie, Astronomie, Jeux vidéos).
+  'Paris': 'Géographie de la France',
+  'Mécanique quantique': 'Physique',
+  'Victor Hugo': 'Littérature française',
+  'La Bourse de Paris': 'Economie française',
+  'Mars': 'Système solaire',
+  'League of Legends': 'Esport',
 };
 
 export function getParent(theme: string): string | null {
