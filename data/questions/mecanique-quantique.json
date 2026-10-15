@@ -61,6 +61,66 @@
         "reponse": "L'expérience des fentes de Young",
         "propositions": ["L'expérience des fentes de Young", "L'expérience de Michelson-Morley", "L'expérience de Rutherford", "L'expérience de Millikan"],
         "explication": "L'expérience des fentes de Young, revisitée avec des particules uniques, montre que la lumière se comporte à la fois comme une onde et un corpuscule."
+      },
+      {
+        "question": "Comment appelle-t-on la plus petite particule de matière, constituée de protons, neutrons et électrons ?",
+        "reponse": "L'atome",
+        "propositions": ["L'atome", "Le quark", "Le boson", "Le noyau"],
+        "explication": "L'atome, bien qu'il ne soit pas la particule la plus élémentaire, reste l'unité de base de la matière étudiée en physique quantique."
+      },
+      {
+        "question": "Quelle unité de mesure physique le symbole 'h', la constante de Planck, permet-il de relier à la fréquence d'un photon ?",
+        "reponse": "Son énergie",
+        "propositions": ["Son énergie", "Sa masse", "Sa vitesse", "Sa charge électrique"],
+        "explication": "L'énergie d'un photon est égale au produit de la constante de Planck par sa fréquence (E = hf)."
+      },
+      {
+        "question": "Quel terme désigne la particule qui compose le noyau atomique avec le proton ?",
+        "reponse": "Le neutron",
+        "propositions": ["Le neutron", "L'électron", "Le positron", "Le photon"],
+        "explication": "Le neutron, de charge électrique nulle, a été découvert en 1932 par James Chadwick."
+      },
+      {
+        "question": "Quelle particule, de charge négative, gravite traditionnellement autour du noyau d'un atome dans les modèles simplifiés ?",
+        "reponse": "L'électron",
+        "propositions": ["L'électron", "Le proton", "Le neutron", "Le photon"],
+        "explication": "En mécanique quantique, l'électron n'a pas de trajectoire précise mais une probabilité de présence décrite par une orbitale."
+      },
+      {
+        "question": "Quel mot, utilisé en physique quantique, désigne le comportement d'une particule qui se comporte parfois comme une onde, parfois comme un corpuscule ?",
+        "reponse": "La dualité onde-particule",
+        "propositions": ["La dualité onde-particule", "La relativité générale", "La thermodynamique", "L'électromagnétisme classique"],
+        "explication": "La dualité onde-particule est l'un des principes fondamentaux établis au début du XXe siècle par la mécanique quantique."
+      },
+      {
+        "question": "Quel physicien allemand a donné son nom à la constante fondamentale qui relie l'énergie d'un photon à sa fréquence ?",
+        "reponse": "Max Planck",
+        "propositions": ["Max Planck", "Albert Einstein", "Niels Bohr", "Werner Heisenberg"],
+        "explication": "La constante de Planck, notée h, est l'une des constantes physiques fondamentales de la mécanique quantique."
+      },
+      {
+        "question": "Quel mot désigne un dispositif permettant de mesurer et compter des particules quantiques, comme des photons ou des électrons ?",
+        "reponse": "Un détecteur de particules",
+        "propositions": ["Un détecteur de particules", "Un microscope optique", "Un télescope", "Un sismomètre"],
+        "explication": "Les détecteurs de particules sont essentiels pour observer les effets quantiques en laboratoire."
+      },
+      {
+        "question": "Quel grand laboratoire européen, situé près de Genève, utilise des accélérateurs de particules pour étudier la physique quantique des particules élémentaires ?",
+        "reponse": "Le CERN",
+        "propositions": ["Le CERN", "La NASA", "Le CNRS seul", "Le MIT"],
+        "explication": "Le CERN exploite notamment le Grand collisionneur de hadrons (LHC), le plus grand accélérateur de particules au monde."
+      },
+      {
+        "question": "Quel terme désigne l'unité d'information de base utilisée par un ordinateur quantique, par opposition au bit classique ?",
+        "reponse": "Le qubit",
+        "propositions": ["Le qubit", "Le octet", "Le photon", "Le pixel"],
+        "explication": "Contrairement au bit classique qui vaut 0 ou 1, le qubit peut se trouver dans une superposition de ces deux états."
+      },
+      {
+        "question": "Quel physicien britannique du XXe siècle a découvert le boson de Higgs, confirmé expérimentalement en 2012 grâce au CERN ?",
+        "reponse": "Peter Higgs",
+        "propositions": ["Peter Higgs", "Paul Dirac", "Stephen Hawking", "James Chadwick"],
+        "explication": "Peter Higgs a théorisé en 1964 l'existence de ce boson, détecté expérimentalement près de 50 ans plus tard."
       }
     ],
     "2": [
@@ -123,6 +183,66 @@
         "reponse": "L'interprétation des mondes multiples",
         "propositions": ["L'interprétation des mondes multiples", "L'interprétation de Copenhague", "La théorie des variables cachées", "La théorie de la décohérence seule"],
         "explication": "Hugh Everett a proposé en 1957 que chaque mesure quantique fasse se ramifier l'univers en plusieurs branches."
+      },
+      {
+        "question": "Quel physicien a réalisé en 1923 l'expérience confirmant la nature corpusculaire des rayons X en étudiant leur diffusion par des électrons ?",
+        "reponse": "Arthur Compton",
+        "propositions": ["Arthur Compton", "Max Planck", "J.J. Thomson", "Niels Bohr"],
+        "explication": "L'effet Compton, découvert en 1923, montre que les photons X perdent de l'énergie en entrant en collision avec des électrons, confirmant leur nature corpusculaire."
+      },
+      {
+        "question": "Quelle expérience de 1914, menée par James Franck et Gustav Hertz, a confirmé expérimentalement la quantification des niveaux d'énergie atomiques ?",
+        "reponse": "L'expérience de Franck-Hertz",
+        "propositions": ["L'expérience de Franck-Hertz", "L'expérience de Stern-Gerlach", "L'expérience de Davisson-Germer", "L'expérience de Compton"],
+        "explication": "Cette expérience a montré que les atomes de mercure n'absorbent de l'énergie des électrons incidents que par quantités discrètes."
+      },
+      {
+        "question": "Quelle expérience de 1922 a démontré la quantification du spin en faisant passer un faisceau d'atomes d'argent à travers un champ magnétique inhomogène ?",
+        "reponse": "L'expérience de Stern-Gerlach",
+        "propositions": ["L'expérience de Stern-Gerlach", "L'expérience de Franck-Hertz", "L'expérience de Davisson-Germer", "L'expérience d'Aspect"],
+        "explication": "L'expérience de Stern-Gerlach a révélé que le faisceau d'atomes se divise en deux, preuve de la quantification du moment magnétique."
+      },
+      {
+        "question": "Quel principe, énoncé par Niels Bohr, affirme que les descriptions ondulatoire et corpusculaire d'un système quantique sont complémentaires mais ne peuvent être observées simultanément ?",
+        "reponse": "Le principe de complémentarité",
+        "propositions": ["Le principe de complémentarité", "Le principe de correspondance", "Le principe d'exclusion", "Le principe variationnel"],
+        "explication": "Bohr considérait que les aspects onde et particule d'un système quantique se complètent sans pouvoir être mesurés en même temps."
+      },
+      {
+        "question": "Quel protocole, proposé en 1984 par Charles Bennett et Gilles Brassard, utilise la polarisation des photons pour échanger une clé cryptographique inviolable ?",
+        "reponse": "Le protocole BB84",
+        "propositions": ["Le protocole BB84", "Le protocole RSA", "Le protocole AES", "Le protocole TLS"],
+        "explication": "BB84 est le premier protocole de cryptographie quantique, exploitant les propriétés de la mesure quantique pour détecter toute interception."
+      },
+      {
+        "question": "Quel phénomène quantique prédit qu'une force mesurable attire deux plaques métalliques parallèles placées dans le vide, à cause des fluctuations du vide quantique ?",
+        "reponse": "L'effet Casimir",
+        "propositions": ["L'effet Casimir", "L'effet tunnel", "L'effet Compton", "L'effet Zeeman"],
+        "explication": "Prédit par Hendrik Casimir en 1948, cet effet a été confirmé expérimentalement dans les années 1990."
+      },
+      {
+        "question": "Quel terme désigne le transfert à distance de l'état quantique d'une particule vers une autre, sans transport physique de matière, démontré expérimentalement dès 1997 ?",
+        "reponse": "La téléportation quantique",
+        "propositions": ["La téléportation quantique", "La décohérence", "La diffraction quantique", "La résonance quantique"],
+        "explication": "La téléportation quantique repose sur l'intrication et la transmission d'une information classique complémentaire, sans jamais dépasser la vitesse de la lumière."
+      },
+      {
+        "question": "Quel physicien britannique a introduit la notation 'bra-ket', aujourd'hui standard pour écrire les états quantiques ?",
+        "reponse": "Paul Dirac",
+        "propositions": ["Paul Dirac", "Werner Heisenberg", "Erwin Schrödinger", "Wolfgang Pauli"],
+        "explication": "Cette notation, introduite par Dirac dans les années 1930, permet d'écrire de façon compacte les vecteurs d'état et leurs produits scalaires."
+      },
+      {
+        "question": "En physique quantique, quel terme désigne les particules qui, contrairement aux fermions, peuvent occuper un même état quantique en nombre illimité ?",
+        "reponse": "Les bosons",
+        "propositions": ["Les bosons", "Les leptons", "Les quarks", "Les hadrons"],
+        "explication": "Les photons ou les bosons de Higgs sont des exemples de bosons, qui ne sont pas soumis au principe d'exclusion de Pauli."
+      },
+      {
+        "question": "Quel phénomène, découvert par le physicien néerlandais Pieter Zeeman en 1896, décrit le dédoublement des raies spectrales d'un atome placé dans un champ magnétique ?",
+        "reponse": "L'effet Zeeman",
+        "propositions": ["L'effet Zeeman", "L'effet Stark", "L'effet Compton", "L'effet Doppler"],
+        "explication": "Cet effet a apporté une preuve précoce de la quantification des niveaux d'énergie atomiques, avant même la formulation complète de la mécanique quantique."
       }
     ],
     "3": [
@@ -185,6 +305,66 @@
         "reponse": "Le théorème de non-clonage",
         "propositions": ["Le théorème de non-clonage", "Le théorème de Bell", "Le théorème de Noether", "Le théorème de Gleason"],
         "explication": "Le théorème de non-clonage quantique, démontré par Wootters et Zurek, est un principe fondamental sur lequel repose la cryptographie quantique."
+      },
+      {
+        "question": "Quelle inégalité, proposée en 1985 par Anthony Leggett et Anupam Garg, teste le réalisme macroscopique de façon analogue aux inégalités de Bell, mais dans le temps plutôt que dans l'espace ?",
+        "reponse": "L'inégalité de Leggett-Garg",
+        "propositions": ["L'inégalité de Leggett-Garg", "L'inégalité de Bell", "Le théorème de Kochen-Specker", "L'inégalité CHSH"],
+        "explication": "Contrairement aux inégalités de Bell qui portent sur la séparation spatiale, celle de Leggett-Garg interroge la cohérence temporelle d'un système quantique unique."
+      },
+      {
+        "question": "Quelle variante des inégalités de Bell, formulée en 1969 par Clauser, Horne, Shimony et Holt, est la plus couramment testée expérimentalement aujourd'hui ?",
+        "reponse": "L'inégalité CHSH",
+        "propositions": ["L'inégalité CHSH", "L'inégalité de Leggett-Garg", "Le théorème de Kochen-Specker", "Le théorème de Gleason"],
+        "explication": "L'inégalité CHSH est une formulation expérimentalement testable des inégalités de Bell originales."
+      },
+      {
+        "question": "Quel effet quantique prédit qu'une mesure répétée très fréquemment peut geler l'évolution d'un système, l'empêchant presque de changer d'état ?",
+        "reponse": "L'effet Zénon quantique",
+        "propositions": ["L'effet Zénon quantique", "L'effet tunnel", "L'effet Casimir", "La décohérence"],
+        "explication": "Nommé par analogie avec le paradoxe de Zénon d'Élée, cet effet montre que l'observation fréquente d'un système quantique peut inhiber sa transition vers un autre état."
+      },
+      {
+        "question": "Quel effet, prédit par Yakir Aharonov et David Bohm en 1959, montre qu'une particule chargée peut être influencée par un champ électromagnétique même dans une région où ce champ est nul ?",
+        "reponse": "L'effet Aharonov-Bohm",
+        "propositions": ["L'effet Aharonov-Bohm", "L'effet Casimir", "L'effet Zeeman", "L'effet Stark"],
+        "explication": "Cet effet montre l'importance physique du potentiel vecteur électromagnétique, et pas seulement des champs, en mécanique quantique."
+      },
+      {
+        "question": "Quel effet optique quantique, observé en 1987 par Hong, Ou et Mandel, montre que deux photons identiques arrivant simultanément sur un miroir semi-réfléchissant ont tendance à ressortir ensemble par la même voie ?",
+        "reponse": "L'effet Hong-Ou-Mandel",
+        "propositions": ["L'effet Hong-Ou-Mandel", "L'effet Casimir", "L'effet Compton", "L'effet Zénon quantique"],
+        "explication": "Cet effet d'interférence purement quantique entre photons indiscernables est à la base de nombreux protocoles d'optique quantique."
+      },
+      {
+        "question": "Quelle théorie, proposée en 1986 par Ghirardi, Rimini et Weber, modifie l'équation de Schrödinger pour introduire des effondrements spontanés et aléatoires de la fonction d'onde ?",
+        "reponse": "La théorie GRW (collapse spontané)",
+        "propositions": ["La théorie GRW (collapse spontané)", "La théorie de de Broglie-Bohm", "L'interprétation de Copenhague", "La théorie des mondes multiples"],
+        "explication": "La théorie GRW tente de résoudre le problème de la mesure en intégrant mathématiquement un mécanisme d'effondrement objectif, sans intervention d'un observateur."
+      },
+      {
+        "question": "Quel théorème, démontré en 1967 par Simon Kochen et Ernst Specker, montre l'impossibilité d'attribuer des valeurs définies prédéterminées à toutes les observables d'un système quantique, indépendamment du contexte de mesure ?",
+        "reponse": "Le théorème de Kochen-Specker",
+        "propositions": ["Le théorème de Kochen-Specker", "Le théorème de Bell", "Le théorème de Gleason", "Le théorème de non-clonage"],
+        "explication": "Ce théorème de contextualité quantique renforce l'idée que la réalité physique mesurée dépend du contexte expérimental choisi."
+      },
+      {
+        "question": "Quel état quantique à trois particules ou plus, généralisant les paires EPR, porte le nom de ses trois concepteurs Greenberger, Horne et Zeilinger ?",
+        "reponse": "L'état GHZ",
+        "propositions": ["L'état GHZ", "L'état de Bell", "L'état cohérent", "L'état comprimé (squeezed state)"],
+        "explication": "Les états GHZ permettent de démontrer des violations de la mécanique quantique encore plus radicales que les simples paires intriquées."
+      },
+      {
+        "question": "Quel concept, développé par Wojciech Zurek, décrit comment seule une fraction de l'information quantique d'un système survit à la décohérence et devient accessible à de multiples observateurs classiques ?",
+        "reponse": "Le darwinisme quantique",
+        "propositions": ["Le darwinisme quantique", "La décohérence (seule)", "L'intrication multipartite", "La non-localité"],
+        "explication": "Cette théorie explique pourquoi certains états classiques 'objectifs' émergent robustement d'un monde fondamentalement quantique."
+      },
+      {
+        "question": "Quelle série d'expériences menées en 2015 par des équipes néerlandaise, américaine et autrichienne a permis de tester les inégalités de Bell sans aucune faille expérimentale ('loophole-free') ?",
+        "reponse": "Les tests de Bell sans faille (loophole-free) de 2015",
+        "propositions": ["Les tests de Bell sans faille (loophole-free) de 2015", "L'expérience d'Aspect de 1982", "L'expérience de Stern-Gerlach", "L'expérience de Franck-Hertz"],
+        "explication": "Ces expériences, menées notamment à Delft, ont fermé simultanément la faille de détection et la faille de localité, confirmant définitivement la violation du réalisme local."
       }
     ]
   }

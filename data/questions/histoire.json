@@ -276,6 +276,116 @@
           "La reine Mary"
         ],
         "explication": "L'époque victorienne est marquée par l'expansion de l'Empire britannique et la révolution industrielle."
+      },
+      {
+        "question": "Quelle civilisation antique a construit le Parthénon sur l'Acropole d'Athènes ?",
+        "reponse": "Les Grecs",
+        "propositions": [
+          "Les Grecs",
+          "Les Romains",
+          "Les Égyptiens",
+          "Les Perses"
+        ],
+        "explication": "Le Parthénon, dédié à la déesse Athéna, a été construit au Ve siècle avant J.-C."
+      },
+      {
+        "question": "Quel empereur français a été exilé sur l'île de Sainte-Hélène après sa défaite de 1815 ?",
+        "reponse": "Napoléon Bonaparte",
+        "propositions": [
+          "Napoléon Bonaparte",
+          "Louis XVIII",
+          "Charles X",
+          "Napoléon III"
+        ],
+        "explication": "Napoléon y meurt en 1821, après six années d'exil surveillées par les Britanniques."
+      },
+      {
+        "question": "Quel paquebot britannique a sombré dans l'océan Atlantique en 1912 après avoir heurté un iceberg ?",
+        "reponse": "Le Titanic",
+        "propositions": [
+          "Le Titanic",
+          "Le Lusitania",
+          "Le Queen Mary",
+          "L'Olympic"
+        ],
+        "explication": "Ce naufrage a causé la mort de plus de 1500 personnes et reste l'un des plus célèbres de l'histoire maritime."
+      },
+      {
+        "question": "Quel physicien allemand a développé la théorie de la relativité au début du XXe siècle ?",
+        "reponse": "Albert Einstein",
+        "propositions": [
+          "Albert Einstein",
+          "Max Planck",
+          "Niels Bohr",
+          "Werner Heisenberg"
+        ],
+        "explication": "Einstein a reçu le prix Nobel de physique en 1921, principalement pour son explication de l'effet photoélectrique."
+      },
+      {
+        "question": "Quel pays a connu une révolution en 1789 qui a renversé la monarchie absolue ?",
+        "reponse": "La France",
+        "propositions": [
+          "La France",
+          "L'Angleterre",
+          "L'Espagne",
+          "La Russie"
+        ],
+        "explication": "La Révolution française débute en 1789 et conduit à l'exécution du roi Louis XVI en 1793."
+      },
+      {
+        "question": "Quel dirigeant soviétique a succédé à Lénine à la tête de l'URSS à partir des années 1920 ?",
+        "reponse": "Joseph Staline",
+        "propositions": [
+          "Joseph Staline",
+          "Léon Trotski",
+          "Nikita Khrouchtchev",
+          "Léonid Brejnev"
+        ],
+        "explication": "Staline dirige l'Union soviétique d'une main de fer jusqu'à sa mort en 1953."
+      },
+      {
+        "question": "Quel explorateur portugais a été le premier à boucler un tour du monde par voie maritime, bien qu'il soit mort en cours de route ?",
+        "reponse": "Fernand de Magellan",
+        "propositions": [
+          "Fernand de Magellan",
+          "Vasco de Gama",
+          "Christophe Colomb",
+          "James Cook"
+        ],
+        "explication": "Magellan meurt aux Philippines en 1521 ; c'est son expédition, achevée par Juan Sebastián Elcano, qui termine le tour du monde en 1522."
+      },
+      {
+        "question": "Quelle guerre a opposé les États-Unis au Viêt Nam, de 1955 à 1975 environ ?",
+        "reponse": "La guerre du Viêt Nam",
+        "propositions": [
+          "La guerre du Viêt Nam",
+          "La guerre de Corée",
+          "La guerre d'Indochine",
+          "La guerre du Golfe"
+        ],
+        "explication": "Ce conflit s'achève par la chute de Saïgon en 1975 et la réunification du pays sous un régime communiste."
+      },
+      {
+        "question": "Quel duc de Normandie a mené la conquête de l'Angleterre en 1066, marquée par la bataille de Hastings ?",
+        "reponse": "Guillaume le Conquérant",
+        "propositions": [
+          "Guillaume le Conquérant",
+          "Richard Cœur de Lion",
+          "Jean sans Terre",
+          "Henri II"
+        ],
+        "explication": "Guillaume devient roi d'Angleterre après sa victoire sur Harold II à Hastings."
+      },
+      {
+        "question": "Quel dirigeant cubain a pris le pouvoir après la révolution de 1959 ?",
+        "reponse": "Fidel Castro",
+        "propositions": [
+          "Fidel Castro",
+          "Che Guevara",
+          "Raúl Castro",
+          "Fulgencio Batista"
+        ],
+        "explication": "Fidel Castro dirige Cuba pendant près d'un demi-siècle après avoir renversé le régime de Batista."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le traité de Kanagawa"
         ],
         "explication": "Cette médiation vaut à Theodore Roosevelt le prix Nobel de la paix en 1906."
+      },
+      {
+        "question": "Quelle dynastie égyptienne, incarnée notamment par la reine Hatchepsout, voit l'Égypte antique atteindre une grande puissance au XVe siècle avant J.-C. ?",
+        "reponse": "La XVIIIe dynastie",
+        "propositions": [
+          "La XVIIIe dynastie",
+          "La IVe dynastie",
+          "La XIXe dynastie",
+          "La Ire dynastie"
+        ],
+        "explication": "La XVIIIe dynastie comprend aussi des pharaons célèbres comme Akhenaton et Toutânkhamon."
+      },
+      {
+        "question": "Quelle guerre, opposant la Prusse et l'Autriche en 1866, a consolidé la domination prussienne sur l'Allemagne du Nord ?",
+        "reponse": "La guerre austro-prussienne",
+        "propositions": [
+          "La guerre austro-prussienne",
+          "La guerre franco-prussienne",
+          "La guerre de Crimée",
+          "La guerre des duchés"
+        ],
+        "explication": "Cette victoire rapide de la Prusse, menée par Bismarck, exclut définitivement l'Autriche de l'unification allemande."
+      },
+      {
+        "question": "Quelle expédition militaire britannique de 1915-1916, menée aux Dardanelles, s'est soldée par un échec coûteux face à l'Empire ottoman ?",
+        "reponse": "La campagne des Dardanelles (Gallipoli)",
+        "propositions": [
+          "La campagne des Dardanelles (Gallipoli)",
+          "La campagne de Mésopotamie",
+          "Le siège de Koweït",
+          "La campagne du Sinaï"
+        ],
+        "explication": "Cette défaite alliée a notamment marqué les débuts politiques de Winston Churchill, qui en porte une part de responsabilité."
+      },
+      {
+        "question": "Quelle dynastie mongole a régné sur la Chine de 1271 à 1368, fondée par Kublai Khan ?",
+        "reponse": "La dynastie Yuan",
+        "propositions": [
+          "La dynastie Yuan",
+          "La dynastie Ming",
+          "La dynastie Song",
+          "La dynastie Tang"
+        ],
+        "explication": "Kublai Khan, petit-fils de Gengis Khan, devient le premier empereur de cette dynastie d'origine mongole."
+      },
+      {
+        "question": "Quelle révolution de 1911-1912 a renversé la dynastie Qing et mis fin à plus de deux mille ans d'empire en Chine ?",
+        "reponse": "La révolution chinoise de 1911 (révolution Xinhai)",
+        "propositions": [
+          "La révolution chinoise de 1911 (révolution Xinhai)",
+          "La révolution communiste de 1949",
+          "La révolte des Boxers",
+          "La Longue Marche"
+        ],
+        "explication": "Cette révolution proclame la République de Chine, avec Sun Yat-sen comme premier président provisoire."
+      },
+      {
+        "question": "Quelle bataille navale de 1805, remportée par l'amiral britannique Nelson, consacre la suprématie maritime du Royaume-Uni sur la France et l'Espagne ?",
+        "reponse": "La bataille de Trafalgar",
+        "propositions": [
+          "La bataille de Trafalgar",
+          "La bataille du Nil (Aboukir)",
+          "La bataille de Copenhague",
+          "La bataille de Navarin"
+        ],
+        "explication": "Nelson meurt au cours de cette bataille, remportée au large des côtes espagnoles."
+      },
+      {
+        "question": "Quel philosophe des Lumières, auteur de 'L'Esprit des lois', a théorisé la séparation des pouvoirs ?",
+        "reponse": "Montesquieu",
+        "propositions": [
+          "Montesquieu",
+          "Voltaire",
+          "Rousseau",
+          "Diderot"
+        ],
+        "explication": "Cet ouvrage de 1748 a profondément influencé la rédaction de nombreuses constitutions modernes, dont celle des États-Unis."
+      },
+      {
+        "question": "Quelle guerre, de 1899 à 1902, oppose les colons britanniques aux républiques boers en Afrique du Sud ?",
+        "reponse": "La seconde guerre des Boers",
+        "propositions": [
+          "La seconde guerre des Boers",
+          "La guerre des Zoulous",
+          "La guerre du Mahdi",
+          "La rébellion des Mau Mau"
+        ],
+        "explication": "Ce conflit colonial a vu les Britanniques recourir massivement aux camps de concentration pour les civils boers."
+      },
+      {
+        "question": "Quelle révolte populaire chinoise de 1899-1901, dirigée contre l'influence étrangère, a été réprimée par une coalition de puissances occidentales et du Japon ?",
+        "reponse": "La révolte des Boxers",
+        "propositions": [
+          "La révolte des Boxers",
+          "La révolution Xinhai",
+          "La rébellion Taiping",
+          "La guerre de l'opium"
+        ],
+        "explication": "Cette répression internationale a imposé à la Chine de lourdes réparations financières."
+      },
+      {
+        "question": "Quelle guerre civile chinoise, opposant nationalistes et communistes, s'achève en 1949 par la victoire de Mao Zedong ?",
+        "reponse": "La guerre civile chinoise",
+        "propositions": [
+          "La guerre civile chinoise",
+          "La révolution Xinhai",
+          "La révolte des Boxers",
+          "La guerre sino-japonaise"
+        ],
+        "explication": "Les nationalistes vaincus se replient sur l'île de Taïwan, tandis que Mao proclame la République populaire de Chine."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Le traité de Cateau-Cambrésis"
         ],
         "explication": "François Ier renie ce traité dès sa libération, invoquant qu'il l'avait signé sous la contrainte."
+      },
+      {
+        "question": "Quelle bataille de 1526 voit les troupes ottomanes de Soliman le Magnifique écraser l'armée hongroise, ouvrant la voie à la conquête d'une grande partie de la Hongrie ?",
+        "reponse": "La bataille de Mohács",
+        "propositions": [
+          "La bataille de Mohács",
+          "La bataille de Kosovo",
+          "La bataille de Varna",
+          "Le siège de Belgrade"
+        ],
+        "explication": "Cette défaite entraîne la mort du roi Louis II de Hongrie et le partage du royaume hongrois."
+      },
+      {
+        "question": "Quelle dynastie perse sassanide est renversée par la conquête musulmane arabe au VIIe siècle, à la bataille de Nahavand en 642 ?",
+        "reponse": "La dynastie sassanide",
+        "propositions": [
+          "La dynastie sassanide",
+          "La dynastie achéménide",
+          "La dynastie parthe",
+          "La dynastie séleucide"
+        ],
+        "explication": "Cette victoire arabe ouvre la voie à l'islamisation progressive de l'ancien empire perse."
+      },
+      {
+        "question": "Quel traité de 1648 reconnaît formellement l'indépendance des Provinces-Unies (Pays-Bas) à l'égard de l'Espagne ?",
+        "reponse": "Le traité de Münster",
+        "propositions": [
+          "Le traité de Münster",
+          "Le traité d'Osnabrück",
+          "Le traité d'Utrecht",
+          "Le traité de Ryswick"
+        ],
+        "explication": "Ce traité, l'un des traités de Westphalie, met fin à la guerre de Quatre-Vingts Ans entre l'Espagne et les Provinces-Unies."
+      },
+      {
+        "question": "Quel califat, d'obédience chiite ismaélienne, a fondé la ville du Caire en 969 comme nouvelle capitale ?",
+        "reponse": "Le califat fatimide",
+        "propositions": [
+          "Le califat fatimide",
+          "Le califat abbasside",
+          "Le califat omeyyade",
+          "Le califat ayyoubide"
+        ],
+        "explication": "Les Fatimides prétendaient descendre de Fatima, fille du prophète Mahomet, d'où le nom de leur dynastie."
+      },
+      {
+        "question": "Quelle bataille navale de 1898, remportée par les États-Unis contre l'Espagne dans la baie de Manille, marque l'émergence des États-Unis comme puissance coloniale en Asie ?",
+        "reponse": "La bataille de la baie de Manille",
+        "propositions": [
+          "La bataille de la baie de Manille",
+          "La bataille de Santiago de Cuba",
+          "La bataille de Tsushima",
+          "La bataille de Port-Arthur"
+        ],
+        "explication": "Cette victoire américaine, pendant la guerre hispano-américaine, aboutit à l'annexion des Philippines par les États-Unis."
+      },
+      {
+        "question": "Quelle bataille navale de 1905, opposant la Russie au Japon, s'est achevée par la destruction quasi complète de la flotte russe de la Baltique ?",
+        "reponse": "La bataille de Tsushima",
+        "propositions": [
+          "La bataille de Tsushima",
+          "La bataille de Port-Arthur",
+          "La bataille de Moukden",
+          "La bataille de la baie de Manille"
+        ],
+        "explication": "Cette victoire japonaise décisive a précipité la fin de la guerre russo-japonaise et le traité de Portsmouth."
+      },
+      {
+        "question": "Quel édit de l'empereur romain Caracalla, en 212, accorde la citoyenneté romaine à la quasi-totalité des hommes libres de l'Empire ?",
+        "reponse": "L'édit de Caracalla (Constitutio Antoniniana)",
+        "propositions": [
+          "L'édit de Caracalla (Constitutio Antoniniana)",
+          "L'édit de Milan",
+          "L'édit de Thessalonique",
+          "La Lex Julia"
+        ],
+        "explication": "Cette mesure uniformise profondément le statut juridique des habitants libres de l'Empire romain."
+      },
+      {
+        "question": "Quel édit de l'empereur Théodose Ier, en 380, fait du christianisme nicéen la religion officielle de l'Empire romain ?",
+        "reponse": "L'édit de Thessalonique",
+        "propositions": [
+          "L'édit de Thessalonique",
+          "L'édit de Milan",
+          "L'édit de Caracalla",
+          "Le Concile de Nicée"
+        ],
+        "explication": "Cet édit marque une étape majeure dans la christianisation de l'Empire romain, après la tolérance accordée par l'édit de Milan en 313."
+      },
+      {
+        "question": "Quel traité de 1905, distinct de celui de Portsmouth, voit le Japon imposer son protectorat sur la Corée après sa victoire sur la Russie ?",
+        "reponse": "Le traité d'Eulsa (protectorat de 1905)",
+        "propositions": [
+          "Le traité d'Eulsa (protectorat de 1905)",
+          "Le traité de Shimonoseki",
+          "Le traité de Kanagawa",
+          "Le traité de Portsmouth"
+        ],
+        "explication": "Ce traité prépare l'annexion complète de la Corée par le Japon, officialisée en 1910."
+      },
+      {
+        "question": "Quelle révolte, menée par Spartacus entre 73 et 71 avant J.-C., a mis en difficulté la République romaine avec une armée d'esclaves révoltés ?",
+        "reponse": "La troisième guerre servile",
+        "propositions": [
+          "La troisième guerre servile",
+          "La première guerre servile",
+          "La guerre sociale",
+          "La guerre des Gracques"
+        ],
+        "explication": "Cette révolte, l'une des plus importantes de l'Antiquité romaine, est finalement écrasée par les légions de Crassus et Pompée."
       }
     ]
   }

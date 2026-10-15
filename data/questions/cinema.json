@@ -276,6 +276,116 @@
           "Le Fantôme de l'Opéra"
         ],
         "explication": "Dracula, créé par l'écrivain irlandais Bram Stoker en 1897, a inspiré d'innombrables adaptations cinématographiques."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Luke Skywalker dans la saga 'Star Wars' ?",
+        "reponse": "Mark Hamill",
+        "propositions": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Ewan McGregor",
+          "Hayden Christensen"
+        ],
+        "explication": "Mark Hamill incarne Luke Skywalker depuis le premier film de la saga, sorti en 1977."
+      },
+      {
+        "question": "Quel acteur a incarné Superman dans les films des années 1970-80 ?",
+        "reponse": "Christopher Reeve",
+        "propositions": [
+          "Christopher Reeve",
+          "Henry Cavill",
+          "Brandon Routh",
+          "George Reeves"
+        ],
+        "explication": "Christopher Reeve a incarné Superman dans quatre films entre 1978 et 1987."
+      },
+      {
+        "question": "Quel acteur incarne le personnage-titre du film 'Forrest Gump' (1994) ?",
+        "reponse": "Tom Hanks",
+        "propositions": [
+          "Tom Hanks",
+          "Robin Williams",
+          "Kevin Costner",
+          "Bill Murray"
+        ],
+        "explication": "Tom Hanks a remporté l'Oscar du meilleur acteur pour ce rôle."
+      },
+      {
+        "question": "Quel acteur incarne le Joker dans le film 'Joker' (2019) ?",
+        "reponse": "Joaquin Phoenix",
+        "propositions": [
+          "Joaquin Phoenix",
+          "Jared Leto",
+          "Heath Ledger",
+          "Jack Nicholson"
+        ],
+        "explication": "Joaquin Phoenix a reçu l'Oscar du meilleur acteur pour ce rôle en 2020."
+      },
+      {
+        "question": "Quel film de requin, sorti en 1975, est considéré comme le premier blockbuster estival de l'histoire du cinéma ?",
+        "reponse": "Les Dents de la mer",
+        "propositions": [
+          "Les Dents de la mer",
+          "Open Water",
+          "Les Dents de la mer 2",
+          "Piranha"
+        ],
+        "explication": "Ce film de Steven Spielberg a inventé le concept de sortie événementielle en plein été."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Wolverine dans la saga 'X-Men' ?",
+        "reponse": "Hugh Jackman",
+        "propositions": [
+          "Hugh Jackman",
+          "Patrick Stewart",
+          "Ian McKellen",
+          "Ryan Reynolds"
+        ],
+        "explication": "Hugh Jackman a incarné Wolverine pendant plus de quinze ans, de 2000 à 2017, puis à nouveau en 2024."
+      },
+      {
+        "question": "Quel film d'animation Pixar de 2009 raconte l'histoire d'un vieil homme qui s'envole grâce à des ballons attachés à sa maison ?",
+        "reponse": "Là-haut",
+        "propositions": [
+          "Là-haut",
+          "Wall-E",
+          "Vice-Versa",
+          "Coco"
+        ],
+        "explication": "'Là-haut' a remporté l'Oscar du meilleur film d'animation en 2010."
+      },
+      {
+        "question": "Quel acteur incarne le personnage principal de la saga 'John Wick', un tueur à gages à la retraite ?",
+        "reponse": "Keanu Reeves",
+        "propositions": [
+          "Keanu Reeves",
+          "Liam Neeson",
+          "Jason Statham",
+          "Vin Diesel"
+        ],
+        "explication": "La saga 'John Wick' a débuté en 2014 avec Keanu Reeves dans le rôle principal."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Gandalf dans la trilogie 'Le Seigneur des anneaux' ?",
+        "reponse": "Ian McKellen",
+        "propositions": [
+          "Ian McKellen",
+          "Christopher Lee",
+          "Viggo Mortensen",
+          "Ian Holm"
+        ],
+        "explication": "Ian McKellen reprend également ce rôle dans la trilogie du 'Hobbit'."
+      },
+      {
+        "question": "Quel film met en scène un parc d'attractions peuplé de dinosaures ressuscités par ingénierie génétique ?",
+        "reponse": "Jurassic Park",
+        "propositions": [
+          "Jurassic Park",
+          "King Kong",
+          "Godzilla",
+          "Le Monde perdu"
+        ],
+        "explication": "'Jurassic Park' (1993), réalisé par Steven Spielberg, a révolutionné les effets spéciaux numériques au cinéma."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Kathy Bates"
         ],
         "explication": "Jodie Foster y incarne l'agent du FBI Clarice Starling, face au tueur en série Hannibal Lecter."
+      },
+      {
+        "question": "Quel réalisateur américain a remporté l'Oscar du meilleur réalisateur pour 'La Liste de Schindler' (1993) ?",
+        "reponse": "Steven Spielberg",
+        "propositions": [
+          "Steven Spielberg",
+          "Martin Scorsese",
+          "Oliver Stone",
+          "Robert Zemeckis"
+        ],
+        "explication": "Ce film sur l'Holocauste a également remporté l'Oscar du meilleur film."
+      },
+      {
+        "question": "Quel acteur a incarné Hannibal Lecter dans 'Le Silence des agneaux' (1991), rôle pour lequel il a reçu l'Oscar du meilleur acteur ?",
+        "reponse": "Anthony Hopkins",
+        "propositions": [
+          "Anthony Hopkins",
+          "Jodie Foster",
+          "Ted Levine",
+          "Scott Glenn"
+        ],
+        "explication": "Anthony Hopkins n'apparaît qu'une vingtaine de minutes à l'écran malgré ce rôle marquant."
+      },
+      {
+        "question": "Quel réalisateur britannique a signé 'Trainspotting' (1996) et 'Slumdog Millionaire', Oscar du meilleur film en 2009 ?",
+        "reponse": "Danny Boyle",
+        "propositions": [
+          "Danny Boyle",
+          "Guy Ritchie",
+          "Sam Mendes",
+          "Stephen Frears"
+        ],
+        "explication": "Danny Boyle a remporté l'Oscar du meilleur réalisateur pour 'Slumdog Millionaire'."
+      },
+      {
+        "question": "Quel acteur américain a remporté l'Oscar du meilleur acteur deux années consécutives, pour 'Philadelphia' (1993) puis 'Forrest Gump' (1994) ?",
+        "reponse": "Tom Hanks",
+        "propositions": [
+          "Tom Hanks",
+          "Dustin Hoffman",
+          "Jack Nicholson",
+          "Denzel Washington"
+        ],
+        "explication": "Tom Hanks est l'un des rares acteurs à avoir remporté l'Oscar du meilleur acteur deux années de suite."
+      },
+      {
+        "question": "Quel film de 1975, réalisé par Miloš Forman avec Jack Nicholson, a remporté les cinq principaux Oscars (film, réalisateur, acteur, actrice, scénario) ?",
+        "reponse": "Vol au-dessus d'un nid de coucou",
+        "propositions": [
+          "Vol au-dessus d'un nid de coucou",
+          "Shining",
+          "Chinatown",
+          "Network"
+        ],
+        "explication": "Ce film ne figure que parmi trois films de l'histoire à avoir remporté ces cinq récompenses majeures."
+      },
+      {
+        "question": "Quel acteur britannique a incarné James Bond dans 'Dr. No' (1962), premier film de la saga ?",
+        "reponse": "Sean Connery",
+        "propositions": [
+          "Sean Connery",
+          "Roger Moore",
+          "Pierce Brosnan",
+          "Daniel Craig"
+        ],
+        "explication": "Sean Connery a incarné l'agent 007 dans sept films entre 1962 et 1983."
+      },
+      {
+        "question": "Quelle actrice américaine a incarné Dorothy dans 'Le Magicien d'Oz' (1939) ?",
+        "reponse": "Judy Garland",
+        "propositions": [
+          "Judy Garland",
+          "Shirley Temple",
+          "Ginger Rogers",
+          "Deanna Durbin"
+        ],
+        "explication": "La chanson 'Over the Rainbow', interprétée par Judy Garland, est devenue un standard inoubliable."
+      },
+      {
+        "question": "Quel réalisateur américain a signé 'Apocalypse Now' (1979), plongée dans la guerre du Vietnam inspirée d''Au cœur des ténèbres' de Joseph Conrad ?",
+        "reponse": "Francis Ford Coppola",
+        "propositions": [
+          "Francis Ford Coppola",
+          "Oliver Stone",
+          "Michael Cimino",
+          "Stanley Kubrick"
+        ],
+        "explication": "Le tournage, chaotique et interminable, est devenu lui-même légendaire dans l'histoire du cinéma."
+      },
+      {
+        "question": "Quel film de James Cameron (1991), suite d'un succès de science-fiction, met en scène un robot tueur devenu protecteur ?",
+        "reponse": "Terminator 2 : le Jugement dernier",
+        "propositions": [
+          "Terminator 2 : le Jugement dernier",
+          "RoboCop",
+          "Predator",
+          "Alien"
+        ],
+        "explication": "Ce film a été salué pour ses effets spéciaux numériques novateurs, notamment le liquide métallique du T-1000."
+      },
+      {
+        "question": "Quel réalisateur américain a signé la trilogie 'Retour vers le futur' avec Michael J. Fox ?",
+        "reponse": "Robert Zemeckis",
+        "propositions": [
+          "Robert Zemeckis",
+          "Steven Spielberg",
+          "Ivan Reitman",
+          "John Landis"
+        ],
+        "explication": "Spielberg a produit la trilogie, réalisée par Robert Zemeckis entre 1985 et 1990."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Preston Sturges"
         ],
         "explication": "Welles y a innové avec des techniques de profondeur de champ et une structure narrative non chronologique."
+      },
+      {
+        "question": "Quel réalisateur soviétique est l'auteur de 'Stalker' (1979) et 'Solaris' (1972), œuvres de science-fiction contemplative ?",
+        "reponse": "Andreï Tarkovski",
+        "propositions": [
+          "Andreï Tarkovski",
+          "Sergueï Eisenstein",
+          "Alexandre Sokourov",
+          "Nikita Mikhalkov"
+        ],
+        "explication": "Tarkovski privilégie des plans longs et une atmosphère méditative, en rupture avec la science-fiction spectaculaire hollywoodienne."
+      },
+      {
+        "question": "Quel réalisateur indien, influencé par Jean Renoir, est l'auteur de la trilogie d'Apu, dont 'La Complainte du sentier' (1955) ?",
+        "reponse": "Satyajit Ray",
+        "propositions": [
+          "Satyajit Ray",
+          "Mrinal Sen",
+          "Ritwik Ghatak",
+          "Guru Dutt"
+        ],
+        "explication": "Cette trilogie est considérée comme une œuvre fondatrice du cinéma d'auteur indien, saluée dans le monde entier."
+      },
+      {
+        "question": "Quel réalisateur allemand de l'expressionnisme a réalisé 'M le Maudit' (1931) avant d'émigrer aux États-Unis sous le nazisme ?",
+        "reponse": "Fritz Lang",
+        "propositions": [
+          "Fritz Lang",
+          "Friedrich Wilhelm Murnau",
+          "Robert Wiene",
+          "G.W. Pabst"
+        ],
+        "explication": "Fritz Lang a poursuivi sa carrière à Hollywood après avoir fui l'Allemagne nazie en 1933-34."
+      },
+      {
+        "question": "Quel réalisateur brésilien, figure du Cinema Novo, est l'auteur de 'Terre en transe' (1967), film politique et allégorique ?",
+        "reponse": "Glauber Rocha",
+        "propositions": [
+          "Glauber Rocha",
+          "Nelson Pereira dos Santos",
+          "Walter Salles",
+          "Hector Babenco"
+        ],
+        "explication": "Le Cinema Novo brésilien, né dans les années 1960, prônait un cinéma engagé, pauvre en moyens mais riche en idées."
+      },
+      {
+        "question": "Quel réalisateur japonais, auteur de 'L'Empire des sens' (1976), a souvent exploré les thèmes de la sexualité et de la transgression ?",
+        "reponse": "Nagisa Ōshima",
+        "propositions": [
+          "Nagisa Ōshima",
+          "Shōhei Imamura",
+          "Kenji Mizoguchi",
+          "Kaneto Shindō"
+        ],
+        "explication": "'L'Empire des sens' a provoqué une importante controverse pour ses scènes sexuelles explicites."
+      },
+      {
+        "question": "Quel réalisateur américain indépendant, pionnier du cinéma underground, est l'auteur de 'Shadows' (1959), tourné en improvisation avec des acteurs non professionnels ?",
+        "reponse": "John Cassavetes",
+        "propositions": [
+          "John Cassavetes",
+          "Jim Jarmusch",
+          "John Sayles",
+          "Hal Hartley"
+        ],
+        "explication": "Cassavetes est considéré comme un précurseur majeur du cinéma indépendant américain."
+      },
+      {
+        "question": "Quel réalisateur hongkongais, connu pour une esthétique visuelle saturée de couleurs, est l'auteur de 'In the Mood for Love' (2000) ?",
+        "reponse": "Wong Kar-wai",
+        "propositions": [
+          "Wong Kar-wai",
+          "John Woo",
+          "Ang Lee",
+          "Zhang Yimou"
+        ],
+        "explication": "Ce film explore une relation amoureuse platonique dans le Hong Kong des années 1960."
+      },
+      {
+        "question": "Quel réalisateur géorgien, dans le contexte de l'URSS, est l'auteur de 'Le Repentir' (1984), film allégorique sur les crimes du stalinisme ?",
+        "reponse": "Tengiz Abuladze",
+        "propositions": [
+          "Tengiz Abuladze",
+          "Sergueï Paradjanov",
+          "Otar Iosseliani",
+          "Elem Klimov"
+        ],
+        "explication": "Ce film, longtemps resté invisible, n'est sorti en salles que pendant la perestroïka de Mikhaïl Gorbatchev."
+      },
+      {
+        "question": "Quel réalisateur italien, figure du néoréalisme, a signé 'Le Voleur de bicyclette' (1948) sur le chômage dans l'Italie d'après-guerre ?",
+        "reponse": "Vittorio De Sica",
+        "propositions": [
+          "Vittorio De Sica",
+          "Roberto Rossellini",
+          "Luchino Visconti",
+          "Cesare Zavattini"
+        ],
+        "explication": "Le film emploie des acteurs non professionnels pour accentuer son réalisme social."
+      },
+      {
+        "question": "Quel réalisateur espagnol a réalisé 'Viridiana' (1961), film interdit par le régime franquiste mais récompensé à Cannes ?",
+        "reponse": "Luis Buñuel",
+        "propositions": [
+          "Luis Buñuel",
+          "Carlos Saura",
+          "Víctor Erice",
+          "Pedro Almodóvar"
+        ],
+        "explication": "'Viridiana' a remporté la Palme d'or à Cannes en 1961, malgré son interdiction en Espagne."
       }
     ]
   }

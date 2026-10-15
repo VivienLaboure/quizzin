@@ -276,6 +276,116 @@
           "Georges Guétary"
         ],
         "explication": "Yves Montand a mené une double carrière de chanteur et d'acteur, notamment dans 'Le Salaire de la peur'."
+      },
+      {
+        "question": "Quel film français de 1978, culte de la bande du Splendid, raconte les vacances ratées d'un groupe d'amis en Côte d'Ivoire ?",
+        "reponse": "Les Bronzés",
+        "propositions": [
+          "Les Bronzés",
+          "Camping",
+          "L'Auberge espagnole",
+          "Papy fait de la résistance"
+        ],
+        "explication": "Réalisé par Patrice Leconte, 'Les Bronzés' met en vedette la troupe du Splendid, dont Josiane Balasko et Thierry Lhermitte."
+      },
+      {
+        "question": "Quel acteur français incarne François Pignon, l'homme naïf invité par méchanceté à un repas, dans 'Le Dîner de cons' (1998) ?",
+        "reponse": "Jacques Villeret",
+        "propositions": [
+          "Jacques Villeret",
+          "Thierry Lhermitte",
+          "Daniel Prévost",
+          "Francis Veber"
+        ],
+        "explication": "François Pignon est un personnage récurrent des comédies scénarisées par Francis Veber."
+      },
+      {
+        "question": "Quel acteur et réalisateur français forme un duo comique récurrent avec Gérard Depardieu dans 'La Chèvre' et 'Les Compères' ?",
+        "reponse": "Pierre Richard",
+        "propositions": [
+          "Pierre Richard",
+          "Michel Blanc",
+          "Christian Clavier",
+          "Daniel Auteuil"
+        ],
+        "explication": "Ce duo comique a été réuni à plusieurs reprises par le réalisateur et scénariste Francis Veber."
+      },
+      {
+        "question": "Dans le film 'Les Visiteurs' (1993), quel est le nom du valet médiéval incarné par Christian Clavier ?",
+        "reponse": "Jacquouille la Fripouille",
+        "propositions": [
+          "Jacquouille la Fripouille",
+          "Godefroy de Montmirail",
+          "Béatrice",
+          "Ladoucette"
+        ],
+        "explication": "Jacquouille, servant transporté dans le présent, multiplie les maladresses comiques face à la modernité."
+      },
+      {
+        "question": "Quel acteur français incarne le patriarche de la famille devenue millionnaire dans la saga comique 'Les Tuche' ?",
+        "reponse": "Jean-Paul Rouve",
+        "propositions": [
+          "Jean-Paul Rouve",
+          "Dany Boon",
+          "Kad Merad",
+          "Franck Dubosc"
+        ],
+        "explication": "'Les Tuche' (2011) raconte l'histoire d'une famille modeste devenue millionnaire après avoir gagné au loto."
+      },
+      {
+        "question": "Quel acteur français incarne le commissaire Juve, poursuivant le criminel masqué joué par Jean Marais dans les films 'Fantômas' des années 1960 ?",
+        "reponse": "Louis de Funès",
+        "propositions": [
+          "Louis de Funès",
+          "Bourvil",
+          "Michel Galabru",
+          "Jean Marais"
+        ],
+        "explication": "Louis de Funès incarne le commissaire Juve, rival maladroit de Fantômas."
+      },
+      {
+        "question": "Quel acteur d'origine italienne incarne Fernand Naudin, ancien gangster rattrapé par son passé, dans 'Les Tontons flingueurs' (1963) ?",
+        "reponse": "Lino Ventura",
+        "propositions": [
+          "Lino Ventura",
+          "Bernard Blier",
+          "Francis Blanche",
+          "Jean Lefebvre"
+        ],
+        "explication": "Lino Ventura, acteur d'origine italienne naturalisé français, incarne Fernand Naudin dans ce film culte."
+      },
+      {
+        "question": "Quel acteur français incarne Jean-Claude Dusse, le dragueur malchanceux de la saga 'Les Bronzés' ?",
+        "reponse": "Michel Blanc",
+        "propositions": [
+          "Michel Blanc",
+          "Thierry Lhermitte",
+          "Gérard Jugnot",
+          "Christian Clavier"
+        ],
+        "explication": "Michel Blanc campe Jean-Claude Dusse, personnage emblématique de la saga des 'Bronzés'."
+      },
+      {
+        "question": "Quel film français de Luc Besson (1990) met en scène une jeune tueuse à gages recrutée par les services secrets français ?",
+        "reponse": "Nikita",
+        "propositions": [
+          "Nikita",
+          "Léon",
+          "Le Grand Bleu",
+          "Lucy"
+        ],
+        "explication": "'Nikita' met en vedette Anne Parillaud dans le rôle-titre."
+      },
+      {
+        "question": "Quel film français de Luc Besson (1988) suit la rivalité de deux plongeurs en apnée en Méditerranée ?",
+        "reponse": "Le Grand Bleu",
+        "propositions": [
+          "Le Grand Bleu",
+          "Nikita",
+          "Léon",
+          "Atlantis"
+        ],
+        "explication": "Ce film s'inspire de la rivalité réelle entre les plongeurs Jacques Mayol et Enzo Maiorca."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Léa Seydoux"
         ],
         "explication": "'Léon' marque les débuts au cinéma de Natalie Portman, âgée de treize ans lors du tournage."
+      },
+      {
+        "question": "Quel réalisateur français, césarisé pour 'Un prophète' (2009), explore souvent le milieu carcéral et criminel ?",
+        "reponse": "Jacques Audiard",
+        "propositions": [
+          "Jacques Audiard",
+          "Olivier Marchal",
+          "Xavier Beauvois",
+          "Nicolas Winding Refn"
+        ],
+        "explication": "'Un prophète' suit l'ascension d'un jeune détenu au sein de la hiérarchie carcérale."
+      },
+      {
+        "question": "Quelle actrice française a incarné Mathilde dans 'Un long dimanche de fiançailles' (2004) de Jean-Pierre Jeunet ?",
+        "reponse": "Audrey Tautou",
+        "propositions": [
+          "Audrey Tautou",
+          "Marion Cotillard",
+          "Mélanie Laurent",
+          "Léa Seydoux"
+        ],
+        "explication": "Le film suit la quête d'une jeune femme pour retrouver son fiancé porté disparu pendant la Première Guerre mondiale."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Les Choristes' (2004), succès populaire autour d'une chorale dans un internat de rééducation ?",
+        "reponse": "Christophe Barratier",
+        "propositions": [
+          "Christophe Barratier",
+          "Cédric Klapisch",
+          "Éric Toledano",
+          "Olivier Nakache"
+        ],
+        "explication": "Le film met en vedette Gérard Jugnot dans le rôle du surveillant-musicien Clément Mathieu."
+      },
+      {
+        "question": "Quel duo de réalisateurs français a signé 'Intouchables' (2011) et 'Hors normes' ?",
+        "reponse": "Éric Toledano et Olivier Nakache",
+        "propositions": [
+          "Éric Toledano et Olivier Nakache",
+          "Christophe Barratier et Cédric Klapisch",
+          "Olivier Baroux et Kad Merad",
+          "Dany Boon et Kad Merad"
+        ],
+        "explication": "Ce duo de réalisateurs collabore régulièrement depuis le début des années 2000."
+      },
+      {
+        "question": "Quel acteur français a incarné le rôle principal du film 'De battre mon cœur s'est arrêté' (2005) de Jacques Audiard ?",
+        "reponse": "Romain Duris",
+        "propositions": [
+          "Romain Duris",
+          "Vincent Cassel",
+          "Mathieu Kassovitz",
+          "Guillaume Canet"
+        ],
+        "explication": "Ce film raconte le parcours d'un jeune promoteur immobilier tenté par une carrière de pianiste."
+      },
+      {
+        "question": "Quelles actrices ont reçu, exceptionnellement avec le réalisateur, la Palme d'or 2013 pour leur interprétation dans 'La Vie d'Adèle' ?",
+        "reponse": "Léa Seydoux et Adèle Exarchopoulos",
+        "propositions": [
+          "Léa Seydoux et Adèle Exarchopoulos",
+          "Marion Cotillard et Léa Seydoux",
+          "Isabelle Huppert et Juliette Binoche",
+          "Catherine Deneuve et Fanny Ardant"
+        ],
+        "explication": "Le jury de Cannes a exceptionnellement remis la Palme d'or au réalisateur Abdellatif Kechiche et à ses deux actrices principales."
+      },
+      {
+        "question": "Quel acteur français, révélé par 'Un prophète' (2009), y incarne le jeune détenu Malik El Djebena ?",
+        "reponse": "Tahar Rahim",
+        "propositions": [
+          "Tahar Rahim",
+          "Niels Arestrup",
+          "Reda Kateb",
+          "Adel Bencherif"
+        ],
+        "explication": "Ce rôle a révélé Tahar Rahim, récompensé du César du meilleur espoir masculin."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Ridicule' (1996), satire de la cour de Louis XVI récompensée par le César du meilleur film ?",
+        "reponse": "Patrice Leconte",
+        "propositions": [
+          "Patrice Leconte",
+          "Bertrand Tavernier",
+          "Édouard Molinaro",
+          "Yves Angelo"
+        ],
+        "explication": "'Ridicule' dépeint les jeux de pouvoir et d'esprit à la cour de Versailles avant la Révolution."
+      },
+      {
+        "question": "Quel acteur français a incarné le rôle-titre du film 'Delicatessen' (1991) de Jean-Pierre Jeunet et Marc Caro ?",
+        "reponse": "Dominique Pinon",
+        "propositions": [
+          "Dominique Pinon",
+          "Jean-Claude Dreyfus",
+          "Marc Caro",
+          "Rufus"
+        ],
+        "explication": "'Delicatessen' est le premier long métrage coréalisé par Jeunet et Caro, dans un style visuel très marqué."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Les Valseuses' (1974), film qui a révélé Gérard Depardieu et Patrick Dewaere ?",
+        "reponse": "Bertrand Blier",
+        "propositions": [
+          "Bertrand Blier",
+          "Claude Sautet",
+          "Yves Boisset",
+          "Alain Corneau"
+        ],
+        "explication": "Ce film, jugé scandaleux à sa sortie, dépeint l'errance de deux jeunes marginaux à travers la France."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Mario Ruspoli"
         ],
         "explication": "Le film interroge des Parisiens anonymes sur leur bonheur, mêlant ethnologie et cinéma direct."
+      },
+      {
+        "question": "Quel réalisateur français de la Nouvelle Vague, critique aux Cahiers du cinéma, a réalisé 'Paris nous appartient' et 'Out 1' ?",
+        "reponse": "Jacques Rivette",
+        "propositions": [
+          "Jacques Rivette",
+          "Éric Rohmer",
+          "Claude Chabrol",
+          "François Truffaut"
+        ],
+        "explication": "Rivette a aussi réalisé 'Céline et Julie vont en bateau', film emblématique de son cinéma expérimental."
+      },
+      {
+        "question": "Quel réalisateur français, auteur du 'Beau Serge' (1958), est souvent considéré comme le tout premier film de la Nouvelle Vague ?",
+        "reponse": "Claude Chabrol",
+        "propositions": [
+          "Claude Chabrol",
+          "François Truffaut",
+          "Jean-Luc Godard",
+          "Jacques Rivette"
+        ],
+        "explication": "Chabrol a ensuite développé une œuvre abondante mêlant polar psychologique et satire de la bourgeoisie."
+      },
+      {
+        "question": "Quel réalisateur français, ancien assistant de Jean Renoir, est l'auteur de 'Le Trou' (1960), récit minutieux d'une évasion de prison ?",
+        "reponse": "Jacques Becker",
+        "propositions": [
+          "Jacques Becker",
+          "Jean-Pierre Melville",
+          "Henri Verneuil",
+          "Georges Lautner"
+        ],
+        "explication": "'Le Trou' est considéré comme l'un des plus grands films français sur l'univers carcéral."
+      },
+      {
+        "question": "Quel scénariste et dialoguiste français, également poète, a collaboré avec Marcel Carné sur 'Les Enfants du paradis' et 'Le Jour se lève' ?",
+        "reponse": "Jacques Prévert",
+        "propositions": [
+          "Jacques Prévert",
+          "Henri Jeanson",
+          "Charles Spaak",
+          "Michel Audiard"
+        ],
+        "explication": "Prévert a profondément marqué le cinéma français des années 1930-40 par ses dialogues ciselés."
+      },
+      {
+        "question": "Quel réalisateur français du cinéma muet a réalisé 'Napoléon' (1927), fresque monumentale utilisant un procédé d'écran triple ?",
+        "reponse": "Abel Gance",
+        "propositions": [
+          "Abel Gance",
+          "Marcel L'Herbier",
+          "Jean Epstein",
+          "Germaine Dulac"
+        ],
+        "explication": "Ce procédé, nommé Polyvision, projetait l'image sur trois écrans juxtaposés pour certaines séquences."
+      },
+      {
+        "question": "Quelle réalisatrice belge, souvent en coproduction française, est l'auteure de 'Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles' (1975) ?",
+        "reponse": "Chantal Akerman",
+        "propositions": [
+          "Chantal Akerman",
+          "Agnès Varda",
+          "Marguerite Duras",
+          "Nelly Kaplan"
+        ],
+        "explication": "Ce film, au rythme délibérément lent, est devenu une référence du cinéma féministe et expérimental."
+      },
+      {
+        "question": "Quel réalisateur français, auteur de 'Playtime' (1967), a ruiné sa carrière en construisant à ses frais un immense décor urbain surnommé 'Tativille' ?",
+        "reponse": "Jacques Tati",
+        "propositions": [
+          "Jacques Tati",
+          "Pierre Étaix",
+          "Jacques Demy",
+          "Claude Berri"
+        ],
+        "explication": "Le coût pharaonique de ce décor a plongé Tati dans des difficultés financières durables."
+      },
+      {
+        "question": "Quel scénariste et dialoguiste français, père du réalisateur Jacques Audiard, a écrit les répliques des 'Tontons flingueurs' et de nombreux films avec Jean Gabin ?",
+        "reponse": "Michel Audiard",
+        "propositions": [
+          "Michel Audiard",
+          "Jacques Prévert",
+          "Henri Jeanson",
+          "Albert Simonin"
+        ],
+        "explication": "Michel Audiard est réputé pour ses répliques percutantes devenues cultes dans la comédie policière française."
+      },
+      {
+        "question": "Quel critique français, cofondateur des Cahiers du cinéma en 1951, a théorisé la politique des auteurs sans jamais réaliser de film lui-même ?",
+        "reponse": "André Bazin",
+        "propositions": [
+          "André Bazin",
+          "Henri Langlois",
+          "Jean-Georges Auriol",
+          "Lo Duca"
+        ],
+        "explication": "Bazin a profondément influencé les futurs réalisateurs de la Nouvelle Vague, dont Truffaut, qui fut son protégé."
+      },
+      {
+        "question": "Quel fondateur de la Cinémathèque française a joué un rôle déterminant dans la formation cinéphile des futurs réalisateurs de la Nouvelle Vague ?",
+        "reponse": "Henri Langlois",
+        "propositions": [
+          "Henri Langlois",
+          "André Bazin",
+          "Georges Franju",
+          "Jean Mitry"
+        ],
+        "explication": "Son limogeage en 1968 a provoqué la mobilisation de nombreux cinéastes, dont Godard et Truffaut, lors de l''affaire Langlois'."
       }
     ]
   }

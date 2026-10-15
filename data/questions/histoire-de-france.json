@@ -276,6 +276,116 @@
           "Les guerres de Religion"
         ],
         "explication": "Ce conflit se termine par la victoire française, portée notamment par Jeanne d'Arc."
+      },
+      {
+        "question": "Quel empereur français a été sacré à Notre-Dame de Paris en décembre 1804 ?",
+        "reponse": "Napoléon Bonaparte",
+        "propositions": [
+          "Napoléon Bonaparte",
+          "Napoléon III",
+          "Louis XVIII",
+          "Charles X"
+        ],
+        "explication": "Napoléon Bonaparte se couronne lui-même empereur des Français en présence du pape Pie VII, le 2 décembre 1804."
+      },
+      {
+        "question": "Quel monument parisien, symbole de la ville, a été construit pour l'Exposition universelle de 1889 ?",
+        "reponse": "La tour Eiffel",
+        "propositions": [
+          "La tour Eiffel",
+          "L'Arc de triomphe",
+          "Le Panthéon",
+          "La basilique du Sacré-Cœur"
+        ],
+        "explication": "Conçue par l'ingénieur Gustave Eiffel, elle devait initialement être démontée après quelques années."
+      },
+      {
+        "question": "Quel roi de France a fait édifier le château de Chambord dans le Val de Loire au XVIe siècle ?",
+        "reponse": "François Ier",
+        "propositions": [
+          "François Ier",
+          "Henri II",
+          "Louis XII",
+          "Charles VIII"
+        ],
+        "explication": "Chambord est l'un des plus grands châteaux de la Renaissance française, dont les plans sont parfois attribués à Léonard de Vinci."
+      },
+      {
+        "question": "Quelle ville a été la capitale de la France pendant la majeure partie de son histoire ?",
+        "reponse": "Paris",
+        "propositions": [
+          "Paris",
+          "Versailles",
+          "Lyon",
+          "Reims"
+        ],
+        "explication": "Paris est restée le centre politique et administratif du royaume puis de la République, à l'exception de courtes périodes, comme sous Louis XIV à Versailles."
+      },
+      {
+        "question": "Quel événement du 4 août 1789 a vu l'Assemblée constituante abolir les privilèges féodaux ?",
+        "reponse": "La nuit du 4 août",
+        "propositions": [
+          "La nuit du 4 août",
+          "Le serment du Jeu de paume",
+          "La prise de la Bastille",
+          "La fuite à Varennes"
+        ],
+        "explication": "Cette nuit symbolique marque la fin officielle du système féodal et de ses privilèges en France."
+      },
+      {
+        "question": "Quel fleuve traverse la ville de Paris ?",
+        "reponse": "La Seine",
+        "propositions": [
+          "La Seine",
+          "La Loire",
+          "Le Rhône",
+          "La Garonne"
+        ],
+        "explication": "La Seine traverse Paris sur plus de 13 kilomètres et a toujours joué un rôle central dans le développement économique de la capitale."
+      },
+      {
+        "question": "Quel président français a été élu en 1981, devenant le premier président socialiste de la Ve République ?",
+        "reponse": "François Mitterrand",
+        "propositions": [
+          "François Mitterrand",
+          "Valéry Giscard d'Estaing",
+          "Jacques Chirac",
+          "Pierre Mauroy"
+        ],
+        "explication": "François Mitterrand a été réélu en 1988 et a exercé deux septennats consécutifs, jusqu'en 1995."
+      },
+      {
+        "question": "Quelle ville du nord de la France a été le théâtre d'une opération d'évacuation décisive en 1940, permettant à de nombreux soldats alliés de rejoindre l'Angleterre ?",
+        "reponse": "Dunkerque",
+        "propositions": [
+          "Dunkerque",
+          "Calais",
+          "Boulogne-sur-Mer",
+          "Lille"
+        ],
+        "explication": "L'opération Dynamo a permis d'évacuer plus de 300 000 soldats alliés de Dunkerque entre fin mai et début juin 1940."
+      },
+      {
+        "question": "Quel roi de France, surnommé 'l'Universelle Aragne', a lutté contre la puissance des ducs de Bourgogne au XVe siècle ?",
+        "reponse": "Louis XI",
+        "propositions": [
+          "Louis XI",
+          "Charles VII",
+          "Louis XII",
+          "Charles VIII"
+        ],
+        "explication": "Louis XI parvient à rattacher la Bourgogne à la couronne après la mort de Charles le Téméraire en 1477."
+      },
+      {
+        "question": "Quelle place parisienne, anciennement appelée 'place Louis XV', a été le lieu d'exécution de Louis XVI et de Marie-Antoinette ?",
+        "reponse": "La place de la Concorde",
+        "propositions": [
+          "La place de la Concorde",
+          "La place de la Bastille",
+          "La place Vendôme",
+          "La place des Vosges"
+        ],
+        "explication": "Cette place a porté plusieurs noms successifs, dont 'place de la Révolution' pendant la période révolutionnaire."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "La loi Guizot"
         ],
         "explication": "Ces lois fondatrices de l'école républicaine renforcent l'instruction publique sur tout le territoire."
+      },
+      {
+        "question": "Quel ministre français des Affaires étrangères a négocié l'Entente cordiale avec le Royaume-Uni, signée en 1904 ?",
+        "reponse": "Théophile Delcassé",
+        "propositions": [
+          "Théophile Delcassé",
+          "Aristide Briand",
+          "Raymond Poincaré",
+          "Georges Clemenceau"
+        ],
+        "explication": "L'Entente cordiale règle plusieurs différends coloniaux entre la France et le Royaume-Uni, notamment en Afrique."
+      },
+      {
+        "question": "Quelle ordonnance de 1944 accorde pour la première fois le droit de vote aux femmes en France ?",
+        "reponse": "L'ordonnance du 21 avril 1944",
+        "propositions": [
+          "L'ordonnance du 21 avril 1944",
+          "La loi de 1946",
+          "La Constitution de 1946",
+          "La loi Veil de 1975"
+        ],
+        "explication": "Les Françaises votent pour la première fois lors des élections municipales d'avril 1945."
+      },
+      {
+        "question": "Quel traité de 1860, signé entre Napoléon III et le royaume de Sardaigne, cède Nice et la Savoie à la France ?",
+        "reponse": "Le traité de Turin",
+        "propositions": [
+          "Le traité de Turin",
+          "Le traité de Plombières",
+          "Le traité de Zurich",
+          "Le traité de Vienne (1815)"
+        ],
+        "explication": "Ce rattachement fait suite au soutien militaire français apporté au royaume de Sardaigne contre l'Autriche."
+      },
+      {
+        "question": "Quel ministre des Finances de Charles de Gaulle a mis en œuvre le plan de stabilisation de 1958, accompagné de la création du nouveau franc ?",
+        "reponse": "Antoine Pinay",
+        "propositions": [
+          "Antoine Pinay",
+          "Jacques Rueff",
+          "Valéry Giscard d'Estaing",
+          "Wilfrid Baumgartner"
+        ],
+        "explication": "Ce plan visait à restaurer l'équilibre budgétaire et la confiance dans le franc au début de la Ve République."
+      },
+      {
+        "question": "Quelle organisation clandestine, fédérée notamment par Jean Moulin en 1943, a tenté d'unifier les mouvements de Résistance française sous l'autorité du général de Gaulle ?",
+        "reponse": "Le Conseil national de la Résistance (CNR)",
+        "propositions": [
+          "Le Conseil national de la Résistance (CNR)",
+          "Les Forces françaises de l'intérieur (FFI)",
+          "Le Comité français de la Libération nationale (CFLN)",
+          "L'Armée secrète"
+        ],
+        "explication": "Jean Moulin parvient à fédérer la Résistance intérieure française en 1943, avant d'être arrêté puis torturé par la Gestapo."
+      },
+      {
+        "question": "Quelle réforme sociale majeure, mise en œuvre en 1982 sous le gouvernement de Pierre Mauroy, abaisse l'âge légal de la retraite à 60 ans ?",
+        "reponse": "La retraite à 60 ans",
+        "propositions": [
+          "La retraite à 60 ans",
+          "La semaine de 35 heures",
+          "La cinquième semaine de congés payés",
+          "Le RMI"
+        ],
+        "explication": "Cette réforme s'accompagne également, la même année, de l'instauration de la cinquième semaine de congés payés."
+      },
+      {
+        "question": "Quelle crise diplomatique de 1905, impliquant une visite de l'empereur allemand Guillaume II, a mis en lumière les tensions franco-allemandes autour du Maroc ?",
+        "reponse": "La crise de Tanger (1905)",
+        "propositions": [
+          "La crise de Tanger (1905)",
+          "La crise d'Agadir (1911)",
+          "L'incident de Fachoda (1898)",
+          "La crise de Bosnie (1908)"
+        ],
+        "explication": "Cette crise diplomatique franco-allemande autour du Maroc a accru les tensions internationales avant la Première Guerre mondiale."
+      },
+      {
+        "question": "Quel incident colonial de 1898, opposant des expéditions françaises et britanniques au Soudan, a provoqué une grave crise diplomatique entre la France et le Royaume-Uni ?",
+        "reponse": "L'incident de Fachoda",
+        "propositions": [
+          "L'incident de Fachoda",
+          "La crise de Tanger",
+          "La crise d'Agadir",
+          "La conférence de Berlin"
+        ],
+        "explication": "La France doit finalement se retirer de Fachoda, un épisode qui marque un tournant dans sa politique coloniale africaine."
+      },
+      {
+        "question": "Quel président français a abaissé la majorité civile et électorale de 21 à 18 ans en 1974 ?",
+        "reponse": "Valéry Giscard d'Estaing",
+        "propositions": [
+          "Valéry Giscard d'Estaing",
+          "Georges Pompidou",
+          "François Mitterrand",
+          "Jacques Chirac"
+        ],
+        "explication": "Cette réforme, adoptée en juillet 1974, permet aux jeunes de 18 ans de voter dès les élections suivantes."
+      },
+      {
+        "question": "Quelle tentative de coup d'État de 1961, menée par des généraux français opposés à l'indépendance de l'Algérie, a visé à renverser le pouvoir du général de Gaulle ?",
+        "reponse": "Le putsch des généraux (putsch d'Alger)",
+        "propositions": [
+          "Le putsch des généraux (putsch d'Alger)",
+          "L'affaire des fuites",
+          "La crise du 13 mai 1958",
+          "L'attentat du Petit-Clamart"
+        ],
+        "explication": "Ce putsch manqué, mené notamment par les généraux Challe et Salan, échoue faute de soutien suffisant de l'armée et de la population."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Louvois"
         ],
         "explication": "Cette victoire, remportée pendant la guerre de Succession d'Autriche, est l'une des plus célèbres de l'armée royale française au XVIIIe siècle."
+      },
+      {
+        "question": "Quel traité de 1559 met fin aux guerres d'Italie entre la France et l'Espagne, marquant le retrait durable de la France de la péninsule italienne ?",
+        "reponse": "Le traité du Cateau-Cambrésis",
+        "propositions": [
+          "Le traité du Cateau-Cambrésis",
+          "Le traité de Madrid",
+          "Le traité de Crépy",
+          "Le traité de Vervins"
+        ],
+        "explication": "Ce traité met fin à plus de soixante ans de conflits entre Habsbourg et Valois pour le contrôle de l'Italie."
+      },
+      {
+        "question": "Quel ministre des Affaires étrangères de Louis XVI a négocié l'alliance franco-américaine de 1778 pendant la guerre d'indépendance américaine ?",
+        "reponse": "Le comte de Vergennes",
+        "propositions": [
+          "Le comte de Vergennes",
+          "Necker",
+          "Turgot",
+          "Calonne"
+        ],
+        "explication": "Vergennes convainc Louis XVI de soutenir ouvertement les insurgents américains contre la Grande-Bretagne, rivale historique de la France."
+      },
+      {
+        "question": "Quelle bataille navale de 1781, remportée par la flotte française de De Grasse, a permis le succès du siège de Yorktown pendant la guerre d'indépendance américaine ?",
+        "reponse": "La bataille de la baie de Chesapeake",
+        "propositions": [
+          "La bataille de la baie de Chesapeake",
+          "La bataille des Saintes",
+          "La bataille de Trafalgar",
+          "La bataille d'Ouessant"
+        ],
+        "explication": "Cette victoire navale française empêche la flotte britannique de secourir les troupes assiégées à Yorktown, précipitant la reddition britannique."
+      },
+      {
+        "question": "Quelle bataille de 1242 voit Saint Louis vaincre une coalition de barons poitevins alliés au roi d'Angleterre Henri III ?",
+        "reponse": "La bataille de Taillebourg",
+        "propositions": [
+          "La bataille de Taillebourg",
+          "La bataille de Bouvines",
+          "La bataille des Dunes",
+          "La bataille de Muret"
+        ],
+        "explication": "Cette victoire consolide l'autorité de Louis IX sur l'ouest du royaume face aux prétentions anglaises."
+      },
+      {
+        "question": "Quel édit royal de 1438, dit 'pragmatique sanction de Bourges', affirme les libertés de l'Église de France face à la papauté ?",
+        "reponse": "La pragmatique sanction de Bourges",
+        "propositions": [
+          "La pragmatique sanction de Bourges",
+          "Le concordat de Bologne",
+          "L'édit de Nantes",
+          "L'ordonnance de Villers-Cotterêts"
+        ],
+        "explication": "Ce texte, promulgué sous Charles VII, pose les bases du gallicanisme, affirmant une certaine autonomie de l'Église française."
+      },
+      {
+        "question": "Quel favori de Marie de Médicis, assassiné en 1617 sur ordre du jeune Louis XIII, dominait la régence depuis la mort d'Henri IV ?",
+        "reponse": "Concino Concini",
+        "propositions": [
+          "Concino Concini",
+          "Léonora Galigaï",
+          "Richelieu",
+          "Sully"
+        ],
+        "explication": "Cet assassinat marque la prise de pouvoir personnelle de Louis XIII, encore adolescent, face à l'influence de sa mère."
+      },
+      {
+        "question": "Quel ministre protestant d'Henri IV, surintendant des finances, a contribué au redressement économique du royaume au début du XVIIe siècle ?",
+        "reponse": "Sully",
+        "propositions": [
+          "Sully",
+          "Colbert",
+          "Richelieu",
+          "Necker"
+        ],
+        "explication": "Maximilien de Béthune, duc de Sully, est resté associé à l'adage selon lequel labourage et pâturage sont les deux mamelles de la France."
+      },
+      {
+        "question": "Quelle bataille de 1453, dernière grande bataille de la guerre de Cent Ans, voit l'artillerie française des frères Bureau décimer l'armée anglaise en Gironde ?",
+        "reponse": "La bataille de Castillon",
+        "propositions": [
+          "La bataille de Castillon",
+          "La bataille de Formigny",
+          "La bataille de Patay",
+          "La bataille de Verneuil"
+        ],
+        "explication": "Cette victoire met fin à la présence militaire anglaise en Guyenne et marque traditionnellement la fin de la guerre de Cent Ans."
+      },
+      {
+        "question": "Quel ministre de Louis XIV, responsable des fortifications frontalières, a construit et renforcé des centaines de places fortes selon un système de défense cohérent ?",
+        "reponse": "Vauban",
+        "propositions": [
+          "Vauban",
+          "Louvois",
+          "Colbert",
+          "Turenne"
+        ],
+        "explication": "Sébastien Le Prestre de Vauban a conçu le 'pré carré', une double ligne de places fortes protégeant les frontières du royaume."
+      },
+      {
+        "question": "Quel maréchal de France, vainqueur de plusieurs campagnes sous Louis XIV, a été tué au combat à Sasbach en 1675 pendant la guerre de Hollande ?",
+        "reponse": "Turenne",
+        "propositions": [
+          "Turenne",
+          "Vauban",
+          "Condé",
+          "Luxembourg"
+        ],
+        "explication": "La mort de Turenne, l'un des plus grands généraux français du XVIIe siècle, est restée un épisode marquant du règne de Louis XIV."
       }
     ]
   }

@@ -276,6 +276,116 @@
           "Une corne"
         ],
         "explication": "L'arbitre central est le seul, avec les arbitres assistants et leurs drapeaux, à pouvoir interrompre officiellement le jeu."
+      },
+      {
+        "question": "Comment appelle-t-on un coup de pied accordé à une équipe lorsqu'un adversaire fait sortir le ballon par la ligne de fond, derrière son propre but ?",
+        "reponse": "Un corner",
+        "propositions": [
+          "Un corner",
+          "Une touche",
+          "Un coup franc",
+          "Un penalty"
+        ],
+        "explication": "Le corner est tiré depuis le coin du terrain le plus proche de l'endroit où le ballon est sorti."
+      },
+      {
+        "question": "Comment appelle-t-on la remise en jeu du ballon à la main lorsqu'il est sorti par une ligne de côté du terrain ?",
+        "reponse": "Une touche",
+        "propositions": [
+          "Une touche",
+          "Un corner",
+          "Un coup franc",
+          "Un dégagement"
+        ],
+        "explication": "La touche se joue à deux mains, au-dessus de la tête, sans que les deux pieds ne quittent le sol."
+      },
+      {
+        "question": "Quel pays a remporté la Coupe du monde de football 2006, organisée en Allemagne ?",
+        "reponse": "L'Italie",
+        "propositions": [
+          "L'Italie",
+          "La France",
+          "Le Brésil",
+          "L'Allemagne"
+        ],
+        "explication": "L'Italie a battu la France aux tirs au but en finale, un match marqué par le coup de tête de Zinédine Zidane sur Marco Materazzi."
+      },
+      {
+        "question": "Quel joueur français a été sacré champion du monde en 2018 à seulement 19 ans ?",
+        "reponse": "Kylian Mbappé",
+        "propositions": [
+          "Kylian Mbappé",
+          "Ousmane Dembélé",
+          "Presnel Kimpembe",
+          "Benjamin Pavard"
+        ],
+        "explication": "Mbappé a marqué un but en finale contre la Croatie, devenant le plus jeune buteur en finale de Coupe du monde depuis Pelé."
+      },
+      {
+        "question": "Quel entraîneur espagnol, ancien joueur du FC Barcelone, a remporté la Ligue des champions comme entraîneur avec deux clubs différents, le FC Barcelone puis Manchester City ?",
+        "reponse": "Pep Guardiola",
+        "propositions": [
+          "Pep Guardiola",
+          "José Mourinho",
+          "Carlo Ancelotti",
+          "Zinédine Zidane"
+        ],
+        "explication": "Guardiola a remporté la Ligue des champions avec le FC Barcelone en 2009 et 2011, puis avec Manchester City en 2023."
+      },
+      {
+        "question": "Quel capitaine allemand a mené le Bayern Munich à trois Coupes d'Europe des clubs champions consécutives, entre 1974 et 1976 ?",
+        "reponse": "Franz Beckenbauer",
+        "propositions": [
+          "Franz Beckenbauer",
+          "Gerd Müller",
+          "Karl-Heinz Rummenigge",
+          "Sepp Maier"
+        ],
+        "explication": "Beckenbauer a remporté trois Coupes d'Europe des clubs champions consécutives avec le Bayern Munich entre 1974 et 1976."
+      },
+      {
+        "question": "Quel pays a accueilli la Coupe du monde de football 2002, organisée conjointement avec le Japon ?",
+        "reponse": "La Corée du Sud",
+        "propositions": [
+          "La Corée du Sud",
+          "La Chine",
+          "Taïwan",
+          "Les Philippines"
+        ],
+        "explication": "Cette édition fut la première Coupe du monde organisée en Asie et la première coorganisée par deux pays."
+      },
+      {
+        "question": "Quel club espagnol, basé à Madrid, détient le record de victoires en Ligue des champions ?",
+        "reponse": "Le Real Madrid",
+        "propositions": [
+          "Le Real Madrid",
+          "Le FC Barcelone",
+          "L'AC Milan",
+          "Le Bayern Munich"
+        ],
+        "explication": "Le Real Madrid a remporté la compétition à de nombreuses reprises, dont cinq fois consécutivement entre 1956 et 1960."
+      },
+      {
+        "question": "Quel joueur français, Ballon d'or 2022, évolue au poste d'attaquant et a brillé en remportant la Ligue des champions 2022 avec le Real Madrid ?",
+        "reponse": "Karim Benzema",
+        "propositions": [
+          "Karim Benzema",
+          "Kylian Mbappé",
+          "N'Golo Kanté",
+          "Antoine Griezmann"
+        ],
+        "explication": "Karim Benzema a remporté le Ballon d'or 2022 après une saison exceptionnelle avec le Real Madrid, vainqueur de la Ligue des champions."
+      },
+      {
+        "question": "Quelle compétition féminine internationale réunit les sélections nationales d'Europe, sur le modèle de l'Euro masculin ?",
+        "reponse": "L'Euro féminin de l'UEFA",
+        "propositions": [
+          "L'Euro féminin de l'UEFA",
+          "La Coupe du monde féminine",
+          "La Ligue des nations féminine",
+          "La Copa América féminine"
+        ],
+        "explication": "L'édition 2022 de l'Euro féminin, disputée en Angleterre, a été remportée par les Anglaises face à l'Allemagne."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le Qatar"
         ],
         "explication": "L'Allemagne y a remporté le titre en battant l'Argentine en finale, après avoir écrasé le pays hôte 7-1 en demi-finale."
+      },
+      {
+        "question": "Quel joueur a reçu le Ballon d'or du meilleur joueur de la Coupe du monde 2014, bien que son équipe, l'Argentine, ait perdu la finale ?",
+        "reponse": "Lionel Messi",
+        "propositions": [
+          "Lionel Messi",
+          "Thomas Müller",
+          "Manuel Neuer",
+          "James Rodríguez"
+        ],
+        "explication": "Cette attribution à Messi, malgré la défaite argentine face à l'Allemagne, reste controversée aujourd'hui."
+      },
+      {
+        "question": "Quel club anglais a remporté la Ligue des champions 2019 en battant Tottenham en finale ?",
+        "reponse": "Liverpool",
+        "propositions": [
+          "Liverpool",
+          "Tottenham",
+          "Manchester City",
+          "Chelsea"
+        ],
+        "explication": "Cette finale, disputée à Madrid, a opposé pour la première fois deux clubs anglais depuis 2008."
+      },
+      {
+        "question": "Quel attaquant polonais, longtemps buteur prolifique au Bayern Munich puis au FC Barcelone, est le meilleur buteur de l'histoire de l'équipe nationale polonaise ?",
+        "reponse": "Robert Lewandowski",
+        "propositions": [
+          "Robert Lewandowski",
+          "Grzegorz Lato",
+          "Zbigniew Boniek",
+          "Wlodzimierz Lubanski"
+        ],
+        "explication": "Lewandowski a largement dépassé les 80 buts en sélection polonaise au cours de sa carrière."
+      },
+      {
+        "question": "Quel gardien allemand, champion du monde en 2014 et plusieurs fois vainqueur de la Ligue des champions avec le Bayern Munich, est réputé pour son style de jeu avancé dit de 'gardien libéro' ?",
+        "reponse": "Manuel Neuer",
+        "propositions": [
+          "Manuel Neuer",
+          "Oliver Kahn",
+          "Jens Lehmann",
+          "René Adler"
+        ],
+        "explication": "Neuer sort fréquemment de sa surface pour jouer un rôle de défenseur supplémentaire, redéfinissant le poste de gardien moderne."
+      },
+      {
+        "question": "Quel milieu offensif belge a longtemps évolué à Chelsea avant de rejoindre le Real Madrid en 2019 ?",
+        "reponse": "Eden Hazard",
+        "propositions": [
+          "Eden Hazard",
+          "Kevin De Bruyne",
+          "Romelu Lukaku",
+          "Youri Tielemans"
+        ],
+        "explication": "Hazard a été l'un des meilleurs dribbleurs et passeurs de Premier League durant son passage à Chelsea."
+      },
+      {
+        "question": "Quelle compétition, créée par l'UEFA en 2018, oppose les sélections nationales européennes par divisions, avec promotions et relégations ?",
+        "reponse": "La Ligue des nations de l'UEFA",
+        "propositions": [
+          "La Ligue des nations de l'UEFA",
+          "La Coupe des confédérations",
+          "L'Euro",
+          "La Coupe du monde des nations"
+        ],
+        "explication": "Cette compétition a notamment remplacé une partie des matchs amicaux par des rencontres officielles classées par niveau."
+      },
+      {
+        "question": "Quel club allemand, basé à Dortmund, a disputé la finale de la Ligue des champions 2013, entièrement allemande, perdue face au Bayern Munich ?",
+        "reponse": "Le Borussia Dortmund",
+        "propositions": [
+          "Le Borussia Dortmund",
+          "Le Bayer Leverkusen",
+          "Le Schalke 04",
+          "Le RB Leipzig"
+        ],
+        "explication": "Cette finale s'est jouée à Wembley, le Bayern s'imposant 2-1 grâce à un but d'Arjen Robben en fin de match."
+      },
+      {
+        "question": "Quel gardien costaricien a brillé lors de la Coupe du monde 2014, menant son pays jusqu'en quarts de finale ?",
+        "reponse": "Keylor Navas",
+        "propositions": [
+          "Keylor Navas",
+          "Patrick Pemberton",
+          "Esteban Alvarado",
+          "Leonel Moreira"
+        ],
+        "explication": "Navas a ensuite rejoint le Real Madrid, où il a remporté plusieurs fois la Ligue des champions comme gardien titulaire."
+      },
+      {
+        "question": "Quel attaquant uruguayen a formé, avec Lionel Messi et Neymar, le célèbre trio offensif 'MSN' du FC Barcelone entre 2014 et 2017 ?",
+        "reponse": "Luis Suárez",
+        "propositions": [
+          "Luis Suárez",
+          "Edinson Cavani",
+          "Diego Forlán",
+          "Darwin Núñez"
+        ],
+        "explication": "Ce trio a notamment permis au Barça de remporter le triplé Liga-Coupe du Roi-Ligue des champions lors de la saison 2014-2015."
+      },
+      {
+        "question": "Quelle compétition continentale, disputée tous les deux ans, réunit les sélections nationales africaines de football ?",
+        "reponse": "La Coupe d'Afrique des Nations (CAN)",
+        "propositions": [
+          "La Coupe d'Afrique des Nations (CAN)",
+          "La Coupe des confédérations",
+          "La Copa América",
+          "La Coupe arabe des nations"
+        ],
+        "explication": "La CAN, créée en 1957, est la plus ancienne compétition continentale de sélections avec la Copa América."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Thierry Henry"
         ],
         "explication": "Zidane avait inscrit deux buts de la tête lors de la finale remportée face au Brésil."
+      },
+      {
+        "question": "Quel arbitre suisse a dirigé la finale de la Coupe du monde 1966 et validé le controversé 'but fantôme' de Geoff Hurst pour l'Angleterre ?",
+        "reponse": "Gottfried Dienst",
+        "propositions": [
+          "Gottfried Dienst",
+          "Jack Taylor",
+          "Rudolf Kreitlein",
+          "Arthur Ellis"
+        ],
+        "explication": "Ce but, dont la ligne de but n'avait pas été clairement franchie selon de nombreuses analyses ultérieures, reste l'un des plus débattus de l'histoire."
+      },
+      {
+        "question": "Comment est surnommé le but marqué de la main par Diego Maradona contre l'Angleterre en quart de finale de la Coupe du monde 1986 ?",
+        "reponse": "La Main de Dieu",
+        "propositions": [
+          "La Main de Dieu",
+          "Le but fantôme",
+          "Le coup du foulard",
+          "La main noire"
+        ],
+        "explication": "Maradona avait détourné le ballon de la main avant de marquer, sans que l'arbitre ne le voie."
+      },
+      {
+        "question": "Quel sélectionneur brésilien a mené le Brésil à son premier titre mondial en 1958, lançant la carrière de Pelé, alors âgé de 17 ans ?",
+        "reponse": "Vicente Feola",
+        "propositions": [
+          "Vicente Feola",
+          "Mário Zagallo",
+          "Aymoré Moreira",
+          "Carlos Alberto Parreira"
+        ],
+        "explication": "Le Brésil de Feola, mené par Pelé et Garrincha, a battu la Suède 5-2 en finale, en Suède même."
+      },
+      {
+        "question": "Quel capitaine français des années 1980 a disputé deux demi-finales de Coupe du monde (1982 et 1986) sans jamais atteindre la finale ?",
+        "reponse": "Michel Platini",
+        "propositions": [
+          "Michel Platini",
+          "Jean Tigana",
+          "Alain Giresse",
+          "Luis Fernandez"
+        ],
+        "explication": "La France s'est inclinée face à l'Allemagne de l'Ouest à ces deux reprises, dont la célèbre demi-finale de Séville en 1982."
+      },
+      {
+        "question": "Quelle compétition européenne de clubs, créée en 1971, a été remplacée par la Ligue Europa à partir de la saison 2009-2010 ?",
+        "reponse": "La Coupe UEFA",
+        "propositions": [
+          "La Coupe UEFA",
+          "La Coupe des vainqueurs de coupe",
+          "La Coupe Intertoto",
+          "La Coupe des villes de foires"
+        ],
+        "explication": "La Coupe UEFA réunissait les clubs européens n'ayant pas accès à la Coupe des clubs champions, puis à la Ligue des champions."
+      },
+      {
+        "question": "Quel attaquant anglais détient le record du plus grand nombre de buts marqués en championnat d'Angleterre depuis la création de la Premier League en 1992 ?",
+        "reponse": "Alan Shearer",
+        "propositions": [
+          "Alan Shearer",
+          "Harry Kane",
+          "Wayne Rooney",
+          "Thierry Henry"
+        ],
+        "explication": "Shearer a inscrit 260 buts en Premier League, principalement avec Blackburn Rovers et Newcastle United."
+      },
+      {
+        "question": "Quel club portugais, rival historique du FC Porto et du Sporting, est le club le plus titré du championnat portugais ?",
+        "reponse": "Le Benfica Lisbonne",
+        "propositions": [
+          "Le Benfica Lisbonne",
+          "Le FC Porto",
+          "Le Sporting Portugal",
+          "Le Vitória Guimarães"
+        ],
+        "explication": "Le Benfica a notamment remporté deux Coupes d'Europe des clubs champions, en 1961 et 1962."
+      },
+      {
+        "question": "Quel entraîneur italien détient le record du plus grand nombre de Ligues des champions remportées par un entraîneur, avec cinq titres glanés entre l'AC Milan et le Real Madrid ?",
+        "reponse": "Carlo Ancelotti",
+        "propositions": [
+          "Carlo Ancelotti",
+          "Zinédine Zidane",
+          "Pep Guardiola",
+          "José Mourinho"
+        ],
+        "explication": "Ancelotti a remporté la compétition avec l'AC Milan en 2003 et 2007, puis avec le Real Madrid à plusieurs reprises."
+      },
+      {
+        "question": "Quel pays a remporté la toute première Coupe du monde de football, organisée en 1930 chez lui ?",
+        "reponse": "L'Uruguay",
+        "propositions": [
+          "L'Uruguay",
+          "L'Argentine",
+          "Le Brésil",
+          "Les États-Unis"
+        ],
+        "explication": "L'Uruguay a battu l'Argentine 4-2 en finale, à Montevideo, devant son public."
+      },
+      {
+        "question": "Quel pays organisateur a remporté la Coupe du monde 1934, l'une des deux seules éditions disputées sans la présence de l'Uruguay, tenant du titre ?",
+        "reponse": "L'Italie",
+        "propositions": [
+          "L'Italie",
+          "La Tchécoslovaquie",
+          "L'Allemagne",
+          "L'Autriche"
+        ],
+        "explication": "L'Italie a battu la Tchécoslovaquie en finale, lors d'une compétition fortement marquée par le contexte politique de l'époque fasciste."
       }
     ]
   }

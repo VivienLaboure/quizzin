@@ -276,6 +276,116 @@
           "La Nouvelle-Aquitaine"
         ],
         "explication": "La Bretagne s'avance largement dans l'océan, offrant un très long littoral découpé."
+      },
+      {
+        "question": "Quelle est la plus grande ville de la région Occitanie ?",
+        "reponse": "Toulouse",
+        "propositions": [
+          "Toulouse",
+          "Montpellier",
+          "Nîmes",
+          "Perpignan"
+        ],
+        "explication": "Toulouse est la quatrième ville de France par sa population."
+      },
+      {
+        "question": "Quelle mer borde le sud de la France, de la frontière espagnole à la frontière italienne ?",
+        "reponse": "La mer Méditerranée",
+        "propositions": [
+          "La mer Méditerranée",
+          "L'océan Atlantique",
+          "La Manche",
+          "La mer du Nord"
+        ],
+        "explication": "Le littoral méditerranéen français s'étend sur plus de 1 700 km, en comptant la Corse."
+      },
+      {
+        "question": "Quelle région française borde l'Allemagne, à l'est du pays, et a pour préfecture Strasbourg ?",
+        "reponse": "Le Grand Est",
+        "propositions": [
+          "Le Grand Est",
+          "Les Hauts-de-France",
+          "La Bourgogne-Franche-Comté",
+          "L'Île-de-France"
+        ],
+        "explication": "Strasbourg, préfecture du Grand Est, est aussi le siège du Parlement européen."
+      },
+      {
+        "question": "Quelle chaîne de montagnes françaises, de taille plus modeste que les Alpes, sépare la Franche-Comté de la Suisse ?",
+        "reponse": "Le Jura",
+        "propositions": [
+          "Le Jura",
+          "Les Vosges",
+          "Les Alpes",
+          "Le Massif central"
+        ],
+        "explication": "Le massif du Jura a donné son nom au département français ainsi qu'au canton suisse voisin."
+      },
+      {
+        "question": "Quel grand fleuve français prend sa source dans le Massif central et se jette dans l'océan Atlantique près de Nantes ?",
+        "reponse": "La Loire",
+        "propositions": [
+          "La Loire",
+          "La Garonne",
+          "La Seine",
+          "La Dordogne"
+        ],
+        "explication": "La Loire est le plus long fleuve de France, avec environ 1 012 km de son cours."
+      },
+      {
+        "question": "Quelle grande ville du sud de la France est célèbre pour ses arènes romaines et sa Maison carrée, deux monuments antiques bien conservés ?",
+        "reponse": "Nîmes",
+        "propositions": [
+          "Nîmes",
+          "Arles",
+          "Avignon",
+          "Orange"
+        ],
+        "explication": "Nîmes conserve un patrimoine antique exceptionnel datant de l'époque où la ville s'appelait Nemausus."
+      },
+      {
+        "question": "Quel est le nom de la chaîne de montagnes la plus haute d'Europe occidentale, qui culmine au mont Blanc ?",
+        "reponse": "Les Alpes",
+        "propositions": [
+          "Les Alpes",
+          "Les Pyrénées",
+          "Le Massif central",
+          "Les Carpates"
+        ],
+        "explication": "Les Alpes françaises s'étendent sur plusieurs départements, de la Haute-Savoie aux Alpes-Maritimes."
+      },
+      {
+        "question": "Quelle région française, dont la préfecture est Dijon, est notamment réputée pour ses grands vins ?",
+        "reponse": "La Bourgogne-Franche-Comté",
+        "propositions": [
+          "La Bourgogne-Franche-Comté",
+          "Le Grand Est",
+          "Auvergne-Rhône-Alpes",
+          "Les Pays de la Loire"
+        ],
+        "explication": "Dijon est la préfecture de cette région, créée en 2016 par la fusion de la Bourgogne et de la Franche-Comté."
+      },
+      {
+        "question": "Quelle grande ville française, préfecture des Bouches-du-Rhône, est aussi le plus ancien port de France ?",
+        "reponse": "Marseille",
+        "propositions": [
+          "Marseille",
+          "Toulon",
+          "Nice",
+          "Montpellier"
+        ],
+        "explication": "Marseille, fondée par des colons grecs phocéens vers 600 avant notre ère, est la plus ancienne ville de France."
+      },
+      {
+        "question": "Quel massif montagneux, situé dans le sud-est de la France, abrite la station de ski de l'Alpe d'Huez ?",
+        "reponse": "Les Alpes",
+        "propositions": [
+          "Les Alpes",
+          "Les Pyrénées",
+          "Le Massif central",
+          "Le Jura"
+        ],
+        "explication": "L'Alpe d'Huez, dans l'Isère, est une station emblématique des Alpes françaises, aussi connue pour son col emprunté par le Tour de France."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le parc national des Cévennes"
         ],
         "explication": "Créé en 1963, ce fut le premier parc national métropolitain de France."
+      },
+      {
+        "question": "Quelle ville est la préfecture de la région Centre-Val de Loire ?",
+        "reponse": "Orléans",
+        "propositions": [
+          "Orléans",
+          "Tours",
+          "Bourges",
+          "Blois"
+        ],
+        "explication": "Orléans, sur les bords de la Loire, est la préfecture de cette région depuis sa création."
+      },
+      {
+        "question": "Quel est le nom de la grande plaine agricole qui couvre une large partie du nord de la France, entre l'Île-de-France et la Belgique ?",
+        "reponse": "Le Bassin parisien",
+        "propositions": [
+          "Le Bassin parisien",
+          "La plaine d'Alsace",
+          "Le Bassin aquitain",
+          "La Champagne crayeuse"
+        ],
+        "explication": "Le Bassin parisien est une vaste cuvette sédimentaire, l'une des régions les plus fertiles du pays."
+      },
+      {
+        "question": "Quel est le nom du plus long tunnel routier de France, qui relie la Savoie à l'Italie sous les Alpes ?",
+        "reponse": "Le tunnel du Fréjus",
+        "propositions": [
+          "Le tunnel du Fréjus",
+          "Le tunnel du Mont-Blanc",
+          "Le tunnel de Toulon",
+          "Le tunnel sous la Manche"
+        ],
+        "explication": "Le tunnel du Fréjus mesure près de 13 km, légèrement plus long que celui du Mont-Blanc."
+      },
+      {
+        "question": "Quelle rivière, qui a donné son nom à un département, traverse la ville de Besançon avant de rejoindre la Saône ?",
+        "reponse": "Le Doubs",
+        "propositions": [
+          "Le Doubs",
+          "L'Ain",
+          "La Loue",
+          "L'Yonne"
+        ],
+        "explication": "Le Doubs dessine une boucle caractéristique autour de la citadelle de Besançon."
+      },
+      {
+        "question": "Quel grand fleuve européen marque une partie de la frontière entre la France et l'Allemagne ?",
+        "reponse": "Le Rhin",
+        "propositions": [
+          "Le Rhin",
+          "La Moselle",
+          "La Sarre",
+          "Le Danube"
+        ],
+        "explication": "Le Rhin longe notamment l'Alsace, séparant la France du Pays de Bade allemand."
+      },
+      {
+        "question": "Quelle région administrative française métropolitaine, la plus petite par sa superficie, est aussi la seule à être une île ?",
+        "reponse": "La Corse",
+        "propositions": [
+          "La Corse",
+          "L'Île-de-France",
+          "Les Pays de la Loire",
+          "La Bretagne"
+        ],
+        "explication": "La Corse dispose d'un statut de collectivité territoriale particulier, distinct des autres régions françaises."
+      },
+      {
+        "question": "Quel département français d'outre-mer, situé dans la mer des Caraïbes, est voisin de la Martinique ?",
+        "reponse": "La Guadeloupe",
+        "propositions": [
+          "La Guadeloupe",
+          "La Martinique",
+          "La Guyane",
+          "Saint-Martin"
+        ],
+        "explication": "La Guadeloupe et la Martinique sont séparées par le canal de la Dominique."
+      },
+      {
+        "question": "Quelle ville est la préfecture du département du Var, sur la Côte d'Azur ?",
+        "reponse": "Toulon",
+        "propositions": [
+          "Toulon",
+          "Fréjus",
+          "Draguignan",
+          "Hyères"
+        ],
+        "explication": "Toulon abrite notamment la principale base navale de la Marine nationale française en Méditerranée."
+      },
+      {
+        "question": "Quel plateau calcaire emblématique du sud du Massif central est célèbre pour son élevage ovin et la production du roquefort ?",
+        "reponse": "Le Larzac",
+        "propositions": [
+          "Le Larzac",
+          "Le plateau de l'Aubrac",
+          "Le plateau ardéchois",
+          "Le plateau de Millevaches"
+        ],
+        "explication": "Le Larzac fait partie des Grands Causses, classés au patrimoine mondial de l'UNESCO."
+      },
+      {
+        "question": "Quel canal navigable, achevé en 1832, relie le bassin de la Seine à celui de la Saône en traversant la Bourgogne ?",
+        "reponse": "Le canal de Bourgogne",
+        "propositions": [
+          "Le canal de Bourgogne",
+          "Le canal du Midi",
+          "Le canal du Rhône au Rhin",
+          "Le canal de la Marne au Rhin"
+        ],
+        "explication": "Ce canal relie l'Yonne, affluent de la Seine, à la Saône, affluent du Rhône."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Le cirque de Salazie"
         ],
         "explication": "Le cirque de Gavarnie abrite l'une des plus hautes cascades d'Europe, avec une chute d'environ 420 mètres."
+      },
+      {
+        "question": "Quel est le plus grand lac artificiel de France, un réservoir situé dans les Hautes-Alpes et alimenté par la Durance ?",
+        "reponse": "Le lac de Serre-Ponçon",
+        "propositions": [
+          "Le lac de Serre-Ponçon",
+          "Le lac du Bourget",
+          "Le lac d'Annecy",
+          "Le lac de Vouglans"
+        ],
+        "explication": "Mis en eau en 1961, ce barrage-réservoir protège notamment la basse vallée de la Durance des crues."
+      },
+      {
+        "question": "Quelle est la plus grande forêt domaniale (appartenant à l'État) de France métropolitaine, située près d'Orléans ?",
+        "reponse": "La forêt d'Orléans",
+        "propositions": [
+          "La forêt d'Orléans",
+          "La forêt de Fontainebleau",
+          "La forêt de Compiègne",
+          "La forêt de Chantilly"
+        ],
+        "explication": "La forêt d'Orléans couvre environ 35 000 hectares, majoritairement composés de chênes et de pins."
+      },
+      {
+        "question": "Quel est le plus ancien pont encore en service de Paris, achevé au début du XVIIe siècle malgré son nom ?",
+        "reponse": "Le Pont Neuf",
+        "propositions": [
+          "Le Pont Neuf",
+          "Le pont Marie",
+          "Le pont au Change",
+          "Le pont Royal"
+        ],
+        "explication": "Le Pont Neuf, achevé en 1607, doit son nom au fait qu'il fut, à l'époque de sa construction, un pont innovant sans maisons bâties dessus."
+      },
+      {
+        "question": "Comment appelle-t-on le vent froid et violent qui souffle du nord vers le sud dans la vallée du Rhône, en direction de la Méditerranée ?",
+        "reponse": "Le mistral",
+        "propositions": [
+          "Le mistral",
+          "Le vent d'autan",
+          "La tramontane",
+          "Le foehn"
+        ],
+        "explication": "Le mistral se forme notamment lorsqu'un anticyclone s'installe sur la France et une dépression sur le golfe de Gênes."
+      },
+      {
+        "question": "Comment appelle-t-on le vent chaud et sec soufflant du sud-est sur le couloir toulousain et une partie du Sud-Ouest de la France ?",
+        "reponse": "Le vent d'autan",
+        "propositions": [
+          "Le vent d'autan",
+          "Le mistral",
+          "La tramontane",
+          "Le sirocco"
+        ],
+        "explication": "Le vent d'autan est traditionnellement associé, dans la culture occitane, à une influence sur l'humeur des habitants."
+      },
+      {
+        "question": "Quelle grotte ornée préhistorique, découverte en 1940 en Dordogne, est célèbre pour ses peintures rupestres représentant notamment de grands taureaux ?",
+        "reponse": "La grotte de Lascaux",
+        "propositions": [
+          "La grotte de Lascaux",
+          "La grotte Chauvet",
+          "La grotte de Font-de-Gaume",
+          "La grotte de Niaux"
+        ],
+        "explication": "Découverte par quatre adolescents, la grotte de Lascaux a dû être fermée au public en 1963 pour préserver les œuvres."
+      },
+      {
+        "question": "Quel est le nom de la plus grande dune de sable d'Europe, située sur le littoral atlantique au sud du bassin d'Arcachon ?",
+        "reponse": "La dune du Pilat",
+        "propositions": [
+          "La dune du Pilat",
+          "La dune de Moliets",
+          "La dune de l'Espiguette",
+          "La dune de la Côte Sauvage"
+        ],
+        "explication": "La dune du Pilat culmine à plus de 100 mètres et continue de progresser lentement vers l'intérieur des terres."
+      },
+      {
+        "question": "Quelle ville de Provence, fondée par les Romains sous le nom d'Arelate, est célèbre pour ses arènes et son théâtre antique ?",
+        "reponse": "Arles",
+        "propositions": [
+          "Arles",
+          "Nîmes",
+          "Orange",
+          "Vienne"
+        ],
+        "explication": "Arles a aussi été un lieu de résidence et d'inspiration pour le peintre Vincent van Gogh."
+      },
+      {
+        "question": "Quel est le nom du premier parc naturel marin créé en France, en 2007, au large de la pointe de la Bretagne ?",
+        "reponse": "Le parc naturel marin d'Iroise",
+        "propositions": [
+          "Le parc naturel marin d'Iroise",
+          "Le parc naturel marin du golfe du Lion",
+          "Le parc marin de la Côte Bleue",
+          "Le parc naturel marin de Mayotte"
+        ],
+        "explication": "La mer d'Iroise, au large du Finistère, abrite une biodiversité marine exceptionnelle, dont des populations de phoques gris."
+      },
+      {
+        "question": "Quelle ville de Savoie, fondée au XIXe siècle par la fusion de deux bourgs, a accueilli les Jeux olympiques d'hiver de 1992 ?",
+        "reponse": "Albertville",
+        "propositions": [
+          "Albertville",
+          "Chambéry",
+          "Annecy",
+          "Grenoble"
+        ],
+        "explication": "Grenoble avait déjà accueilli les Jeux d'hiver en 1968, avant qu'Albertville ne les reçoive à son tour en 1992."
       }
     ]
   }

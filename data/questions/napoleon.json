@@ -276,6 +276,116 @@
           "Letizia Bonaparte"
         ],
         "explication": "Caroline Bonaparte est devenue reine de Naples aux côtés de son mari Joachim Murat."
+      },
+      {
+        "question": "Dans quelle ville corse Napoléon Bonaparte est-il né le 15 août 1769 ?",
+        "reponse": "Ajaccio",
+        "propositions": [
+          "Ajaccio",
+          "Bastia",
+          "Corte",
+          "Calvi"
+        ],
+        "explication": "Napoléon est né à Ajaccio, où sa maison natale est aujourd'hui un musée."
+      },
+      {
+        "question": "En quel mois de l'année 1815 la bataille de Waterloo, qui scelle la défaite finale de Napoléon, a-t-elle lieu ?",
+        "reponse": "Juin",
+        "propositions": [
+          "Juin",
+          "Mars",
+          "Septembre",
+          "Décembre"
+        ],
+        "explication": "La bataille de Waterloo se déroule le 18 juin 1815, dans l'actuelle Belgique."
+      },
+      {
+        "question": "Quel frère de Napoléon est devenu roi de Westphalie en 1807 ?",
+        "reponse": "Jérôme Bonaparte",
+        "propositions": [
+          "Jérôme Bonaparte",
+          "Louis Bonaparte",
+          "Joseph Bonaparte",
+          "Lucien Bonaparte"
+        ],
+        "explication": "Jérôme, le plus jeune des frères de Napoléon, règne sur le royaume de Westphalie jusqu'en 1813."
+      },
+      {
+        "question": "Quelle princesse autrichienne Napoléon épouse-t-il en secondes noces en 1810, après son divorce de Joséphine ?",
+        "reponse": "Marie-Louise d'Autriche",
+        "propositions": [
+          "Marie-Louise d'Autriche",
+          "Marie Walewska",
+          "Hortense de Beauharnais",
+          "Pauline Bonaparte"
+        ],
+        "explication": "Ce mariage avec la fille de l'empereur d'Autriche vise à assurer à Napoléon une descendance légitime."
+      },
+      {
+        "question": "Quel était le véritable prénom de Joséphine de Beauharnais avant que Napoléon ne la surnomme ainsi ?",
+        "reponse": "Rose",
+        "propositions": [
+          "Rose",
+          "Marie",
+          "Hortense",
+          "Désirée"
+        ],
+        "explication": "Née Marie-Josèphe-Rose Tascher de La Pagerie, elle est rebaptisée 'Joséphine' par Napoléon."
+      },
+      {
+        "question": "Dans quel océan se trouve l'île de Sainte-Hélène, lieu du dernier exil de Napoléon ?",
+        "reponse": "L'océan Atlantique",
+        "propositions": [
+          "L'océan Atlantique",
+          "L'océan Indien",
+          "L'océan Pacifique",
+          "La mer Méditerranée"
+        ],
+        "explication": "Sainte-Hélène est une île isolée de l'Atlantique Sud, à plus de 1 800 km de la côte africaine."
+      },
+      {
+        "question": "Quel monument parisien Napoléon commande-t-il en 1806 pour célébrer la victoire d'Austerlitz ?",
+        "reponse": "L'Arc de Triomphe",
+        "propositions": [
+          "L'Arc de Triomphe",
+          "La colonne Vendôme",
+          "Les Invalides",
+          "Le Panthéon"
+        ],
+        "explication": "L'Arc de Triomphe, situé place de l'Étoile, n'est finalement achevé qu'en 1836, sous le roi Louis-Philippe."
+      },
+      {
+        "question": "En quelle année Napoléon abdique-t-il pour la première fois, avant son exil à l'île d'Elbe ?",
+        "reponse": "1814",
+        "propositions": [
+          "1814",
+          "1812",
+          "1815",
+          "1810"
+        ],
+        "explication": "Napoléon abdique une première fois le 6 avril 1814, à Fontainebleau."
+      },
+      {
+        "question": "Combien de temps durent environ les Cent-Jours, entre le retour de Napoléon à Paris et sa défaite finale à Waterloo ?",
+        "reponse": "Environ trois mois",
+        "propositions": [
+          "Environ trois mois",
+          "Environ un an",
+          "Environ une semaine",
+          "Environ six mois"
+        ],
+        "explication": "Les Cent-Jours s'étendent du 20 mars au 22 juin 1815 environ, du retour de Napoléon à sa seconde abdication."
+      },
+      {
+        "question": "Quel frère cadet de Napoléon, prince de Canino, a joué un rôle clé lors du coup d'État du 18 Brumaire avant de s'éloigner politiquement de lui ?",
+        "reponse": "Lucien Bonaparte",
+        "propositions": [
+          "Lucien Bonaparte",
+          "Jérôme Bonaparte",
+          "Louis Bonaparte",
+          "Joseph Bonaparte"
+        ],
+        "explication": "Lucien préside alors le Conseil des Cinq-Cents, ce qui facilite grandement la réussite du coup d'État de Napoléon."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le Code forestier"
         ],
         "explication": "Ce code remplace l'ancien droit pénal révolutionnaire et reste la base du droit pénal français pendant près de deux siècles."
+      },
+      {
+        "question": "En quelle année Napoléon rétablit-il l'esclavage dans les colonies françaises, après son abolition pendant la Révolution ?",
+        "reponse": "1802",
+        "propositions": [
+          "1802",
+          "1804",
+          "1799",
+          "1815"
+        ],
+        "explication": "La loi du 20 mai 1802 rétablit l'esclavage, notamment en Guadeloupe et en Martinique."
+      },
+      {
+        "question": "Quelle colonne parisienne, coulée dans le bronze de canons pris à l'ennemi, célèbre la victoire d'Austerlitz ?",
+        "reponse": "La colonne Vendôme",
+        "propositions": [
+          "La colonne Vendôme",
+          "L'Arc de Triomphe",
+          "L'obélisque de la Concorde",
+          "La colonne de Juillet"
+        ],
+        "explication": "Inspirée de la colonne Trajane à Rome, elle est surmontée d'une statue de Napoléon."
+      },
+      {
+        "question": "Quel traité, signé en avril 1814, organise la première abdication de Napoléon et son exil à l'île d'Elbe ?",
+        "reponse": "Le traité de Fontainebleau",
+        "propositions": [
+          "Le traité de Fontainebleau",
+          "Le traité de Paris",
+          "Le traité de Vienne",
+          "Le traité de Tilsit"
+        ],
+        "explication": "Ce traité accorde à Napoléon la souveraineté de l'île d'Elbe ainsi qu'une rente annuelle."
+      },
+      {
+        "question": "Quelle bataille, l'une des plus meurtrières d'une seule journée des guerres napoléoniennes, précède de peu l'entrée de Napoléon à Moscou en septembre 1812 ?",
+        "reponse": "La bataille de la Moskova (Borodino)",
+        "propositions": [
+          "La bataille de la Moskova (Borodino)",
+          "La bataille de Smolensk",
+          "La bataille de la Bérézina",
+          "La bataille de Lützen"
+        ],
+        "explication": "Cette bataille du 7 septembre 1812 aurait causé plus de 70 000 victimes en une seule journée."
+      },
+      {
+        "question": "Quelle institution chargée de contrôler la régularité des comptes publics a été créée par Napoléon en 1807 ?",
+        "reponse": "La Cour des comptes",
+        "propositions": [
+          "La Cour des comptes",
+          "Le Conseil d'État",
+          "Le Sénat",
+          "La Banque de France"
+        ],
+        "explication": "La Cour des comptes, fondée en 1807, exerce toujours aujourd'hui cette mission de contrôle financier."
+      },
+      {
+        "question": "Quelle bataille de 1813, remportée par Napoléon en Saxe, précède de quelques semaines seulement sa défaite décisive de Leipzig ?",
+        "reponse": "La bataille de Dresde",
+        "propositions": [
+          "La bataille de Dresde",
+          "La bataille de Lützen",
+          "La bataille de Bautzen",
+          "La bataille de Hanau"
+        ],
+        "explication": "Napoléon remporte la bataille de Dresde fin août 1813, l'une de ses dernières grandes victoires."
+      },
+      {
+        "question": "Quel organe consultatif, créé par la Constitution de l'an VIII en 1799, conseille encore aujourd'hui le gouvernement français sur les projets de loi ?",
+        "reponse": "Le Conseil d'État",
+        "propositions": [
+          "Le Conseil d'État",
+          "Le Sénat",
+          "La Cour des comptes",
+          "Le Tribunat"
+        ],
+        "explication": "Le Conseil d'État, fondé en 1799, demeure la plus haute juridiction administrative française."
+      },
+      {
+        "question": "Comment se nomme le régime politique en vigueur en France entre le coup d'État de 1799 et le sacre impérial de 1804 ?",
+        "reponse": "Le Consulat",
+        "propositions": [
+          "Le Consulat",
+          "Le Directoire",
+          "L'Empire",
+          "La Restauration"
+        ],
+        "explication": "Le Consulat, dominé par Napoléon en tant que Premier Consul, précède directement la proclamation de l'Empire."
+      },
+      {
+        "question": "Quelle bataille navale de 1798, aussi appelée bataille d'Aboukir, détruit la flotte française et isole l'armée de Bonaparte en Égypte ?",
+        "reponse": "La bataille du Nil",
+        "propositions": [
+          "La bataille du Nil",
+          "La bataille de Trafalgar",
+          "La bataille de Copenhague",
+          "La bataille de Navarin"
+        ],
+        "explication": "Cette défaite navale, infligée par l'amiral Nelson en août 1798, compromet durablement la campagne d'Égypte."
+      },
+      {
+        "question": "Quel maréchal d'Empire, surnommé 'le Duc de Dalmatie', contribue à la victoire d'Austerlitz avant de longuement combattre en Espagne ?",
+        "reponse": "Jean-de-Dieu Soult",
+        "propositions": [
+          "Jean-de-Dieu Soult",
+          "Louis-Alexandre Berthier",
+          "André Masséna",
+          "Michel Ney"
+        ],
+        "explication": "Soult devient plus tard ministre de la Guerre sous la Monarchie de Juillet."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Les carabiniers"
         ],
         "explication": "Ce surnom leur aurait été donné par Napoléon lui-même, malgré leurs plaintes continuelles, en raison de leur fidélité inébranlable."
+      },
+      {
+        "question": "Quel grand mathématicien et astronome français, brièvement ministre de l'Intérieur de Napoléon en 1799, est l'auteur du 'Traité de mécanique céleste' ?",
+        "reponse": "Pierre-Simon de Laplace",
+        "propositions": [
+          "Pierre-Simon de Laplace",
+          "Gaspard Monge",
+          "Joseph-Louis Lagrange",
+          "Jean-Baptiste Fourier"
+        ],
+        "explication": "Laplace n'est resté ministre de l'Intérieur que six semaines avant d'être nommé sénateur par Napoléon."
+      },
+      {
+        "question": "Quel ingénieur français a inventé le télégraphe optique (système Chappe), largement utilisé sous le Consulat et l'Empire pour transmettre rapidement les messages militaires ?",
+        "reponse": "Claude Chappe",
+        "propositions": [
+          "Claude Chappe",
+          "Nicolas-Jacques Conté",
+          "André-Marie Ampère",
+          "Denis Papin"
+        ],
+        "explication": "Le réseau de tours à bras articulés mis au point par Chappe reliait notamment Paris à plusieurs grandes villes de l'Empire."
+      },
+      {
+        "question": "Quel maréchal d'Empire Napoléon nomme-t-il gouverneur militaire de Moscou en septembre 1812, peu avant que la ville ne soit ravagée par un immense incendie ?",
+        "reponse": "Édouard Mortier",
+        "propositions": [
+          "Édouard Mortier",
+          "Louis-Nicolas Davout",
+          "Michel Ney",
+          "Joachim Murat"
+        ],
+        "explication": "Mortier, duc de Trévise, organise notamment sur ordre de Napoléon la destruction partielle du Kremlin lors de la retraite française."
+      },
+      {
+        "question": "Quel chimiste français, membre de l'expédition d'Égypte, s'est particulièrement intéressé à la réversibilité des réactions chimiques et aux équilibres entre corps réagissants ?",
+        "reponse": "Claude Louis Berthollet",
+        "propositions": [
+          "Claude Louis Berthollet",
+          "Gaspard Monge",
+          "Jean-Baptiste Fourier",
+          "Étienne-Louis Malus"
+        ],
+        "explication": "Berthollet a notamment étudié la formation de certains sels dans les lacs égyptiens, nourrissant sa réflexion sur les équilibres chimiques."
+      },
+      {
+        "question": "Quel amiral français commandait la flotte franco-espagnole à la bataille de Trafalgar en 1805, avant d'être fait prisonnier par les Britanniques ?",
+        "reponse": "Pierre-Charles de Villeneuve",
+        "propositions": [
+          "Pierre-Charles de Villeneuve",
+          "Dominique de Villaret",
+          "François-Paul de Brueys d'Aigalliers",
+          "Honoré Ganteaume"
+        ],
+        "explication": "Libéré par les Britanniques en 1806, Villeneuve meurt peu après dans des circonstances qui restent discutées."
+      },
+      {
+        "question": "Quel amiral français commandait la flotte détruite par Nelson lors de la bataille du Nil en 1798, où il trouva la mort à bord de son vaisseau amiral ?",
+        "reponse": "François-Paul de Brueys d'Aigalliers",
+        "propositions": [
+          "François-Paul de Brueys d'Aigalliers",
+          "Pierre-Charles de Villeneuve",
+          "Honoré Ganteaume",
+          "Denis Decrès"
+        ],
+        "explication": "Brueys meurt lorsque L'Orient, son vaisseau amiral, explose en pleine bataille d'Aboukir."
+      },
+      {
+        "question": "Quel ingénieur français, inventeur du crayon moderne à mine de graphite et d'argile, dirigea la commission scientifique lors de la campagne d'Égypte ?",
+        "reponse": "Nicolas-Jacques Conté",
+        "propositions": [
+          "Nicolas-Jacques Conté",
+          "Dominique Vivant Denon",
+          "Gaspard Monge",
+          "Jean-Baptiste Fourier"
+        ],
+        "explication": "Conté avait mis au point son procédé de fabrication des crayons en 1795, en pleine pénurie de graphite importé d'Angleterre."
+      },
+      {
+        "question": "Quel cardinal italien, secrétaire d'État du pape Pie VII, a négocié pour le Saint-Siège le Concordat de 1801 avec les représentants de Napoléon ?",
+        "reponse": "Ercole Consalvi",
+        "propositions": [
+          "Ercole Consalvi",
+          "Giulio della Somaglia",
+          "Bartolomeo Pacca",
+          "Pie VII (le pape lui-même)"
+        ],
+        "explication": "Consalvi fut le principal artisan vatican du Concordat, signé à Paris le 15 juillet 1801."
+      },
+      {
+        "question": "Quel ancien chef vendéen rallié à Napoléon, devenu ecclésiastique, négocia pour le compte de la France le Concordat de 1801 ?",
+        "reponse": "Étienne Bernier",
+        "propositions": [
+          "Étienne Bernier",
+          "Emmanuel de Grouchy",
+          "Jean-Baptiste de Belloy",
+          "Talleyrand"
+        ],
+        "explication": "L'abbé Bernier joue un rôle clé dans les négociations religieuses menées pour le compte du Premier Consul."
+      },
+      {
+        "question": "Quel maréchal français, à la tête d'un important corps de cavalerie lancé à la poursuite des Prussiens, est souvent blâmé pour son retard à rejoindre Napoléon le jour de Waterloo ?",
+        "reponse": "Emmanuel de Grouchy",
+        "propositions": [
+          "Emmanuel de Grouchy",
+          "Michel Ney",
+          "Jean-Baptiste Bernadotte",
+          "Nicolas Oudinot"
+        ],
+        "explication": "Grouchy ne parvient pas à rejoindre le champ de bataille à temps, laissant les forces prussiennes de Blücher renforcer Wellington."
       }
     ]
   }

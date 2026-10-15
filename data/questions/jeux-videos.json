@@ -276,6 +276,116 @@
           "Ori and the Blind Forest"
         ],
         "explication": "Celeste a été salué pour la précision de son gameplay de plateforme et son propos sur la santé mentale."
+      },
+      {
+        "question": "Quel jeu vidéo multijoueur, développé par Mediatonic et sorti en 2020, met en scène des personnages colorés s'affrontant dans des mini-jeux sur des parcours d'obstacles ?",
+        "reponse": "Fall Guys: Ultimate Knockout",
+        "propositions": [
+          "Fall Guys: Ultimate Knockout",
+          "Overcooked",
+          "Human: Fall Flat",
+          "Gang Beasts"
+        ],
+        "explication": "Fall Guys a connu un succès immédiat à sa sortie, devenant un phénomène du jeu en ligne gratuit sur consoles et PC."
+      },
+      {
+        "question": "Quel jeu vidéo de gestion urbaine, créé par Will Wright, a donné son nom à tout un genre de jeux de simulation de ville ?",
+        "reponse": "SimCity",
+        "propositions": [
+          "SimCity",
+          "Cities: Skylines",
+          "Les Sims",
+          "Tropico"
+        ],
+        "explication": "SimCity, sorti en 1989, a été développé par Will Wright avant qu'il ne crée plus tard 'Les Sims'."
+      },
+      {
+        "question": "Quel jeu vidéo de plateforme met en scène un plombier qui doit sauter sur des champignons et des tortues pour progresser dans ses niveaux ?",
+        "reponse": "Super Mario Bros.",
+        "propositions": [
+          "Super Mario Bros.",
+          "Sonic the Hedgehog",
+          "Rayman",
+          "Crash Bandicoot"
+        ],
+        "explication": "Super Mario Bros. est sorti en 1985 sur la console NES de Nintendo."
+      },
+      {
+        "question": "Quel jeu vidéo multijoueur de tir, développé par Valve, oppose une équipe de terroristes à une équipe de contre-terroristes ?",
+        "reponse": "Counter-Strike",
+        "propositions": [
+          "Counter-Strike",
+          "Call of Duty",
+          "Battlefield",
+          "Valorant"
+        ],
+        "explication": "Counter-Strike est né en 1999 comme une modification du jeu 'Half-Life' avant de devenir une licence à part entière."
+      },
+      {
+        "question": "Quelle licence de jeux vidéo, créée par Satoshi Tajiri, invite les joueurs à capturer et à entraîner des créatures ?",
+        "reponse": "Pokémon",
+        "propositions": [
+          "Pokémon",
+          "Digimon",
+          "Yo-kai Watch",
+          "Monster Hunter"
+        ],
+        "explication": "Les premiers jeux Pokémon, 'Rouge' et 'Vert', sont sortis sur Game Boy au Japon en 1996."
+      },
+      {
+        "question": "Quel jeu vidéo de survie en monde ouvert, sorti en 2017, permet aux joueurs d'apprivoiser et de faire évoluer des dinosaures ?",
+        "reponse": "ARK: Survival Evolved",
+        "propositions": [
+          "ARK: Survival Evolved",
+          "Minecraft",
+          "Rust",
+          "The Forest"
+        ],
+        "explication": "ARK: Survival Evolved est passé par une longue phase d'accès anticipé avant sa sortie officielle en 2017."
+      },
+      {
+        "question": "Quel jeu vidéo de combat Nintendo réunit des personnages de licences différentes comme Mario, Link, Pikachu et Kirby sur des plateformes mouvantes ?",
+        "reponse": "Super Smash Bros.",
+        "propositions": [
+          "Super Smash Bros.",
+          "Mario Kart",
+          "Mario Party",
+          "Pokémon Stadium"
+        ],
+        "explication": "Le premier 'Super Smash Bros.' est sorti sur Nintendo 64 en 1999."
+      },
+      {
+        "question": "Quel jeu vidéo multijoueur gratuit, développé par Valve, voit s'affronter des héros aux capacités uniques dans une arène, rival de 'League of Legends' ?",
+        "reponse": "Dota 2",
+        "propositions": [
+          "Dota 2",
+          "League of Legends",
+          "Heroes of the Storm",
+          "Smite"
+        ],
+        "explication": "Dota 2, sorti en 2013, est l'héritier direct du mod communautaire 'Defense of the Ancients' sur Warcraft III."
+      },
+      {
+        "question": "Quel jeu vidéo d'horreur multijoueur, sorti en 2016, voit quatre survivants tenter de réparer des générateurs pour échapper à un tueur ?",
+        "reponse": "Dead by Daylight",
+        "propositions": [
+          "Dead by Daylight",
+          "Friday the 13th: The Game",
+          "Resident Evil Resistance",
+          "Evil Dead: The Game"
+        ],
+        "explication": "Dead by Daylight a été développé par le studio canadien Behaviour Interactive."
+      },
+      {
+        "question": "Quel jeu vidéo d'aventure, mettant en scène un petit robot nommé Astro, sert de vitrine technologique à la manette DualSense de la PlayStation 5 ?",
+        "reponse": "Astro's Playroom",
+        "propositions": [
+          "Astro's Playroom",
+          "Ratchet & Clank",
+          "Knack",
+          "LittleBigPlanet"
+        ],
+        "explication": "Astro's Playroom est fourni gratuitement avec chaque console PlayStation 5 depuis son lancement en 2020."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Slightly Mad Studios"
         ],
         "explication": "Gran Turismo est réputé pour son souci de réalisme dans la simulation automobile."
+      },
+      {
+        "question": "Quel jeu vidéo de rôle et d'action, développé par Bethesda, se déroule dans un monde post-apocalyptique peuplé de mutants et de robots ?",
+        "reponse": "Fallout",
+        "propositions": [
+          "Fallout",
+          "The Elder Scrolls",
+          "Wasteland",
+          "Metro"
+        ],
+        "explication": "Le premier 'Fallout' est sorti en 1997, développé à l'origine par Interplay avant que la licence ne passe à Bethesda."
+      },
+      {
+        "question": "Quelle entreprise, fondée par David Baszucki, a développé la plateforme de jeux créés par les utilisateurs 'Roblox' ?",
+        "reponse": "Roblox Corporation",
+        "propositions": [
+          "Roblox Corporation",
+          "Epic Games",
+          "Mojang",
+          "Unity Technologies"
+        ],
+        "explication": "Roblox Corporation a été fondée en 2004, mais la plateforme n'a été lancée publiquement qu'en 2006."
+      },
+      {
+        "question": "Quel jeu vidéo narratif indépendant, développé par Supergiant Games et sorti en 2020, met en scène le fils d'Hadès tentant de s'échapper des Enfers ?",
+        "reponse": "Hades",
+        "propositions": [
+          "Hades",
+          "Bastion",
+          "Transistor",
+          "Pyre"
+        ],
+        "explication": "Hades a remporté le prix du meilleur jeu d'action lors des Game Awards 2020."
+      },
+      {
+        "question": "Quel jeu vidéo de stratégie tactique au tour par tour, développé par Firaxis Games, oppose l'humanité à une invasion extraterrestre dans la série 'XCOM' ?",
+        "reponse": "XCOM: Enemy Unknown",
+        "propositions": [
+          "XCOM: Enemy Unknown",
+          "StarCraft",
+          "Civilization",
+          "Total War"
+        ],
+        "explication": "XCOM: Enemy Unknown, sorti en 2012, est un remake moderne du jeu culte 'UFO: Enemy Unknown' de 1994."
+      },
+      {
+        "question": "Quel studio japonais, créateur de la série 'Monster Hunter', a connu un immense succès mondial avec 'Monster Hunter: World' en 2018 ?",
+        "reponse": "Capcom",
+        "propositions": [
+          "Capcom",
+          "Square Enix",
+          "Bandai Namco",
+          "Koei Tecmo"
+        ],
+        "explication": "Monster Hunter: World a été le jeu le plus vendu de l'histoire de Capcom lors de sa sortie."
+      },
+      {
+        "question": "Quel jeu vidéo de stratégie en temps réel, développé par Blizzard et sorti en 1998, oppose Terrans, Zergs et Protoss dans l'espace ?",
+        "reponse": "StarCraft",
+        "propositions": [
+          "StarCraft",
+          "Warcraft III",
+          "Command & Conquer",
+          "Age of Empires"
+        ],
+        "explication": "StarCraft est devenu un pilier de l'esport, en particulier en Corée du Sud."
+      },
+      {
+        "question": "Quel jeu de rôle en ligne massivement multijoueur, développé par Blizzard et lancé en 2004, reste l'un des MMORPG les plus joués au monde ?",
+        "reponse": "World of Warcraft",
+        "propositions": [
+          "World of Warcraft",
+          "Final Fantasy XIV",
+          "Guild Wars 2",
+          "EverQuest"
+        ],
+        "explication": "World of Warcraft se déroule dans l'univers de Warcraft, précédemment connu à travers des jeux de stratégie."
+      },
+      {
+        "question": "Quel jeu vidéo narratif développé par Supermassive Games, sorti en 2015, place des adolescents dans un chalet isolé lors d'une nuit d'horreur à choix multiples ?",
+        "reponse": "Until Dawn",
+        "propositions": [
+          "Until Dawn",
+          "Heavy Rain",
+          "The Quarry",
+          "Man of Medan"
+        ],
+        "explication": "Until Dawn propose un système de choix narratifs où chaque décision peut entraîner la mort d'un personnage."
+      },
+      {
+        "question": "Quel studio américain, créateur des séries 'Fallout' et 'The Elder Scrolls', a aussi développé le jeu spatial 'Starfield' en 2023 ?",
+        "reponse": "Bethesda Game Studios",
+        "propositions": [
+          "Bethesda Game Studios",
+          "Obsidian Entertainment",
+          "Arkane Studios",
+          "id Software"
+        ],
+        "explication": "Starfield est la première nouvelle licence majeure créée par Bethesda Game Studios depuis 'The Elder Scrolls'."
+      },
+      {
+        "question": "Quel jeu vidéo d'aventure en monde ouvert, développé par Ubisoft, met en scène des assassins combattant les Templiers à travers l'histoire, dont le premier épisode est sorti en 2007 ?",
+        "reponse": "Assassin's Creed",
+        "propositions": [
+          "Assassin's Creed",
+          "Prince of Persia",
+          "Watch Dogs",
+          "For Honor"
+        ],
+        "explication": "Le premier 'Assassin's Creed' se déroulait durant les croisades, à Jérusalem, Damas et Acre."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Davey Wreden"
         ],
         "explication": "Edmund McMillen est également connu pour son travail artistique distinctif et provocateur."
+      },
+      {
+        "question": "Quel studio canadien a développé le jeu de survie 'Don't Starve' (2013), et est aussi connu pour 'Oxygen Not Included' et 'Mark of the Ninja' ?",
+        "reponse": "Klei Entertainment",
+        "propositions": [
+          "Klei Entertainment",
+          "Motion Twin",
+          "Team Cherry",
+          "Supergiant Games"
+        ],
+        "explication": "Klei Entertainment, basé à Vancouver, s'est fait connaître par la diversité de ses jeux indépendants acclamés."
+      },
+      {
+        "question": "Quel développeur indépendant américain, créateur de 'Fez' (2012) via le studio Polytron, a connu une sortie tourmentée marquée par des conflits publics avec la presse spécialisée ?",
+        "reponse": "Phil Fish",
+        "propositions": [
+          "Phil Fish",
+          "Jonathan Blow",
+          "Edmund McMillen",
+          "Toby Fox"
+        ],
+        "explication": "Phil Fish a fini par annuler la suite de 'Fez' et s'est retiré de l'industrie du jeu vidéo après ces polémiques."
+      },
+      {
+        "question": "Quel studio américain, créateur du jeu narratif 'Firewatch' (2016), a ensuite été racheté par Valve en 2018 ?",
+        "reponse": "Campo Santo",
+        "propositions": [
+          "Campo Santo",
+          "Giant Sparrow",
+          "Fullbright",
+          "Night School Studio"
+        ],
+        "explication": "Firewatch met en scène un garde forestier isolé dans le Wyoming, en communication radio avec sa superviseure."
+      },
+      {
+        "question": "Quel studio américain, fondé par d'anciens employés de Telltale Games, a développé 'Oxenfree' (2016), jeu d'aventure surnaturelle pour adolescents ?",
+        "reponse": "Night School Studio",
+        "propositions": [
+          "Night School Studio",
+          "Campo Santo",
+          "Fullbright",
+          "Giant Sparrow"
+        ],
+        "explication": "Oxenfree se distingue par un système de dialogue fluide, sans interruption de l'action du jeu."
+      },
+      {
+        "question": "Quel studio américain, créateur de 'Gone Home' (2013), est souvent cité comme un pionnier du genre narratif dit 'walking simulator' ?",
+        "reponse": "Fullbright",
+        "propositions": [
+          "Fullbright",
+          "Campo Santo",
+          "Giant Sparrow",
+          "Night School Studio"
+        ],
+        "explication": "Gone Home invite le joueur à explorer une maison vide pour reconstituer, à travers des indices, l'histoire d'une famille."
+      },
+      {
+        "question": "Quel studio japonais, créateur de la série de jeux de rôle tactique 'Disgaea' depuis 2003, est connu pour son humour décalé et ses mécaniques de jeu excessives ?",
+        "reponse": "Nippon Ichi Software",
+        "propositions": [
+          "Nippon Ichi Software",
+          "Atlus",
+          "Falcom",
+          "Vanillaware"
+        ],
+        "explication": "Disgaea est réputé pour permettre des niveaux de personnages extrêmement élevés, dépassant largement ceux des RPG classiques."
+      },
+      {
+        "question": "Quel studio japonais, créateur des séries 'Persona' et 'Shin Megami Tensei', a connu un immense succès critique avec 'Persona 5' en 2016 ?",
+        "reponse": "Atlus",
+        "propositions": [
+          "Atlus",
+          "Nippon Ichi Software",
+          "Square Enix",
+          "Falcom"
+        ],
+        "explication": "Atlus est devenu une filiale du groupe Sega en 2013."
+      },
+      {
+        "question": "Quel réalisateur de jeux japonais, cofondateur du studio Vanillaware, est connu pour des jeux au style dessiné à la main comme 'Odin Sphere' et '13 Sentinels: Aegis Rim' ?",
+        "reponse": "George Kamitani",
+        "propositions": [
+          "George Kamitani",
+          "Yoko Taro",
+          "Goichi Suda",
+          "Hidetaka Miyazaki"
+        ],
+        "explication": "Kamitani a fondé Vanillaware en 2002 après avoir travaillé sur 'Princess Crown' chez Atlus."
+      },
+      {
+        "question": "Quel studio indépendant français, créateur du jeu musical 'Furi' (2016) et du jeu narratif 'Haven' (2020), se nomme 'The Game Bakers' ?",
+        "reponse": "The Game Bakers",
+        "propositions": [
+          "The Game Bakers",
+          "Dontnod Entertainment",
+          "Sandfall Interactive",
+          "Asobo Studio"
+        ],
+        "explication": "The Game Bakers, fondé par Emeric Thoa et Audrey Leprince, est basé à Montpellier."
+      },
+      {
+        "question": "Quel studio indépendant canadien a développé le jeu d'horreur psychologique 'Darkest Dungeon' (2016) ?",
+        "reponse": "Red Hook Studios",
+        "propositions": [
+          "Red Hook Studios",
+          "Supergiant Games",
+          "Klei Entertainment",
+          "Subset Games"
+        ],
+        "explication": "Darkest Dungeon est réputé pour son système de gestion du stress psychologique des personnages, en plus de leurs points de vie."
       }
     ]
   }

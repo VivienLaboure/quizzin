@@ -61,6 +61,66 @@
         "reponse": "La NASA",
         "propositions": ["La NASA", "L'ESA", "Roscosmos", "L'agence spatiale chinoise"],
         "explication": "Le rover Perseverance, lancé par la NASA, s'est posé sur Mars en février 2021 dans le cratère Jezero."
+      },
+      {
+        "question": "Quel minéral, présent en abondance dans le sol martien, lui donne sa teinte rougeâtre ?",
+        "reponse": "L'oxyde de fer (la rouille)",
+        "propositions": ["L'oxyde de fer (la rouille)", "Le soufre", "Le cuivre", "Le sel"],
+        "explication": "Le sol martien contient une grande quantité d'oxyde de fer, semblable à de la rouille, qui lui donne sa couleur caractéristique."
+      },
+      {
+        "question": "Quelle agence spatiale européenne a mis en orbite la sonde Mars Express en 2003 ?",
+        "reponse": "L'ESA",
+        "propositions": ["L'ESA", "La NASA", "Roscosmos", "La JAXA"],
+        "explication": "Mars Express, lancée par l'Agence spatiale européenne (ESA) en 2003, étudie la planète depuis son orbite."
+      },
+      {
+        "question": "Quelle est la température moyenne à la surface de Mars ?",
+        "reponse": "Environ -60°C",
+        "propositions": ["Environ -60°C", "Environ 15°C", "Environ 0°C", "Environ -200°C"],
+        "explication": "La température moyenne à la surface de Mars est d'environ -60°C, bien plus froide que sur Terre."
+      },
+      {
+        "question": "À ce jour, un être humain a-t-il déjà marché sur la surface de Mars ?",
+        "reponse": "Non, jamais",
+        "propositions": ["Non, jamais", "Oui, en 1969", "Oui, en 2004", "Oui, en 2021"],
+        "explication": "Seuls des robots ont exploré Mars jusqu'à présent ; aucune mission humaine ne s'y est encore posée."
+      },
+      {
+        "question": "Quelle est la forme particulière des deux lunes de Mars, Phobos et Deimos ?",
+        "reponse": "Une forme irrégulière, semblable à un astéroïde",
+        "propositions": ["Une forme irrégulière, semblable à un astéroïde", "Une forme parfaitement sphérique", "Une forme d'anneau", "Une forme de disque plat"],
+        "explication": "Phobos et Deimos ont une forme irrégulière, ce qui suggère qu'il s'agit d'astéroïdes capturés par la gravité de Mars."
+      },
+      {
+        "question": "Quelle sonde américaine a réalisé, en 1965, le premier survol réussi de Mars par une sonde spatiale ?",
+        "reponse": "Mariner 4",
+        "propositions": ["Mariner 4", "Viking 1", "Mars Pathfinder", "Mars Odyssey"],
+        "explication": "Mariner 4 a transmis en 1965 les premières images rapprochées de la surface martienne."
+      },
+      {
+        "question": "Quel est le nom du plus grand bassin d'impact visible sur Mars, aussi vaste qu'un petit continent ?",
+        "reponse": "Hellas Planitia",
+        "propositions": ["Hellas Planitia", "Le cratère Jezero", "Le cratère Gale", "Valles Marineris"],
+        "explication": "Hellas Planitia est l'un des plus grands bassins d'impact connus du système solaire, avec environ 2 300 km de diamètre."
+      },
+      {
+        "question": "Quelle couleur a généralement le ciel observé à la surface de Mars sur les photos des rovers ?",
+        "reponse": "Beige-orangé",
+        "propositions": ["Beige-orangé", "Bleu profond", "Vert pâle", "Violet"],
+        "explication": "Le ciel martien apparaît beige ou orangé en raison des fines particules de poussière en suspension dans l'atmosphère."
+      },
+      {
+        "question": "Combien de temps durerait environ une mission habitée aller-retour vers Mars, selon les estimations actuelles ?",
+        "reponse": "Environ deux à trois ans",
+        "propositions": ["Environ deux à trois ans", "Environ un mois", "Environ une semaine", "Environ dix ans"],
+        "explication": "En tenant compte du voyage, du séjour sur place et de l'attente d'une fenêtre de retour favorable, une mission habitée vers Mars durerait probablement deux à trois ans."
+      },
+      {
+        "question": "Comment appelle-t-on un engin spatial qui se pose sur Mars et reste fixe à l'endroit de son atterrissage, sans se déplacer ?",
+        "reponse": "Un atterrisseur (lander)",
+        "propositions": ["Un atterrisseur (lander)", "Un orbiteur", "Un rover", "Un satellite"],
+        "explication": "Contrairement aux rovers mobiles, un atterrisseur comme InSight reste fixe à l'endroit où il s'est posé."
       }
     ],
     "2": [
@@ -123,6 +183,66 @@
         "reponse": "ExoMars",
         "propositions": ["ExoMars", "ARTEMIS", "BepiColombo", "Juice"],
         "explication": "ExoMars est un programme de l'Agence spatiale européenne visant à étudier le potentiel biologique passé ou présent de Mars."
+      },
+      {
+        "question": "Quel rover de la NASA, jumeau d'Opportunity, s'est posé dans le cratère Gusev en 2004 ?",
+        "reponse": "Spirit",
+        "propositions": ["Spirit", "Opportunity", "Sojourner", "Curiosity"],
+        "explication": "Spirit et Opportunity, posés début 2004, ont largement dépassé leur durée de mission prévue de 90 jours."
+      },
+      {
+        "question": "Quelle est la pression atmosphérique moyenne à la surface de Mars, comparée à celle de la Terre ?",
+        "reponse": "Moins de 1 % de la pression terrestre",
+        "propositions": ["Moins de 1 % de la pression terrestre", "Environ 50 % de la pression terrestre", "Une pression identique à la Terre", "Le double de la pression terrestre"],
+        "explication": "L'atmosphère martienne est extrêmement ténue, avec une pression d'environ 0,6 % de celle de la Terre au niveau de la mer."
+      },
+      {
+        "question": "Quel est le diamètre approximatif de Phobos, la plus grande des deux lunes de Mars ?",
+        "reponse": "Environ 22 km",
+        "propositions": ["Environ 22 km", "Environ 200 km", "Environ 1 000 km", "Environ 5 km"],
+        "explication": "Phobos, la plus grande lune de Mars, ne mesure qu'environ 22 km de diamètre, bien plus petite que la Lune terrestre."
+      },
+      {
+        "question": "Quelle mission de la NASA, lancée en 2001, a permis de détecter de grandes quantités d'hydrogène, signe de glace d'eau sous la surface martienne ?",
+        "reponse": "Mars Odyssey",
+        "propositions": ["Mars Odyssey", "Mars Global Surveyor", "Mars Reconnaissance Orbiter", "MAVEN"],
+        "explication": "Mars Odyssey, toujours active, a permis de cartographier la distribution d'hydrogène, révélant la présence de glace d'eau sous la surface."
+      },
+      {
+        "question": "Quelle mission de la NASA, lancée en 2013, étudie la perte progressive de l'atmosphère martienne vers l'espace ?",
+        "reponse": "MAVEN",
+        "propositions": ["MAVEN", "InSight", "Mars Odyssey", "Mars Global Surveyor"],
+        "explication": "MAVEN (Mars Atmosphere and Volatile Evolution) analyse comment le vent solaire érode l'atmosphère de Mars."
+      },
+      {
+        "question": "Quel instrument du rover Perseverance est conçu pour produire de l'oxygène à partir du dioxyde de carbone de l'atmosphère martienne ?",
+        "reponse": "MOXIE",
+        "propositions": ["MOXIE", "SuperCam", "SHERLOC", "PIXL"],
+        "explication": "L'expérience MOXIE a démontré la possibilité de produire de l'oxygène sur Mars, une technologie clé pour de futures missions habitées."
+      },
+      {
+        "question": "Quelle est l'inclinaison approximative de l'axe de rotation de Mars, responsable de l'existence de saisons ?",
+        "reponse": "Environ 25 degrés",
+        "propositions": ["Environ 25 degrés", "Environ 0 degré", "Environ 60 degrés", "Environ 90 degrés"],
+        "explication": "L'inclinaison de l'axe martien, proche de celle de la Terre (23,5°), explique l'existence de saisons sur Mars."
+      },
+      {
+        "question": "Quel rover a établi le record de distance parcourue à la surface de Mars, en dépassant les 45 km entre 2004 et 2018 ?",
+        "reponse": "Opportunity",
+        "propositions": ["Opportunity", "Curiosity", "Perseverance", "Sojourner"],
+        "explication": "Opportunity a parcouru plus de 45 km sur Mars entre 2004 et 2018, un record pour un véhicule extraterrestre."
+      },
+      {
+        "question": "Comment appelle-t-on les petits tourbillons de poussière qui traversent régulièrement la surface martienne ?",
+        "reponse": "Les tourbillons de poussière (dust devils)",
+        "propositions": ["Les tourbillons de poussière (dust devils)", "Les geysers de glace", "Les éclairs volcaniques", "Les pluies de grêle"],
+        "explication": "Ces tourbillons de poussière traversent régulièrement la surface martienne et ont parfois contribué à nettoyer les panneaux solaires des rovers."
+      },
+      {
+        "question": "Quel pays a lancé la sonde Hope (Al-Amal), qui a atteint l'orbite martienne en 2021 ?",
+        "reponse": "Les Émirats arabes unis",
+        "propositions": ["Les Émirats arabes unis", "L'Arabie saoudite", "L'Égypte", "Le Qatar"],
+        "explication": "La sonde Hope, lancée par les Émirats arabes unis, a fait de ce pays le premier pays arabe à atteindre Mars."
       }
     ],
     "3": [
@@ -185,6 +305,66 @@
         "reponse": "Tianwen-1 (avec le rover Zhurong)",
         "propositions": ["Tianwen-1 (avec le rover Zhurong)", "Chang'e 5", "Shenzhou", "Tiangong"],
         "explication": "La mission chinoise Tianwen-1 a déposé le rover Zhurong sur Mars en mai 2021, faisant de la Chine le deuxième pays à réussir un atterrissage martien fonctionnel."
+      },
+      {
+        "question": "Quelle période géologique martienne, il y a environ 4,1 à 3,7 milliards d'années, aurait connu un climat plus chaud et humide permettant l'écoulement d'eau liquide à la surface ?",
+        "reponse": "Le Noachien",
+        "propositions": ["Le Noachien", "L'Hespérien", "L'Amazonien", "Le Prénoachien"],
+        "explication": "Les vallées de ruissellement et les anciens lits de rivières datant de cette période suggèrent un climat martien ancien beaucoup plus clément."
+      },
+      {
+        "question": "Quelle sonde américaine, en orbite de 1997 à 2006, a découvert des ravines suggérant des écoulements d'eau liquide relativement récents sur Mars ?",
+        "reponse": "Mars Global Surveyor",
+        "propositions": ["Mars Global Surveyor", "Mars Odyssey", "Mars Reconnaissance Orbiter", "Mariner 9"],
+        "explication": "Mars Global Surveyor a notamment révélé des ravines sur les parois de cratères, interprétées comme des traces d'écoulements d'eau récents."
+      },
+      {
+        "question": "Quelle mission soviétique de 1971, malgré un atterrissage en douceur sur Mars, n'a transmis des données que pendant environ 20 secondes avant de perdre le contact ?",
+        "reponse": "Mars 3",
+        "propositions": ["Mars 3", "Mars 2", "Mars 6", "Phobos 2"],
+        "explication": "Mars 3 a réalisé le premier atterrissage en douceur sur Mars en 1971, mais a cessé d'émettre presque immédiatement, probablement en raison d'une tempête de poussière."
+      },
+      {
+        "question": "Quel type de roche volcanique, proche du basalte terrestre, compose majoritairement la croûte martienne ?",
+        "reponse": "Le basalte",
+        "propositions": ["Le basalte", "Le granite", "Le calcaire", "Le grès"],
+        "explication": "La croûte martienne est principalement composée de roches basaltiques, résultant d'un important volcanisme passé."
+      },
+      {
+        "question": "Sur quelle lune de Mars trouve-t-on le grand cratère Stickney, dont le diamètre atteint près de la moitié de celui de la lune elle-même ?",
+        "reponse": "Phobos",
+        "propositions": ["Phobos", "Deimos", "Mars lui-même", "Aucune, c'est une invention"],
+        "explication": "Le cratère Stickney, nommé d'après l'épouse de l'astronome Asaph Hall, mesure environ 9 km, soit près de la moitié du diamètre de Phobos."
+      },
+      {
+        "question": "Quelle hypothèse scientifique propose que Phobos et Deimos soient en réalité des astéroïdes capturés par la gravité martienne depuis la ceinture d'astéroïdes ?",
+        "reponse": "L'hypothèse de la capture d'astéroïdes",
+        "propositions": ["L'hypothèse de la capture d'astéroïdes", "L'hypothèse de la fission planétaire", "L'hypothèse de la collision géante", "L'hypothèse de la formation in situ"],
+        "explication": "Leur composition proche de celle de certains astéroïdes carbonés appuie cette hypothèse, bien que leur orbite presque circulaire pose encore question aux astronomes."
+      },
+      {
+        "question": "Quelle mission européenne de 2016, dont l'atterrisseur démonstrateur Schiaparelli s'est écrasé lors de sa descente, visait à tester des technologies de rentrée atmosphérique sur Mars ?",
+        "reponse": "ExoMars 2016 (Trace Gas Orbiter et Schiaparelli)",
+        "propositions": ["ExoMars 2016 (Trace Gas Orbiter et Schiaparelli)", "Mars Express", "Mars Science Laboratory", "Phobos-Grunt"],
+        "explication": "Si l'orbiteur Trace Gas Orbiter a réussi sa mise en orbite, l'atterrisseur Schiaparelli s'est écrasé en octobre 2016 à cause d'une erreur de calcul d'altitude."
+      },
+      {
+        "question": "Quelle mission russe de 2011, destinée à ramener des échantillons de la lune martienne Phobos, est restée bloquée en orbite terrestre avant de retomber sur Terre ?",
+        "reponse": "Phobos-Grunt",
+        "propositions": ["Phobos-Grunt", "Mars 96", "Fobos 2", "Mars Observer"],
+        "explication": "Phobos-Grunt n'a jamais pu quitter l'orbite terrestre à cause d'une défaillance de ses moteurs, et est retombée sur Terre en janvier 2012."
+      },
+      {
+        "question": "Quel instrument du rover Curiosity a détecté des variations saisonnières inattendues du taux de méthane dans l'atmosphère martienne ?",
+        "reponse": "SAM (Sample Analysis at Mars)",
+        "propositions": ["SAM (Sample Analysis at Mars)", "ChemCam", "MOXIE", "RAD (Radiation Assessment Detector)"],
+        "explication": "L'instrument SAM de Curiosity a mesuré des fluctuations saisonnières de méthane dans le cratère Gale, dont l'origine, géologique ou biologique, reste débattue."
+      },
+      {
+        "question": "Quelle particularité de l'orbite martienne, une excentricité relativement élevée d'environ 0,093, rend certaines oppositions Terre-Mars bien plus favorables que d'autres à l'observation ?",
+        "reponse": "L'excentricité de l'orbite martienne",
+        "propositions": ["L'excentricité de l'orbite martienne", "La précession des équinoxes martiens", "L'inclinaison orbitale de Mars", "La résonance orbitale avec Jupiter"],
+        "explication": "L'orbite elliptique de Mars fait varier sa distance au Soleil, rendant certaines oppositions, comme celles de 2003 ou 2018, particulièrement favorables à l'observation depuis la Terre."
       }
     ]
   }

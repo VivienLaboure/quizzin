@@ -276,6 +276,116 @@
           "Un screenshot"
         ],
         "explication": "Le mot 'selfie' a été élu mot de l'année 2013 par le dictionnaire Oxford."
+      },
+      {
+        "question": "Quelle entreprise a créé la console de jeu vidéo 'PlayStation', lancée en 1994 ?",
+        "reponse": "Sony",
+        "propositions": [
+          "Sony",
+          "Nintendo",
+          "Microsoft",
+          "Sega"
+        ],
+        "explication": "La PlayStation a été lancée au Japon en décembre 1994, marquant l'entrée de Sony sur le marché des consoles."
+      },
+      {
+        "question": "Comment appelle-t-on un petit texte stocké par un site web dans le navigateur pour mémoriser des informations sur un visiteur ?",
+        "reponse": "Un cookie",
+        "propositions": [
+          "Un cookie",
+          "Un plugin",
+          "Un cache",
+          "Un favicon"
+        ],
+        "explication": "Les cookies permettent par exemple de garder un utilisateur connecté ou de mémoriser le contenu de son panier d'achat."
+      },
+      {
+        "question": "Quel type d'appareil permet d'imprimer un document sur papier à partir d'un ordinateur ?",
+        "reponse": "Une imprimante",
+        "propositions": [
+          "Une imprimante",
+          "Un scanner",
+          "Un fax",
+          "Un copieur"
+        ],
+        "explication": "Les imprimantes à jet d'encre et laser sont les deux technologies les plus courantes pour un usage domestique."
+      },
+      {
+        "question": "Quelle entreprise a créé le réseau social de partage de photos 'Instagram' avant son rachat par Facebook en 2012 ?",
+        "reponse": "Instagram Inc.",
+        "propositions": [
+          "Instagram Inc.",
+          "Snap Inc.",
+          "ByteDance",
+          "Pinterest"
+        ],
+        "explication": "Instagram a été fondé en 2010 par Kevin Systrom et Mike Krieger, puis racheté par Facebook pour environ un milliard de dollars."
+      },
+      {
+        "question": "Quel type d'appareil électronique portable permet d'écouter de la musique stockée numériquement, popularisé par l'iPod d'Apple ?",
+        "reponse": "Un baladeur numérique (lecteur MP3)",
+        "propositions": [
+          "Un baladeur numérique (lecteur MP3)",
+          "Un autoradio",
+          "Une platine vinyle",
+          "Un magnétophone"
+        ],
+        "explication": "L'iPod, lancé par Apple en 2001, a largement contribué à populariser l'écoute de musique numérique au format MP3."
+      },
+      {
+        "question": "Quel type de logiciel malveillant se propage en se dupliquant lui-même d'un ordinateur à un autre, souvent sans action de l'utilisateur ?",
+        "reponse": "Un virus informatique",
+        "propositions": [
+          "Un virus informatique",
+          "Un pare-feu",
+          "Un antivirus",
+          "Un navigateur"
+        ],
+        "explication": "Les virus informatiques peuvent endommager des fichiers ou voler des données personnelles sur les appareils infectés."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des appareils électroniques et informatiques physiques, par opposition aux logiciels ?",
+        "reponse": "Le matériel (hardware)",
+        "propositions": [
+          "Le matériel (hardware)",
+          "Le logiciel (software)",
+          "Le firmware",
+          "Le middleware"
+        ],
+        "explication": "Le matériel regroupe des composants physiques comme le processeur, la mémoire ou l'écran, contrairement aux logiciels qui sont immatériels."
+      },
+      {
+        "question": "Quel service en ligne, lancé par Amazon, permet de stocker des photos, fichiers et données sur des serveurs distants accessibles via internet ?",
+        "reponse": "Un service de stockage cloud",
+        "propositions": [
+          "Un service de stockage cloud",
+          "Un disque dur externe",
+          "Une clé USB",
+          "Un serveur local"
+        ],
+        "explication": "Amazon Web Services (AWS) est l'un des plus grands fournisseurs mondiaux de services cloud."
+      },
+      {
+        "question": "Quel type d'appareil, porté au poignet, permet de suivre son activité physique quotidienne comme le nombre de pas ou le rythme cardiaque ?",
+        "reponse": "Un bracelet connecté (tracker d'activité)",
+        "propositions": [
+          "Un bracelet connecté (tracker d'activité)",
+          "Une montre mécanique",
+          "Un podomètre analogique",
+          "Un tensiomètre"
+        ],
+        "explication": "Fitbit a été l'un des pionniers de ce type d'appareils connectés grand public."
+      },
+      {
+        "question": "Que signifie l'acronyme 'HTML', langage utilisé pour structurer le contenu des pages web ?",
+        "reponse": "HyperText Markup Language",
+        "propositions": [
+          "HyperText Markup Language",
+          "Home Tool Markup Language",
+          "HyperText Modern Language",
+          "High Text Machine Language"
+        ],
+        "explication": "HTML a été créé par Tim Berners-Lee en même temps que le World Wide Web, à la fin des années 1980."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "L'hologramme"
         ],
         "explication": "Des casques comme le Meta Quest ou le PlayStation VR exploitent cette technologie pour le jeu vidéo immersif."
+      },
+      {
+        "question": "Quelle entreprise a développé le langage de programmation Java, sorti en 1995 ?",
+        "reponse": "Sun Microsystems",
+        "propositions": [
+          "Sun Microsystems",
+          "Microsoft",
+          "IBM",
+          "Oracle"
+        ],
+        "explication": "Java a été créé par James Gosling chez Sun Microsystems, avant que l'entreprise ne soit rachetée par Oracle en 2010."
+      },
+      {
+        "question": "Quel type de mémoire, intégrée directement au processeur, stocke temporairement les données les plus fréquemment utilisées pour accélérer les calculs ?",
+        "reponse": "La mémoire cache",
+        "propositions": [
+          "La mémoire cache",
+          "La mémoire ROM",
+          "Le SSD",
+          "Le registre d'entrée-sortie"
+        ],
+        "explication": "La mémoire cache est beaucoup plus rapide mais aussi plus coûteuse et limitée en taille que la RAM classique."
+      },
+      {
+        "question": "Quelle entreprise chinoise, connue pour sa gamme de smartphones 'Mi', a connu une croissance fulgurante sur le marché mondial des téléphones ?",
+        "reponse": "Xiaomi",
+        "propositions": [
+          "Xiaomi",
+          "Huawei",
+          "Oppo",
+          "Lenovo"
+        ],
+        "explication": "Xiaomi s'est imposée comme l'un des plus grands fabricants mondiaux de smartphones, notamment grâce à des prix compétitifs."
+      },
+      {
+        "question": "Quel protocole de messagerie électronique permet de synchroniser ses e-mails sur plusieurs appareils, contrairement au protocole POP3 qui les télécharge localement ?",
+        "reponse": "IMAP",
+        "propositions": [
+          "IMAP",
+          "SMTP",
+          "FTP",
+          "HTTP"
+        ],
+        "explication": "IMAP laisse les messages sur le serveur, ce qui permet de les consulter depuis un ordinateur, une tablette ou un smartphone."
+      },
+      {
+        "question": "Quelle entreprise a lancé en 2008 le service de stockage et de partage de fichiers en ligne 'Dropbox' ?",
+        "reponse": "Dropbox, Inc.",
+        "propositions": [
+          "Dropbox, Inc.",
+          "Google",
+          "Microsoft",
+          "Box, Inc."
+        ],
+        "explication": "Dropbox a été fondée par Drew Houston et Arash Ferdowsi, alors étudiants au MIT."
+      },
+      {
+        "question": "Comment appelle-t-on une attaque informatique qui submerge un serveur de requêtes pour le rendre inaccessible aux utilisateurs légitimes ?",
+        "reponse": "Une attaque par déni de service (DDoS)",
+        "propositions": [
+          "Une attaque par déni de service (DDoS)",
+          "Un hameçonnage (phishing)",
+          "Un rançongiciel (ransomware)",
+          "Une attaque par force brute"
+        ],
+        "explication": "Une attaque DDoS utilise souvent un grand nombre d'appareils infectés, formant un réseau appelé botnet, pour saturer la cible."
+      },
+      {
+        "question": "Quelle entreprise américaine a lancé en 2008 le navigateur web 'Chrome', aujourd'hui le plus utilisé au monde ?",
+        "reponse": "Google",
+        "propositions": [
+          "Google",
+          "Microsoft",
+          "Mozilla",
+          "Apple"
+        ],
+        "explication": "Chrome a rapidement détrôné Internet Explorer puis Firefox pour devenir le navigateur web dominant."
+      },
+      {
+        "question": "Comment appelle-t-on une puce électronique spécialisée, dédiée aux calculs d'intelligence artificielle, souvent désignée par l'acronyme NPU ?",
+        "reponse": "Un processeur neuronal (NPU)",
+        "propositions": [
+          "Un processeur neuronal (NPU)",
+          "Un processeur graphique (GPU)",
+          "Un processeur central (CPU)",
+          "Un contrôleur mémoire"
+        ],
+        "explication": "Les NPU (Neural Processing Unit) sont de plus en plus intégrés aux smartphones et ordinateurs pour accélérer les tâches d'intelligence artificielle."
+      },
+      {
+        "question": "Quelle entreprise a conçu la puce 'M1', premier processeur Apple Silicon destiné aux ordinateurs Mac, sortie en 2020 ?",
+        "reponse": "Apple",
+        "propositions": [
+          "Apple",
+          "Intel",
+          "Qualcomm",
+          "Samsung"
+        ],
+        "explication": "La puce M1 a marqué la transition d'Apple des processeurs Intel vers ses propres puces basées sur l'architecture ARM."
+      },
+      {
+        "question": "Quel format de compression audio, très populaire dans les années 2000, a grandement facilité le partage et le stockage de musique numérique ?",
+        "reponse": "Le MP3",
+        "propositions": [
+          "Le MP3",
+          "Le WAV",
+          "Le FLAC",
+          "Le MIDI"
+        ],
+        "explication": "Le format MP3 réduit fortement la taille des fichiers audio en supprimant certaines informations peu perceptibles à l'oreille humaine."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Le Latin-1"
         ],
         "explication": "UTF-8, l'une des façons d'encoder l'Unicode, est aujourd'hui l'encodage le plus utilisé sur le web."
+      },
+      {
+        "question": "Quel ingénieur américain a inventé la souris d'ordinateur, présentée publiquement en 1968 lors de la 'Mère de toutes les démos' ?",
+        "reponse": "Douglas Engelbart",
+        "propositions": [
+          "Douglas Engelbart",
+          "Vannevar Bush",
+          "Ivan Sutherland",
+          "J.C.R. Licklider"
+        ],
+        "explication": "Engelbart a présenté la souris, ainsi que l'hypertexte et la visioconférence, lors de cette démonstration restée célèbre en 1968."
+      },
+      {
+        "question": "Quel centre de recherche américain, filiale de Xerox, a développé dans les années 1970 l'interface graphique à fenêtres reprise ensuite par Apple pour le Macintosh ?",
+        "reponse": "Xerox PARC",
+        "propositions": [
+          "Xerox PARC",
+          "Bell Labs",
+          "IBM Research",
+          "MIT Media Lab"
+        ],
+        "explication": "Le centre de recherche Xerox PARC a développé l'interface à fenêtres et la souris, repris ensuite par Apple pour le Macintosh."
+      },
+      {
+        "question": "Quel algorithme, développé par les fondateurs de Google, classe les pages web selon le nombre et la qualité des liens qui pointent vers elles ?",
+        "reponse": "PageRank",
+        "propositions": [
+          "PageRank",
+          "MapReduce",
+          "BERT",
+          "Bigtable"
+        ],
+        "explication": "PageRank a constitué l'innovation initiale ayant permis à Google de surpasser ses concurrents à la fin des années 1990."
+      },
+      {
+        "question": "Quel protocole de routage permet aux différents réseaux autonomes qui composent internet d'échanger leurs tables de routage à grande échelle ?",
+        "reponse": "BGP (Border Gateway Protocol)",
+        "propositions": [
+          "BGP (Border Gateway Protocol)",
+          "OSPF",
+          "DNS",
+          "TCP"
+        ],
+        "explication": "BGP est souvent qualifié de 'colle' d'internet, car il permet aux milliers de réseaux autonomes de s'interconnecter."
+      },
+      {
+        "question": "Quelle structure de données, utilisée en cryptographie et dans la blockchain Bitcoin, permet de vérifier rapidement l'intégrité de grandes quantités de données grâce à des hachages successifs ?",
+        "reponse": "Un arbre de Merkle",
+        "propositions": [
+          "Un arbre de Merkle",
+          "Une table de hachage",
+          "Un arbre binaire de recherche",
+          "Une liste chaînée"
+        ],
+        "explication": "Un arbre de Merkle permet de vérifier l'intégrité d'un grand ensemble de données sans avoir à les parcourir intégralement."
+      },
+      {
+        "question": "Quel chercheur britanno-canadien a reçu le prix Turing 2018, avec Yoshua Bengio et Yann LeCun, pour ses contributions fondamentales à l'apprentissage profond ?",
+        "reponse": "Geoffrey Hinton",
+        "propositions": [
+          "Geoffrey Hinton",
+          "Yann LeCun",
+          "Yoshua Bengio",
+          "Andrew Ng"
+        ],
+        "explication": "Hinton, Bengio et LeCun sont souvent surnommés les 'parrains de l'apprentissage profond' (deep learning)."
+      },
+      {
+        "question": "Quel supercalculateur d'IBM a battu le champion du monde d'échecs en titre Garry Kasparov lors d'un match revanche en 1997 ?",
+        "reponse": "Deep Blue",
+        "propositions": [
+          "Deep Blue",
+          "Watson",
+          "AlphaGo",
+          "Stockfish"
+        ],
+        "explication": "Deep Blue a battu Kasparov en 1997, une première historique pour une machine face à un champion du monde en titre."
+      },
+      {
+        "question": "Quel programme d'intelligence artificielle, développé par DeepMind, a battu le champion sud-coréen Lee Sedol au jeu de Go en 2016 ?",
+        "reponse": "AlphaGo",
+        "propositions": [
+          "AlphaGo",
+          "Deep Blue",
+          "Watson",
+          "AlphaZero"
+        ],
+        "explication": "Cette victoire a marqué une avancée majeure de l'intelligence artificielle, le jeu de Go étant jugé bien plus complexe que les échecs."
+      },
+      {
+        "question": "Quelle université américaine a abrité le premier nœud du réseau ARPANET, ancêtre d'internet, activé en 1969 ?",
+        "reponse": "UCLA (Université de Californie à Los Angeles)",
+        "propositions": [
+          "UCLA (Université de Californie à Los Angeles)",
+          "Stanford University",
+          "MIT",
+          "Harvard University"
+        ],
+        "explication": "Le premier message ARPANET a été envoyé entre UCLA et le Stanford Research Institute le 29 octobre 1969."
+      },
+      {
+        "question": "Quel système d'exploitation mobile, développé par l'entreprise canadienne RIM (BlackBerry), a longtemps dominé le marché des smartphones professionnels avant l'essor de l'iPhone et d'Android ?",
+        "reponse": "BlackBerry OS",
+        "propositions": [
+          "BlackBerry OS",
+          "Symbian",
+          "Palm OS",
+          "Windows Mobile"
+        ],
+        "explication": "BlackBerry OS, associé à son clavier physique et à sa sécurité réputée, a longtemps été plébiscité par les entreprises."
       }
     ]
   }

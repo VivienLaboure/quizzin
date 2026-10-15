@@ -61,6 +61,66 @@
         "reponse": "Euronext",
         "propositions": ["Euronext", "Nasdaq", "London Stock Exchange", "Deutsche Börse"],
         "explication": "Euronext est née en 2000 de la fusion des Bourses de Paris, Amsterdam et Bruxelles, et gère désormais plusieurs places européennes."
+      },
+      {
+        "question": "Comment appelle-t-on la valeur à laquelle une action s'échange à un instant donné sur le marché ?",
+        "reponse": "Le cours (de l'action)",
+        "propositions": ["Le cours (de l'action)", "Le taux", "Le spread", "Le coupon"],
+        "explication": "Le cours d'une action varie en continu pendant les heures de cotation, selon l'offre et la demande."
+      },
+      {
+        "question": "Quel terme désigne la valeur boursière totale d'une entreprise, obtenue en multipliant le nombre de ses actions par leur cours ?",
+        "reponse": "La capitalisation boursière",
+        "propositions": ["La capitalisation boursière", "Le chiffre d'affaires", "Le résultat net", "La trésorerie"],
+        "explication": "La capitalisation boursière permet de comparer la taille des entreprises cotées entre elles."
+      },
+      {
+        "question": "Comment appelle-t-on une personne ou une institution qui possède des actions d'une entreprise ?",
+        "reponse": "Un actionnaire",
+        "propositions": ["Un actionnaire", "Un obligataire", "Un créancier", "Un dépositaire"],
+        "explication": "Un actionnaire détient une part du capital de l'entreprise et peut voter en assemblée générale."
+      },
+      {
+        "question": "Quel type de placement, à la différence d'une action, correspond à un prêt consenti à une entreprise ou à un État, remboursé avec intérêts ?",
+        "reponse": "Une obligation",
+        "propositions": ["Une obligation", "Une action", "Un dividende", "Un ETF"],
+        "explication": "L'obligation garantit en principe un remboursement du capital à l'échéance, contrairement à l'action."
+      },
+      {
+        "question": "Quel sigle désigne un produit financier permettant d'investir facilement dans un panier d'actions suivant un indice comme le CAC 40 ?",
+        "reponse": "Un ETF (tracker)",
+        "propositions": ["Un ETF (tracker)", "Un OPCVM fermé", "Une SICAV obligataire", "Un CDS"],
+        "explication": "Un ETF (Exchange Traded Fund) reproduit la performance d'un indice et se négocie en Bourse comme une action."
+      },
+      {
+        "question": "Comment appelle-t-on la place financière où s'échangent les actions, obligations et autres titres financiers ?",
+        "reponse": "La Bourse",
+        "propositions": ["La Bourse", "La Banque centrale", "Le Trésor public", "La Chambre de commerce"],
+        "explication": "La Bourse met en relation les entreprises qui cherchent des financements et les investisseurs qui souhaitent placer leur épargne."
+      },
+      {
+        "question": "Quels jours de la semaine la Bourse de Paris est-elle habituellement fermée, comme la plupart des places européennes ?",
+        "reponse": "Le week-end (samedi et dimanche)",
+        "propositions": ["Le week-end (samedi et dimanche)", "Le lundi uniquement", "Le mercredi", "Jamais, elle est ouverte tous les jours"],
+        "explication": "La Bourse de Paris est ouverte du lundi au vendredi, en dehors des jours fériés."
+      },
+      {
+        "question": "Quelle entreprise française de l'aéronautique et de la défense, cotée au CAC 40, est notamment connue pour ses avions de chasse Rafale ?",
+        "reponse": "Dassault Aviation",
+        "propositions": ["Dassault Aviation", "Airbus", "Thales", "Safran"],
+        "explication": "Dassault Aviation conçoit aussi les jets d'affaires Falcon, en plus du Rafale."
+      },
+      {
+        "question": "Quelle entreprise française de cosmétiques, cotée au CAC 40, est la société mère de marques comme Lancôme ou Garnier ?",
+        "reponse": "L'Oréal",
+        "propositions": ["L'Oréal", "LVMH", "Kering", "Chanel"],
+        "explication": "L'Oréal est le numéro un mondial des cosmétiques, loin devant ses concurrents directs."
+      },
+      {
+        "question": "Comment appelle-t-on une baisse progressive et prolongée des cours de Bourse, par opposition à un marché haussier ?",
+        "reponse": "Un marché baissier (bear market)",
+        "propositions": ["Un marché baissier (bear market)", "Un marché haussier (bull market)", "Une bulle spéculative", "Un krach"],
+        "explication": "Un marché baissier se distingue du krach par son caractère progressif plutôt que brutal."
       }
     ],
     "2": [
@@ -123,6 +183,66 @@
         "reponse": "1987",
         "propositions": ["1987", "1929", "2001", "2008"],
         "explication": "Le krach d'octobre 1987, déclenché à Wall Street le 19 octobre (« lundi noir »), a entraîné une chute mondiale des marchés."
+      },
+      {
+        "question": "Quel est le nom de l'indice regroupant les 20 valeurs moyennes du marché français, juste derrière les 40 plus grandes capitalisations du CAC 40 ?",
+        "reponse": "Le CAC Next 20",
+        "propositions": ["Le CAC Next 20", "Le CAC Mid 60", "Le SBF 120", "Le CAC Small"],
+        "explication": "Le CAC Next 20 regroupe les valeurs qui talonnent le CAC 40 en termes de capitalisation, souvent vues comme des candidates à une entrée future dans l'indice phare."
+      },
+      {
+        "question": "Comment appelle-t-on la séance de début ou de fin de journée où les ordres s'accumulent avant d'être exécutés à un cours unique ?",
+        "reponse": "Le fixing",
+        "propositions": ["Le fixing", "Le carnet d'ordres", "Le marché continu", "Le règlement différé"],
+        "explication": "Le fixing permet de déterminer un cours d'ouverture ou de clôture reflétant l'équilibre entre tous les ordres accumulés."
+      },
+      {
+        "question": "Quelle société de bourse américaine a fusionné avec Euronext en 2007, avant la scission de cette dernière en 2014 ?",
+        "reponse": "NYSE (New York Stock Exchange)",
+        "propositions": ["NYSE (New York Stock Exchange)", "Nasdaq", "Deutsche Börse", "London Stock Exchange"],
+        "explication": "Cette fusion a donné naissance au groupe NYSE Euronext, avant qu'Euronext ne redevienne indépendante par une introduction en Bourse en 2014."
+      },
+      {
+        "question": "Comment appelle-t-on un ordre de Bourse qui ne s'exécute que si le cours atteint un seuil fixé par l'investisseur, afin de limiter une perte ?",
+        "reponse": "Un ordre stop (stop-loss)",
+        "propositions": ["Un ordre stop (stop-loss)", "Un ordre au marché", "Un ordre à cours limité", "Un ordre à révocation"],
+        "explication": "L'ordre stop se déclenche automatiquement une fois le seuil de cours atteint, sans intervention de l'investisseur."
+      },
+      {
+        "question": "Quel mécanisme permet à une entreprise de lever des fonds supplémentaires en émettant de nouvelles actions sur le marché ?",
+        "reponse": "Une augmentation de capital",
+        "propositions": ["Une augmentation de capital", "Un rachat d'actions", "Un split d'action", "Une OPA"],
+        "explication": "Une augmentation de capital dilue en général la part détenue par les actionnaires existants, sauf s'ils y souscrivent eux-mêmes."
+      },
+      {
+        "question": "Quel ratio financier, très suivi par les investisseurs, rapporte le cours d'une action à son bénéfice par action ?",
+        "reponse": "Le PER (price earnings ratio)",
+        "propositions": ["Le PER (price earnings ratio)", "Le ROE", "Le CAC", "Le bêta"],
+        "explication": "Un PER élevé traduit généralement des attentes de forte croissance future, ou une action jugée chère par le marché."
+      },
+      {
+        "question": "Quel marché d'Euronext Paris, destiné aux petites et moyennes entreprises en croissance, a succédé à l'ancien marché Alternext en 2017 ?",
+        "reponse": "Euronext Growth",
+        "propositions": ["Euronext Growth", "Le Nouveau Marché", "Le Second Marché", "Le Marché Libre"],
+        "explication": "Euronext Growth propose des règles de cotation allégées par rapport au marché réglementé principal."
+      },
+      {
+        "question": "Quelle banque centrale fixe les taux directeurs qui influencent fortement les marchés actions de la zone euro, dont Paris ?",
+        "reponse": "La Banque centrale européenne (BCE)",
+        "propositions": ["La Banque centrale européenne (BCE)", "La Banque de France", "La Réserve fédérale (Fed)", "Le FMI"],
+        "explication": "Les décisions de taux de la BCE influencent directement le coût du crédit et l'attractivité relative des actions pour les investisseurs."
+      },
+      {
+        "question": "Comment appelle-t-on la date à laquelle un investisseur doit détenir une action pour avoir droit au dividende annoncé par l'entreprise ?",
+        "reponse": "La date de détachement du dividende",
+        "propositions": ["La date de détachement du dividende", "La date de règlement-livraison", "La date d'introduction en Bourse", "La date de clôture de l'exercice"],
+        "explication": "Le cours de l'action baisse généralement du montant du dividende le jour de son détachement, toutes choses égales par ailleurs."
+      },
+      {
+        "question": "Quelle entreprise du secteur pétrolier et gazier, rebaptisée en 2021, reste l'une des plus grosses capitalisations du CAC 40 sous le nom TotalEnergies ?",
+        "reponse": "TotalEnergies (ex-Total)",
+        "propositions": ["TotalEnergies (ex-Total)", "Engie", "EDF", "Technip Energies"],
+        "explication": "Ce changement de nom accompagnait une stratégie affichée de diversification vers les énergies renouvelables."
       }
     ],
     "3": [
@@ -169,10 +289,10 @@
         "explication": "Le marché primaire est celui de l'émission de nouveaux titres (introduction en Bourse, augmentation de capital), le marché secondaire celui de leur échange ultérieur entre investisseurs."
       },
       {
-        "question": "Quel indice sectoriel du CAC 40 a été retiré en 2020 après l'exclusion de plusieurs grandes valeurs bancaires du calcul pondéré ?",
-        "reponse": "Aucun indice n'a été retiré ; la méthode de pondération du flottant a évolué en continu",
-        "propositions": ["Aucun indice n'a été retiré ; la méthode de pondération du flottant a évolué en continu", "Le CAC Financières", "Le CAC Bancaire", "Le CAC Mid 60"],
-        "explication": "Le CAC 40 n'a jamais supprimé d'indice sectoriel pour cette raison : sa composition est révisée trimestriellement selon la capitalisation flottante des valeurs, sans suppression d'indice associé."
+        "question": "Quel organisme indépendant décide de la composition du CAC 40 lors de ses révisions trimestrielles ?",
+        "reponse": "Le Conseil scientifique des indices (CSI)",
+        "propositions": ["Le Conseil scientifique des indices (CSI)", "L'Autorité des marchés financiers (AMF)", "La Banque de France", "Le ministère de l'Économie"],
+        "explication": "Le Conseil scientifique des indices, composé d'experts indépendants, examine chaque trimestre la composition du CAC 40 selon des critères de capitalisation flottante et de liquidité."
       },
       {
         "question": "Quelle place boursière européenne a fusionné avec la Bourse de Paris en 2002, avant d'intégrer également Euronext ?",
@@ -185,6 +305,66 @@
         "reponse": "Le seuil de réservation (coupe-circuit)",
         "propositions": ["Le seuil de réservation (coupe-circuit)", "Le carnet d'ordres centralisé", "Le fixing d'ouverture", "Le market making obligatoire"],
         "explication": "Les seuils de réservation suspendent temporairement la cotation d'un titre dont le cours varie trop brutalement, afin de limiter la panique."
+      },
+      {
+        "question": "En quelle année a été créé en France le Plan d'Épargne en Actions (PEA), dispositif fiscal incitant à investir en actions européennes ?",
+        "reponse": "1992",
+        "propositions": ["1992", "1988", "1999", "2005"],
+        "explication": "Le PEA, créé par la loi du 16 juillet 1992, permet sous conditions une exonération d'impôt sur les plus-values après cinq ans de détention."
+      },
+      {
+        "question": "Quel marché, dédié aux petites et moyennes entreprises, a précédé Euronext Growth sous le nom d'« Alternext », créé en 2005 ?",
+        "reponse": "Alternext",
+        "propositions": ["Alternext", "Le Nouveau Marché", "Le Second Marché", "Le Marché Libre"],
+        "explication": "Alternext a été renommé Euronext Growth en 2017, dans le cadre d'une harmonisation des marchés de croissance du groupe Euronext."
+      },
+      {
+        "question": "Quel krach boursier, provoqué par l'éclatement de la bulle Internet, a frappé la Bourse de Paris au début des années 2000 ?",
+        "reponse": "Le krach de la bulle Internet (2000-2002)",
+        "propositions": ["Le krach de la bulle Internet (2000-2002)", "Le krach de 1987", "Le krach de 2008", "Le krach de 1929"],
+        "explication": "De nombreuses valeurs technologiques surévaluées ont perdu l'essentiel de leur valeur lors de l'éclatement de cette bulle spéculative."
+      },
+      {
+        "question": "Quelle crise financière mondiale de 2008, déclenchée par les prêts immobiliers à risque américains, a fait chuter le CAC 40 de plus de 40% sur l'année ?",
+        "reponse": "La crise financière de 2008 (crise des subprimes)",
+        "propositions": ["La crise financière de 2008 (crise des subprimes)", "La crise de la dette grecque", "La crise asiatique de 1997", "Le krach de 1987"],
+        "explication": "Cette crise, partie des États-Unis avec la faillite de Lehman Brothers, s'est rapidement propagée aux marchés actions du monde entier."
+      },
+      {
+        "question": "En quelle année l'indice CAC 40 a-t-il atteint, avant la crise de la bulle Internet, un sommet historique resté une référence pendant de nombreuses années ?",
+        "reponse": "2000",
+        "propositions": ["2000", "1999", "2007", "1987"],
+        "explication": "Le CAC 40 avait culminé en septembre 2000, en pleine euphorie des valeurs technologiques, avant un long marché baissier."
+      },
+      {
+        "question": "Quel type d'intermédiaire financier est chargé d'« animer » un titre sur Euronext en assurant sa liquidité par des offres d'achat et de vente permanentes ?",
+        "reponse": "Un market maker (teneur de marché)",
+        "propositions": ["Un market maker (teneur de marché)", "Un dépositaire central", "Un commissaire aux comptes", "Un courtier de détail"],
+        "explication": "Le market maker affiche en permanence des prix d'achat et de vente, facilitant les transactions sur des valeurs parfois peu liquides."
+      },
+      {
+        "question": "Quelle chambre de compensation assure le règlement des transactions sur Euronext Paris, en se substituant comme contrepartie à l'acheteur et au vendeur ?",
+        "reponse": "LCH SA",
+        "propositions": ["LCH SA", "L'AMF", "Euroclear France", "La Banque de France"],
+        "explication": "LCH SA agit comme chambre de compensation centrale, garantissant la bonne fin des opérations même si l'une des parties fait défaut."
+      },
+      {
+        "question": "À partir de quel seuil de détention du capital ou des droits de vote d'une société cotée en France l'actionnaire est-il obligé de déposer une offre publique d'achat sur le reste du capital ?",
+        "reponse": "30%",
+        "propositions": ["30%", "50%", "10%", "20%"],
+        "explication": "Ce seuil de 30%, fixé par le règlement général de l'AMF, déclenche une obligation de dépôt d'une offre publique visant la totalité du capital restant."
+      },
+      {
+        "question": "Quel indice d'Euronext mesure la volatilité implicite des options sur le CAC 40, à l'image du VIX américain aux États-Unis ?",
+        "reponse": "Le VCAC",
+        "propositions": ["Le VCAC", "Le CAC Volatilité", "Le MOVE", "Le SKEW"],
+        "explication": "Le VCAC est souvent surnommé l'« indice de la peur » de la Bourse de Paris, par analogie avec le VIX de Wall Street."
+      },
+      {
+        "question": "Quel compartiment du marché réglementé d'Euronext Paris regroupe les sociétés cotées dont la capitalisation boursière dépasse un milliard d'euros ?",
+        "reponse": "Le compartiment A",
+        "propositions": ["Le compartiment A", "Le compartiment B", "Le compartiment C", "Le compartiment D"],
+        "explication": "Euronext classe les valeurs du marché réglementé en compartiments A, B et C selon leur capitalisation boursière décroissante."
       }
     ]
   }

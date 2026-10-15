@@ -61,6 +61,66 @@
         "reponse": "La Ville Lumière",
         "propositions": ["La Ville Lumière", "La Ville Rose", "La Cité des Doges", "La Ville Éternelle"],
         "explication": "Paris est surnommée « la Ville Lumière », notamment en référence aux Lumières et à son éclairage public précoce."
+      },
+      {
+        "question": "Quel est le nom du grand jardin public situé au cœur de Paris, entre le Louvre et la place de la Concorde ?",
+        "reponse": "Le jardin des Tuileries",
+        "propositions": ["Le jardin des Tuileries", "Le jardin du Luxembourg", "Le parc Monceau", "Le jardin des Plantes"],
+        "explication": "Le jardin des Tuileries s'étend le long de la Seine, entre le Louvre et la place de la Concorde."
+      },
+      {
+        "question": "Quel est le nom de l'île située au cœur de Paris, sur la Seine, où se trouve Notre-Dame ?",
+        "reponse": "L'île de la Cité",
+        "propositions": ["L'île de la Cité", "L'île Saint-Louis", "L'île aux Cygnes", "L'île Seguin"],
+        "explication": "L'île de la Cité est le berceau historique de Paris, où la ville s'est fondée il y a plus de deux mille ans."
+      },
+      {
+        "question": "Quel grand musée parisien, installé dans une ancienne gare, expose notamment des œuvres impressionnistes ?",
+        "reponse": "Le musée d'Orsay",
+        "propositions": ["Le musée d'Orsay", "Le Louvre", "Le Centre Pompidou", "Le Petit Palais"],
+        "explication": "Le musée d'Orsay est installé dans l'ancienne gare d'Orsay, construite pour l'Exposition universelle de 1900."
+      },
+      {
+        "question": "Quel grand parc parisien, situé à l'ouest de la capitale, est le plus vaste espace vert de Paris ?",
+        "reponse": "Le bois de Boulogne",
+        "propositions": ["Le bois de Boulogne", "Le bois de Vincennes", "Le parc Monceau", "Le parc des Buttes-Chaumont"],
+        "explication": "Le bois de Boulogne, à l'ouest de Paris, est le plus grand espace vert de la capitale."
+      },
+      {
+        "question": "Quel est le nom de la grande place parisienne où se trouve l'obélisque égyptien offert à la France au XIXe siècle ?",
+        "reponse": "La place de la Concorde",
+        "propositions": ["La place de la Concorde", "La place Vendôme", "La place des Vosges", "La place de la Bastille"],
+        "explication": "L'obélisque de Louxor, offert par l'Égypte en 1830, orne le centre de la place de la Concorde depuis 1836."
+      },
+      {
+        "question": "Quel est le nom du grand stade où se déroulent les matchs à domicile de l'équipe de France de football, aux portes de Paris ?",
+        "reponse": "Le Stade de France",
+        "propositions": ["Le Stade de France", "Le Parc des Princes", "Le stade Jean-Bouin", "Le vélodrome"],
+        "explication": "Le Stade de France, inauguré en 1998, se situe à Saint-Denis, aux portes de Paris."
+      },
+      {
+        "question": "Quel fleuve affluent rejoint la Seine à l'est de Paris, donnant son nom à un département voisin ?",
+        "reponse": "La Marne",
+        "propositions": ["La Marne", "L'Oise", "L'Yonne", "L'Essonne"],
+        "explication": "La Marne se jette dans la Seine à Charenton-le-Pont, à l'est de Paris."
+      },
+      {
+        "question": "Quels grands magasins parisiens historiques, situés près de l'Opéra Garnier, sont réputés pour leur coupole de verre Art nouveau ?",
+        "reponse": "Les Galeries Lafayette",
+        "propositions": ["Les Galeries Lafayette", "Le Bon Marché", "Le Printemps", "La Samaritaine"],
+        "explication": "La coupole de verre des Galeries Lafayette, construite en 1912, est un exemple classique du style Art nouveau."
+      },
+      {
+        "question": "Comment s'appelle le bâtiment parisien, siège de l'Assemblée nationale, situé sur la rive gauche face à la place de la Concorde ?",
+        "reponse": "Le Palais Bourbon",
+        "propositions": ["Le Palais Bourbon", "Le Palais du Luxembourg", "L'Hôtel de Ville", "Le Palais de l'Élysée"],
+        "explication": "Le Palais Bourbon, sur la rive gauche de la Seine, abrite l'Assemblée nationale depuis la Révolution."
+      },
+      {
+        "question": "Quel palais parisien, situé rue du Faubourg-Saint-Honoré, est la résidence officielle du président de la République française ?",
+        "reponse": "Le palais de l'Élysée",
+        "propositions": ["Le palais de l'Élysée", "Le palais Bourbon", "L'hôtel Matignon", "Le palais du Luxembourg"],
+        "explication": "Le palais de l'Élysée est la résidence officielle du président de la République française depuis 1848."
       }
     ],
     "2": [
@@ -123,6 +183,66 @@
         "reponse": "Les passages couverts",
         "propositions": ["Les passages couverts", "Les halles", "Les arcades du Louvre", "La galerie Vivienne uniquement"],
         "explication": "Les passages couverts parisiens, nés au début du XIXe siècle, sont les ancêtres des galeries marchandes modernes."
+      },
+      {
+        "question": "Quel roi de France a fait aménager la place des Vosges, l'une des plus anciennes places de Paris, au début du XVIIe siècle ?",
+        "reponse": "Henri IV",
+        "propositions": ["Henri IV", "Louis XIII", "François Ier", "Louis XIV"],
+        "explication": "La place des Vosges, achevée en 1612, est la plus ancienne place royale de Paris encore intacte."
+      },
+      {
+        "question": "Quel architecte a conçu l'Opéra Garnier, inauguré en 1875 sous la Troisième République ?",
+        "reponse": "Charles Garnier",
+        "propositions": ["Charles Garnier", "Gustave Eiffel", "Victor Baltard", "Jacques-Ignace Hittorff"],
+        "explication": "Charles Garnier a remporté le concours d'architecture lancé par Napoléon III en 1861."
+      },
+      {
+        "question": "Quel pont parisien, orné de statues dorées, a été construit pour l'Exposition universelle de 1900 et relie les Champs-Élysées aux Invalides ?",
+        "reponse": "Le pont Alexandre III",
+        "propositions": ["Le pont Alexandre III", "Le pont Mirabeau", "Le pont de la Concorde", "Le pont Neuf"],
+        "explication": "Ce pont est nommé en l'honneur du tsar Alexandre III, en référence à l'alliance franco-russe."
+      },
+      {
+        "question": "Quel roi de France a fait construire la Sainte-Chapelle, sur l'île de la Cité, pour abriter les reliques de la Passion du Christ ?",
+        "reponse": "Saint Louis (Louis IX)",
+        "propositions": ["Saint Louis (Louis IX)", "Philippe Auguste", "Louis XIV", "Charlemagne"],
+        "explication": "La Sainte-Chapelle, achevée en 1248, abritait notamment la couronne d'épines du Christ."
+      },
+      {
+        "question": "Quel roi de France a fait construire, à la fin du XIIe siècle, la première grande enceinte fortifiée de Paris, dont des vestiges sont encore visibles ?",
+        "reponse": "Philippe Auguste",
+        "propositions": ["Philippe Auguste", "Saint Louis", "Charles V", "François Ier"],
+        "explication": "Cette enceinte protégeait Paris sur les deux rives de la Seine, autour de l'actuel centre historique."
+      },
+      {
+        "question": "Quel ancien château royal, situé à l'est de Paris, a aussi servi de prison d'État où furent enfermés Mirabeau et le marquis de Sade ?",
+        "reponse": "Le château de Vincennes",
+        "propositions": ["Le château de Vincennes", "Le château de Saint-Germain-en-Laye", "Le Palais-Royal", "Le Louvre"],
+        "explication": "Le donjon du château de Vincennes a longtemps servi de prison d'État avant la Révolution."
+      },
+      {
+        "question": "Quelle gare parisienne, desservant l'Eurostar vers Londres et le Thalys vers la Belgique, est la gare la plus fréquentée d'Europe ?",
+        "reponse": "La gare du Nord",
+        "propositions": ["La gare du Nord", "La gare de Lyon", "La gare Saint-Lazare", "La gare Montparnasse"],
+        "explication": "La gare du Nord accueille plusieurs centaines de millions de voyageurs chaque année, trafics international et de banlieue confondus."
+      },
+      {
+        "question": "Quelle reine régente de France a fait construire le palais du Luxembourg au début du XVIIe siècle, en souvenir de son enfance florentine ?",
+        "reponse": "Marie de Médicis",
+        "propositions": ["Marie de Médicis", "Catherine de Médicis", "Anne d'Autriche", "Marie-Antoinette"],
+        "explication": "Marie de Médicis, veuve d'Henri IV, fait édifier ce palais à partir de 1615, inspiré du palais Pitti de Florence."
+      },
+      {
+        "question": "Quel est le nom du grand parc de l'est parisien, aménagé dans les années 1980 sur le site d'anciens abattoirs, qui abrite la Cité des sciences ?",
+        "reponse": "Le parc de la Villette",
+        "propositions": ["Le parc de la Villette", "Le parc Monceau", "Le parc des Buttes-Chaumont", "Le parc André-Citroën"],
+        "explication": "Le parc de la Villette abrite notamment la Cité des sciences et de l'industrie ainsi que la Philharmonie de Paris."
+      },
+      {
+        "question": "Quel est le nom de la plus haute tour construite à l'intérieur de Paris intra-muros, achevée en 1973 sur la rive gauche ?",
+        "reponse": "La tour Montparnasse",
+        "propositions": ["La tour Montparnasse", "La tour Eiffel", "La tour Saint-Jacques", "La tour First"],
+        "explication": "Haute de 210 mètres, la tour Montparnasse reste la plus haute tour de bureaux construite à l'intérieur de Paris intra-muros."
       }
     ],
     "3": [
@@ -185,6 +305,66 @@
         "reponse": "Eugène Belgrand",
         "propositions": ["Eugène Belgrand", "Jean-Charles Alphand", "Hector Guimard", "Adolphe Alphand"],
         "explication": "L'ingénieur Eugène Belgrand a conçu le réseau moderne des égouts parisiens sous l'autorité du baron Haussmann."
+      },
+      {
+        "question": "Quel urbaniste est l'auteur du 'Plan Voisin', projet radical de reconstruction du centre de Paris dans les années 1920, jamais réalisé ?",
+        "reponse": "Le Corbusier",
+        "propositions": ["Le Corbusier", "Tony Garnier", "Auguste Perret", "Robert Mallet-Stevens"],
+        "explication": "Ce projet prévoyait de raser une grande partie du centre historique pour y construire des tours disposées en croix."
+      },
+      {
+        "question": "Quelle église parisienne, dont le clocher-porche remonte à environ l'an 990, est considérée comme l'une des plus anciennes de Paris ?",
+        "reponse": "L'église Saint-Germain-des-Prés",
+        "propositions": ["L'église Saint-Germain-des-Prés", "L'église Saint-Julien-le-Pauvre", "L'église Saint-Séverin", "La basilique Saint-Denis"],
+        "explication": "Le clocher de Saint-Germain-des-Prés, construit vers 990-1021, est l'un des plus anciens éléments architecturaux encore visibles à Paris."
+      },
+      {
+        "question": "Comment se nomme l'ancien marché couvert du XIXe siècle, situé dans le quartier du Marais, aujourd'hui reconverti en espace culturel et sportif ?",
+        "reponse": "Le Carreau du Temple",
+        "propositions": ["Le Carreau du Temple", "Les Halles", "Le marché Saint-Germain", "Le marché d'Aligre"],
+        "explication": "Le Carreau du Temple, datant de 1863, était autrefois spécialisé dans le commerce du vêtement et de la fripe."
+      },
+      {
+        "question": "Quel ingénieur est à l'origine, en 1900, de la construction de la première ligne du métro parisien, ouverte pour l'Exposition universelle ?",
+        "reponse": "Fulgence Bienvenüe",
+        "propositions": ["Fulgence Bienvenüe", "Gustave Eiffel", "Eugène Belgrand", "Hector Guimard"],
+        "explication": "Fulgence Bienvenüe est souvent surnommé le 'père du métro' parisien."
+      },
+      {
+        "question": "Quel architecte Art nouveau a dessiné les célèbres édicules en fer forgé ornant de nombreuses entrées du métro parisien ?",
+        "reponse": "Hector Guimard",
+        "propositions": ["Hector Guimard", "Fulgence Bienvenüe", "Victor Baltard", "Charles Garnier"],
+        "explication": "Les entrées de métro conçues par Guimard, avec leurs courbes végétales en fonte, sont devenues des symboles de l'Art nouveau parisien."
+      },
+      {
+        "question": "Quel architecte du XIXe siècle a conçu les pavillons métalliques des Halles centrales de Paris, démolis en 1971 ?",
+        "reponse": "Victor Baltard",
+        "propositions": ["Victor Baltard", "Gustave Eiffel", "Charles Garnier", "Jacques-Ignace Hittorff"],
+        "explication": "Les pavillons Baltard, construits en fer et en verre à partir de 1853, ont marqué l'architecture industrielle du Second Empire."
+      },
+      {
+        "question": "Quelle reine de France fut emprisonnée à la Conciergerie avant son exécution en 1793, durant la Révolution ?",
+        "reponse": "Marie-Antoinette",
+        "propositions": ["Marie-Antoinette", "Marie-Louise d'Autriche", "Marie de Médicis", "Anne d'Autriche"],
+        "explication": "Marie-Antoinette y passa les dernières semaines de sa vie avant son exécution place de la Révolution, l'actuelle place de la Concorde."
+      },
+      {
+        "question": "Quel architecte contemporain a conçu l'Institut du monde arabe, inauguré en 1987 près de Notre-Dame, réputé pour ses moucharabiehs mécaniques ?",
+        "reponse": "Jean Nouvel",
+        "propositions": ["Jean Nouvel", "Renzo Piano", "Dominique Perrault", "Christian de Portzamparc"],
+        "explication": "Les moucharabiehs mécaniques de la façade sud s'ouvrent et se ferment selon la luminosité, à la manière d'un diaphragme photographique."
+      },
+      {
+        "question": "Quel architecte a conçu la Bibliothèque nationale de France (site François-Mitterrand), inaugurée en 1996 et composée de quatre tours en forme de livres ouverts ?",
+        "reponse": "Dominique Perrault",
+        "propositions": ["Dominique Perrault", "Jean Nouvel", "Renzo Piano", "Christian de Portzamparc"],
+        "explication": "Les quatre tours de verre du site Tolbiac abritent les magasins de stockage des collections de la bibliothèque."
+      },
+      {
+        "question": "Quel ingénieur, collaborateur du baron Haussmann, est l'auteur de l'aménagement des parcs des Buttes-Chaumont et Montsouris sous le Second Empire ?",
+        "reponse": "Jean-Charles Alphand",
+        "propositions": ["Jean-Charles Alphand", "Eugène Belgrand", "Hector Guimard", "Victor Baltard"],
+        "explication": "Alphand a conçu plusieurs grands parcs parisiens dans un style paysager anglais, alors en vogue sous le Second Empire."
       }
     ]
   }

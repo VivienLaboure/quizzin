@@ -276,6 +276,116 @@
           "Le Vietnam"
         ],
         "explication": "L'Indonésie est le plus grand archipel du monde et le pays le plus peuplé d'Asie du Sud-Est."
+      },
+      {
+        "question": "Quelle est la capitale de la Russie, la plus vaste ville d'Europe par sa population ?",
+        "reponse": "Moscou",
+        "propositions": [
+          "Moscou",
+          "Saint-Pétersbourg",
+          "Kiev",
+          "Minsk"
+        ],
+        "explication": "Moscou est le siège du pouvoir politique russe depuis le Moyen Âge, à l'exception d'une période où Saint-Pétersbourg fut la capitale."
+      },
+      {
+        "question": "Quel pays d'Afrique du Nord a pour capitale Le Caire, bâtie près du Nil ?",
+        "reponse": "L'Égypte",
+        "propositions": [
+          "L'Égypte",
+          "La Libye",
+          "Le Soudan",
+          "La Tunisie"
+        ],
+        "explication": "Le Caire est l'une des plus grandes agglomérations d'Afrique et du monde arabe."
+      },
+      {
+        "question": "Quelle chaîne de montagnes, la plus haute du monde, s'étend sur plusieurs pays d'Asie dont le Népal et la Chine ?",
+        "reponse": "L'Himalaya",
+        "propositions": [
+          "L'Himalaya",
+          "Le Caucase",
+          "L'Altaï",
+          "Le Pamir"
+        ],
+        "explication": "L'Himalaya abrite la majorité des plus hauts sommets du monde, dont l'Everest."
+      },
+      {
+        "question": "Quel pays d'Europe du Nord, constitué d'une péninsule et de nombreuses îles, a pour capitale Oslo ?",
+        "reponse": "La Norvège",
+        "propositions": [
+          "La Norvège",
+          "La Suède",
+          "Le Danemark",
+          "La Finlande"
+        ],
+        "explication": "La Norvège est réputée pour ses fjords, de longues baies étroites creusées par les glaciers."
+      },
+      {
+        "question": "Quel est le plus grand désert chaud du monde, situé en Afrique du Nord ?",
+        "reponse": "Le Sahara",
+        "propositions": [
+          "Le Sahara",
+          "Le Kalahari",
+          "Le désert d'Arabie",
+          "Le désert de Gobi"
+        ],
+        "explication": "Le Sahara s'étend sur environ 9 millions de km², traversant une dizaine de pays africains."
+      },
+      {
+        "question": "Quelle capitale d'Amérique du Sud se situe à très haute altitude, au cœur des Andes, dans le pays homonyme de l'équateur ?",
+        "reponse": "Quito",
+        "propositions": [
+          "Quito",
+          "Lima",
+          "Bogotá",
+          "La Paz"
+        ],
+        "explication": "Quito, capitale de l'Équateur, est l'une des capitales les plus élevées du monde, après La Paz."
+      },
+      {
+        "question": "Quel pays d'Europe centrale, traversé par le Danube, a pour capitale Budapest ?",
+        "reponse": "La Hongrie",
+        "propositions": [
+          "La Hongrie",
+          "L'Autriche",
+          "La Slovaquie",
+          "La Roumanie"
+        ],
+        "explication": "Budapest est née de la fusion de deux villes situées sur chaque rive du Danube, Buda et Pest."
+      },
+      {
+        "question": "Quelle île des Caraïbes, la deuxième plus grande de la région après Cuba, est partagée entre deux pays : Haïti et la République dominicaine ?",
+        "reponse": "Hispaniola",
+        "propositions": [
+          "Hispaniola",
+          "Cuba",
+          "Porto Rico",
+          "La Jamaïque"
+        ],
+        "explication": "Hispaniola est la deuxième plus grande île des Antilles après Cuba."
+      },
+      {
+        "question": "Quel pays d'Océanie, le plus vaste et le plus peuplé du continent, est à la fois un pays et un continent ?",
+        "reponse": "L'Australie",
+        "propositions": [
+          "L'Australie",
+          "La Nouvelle-Zélande",
+          "La Papouasie-Nouvelle-Guinée",
+          "Les Fidji"
+        ],
+        "explication": "L'Australie occupe la quasi-totalité du continent océanien du même nom."
+      },
+      {
+        "question": "Quelle mer intérieure, bordée par la Russie, l'Ukraine et la Turquie, communique avec la Méditerranée via le Bosphore ?",
+        "reponse": "La mer Noire",
+        "propositions": [
+          "La mer Noire",
+          "La mer Caspienne",
+          "La mer d'Azov",
+          "La mer Égée"
+        ],
+        "explication": "La mer Noire est reliée à la mer Méditerranée par le détroit du Bosphore puis celui des Dardanelles."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "La Jordanie"
         ],
         "explication": "L'Arabie saoudite accueille chaque année des millions de pèlerins pour le hajj, le pèlerinage à La Mecque."
+      },
+      {
+        "question": "Quel pays d'Amérique centrale a pour capitale San José ?",
+        "reponse": "Le Costa Rica",
+        "propositions": [
+          "Le Costa Rica",
+          "Le Panama",
+          "Le Nicaragua",
+          "Le Honduras"
+        ],
+        "explication": "Le Costa Rica est réputé pour sa biodiversité exceptionnelle et l'absence d'armée depuis 1948."
+      },
+      {
+        "question": "Quelle chaîne de montagnes sépare l'Europe du Moyen-Orient, entre la mer Noire et la mer Caspienne ?",
+        "reponse": "Le Caucase",
+        "propositions": [
+          "Le Caucase",
+          "L'Oural",
+          "Les Carpates",
+          "Le Taurus"
+        ],
+        "explication": "Le Caucase traverse notamment la Géorgie, l'Arménie et l'Azerbaïdjan."
+      },
+      {
+        "question": "Quel sommet, situé dans le Caucase russe, est considéré comme le point culminant du continent européen ?",
+        "reponse": "Le mont Elbrouz",
+        "propositions": [
+          "Le mont Elbrouz",
+          "Le mont Blanc",
+          "Le mont Ararat",
+          "Le Dykh-Tau"
+        ],
+        "explication": "L'Elbrouz culmine à 5 642 mètres, dépassant largement le mont Blanc selon la convention qui place la limite de l'Europe au Caucase."
+      },
+      {
+        "question": "Quel pays insulaire d'Europe du Nord, situé sur la dorsale médio-atlantique, a pour capitale Reykjavik ?",
+        "reponse": "L'Islande",
+        "propositions": [
+          "L'Islande",
+          "Le Groenland",
+          "Les îles Féroé",
+          "La Norvège"
+        ],
+        "explication": "L'Islande, pays volcanique, n'est pas membre de l'Union européenne malgré sa proximité culturelle avec les pays nordiques."
+      },
+      {
+        "question": "Quel pays d'Amérique du Sud, bordé par l'océan Pacifique, abrite le désert d'Atacama, l'un des lieux les plus arides du monde ?",
+        "reponse": "Le Chili",
+        "propositions": [
+          "Le Chili",
+          "Le Pérou",
+          "La Bolivie",
+          "L'Argentine"
+        ],
+        "explication": "Certaines zones du désert d'Atacama n'ont enregistré aucune précipitation mesurable depuis des décennies."
+      },
+      {
+        "question": "Quel archipel de l'Atlantique Sud, administré par le Royaume-Uni mais revendiqué par l'Argentine, est connu en espagnol sous le nom de 'Malvinas' ?",
+        "reponse": "Les îles Falkland (Malouines)",
+        "propositions": [
+          "Les îles Falkland (Malouines)",
+          "Les îles Géorgie du Sud",
+          "Les îles Shetland du Sud",
+          "L'archipel Juan Fernández"
+        ],
+        "explication": "Ce différend territorial a notamment conduit à la guerre des Malouines en 1982."
+      },
+      {
+        "question": "Quel petit pays d'Asie du Sud, enclavé dans l'Himalaya entre l'Inde et la Chine, mesure son développement via un indicateur de 'bonheur national brut' ?",
+        "reponse": "Le Bhoutan",
+        "propositions": [
+          "Le Bhoutan",
+          "Le Népal",
+          "Le Sikkim",
+          "Le Ladakh"
+        ],
+        "explication": "Le Bhoutan limite également fortement le tourisme sur son territoire afin de préserver son environnement et sa culture."
+      },
+      {
+        "question": "Quelle péninsule du nord-ouest de la Russie, bordée par la mer de Barents et la mer Blanche, abrite la ville de Mourmansk ?",
+        "reponse": "La péninsule de Kola",
+        "propositions": [
+          "La péninsule de Kola",
+          "La péninsule de Yamal",
+          "La péninsule de Taïmyr",
+          "La péninsule du Kamtchatka"
+        ],
+        "explication": "Mourmansk, sur la péninsule de Kola, est le plus grand port du monde situé au-delà du cercle polaire arctique."
+      },
+      {
+        "question": "Quel pays d'Afrique de l'Est, siège de l'Union africaine, n'a jamais été durablement colonisé par une puissance européenne, hormis une brève occupation italienne ?",
+        "reponse": "L'Éthiopie",
+        "propositions": [
+          "L'Éthiopie",
+          "Le Kenya",
+          "La Somalie",
+          "L'Érythrée"
+        ],
+        "explication": "Addis-Abeba, la capitale éthiopienne, accueille le siège de l'Union africaine depuis sa création en 2002."
+      },
+      {
+        "question": "Quel détroit, situé entre l'Espagne et le Maroc, relie l'océan Atlantique à la mer Méditerranée ?",
+        "reponse": "Le détroit de Gibraltar",
+        "propositions": [
+          "Le détroit de Gibraltar",
+          "Le détroit de Messine",
+          "Le détroit d'Otrante",
+          "Le détroit de Sicile"
+        ],
+        "explication": "Ce détroit, large d'une quinzaine de kilomètres à son point le plus étroit, sépare l'Europe de l'Afrique."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "L'Amour"
         ],
         "explication": "Le Huang He est surnommé 'le berceau de la civilisation chinoise' malgré ses crues parfois catastrophiques."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène géologique par lequel une plaque tectonique océanique s'enfonce sous une autre plaque, vers le manteau terrestre ?",
+        "reponse": "La subduction",
+        "propositions": [
+          "La subduction",
+          "La divergence",
+          "La collision continentale",
+          "L'obduction"
+        ],
+        "explication": "La subduction est notamment à l'origine des grandes fosses océaniques et d'une intense activité volcanique et sismique, comme sur la 'ceinture de feu' du Pacifique."
+      },
+      {
+        "question": "Quel détroit, situé entre la péninsule arabique et l'Afrique de l'Est, relie la mer Rouge au golfe d'Aden ?",
+        "reponse": "Le détroit de Bab-el-Mandeb",
+        "propositions": [
+          "Le détroit de Bab-el-Mandeb",
+          "Le détroit d'Ormuz",
+          "Le détroit de Malacca",
+          "Le canal de Suez"
+        ],
+        "explication": "Ce détroit stratégique, bordé par le Yémen et Djibouti, est un passage majeur pour le trafic maritime mondial."
+      },
+      {
+        "question": "Comment appelle-t-on l'oscillation périodique de la pression atmosphérique entre l'anticyclone des Açores et la dépression d'Islande, qui influence fortement les hivers en Europe de l'Ouest ?",
+        "reponse": "L'oscillation nord-atlantique",
+        "propositions": [
+          "L'oscillation nord-atlantique",
+          "El Niño",
+          "La Niña",
+          "La mousson"
+        ],
+        "explication": "Une phase positive de cette oscillation est généralement associée à des hivers plus doux et humides en Europe occidentale."
+      },
+      {
+        "question": "Quelle ligne biogéographique, tracée au sein de la région de Wallacea en Indonésie, marque la limite où la faune devient à peu près également d'origine asiatique et australienne ?",
+        "reponse": "La ligne de Weber",
+        "propositions": [
+          "La ligne de Weber",
+          "La ligne de Wallace",
+          "Le méridien de Tordesillas",
+          "La limite de l'olivier"
+        ],
+        "explication": "Nommée d'après le naturaliste néerlandais Max Carl Wilhelm Weber, cette ligne se situe plus à l'est que la ligne de Wallace."
+      },
+      {
+        "question": "Comment appelle-t-on le supercontinent qui regroupait la quasi-totalité des terres émergées il y a environ 300 millions d'années, avant sa fragmentation ?",
+        "reponse": "La Pangée",
+        "propositions": [
+          "La Pangée",
+          "La Laurasia",
+          "Le Gondwana",
+          "La Pannotia"
+        ],
+        "explication": "La fragmentation de la Pangée a progressivement donné naissance aux continents actuels par dérive des plaques tectoniques."
+      },
+      {
+        "question": "Quelle fosse sous-marine, la plus profonde de l'océan Indien, se situe au large de Java et de Sumatra, en Indonésie ?",
+        "reponse": "La fosse de la Sonde",
+        "propositions": [
+          "La fosse de la Sonde",
+          "La fosse des Mariannes",
+          "La fosse du Pérou-Chili",
+          "La fosse des Kouriles"
+        ],
+        "explication": "Cette fosse, aussi appelée fosse de Java, est associée à une zone de subduction particulièrement active sismiquement."
+      },
+      {
+        "question": "Quel pays d'Asie centrale, aux côtés du Liechtenstein, est l'un des deux seuls pays du monde entièrement enclavés par d'autres pays eux-mêmes enclavés ?",
+        "reponse": "L'Ouzbékistan",
+        "propositions": [
+          "L'Ouzbékistan",
+          "Le Kazakhstan",
+          "Le Turkménistan",
+          "Le Tadjikistan"
+        ],
+        "explication": "L'Ouzbékistan est entouré par le Kazakhstan, le Turkménistan, le Tadjikistan, le Kirghizistan et l'Afghanistan, tous eux-mêmes sans accès direct à la mer."
+      },
+      {
+        "question": "Quel est le plus petit et le moins profond des océans du monde, largement recouvert de glace de mer une grande partie de l'année ?",
+        "reponse": "L'océan Arctique",
+        "propositions": [
+          "L'océan Arctique",
+          "L'océan Indien",
+          "L'océan Atlantique",
+          "L'océan Austral"
+        ],
+        "explication": "L'étendue de la banquise arctique varie fortement selon les saisons et diminue sur le long terme sous l'effet du réchauffement climatique."
+      },
+      {
+        "question": "Quel phénomène géothermique, à l'origine des geysers comme ceux du parc de Yellowstone, résulte de la remontée d'eau souterraine chauffée par le magma ?",
+        "reponse": "L'activité hydrothermale",
+        "propositions": [
+          "L'activité hydrothermale",
+          "La subduction",
+          "Le volcanisme explosif",
+          "La tectonique des plaques"
+        ],
+        "explication": "Yellowstone repose sur une vaste caldeira volcanique, alimentée par un point chaud situé sous la croûte terrestre."
+      },
+      {
+        "question": "Comment appelle-t-on la zone en forme de fer à cheval, bordant l'océan Pacifique, où se concentrent la majorité des volcans et des séismes du monde ?",
+        "reponse": "La ceinture de feu du Pacifique",
+        "propositions": [
+          "La ceinture de feu du Pacifique",
+          "La dorsale médio-atlantique",
+          "Le Grand Rift est-africain",
+          "La fosse des Mariannes"
+        ],
+        "explication": "Cette zone résulte de la subduction de plusieurs plaques tectoniques autour de la plaque Pacifique."
       }
     ]
   }

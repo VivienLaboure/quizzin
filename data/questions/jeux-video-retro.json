@@ -276,6 +276,116 @@
           "Dr. Robotnik"
         ],
         "explication": "Sonic a été créé pour concurrencer directement Mario, mascotte de Nintendo."
+      },
+      {
+        "question": "Quel jeu de combat de SNK, sorti en 1992, met en scène des personnages comme Terry Bogard et Andy Bogard ?",
+        "reponse": "Fatal Fury",
+        "propositions": [
+          "Fatal Fury",
+          "King of Fighters",
+          "Art of Fighting",
+          "Samurai Shodown"
+        ],
+        "explication": "Fatal Fury (Garou Densetsu) a été créé par Takashi Nishiyama, aussi à l'origine de 'Street Fighter'."
+      },
+      {
+        "question": "Quelle console de Nintendo, sortie en 1983 au Japon, est connue sous le nom de NES une fois commercialisée en Occident ?",
+        "reponse": "La Famicom",
+        "propositions": [
+          "La Famicom",
+          "La Super Famicom",
+          "La Game Boy",
+          "La Virtual Boy"
+        ],
+        "explication": "La Famicom (Family Computer) a été lancée au Japon en 1983, deux ans avant son arrivée aux États-Unis sous le nom de NES."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1979, où le joueur pilote un vaisseau combattant des vagues d'insectes extraterrestres, a été édité par Namco ?",
+        "reponse": "Galaxian",
+        "propositions": [
+          "Galaxian",
+          "Galaga",
+          "Xevious",
+          "Defender"
+        ],
+        "explication": "Galaxian a introduit des ennemis capables de quitter leur formation pour foncer sur le joueur."
+      },
+      {
+        "question": "Quelle couleur est traditionnellement associée au personnage principal du jeu 'Pac-Man' ?",
+        "reponse": "Jaune",
+        "propositions": [
+          "Jaune",
+          "Violet",
+          "Bleu",
+          "Vert"
+        ],
+        "explication": "Pac-Man est représenté par un disque jaune doté d'une bouche qui s'ouvre et se ferme."
+      },
+      {
+        "question": "Quelle série de jeux de combat d'arcade, lancée par Midway en 1992, a provoqué une controverse aux États-Unis en raison de sa violence graphique et de ses 'fatalités' ?",
+        "reponse": "Mortal Kombat",
+        "propositions": [
+          "Mortal Kombat",
+          "Street Fighter",
+          "Tekken",
+          "Killer Instinct"
+        ],
+        "explication": "Cette controverse a contribué à la création du système de classification ESRB aux États-Unis en 1994."
+      },
+      {
+        "question": "Quelle console portable de Nintendo, sortie en 1998, a introduit l'écran couleur sur la lignée Game Boy ?",
+        "reponse": "La Game Boy Color",
+        "propositions": [
+          "La Game Boy Color",
+          "La Game Boy Pocket",
+          "La Game Boy Advance",
+          "La Virtual Boy"
+        ],
+        "explication": "La Game Boy Color restait rétrocompatible avec la plupart des cartouches Game Boy originales."
+      },
+      {
+        "question": "Quel était le nom donné au personnage incarné par le joueur dans le jeu d'arcade 'Donkey Kong' de 1981, avant qu'il ne devienne Mario ?",
+        "reponse": "Jumpman",
+        "propositions": [
+          "Jumpman",
+          "Mario",
+          "Pauline",
+          "Cranky Kong"
+        ],
+        "explication": "Le personnage a été rebaptisé Mario dès la sortie américaine du jeu, en hommage au propriétaire de l'entrepôt louant ses locaux à Nintendo of America."
+      },
+      {
+        "question": "Quel périphérique additionnel pour la Famicom, sorti par Nintendo en 1986, permettait de jouer à des jeux sur disquettes réinscriptibles ?",
+        "reponse": "Le Famicom Disk System",
+        "propositions": [
+          "Le Famicom Disk System",
+          "Le Super Famicom CD",
+          "Le Satellaview",
+          "Le 64DD"
+        ],
+        "explication": "Le Famicom Disk System a accueilli notamment la première version japonaise de 'The Legend of Zelda'."
+      },
+      {
+        "question": "Quelle série de jeux, créée par Hudson Soft, met en scène un personnage en costume blanc capable de poser des bombes explosives ?",
+        "reponse": "Bomberman",
+        "propositions": [
+          "Bomberman",
+          "Dig Dug",
+          "Q*bert",
+          "Kirby"
+        ],
+        "explication": "Le premier 'Bomberman' est sorti en 1983, avant de devenir une référence du jeu multijoueur en arène."
+      },
+      {
+        "question": "Quel jeu de course d'arcade de Namco, sorti en 1982, place le joueur au volant d'une voiture de Formule 1 sur un circuit chronométré ?",
+        "reponse": "Pole Position",
+        "propositions": [
+          "Pole Position",
+          "Out Run",
+          "Rad Racer",
+          "Hang-On"
+        ],
+        "explication": "Pole Position a introduit un tour de qualification déterminant la position de départ, d'où son nom."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "La Virtual Boy"
         ],
         "explication": "La Game Boy Advance a conservé une rétrocompatibilité avec les jeux Game Boy et Game Boy Color."
+      },
+      {
+        "question": "Quel jeu de plateforme de Capcom, sorti en arcade en 1985, met en scène un chevalier nommé Arthur combattant des démons et des zombies ?",
+        "reponse": "Ghosts'n Goblins",
+        "propositions": [
+          "Ghosts'n Goblins",
+          "Ghouls'n Ghosts",
+          "Castlevania",
+          "Rastan"
+        ],
+        "explication": "Le jeu est réputé pour sa difficulté extrême, Arthur perdant son armure au premier coup reçu."
+      },
+      {
+        "question": "Quelle série de jeux d'action-plateforme de Konami, débutée en 1986, met en scène le chasseur de vampires Simon Belmont ?",
+        "reponse": "Castlevania",
+        "propositions": [
+          "Castlevania",
+          "Ghosts'n Goblins",
+          "Shadow of the Ninja",
+          "Contra"
+        ],
+        "explication": "Simon Belmont doit affronter le comte Dracula à l'aide de son fouet, le 'Vampire Killer'."
+      },
+      {
+        "question": "Quel jeu de Konami, sorti sur NES en 1988, est à l'origine de la popularité du 'code Konami', donnant trente vies supplémentaires au joueur ?",
+        "reponse": "Contra",
+        "propositions": [
+          "Contra",
+          "Gradius",
+          "Castlevania",
+          "Metal Gear"
+        ],
+        "explication": "Ce code de triche, apparu dès 1986 dans 'Gradius', est devenu culte grâce à sa popularité dans 'Contra'."
+      },
+      {
+        "question": "Quel jeu de rôle japonais de Square, sorti en 1995, met en scène des personnages voyageant à travers le temps, avec la collaboration du dessinateur Akira Toriyama ?",
+        "reponse": "Chrono Trigger",
+        "propositions": [
+          "Chrono Trigger",
+          "Final Fantasy VI",
+          "Secret of Mana",
+          "Live A Live"
+        ],
+        "explication": "Chrono Trigger a réuni les créateurs de 'Final Fantasy' et de 'Dragon Quest', surnommés le 'Dream Team'."
+      },
+      {
+        "question": "Quelle console portable de Nintendo, sortie en 1995, a été un échec commercial en raison de son affichage monochrome rouge et noir ?",
+        "reponse": "La Virtual Boy",
+        "propositions": [
+          "La Virtual Boy",
+          "La Game Gear",
+          "La Atari Lynx",
+          "La Game Boy Color"
+        ],
+        "explication": "La Virtual Boy provoquait souvent des maux de tête chez les joueurs et a été retirée du marché moins d'un an après son lancement."
+      },
+      {
+        "question": "Quelle série de jeux de combat de SNK, débutée en 1994, réunit des personnages issus de plusieurs franchises comme 'Fatal Fury' et 'Art of Fighting' ?",
+        "reponse": "The King of Fighters",
+        "propositions": [
+          "The King of Fighters",
+          "Fatal Fury",
+          "Samurai Shodown",
+          "World Heroes"
+        ],
+        "explication": "'The King of Fighters '94' a inauguré cette série sur borne d'arcade Neo Geo."
+      },
+      {
+        "question": "Quelle console de salon, sortie par NEC en 1994, a succédé à la PC Engine avec un lecteur CD-ROM intégré ?",
+        "reponse": "La PC-FX",
+        "propositions": [
+          "La PC-FX",
+          "La PC Engine",
+          "La Mega-CD",
+          "La 3DO"
+        ],
+        "explication": "La PC-FX n'a connu qu'un succès commercial limité, essentiellement au Japon."
+      },
+      {
+        "question": "Quel périphérique additionnel pour la Mega Drive, sorti par Sega en 1991, permettait de lire des jeux sur CD-ROM ?",
+        "reponse": "La Mega-CD",
+        "propositions": [
+          "La Mega-CD",
+          "La 32X",
+          "La Master System",
+          "La Game Gear"
+        ],
+        "explication": "La Mega-CD (Sega CD) a notamment accueilli des jeux utilisant des vidéos numérisées en plein écran."
+      },
+      {
+        "question": "Quel périphérique de Sega, sorti en 1994, ajoutait une puissance de calcul 32 bits à la Mega Drive juste avant la sortie de la Saturn ?",
+        "reponse": "La 32X",
+        "propositions": [
+          "La 32X",
+          "La Mega-CD",
+          "La Game Gear",
+          "La Pico"
+        ],
+        "explication": "La 32X n'a bénéficié que d'un catalogue de jeux restreint avant d'être rapidement abandonnée."
+      },
+      {
+        "question": "Quel jeu de rôle d'action de Nintendo, sorti sur Super Nintendo en 1991, met en scène Link affrontant Ganon dans le royaume d'Hyrule ?",
+        "reponse": "The Legend of Zelda: A Link to the Past",
+        "propositions": [
+          "The Legend of Zelda: A Link to the Past",
+          "The Legend of Zelda: Ocarina of Time",
+          "The Legend of Zelda: Link's Awakening",
+          "Secret of Mana"
+        ],
+        "explication": "Ce jeu est souvent cité comme l'un des sommets du genre action-RPG sur l'ère 16 bits."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Atari"
         ],
         "explication": "Fondée par Trip Hawkins, la 3DO Company vendait sa console à un prix bien supérieur à celui de ses concurrentes."
+      },
+      {
+        "question": "Quel physicien américain a créé le jeu 'Tennis for Two' en 1958 sur un oscilloscope, souvent cité comme l'un des tout premiers jeux vidéo de l'histoire ?",
+        "reponse": "William Higinbotham",
+        "propositions": [
+          "William Higinbotham",
+          "Steve Russell",
+          "Ralph Baer",
+          "Nolan Bushnell"
+        ],
+        "explication": "Higinbotham a conçu ce jeu pour une journée portes ouvertes du laboratoire national de Brookhaven, où il travaillait."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1980, développé par Williams Electronics, met en scène un vaisseau devant protéger des humanoïdes contre des aliens, pionnier du défilement horizontal fluide ?",
+        "reponse": "Defender",
+        "propositions": [
+          "Defender",
+          "Asteroids",
+          "Centipede",
+          "Robotron: 2084"
+        ],
+        "explication": "Defender est réputé pour sa jouabilité exigeante, combinant plusieurs boutons et un joystick multidirectionnel."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1982, conçu par Eugene Jarvis et Larry DeMar pour Williams Electronics, oppose un robot à des vagues d'ennemis pour sauver des humains ?",
+        "reponse": "Robotron: 2084",
+        "propositions": [
+          "Robotron: 2084",
+          "Defender",
+          "Berzerk",
+          "Centipede"
+        ],
+        "explication": "Robotron: 2084 se joue avec deux joysticks, l'un pour se déplacer et l'autre pour tirer dans n'importe quelle direction."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1980, développé par Atari et doté d'une manette en forme de trackball, met en scène un insecte centipède à abattre segment par segment ?",
+        "reponse": "Centipede",
+        "propositions": [
+          "Centipede",
+          "Millipede",
+          "Tempest",
+          "Missile Command"
+        ],
+        "explication": "Centipede a été coconçu par Dona Bailey, l'une des premières femmes programmeuses de jeux d'arcade chez Atari."
+      },
+      {
+        "question": "Quel jeu d'arcade japonais de 1986, développé par Sega, propose de piloter une Ferrari en vue à la troisième personne, avec un siège mobile en option ?",
+        "reponse": "Out Run",
+        "propositions": [
+          "Out Run",
+          "Pole Position",
+          "Hang-On",
+          "Chase H.Q."
+        ],
+        "explication": "Out Run proposait au joueur de choisir son itinéraire à chaque embranchement, une innovation pour l'époque."
+      },
+      {
+        "question": "Quel concepteur japonais, créateur de 'Out Run' et de 'Virtua Fighter', a dirigé plusieurs succès d'arcade chez Sega dans les années 1980-1990 ?",
+        "reponse": "Yu Suzuki",
+        "propositions": [
+          "Yu Suzuki",
+          "Toshihiro Nagoshi",
+          "Yuji Naka",
+          "Hiroshi Kawaguchi"
+        ],
+        "explication": "Yu Suzuki a dirigé la division Sega AM2, à l'origine de nombreuses bornes d'arcade technologiquement avancées."
+      },
+      {
+        "question": "Quel programmeur et designer britannique a créé le jeu 'Elite' en 1984, pionnier du jeu d'exploration spatiale en 3D à univers généré proceduralement ?",
+        "reponse": "David Braben",
+        "propositions": [
+          "David Braben",
+          "Peter Molyneux",
+          "Jeff Minter",
+          "Geoff Crammond"
+        ],
+        "explication": "David Braben a cocréé 'Elite' avec Ian Bell sur BBC Micro, un jeu capable de simuler des milliers de systèmes stellaires."
+      },
+      {
+        "question": "Quel créateur britannique de jeux vidéo, fondateur de Bullfrog Productions, est connu pour 'Populous' (1989), pionnier du genre 'dieu-jeu' ?",
+        "reponse": "Peter Molyneux",
+        "propositions": [
+          "Peter Molyneux",
+          "David Braben",
+          "Jeff Minter",
+          "Will Wright"
+        ],
+        "explication": "Dans 'Populous', le joueur incarne une divinité façonnant le terrain pour aider son peuple à vaincre un peuple rival."
+      },
+      {
+        "question": "Quel programmeur américain, créateur de 'SimCity' en 1989, a ensuite fondé le studio Maxis ?",
+        "reponse": "Will Wright",
+        "propositions": [
+          "Will Wright",
+          "Sid Meier",
+          "Peter Molyneux",
+          "Richard Garriott"
+        ],
+        "explication": "Will Wright a conçu 'SimCity' en s'inspirant de ses propres outils d'édition de cartes pour un jeu d'action précédent."
+      },
+      {
+        "question": "Quel concepteur américain, créateur de la série de jeux de rôle 'Ultima' dès 1981, est surnommé 'Lord British' au sein de son propre univers de jeu ?",
+        "reponse": "Richard Garriott",
+        "propositions": [
+          "Richard Garriott",
+          "Will Wright",
+          "Sid Meier",
+          "Chris Roberts"
+        ],
+        "explication": "Garriott a ensuite créé le MMORPG 'Ultima Online' en 1997, pionnier du genre."
       }
     ]
   }

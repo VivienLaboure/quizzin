@@ -61,6 +61,66 @@
         "reponse": "Arcane",
         "propositions": ["Arcane", "Castlevania", "Cyberpunk Edgerunners", "DOTA : Dragon's Blood"],
         "explication": "Arcane, sortie en 2021, est une série animée Netflix basée sur l'univers de League of Legends, saluée par la critique."
+      },
+      {
+        "question": "Quelle couleur représente traditionnellement l'équipe qui démarre dans le coin inférieur gauche de la Faille de l'invocateur ?",
+        "reponse": "Le bleu (équipe bleue)",
+        "propositions": ["Le bleu (équipe bleue)", "Le rouge (équipe rouge)", "Le vert", "Le violet"],
+        "explication": "L'équipe adverse, qui démarre dans le coin supérieur droit, est appelée l'équipe rouge."
+      },
+      {
+        "question": "Quel rôle désigne le joueur qui se déplace dans la jungle pour éliminer les monstres neutres plutôt que de rester sur une voie ?",
+        "reponse": "Le jungler",
+        "propositions": ["Le jungler", "Le support", "Le top laner", "L'ADC"],
+        "explication": "Le jungler profite des monstres neutres pour prendre de l'avance en niveau et en or sans dépendre d'une voie précise."
+      },
+      {
+        "question": "Quel est le nom du mode de jeu alternatif de League of Legends qui se joue sur une petite carte avec des champions tirés au hasard ?",
+        "reponse": "ARAM (All Random All Mid)",
+        "propositions": ["ARAM (All Random All Mid)", "Teamfight Tactics", "Nexus Blitz", "URF"],
+        "explication": "En ARAM, les champions sont assignés aléatoirement aux joueurs sur la carte du Pont du hurlement."
+      },
+      {
+        "question": "Combien de voies principales ('lanes') compte la carte classique de League of Legends, la Faille de l'invocateur ?",
+        "reponse": "Trois (top, mid, bot)",
+        "propositions": ["Trois (top, mid, bot)", "Deux", "Quatre", "Cinq"],
+        "explication": "Les trois voies, reliées par la jungle, structurent l'ensemble de la stratégie d'une partie classique."
+      },
+      {
+        "question": "Quel type de monnaie virtuelle, gagnée en jouant des parties, permet de débloquer des champions sans dépenser d'argent réel ?",
+        "reponse": "L'essence bleue",
+        "propositions": ["L'essence bleue", "Les points Riot", "Les jetons Hextech", "Les cristaux d'orbe"],
+        "explication": "L'essence bleue s'obtient notamment en jouant des parties ou en recyclant des champions déjà possédés."
+      },
+      {
+        "question": "Quel bâtiment doit être détruit sur une voie pour ouvrir l'accès à l'inhibiteur adverse qui s'y trouve ?",
+        "reponse": "Une tourelle (tour)",
+        "propositions": ["Une tourelle (tour)", "Le Nexus", "Le Héraut", "Le Baron"],
+        "explication": "Chaque voie comporte plusieurs tourelles successives, qui protègent la base et l'inhibiteur correspondant."
+      },
+      {
+        "question": "Quel jeu de stratégie en tour par tour, dérivé de l'univers de League of Legends, a été lancé par Riot Games en 2019 ?",
+        "reponse": "Teamfight Tactics",
+        "propositions": ["Teamfight Tactics", "Legends of Runeterra", "Wild Rift", "Valorant"],
+        "explication": "Teamfight Tactics reprend les champions de League of Legends dans un jeu auto-battler inspiré du mode communautaire 'Dota Auto Chess'."
+      },
+      {
+        "question": "Quelle version adaptée pour smartphone et console de League of Legends a été lancée par Riot Games en 2020 ?",
+        "reponse": "League of Legends: Wild Rift",
+        "propositions": ["League of Legends: Wild Rift", "Teamfight Tactics", "Legends of Runeterra", "Valorant"],
+        "explication": "Wild Rift reprend l'esprit du jeu original en l'adaptant aux contraintes du jeu mobile, avec des parties plus courtes."
+      },
+      {
+        "question": "Comment appelle-t-on le rôle du champion chargé de soigner ou de protéger ses coéquipiers, souvent positionné en voie du bas avec l'ADC ?",
+        "reponse": "Le support",
+        "propositions": ["Le support", "Le jungler", "Le top laner", "Le mid laner"],
+        "explication": "Le support privilégie généralement les sorts d'utilité et de protection plutôt que les dégâts bruts."
+      },
+      {
+        "question": "Quelle entreprise américaine, fondée en 2006 par Brandon Beck et Marc Merrill, a créé League of Legends ?",
+        "reponse": "Riot Games",
+        "propositions": ["Riot Games", "Blizzard Entertainment", "Valve", "Epic Games"],
+        "explication": "Riot Games a consacré trois ans au développement du jeu avant son lancement en 2009."
       }
     ],
     "2": [
@@ -123,6 +183,66 @@
         "reponse": "La Corée du Sud",
         "propositions": ["La Corée du Sud", "Les États-Unis", "La Chine", "L'Allemagne"],
         "explication": "La Corée du Sud, via sa ligue LCK, est historiquement la région la plus titrée et la plus respectée de League of Legends."
+      },
+      {
+        "question": "Quel grand monstre neutre, situé dans la rivière, confère un bonus d'attaque différent selon son élément (feu, air, eau ou terre) ?",
+        "reponse": "Le Dragon (élémentaire)",
+        "propositions": ["Le Dragon (élémentaire)", "Le Baron Nashor", "Le Héraut de la faille", "Le Loup ancestral"],
+        "explication": "Accumuler plusieurs âmes de dragon donne un bonus collectif encore plus puissant à l'équipe qui les contrôle."
+      },
+      {
+        "question": "Quel monstre neutre de la jungle du haut peut être chevauché par un champion pour foncer et détruire une tourelle adverse ?",
+        "reponse": "Le Héraut de la faille (Rift Herald)",
+        "propositions": ["Le Héraut de la faille (Rift Herald)", "Le Baron Nashor", "Le Dragon ancien", "L'Araignée-Reine"],
+        "explication": "Le Héraut de la faille charge les tourelles sur son passage, infligeant des dégâts considérables aux structures."
+      },
+      {
+        "question": "Comment appelle-t-on la ligue professionnelle regroupant les meilleures équipes nord-américaines de League of Legends ?",
+        "reponse": "La LCS (League of Legends Championship Series)",
+        "propositions": ["La LCS (League of Legends Championship Series)", "La LEC", "La LCK", "La LPL"],
+        "explication": "La LCS a adopté en 2018 un système de franchise, mettant fin à la montée et à la descente entre divisions."
+      },
+      {
+        "question": "Quelle ligue professionnelle regroupe les meilleures équipes chinoises de League of Legends ?",
+        "reponse": "La LPL (League of Legends Pro League)",
+        "propositions": ["La LPL (League of Legends Pro League)", "La LCK", "La LCS", "La LEC"],
+        "explication": "La LPL a vu plusieurs de ses équipes, comme Invictus Gaming et FunPlus Phoenix, remporter les Worlds depuis 2018."
+      },
+      {
+        "question": "Combien de temps dure en moyenne une partie classique de League of Legends en mode classé 5 contre 5 ?",
+        "reponse": "Entre 25 et 35 minutes environ",
+        "propositions": ["Entre 25 et 35 minutes environ", "Moins de 10 minutes", "Environ 1 heure 30", "Plus de 2 heures"],
+        "explication": "La durée d'une partie varie fortement selon le rythme de jeu, mais se situe le plus souvent dans cette fourchette."
+      },
+      {
+        "question": "Quel rôle désigne le joueur qui évolue seul sur la voie centrale, souvent avec des champions mages ou assassins ?",
+        "reponse": "Le mid laner",
+        "propositions": ["Le mid laner", "Le top laner", "Le jungler", "Le support"],
+        "explication": "La voie du milieu, plus courte que les autres, favorise des affrontements fréquents entre les deux mid laners."
+      },
+      {
+        "question": "Quelle compétition annuelle, organisée en plein été en dehors des Worlds et du MSI, oppose les meilleures équipes de plusieurs grandes régions ?",
+        "reponse": "Les Rift Rivals",
+        "propositions": ["Les Rift Rivals", "Le Mid-Season Invitational", "La Demacia Cup", "La All-Star Week"],
+        "explication": "Les Rift Rivals opposent traditionnellement des paires ou trios de régions rivales, comme l'Europe et l'Amérique du Nord."
+      },
+      {
+        "question": "Quelle monnaie d'Hextech, obtenue en complétant des missions ou en ouvrant des coffres, permet de fabriquer des skins ?",
+        "reponse": "L'essence Hextech",
+        "propositions": ["L'essence Hextech", "L'essence bleue", "Les jetons Orange", "Les cristaux d'orbe"],
+        "explication": "L'essence Hextech est obtenue en désenchantant des skins ou en ouvrant des coffres Hextech avec une clé."
+      },
+      {
+        "question": "Quelle statistique, abrégée KDA, mesure la performance individuelle d'un joueur à travers ses éliminations, morts et assistances ?",
+        "reponse": "Le KDA (Kills/Deaths/Assists)",
+        "propositions": ["Le KDA (Kills/Deaths/Assists)", "Le CS (Creep Score)", "Le GPM (Gold Per Minute)", "Le DPM (Damage Per Minute)"],
+        "explication": "Le KDA se calcule en additionnant les éliminations et les assistances, puis en divisant par le nombre de morts."
+      },
+      {
+        "question": "Comment appelle-t-on les courts métrages et chansons thématiques que Riot Games produit chaque année pour accompagner le championnat du monde ?",
+        "reponse": "La cinématique des Worlds",
+        "propositions": ["La cinématique des Worlds", "L'Arcane Day", "Le Spirit Blossom Festival", "Le Lunar Revel"],
+        "explication": "Des chansons comme 'Warriors' ou 'Legends Never Die' accompagnent ainsi la promotion des Worlds depuis plusieurs années."
       }
     ],
     "3": [
@@ -185,6 +305,66 @@
         "reponse": "La franchise des ligues LCS et LEC",
         "propositions": ["La franchise des ligues LCS et LEC", "La franchise de la LCK", "La franchise de la LPL", "La franchise des Worlds"],
         "explication": "À partir de 2018-2020, la LCS puis la LEC sont passées à un système de franchises, avec des équipes partenaires permanentes sans relégation."
+      },
+      {
+        "question": "Quel pseudonyme porte le joueur chinois qui occupait le poste de mid laner au sein d'Invictus Gaming lors de leur titre mondial de 2018 ?",
+        "reponse": "Rookie",
+        "propositions": ["Rookie", "TheShy", "Ning", "JackeyLove"],
+        "explication": "TheShy, Ning et JackeyLove complétaient, avec Rookie, le roster d'Invictus Gaming sacré champion du monde en 2018."
+      },
+      {
+        "question": "Quelle équipe chinoise a remporté le tout premier Mid-Season Invitational, en 2015, en battant Fnatic en finale ?",
+        "reponse": "Edward Gaming",
+        "propositions": ["Edward Gaming", "Fnatic", "SK Telecom T1", "Team WE"],
+        "explication": "Cette victoire a été l'un des premiers grands succès internationaux d'une équipe chinoise sur League of Legends."
+      },
+      {
+        "question": "Quelle équipe sud-coréenne, menée par Faker, a remporté les titres mondiaux de 2013, 2015 et 2016 ?",
+        "reponse": "SK Telecom T1",
+        "propositions": ["SK Telecom T1", "Samsung Galaxy", "KT Rolster", "Invictus Gaming"],
+        "explication": "SK Telecom T1 a changé de nom pour devenir simplement 'T1' par la suite."
+      },
+      {
+        "question": "Quelle équipe sud-coréenne a remporté le championnat du monde 2014, mettant fin à la série de titres de SK Telecom T1 cette année-là ?",
+        "reponse": "Samsung White",
+        "propositions": ["Samsung White", "Samsung Blue", "KT Rolster", "NaJin White Shield"],
+        "explication": "Samsung White, rebaptisée plus tard Samsung Galaxy, a battu Star Horn Royal Club en finale des Worlds 2014."
+      },
+      {
+        "question": "Quelle équipe européenne, fondée par Carlos « ocelote » Rodríguez en 2015, a dominé la scène LEC dans la seconde moitié des années 2010 ?",
+        "reponse": "G2 Esports",
+        "propositions": ["G2 Esports", "Fnatic", "Origen", "Misfits Gaming"],
+        "explication": "G2 Esports a notamment atteint la finale des Worlds 2019, perdue face à FunPlus Phoenix."
+      },
+      {
+        "question": "Quelle équipe sud-coréenne a battu SK Telecom T1 en finale du championnat du monde 2017, les empêchant de décrocher un titre supplémentaire ?",
+        "reponse": "Samsung Galaxy",
+        "propositions": ["Samsung Galaxy", "Royal Never Give Up", "Invictus Gaming", "Gen.G"],
+        "explication": "Cette victoire de Samsung Galaxy a constitué la dernière grande finale perdue par SK Telecom T1 de cette période faste."
+      },
+      {
+        "question": "Quelle équipe chinoise a remporté le championnat du monde 2019, en battant G2 Esports en finale ?",
+        "reponse": "FunPlus Phoenix",
+        "propositions": ["FunPlus Phoenix", "Invictus Gaming", "G2 Esports", "DAMWON Gaming"],
+        "explication": "Ce titre confirmait la domination de la région LPL, un an après le premier sacre chinois d'Invictus Gaming."
+      },
+      {
+        "question": "Quelle équipe sud-coréenne, portée par le joueur ShowMaker, a remporté le championnat du monde 2020 ?",
+        "reponse": "DAMWON Gaming",
+        "propositions": ["DAMWON Gaming", "FunPlus Phoenix", "Suning", "T1"],
+        "explication": "DAMWON Gaming a battu l'équipe chinoise Suning en finale des Worlds 2020, disputés à Shanghai."
+      },
+      {
+        "question": "Quel pseudonyme porte le joueur chinois Jian Zihao, considéré comme l'un des meilleurs ADC historiques de League of Legends, qui a évolué pour Royal Never Give Up ?",
+        "reponse": "Uzi",
+        "propositions": ["Uzi", "Bang", "Deft", "Ruler"],
+        "explication": "Uzi n'a cependant jamais remporté de titre mondial au cours de sa carrière, malgré son immense popularité."
+      },
+      {
+        "question": "Quelle équipe sud-coréenne a remporté le championnat du monde 2022, s'imposant en outsider après plusieurs années de titres chinois ?",
+        "reponse": "DRX",
+        "propositions": ["DRX", "T1", "Gen.G", "JD Gaming"],
+        "explication": "DRX a battu T1 en finale des Worlds 2022, l'une des plus grandes surprises de l'histoire de la compétition."
       }
     ]
   }

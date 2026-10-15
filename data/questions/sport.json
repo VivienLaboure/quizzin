@@ -276,6 +276,116 @@
           "30 points"
         ],
         "explication": "Le dernier set décisif d'un match de volleyball se joue généralement en 15 points."
+      },
+      {
+        "question": "Combien de temps dure un quart-temps standard en NBA (basketball professionnel américain) ?",
+        "reponse": "12 minutes",
+        "propositions": [
+          "12 minutes",
+          "10 minutes",
+          "15 minutes",
+          "8 minutes"
+        ],
+        "explication": "Un match de NBA se joue en quatre quart-temps de 12 minutes, soit 48 minutes au total hors prolongations."
+      },
+      {
+        "question": "Quel sport se pratique sur de la glace, avec un palet plat appelé 'puck' ?",
+        "reponse": "Le hockey sur glace",
+        "propositions": [
+          "Le hockey sur glace",
+          "Le curling",
+          "Le patinage de vitesse",
+          "Le bobsleigh"
+        ],
+        "explication": "Le hockey sur glace se joue avec des crosses et un palet, opposant deux équipes de six joueurs."
+      },
+      {
+        "question": "Dans quel sport utilise-t-on le terme 'ace' pour désigner un service gagnant que l'adversaire ne touche pas ?",
+        "reponse": "Le tennis",
+        "propositions": [
+          "Le tennis",
+          "Le volleyball",
+          "Le badminton",
+          "Le tennis de table"
+        ],
+        "explication": "Un ace est un service si rapide ou bien placé que l'adversaire ne parvient pas à le renvoyer."
+      },
+      {
+        "question": "Quel pays organise traditionnellement le tournoi de tennis de Wimbledon, plus ancien tournoi du Grand Chelem ?",
+        "reponse": "Le Royaume-Uni",
+        "propositions": [
+          "Le Royaume-Uni",
+          "La France",
+          "Les États-Unis",
+          "L'Australie"
+        ],
+        "explication": "Wimbledon se joue sur gazon à Londres depuis 1877, ce qui en fait le plus ancien tournoi du Grand Chelem."
+      },
+      {
+        "question": "Combien de joueurs composent une équipe de rugby à XV sur le terrain ?",
+        "reponse": "15",
+        "propositions": [
+          "15",
+          "13",
+          "11",
+          "7"
+        ],
+        "explication": "Le rugby à XV aligne 15 joueurs par équipe, contrairement au rugby à XIII ou au rugby à 7."
+      },
+      {
+        "question": "Quel geste technique, au football, consiste à effectuer une passe de la tête pour renvoyer le ballon ?",
+        "reponse": "Une tête",
+        "propositions": [
+          "Une tête",
+          "Une reprise de volée",
+          "Un centre",
+          "Un une-deux"
+        ],
+        "explication": "La tête permet de contrôler ou de renvoyer le ballon sans utiliser les mains ni les pieds."
+      },
+      {
+        "question": "Dans quel sport pratique-t-on le 'service à la cuillère', une technique particulière utilisée notamment en pétanque ou volleyball ?",
+        "reponse": "Le volleyball",
+        "propositions": [
+          "Le volleyball",
+          "Le tennis",
+          "Le badminton",
+          "Le handball"
+        ],
+        "explication": "Au volleyball, le service peut être réalisé de différentes façons, dont certaines techniques moins académiques."
+      },
+      {
+        "question": "Quel sport olympique combine la natation, le cyclisme et la course à pied dans une même épreuve ?",
+        "reponse": "Le triathlon",
+        "propositions": [
+          "Le triathlon",
+          "Le pentathlon moderne",
+          "Le décathlon",
+          "L'heptathlon"
+        ],
+        "explication": "Le triathlon enchaîne sans interruption ces trois disciplines, dans un ordre fixe."
+      },
+      {
+        "question": "Quelle discipline d'athlétisme combine dix épreuves différentes sur deux jours, réservée aux hommes en compétition olympique ?",
+        "reponse": "Le décathlon",
+        "propositions": [
+          "Le décathlon",
+          "L'heptathlon",
+          "Le pentathlon moderne",
+          "Le triathlon"
+        ],
+        "explication": "Le décathlon comprend des épreuves de course, de saut et de lancer, réparties sur deux journées."
+      },
+      {
+        "question": "Quel est le nom du coup, au football, consistant à frapper le ballon en effectuant un enroulé pour le faire courber dans les airs ?",
+        "reponse": "Une frappe enroulée",
+        "propositions": [
+          "Une frappe enroulée",
+          "Une reprise de volée",
+          "Un lob",
+          "Un petit pont"
+        ],
+        "explication": "Cette technique permet de contourner un obstacle, comme un mur de joueurs adverses lors d'un coup franc."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le maillot jaune"
         ],
         "explication": "Ce maillot récompense le coureur ayant marqué le plus de points lors des sprints intermédiaires et des arrivées d'étape."
+      },
+      {
+        "question": "Quel pays a remporté le Championnat d'Europe de football (Euro) qu'il organisait en 1984, porté par Michel Platini, meilleur buteur du tournoi ?",
+        "reponse": "La France",
+        "propositions": [
+          "La France",
+          "L'Allemagne de l'Ouest",
+          "L'Espagne",
+          "L'Italie"
+        ],
+        "explication": "Michel Platini a inscrit neuf buts lors de cet Euro 1984, un record toujours en vigueur."
+      },
+      {
+        "question": "Quel nageur américain a remporté un record de huit médailles d'or lors d'une seule édition des Jeux olympiques, à Pékin en 2008 ?",
+        "reponse": "Michael Phelps",
+        "propositions": [
+          "Michael Phelps",
+          "Mark Spitz",
+          "Ryan Lochte",
+          "Ian Thorpe"
+        ],
+        "explication": "Phelps a dépassé le précédent record de sept médailles d'or de Mark Spitz, établi en 1972."
+      },
+      {
+        "question": "Quel pilote brésilien de Formule 1, triple champion du monde, est mort accidentellement lors du Grand Prix de Saint-Marin en 1994 ?",
+        "reponse": "Ayrton Senna",
+        "propositions": [
+          "Ayrton Senna",
+          "Nelson Piquet",
+          "Rubens Barrichello",
+          "Emerson Fittipaldi"
+        ],
+        "explication": "Senna est mort à Imola lors du Grand Prix de Saint-Marin, un accident qui a marqué durablement la Formule 1."
+      },
+      {
+        "question": "Quel sport de combat brésilien, dérivé du judo, met l'accent sur le combat au sol et les techniques de soumission ?",
+        "reponse": "Le jiu-jitsu brésilien",
+        "propositions": [
+          "Le jiu-jitsu brésilien",
+          "Le judo",
+          "Le karaté",
+          "Le sumo"
+        ],
+        "explication": "Le jiu-jitsu brésilien a été popularisé notamment par la famille Gracie et joue un rôle central dans les arts martiaux mixtes (MMA)."
+      },
+      {
+        "question": "Quelle nation a remporté la Coupe du monde de rugby à XV en 2019, organisée au Japon ?",
+        "reponse": "L'Afrique du Sud",
+        "propositions": [
+          "L'Afrique du Sud",
+          "L'Angleterre",
+          "La Nouvelle-Zélande",
+          "Le Pays de Galles"
+        ],
+        "explication": "L'Afrique du Sud a battu l'Angleterre en finale, décrochant son troisième titre mondial."
+      },
+      {
+        "question": "Quel coureur kényan a établi en 2023, à Chicago, le record du monde du marathon masculin, devenant le premier à descendre sous les 2h01 ?",
+        "reponse": "Kelvin Kiptum",
+        "propositions": [
+          "Kelvin Kiptum",
+          "Eliud Kipchoge",
+          "Kenenisa Bekele",
+          "Mo Farah"
+        ],
+        "explication": "Kiptum a amélioré le précédent record du monde, détenu par Eliud Kipchoge, en course à Chicago en 2023."
+      },
+      {
+        "question": "Quel footballeur portugais est le meilleur buteur de l'histoire des équipes nationales masculines, toutes sélections confondues ?",
+        "reponse": "Cristiano Ronaldo",
+        "propositions": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Ali Daei",
+          "Pelé"
+        ],
+        "explication": "Cristiano Ronaldo a dépassé le record international détenu par l'Iranien Ali Daei."
+      },
+      {
+        "question": "Quelle gymnaste américaine a remporté le titre olympique du concours général individuel à Tokyo 2020 (disputés en 2021) ?",
+        "reponse": "Sunisa Lee",
+        "propositions": [
+          "Sunisa Lee",
+          "Simone Biles",
+          "Jade Carey",
+          "MyKayla Skinner"
+        ],
+        "explication": "Sunisa Lee a remporté ce titre après le retrait de Simone Biles de l'épreuve pour des raisons de santé mentale."
+      },
+      {
+        "question": "Quel pays a accueilli les Jeux olympiques d'hiver de 2022 ?",
+        "reponse": "La Chine",
+        "propositions": [
+          "La Chine",
+          "La Corée du Sud",
+          "Le Japon",
+          "La Russie"
+        ],
+        "explication": "Pékin est devenue la première ville à avoir accueilli à la fois les Jeux d'été (2008) et les Jeux d'hiver (2022)."
+      },
+      {
+        "question": "Quel joueur de tennis suisse, surnommé le 'Maestro', a remporté 20 titres du Grand Chelem avant sa retraite en 2022 ?",
+        "reponse": "Roger Federer",
+        "propositions": [
+          "Roger Federer",
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Stan Wawrinka"
+        ],
+        "explication": "Federer a annoncé sa retraite en septembre 2022, après une carrière marquée par son style de jeu élégant."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "La Manita"
         ],
         "explication": "Ce retournement spectaculaire, avec un but victorieux à la 95e minute, reste l'un des plus grands exploits de l'histoire de la Ligue des champions."
+      },
+      {
+        "question": "Quel footballeur néerlandais, théoricien du 'football total', a remporté trois Ballons d'Or avec l'Ajax et le FC Barcelone dans les années 1970 ?",
+        "reponse": "Johan Cruyff",
+        "propositions": [
+          "Johan Cruyff",
+          "Johan Neeskens",
+          "Marco van Basten",
+          "Ruud Gullit"
+        ],
+        "explication": "Cruyff a marqué le football par son intelligence de jeu et a donné son nom au 'Cruyff turn', un geste technique emblématique."
+      },
+      {
+        "question": "Quel athlète finlandais, surnommé le 'Finlandais volant', a remporté neuf médailles d'or olympiques en courses de fond durant les années 1920 ?",
+        "reponse": "Paavo Nurmi",
+        "propositions": [
+          "Paavo Nurmi",
+          "Emil Zátopek",
+          "Hannes Kolehmainen",
+          "Lasse Virén"
+        ],
+        "explication": "Nurmi a dominé les courses de fond lors des Jeux olympiques de 1920, 1924 et 1928, cumulant neuf titres olympiques."
+      },
+      {
+        "question": "Quel pays a remporté la toute première Coupe du monde de rugby à XV, organisée conjointement en 1987 par l'Australie et la Nouvelle-Zélande ?",
+        "reponse": "La Nouvelle-Zélande",
+        "propositions": [
+          "La Nouvelle-Zélande",
+          "L'Australie",
+          "L'Afrique du Sud",
+          "La France"
+        ],
+        "explication": "La Nouvelle-Zélande, menée par ses All Blacks, a battu la France en finale de cette première édition."
+      },
+      {
+        "question": "Quel coureur cycliste italien, surnommé 'l'Airone' (le Héron), a réalisé le doublé Giro d'Italia-Tour de France la même année, à deux reprises en 1949 et 1952 ?",
+        "reponse": "Fausto Coppi",
+        "propositions": [
+          "Fausto Coppi",
+          "Gino Bartali",
+          "Felice Gimondi",
+          "Francesco Moser"
+        ],
+        "explication": "Coppi a réussi cet exploit rare à une époque où il dominait à la fois le cyclisme italien et international."
+      },
+      {
+        "question": "Quel lanceur de marteau américain a épousé la discobole tchécoslovaque Olga Fikotová après leur rencontre aux Jeux olympiques de Melbourne en 1956 ?",
+        "reponse": "Harold Connolly",
+        "propositions": [
+          "Harold Connolly",
+          "Al Oerter",
+          "Bob Mathias",
+          "Rafer Johnson"
+        ],
+        "explication": "Leur rencontre et leur mariage, très médiatisés en pleine guerre froide, symbolisaient un rapprochement entre blocs Est et Ouest."
+      },
+      {
+        "question": "Quel joueur de snooker anglais a réalisé, en 1982, le premier maximum break (147 points) officiellement reconnu en compétition télévisée ?",
+        "reponse": "Steve Davis",
+        "propositions": [
+          "Steve Davis",
+          "Dennis Taylor",
+          "Alex Higgins",
+          "Ray Reardon"
+        ],
+        "explication": "Ce break parfait a été réalisé lors du tournoi Lada Classic, retransmis à la télévision britannique."
+      },
+      {
+        "question": "Quel athlète américain a établi en 1935 un record du monde du saut en longueur resté invaincu pendant 25 ans, jusqu'en 1960 ?",
+        "reponse": "Jesse Owens",
+        "propositions": [
+          "Jesse Owens",
+          "Ralph Boston",
+          "Bob Beamon",
+          "Carl Lewis"
+        ],
+        "explication": "Son record de 8,13 mètres n'a été battu qu'en 1960 par l'Américain Ralph Boston."
+      },
+      {
+        "question": "Quel golfeur écossais, surnommé 'Old Tom Morris', a remporté quatre fois l'Open Championship dans les années 1860, et est considéré comme un pionnier du golf moderne ?",
+        "reponse": "Tom Morris Sr. (Old Tom Morris)",
+        "propositions": [
+          "Tom Morris Sr. (Old Tom Morris)",
+          "Tom Morris Jr. (Young Tom Morris)",
+          "Harry Vardon",
+          "James Braid"
+        ],
+        "explication": "Old Tom Morris est aussi le père de Young Tom Morris, lui-même quadruple vainqueur du tournoi dans les années 1870."
+      },
+      {
+        "question": "Quel pilote italien a remporté le tout premier championnat du monde de Formule 1, en 1950, au volant d'une Alfa Romeo ?",
+        "reponse": "Giuseppe Farina",
+        "propositions": [
+          "Giuseppe Farina",
+          "Juan Manuel Fangio",
+          "Alberto Ascari",
+          "Stirling Moss"
+        ],
+        "explication": "Farina a remporté ce titre inaugural du championnat du monde des pilotes au volant d'une Alfa Romeo 158."
+      },
+      {
+        "question": "Quel nageur américain, quintuple champion olympique dans les années 1920, est devenu par la suite célèbre à Hollywood pour avoir incarné Tarzan au cinéma ?",
+        "reponse": "Johnny Weissmuller",
+        "propositions": [
+          "Johnny Weissmuller",
+          "Duke Kahanamoku",
+          "Buster Crabbe",
+          "Mark Spitz"
+        ],
+        "explication": "Weissmuller a incarné Tarzan dans une douzaine de films hollywoodiens entre 1932 et 1948, après sa carrière de nageur."
       }
     ]
   }

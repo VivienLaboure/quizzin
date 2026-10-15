@@ -276,6 +276,116 @@
           "Le colosse de Rhodes"
         ],
         "explication": "C'est la seule des sept merveilles du monde antique encore largement conservée aujourd'hui."
+      },
+      {
+        "question": "Quelle est la capitale de l'Allemagne ?",
+        "reponse": "Berlin",
+        "propositions": [
+          "Berlin",
+          "Munich",
+          "Francfort",
+          "Hambourg"
+        ],
+        "explication": "Berlin est la capitale et la plus grande ville d'Allemagne."
+      },
+      {
+        "question": "Quel est le plus long fleuve de France ?",
+        "reponse": "La Loire",
+        "propositions": [
+          "La Loire",
+          "Le Rhône",
+          "La Seine",
+          "La Garonne"
+        ],
+        "explication": "La Loire s'étend sur plus de 1 000 km à travers la France."
+      },
+      {
+        "question": "Quelle planète est surnommée la 'planète rouge' ?",
+        "reponse": "Mars",
+        "propositions": [
+          "Mars",
+          "Vénus",
+          "Mercure",
+          "Jupiter"
+        ],
+        "explication": "Mars doit sa couleur rougeâtre à l'oxyde de fer présent dans son sol."
+      },
+      {
+        "question": "Quel est l'organe du corps humain qui filtre le sang pour produire l'urine ?",
+        "reponse": "Le rein",
+        "propositions": [
+          "Le rein",
+          "Le foie",
+          "Le poumon",
+          "La vessie"
+        ],
+        "explication": "Les reins filtrent environ 180 litres de sang par jour chez un adulte."
+      },
+      {
+        "question": "Quelle est la capitale du Royaume-Uni ?",
+        "reponse": "Londres",
+        "propositions": [
+          "Londres",
+          "Manchester",
+          "Édimbourg",
+          "Liverpool"
+        ],
+        "explication": "Londres est la capitale du Royaume-Uni et l'une des plus grandes villes d'Europe."
+      },
+      {
+        "question": "Quel est le plus grand pays du monde par sa superficie ?",
+        "reponse": "La Russie",
+        "propositions": [
+          "La Russie",
+          "Le Canada",
+          "La Chine",
+          "Les États-Unis"
+        ],
+        "explication": "La Russie couvre environ 17 millions de km², s'étendant sur onze fuseaux horaires."
+      },
+      {
+        "question": "Quel est le nom du satellite naturel de la Terre ?",
+        "reponse": "La Lune",
+        "propositions": [
+          "La Lune",
+          "Mars",
+          "Titan",
+          "Phobos"
+        ],
+        "explication": "La Lune est le seul satellite naturel de la Terre et le cinquième plus grand du système solaire."
+      },
+      {
+        "question": "Combien de temps dure en moyenne une grossesse humaine ?",
+        "reponse": "Environ 9 mois",
+        "propositions": [
+          "Environ 6 mois",
+          "Environ 9 mois",
+          "Environ 12 mois",
+          "Environ 3 mois"
+        ],
+        "explication": "Une grossesse humaine dure en moyenne 40 semaines, soit environ neuf mois."
+      },
+      {
+        "question": "Quelle est la plus grande forêt tropicale du monde ?",
+        "reponse": "La forêt amazonienne",
+        "propositions": [
+          "La forêt amazonienne",
+          "La forêt du Congo",
+          "La forêt boréale",
+          "La forêt de Bornéo"
+        ],
+        "explication": "La forêt amazonienne couvre plusieurs pays d'Amérique du Sud et abrite une biodiversité exceptionnelle."
+      },
+      {
+        "question": "Quel est le nom de la ligne imaginaire qui sépare l'hémisphère nord de l'hémisphère sud ?",
+        "reponse": "L'équateur",
+        "propositions": [
+          "L'équateur",
+          "Le méridien de Greenwich",
+          "Le tropique du Cancer",
+          "Le cercle polaire"
+        ],
+        "explication": "L'équateur est une ligne imaginaire située à égale distance des deux pôles."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "L'incendie de Moscou"
         ],
         "explication": "Cet incendie a détruit une grande partie de la City médiévale, favorisant une reconstruction plus moderne de la ville."
+      },
+      {
+        "question": "Quel physicien britannique a formulé la loi de la gravitation universelle au XVIIe siècle ?",
+        "reponse": "Isaac Newton",
+        "propositions": [
+          "Isaac Newton",
+          "Galilée",
+          "Johannes Kepler",
+          "Robert Hooke"
+        ],
+        "explication": "Newton publie cette loi dans ses 'Principia Mathematica' en 1687."
+      },
+      {
+        "question": "Quel traité de 1992 a créé l'Union européenne telle que nous la connaissons, incluant la citoyenneté européenne ?",
+        "reponse": "Le traité de Maastricht",
+        "propositions": [
+          "Le traité de Maastricht",
+          "Le traité de Rome",
+          "Le traité de Lisbonne",
+          "Le traité d'Amsterdam"
+        ],
+        "explication": "Signé aux Pays-Bas, ce traité a notamment ouvert la voie à la création de l'euro."
+      },
+      {
+        "question": "Quelle est la plus haute montagne d'Afrique ?",
+        "reponse": "Le Kilimandjaro",
+        "propositions": [
+          "Le Kilimandjaro",
+          "Le mont Kenya",
+          "Les monts Rwenzori",
+          "Le Ras Dashen"
+        ],
+        "explication": "Le Kilimandjaro, situé en Tanzanie, culmine à environ 5 895 mètres."
+      },
+      {
+        "question": "Quelle est la plus grande péninsule du monde, située entre la mer Rouge et le golfe Persique ?",
+        "reponse": "La péninsule Arabique",
+        "propositions": [
+          "La péninsule Arabique",
+          "La péninsule indienne",
+          "La péninsule ibérique",
+          "La péninsule scandinave"
+        ],
+        "explication": "Cette péninsule abrite notamment l'Arabie saoudite et les pays du Golfe."
+      },
+      {
+        "question": "Quel explorateur italien, au service de l'Espagne, a atteint les Amériques en 1492 sans savoir qu'il découvrait un nouveau continent ?",
+        "reponse": "Christophe Colomb",
+        "propositions": [
+          "Christophe Colomb",
+          "Amerigo Vespucci",
+          "Vasco de Gama",
+          "Fernand de Magellan"
+        ],
+        "explication": "Colomb croyait avoir atteint les Indes par l'ouest, d'où le nom 'Indiens' donné aux populations autochtones."
+      },
+      {
+        "question": "Quelle dynastie chinoise a fait construire la Cité interdite à Pékin au XVe siècle ?",
+        "reponse": "La dynastie Ming",
+        "propositions": [
+          "La dynastie Ming",
+          "La dynastie Qing",
+          "La dynastie Tang",
+          "La dynastie Song"
+        ],
+        "explication": "La Cité interdite a servi de palais impérial aux dynasties Ming puis Qing pendant près de 500 ans."
+      },
+      {
+        "question": "Quel scientifique français a établi les bases de la microbiologie moderne grâce à ses travaux sur la pasteurisation et la vaccination ?",
+        "reponse": "Louis Pasteur",
+        "propositions": [
+          "Louis Pasteur",
+          "Robert Koch",
+          "Alexander Fleming",
+          "Claude Bernard"
+        ],
+        "explication": "Pasteur a mis au point le premier vaccin contre la rage en 1885."
+      },
+      {
+        "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie, situé en Amérique du Nord ?",
+        "reponse": "Le lac Supérieur",
+        "propositions": [
+          "Le lac Supérieur",
+          "Le lac Victoria",
+          "Le lac Baïkal",
+          "Le lac Michigan"
+        ],
+        "explication": "Le lac Supérieur, entre les États-Unis et le Canada, est le plus vaste des Grands Lacs."
+      },
+      {
+        "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis de 1861 à 1865, notamment autour de la question de l'esclavage ?",
+        "reponse": "La guerre de Sécession",
+        "propositions": [
+          "La guerre de Sécession",
+          "La guerre d'indépendance",
+          "La guerre hispano-américaine",
+          "La guerre de 1812"
+        ],
+        "explication": "Cette guerre s'est achevée par la victoire du Nord et l'abolition de l'esclavage aux États-Unis."
+      },
+      {
+        "question": "Quel roi de France, surnommé le 'Roi Soleil', a fait construire le château de Versailles ?",
+        "reponse": "Louis XIV",
+        "propositions": [
+          "Louis XIV",
+          "Louis XIII",
+          "Louis XV",
+          "Henri IV"
+        ],
+        "explication": "Louis XIV a régné pendant 72 ans, l'un des plus longs règnes de l'histoire européenne."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Le traité de San Stefano"
         ],
         "explication": "Ce congrès, présidé par Otto von Bismarck, a redessiné les frontières de plusieurs États balkaniques."
+      },
+      {
+        "question": "Quel traité de 1856 a mis fin à la guerre de Crimée entre la Russie et une coalition incluant la France et le Royaume-Uni ?",
+        "reponse": "Le traité de Paris",
+        "propositions": [
+          "Le traité de Paris",
+          "Le traité de Berlin",
+          "Le traité de San Stefano",
+          "Le congrès de Vienne"
+        ],
+        "explication": "Ce traité impose notamment la neutralisation de la mer Noire et affaiblit durablement l'influence russe dans la région."
+      },
+      {
+        "question": "Quel philosophe allemand est l'auteur de 'Critique de la raison pure' (1781), fondatrice de la philosophie transcendantale ?",
+        "reponse": "Emmanuel Kant",
+        "propositions": [
+          "Emmanuel Kant",
+          "Georg Wilhelm Friedrich Hegel",
+          "Friedrich Nietzsche",
+          "Arthur Schopenhauer"
+        ],
+        "explication": "Kant y examine les limites et les conditions de la connaissance humaine."
+      },
+      {
+        "question": "Sous quelle dynastie égyptienne antique a régné la reine Hatchepsout, l'une des rares femmes pharaons de l'histoire ?",
+        "reponse": "La XVIIIe dynastie",
+        "propositions": [
+          "La XVIIIe dynastie",
+          "La IVe dynastie",
+          "La XIXe dynastie",
+          "La XXVIe dynastie"
+        ],
+        "explication": "Hatchepsout a régné au XVe siècle avant notre ère, se faisant parfois représenter avec les attributs masculins du pharaon."
+      },
+      {
+        "question": "Quel édit, promulgué par Henri IV en 1598, accorde une liberté de culte limitée aux protestants français ?",
+        "reponse": "L'édit de Nantes",
+        "propositions": [
+          "L'édit de Nantes",
+          "L'édit de Fontainebleau",
+          "La paix d'Augsbourg",
+          "L'édit de Villers-Cotterêts"
+        ],
+        "explication": "Cet édit a mis fin à plusieurs décennies de guerres de religion en France, avant d'être révoqué par Louis XIV en 1685."
+      },
+      {
+        "question": "Quel économiste britannique du XXe siècle, auteur de la 'Théorie générale de l'emploi, de l'intérêt et de la monnaie' (1936), a profondément influencé les politiques économiques d'après-guerre ?",
+        "reponse": "John Maynard Keynes",
+        "propositions": [
+          "John Maynard Keynes",
+          "Milton Friedman",
+          "Friedrich Hayek",
+          "David Ricardo"
+        ],
+        "explication": "Keynes préconise l'intervention de l'État pour stimuler la demande en période de crise économique."
+      },
+      {
+        "question": "Quel empire précolombien d'Amérique centrale, dont la capitale était Tenochtitlan, a été conquis par Hernán Cortés en 1521 ?",
+        "reponse": "L'empire aztèque",
+        "propositions": [
+          "L'empire aztèque",
+          "L'empire inca",
+          "L'empire maya",
+          "L'empire toltèque"
+        ],
+        "explication": "Tenochtitlan, aujourd'hui recouverte par Mexico, était l'une des plus grandes villes du monde à l'époque."
+      },
+      {
+        "question": "Quelle réforme religieuse, lancée par Martin Luther en 1517 avec ses 95 thèses, a rompu l'unité de l'Église catholique en Europe occidentale ?",
+        "reponse": "La Réforme protestante",
+        "propositions": [
+          "La Réforme protestante",
+          "Le Grand Schisme",
+          "Le concile de Trente",
+          "La Contre-Réforme"
+        ],
+        "explication": "Luther conteste notamment la vente des indulgences par l'Église catholique."
+      },
+      {
+        "question": "Quel traité de 1839, garantissant la neutralité de la Belgique, a été invoqué par le Royaume-Uni pour justifier son entrée en guerre en 1914 ?",
+        "reponse": "Le traité de Londres",
+        "propositions": [
+          "Le traité de Londres",
+          "Le traité de Francfort",
+          "Le traité de Vienne",
+          "Le traité de Berlin"
+        ],
+        "explication": "L'invasion allemande de la Belgique neutre a précipité l'entrée du Royaume-Uni dans la Première Guerre mondiale."
+      },
+      {
+        "question": "Quel philosophe grec antique, élève de Platon et maître d'Alexandre le Grand, a fondé l'école du Lycée à Athènes ?",
+        "reponse": "Aristote",
+        "propositions": [
+          "Aristote",
+          "Socrate",
+          "Épicure",
+          "Zénon de Citium"
+        ],
+        "explication": "Aristote a profondément marqué la logique, la métaphysique et les sciences naturelles occidentales."
+      },
+      {
+        "question": "Quelle bataille de 1805, souvent considérée comme le chef-d'œuvre militaire de Napoléon, a opposé la France à la Russie et à l'Autriche ?",
+        "reponse": "La bataille d'Austerlitz",
+        "propositions": [
+          "La bataille d'Austerlitz",
+          "La bataille d'Iéna",
+          "La bataille de Wagram",
+          "La bataille de Friedland"
+        ],
+        "explication": "Cette victoire décisive a conduit à la dissolution du Saint Empire romain germanique l'année suivante."
       }
     ]
   }

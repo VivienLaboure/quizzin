@@ -276,6 +276,116 @@
           "Morris"
         ],
         "explication": "Après la mort de Goscinny en 1977, Uderzo a continué seul à écrire et dessiner les albums d'Astérix."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle est l'auteur de 'Madame Bovary' ?",
+        "reponse": "Gustave Flaubert",
+        "propositions": [
+          "Gustave Flaubert",
+          "Émile Zola",
+          "Honoré de Balzac",
+          "Guy de Maupassant"
+        ],
+        "explication": "Publié en 1857, ce roman vaut à Flaubert un procès pour immoralité avant de devenir un classique."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIe siècle, protégé par Louis XIV, est l'auteur de 'L'Avare' et du 'Malade imaginaire' ?",
+        "reponse": "Molière",
+        "propositions": [
+          "Molière",
+          "Jean Racine",
+          "Pierre Corneille",
+          "Nicolas Boileau"
+        ],
+        "explication": "Molière est mort en 1673, quelques heures après avoir joué sur scène le rôle principal du 'Malade imaginaire'."
+      },
+      {
+        "question": "Quel écrivain et philosophe français du XVIIIe siècle a écrit le conte philosophique 'Zadig' ?",
+        "reponse": "Voltaire",
+        "propositions": [
+          "Voltaire",
+          "Denis Diderot",
+          "Jean-Jacques Rousseau",
+          "Montesquieu"
+        ],
+        "explication": "Voltaire a publié 'Zadig ou la Destinée' en 1747, autre conte philosophique célèbre après 'Candide'."
+      },
+      {
+        "question": "Quel poète et dramaturge français, diplomate de carrière, est l'auteur de la pièce 'Le Soulier de satin', après s'être converti au catholicisme à Notre-Dame de Paris ?",
+        "reponse": "Paul Claudel",
+        "propositions": [
+          "Paul Claudel",
+          "Charles Péguy",
+          "Francis Jammes",
+          "Jean Cocteau"
+        ],
+        "explication": "Paul Claudel a aussi écrit 'Partage de midi', une pièce inspirée de sa propre liaison amoureuse pendant un poste en Chine."
+      },
+      {
+        "question": "Quel écrivain français du XXe siècle, auteur de 'Les Faux-Monnayeurs', a aussi écrit le récit autobiographique 'Si le grain ne meurt' ?",
+        "reponse": "André Gide",
+        "propositions": [
+          "André Gide",
+          "François Mauriac",
+          "Julien Green",
+          "Jean Cocteau"
+        ],
+        "explication": "André Gide a reçu le prix Nobel de littérature en 1947 pour l'ensemble de son œuvre."
+      },
+      {
+        "question": "Quel poète et dramaturge français, auteur d'un unique roman intitulé 'Le Diable au corps', est mort à seulement 20 ans en 1923 ?",
+        "reponse": "Raymond Radiguet",
+        "propositions": [
+          "Raymond Radiguet",
+          "Arthur Rimbaud",
+          "Alain-Fournier",
+          "Jean Cocteau"
+        ],
+        "explication": "Ce roman sur une liaison adultère pendant la Première Guerre mondiale a choqué par sa liberté de ton à sa parution en 1923."
+      },
+      {
+        "question": "Quel romancier français, auteur de 'Les Thibault', fresque familiale couronnée par le prix Nobel de littérature en 1937, est aussi journaliste et dramaturge ?",
+        "reponse": "Roger Martin du Gard",
+        "propositions": [
+          "Roger Martin du Gard",
+          "Romain Rolland",
+          "André Gide",
+          "François Mauriac"
+        ],
+        "explication": "'Les Thibault' est un roman-cycle en plusieurs tomes suivant deux frères de familles opposées."
+      },
+      {
+        "question": "Quel écrivain et académicien français, auteur de 'Thérèse Desqueyroux', a reçu le prix Nobel de littérature en 1952 ?",
+        "reponse": "François Mauriac",
+        "propositions": [
+          "François Mauriac",
+          "André Gide",
+          "Roger Martin du Gard",
+          "Georges Bernanos"
+        ],
+        "explication": "Mauriac campe souvent ses romans dans la bourgeoisie provinciale catholique du Bordelais."
+      },
+      {
+        "question": "Quel romancier français, auteur du 'Journal d'un curé de campagne', est connu pour ses œuvres explorant la foi catholique et la souffrance humaine ?",
+        "reponse": "Georges Bernanos",
+        "propositions": [
+          "Georges Bernanos",
+          "François Mauriac",
+          "Julien Green",
+          "Paul Claudel"
+        ],
+        "explication": "'Journal d'un curé de campagne', publié en 1936, a été adapté au cinéma par Robert Bresson en 1951."
+      },
+      {
+        "question": "Quel écrivain français est l'auteur du roman-fleuve 'À la recherche du temps perdu' ?",
+        "reponse": "Marcel Proust",
+        "propositions": [
+          "Marcel Proust",
+          "Louis Aragon",
+          "André Gide",
+          "Romain Rolland"
+        ],
+        "explication": "Cette œuvre majeure du XXe siècle est composée de sept volumes publiés entre 1913 et 1927."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Romain Rolland"
         ],
         "explication": "Gide a également tenu un 'Journal' publié tout au long de sa vie, considéré comme une œuvre majeure en soi."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle, auteur de 'Notre-Dame de Paris', a aussi été un homme politique engagé contre la peine de mort ?",
+        "reponse": "Victor Hugo",
+        "propositions": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Émile Zola",
+          "Alphonse de Lamartine"
+        ],
+        "explication": "Victor Hugo a défendu l'abolition de la peine de mort dans de nombreux textes, dont 'Le Dernier Jour d'un condamné' (1829)."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle, chef de file du naturalisme, est l'auteur de 'Nana' et de 'L'Assommoir', deux volets du cycle des Rougon-Macquart ?",
+        "reponse": "Émile Zola",
+        "propositions": [
+          "Émile Zola",
+          "Guy de Maupassant",
+          "Alphonse Daudet",
+          "Edmond de Goncourt"
+        ],
+        "explication": "'Nana' (1880) et 'L'Assommoir' (1877) font partie du cycle des 'Rougon-Macquart'."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, figure du Parnasse, est l'auteur du sonnet 'Les Conquérants', publié dans le recueil 'Les Trophées' ?",
+        "reponse": "José-Maria de Heredia",
+        "propositions": [
+          "José-Maria de Heredia",
+          "Leconte de Lisle",
+          "Théophile Gautier",
+          "Sully Prudhomme"
+        ],
+        "explication": "José-Maria de Heredia, poète français d'origine cubaine, est associé au mouvement parnassien de la fin du XIXe siècle."
+      },
+      {
+        "question": "Quel écrivain français, pionnier de la science-fiction, a imaginé dans 'De la Terre à la Lune' (1865) un voyage spatial propulsé par un canon géant ?",
+        "reponse": "Jules Verne",
+        "propositions": [
+          "Jules Verne",
+          "H.G. Wells",
+          "Camille Flammarion",
+          "Albert Robida"
+        ],
+        "explication": "Ce roman imaginait déjà un lancement depuis la Floride, un siècle avant les missions Apollo réelles."
+      },
+      {
+        "question": "Quel écrivain et explorateur français, officier de marine, est l'auteur de romans exotiques comme 'Pêcheur d'Islande' (1886) ?",
+        "reponse": "Pierre Loti",
+        "propositions": [
+          "Pierre Loti",
+          "Jules Verne",
+          "Joseph Conrad",
+          "Joseph Kessel"
+        ],
+        "explication": "Pierre Loti a nourri son œuvre romanesque de ses nombreux voyages effectués en tant qu'officier de la marine française."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIe siècle, auteur de 'L'Illusion comique', a précédé Molière et Racine dans le genre théâtral baroque ?",
+        "reponse": "Pierre Corneille",
+        "propositions": [
+          "Pierre Corneille",
+          "Jean Racine",
+          "Molière",
+          "Jean de Rotrou"
+        ],
+        "explication": "'L'Illusion comique' (1636) mêle les registres tragique, comique et pastoral dans une même pièce."
+      },
+      {
+        "question": "Quelle femme de lettres française du XVIIIe siècle, mathématicienne et physicienne, a traduit et commenté les 'Principia' de Newton en français ?",
+        "reponse": "Madame du Châtelet",
+        "propositions": [
+          "Madame du Châtelet",
+          "Madame de Staël",
+          "Olympe de Gouges",
+          "Madame de Sévigné"
+        ],
+        "explication": "Émilie du Châtelet fut aussi la compagne de Voltaire pendant de nombreuses années."
+      },
+      {
+        "question": "Quelle femme de lettres et dramaturge française de la Révolution, auteure de la 'Déclaration des droits de la femme et de la citoyenne' en 1791, a été guillotinée en 1793 ?",
+        "reponse": "Olympe de Gouges",
+        "propositions": [
+          "Olympe de Gouges",
+          "Madame de Staël",
+          "Madame Roland",
+          "Charlotte Corday"
+        ],
+        "explication": "Ce texte réclamait l'égalité des droits entre hommes et femmes, en réponse à la Déclaration des droits de l'homme de 1789."
+      },
+      {
+        "question": "Quel poète et romancier français, auteur du recueil 'Alcools' (1913), est aussi connu pour avoir théorisé le terme 'surréalisme' avant André Breton ?",
+        "reponse": "Guillaume Apollinaire",
+        "propositions": [
+          "Guillaume Apollinaire",
+          "André Breton",
+          "Paul Éluard",
+          "Max Jacob"
+        ],
+        "explication": "Apollinaire a employé le mot 'surréaliste' en 1917, quelques années avant la rédaction du Manifeste du surréalisme de Breton en 1924."
+      },
+      {
+        "question": "Quel poète et romancier français du XIXe siècle, auteur du recueil 'Les Destinées' et du roman historique 'Cinq-Mars', incarne le stoïcisme romantique ?",
+        "reponse": "Alfred de Vigny",
+        "propositions": [
+          "Alfred de Vigny",
+          "Alphonse de Lamartine",
+          "Victor Hugo",
+          "Alfred de Musset"
+        ],
+        "explication": "Vigny est connu pour sa vision pessimiste et solitaire de la condition du poète, exprimée notamment dans 'La Mort du loup'."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Tzvetan Todorov"
         ],
         "explication": "Roland Barthes a analysé les mythes de la culture populaire contemporaine dans 'Mythologies' (1957)."
+      },
+      {
+        "question": "Quel poète français du XVIe siècle, auteur du poème philosophique 'Les Tragiques', a chanté les guerres de Religion du point de vue protestant ?",
+        "reponse": "Agrippa d'Aubigné",
+        "propositions": [
+          "Agrippa d'Aubigné",
+          "Pierre de Ronsard",
+          "Joachim du Bellay",
+          "Clément Marot"
+        ],
+        "explication": "'Les Tragiques', publié en 1616, dépeint avec violence les massacres subis par les protestants français."
+      },
+      {
+        "question": "Quel écrivain et philosophe français du XVIe siècle, auteur des 'Essais', a inventé une forme littéraire fondée sur l'introspection personnelle ?",
+        "reponse": "Michel de Montaigne",
+        "propositions": [
+          "Michel de Montaigne",
+          "François Rabelais",
+          "Étienne de La Boétie",
+          "Guillaume Budé"
+        ],
+        "explication": "Montaigne a rédigé ses 'Essais' entre 1572 et sa mort en 1592, les retravaillant sans cesse."
+      },
+      {
+        "question": "Quel philosophe et écrivain français du XVIe siècle, ami intime de Montaigne, est l'auteur du 'Discours de la servitude volontaire' ?",
+        "reponse": "Étienne de La Boétie",
+        "propositions": [
+          "Étienne de La Boétie",
+          "Michel de Montaigne",
+          "Guillaume Budé",
+          "Jean Bodin"
+        ],
+        "explication": "Ce texte, rédigé alors que La Boétie n'avait qu'une vingtaine d'années, interroge les mécanismes du pouvoir tyrannique."
+      },
+      {
+        "question": "Quel poète français du XVIIe siècle, auteur de 'L'Art poétique', a codifié les règles de la littérature classique française ?",
+        "reponse": "Nicolas Boileau",
+        "propositions": [
+          "Nicolas Boileau",
+          "Jean Racine",
+          "Pierre Corneille",
+          "La Rochefoucauld"
+        ],
+        "explication": "'L'Art poétique' (1674) a fixé durablement les canons esthétiques du classicisme français."
+      },
+      {
+        "question": "Quel conteur et moraliste français du XVIIe siècle, auteur des 'Caractères', a dressé le portrait satirique de la société de son temps ?",
+        "reponse": "Jean de La Bruyère",
+        "propositions": [
+          "Jean de La Bruyère",
+          "La Rochefoucauld",
+          "Blaise Pascal",
+          "Vauvenargues"
+        ],
+        "explication": "'Les Caractères' (1688) rassemble une série de portraits-types dénonçant les travers moraux de l'époque."
+      },
+      {
+        "question": "Quel poète français du XXe siècle, proche du mouvement surréaliste puis engagé dans la Résistance, est l'auteur du poème 'Liberté', publié clandestinement en 1942 ?",
+        "reponse": "Paul Éluard",
+        "propositions": [
+          "Paul Éluard",
+          "Louis Aragon",
+          "René Char",
+          "Robert Desnos"
+        ],
+        "explication": "Ce poème, parachuté par la Royal Air Force sur la France occupée, est devenu un symbole de la Résistance."
+      },
+      {
+        "question": "Quel poète français, membre du groupe surréaliste, est mort en déportation au camp de Terezín en 1945 après son arrestation par la Gestapo ?",
+        "reponse": "Robert Desnos",
+        "propositions": [
+          "Robert Desnos",
+          "Paul Éluard",
+          "René Char",
+          "Max Jacob"
+        ],
+        "explication": "Desnos est mort du typhus quelques jours après la libération du camp par les troupes alliées."
+      },
+      {
+        "question": "Quel écrivain et académicien français, auteur de 'Mémoires d'outre-tombe', est considéré comme un précurseur du romantisme français ?",
+        "reponse": "François-René de Chateaubriand",
+        "propositions": [
+          "François-René de Chateaubriand",
+          "Benjamin Constant",
+          "Madame de Staël",
+          "Alphonse de Lamartine"
+        ],
+        "explication": "Chateaubriand a rédigé ses 'Mémoires d'outre-tombe' sur plusieurs décennies, avec la consigne de ne les publier qu'après sa mort."
+      },
+      {
+        "question": "Quel écrivain et homme politique suisse d'expression française, auteur du roman 'Adolphe' (1816), a aussi théorisé le libéralisme politique ?",
+        "reponse": "Benjamin Constant",
+        "propositions": [
+          "Benjamin Constant",
+          "François-René de Chateaubriand",
+          "Madame de Staël",
+          "Sismondi"
+        ],
+        "explication": "'Adolphe' raconte l'histoire d'une liaison amoureuse tourmentée, inspirée en partie de la propre vie de l'auteur."
+      },
+      {
+        "question": "Quelle romancière française, figure du Nouveau Roman, est l'auteure de 'Tropismes' (1939) et du récit autobiographique 'Enfance' (1983) ?",
+        "reponse": "Nathalie Sarraute",
+        "propositions": [
+          "Nathalie Sarraute",
+          "Marguerite Duras",
+          "Monique Wittig",
+          "Claude Simon"
+        ],
+        "explication": "Le Nouveau Roman, dont Sarraute est l'une des figures, rompt avec les conventions du récit et du personnage traditionnels."
       }
     ]
   }

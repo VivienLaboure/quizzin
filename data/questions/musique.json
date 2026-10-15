@@ -276,6 +276,66 @@
           "La contrebasse"
         ],
         "explication": "La guitare basse électrique a été popularisée dans les années 1950 par la marque Fender."
+      },
+      {
+        "question": "Quel instrument de musique John Lennon joue-t-il principalement sur l'enregistrement original de la chanson 'Imagine' (1971) ?",
+        "reponse": "Le piano",
+        "propositions": ["Le piano", "La guitare", "Le violon", "La batterie"],
+        "explication": "John Lennon interprète 'Imagine' principalement au piano, sur un accompagnement épuré."
+      },
+      {
+        "question": "Quel pays est à l'origine du groupe de K-pop féminin BLACKPINK ?",
+        "reponse": "La Corée du Sud",
+        "propositions": ["La Corée du Sud", "Le Japon", "La Chine", "Les États-Unis"],
+        "explication": "BLACKPINK, formé en 2016, est un groupe féminin sud-coréen devenu un succès international."
+      },
+      {
+        "question": "Quel instrument à cordes pincées, originaire d'Hawaï, est traditionnellement associé à la musique hawaïenne et polynésienne ?",
+        "reponse": "Le ukulélé",
+        "propositions": ["Le ukulélé", "Le banjo", "La mandoline", "Le sitar"],
+        "explication": "Le ukulélé, petite guitare à quatre cordes, est devenu un symbole de la musique hawaïenne."
+      },
+      {
+        "question": "Quelle chanteuse britannique, interprète de 'Rolling in the Deep' et 'Hello', a vendu des dizaines de millions d'albums depuis les années 2010 ?",
+        "reponse": "Adele",
+        "propositions": ["Adele", "Amy Winehouse", "Dua Lipa", "Sam Smith"],
+        "explication": "Adele s'est imposée comme l'une des plus grandes voix de la pop britannique contemporaine."
+      },
+      {
+        "question": "Quel évènement musical français, gratuit et annuel, se déroule chaque 21 juin dans toute la France depuis 1982 ?",
+        "reponse": "La Fête de la musique",
+        "propositions": ["La Fête de la musique", "Les Victoires de la musique", "Le Printemps de Bourges", "Les Eurockéennes"],
+        "explication": "La Fête de la musique a été lancée en France en 1982 à l'initiative du ministre de la Culture Jack Lang."
+      },
+      {
+        "question": "Quel instrument à vent, emblématique de l'Écosse, est constitué d'une poche d'air et de tuyaux sonores ?",
+        "reponse": "La cornemuse",
+        "propositions": ["La cornemuse", "Le biniou", "L'accordéon", "Le fifre"],
+        "explication": "La cornemuse écossaise (bagpipes) est traditionnellement utilisée lors des parades militaires et des cérémonies."
+      },
+      {
+        "question": "Quelle chanteuse québécoise est l'interprète de 'My Heart Will Go On', thème du film 'Titanic' (1997) ?",
+        "reponse": "Céline Dion",
+        "propositions": ["Céline Dion", "Whitney Houston", "Mariah Carey", "Shania Twain"],
+        "explication": "Céline Dion a interprété ce titre, devenu l'un des plus grands succès mondiaux des années 1990."
+      },
+      {
+        "question": "Quel groupe britannique, emmené par le chanteur Chris Martin, est connu pour les titres 'Yellow' et 'Viva la Vida' ?",
+        "reponse": "Coldplay",
+        "propositions": ["Coldplay", "Muse", "Radiohead", "Keane"],
+        "explication": "Coldplay s'est formé à Londres en 1996 et est devenu l'un des groupes de rock les plus populaires au monde."
+      },
+      {
+        "question": "Quel rappeur américain, originaire de Compton, est connu pour l'album 'good kid, m.A.A.d city' et a reçu le prix Pulitzer de musique en 2018 ?",
+        "reponse": "Kendrick Lamar",
+        "propositions": ["Kendrick Lamar", "Drake", "J. Cole", "Dr. Dre"],
+        "explication": "Kendrick Lamar est le premier artiste hors des genres classique et jazz à recevoir le prix Pulitzer de musique, pour l'album 'DAMN.'"
+      },
+      {
+        "question": "Quel terme désigne une chanson simple et répétitive destinée à endormir les tout-petits ?",
+        "reponse": "Une berceuse",
+        "propositions": ["Une berceuse", "Une comptine", "Un hymne", "Une sérénade"],
+        "explication": "Les berceuses, souvent chantées par un parent, utilisent des mélodies douces et répétitives pour apaiser un enfant."
       }
     ],
     "2": [
@@ -553,6 +613,66 @@
           "Freddie Mercury"
         ],
         "explication": "Elton John a vendu plus de 300 millions d'albums au cours de sa carrière."
+      },
+      {
+        "question": "Quel groupe britannique de heavy metal, formé à Birmingham en 1968 autour du chanteur Ozzy Osbourne, est souvent considéré comme un pionnier du genre ?",
+        "reponse": "Black Sabbath",
+        "propositions": ["Black Sabbath", "Deep Purple", "Judas Priest", "Iron Maiden"],
+        "explication": "Black Sabbath, avec des albums comme 'Paranoid' (1970), a posé les bases esthétiques du heavy metal."
+      },
+      {
+        "question": "Quel trompettiste américain, avec le saxophoniste Charlie Parker, est considéré comme un cofondateur du bebop dans les années 1940 ?",
+        "reponse": "Dizzy Gillespie",
+        "propositions": ["Dizzy Gillespie", "Miles Davis", "Chet Baker", "Clifford Brown"],
+        "explication": "Dizzy Gillespie et Charlie Parker ont développé ensemble le bebop, un style de jazz rapide et harmoniquement complexe."
+      },
+      {
+        "question": "Quel trompettiste et compositeur américain, figure du jazz modal, est l'auteur de l'album 'Kind of Blue' (1959) ?",
+        "reponse": "Miles Davis",
+        "propositions": ["Miles Davis", "Dizzy Gillespie", "Chet Baker", "Louis Armstrong"],
+        "explication": "'Kind of Blue' est considéré comme l'un des albums de jazz les plus vendus et les plus influents de l'histoire."
+      },
+      {
+        "question": "Quel groupe britannique de rock des années 1960, mené par Pete Townshend, est connu pour l'opéra rock 'Tommy' (1969) ?",
+        "reponse": "The Who",
+        "propositions": ["The Who", "The Kinks", "Small Faces", "The Animals"],
+        "explication": "'Tommy' est l'un des premiers albums concepts qualifiés d''opéra rock' de l'histoire du rock."
+      },
+      {
+        "question": "Quel chanteur et guitariste américain, surnommé 'The Boss', est connu pour l'album 'Born in the U.S.A.' (1984) ?",
+        "reponse": "Bruce Springsteen",
+        "propositions": ["Bruce Springsteen", "Bob Dylan", "Tom Petty", "John Mellencamp"],
+        "explication": "Bruce Springsteen s'est imposé comme une figure majeure du rock américain à partir des années 1970."
+      },
+      {
+        "question": "Quel chanteur américain, souvent surnommé le 'Godfather of Soul', est connu pour des titres comme 'I Got You (I Feel Good)' ?",
+        "reponse": "James Brown",
+        "propositions": ["James Brown", "Otis Redding", "Marvin Gaye", "Sam Cooke"],
+        "explication": "James Brown est une figure fondatrice de la soul et du funk, réputé pour ses prestations scéniques énergiques."
+      },
+      {
+        "question": "Quel auteur-compositeur américain, lauréat du prix Nobel de littérature en 2016, est connu pour 'Blowin' in the Wind' et 'Like a Rolling Stone' ?",
+        "reponse": "Bob Dylan",
+        "propositions": ["Bob Dylan", "Leonard Cohen", "Paul Simon", "Neil Young"],
+        "explication": "Bob Dylan est le premier musicien à avoir reçu le prix Nobel de littérature, récompensant son œuvre poétique et musicale."
+      },
+      {
+        "question": "Quel groupe vocal américain, formé des frères Jackson, a précédé la carrière solo de Michael Jackson dans les années 1960-70 ?",
+        "reponse": "The Jackson Five",
+        "propositions": ["The Jackson Five", "The Temptations", "The Commodores", "Boyz II Men"],
+        "explication": "Michael Jackson a débuté sa carrière au sein de ce groupe formé avec ses frères avant de devenir une star solo."
+      },
+      {
+        "question": "Quelle chanteuse américaine de RnB, interprète de 'I Will Always Love You', a aussi été actrice dans le film 'Bodyguard' (1992) ?",
+        "reponse": "Whitney Houston",
+        "propositions": ["Whitney Houston", "Mariah Carey", "Diana Ross", "Aretha Franklin"],
+        "explication": "Cette reprise d'une chanson de Dolly Parton est devenue l'un des plus grands succès de l'histoire de la musique."
+      },
+      {
+        "question": "Quel pianiste et chanteur américain de rock'n'roll des années 1950, connu pour son jeu de piano débridé, a interprété 'Great Balls of Fire' ?",
+        "reponse": "Jerry Lee Lewis",
+        "propositions": ["Jerry Lee Lewis", "Little Richard", "Chuck Berry", "Fats Domino"],
+        "explication": "Jerry Lee Lewis, surnommé 'The Killer', est l'un des pionniers les plus flamboyants du rock'n'roll naissant."
       }
     ],
     "3": [
@@ -667,15 +787,15 @@
         "explication": "Son 'Catalogue d'oiseaux' pour piano transcrit le chant de nombreuses espèces françaises."
       },
       {
-        "question": "Quel compositeur allemand du XVIIIe siècle est l'auteur des 'Concertos brandebourgeois' ?",
-        "reponse": "Jean-Sébastien Bach",
+        "question": "Quel oratorio de Haendel, composé en seulement trois semaines en 1741, contient le célèbre chœur 'Hallelujah' ?",
+        "reponse": "Le Messie",
         "propositions": [
-          "Jean-Sébastien Bach",
-          "Georg Philipp Telemann",
-          "Georg Friedrich Haendel",
-          "Antonio Vivaldi"
+          "Le Messie",
+          "Water Music",
+          "Israel in Egypt",
+          "Music for the Royal Fireworks"
         ],
-        "explication": "Ces six concertos ont été dédiés au margrave de Brandebourg en 1721."
+        "explication": "Le Messie de Haendel est l'un des oratorios les plus joués au monde, notamment pendant la période de Noël."
       },
       {
         "question": "Quel compositeur russe du XXe siècle a été condamné par le régime soviétique pour 'formalisme' avant d'être réhabilité ?",
@@ -830,6 +950,66 @@
           "Ernst Krenek"
         ],
         "explication": "Ce concerto, composé en 1935, est dédié à la mémoire de Manon Gropius, fille d'Alma Mahler, morte à 18 ans."
+      },
+      {
+        "question": "Quel saxophoniste américain, figure majeure du jazz modal et spirituel, est l'auteur de l'album 'A Love Supreme' (1965) ?",
+        "reponse": "John Coltrane",
+        "propositions": ["John Coltrane", "Sonny Rollins", "Wayne Shorter", "Pharoah Sanders"],
+        "explication": "Cet album, conçu comme une offrande spirituelle, est considéré comme l'un des sommets du jazz du XXe siècle."
+      },
+      {
+        "question": "Quel pianiste de jazz américain, connu pour son style anguleux et ses silences expressifs, est l'auteur de standards comme ''Round Midnight' ?",
+        "reponse": "Thelonious Monk",
+        "propositions": ["Thelonious Monk", "Bill Evans", "Art Tatum", "Oscar Peterson"],
+        "explication": "Thelonious Monk a profondément marqué le bebop par un style pianistique anguleux et novateur."
+      },
+      {
+        "question": "Quelle pédagogue française du XXe siècle, professeure au Conservatoire américain de Fontainebleau, a formé des générations de compositeurs dont Aaron Copland et Philip Glass ?",
+        "reponse": "Nadia Boulanger",
+        "propositions": ["Nadia Boulanger", "Lili Boulanger", "Marguerite Long", "Alfred Cortot"],
+        "explication": "Nadia Boulanger est l'une des pédagogues musicales les plus influentes du XXe siècle, ayant formé de nombreux compositeurs américains."
+      },
+      {
+        "question": "Quel compositeur américain, élève de Nadia Boulanger, est l'auteur du ballet 'Appalachian Spring' (1944) et a cherché à définir un style orchestral proprement américain ?",
+        "reponse": "Aaron Copland",
+        "propositions": ["Aaron Copland", "Leonard Bernstein", "Samuel Barber", "Charles Ives"],
+        "explication": "Copland a intégré des éléments du folklore américain dans une écriture orchestrale moderne et accessible."
+      },
+      {
+        "question": "Quel compositeur et chef d'orchestre américain, auteur de la comédie musicale 'West Side Story' (1957), a aussi dirigé le New York Philharmonic ?",
+        "reponse": "Leonard Bernstein",
+        "propositions": ["Leonard Bernstein", "Aaron Copland", "George Gershwin", "Samuel Barber"],
+        "explication": "Leonard Bernstein a marqué à la fois le monde de la musique classique et celui de la comédie musicale américaine."
+      },
+      {
+        "question": "Quel musicologue allemand, auteur avec Erich von Hornbostel d'un système de classification des instruments de musique du monde encore utilisé aujourd'hui, a donné son nom à cette classification ?",
+        "reponse": "Curt Sachs",
+        "propositions": ["Curt Sachs", "Alan Lomax", "Mantle Hood", "Jaap Kunst"],
+        "explication": "Le système de classification Hornbostel-Sachs (1914) répartit les instruments de musique selon leur mode de production du son."
+      },
+      {
+        "question": "Quel musicologue américain, pionnier de l'ethnomusicologie, a parcouru le monde pour enregistrer des musiques traditionnelles pour la Library of Congress ?",
+        "reponse": "Alan Lomax",
+        "propositions": ["Alan Lomax", "Curt Sachs", "Mantle Hood", "Bruno Nettl"],
+        "explication": "Alan Lomax a constitué l'une des plus vastes archives de musiques traditionnelles du monde, notamment aux États-Unis."
+      },
+      {
+        "question": "Quel compositeur américain du XXe siècle, exerçant en parallèle une carrière dans l'assurance, est l'auteur de pièces orchestrales expérimentales comme 'The Unanswered Question' ?",
+        "reponse": "Charles Ives",
+        "propositions": ["Charles Ives", "Aaron Copland", "Henry Cowell", "Edgard Varèse"],
+        "explication": "Charles Ives a composé en marge du monde musical professionnel, menant de front une carrière dans l'assurance."
+      },
+      {
+        "question": "Quel compositeur italien de la Renaissance, maître de la polyphonie vocale sacrée, est resté associé à la réforme de la musique liturgique après le concile de Trente ?",
+        "reponse": "Giovanni Pierluigi da Palestrina",
+        "propositions": ["Giovanni Pierluigi da Palestrina", "Orlando di Lasso", "Tomás Luis de Victoria", "Josquin des Prés"],
+        "explication": "Palestrina est souvent cité comme modèle de la polyphonie sacrée claire et équilibrée promue après le concile de Trente."
+      },
+      {
+        "question": "Quel compositeur américain du XXe siècle, pionnier du piano préparé et des clusters de notes, a influencé John Cage par ses expérimentations sonores dès les années 1920-30 ?",
+        "reponse": "Henry Cowell",
+        "propositions": ["Henry Cowell", "Charles Ives", "John Cage", "Lou Harrison"],
+        "explication": "Henry Cowell a notamment exploré les clusters de notes et des techniques non conventionnelles sur les cordes du piano, bien avant les premières pièces pour piano préparé de John Cage."
       }
     ]
   }

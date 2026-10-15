@@ -276,6 +276,116 @@
           "Vénus"
         ],
         "explication": "La Lune exerce une attraction gravitationnelle qui soulève les océans, créant les marées, le Soleil ayant une influence secondaire."
+      },
+      {
+        "question": "Quel organe du corps humain permet la respiration en assurant les échanges gazeux avec le sang ?",
+        "reponse": "Les poumons",
+        "propositions": [
+          "Les poumons",
+          "Le cœur",
+          "Le foie",
+          "L'estomac"
+        ],
+        "explication": "Les poumons permettent les échanges gazeux entre l'air inspiré et le sang, apportant l'oxygène et évacuant le CO2."
+      },
+      {
+        "question": "Quelle vitamine est principalement synthétisée par la peau grâce à l'exposition au soleil ?",
+        "reponse": "La vitamine D",
+        "propositions": [
+          "La vitamine D",
+          "La vitamine C",
+          "La vitamine A",
+          "La vitamine B12"
+        ],
+        "explication": "L'exposition de la peau aux rayons ultraviolets du soleil déclenche la synthèse de vitamine D."
+      },
+      {
+        "question": "Comment appelle-t-on le processus par lequel un têtard se transforme en grenouille adulte ?",
+        "reponse": "La métamorphose",
+        "propositions": [
+          "La métamorphose",
+          "La mue",
+          "La pollinisation",
+          "La germination"
+        ],
+        "explication": "La métamorphose transforme le têtard aquatique en grenouille adulte capable de vivre hors de l'eau."
+      },
+      {
+        "question": "Combien de temps dure en moyenne une grossesse humaine ?",
+        "reponse": "9 mois",
+        "propositions": [
+          "9 mois",
+          "6 mois",
+          "12 mois",
+          "3 mois"
+        ],
+        "explication": "Une grossesse humaine dure en moyenne environ neuf mois, soit environ 40 semaines."
+      },
+      {
+        "question": "Quel organe du corps humain produit l'insuline qui régule le taux de sucre dans le sang ?",
+        "reponse": "Le pancréas",
+        "propositions": [
+          "Le pancréas",
+          "Le foie",
+          "Le rein",
+          "La thyroïde"
+        ],
+        "explication": "Le pancréas produit l'insuline, une hormone essentielle à la régulation de la glycémie."
+      },
+      {
+        "question": "Quelle partie de la plante absorbe principalement l'eau et les minéraux présents dans le sol ?",
+        "reponse": "Les racines",
+        "propositions": [
+          "Les racines",
+          "Les feuilles",
+          "Les fleurs",
+          "La tige"
+        ],
+        "explication": "Les racines puisent l'eau et les nutriments minéraux nécessaires à la croissance de la plante."
+      },
+      {
+        "question": "Sous quel état de la matière se trouve l'eau lorsqu'elle forme de la vapeur ?",
+        "reponse": "L'état gazeux",
+        "propositions": [
+          "L'état gazeux",
+          "L'état liquide",
+          "L'état solide",
+          "L'état plasma"
+        ],
+        "explication": "La vapeur d'eau est la forme gazeuse de l'eau, généralement invisible à l'œil nu."
+      },
+      {
+        "question": "Quel sens humain permet de percevoir les saveurs des aliments ?",
+        "reponse": "Le goût",
+        "propositions": [
+          "Le goût",
+          "L'odorat",
+          "Le toucher",
+          "La vue"
+        ],
+        "explication": "Le goût est perçu grâce aux papilles gustatives situées principalement sur la langue."
+      },
+      {
+        "question": "Quel est le plus grand animal connu à ce jour, vivant dans les océans ?",
+        "reponse": "La baleine bleue",
+        "propositions": [
+          "La baleine bleue",
+          "L'éléphant d'Afrique",
+          "Le requin blanc",
+          "Le cachalot"
+        ],
+        "explication": "La baleine bleue peut mesurer jusqu'à environ 30 mètres, ce qui en fait le plus grand animal connu."
+      },
+      {
+        "question": "Quel organe du corps humain est le siège de la pensée, de la mémoire et des émotions ?",
+        "reponse": "Le cerveau",
+        "propositions": [
+          "Le cerveau",
+          "Le cœur",
+          "Le foie",
+          "La moelle épinière"
+        ],
+        "explication": "Le cerveau coordonne les fonctions du corps et constitue le centre de la pensée, de la mémoire et des émotions."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "La thermosphère"
         ],
         "explication": "La couche d'ozone, située dans la stratosphère, protège la vie terrestre des rayonnements UV nocifs."
+      },
+      {
+        "question": "Quelle loi physique énonce que la pression d'un gaz est inversement proportionnelle à son volume, à température constante ?",
+        "reponse": "La loi de Boyle-Mariotte",
+        "propositions": [
+          "La loi de Boyle-Mariotte",
+          "La loi de Charles",
+          "La loi de Gay-Lussac",
+          "La loi d'Avogadro"
+        ],
+        "explication": "Cette loi, formulée au XVIIe siècle, décrit le comportement des gaz parfaits à température constante."
+      },
+      {
+        "question": "Quel processus chimique permet aux muscles de produire de l'énergie lorsque l'apport en oxygène devient insuffisant ?",
+        "reponse": "La fermentation lactique",
+        "propositions": [
+          "La fermentation lactique",
+          "La respiration aérobie",
+          "La photosynthèse",
+          "La glycogénolyse hépatique"
+        ],
+        "explication": "Lorsque l'oxygène manque, les muscles produisent de l'énergie par fermentation lactique, générant de l'acide lactique."
+      },
+      {
+        "question": "Quelle structure, présente uniquement chez les cellules végétales, leur confère leur rigidité ?",
+        "reponse": "La paroi cellulaire",
+        "propositions": [
+          "La paroi cellulaire",
+          "La membrane plasmique",
+          "Le noyau",
+          "La vacuole"
+        ],
+        "explication": "La paroi cellulaire, composée de cellulose, entoure la membrane plasmique des cellules végétales."
+      },
+      {
+        "question": "Quel chimiste français a énoncé la loi de conservation de la masse lors des réactions chimiques, à la fin du XVIIIe siècle ?",
+        "reponse": "Antoine Lavoisier",
+        "propositions": [
+          "Antoine Lavoisier",
+          "Dmitri Mendeleïev",
+          "Louis Pasteur",
+          "Marie Curie"
+        ],
+        "explication": "Lavoisier énonce que \"rien ne se perd, rien ne se crée, tout se transforme\" lors d'une réaction chimique."
+      },
+      {
+        "question": "Quel type de jumeaux se développe à partir d'un seul ovule fécondé qui se divise ensuite en deux embryons distincts ?",
+        "reponse": "Les jumeaux monozygotes (vrais jumeaux)",
+        "propositions": [
+          "Les jumeaux monozygotes (vrais jumeaux)",
+          "Les jumeaux dizygotes (faux jumeaux)",
+          "Les jumeaux siamois uniquement",
+          "Les triplés"
+        ],
+        "explication": "Les vrais jumeaux partagent un patrimoine génétique identique, contrairement aux faux jumeaux issus de deux ovules distincts."
+      },
+      {
+        "question": "Quelle vitamine, synthétisée en grande partie grâce au soleil, prévient le rachitisme chez l'enfant en cas de carence ?",
+        "reponse": "La vitamine D",
+        "propositions": [
+          "La vitamine D",
+          "La vitamine C",
+          "La vitamine A",
+          "La vitamine K"
+        ],
+        "explication": "Une carence prolongée en vitamine D chez l'enfant peut provoquer un rachitisme, affectant la minéralisation des os."
+      },
+      {
+        "question": "Quel phénomène géologique décrit l'écartement de deux plaques tectoniques au niveau d'une dorsale océanique, créant de nouvelles roches ?",
+        "reponse": "L'expansion océanique (accrétion)",
+        "propositions": [
+          "L'expansion océanique (accrétion)",
+          "La subduction",
+          "L'orogenèse",
+          "L'isostasie"
+        ],
+        "explication": "Ce phénomène se produit notamment au niveau de la dorsale médio-atlantique, où du magma remonte en continu."
+      },
+      {
+        "question": "Quel pigment vert, présent dans les chloroplastes, capte l'énergie lumineuse nécessaire à la photosynthèse ?",
+        "reponse": "La chlorophylle",
+        "propositions": [
+          "La chlorophylle",
+          "La mélanine",
+          "L'hémoglobine",
+          "Le carotène"
+        ],
+        "explication": "La chlorophylle absorbe la lumière rouge et bleue tout en réfléchissant la lumière verte, donnant leur couleur aux plantes."
+      },
+      {
+        "question": "Quelle hormone, sécrétée par les glandes surrénales en situation de stress, augmente le rythme cardiaque et la pression artérielle ?",
+        "reponse": "L'adrénaline",
+        "propositions": [
+          "L'adrénaline",
+          "L'insuline",
+          "La mélatonine",
+          "La sérotonine"
+        ],
+        "explication": "L'adrénaline prépare l'organisme à une réaction de fuite ou de combat face à un danger perçu."
+      },
+      {
+        "question": "Quel gaz incolore et inodore, produit par une combustion incomplète, est extrêmement toxique car il empêche le sang de transporter l'oxygène ?",
+        "reponse": "Le monoxyde de carbone",
+        "propositions": [
+          "Le monoxyde de carbone",
+          "Le dioxyde de carbone",
+          "Le méthane",
+          "L'ozone"
+        ],
+        "explication": "Le monoxyde de carbone se fixe sur l'hémoglobine à la place de l'oxygène, ce qui le rend dangereux même à faible concentration."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "La théorie de la génération spontanée"
         ],
         "explication": "Les ribozymes, des molécules d'ARN aux propriétés catalytiques, soutiennent cette hypothèse."
+      },
+      {
+        "question": "Quel physicien autrichien a formulé en 1926 l'équation d'onde fondamentale de la mécanique quantique, qui porte son nom ?",
+        "reponse": "Erwin Schrödinger",
+        "propositions": [
+          "Erwin Schrödinger",
+          "Werner Heisenberg",
+          "Paul Dirac",
+          "Niels Bohr"
+        ],
+        "explication": "L'équation de Schrödinger décrit l'évolution dans le temps de la fonction d'onde d'un système quantique."
+      },
+      {
+        "question": "Quelle loi de la thermodynamique énonce que l'entropie d'un système isolé ne peut qu'augmenter ou rester constante au cours du temps ?",
+        "reponse": "Le deuxième principe de la thermodynamique",
+        "propositions": [
+          "Le deuxième principe de la thermodynamique",
+          "Le premier principe de la thermodynamique",
+          "Le troisième principe de la thermodynamique",
+          "La loi de Boyle-Mariotte"
+        ],
+        "explication": "Ce principe explique notamment l'irréversibilité de nombreux phénomènes physiques, comme la diffusion de la chaleur."
+      },
+      {
+        "question": "Quel mécanisme génétique permet aux lymphocytes B de générer un immense répertoire d'anticorps capables de reconnaître presque n'importe quel antigène ?",
+        "reponse": "La recombinaison V(D)J",
+        "propositions": [
+          "La recombinaison V(D)J",
+          "La méiose",
+          "La transcription inverse",
+          "Le crossing-over mitotique"
+        ],
+        "explication": "Ce réarrangement aléatoire de segments géniques permet au système immunitaire adaptatif de générer une immense diversité d'anticorps."
+      },
+      {
+        "question": "Quel modèle cosmologique dominant décrit l'expansion de l'univers depuis une singularité initiale extrêmement dense et chaude, il y a environ 13,8 milliards d'années ?",
+        "reponse": "Le Big Bang",
+        "propositions": [
+          "Le Big Bang",
+          "La théorie de l'état stationnaire",
+          "L'inflation cosmique seule",
+          "Le modèle du multivers"
+        ],
+        "explication": "Le rayonnement fossile, découvert en 1965, constitue l'une des principales preuves observationnelles de ce modèle."
+      },
+      {
+        "question": "Lors des réactions photochimiques de la photosynthèse, quelle molécule est décomposée par l'énergie lumineuse pour libérer des électrons, des protons et de l'oxygène ?",
+        "reponse": "L'eau (photolyse de l'eau)",
+        "propositions": [
+          "L'eau (photolyse de l'eau)",
+          "Le dioxyde de carbone",
+          "Le glucose",
+          "La chlorophylle"
+        ],
+        "explication": "Cette photolyse de l'eau, au niveau du photosystème II, est à l'origine de l'oxygène libéré par les plantes."
+      },
+      {
+        "question": "Quel physicien français a découvert en 1896 la radioactivité naturelle de l'uranium, ouvrant la voie aux travaux de Pierre et Marie Curie ?",
+        "reponse": "Henri Becquerel",
+        "propositions": [
+          "Henri Becquerel",
+          "Pierre Curie",
+          "Marie Curie",
+          "Wilhelm Röntgen"
+        ],
+        "explication": "Becquerel a partagé le prix Nobel de physique de 1903 avec Pierre et Marie Curie pour ces travaux."
+      },
+      {
+        "question": "Quelle particule élémentaire, électriquement neutre et de masse infime, a été théorisée par Wolfgang Pauli en 1930 pour expliquer la désintégration bêta ?",
+        "reponse": "Le neutrino",
+        "propositions": [
+          "Le neutrino",
+          "Le photon",
+          "Le boson de Higgs",
+          "Le positron"
+        ],
+        "explication": "Le neutrino n'a été détecté expérimentalement qu'en 1956, plus de vingt ans après sa prédiction théorique."
+      },
+      {
+        "question": "Quel biochimiste britannique a découvert fortuitement la pénicilline en 1928, premier antibiotique de l'histoire ?",
+        "reponse": "Alexander Fleming",
+        "propositions": [
+          "Alexander Fleming",
+          "Louis Pasteur",
+          "Robert Koch",
+          "Howard Florey"
+        ],
+        "explication": "Fleming a observé qu'une moisissure du genre Penicillium empêchait la croissance de bactéries sur ses cultures."
+      },
+      {
+        "question": "Quelle théorie, formulée par Antoine Lavoisier à la fin du XVIIIe siècle, a définitivement remplacé l'hypothèse du phlogistique pour expliquer la combustion ?",
+        "reponse": "La théorie de l'oxydation",
+        "propositions": [
+          "La théorie de l'oxydation",
+          "La théorie calorique",
+          "La théorie atomique de Dalton",
+          "La théorie cinétique des gaz"
+        ],
+        "explication": "Lavoisier démontre que la combustion correspond à une combinaison chimique avec l'oxygène, et non à la libération d'un hypothétique \"phlogistique\"."
+      },
+      {
+        "question": "Quel phénomène quantique permet à deux particules de rester corrélées de telle sorte que l'état de l'une influence instantanément l'état de l'autre, même séparées par une grande distance ?",
+        "reponse": "L'intrication quantique",
+        "propositions": [
+          "L'intrication quantique",
+          "La superposition d'états",
+          "L'effet tunnel",
+          "La décohérence quantique"
+        ],
+        "explication": "Einstein qualifiait ce phénomène d'« action fantôme à distance », aujourd'hui vérifié expérimentalement."
       }
     ]
   }

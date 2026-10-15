@@ -276,6 +276,116 @@
           "Gemini 7"
         ],
         "explication": "Neil Armstrong et Buzz Aldrin ont foulé le sol lunaire, tandis que Michael Collins restait en orbite."
+      },
+      {
+        "question": "Quelle planète du système solaire possède le plus grand nombre de lunes connues à ce jour ?",
+        "reponse": "Saturne",
+        "propositions": [
+          "Saturne",
+          "Jupiter",
+          "Uranus",
+          "Neptune"
+        ],
+        "explication": "Saturne compte plus d'une centaine de lunes connues, dont la plus grande, Titan."
+      },
+      {
+        "question": "Quelle planète est surnommée l'étoile du Berger car elle est visible très brillante à l'aube ou au crépuscule ?",
+        "reponse": "Vénus",
+        "propositions": [
+          "Vénus",
+          "Mars",
+          "Mercure",
+          "Jupiter"
+        ],
+        "explication": "Vénus est le troisième objet le plus brillant du ciel, après le Soleil et la Lune."
+      },
+      {
+        "question": "Quelle est la forme générale de l'orbite des planètes autour du Soleil ?",
+        "reponse": "Une ellipse",
+        "propositions": [
+          "Une ellipse",
+          "Un cercle parfait",
+          "Une spirale",
+          "Une parabole"
+        ],
+        "explication": "Johannes Kepler a démontré au XVIIe siècle que les planètes décrivent des orbites elliptiques autour du Soleil."
+      },
+      {
+        "question": "Quelle planète du système solaire est connue pour ses tempêtes de poussière pouvant recouvrir toute la planète ?",
+        "reponse": "Mars",
+        "propositions": [
+          "Mars",
+          "Vénus",
+          "Mercure",
+          "Jupiter"
+        ],
+        "explication": "Ces tempêtes martiennes peuvent durer plusieurs semaines et recouvrir l'ensemble de la planète de poussière."
+      },
+      {
+        "question": "Quel est le nom du robot envoyé par la NASA qui explore actuellement la surface de Mars depuis 2021 ?",
+        "reponse": "Perseverance",
+        "propositions": [
+          "Perseverance",
+          "Curiosity",
+          "Opportunity",
+          "Sojourner"
+        ],
+        "explication": "Le rover Perseverance a atterri sur Mars en février 2021 pour rechercher des traces de vie ancienne."
+      },
+      {
+        "question": "Quelle est la principale composante de l'atmosphère de Vénus ?",
+        "reponse": "Le dioxyde de carbone",
+        "propositions": [
+          "Le dioxyde de carbone",
+          "L'azote",
+          "L'oxygène",
+          "Le méthane"
+        ],
+        "explication": "L'atmosphère de Vénus est composée à plus de 96 % de dioxyde de carbone, provoquant un effet de serre extrême."
+      },
+      {
+        "question": "Quel est le nom de la plus grande planète naine connue, la première à avoir été classée comme telle en 2006 ?",
+        "reponse": "Pluton",
+        "propositions": [
+          "Pluton",
+          "Éris",
+          "Cérès",
+          "Makemake"
+        ],
+        "explication": "Pluton a longtemps été considérée comme la neuvième planète du système solaire, avant sa reclassification en 2006."
+      },
+      {
+        "question": "Combien de temps met environ Mars pour faire le tour du Soleil, comparé à la Terre ?",
+        "reponse": "Environ 2 ans",
+        "propositions": [
+          "Environ 2 ans",
+          "Environ 1 an",
+          "Environ 5 ans",
+          "Environ 6 mois"
+        ],
+        "explication": "Mars met environ 687 jours terrestres, soit un peu moins de deux ans, pour faire le tour du Soleil."
+      },
+      {
+        "question": "Quel phénomène se produit lorsque la Terre passe exactement entre le Soleil et la Lune, assombrissant cette dernière ?",
+        "reponse": "Une éclipse lunaire",
+        "propositions": [
+          "Une éclipse lunaire",
+          "Une éclipse solaire",
+          "Une nouvelle lune",
+          "Une occultation"
+        ],
+        "explication": "Lors d'une éclipse lunaire totale, la Lune prend souvent une teinte rougeâtre appelée 'lune de sang'."
+      },
+      {
+        "question": "Quelle est la plus petite planète du système solaire ?",
+        "reponse": "Mercure",
+        "propositions": [
+          "Mercure",
+          "Mars",
+          "Vénus",
+          "Pluton (planète naine)"
+        ],
+        "explication": "Mercure est plus petite que certaines lunes du système solaire, comme Ganymède ou Titan."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Parce qu'elle n'a pas de champ magnétique"
         ],
         "explication": "La température peut varier de plus de 500°C entre le jour brûlant et la nuit glaciale sur Mercure."
+      },
+      {
+        "question": "Quelle est la durée d'une rotation complète de Vénus sur elle-même, extrêmement longue comparée à celle de la Terre ?",
+        "reponse": "Environ 243 jours terrestres",
+        "propositions": [
+          "Environ 243 jours terrestres",
+          "Environ 24 heures",
+          "Environ 100 jours terrestres",
+          "Environ 365 jours terrestres"
+        ],
+        "explication": "Cette rotation extrêmement lente, combinée à son sens rétrograde, rend les jours vénusiens particulièrement longs."
+      },
+      {
+        "question": "Quelle est la deuxième plus grande lune du système solaire, juste derrière Ganymède, en orbite autour de Saturne ?",
+        "reponse": "Titan",
+        "propositions": [
+          "Titan",
+          "Encelade",
+          "Rhéa",
+          "Japet"
+        ],
+        "explication": "Titan est plus grande que la planète Mercure et possède une atmosphère dense, unique parmi les lunes du système solaire."
+      },
+      {
+        "question": "Quelle planète a une densité moyenne inférieure à celle de l'eau, ce qui signifie qu'elle flotterait si on pouvait la plonger dans un océan assez grand ?",
+        "reponse": "Saturne",
+        "propositions": [
+          "Saturne",
+          "Jupiter",
+          "Uranus",
+          "Neptune"
+        ],
+        "explication": "La densité moyenne de Saturne est d'environ 0,687 g/cm³, inférieure à celle de l'eau (1 g/cm³)."
+      },
+      {
+        "question": "Quelle sonde de l'Agence spatiale européenne, lancée en 2004, a largué en 2014 un petit atterrisseur sur la comète Tchourioumov-Guerassimenko ?",
+        "reponse": "Rosetta",
+        "propositions": [
+          "Rosetta",
+          "Giotto",
+          "BepiColombo",
+          "Juice"
+        ],
+        "explication": "L'atterrisseur Philae, largué par Rosetta, a réalisé les premières images prises à la surface d'une comète."
+      },
+      {
+        "question": "Quelles sont les deux seules planètes du système solaire ne possédant aucune lune naturelle connue ?",
+        "reponse": "Mercure et Vénus",
+        "propositions": [
+          "Mercure et Vénus",
+          "Mars et Mercure",
+          "Vénus et Mars",
+          "Mercure et la Terre"
+        ],
+        "explication": "Toutes les autres planètes du système solaire possèdent au moins une lune naturelle connue."
+      },
+      {
+        "question": "Quel phénomène, lié à l'inclinaison de l'axe de rotation de la Terre d'environ 23,5 degrés, explique l'alternance des saisons ?",
+        "reponse": "L'inclinaison de l'axe terrestre",
+        "propositions": [
+          "L'inclinaison de l'axe terrestre",
+          "La distance variable au Soleil",
+          "La vitesse de rotation terrestre",
+          "L'activité des taches solaires"
+        ],
+        "explication": "Cette inclinaison fait que chaque hémisphère reçoit plus ou moins directement la lumière du Soleil selon la période de l'année."
+      },
+      {
+        "question": "Quelle comète, visible à l'œil nu pendant environ 18 mois en 1997, reste l'une des plus brillantes observées au XXe siècle ?",
+        "reponse": "La comète Hale-Bopp",
+        "propositions": [
+          "La comète Hale-Bopp",
+          "La comète de Halley",
+          "La comète Hyakutake",
+          "La comète Encke"
+        ],
+        "explication": "Hale-Bopp a été découverte en 1995, bien avant son passage au plus près du Soleil, ce qui a permis de l'observer longuement."
+      },
+      {
+        "question": "Quelles sondes américaines, lancées dans les années 1970, ont été les premières à survoler Jupiter puis Saturne, avant les missions Voyager ?",
+        "reponse": "Pioneer 10 et 11",
+        "propositions": [
+          "Pioneer 10 et 11",
+          "Voyager 1 et 2",
+          "Mariner 9 et 10",
+          "Galileo et Cassini"
+        ],
+        "explication": "Pioneer 10 a survolé Jupiter en 1973 et Pioneer 11 a atteint Saturne en 1979, ouvrant la voie aux sondes Voyager."
+      },
+      {
+        "question": "Quelle mission de la NASA a rapporté sur Terre, en septembre 2023, des échantillons prélevés sur l'astéroïde Bénou ?",
+        "reponse": "OSIRIS-REx",
+        "propositions": [
+          "OSIRIS-REx",
+          "Hayabusa2",
+          "Dawn",
+          "New Horizons"
+        ],
+        "explication": "La capsule contenant les échantillons s'est posée dans le désert de l'Utah après un voyage de plusieurs années."
+      },
+      {
+        "question": "Quel télescope spatial, lancé en décembre 2021, permet notamment d'observer avec une précision inédite les atmosphères et anneaux de plusieurs planètes du système solaire ?",
+        "reponse": "Le télescope spatial James Webb",
+        "propositions": [
+          "Le télescope spatial James Webb",
+          "Le télescope spatial Hubble",
+          "Le télescope Kepler",
+          "Le télescope Spitzer"
+        ],
+        "explication": "Le James Webb observe principalement dans l'infrarouge, ce qui lui permet de révéler des détails inédits sur Jupiter, Neptune ou Mars."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "L'effet Doppler"
         ],
         "explication": "Le vent solaire a été théorisé par Eugene Parker en 1958 puis confirmé par les mesures de la sonde Mariner 2 en 1962."
+      },
+      {
+        "question": "Quel phénomène, prédit par la relativité générale d'Einstein et confirmé lors d'une éclipse solaire en 1919, concerne la déviation de la lumière des étoiles par la gravité du Soleil ?",
+        "reponse": "La déviation de la lumière (lentille gravitationnelle)",
+        "propositions": [
+          "La déviation de la lumière (lentille gravitationnelle)",
+          "Le décalage vers le rouge gravitationnel",
+          "La dilatation du temps",
+          "L'effet Doppler relativiste"
+        ],
+        "explication": "Cette observation, menée par Arthur Eddington, a constitué l'une des premières confirmations expérimentales majeures de la relativité générale."
+      },
+      {
+        "question": "Quelle anomalie dans l'orbite de Mercure, inexplicable par la mécanique newtonienne classique, a été résolue par la relativité générale d'Einstein en 1915 ?",
+        "reponse": "La précession anormale du périhélie de Mercure",
+        "propositions": [
+          "La précession anormale du périhélie de Mercure",
+          "La résonance spin-orbite de Mercure",
+          "L'excentricité orbitale de Mercure",
+          "L'inclinaison orbitale de Mercure"
+        ],
+        "explication": "Cette anomalie, de seulement quelques secondes d'arc par siècle, ne pouvait pas être expliquée uniquement par les perturbations gravitationnelles des autres planètes."
+      },
+      {
+        "question": "Quel astronome américain a découvert la planète Pluton en 1930, après plusieurs années de recherche d'une hypothétique 'Planète X' ?",
+        "reponse": "Clyde Tombaugh",
+        "propositions": [
+          "Clyde Tombaugh",
+          "Percival Lowell",
+          "Mike Brown",
+          "William Herschel"
+        ],
+        "explication": "Tombaugh a repéré Pluton par comparaison de plaques photographiques prises à quelques jours d'intervalle, à l'observatoire Lowell."
+      },
+      {
+        "question": "Quelle hypothèse, aujourd'hui privilégiée, explique la formation de la Lune par la collision entre la Terre primitive et un corps de la taille de Mars ?",
+        "reponse": "L'hypothèse de l'impact géant (Théia)",
+        "propositions": [
+          "L'hypothèse de l'impact géant (Théia)",
+          "L'hypothèse de la capture gravitationnelle",
+          "L'hypothèse de la fission terrestre",
+          "L'hypothèse de la co-accrétion"
+        ],
+        "explication": "Les débris de cet impact géant se seraient agglomérés en orbite pour former la Lune, selon cette théorie largement acceptée."
+      },
+      {
+        "question": "Quel phénomène, observé sur des lunes glacées comme Europe ou Encelade, résulte du réchauffement interne provoqué par les forces de marée exercées par leur planète ?",
+        "reponse": "Le chauffage par effet de marée",
+        "propositions": [
+          "Le chauffage par effet de marée",
+          "La désintégration radioactive seule",
+          "L'effet de serre",
+          "Le vent solaire"
+        ],
+        "explication": "Ce réchauffement interne expliquerait la présence d'océans liquides sous la croûte glacée de plusieurs lunes du système solaire."
+      },
+      {
+        "question": "Quelle sonde japonaise a rapporté sur Terre, en décembre 2020, des échantillons prélevés dans le sous-sol de l'astéroïde Ryugu ?",
+        "reponse": "Hayabusa2",
+        "propositions": [
+          "Hayabusa2",
+          "OSIRIS-REx",
+          "Dawn",
+          "Rosetta"
+        ],
+        "explication": "Hayabusa2 a utilisé un petit impacteur pour creuser la surface de Ryugu afin d'en extraire des matériaux inaltérés."
+      },
+      {
+        "question": "Comment appelle-t-on la résonance orbitale particulière de Mercure, qui effectue trois rotations sur elle-même pour deux révolutions complètes autour du Soleil ?",
+        "reponse": "La résonance spin-orbite 3:2",
+        "propositions": [
+          "La résonance spin-orbite 3:2",
+          "La rotation synchrone",
+          "La résonance de Laplace",
+          "La libration lunaire"
+        ],
+        "explication": "Cette résonance, unique parmi les planètes du système solaire, est due aux forces de marée exercées par le Soleil sur l'orbite très elliptique de Mercure."
+      },
+      {
+        "question": "Quelle hypothèse scientifique, encore débattue, postule l'existence d'une neuvième planète massive et lointaine au-delà de Neptune, pour expliquer le regroupement orbital de certains objets transneptuniens ?",
+        "reponse": "L'hypothèse de la Planète Neuf",
+        "propositions": [
+          "L'hypothèse de la Planète Neuf",
+          "L'hypothèse de Némésis",
+          "L'hypothèse de la ceinture de Kuiper étendue",
+          "L'hypothèse du nuage d'Oort interne"
+        ],
+        "explication": "Cette hypothèse a été proposée en 2016 par les astronomes Konstantin Batygin et Mike Brown, sans qu'un tel objet n'ait encore été directement observé."
+      },
+      {
+        "question": "Quelle vaste tempête sombre, observée sur Neptune par la sonde Voyager 2 en 1989 puis disparue quelques années plus tard, rappelait la Grande Tache rouge de Jupiter ?",
+        "reponse": "La Grande Tache sombre de Neptune",
+        "propositions": [
+          "La Grande Tache sombre de Neptune",
+          "L'hexagone de Saturne",
+          "La tache blanche de Saturne",
+          "Le vortex polaire d'Uranus"
+        ],
+        "explication": "Le télescope spatial Hubble n'a plus retrouvé cette tempête dès le milieu des années 1990, révélant la nature changeante de l'atmosphère neptunienne."
+      },
+      {
+        "question": "Quelle mission de la NASA, lancée en octobre 2024, doit étudier en détail la lune Europe et son potentiel océan sous-glaciaire ?",
+        "reponse": "Europa Clipper",
+        "propositions": [
+          "Europa Clipper",
+          "JUICE",
+          "Juno",
+          "Dragonfly"
+        ],
+        "explication": "Europa Clipper doit effectuer de nombreux survols rapprochés d'Europe pour évaluer son habitabilité potentielle."
       }
     ]
   }

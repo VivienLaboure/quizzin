@@ -276,6 +276,116 @@
           "La combustion"
         ],
         "explication": "La chaleur se transmet par conduction, convection ou rayonnement, toujours du chaud vers le froid."
+      },
+      {
+        "question": "Quelle unité mesure la quantité de matière en chimie et en physique ?",
+        "reponse": "La mole",
+        "propositions": [
+          "La mole",
+          "Le gramme",
+          "Le litre",
+          "L'atome"
+        ],
+        "explication": "La mole est l'unité de quantité de matière du Système international, représentant environ 6,022×10²³ entités."
+      },
+      {
+        "question": "Quel phénomène physique permet à deux objets chargés d'électricité de s'attirer ou de se repousser ?",
+        "reponse": "L'électricité statique",
+        "propositions": [
+          "L'électricité statique",
+          "Le magnétisme",
+          "La gravité",
+          "La pression"
+        ],
+        "explication": "Deux charges de même signe se repoussent, tandis que deux charges de signe opposé s'attirent."
+      },
+      {
+        "question": "Comment appelle-t-on le passage direct d'un solide à l'état gazeux, sans passer par l'état liquide ?",
+        "reponse": "La sublimation",
+        "propositions": [
+          "La sublimation",
+          "La fusion",
+          "L'évaporation",
+          "La condensation"
+        ],
+        "explication": "La glace carbonique, c'est-à-dire le dioxyde de carbone solide, se sublime directement à température ambiante."
+      },
+      {
+        "question": "Comment appelle-t-on le passage d'un liquide à l'état gazeux ?",
+        "reponse": "L'évaporation",
+        "propositions": [
+          "L'évaporation",
+          "La fusion",
+          "La condensation",
+          "La sublimation"
+        ],
+        "explication": "L'eau s'évapore progressivement sous l'effet de la chaleur, même sans atteindre son point d'ébullition."
+      },
+      {
+        "question": "Quel instrument sert à mesurer la température ?",
+        "reponse": "Le thermomètre",
+        "propositions": [
+          "Le thermomètre",
+          "Le baromètre",
+          "Le manomètre",
+          "L'hygromètre"
+        ],
+        "explication": "Le baromètre, lui, mesure la pression atmosphérique."
+      },
+      {
+        "question": "Quel instrument sert à mesurer la pression atmosphérique ?",
+        "reponse": "Le baromètre",
+        "propositions": [
+          "Le baromètre",
+          "Le thermomètre",
+          "Le manomètre",
+          "L'hygromètre"
+        ],
+        "explication": "Le baromètre a été inventé par Evangelista Torricelli au XVIIe siècle."
+      },
+      {
+        "question": "Quelle unité du Système international mesure la masse ?",
+        "reponse": "Le kilogramme",
+        "propositions": [
+          "Le kilogramme",
+          "Le gramme",
+          "La tonne",
+          "Le newton"
+        ],
+        "explication": "Le kilogramme est aujourd'hui défini à partir d'une constante fondamentale, la constante de Planck."
+      },
+      {
+        "question": "Comment appelle-t-on l'énergie que possède un objet du fait de son mouvement ?",
+        "reponse": "L'énergie cinétique",
+        "propositions": [
+          "L'énergie cinétique",
+          "L'énergie potentielle",
+          "L'énergie thermique",
+          "L'énergie chimique"
+        ],
+        "explication": "Plus un objet est rapide et massif, plus son énergie cinétique est grande."
+      },
+      {
+        "question": "Comment appelle-t-on l'énergie qu'un objet possède du fait de sa position, par exemple en hauteur ?",
+        "reponse": "L'énergie potentielle",
+        "propositions": [
+          "L'énergie potentielle",
+          "L'énergie cinétique",
+          "L'énergie thermique",
+          "L'énergie chimique"
+        ],
+        "explication": "Un objet placé en hauteur possède une énergie potentielle de pesanteur, qui se transforme en énergie cinétique lors de sa chute."
+      },
+      {
+        "question": "Quel phénomène optique permet à un miroir de renvoyer la lumière qu'il reçoit ?",
+        "reponse": "La réflexion",
+        "propositions": [
+          "La réflexion",
+          "La réfraction",
+          "La diffraction",
+          "L'absorption"
+        ],
+        "explication": "La réflexion sur une surface lisse comme un miroir obéit à des lois précises sur les angles d'incidence et de réflexion."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "L'effet de serre"
         ],
         "explication": "L'effet Coriolis influence notamment la formation des cyclones et des courants océaniques."
+      },
+      {
+        "question": "Quelle loi énonce qu'un corps immobile reste immobile et qu'un corps en mouvement garde une vitesse constante en l'absence de force extérieure ?",
+        "reponse": "La première loi de Newton (principe d'inertie)",
+        "propositions": [
+          "La première loi de Newton (principe d'inertie)",
+          "La deuxième loi de Newton",
+          "La troisième loi de Newton",
+          "Le principe d'Archimède"
+        ],
+        "explication": "Ce principe d'inertie a été formulé pour la première fois par Galilée, avant d'être repris par Newton."
+      },
+      {
+        "question": "À quelle température, exprimée en kelvins, correspond le zéro absolu, limite théorique la plus basse possible ?",
+        "reponse": "0 kelvin",
+        "propositions": [
+          "0 kelvin",
+          "-100 kelvin",
+          "273 kelvin",
+          "100 kelvin"
+        ],
+        "explication": "Le zéro absolu correspond à -273,15 °C, température à laquelle l'agitation thermique des particules serait minimale."
+      },
+      {
+        "question": "Quelle loi énonce que, à pression constante, le volume d'un gaz est proportionnel à sa température absolue ?",
+        "reponse": "La loi de Charles",
+        "propositions": [
+          "La loi de Charles",
+          "La loi de Boyle-Mariotte",
+          "La loi d'Avogadro",
+          "La loi de Dalton"
+        ],
+        "explication": "Cette loi complète celle de Boyle-Mariotte, qui relie plutôt pression et volume à température constante."
+      },
+      {
+        "question": "Quelle grandeur physique, exprimée en ohms, mesure l'opposition d'un matériau au passage du courant électrique ?",
+        "reponse": "La résistance électrique",
+        "propositions": [
+          "La résistance électrique",
+          "La résistivité",
+          "L'impédance",
+          "La conductance"
+        ],
+        "explication": "La résistance électrique dépend notamment de la nature, de la longueur et de la section du conducteur."
+      },
+      {
+        "question": "Quel physicien anglais a mesuré pour la première fois, en 1798, la constante de gravitation universelle à l'aide d'une balance de torsion ?",
+        "reponse": "Henry Cavendish",
+        "propositions": [
+          "Henry Cavendish",
+          "Isaac Newton",
+          "Robert Hooke",
+          "James Prescott Joule"
+        ],
+        "explication": "L'expérience de Cavendish a aussi permis d'estimer la masse de la Terre."
+      },
+      {
+        "question": "Quel physicien anglais du XIXe siècle a établi l'équivalence entre travail mécanique et chaleur, donnant son nom à l'unité d'énergie ?",
+        "reponse": "James Prescott Joule",
+        "propositions": [
+          "James Prescott Joule",
+          "Sadi Carnot",
+          "Rudolf Clausius",
+          "William Thomson (Lord Kelvin)"
+        ],
+        "explication": "Joule a montré expérimentalement qu'une quantité donnée de travail produit toujours la même quantité de chaleur."
+      },
+      {
+        "question": "Quelle grandeur physique, mesurée en farads, caractérise la capacité d'un condensateur à stocker une charge électrique ?",
+        "reponse": "La capacité électrique",
+        "propositions": [
+          "La capacité électrique",
+          "La résistance électrique",
+          "L'inductance",
+          "La charge électrique"
+        ],
+        "explication": "Le farad, très grande unité en pratique, rend hommage au physicien britannique Michael Faraday."
+      },
+      {
+        "question": "Quelle grandeur, exprimée en teslas, mesure l'intensité d'un champ magnétique ?",
+        "reponse": "L'induction magnétique (champ magnétique)",
+        "propositions": [
+          "L'induction magnétique (champ magnétique)",
+          "Le flux magnétique",
+          "La force électromotrice",
+          "La perméabilité magnétique"
+        ],
+        "explication": "Le tesla rend hommage à l'ingénieur et physicien Nikola Tesla."
+      },
+      {
+        "question": "Quelle grandeur, exprimée en webers, mesure le flux magnétique traversant une surface ?",
+        "reponse": "Le flux magnétique",
+        "propositions": [
+          "Le flux magnétique",
+          "L'induction magnétique",
+          "La force électromotrice",
+          "La perméabilité magnétique"
+        ],
+        "explication": "Le flux magnétique intervient notamment dans la loi de l'induction électromagnétique de Faraday."
+      },
+      {
+        "question": "Quelle loi énonce que la force électrique entre deux charges ponctuelles est proportionnelle au produit de leurs charges et inversement proportionnelle au carré de leur distance ?",
+        "reponse": "La loi de Coulomb",
+        "propositions": [
+          "La loi de Coulomb",
+          "La loi d'Ohm",
+          "La loi de Gauss",
+          "La loi de Biot et Savart"
+        ],
+        "explication": "Cette loi, formulée par Charles-Augustin de Coulomb en 1785, est l'équivalent électrique de la loi de la gravitation universelle de Newton."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Freeman Dyson"
         ],
         "explication": "Feynman, Schwinger et Tomonaga ont partagé le prix Nobel de physique 1965 pour leurs travaux sur l'électrodynamique quantique."
+      },
+      {
+        "question": "Quel physicien français a démontré expérimentalement, en 1982, la violation des inégalités de Bell, confirmant la réalité de l'intrication quantique ?",
+        "reponse": "Alain Aspect",
+        "propositions": [
+          "Alain Aspect",
+          "Alain Connes",
+          "Serge Haroche",
+          "Claude Cohen-Tannoudji"
+        ],
+        "explication": "Alain Aspect a reçu le prix Nobel de physique 2022 pour ces travaux, partagé avec John Clauser et Anton Zeilinger."
+      },
+      {
+        "question": "Quel physicien nord-irlandais a formulé en 1964 une inégalité mathématique permettant de tester expérimentalement les fondements de la mécanique quantique ?",
+        "reponse": "John Stewart Bell",
+        "propositions": [
+          "John Stewart Bell",
+          "Alain Aspect",
+          "David Bohm",
+          "Erwin Schrödinger"
+        ],
+        "explication": "Les inégalités de Bell permettent de distinguer expérimentalement la mécanique quantique des théories à variables cachées locales."
+      },
+      {
+        "question": "Quel physicien français, prix Nobel 1997, a développé des méthodes de refroidissement d'atomes par laser ?",
+        "reponse": "Claude Cohen-Tannoudji",
+        "propositions": [
+          "Claude Cohen-Tannoudji",
+          "Alain Aspect",
+          "Serge Haroche",
+          "Georges Charpak"
+        ],
+        "explication": "Ce refroidissement laser permet de ralentir des atomes jusqu'à des températures proches du zéro absolu."
+      },
+      {
+        "question": "Quel physicien français, prix Nobel 1992, a inventé des détecteurs de particules, notamment la chambre proportionnelle multifils ?",
+        "reponse": "Georges Charpak",
+        "propositions": [
+          "Georges Charpak",
+          "Claude Cohen-Tannoudji",
+          "Pierre-Gilles de Gennes",
+          "Albert Fert"
+        ],
+        "explication": "Cette invention a considérablement amélioré la détection des particules dans les accélérateurs et en imagerie médicale."
+      },
+      {
+        "question": "Quel physicien français, prix Nobel 2007, a découvert la magnétorésistance géante, aujourd'hui utilisée dans les disques durs d'ordinateurs ?",
+        "reponse": "Albert Fert",
+        "propositions": [
+          "Albert Fert",
+          "Pierre-Gilles de Gennes",
+          "Georges Charpak",
+          "Serge Haroche"
+        ],
+        "explication": "Cette découverte de 1988 a permis une forte augmentation de la densité de stockage des disques durs."
+      },
+      {
+        "question": "Quelle particule hypothétique massive interagissant faiblement est historiquement l'un des principaux candidats proposés pour expliquer la matière noire de l'Univers ?",
+        "reponse": "Le WIMP",
+        "propositions": [
+          "Le WIMP",
+          "Le neutrino stérile",
+          "L'axion",
+          "Le graviton"
+        ],
+        "explication": "Plusieurs expériences souterraines, comme XENON ou LUX, cherchent à détecter directement ces particules hypothétiques, sans succès à ce jour."
+      },
+      {
+        "question": "Quel physicien américain a popularisé, en 1967, le terme 'trou noir' pour désigner les objets issus de l'effondrement gravitationnel d'une étoile massive ?",
+        "reponse": "John Wheeler",
+        "propositions": [
+          "John Wheeler",
+          "Stephen Hawking",
+          "Karl Schwarzschild",
+          "Roger Penrose"
+        ],
+        "explication": "Ce terme a rapidement remplacé les expressions plus techniques utilisées jusqu'alors par les astrophysiciens."
+      },
+      {
+        "question": "Quel physicien allemand a calculé, dès 1916, la première solution exacte des équations de la relativité générale, décrivant un trou noir sphérique non chargé ?",
+        "reponse": "Karl Schwarzschild",
+        "propositions": [
+          "Karl Schwarzschild",
+          "John Wheeler",
+          "Roger Penrose",
+          "Subrahmanyan Chandrasekhar"
+        ],
+        "explication": "Schwarzschild a établi cette solution alors qu'il servait sur le front russe pendant la Première Guerre mondiale, peu avant sa mort."
+      },
+      {
+        "question": "Quel physicien indo-américain a démontré l'existence d'une masse limite, portant aujourd'hui son nom, au-delà de laquelle une naine blanche s'effondre ?",
+        "reponse": "Subrahmanyan Chandrasekhar",
+        "propositions": [
+          "Subrahmanyan Chandrasekhar",
+          "Karl Schwarzschild",
+          "John Wheeler",
+          "Fritz Zwicky"
+        ],
+        "explication": "La masse de Chandrasekhar, environ 1,4 fois la masse du Soleil, marque la limite au-delà de laquelle une étoile s'effondre en étoile à neutrons ou en trou noir."
+      },
+      {
+        "question": "Quel astronome suisse-américain a postulé, dès les années 1930, l'existence d'une masse manquante dans les amas de galaxies, préfigurant le concept de matière noire ?",
+        "reponse": "Fritz Zwicky",
+        "propositions": [
+          "Fritz Zwicky",
+          "Vera Rubin",
+          "Jan Oort",
+          "Jim Peebles"
+        ],
+        "explication": "Zwicky a observé que la masse visible de l'amas de Coma ne suffisait pas à expliquer la vitesse de déplacement de ses galaxies."
       }
     ]
   }

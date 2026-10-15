@@ -276,6 +276,116 @@
           "Le PEA"
         ],
         "explication": "Le taux du Livret A est fixé par les pouvoirs publics et révisé périodiquement."
+      },
+      {
+        "question": "Quelle monnaie circulait en France avant l'introduction de l'euro ?",
+        "reponse": "Le franc",
+        "propositions": [
+          "Le franc",
+          "L'euro",
+          "L'écu",
+          "Le franc CFA"
+        ],
+        "explication": "Le franc français a été remplacé par l'euro, devenu la seule monnaie ayant cours légal en France au 1er janvier 2002."
+      },
+      {
+        "question": "Quelle entreprise française, spécialisée dans le BTP et les concessions autoroutières, est l'un des plus grands groupes mondiaux du secteur ?",
+        "reponse": "Vinci",
+        "propositions": [
+          "Vinci",
+          "Bouygues",
+          "Eiffage",
+          "Colas"
+        ],
+        "explication": "Vinci gère notamment un grand nombre d'autoroutes concédées en France, en plus de ses activités de construction."
+      },
+      {
+        "question": "Quelle entreprise française, rebaptisée en 2021, est l'un des plus grands groupes pétroliers et énergétiques mondiaux ?",
+        "reponse": "TotalEnergies",
+        "propositions": [
+          "TotalEnergies",
+          "Engie",
+          "EDF",
+          "Veolia"
+        ],
+        "explication": "Le groupe Total a changé de nom en TotalEnergies en 2021 pour refléter sa diversification vers les énergies renouvelables."
+      },
+      {
+        "question": "Quel impôt local français est payé chaque année par les propriétaires d'un bien immobilier ?",
+        "reponse": "La taxe foncière",
+        "propositions": [
+          "La taxe foncière",
+          "La taxe d'habitation",
+          "La CSG",
+          "La TVA"
+        ],
+        "explication": "La taxe foncière est due par le propriétaire du bien, qu'il l'occupe ou qu'il le loue."
+      },
+      {
+        "question": "Quelle entreprise française, basée à Mérignac près de Bordeaux, fabrique l'avion de chasse Rafale ?",
+        "reponse": "Dassault Aviation",
+        "propositions": [
+          "Dassault Aviation",
+          "Airbus",
+          "Thales",
+          "Safran"
+        ],
+        "explication": "Le Rafale est un avion de combat multirôle développé par Dassault Aviation depuis les années 1980."
+      },
+      {
+        "question": "Quelle grande enseigne française de distribution alimentaire fonctionne sous la forme d'une coopérative de commerçants indépendants ?",
+        "reponse": "E.Leclerc",
+        "propositions": [
+          "E.Leclerc",
+          "Carrefour",
+          "Auchan",
+          "Casino"
+        ],
+        "explication": "Fondée par Édouard Leclerc en 1949, l'enseigne regroupe des adhérents indépendants exploitant chacun leur propre magasin."
+      },
+      {
+        "question": "Quel est le nom du grand magasin parisien fondé en 1852, considéré comme l'un des premiers grands magasins modernes au monde ?",
+        "reponse": "Le Bon Marché",
+        "propositions": [
+          "Le Bon Marché",
+          "Les Galeries Lafayette",
+          "Le Printemps",
+          "La Samaritaine"
+        ],
+        "explication": "Le Bon Marché, créé par Aristide Boucicaut, est souvent considéré comme le tout premier grand magasin de l'histoire."
+      },
+      {
+        "question": "Quel organisme français verse les allocations familiales et certaines aides au logement aux foyers ?",
+        "reponse": "La CAF",
+        "propositions": [
+          "La CAF",
+          "L'URSSAF",
+          "Pôle emploi",
+          "La CPAM"
+        ],
+        "explication": "La Caisse d'allocations familiales gère notamment les prestations familiales et certaines aides sociales."
+      },
+      {
+        "question": "Quelle entreprise française conçoit et fabrique des trains, dont le TGV, ainsi que des tramways et métros ?",
+        "reponse": "Alstom",
+        "propositions": [
+          "Alstom",
+          "Bombardier",
+          "Siemens",
+          "CAF"
+        ],
+        "explication": "Alstom a notamment développé les rames du TGV en partenariat avec la SNCF depuis les années 1970."
+      },
+      {
+        "question": "Quel grand évènement technologique annuel se tient à Paris et réunit start-ups, investisseurs et grandes entreprises du monde entier ?",
+        "reponse": "Vivatech",
+        "propositions": [
+          "Vivatech",
+          "Le Mondial de l'Auto",
+          "Le Salon de l'Agriculture",
+          "Le Bourget"
+        ],
+        "explication": "Vivatech, lancé en 2016, est devenu l'un des plus grands salons technologiques et de l'innovation en Europe."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le contrat de plan"
         ],
         "explication": "La loi de finances doit être adoptée avant le 31 décembre pour s'appliquer l'année suivante."
+      },
+      {
+        "question": "Quel taux réduit de TVA s'applique en France à la plupart des produits alimentaires ?",
+        "reponse": "5,5 %",
+        "propositions": [
+          "5,5 %",
+          "10 %",
+          "20 %",
+          "2,1 %"
+        ],
+        "explication": "Le taux réduit de 5,5 % s'applique notamment aux produits alimentaires de base, contre 20 % pour le taux normal."
+      },
+      {
+        "question": "Quelle institution française, juridiction financière indépendante, contrôle la régularité et l'efficacité de l'emploi des fonds publics ?",
+        "reponse": "La Cour des comptes",
+        "propositions": [
+          "La Cour des comptes",
+          "L'AMF",
+          "L'INSEE",
+          "Le Conseil d'État"
+        ],
+        "explication": "La Cour des comptes publie chaque année des rapports évaluant la gestion des finances publiques françaises."
+      },
+      {
+        "question": "Quel dispositif d'épargne retraite, créé par la loi Pacte de 2019, a simplifié et remplacé plusieurs anciens produits comme le PERP ?",
+        "reponse": "Le PER (plan d'épargne retraite)",
+        "propositions": [
+          "Le PER (plan d'épargne retraite)",
+          "Le PEA",
+          "L'assurance-vie",
+          "Le Livret A"
+        ],
+        "explication": "Le PER permet d'épargner en vue de la retraite avec des avantages fiscaux, en remplacement de dispositifs plus anciens."
+      },
+      {
+        "question": "À combien de semaines de congés payés légaux annuels a droit un salarié à temps plein en France ?",
+        "reponse": "5 semaines",
+        "propositions": [
+          "5 semaines",
+          "4 semaines",
+          "6 semaines",
+          "3 semaines"
+        ],
+        "explication": "Le Code du travail français garantit 2,5 jours ouvrables de congés payés par mois travaillé, soit 5 semaines par an."
+      },
+      {
+        "question": "Quelle loi française de 2008 a créé le statut d'auto-entrepreneur, aujourd'hui appelé micro-entrepreneur ?",
+        "reponse": "La loi de modernisation de l'économie (LME)",
+        "propositions": [
+          "La loi de modernisation de l'économie (LME)",
+          "La loi Pacte",
+          "La loi Macron",
+          "La loi Travail"
+        ],
+        "explication": "Entrée en vigueur en 2009, cette loi a simplifié la création d'entreprise individuelle avec un régime fiscal et social allégé."
+      },
+      {
+        "question": "Quelle organisation patronale française, principale représentante des employeurs, a succédé au CNPF en 1998 ?",
+        "reponse": "Le MEDEF",
+        "propositions": [
+          "Le MEDEF",
+          "La CPME",
+          "L'U2P",
+          "La CGPME"
+        ],
+        "explication": "Le Mouvement des entreprises de France (MEDEF) représente notamment les grandes entreprises et fédérations professionnelles."
+      },
+      {
+        "question": "Quelle organisation patronale française représente spécifiquement les petites et moyennes entreprises, distincte du MEDEF ?",
+        "reponse": "La CPME",
+        "propositions": [
+          "La CPME",
+          "Le MEDEF",
+          "L'U2P",
+          "Le Siècle"
+        ],
+        "explication": "La Confédération des petites et moyennes entreprises (CPME), anciennement CGPME, défend les intérêts des PME françaises."
+      },
+      {
+        "question": "Quel grand port français de Normandie est le deuxième du pays par le trafic, derrière Marseille ?",
+        "reponse": "Le port du Havre",
+        "propositions": [
+          "Le port du Havre",
+          "Le port de Dunkerque",
+          "Le port de Bordeaux",
+          "Le port de Nantes-Saint-Nazaire"
+        ],
+        "explication": "Le Havre est en particulier le premier port à conteneurs de France."
+      },
+      {
+        "question": "Quel sigle désigne le contrat de travail de droit commun en France, conclu sans limite de durée ?",
+        "reponse": "Le CDI",
+        "propositions": [
+          "Le CDI",
+          "Le CDD",
+          "L'intérim",
+          "Le CUI"
+        ],
+        "explication": "Le contrat à durée indéterminée (CDI) est la forme normale et générale de la relation de travail en France."
+      },
+      {
+        "question": "Quelle taxe française, instaurée en 2019 et surnommée 'taxe GAFA', vise les grandes entreprises du numérique réalisant un chiffre d'affaires important ?",
+        "reponse": "La taxe sur les services numériques (TSN)",
+        "propositions": [
+          "La taxe sur les services numériques (TSN)",
+          "La taxe sur les transactions financières",
+          "La contribution sociale de solidarité des sociétés",
+          "La taxe d'apprentissage"
+        ],
+        "explication": "Cette taxe s'applique aux entreprises du numérique dont le chiffre d'affaires dépasse certains seuils mondiaux et français."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Les accords de Grenelle"
         ],
         "explication": "Ces accords, signés à l'hôtel Matignon, font suite à un vaste mouvement de grèves ouvrières."
+      },
+      {
+        "question": "Quelle réforme monétaire de 1928, menée par Raymond Poincaré, a stabilisé le franc français après la forte inflation de l'après-guerre ?",
+        "reponse": "Le franc Poincaré",
+        "propositions": [
+          "Le franc Poincaré",
+          "Le plan Pinay-Rueff",
+          "Le nouveau franc",
+          "Le franc germinal"
+        ],
+        "explication": "Cette stabilisation a fixé le franc à un niveau nettement dévalué par rapport à sa parité d'avant-guerre, mettant fin à une période d'instabilité monétaire."
+      },
+      {
+        "question": "Quel économiste et ingénieur français du XIXe siècle est l'auteur des 'Éléments d'économie politique pure' (1874), fondateur de la théorie de l'équilibre général ?",
+        "reponse": "Léon Walras",
+        "propositions": [
+          "Léon Walras",
+          "Jean-Baptiste Say",
+          "Frédéric Bastiat",
+          "Augustin Cournot"
+        ],
+        "explication": "Walras a formalisé mathématiquement l'idée d'un équilibre simultané sur l'ensemble des marchés d'une économie."
+      },
+      {
+        "question": "Quel président français avait auparavant occupé deux fois le poste de ministre de l'Économie et des Finances, sous de Gaulle puis sous Pompidou ?",
+        "reponse": "Valéry Giscard d'Estaing",
+        "propositions": [
+          "Valéry Giscard d'Estaing",
+          "Georges Pompidou",
+          "Raymond Barre",
+          "Édouard Balladur"
+        ],
+        "explication": "Giscard d'Estaing a dirigé Bercy dans les années 1960 et au début des années 1970, avant d'être élu président en 1974."
+      },
+      {
+        "question": "Quel économiste français a cofondé, dans les années 1970, l'école de la régulation avec des travaux analysant les crises du capitalisme ?",
+        "reponse": "Michel Aglietta",
+        "propositions": [
+          "Michel Aglietta",
+          "Jean Tirole",
+          "Edmond Malinvaud",
+          "Maurice Allais"
+        ],
+        "explication": "Son ouvrage 'Régulation et crises du capitalisme' (1976) est un texte fondateur de cette école de pensée française."
+      },
+      {
+        "question": "Quelle banque d'affaires française, fondée au milieu du XIXe siècle par les frères Pereire, a financé de grands travaux d'infrastructure sous le Second Empire ?",
+        "reponse": "Le Crédit Mobilier",
+        "propositions": [
+          "Le Crédit Mobilier",
+          "La Banque de France",
+          "Paribas",
+          "Le Comptoir national d'escompte"
+        ],
+        "explication": "Rivale des Rothschild, cette banque a notamment financé des chemins de fer et des entreprises industrielles en France et en Europe."
+      },
+      {
+        "question": "Quelles grandes nationalisations bancaires et industrielles françaises, menées sous le gouvernement provisoire après la Libération, ont inclus la Banque de France et les grandes banques de dépôt ?",
+        "reponse": "Les nationalisations de 1945-1946",
+        "propositions": [
+          "Les nationalisations de 1945-1946",
+          "Le Plan Monnet",
+          "Le tournant de la rigueur",
+          "Les accords de Matignon"
+        ],
+        "explication": "Ces nationalisations, portées notamment par le programme du Conseil national de la Résistance, ont aussi concerné l'énergie et les assurances."
+      },
+      {
+        "question": "Quel traité européen de 1986, signé notamment par la France, a posé les bases juridiques du marché unique européen ?",
+        "reponse": "L'Acte unique européen",
+        "propositions": [
+          "L'Acte unique européen",
+          "Le traité de Maastricht",
+          "Le traité de Rome",
+          "Le traité de Lisbonne"
+        ],
+        "explication": "L'Acte unique européen a fixé l'objectif d'achever le marché intérieur, avec la libre circulation des biens, services, capitaux et personnes, au 1er janvier 1993."
+      },
+      {
+        "question": "Quel gouverneur de la Banque de France dans les années 1990 est ensuite devenu président de la Banque centrale européenne, de 2003 à 2011 ?",
+        "reponse": "Jean-Claude Trichet",
+        "propositions": [
+          "Jean-Claude Trichet",
+          "Christian Noyer",
+          "Michel Camdessus",
+          "Jacques de Larosière"
+        ],
+        "explication": "Trichet a succédé à Wim Duisenberg à la tête de la BCE, avant d'être lui-même remplacé par Mario Draghi."
+      },
+      {
+        "question": "Quel économiste français, polytechnicien, a reçu le prix Nobel d'économie en 1988 pour ses travaux sur la théorie des marchés et l'utilisation efficace des ressources ?",
+        "reponse": "Maurice Allais",
+        "propositions": [
+          "Maurice Allais",
+          "Jean Tirole",
+          "Gérard Debreu",
+          "Thomas Piketty"
+        ],
+        "explication": "Maurice Allais reste, avec Jean Tirole et Esther Duflo, l'un des rares économistes français distingués par ce prix."
+      },
+      {
+        "question": "Quelle crise financière internationale, déclenchée en 2008 par la faillite de la banque américaine Lehman Brothers, a provoqué une contraction du crédit et une forte récession en France ?",
+        "reponse": "La crise financière de 2008 (crise des subprimes)",
+        "propositions": [
+          "La crise financière de 2008 (crise des subprimes)",
+          "La crise de la dette souveraine de 2011",
+          "Le choc pétrolier de 1973",
+          "La Grande Dépression de 1929"
+        ],
+        "explication": "Cette crise, partie du marché immobilier américain, s'est rapidement propagée à l'économie mondiale, dont la France, entraînant un plan de relance et de soutien bancaire."
       }
     ]
   }

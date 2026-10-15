@@ -276,6 +276,116 @@
           "Hauméa"
         ],
         "explication": "Cette reclassification a fait suite à la découverte d'autres objets similaires dans la ceinture de Kuiper."
+      },
+      {
+        "question": "Combien de planètes compte le système solaire depuis la reclassification de Pluton en 2006 ?",
+        "reponse": "8",
+        "propositions": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "explication": "Depuis 2006, le système solaire compte 8 planètes officielles, de Mercure à Neptune."
+      },
+      {
+        "question": "Quelle planète du système solaire est entourée d'anneaux spectaculaires, visibles même avec un petit télescope ?",
+        "reponse": "Saturne",
+        "propositions": [
+          "Saturne",
+          "Jupiter",
+          "Uranus",
+          "Mars"
+        ],
+        "explication": "Les anneaux de Saturne sont composés principalement de glace et de poussière."
+      },
+      {
+        "question": "Quel astronaute américain a été le premier homme à marcher sur la Lune, en 1969 ?",
+        "reponse": "Neil Armstrong",
+        "propositions": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Youri Gagarine",
+          "John Glenn"
+        ],
+        "explication": "Neil Armstrong a posé le pied sur la Lune le 21 juillet 1969 lors de la mission Apollo 11."
+      },
+      {
+        "question": "Quel cosmonaute soviétique a été le premier homme à voyager dans l'espace, en 1961 ?",
+        "reponse": "Youri Gagarine",
+        "propositions": [
+          "Youri Gagarine",
+          "Neil Armstrong",
+          "Alan Shepard",
+          "John Glenn"
+        ],
+        "explication": "Youri Gagarine a orbité autour de la Terre à bord du vaisseau Vostok 1."
+      },
+      {
+        "question": "Quelle est la plus petite planète du système solaire ?",
+        "reponse": "Mercure",
+        "propositions": [
+          "Mercure",
+          "Mars",
+          "Vénus",
+          "La Terre"
+        ],
+        "explication": "Mercure mesure environ 4 880 km de diamètre, plus petite que certaines lunes du système solaire."
+      },
+      {
+        "question": "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?",
+        "reponse": "Environ 8 minutes",
+        "propositions": [
+          "Environ 8 secondes",
+          "Environ 8 minutes",
+          "Environ 8 heures",
+          "Environ 8 jours"
+        ],
+        "explication": "Le Soleil est distant d'environ 150 millions de km, parcourus par la lumière en un peu plus de 8 minutes."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène où la Terre passe entre le Soleil et la Lune, projetant son ombre sur celle-ci ?",
+        "reponse": "Une éclipse lunaire",
+        "propositions": [
+          "Une éclipse lunaire",
+          "Une éclipse solaire",
+          "Une occultation",
+          "Une syzygie"
+        ],
+        "explication": "Lors d'une éclipse lunaire totale, la Lune peut prendre une teinte rougeâtre surnommée 'lune de sang'."
+      },
+      {
+        "question": "Quel est le nom de la station spatiale habitée en permanence en orbite autour de la Terre depuis l'an 2000 ?",
+        "reponse": "La Station spatiale internationale (ISS)",
+        "propositions": [
+          "La Station spatiale internationale (ISS)",
+          "Mir",
+          "Skylab",
+          "Tiangong"
+        ],
+        "explication": "L'ISS est le fruit d'une collaboration entre plusieurs agences spatiales, dont la NASA et Roscosmos."
+      },
+      {
+        "question": "Quelle planète possède la plus grande tempête connue du système solaire, surnommée la Grande Tache rouge ?",
+        "reponse": "Jupiter",
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Neptune",
+          "Uranus"
+        ],
+        "explication": "Cette tempête géante fait rage depuis des siècles et pourrait contenir plusieurs fois la taille de la Terre."
+      },
+      {
+        "question": "Quel phénomène lumineux coloré, visible près des pôles, est causé par l'interaction des particules solaires avec l'atmosphère terrestre ?",
+        "reponse": "Une aurore polaire",
+        "propositions": [
+          "Une aurore polaire",
+          "Une éclipse",
+          "Un halo",
+          "Une comète"
+        ],
+        "explication": "Les aurores boréales et australes résultent de l'interaction du vent solaire avec le champ magnétique terrestre."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "La matière baryonique"
         ],
         "explication": "La matière noire n'émet, n'absorbe ni ne réfléchit de lumière, mais influence la rotation des galaxies."
+      },
+      {
+        "question": "Quelle est la durée approximative d'une 'année martienne', le temps que met Mars pour orbiter autour du Soleil ?",
+        "reponse": "Environ 687 jours terrestres",
+        "propositions": [
+          "Environ 365 jours terrestres",
+          "Environ 687 jours terrestres",
+          "Environ 1 000 jours terrestres",
+          "Environ 4 333 jours terrestres"
+        ],
+        "explication": "Mars, plus éloignée du Soleil que la Terre, met presque deux années terrestres à accomplir sa révolution."
+      },
+      {
+        "question": "Quelle sonde de la NASA a été la première à se poser sur un astéroïde, en 2001 ?",
+        "reponse": "NEAR Shoemaker",
+        "propositions": [
+          "NEAR Shoemaker",
+          "Hayabusa",
+          "OSIRIS-REx",
+          "Dawn"
+        ],
+        "explication": "La sonde NEAR Shoemaker s'est posée sur l'astéroïde Éros après l'avoir étudié en orbite pendant un an."
+      },
+      {
+        "question": "Comment appelle-t-on le point de l'orbite de la Lune le plus proche de la Terre ?",
+        "reponse": "Le périgée",
+        "propositions": [
+          "Le périgée",
+          "L'apogée",
+          "Le périhélie",
+          "L'aphélie"
+        ],
+        "explication": "Une 'super lune' se produit lorsque la pleine lune coïncide avec le périgée lunaire."
+      },
+      {
+        "question": "Quelle est la température approximative à la surface de Vénus, qui en fait la planète la plus chaude malgré son éloignement du Soleil plus grand que Mercure ?",
+        "reponse": "Environ 460 °C",
+        "propositions": [
+          "Environ 100 °C",
+          "Environ 460 °C",
+          "Environ 1 000 °C",
+          "Environ 200 °C"
+        ],
+        "explication": "L'épaisse atmosphère de dioxyde de carbone de Vénus produit un effet de serre extrême."
+      },
+      {
+        "question": "Quel astronome allemand a formulé, au début du XVIIe siècle, trois lois décrivant le mouvement elliptique des planètes autour du Soleil ?",
+        "reponse": "Johannes Kepler",
+        "propositions": [
+          "Johannes Kepler",
+          "Tycho Brahe",
+          "Nicolas Copernic",
+          "Galilée"
+        ],
+        "explication": "Les lois de Kepler décrivent notamment la forme elliptique des orbites planétaires."
+      },
+      {
+        "question": "Quel réseau mondial de radiotélescopes a capturé la première image directe d'un trou noir, celui de la galaxie M87, en 2019 ?",
+        "reponse": "Event Horizon Telescope",
+        "propositions": [
+          "Event Horizon Telescope",
+          "Hubble",
+          "James Webb",
+          "Chandra"
+        ],
+        "explication": "Cette collaboration internationale a permis de reconstituer l'image d'un trou noir supermassif à partir de données combinées."
+      },
+      {
+        "question": "Quel est le nom de la plus grande lune de Neptune, découverte en 1846 ?",
+        "reponse": "Triton",
+        "propositions": [
+          "Triton",
+          "Titan",
+          "Charon",
+          "Europe"
+        ],
+        "explication": "Triton possède une orbite rétrograde inhabituelle autour de Neptune."
+      },
+      {
+        "question": "Comment appelle-t-on un astre trop peu massif pour déclencher la fusion de l'hydrogène, à mi-chemin entre planète géante et étoile ?",
+        "reponse": "Une naine brune",
+        "propositions": [
+          "Une naine brune",
+          "Une naine blanche",
+          "Une géante rouge",
+          "Une proto-étoile"
+        ],
+        "explication": "Les naines brunes émettent une faible lueur résiduelle sans jamais devenir de véritables étoiles."
+      },
+      {
+        "question": "Quelle planète naine, découverte en 2005, a conduit à la remise en question du statut de planète de Pluton ?",
+        "reponse": "Éris",
+        "propositions": [
+          "Éris",
+          "Hauméa",
+          "Makémaké",
+          "Cérès"
+        ],
+        "explication": "La découverte d'Éris, presque aussi grande que Pluton, a conduit à une définition plus stricte du terme 'planète' en 2006."
+      },
+      {
+        "question": "Quel télescope spatial de la NASA, lancé en 2009, a permis de découvrir des milliers d'exoplanètes par la méthode des transits ?",
+        "reponse": "Le télescope Kepler",
+        "propositions": [
+          "Le télescope Kepler",
+          "Le télescope Spitzer",
+          "Le télescope TESS",
+          "Le télescope Hubble"
+        ],
+        "explication": "Kepler a observé en continu un vaste champ d'étoiles pour détecter les infimes baisses de luminosité dues au passage de planètes."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "La limite de Roche"
         ],
         "explication": "Au-delà de cette masse, estimée à environ 2 à 3 masses solaires, aucune force connue ne peut empêcher l'effondrement gravitationnel."
+      },
+      {
+        "question": "Quelle équation, formulée par Konstantin Tsiolkovski en 1903, relie la variation de vitesse d'une fusée à l'éjection de sa masse de propergol ?",
+        "reponse": "L'équation de Tsiolkovski",
+        "propositions": [
+          "L'équation de Tsiolkovski",
+          "L'équation de Drake",
+          "L'équation de Friedmann",
+          "L'équation de Nernst"
+        ],
+        "explication": "Cette équation fondamentale de l'astronautique relie vitesse d'éjection, masse initiale et masse finale d'une fusée."
+      },
+      {
+        "question": "Quel phénomène, prédit par la relativité générale et confirmé en 1919 lors d'une éclipse, montre que la lumière des étoiles est déviée par la gravité du Soleil ?",
+        "reponse": "La déviation de la lumière par la gravité",
+        "propositions": [
+          "La déviation de la lumière par la gravité",
+          "Le décalage vers le rouge gravitationnel",
+          "La précession du périhélie de Mercure",
+          "L'effet Lense-Thirring"
+        ],
+        "explication": "L'observation d'Arthur Eddington lors de l'éclipse de 1919 a confirmé une prédiction majeure d'Einstein."
+      },
+      {
+        "question": "Comment appelle-t-on l'anomalie orbitale de Mercure, inexpliquée par la mécanique newtonienne et résolue par la relativité générale d'Einstein ?",
+        "reponse": "La précession du périhélie de Mercure",
+        "propositions": [
+          "La précession du périhélie de Mercure",
+          "La libration lunaire",
+          "La résonance de Laplace",
+          "L'effet Yarkovsky"
+        ],
+        "explication": "L'avance anormale du périhélie de Mercure a été l'un des premiers succès observationnels de la relativité générale."
+      },
+      {
+        "question": "Comment appelle-t-on une exoplanète massive et gazeuse, orbitant très près de son étoile avec une période de quelques jours seulement ?",
+        "reponse": "Un Jupiter chaud",
+        "propositions": [
+          "Un Jupiter chaud",
+          "Une super-Terre",
+          "Une Neptune glacée",
+          "Une Terre océan"
+        ],
+        "explication": "51 Pegasi b, découverte en 1995, fut le premier exemple connu de cette catégorie surprenante d'exoplanètes."
+      },
+      {
+        "question": "Comment appelle-t-on la résonance orbitale particulière entre Neptune et Pluton, qui empêche toute collision malgré le croisement apparent de leurs orbites ?",
+        "reponse": "Une résonance orbitale 3:2",
+        "propositions": [
+          "Une résonance orbitale 3:2",
+          "Une résonance orbitale 1:1",
+          "Un point de Lagrange",
+          "Une résonance séculaire"
+        ],
+        "explication": "Pluton effectue deux révolutions pour trois révolutions de Neptune, un rapport qui stabilise durablement leurs trajectoires."
+      },
+      {
+        "question": "Quel scientifique britannique du XVIIIe siècle a envisagé l'existence théorique d'astres si denses que leur lumière ne pourrait s'en échapper, préfigurant le concept de trou noir ?",
+        "reponse": "John Michell",
+        "propositions": [
+          "John Michell",
+          "Pierre-Simon de Laplace",
+          "William Herschel",
+          "Henry Cavendish"
+        ],
+        "explication": "En 1783, Michell a utilisé la mécanique newtonienne pour imaginer des astres dont la vitesse de libération dépasserait celle de la lumière."
+      },
+      {
+        "question": "Comment appelle-t-on la limite théorique de luminosité au-delà de laquelle la pression de radiation d'une étoile freine l'accrétion de matière supplémentaire ?",
+        "reponse": "La limite d'Eddington",
+        "propositions": [
+          "La limite d'Eddington",
+          "La limite de Chandrasekhar",
+          "La limite de Roche",
+          "Le rayon de Schwarzschild"
+        ],
+        "explication": "Cette limite, nommée d'après l'astrophysicien Arthur Eddington, encadre la croissance des trous noirs et des étoiles très massives."
+      },
+      {
+        "question": "Quelle mission spatiale de la NASA a rapporté sur Terre, en 2023, le plus important échantillon jamais collecté sur un astéroïde (Bennu) ?",
+        "reponse": "OSIRIS-REx",
+        "propositions": [
+          "OSIRIS-REx",
+          "Hayabusa2",
+          "Dawn",
+          "Lucy"
+        ],
+        "explication": "La sonde avait prélevé des échantillons de l'astéroïde Bennu en 2020 avant de les ramener sur Terre trois ans plus tard."
+      },
+      {
+        "question": "Comment appelle-t-on les points d'équilibre gravitationnel d'un système à deux corps où un objet de masse négligeable peut rester stable, comme celui utilisé par le télescope James Webb ?",
+        "reponse": "Les points de Lagrange",
+        "propositions": [
+          "Les points de Lagrange",
+          "Les points de Roche",
+          "Les nœuds orbitaux",
+          "Les points nodaux"
+        ],
+        "explication": "Le télescope James Webb est positionné au point de Lagrange L2 du système Terre-Soleil."
+      },
+      {
+        "question": "Quel physicien, avec ses collègues Alpher et Herman, a prédit en 1948 l'existence du fond diffus cosmologique, des années avant sa découverte observationnelle ?",
+        "reponse": "George Gamow",
+        "propositions": [
+          "George Gamow",
+          "Andreï Sakharov",
+          "Yakov Zeldovich",
+          "Lev Landau"
+        ],
+        "explication": "Gamow, avec Ralph Alpher et Robert Herman, a prédit ce rayonnement fossile dans le cadre de la théorie du Big Bang chaud."
       }
     ]
   }

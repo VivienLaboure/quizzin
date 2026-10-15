@@ -276,6 +276,116 @@
           "Les droits de douane"
         ],
         "explication": "La TVA est l'exemple le plus connu d'impôt indirect, payé par le consommateur final."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des biens et services qu'un pays vend à l'étranger ?",
+        "reponse": "Les exportations",
+        "propositions": [
+          "Les exportations",
+          "Les importations",
+          "La consommation",
+          "La production intérieure"
+        ],
+        "explication": "Les exportations, mises en relation avec les importations, permettent de calculer la balance commerciale d'un pays."
+      },
+      {
+        "question": "Comment appelle-t-on la différence entre le prix de vente d'un produit et son coût de production ?",
+        "reponse": "La marge bénéficiaire",
+        "propositions": [
+          "La marge bénéficiaire",
+          "Le chiffre d'affaires",
+          "La valeur ajoutée",
+          "Le dividende"
+        ],
+        "explication": "La marge bénéficiaire mesure la rentabilité d'une vente avant la prise en compte de l'ensemble des charges de l'entreprise."
+      },
+      {
+        "question": "Comment appelle-t-on les sommes prélevées par l'État sur les revenus, les biens ou les transactions pour financer les dépenses publiques ?",
+        "reponse": "Les impôts",
+        "propositions": [
+          "Les impôts",
+          "Les dividendes",
+          "Les intérêts",
+          "Les cotisations"
+        ],
+        "explication": "Les impôts constituent, avec les cotisations sociales, la principale ressource des finances publiques."
+      },
+      {
+        "question": "Comment appelle-t-on une entreprise dont l'État est propriétaire, en charge d'un service public ou d'une activité stratégique ?",
+        "reponse": "Une entreprise publique",
+        "propositions": [
+          "Une entreprise publique",
+          "Une entreprise individuelle",
+          "Une coopérative",
+          "Une multinationale"
+        ],
+        "explication": "Une entreprise publique peut être totalement ou partiellement détenue par l'État ou une collectivité publique."
+      },
+      {
+        "question": "Comment appelle-t-on la quantité totale de monnaie en circulation dans une économie à un instant donné ?",
+        "reponse": "La masse monétaire",
+        "propositions": [
+          "La masse monétaire",
+          "Le PIB",
+          "L'épargne nationale",
+          "La balance commerciale"
+        ],
+        "explication": "La masse monétaire est surveillée par les banques centrales car son évolution influence l'inflation."
+      },
+      {
+        "question": "Comment appelle-t-on l'opération par laquelle une entreprise vend pour la première fois une partie de son capital au public via la Bourse ?",
+        "reponse": "Une introduction en bourse",
+        "propositions": [
+          "Une introduction en bourse",
+          "Une offre publique d'achat",
+          "Une augmentation de capital",
+          "Une fusion"
+        ],
+        "explication": "Une introduction en bourse (IPO) permet à une entreprise de lever des capitaux en ouvrant son capital aux investisseurs."
+      },
+      {
+        "question": "Comment appelle-t-on la rémunération perçue par un salarié en contrepartie de son travail ?",
+        "reponse": "Le salaire",
+        "propositions": [
+          "Le salaire",
+          "Le dividende",
+          "L'intérêt",
+          "La cotisation"
+        ],
+        "explication": "Le salaire est généralement versé chaque mois et peut être complété par des primes ou avantages divers."
+      },
+      {
+        "question": "Comment appelle-t-on, en comptabilité, la perte de valeur d'un bien durable (machine, bâtiment) prise en compte au fil du temps ?",
+        "reponse": "L'amortissement",
+        "propositions": [
+          "L'amortissement",
+          "La provision",
+          "La dépréciation monétaire",
+          "La dette"
+        ],
+        "explication": "L'amortissement répartit le coût d'un bien durable sur sa durée d'utilisation estimée."
+      },
+      {
+        "question": "Comment appelle-t-on l'emprunt contracté auprès d'une banque pour financer l'achat d'un logement ?",
+        "reponse": "Un prêt immobilier",
+        "propositions": [
+          "Un prêt immobilier",
+          "Un crédit renouvelable",
+          "Un découvert bancaire",
+          "Un prêt étudiant"
+        ],
+        "explication": "Le prêt immobilier se rembourse généralement sur plusieurs années, avec des intérêts qui dépendent du taux appliqué."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des revenus perçus par un ménage avant déduction des impôts et des cotisations sociales ?",
+        "reponse": "Le revenu brut",
+        "propositions": [
+          "Le revenu brut",
+          "Le revenu net",
+          "Le revenu disponible",
+          "L'épargne brute"
+        ],
+        "explication": "Le revenu brut se distingue du revenu net, obtenu après déduction des prélèvements obligatoires."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Un holding"
         ],
         "explication": "Les ententes de type cartel sont généralement interdites par le droit de la concurrence."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des opérations d'achat et de vente de devises, où se détermine le taux de change ?",
+        "reponse": "Le marché des changes",
+        "propositions": [
+          "Le marché des changes",
+          "Le marché obligataire",
+          "Le marché monétaire interbancaire",
+          "Le marché des matières premières"
+        ],
+        "explication": "Le marché des changes (ou Forex) est le marché financier le plus liquide au monde, ouvert 24 heures sur 24."
+      },
+      {
+        "question": "Comment appelle-t-on une politique économique qui vise à réduire le déficit public en diminuant les dépenses publiques ou en augmentant les impôts ?",
+        "reponse": "Une politique d'austérité",
+        "propositions": [
+          "Une politique d'austérité",
+          "Une politique de relance",
+          "Une politique accommodante",
+          "Une politique protectionniste"
+        ],
+        "explication": "La politique d'austérité s'oppose à la politique de relance, qui cherche au contraire à stimuler l'activité économique."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène par lequel une hausse des salaires entraîne une hausse des prix, qui provoque à son tour de nouvelles hausses de salaires ?",
+        "reponse": "La spirale prix-salaires",
+        "propositions": [
+          "La spirale prix-salaires",
+          "La courbe de Phillips",
+          "La stagflation",
+          "La déflation par la dette"
+        ],
+        "explication": "Ce mécanisme auto-entretenu peut contribuer à l'installation d'une inflation durable dans une économie."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des personnes en âge de travailler qui ne sont ni en emploi ni au chômage, car elles ne recherchent pas activement de travail ?",
+        "reponse": "Les inactifs",
+        "propositions": [
+          "Les inactifs",
+          "Les chômeurs",
+          "La population active",
+          "Les travailleurs précaires"
+        ],
+        "explication": "Les inactifs regroupent notamment les étudiants, les retraités et certaines personnes découragées de chercher un emploi."
+      },
+      {
+        "question": "Comment appelle-t-on l'indicateur qui divise la richesse totale produite par un pays par le nombre de ses habitants ?",
+        "reponse": "Le PIB par habitant",
+        "propositions": [
+          "Le PIB par habitant",
+          "Le PIB nominal",
+          "Le revenu national brut",
+          "L'indice de développement humain"
+        ],
+        "explication": "Le PIB par habitant est souvent utilisé pour comparer le niveau de vie moyen entre différents pays."
+      },
+      {
+        "question": "Comment appelle-t-on une limite fixée par un État sur la quantité d'un produit pouvant être importée, sans passer par une taxe ?",
+        "reponse": "Un quota d'importation",
+        "propositions": [
+          "Un quota d'importation",
+          "Un tarif douanier",
+          "Une subvention",
+          "Un embargo"
+        ],
+        "explication": "Contrairement au tarif douanier qui augmente le prix, le quota limite directement la quantité importée."
+      },
+      {
+        "question": "Comment appelle-t-on l'opération par laquelle une entreprise rachète ou s'unit à une autre pour en prendre le contrôle ?",
+        "reponse": "Une fusion-acquisition",
+        "propositions": [
+          "Une fusion-acquisition",
+          "Une introduction en bourse",
+          "Une joint-venture",
+          "Une externalisation"
+        ],
+        "explication": "Les fusions-acquisitions permettent notamment à des entreprises de gagner des parts de marché ou des synergies de coûts."
+      },
+      {
+        "question": "Comment appelle-t-on le document qui recense l'ensemble des transactions économiques entre un pays et le reste du monde sur une période donnée ?",
+        "reponse": "La balance des paiements",
+        "propositions": [
+          "La balance des paiements",
+          "La balance commerciale",
+          "Le bilan comptable",
+          "Le compte de résultat"
+        ],
+        "explication": "La balance des paiements inclut la balance commerciale ainsi que les mouvements financiers et de capitaux."
+      },
+      {
+        "question": "Comment appelle-t-on une inflation extrêmement rapide et incontrôlée, pouvant atteindre plusieurs centaines de pourcents par an ?",
+        "reponse": "L'hyperinflation",
+        "propositions": [
+          "L'hyperinflation",
+          "La stagflation",
+          "La désinflation",
+          "La déflation"
+        ],
+        "explication": "L'Allemagne de 1923 ou le Zimbabwe dans les années 2000 sont des exemples historiques d'hyperinflation."
+      },
+      {
+        "question": "Comment appelle-t-on le marché financier où s'échangent des titres déjà émis, par opposition au marché où ils sont émis pour la première fois ?",
+        "reponse": "Le marché secondaire",
+        "propositions": [
+          "Le marché secondaire",
+          "Le marché primaire",
+          "Le marché gris",
+          "Le marché dérivé"
+        ],
+        "explication": "La Bourse est l'exemple le plus connu de marché secondaire, où s'échangent des actions déjà existantes."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Gérard Debreu"
         ],
         "explication": "Ce théorème, publié en 1951, a été un apport fondateur à la théorie du choix social."
+      },
+      {
+        "question": "Quel psychologue, prix Nobel d'économie 2002, a fondé avec Vernon Smith le champ de l'économie comportementale en étudiant les biais cognitifs dans la prise de décision ?",
+        "reponse": "Daniel Kahneman",
+        "propositions": [
+          "Daniel Kahneman",
+          "Richard Thaler",
+          "Amos Tversky",
+          "Robert Shiller"
+        ],
+        "explication": "Kahneman, psychologue de formation, a notamment développé avec Amos Tversky la théorie des perspectives sur la décision en incertitude."
+      },
+      {
+        "question": "Quel économiste autrichien, auteur de 'L'Action humaine' (1949), est l'une des grandes figures de l'école autrichienne d'économie ?",
+        "reponse": "Ludwig von Mises",
+        "propositions": [
+          "Ludwig von Mises",
+          "Friedrich Hayek",
+          "Carl Menger",
+          "Eugen von Böhm-Bawerk"
+        ],
+        "explication": "Von Mises a notamment théorisé l'impossibilité d'une planification économique centralisée efficace, faute de système de prix de marché."
+      },
+      {
+        "question": "Quel économiste américain a développé l'hypothèse de l'instabilité financière, expliquant les crises bancaires récurrentes du capitalisme par l'accumulation de dette ?",
+        "reponse": "Hyman Minsky",
+        "propositions": [
+          "Hyman Minsky",
+          "Irving Fisher",
+          "John Kenneth Galbraith",
+          "Nouriel Roubini"
+        ],
+        "explication": "L'expression 'moment Minsky' désigne le point de bascule où une bulle de crédit s'effondre brutalement."
+      },
+      {
+        "question": "Quelle théorie, formulée par Thomas Malthus en 1798, prédit que la croissance démographique dépasserait toujours la production agricole, menant à la famine ?",
+        "reponse": "La théorie malthusienne",
+        "propositions": [
+          "La théorie malthusienne",
+          "La loi de Say",
+          "La théorie ricardienne de la rente",
+          "Le modèle de Solow"
+        ],
+        "explication": "Cette théorie, exposée dans son 'Essai sur le principe de population', s'est révélée invalidée par les gains de productivité agricole ultérieurs."
+      },
+      {
+        "question": "Quel économiste et philosophe britannique, auteur des 'Principes d'économie politique' (1848), est une figure majeure de l'économie classique ?",
+        "reponse": "John Stuart Mill",
+        "propositions": [
+          "John Stuart Mill",
+          "David Ricardo",
+          "Thomas Malthus",
+          "Jeremy Bentham"
+        ],
+        "explication": "Mill est également connu comme philosophe utilitariste, défenseur des libertés individuelles."
+      },
+      {
+        "question": "Quel économiste et mathématicien français, auteur des 'Recherches sur les principes mathématiques de la théorie des richesses' (1838), est un précurseur de l'analyse marginaliste ?",
+        "reponse": "Augustin Cournot",
+        "propositions": [
+          "Augustin Cournot",
+          "Léon Walras",
+          "Jules Dupuit",
+          "Jean-Baptiste Say"
+        ],
+        "explication": "Cournot y introduit notamment une analyse mathématique de la concurrence entre un petit nombre de producteurs, à l'origine du 'modèle de Cournot'."
+      },
+      {
+        "question": "Quel économiste américain d'origine norvégienne critique la consommation ostentatoire des classes aisées dans 'Théorie de la classe de loisir' (1899) ?",
+        "reponse": "Thorstein Veblen",
+        "propositions": [
+          "Thorstein Veblen",
+          "John Kenneth Galbraith",
+          "Milton Friedman",
+          "Irving Fisher"
+        ],
+        "explication": "Le terme 'effet Veblen' désigne aujourd'hui la situation où la demande d'un bien augmente avec son prix, en raison de sa valeur de statut social."
+      },
+      {
+        "question": "Quel économiste hongrois-américain a reçu le prix Nobel d'économie en 1994, avec John Nash et Reinhard Selten, pour ses travaux en théorie des jeux ?",
+        "reponse": "John Harsanyi",
+        "propositions": [
+          "John Harsanyi",
+          "John Nash",
+          "Reinhard Selten",
+          "Thomas Schelling"
+        ],
+        "explication": "Harsanyi a notamment étendu la théorie des jeux aux situations d'information incomplète entre les joueurs."
+      },
+      {
+        "question": "Quelle théorie économique, développée notamment par Paul Krugman, explique le commerce entre pays similaires par les économies d'échelle et la différenciation des produits plutôt que par l'avantage comparatif classique ?",
+        "reponse": "La nouvelle théorie du commerce international",
+        "propositions": [
+          "La nouvelle théorie du commerce international",
+          "La théorie de l'avantage comparatif",
+          "La théorie des zones monétaires optimales",
+          "Le théorème Heckscher-Ohlin"
+        ],
+        "explication": "Ces travaux ont valu à Paul Krugman le prix Nobel d'économie en 2008."
+      },
+      {
+        "question": "Quel économiste indien-américain, professeur au MIT, a reçu le prix Nobel d'économie en 2019 avec Esther Duflo et Michael Kremer pour leurs travaux sur la réduction de la pauvreté ?",
+        "reponse": "Abhijit Banerjee",
+        "propositions": [
+          "Abhijit Banerjee",
+          "Michael Kremer",
+          "Amartya Sen",
+          "Raghuram Rajan"
+        ],
+        "explication": "Leurs travaux ont promu une approche expérimentale de l'économie du développement, fondée sur des essais contrôlés randomisés."
       }
     ]
   }

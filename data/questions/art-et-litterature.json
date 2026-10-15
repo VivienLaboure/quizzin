@@ -265,6 +265,116 @@
           "Stéphane Mallarmé"
         ],
         "explication": "Publié en 1857, ce recueil a valu à Baudelaire un procès pour outrage à la morale publique."
+      },
+      {
+        "question": "Quel écrivain espagnol est l'auteur de 'Don Quichotte' ?",
+        "reponse": "Miguel de Cervantes",
+        "propositions": [
+          "Lope de Vega",
+          "Miguel de Cervantes",
+          "Federico García Lorca",
+          "Gabriel García Márquez"
+        ],
+        "explication": "'Don Quichotte', publié en 1605, est considéré comme l'un des premiers romans modernes."
+      },
+      {
+        "question": "Quel peintre français est l'auteur de 'La Liberté guidant le peuple' ?",
+        "reponse": "Eugène Delacroix",
+        "propositions": [
+          "Eugène Delacroix",
+          "Théodore Géricault",
+          "Jacques-Louis David",
+          "Jean-Auguste-Dominique Ingres"
+        ],
+        "explication": "Ce tableau de 1830 commémore la révolution des Trois Glorieuses."
+      },
+      {
+        "question": "Quel écrivain britannique a créé le personnage d'Alice dans 'Alice au pays des merveilles' ?",
+        "reponse": "Lewis Carroll",
+        "propositions": [
+          "Lewis Carroll",
+          "J.M. Barrie",
+          "Roald Dahl",
+          "A.A. Milne"
+        ],
+        "explication": "Publié en 1865, ce roman met en scène une fillette tombée dans un monde fantastique."
+      },
+      {
+        "question": "Quel dramaturge français est l'auteur de la pièce 'Cyrano de Bergerac' ?",
+        "reponse": "Edmond Rostand",
+        "propositions": [
+          "Edmond Rostand",
+          "Victor Hugo",
+          "Molière",
+          "Jean Racine"
+        ],
+        "explication": "Cette pièce en vers, créée en 1897, met en scène un poète au grand nez amoureux de Roxane."
+      },
+      {
+        "question": "Quel écrivain américain est l'auteur du roman 'Le Vieil Homme et la Mer' ?",
+        "reponse": "Ernest Hemingway",
+        "propositions": [
+          "Ernest Hemingway",
+          "John Steinbeck",
+          "Mark Twain",
+          "Jack London"
+        ],
+        "explication": "Ce court roman, publié en 1952, a contribué à l'obtention du prix Nobel de littérature par Hemingway en 1954."
+      },
+      {
+        "question": "Quel peintre italien de la Renaissance a dessiné 'L'Homme de Vitruve', illustrant les proportions du corps humain ?",
+        "reponse": "Léonard de Vinci",
+        "propositions": [
+          "Léonard de Vinci",
+          "Michel-Ange",
+          "Raphaël",
+          "Donatello"
+        ],
+        "explication": "Ce dessin, réalisé vers 1490, associe art et étude scientifique des proportions humaines."
+      },
+      {
+        "question": "Quel écrivain français est l'auteur des fables mettant en scène 'Le Corbeau et le Renard' ?",
+        "reponse": "Jean de La Fontaine",
+        "propositions": [
+          "Jean de La Fontaine",
+          "Charles Perrault",
+          "Molière",
+          "Nicolas Boileau"
+        ],
+        "explication": "Ces fables en vers, publiées à partir de 1668, s'inspirent notamment d'Ésope."
+      },
+      {
+        "question": "Quel conteur français du XVIIe siècle est l'auteur de 'Cendrillon' et de 'La Belle au bois dormant' ?",
+        "reponse": "Charles Perrault",
+        "propositions": [
+          "Charles Perrault",
+          "Jean de La Fontaine",
+          "Les frères Grimm",
+          "Hans Christian Andersen"
+        ],
+        "explication": "Ses 'Contes de ma mère l'Oye', publiés en 1697, ont fixé durablement ces récits populaires en France."
+      },
+      {
+        "question": "Quel peintre italien de la Renaissance a peint la fresque de 'La Cène' à Milan ?",
+        "reponse": "Léonard de Vinci",
+        "propositions": [
+          "Léonard de Vinci",
+          "Michel-Ange",
+          "Raphaël",
+          "Le Titien"
+        ],
+        "explication": "Cette fresque, réalisée vers 1495-1498, représente le dernier repas du Christ avec ses apôtres."
+      },
+      {
+        "question": "Quel romancier français du XIXe siècle est l'auteur de 'Germinal', qui dépeint la vie des mineurs du Nord de la France ?",
+        "reponse": "Émile Zola",
+        "propositions": [
+          "Émile Zola",
+          "Victor Hugo",
+          "Honoré de Balzac",
+          "Guy de Maupassant"
+        ],
+        "explication": "Publié en 1885, 'Germinal' fait partie du cycle des Rougon-Macquart."
       }
     ],
     "2": [
@@ -542,6 +652,116 @@
           "Prosper Mérimée"
         ],
         "explication": "Publié en 1830, ce roman suit l'ascension sociale de Julien Sorel."
+      },
+      {
+        "question": "Quelle écrivaine anglaise du XIXe siècle, sœur de Charlotte Brontë, est l'auteure des 'Hauts de Hurlevent' ?",
+        "reponse": "Emily Brontë",
+        "propositions": [
+          "Emily Brontë",
+          "Charlotte Brontë",
+          "Anne Brontë",
+          "Jane Austen"
+        ],
+        "explication": "Unique roman d'Emily Brontë, publié en 1847 sous le pseudonyme masculin Ellis Bell."
+      },
+      {
+        "question": "Quel peintre et graveur allemand de la Renaissance est l'auteur de nombreux autoportraits et de gravures comme 'Melencolia I' ?",
+        "reponse": "Albrecht Dürer",
+        "propositions": [
+          "Albrecht Dürer",
+          "Hans Holbein",
+          "Lucas Cranach",
+          "Jérôme Bosch"
+        ],
+        "explication": "Dürer est considéré comme le plus grand artiste de la Renaissance allemande."
+      },
+      {
+        "question": "Quel écrivain français du XVIIIe siècle, philosophe des Lumières, est l'auteur de 'Candide' ?",
+        "reponse": "Voltaire",
+        "propositions": [
+          "Voltaire",
+          "Jean-Jacques Rousseau",
+          "Denis Diderot",
+          "Montesquieu"
+        ],
+        "explication": "Ce conte philosophique de 1759 critique l'optimisme à travers les mésaventures de son héros."
+      },
+      {
+        "question": "Quel peintre espagnol du XXe siècle, ami de Picasso, est l'auteur d'œuvres oniriques peuplées de formes biomorphiques, comme 'Le Carnaval d'Arlequin' ?",
+        "reponse": "Joan Miró",
+        "propositions": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Max Ernst"
+        ],
+        "explication": "Miró développe un langage pictural très personnel mêlant formes abstraites et symboles colorés."
+      },
+      {
+        "question": "Quel écrivain irlandais du XIXe siècle est l'auteur de 'Dracula', publié en 1897 ?",
+        "reponse": "Bram Stoker",
+        "propositions": [
+          "Bram Stoker",
+          "Oscar Wilde",
+          "Robert Louis Stevenson",
+          "Mary Shelley"
+        ],
+        "explication": "Ce roman épistolaire a profondément marqué la littérature et le cinéma fantastiques."
+      },
+      {
+        "question": "Quelle écrivaine anglaise est l'auteure d''Orgueil et Préjugés' (1813) ?",
+        "reponse": "Jane Austen",
+        "propositions": [
+          "Jane Austen",
+          "Charlotte Brontë",
+          "George Eliot",
+          "Mary Shelley"
+        ],
+        "explication": "Ce roman met en scène Elizabeth Bennet et son évolution face au ténébreux Mr. Darcy."
+      },
+      {
+        "question": "Quel peintre flamand du XVIIe siècle, célèbre pour ses scènes religieuses et mythologiques monumentales, a dirigé un vaste atelier à Anvers ?",
+        "reponse": "Pierre Paul Rubens",
+        "propositions": [
+          "Pierre Paul Rubens",
+          "Antoine van Dyck",
+          "Jacob Jordaens",
+          "Frans Snyders"
+        ],
+        "explication": "Rubens est l'une des figures majeures de la peinture baroque flamande."
+      },
+      {
+        "question": "Quel écrivain russe est l'auteur de la nouvelle 'Le Manteau', souvent considérée comme fondatrice du réalisme russe ?",
+        "reponse": "Nicolas Gogol",
+        "propositions": [
+          "Nicolas Gogol",
+          "Fiodor Dostoïevski",
+          "Anton Tchekhov",
+          "Ivan Tourgueniev"
+        ],
+        "explication": "Dostoïevski aurait dit que 'nous sommes tous sortis du Manteau de Gogol'."
+      },
+      {
+        "question": "Quel peintre espagnol, peintre officiel de la cour aux XVIIIe-XIXe siècles, est l'auteur des 'Peintures noires' et du 'Tres de Mayo' ?",
+        "reponse": "Francisco de Goya",
+        "propositions": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Le Greco",
+          "Francisco de Zurbarán"
+        ],
+        "explication": "Les œuvres tardives de Goya, sombres et tourmentées, reflètent les horreurs de la guerre d'indépendance espagnole."
+      },
+      {
+        "question": "Quelle sculptrice française, élève et compagne d'Auguste Rodin, est l'auteure de 'La Valse' ?",
+        "reponse": "Camille Claudel",
+        "propositions": [
+          "Camille Claudel",
+          "Jane Poupelet",
+          "Jessie Lipscomb",
+          "Marie Cazin"
+        ],
+        "explication": "Camille Claudel a développé une œuvre personnelle forte, longtemps restée dans l'ombre de celle de Rodin."
       }
     ],
     "3": [
@@ -819,6 +1039,116 @@
           "Maurice Utrillo"
         ],
         "explication": "Modigliani fait partie de l'École de Paris et a mené une vie marquée par la pauvreté et les excès."
+      },
+      {
+        "question": "Quel peintre flamand du XVe siècle, pionnier de la peinture à l'huile, est l'auteur du 'Retable de l'Agneau mystique' à Gand ?",
+        "reponse": "Jan van Eyck",
+        "propositions": [
+          "Jan van Eyck",
+          "Hans Memling",
+          "Robert Campin",
+          "Rogier van der Weyden"
+        ],
+        "explication": "Ce polyptyque, achevé en 1432, est considéré comme un chef-d'œuvre fondateur de la peinture flamande primitive."
+      },
+      {
+        "question": "Quel romancier américain du XXe siècle, prix Nobel 1949, est connu pour son usage du monologue intérieur dans 'Le Bruit et la Fureur' ?",
+        "reponse": "William Faulkner",
+        "propositions": [
+          "William Faulkner",
+          "Ernest Hemingway",
+          "John Steinbeck",
+          "John Dos Passos"
+        ],
+        "explication": "Ce roman de 1929 multiplie les points de vue narratifs autour du déclin d'une famille du Sud américain."
+      },
+      {
+        "question": "Quel poète symboliste français est l'auteur de 'Un coup de dés jamais n'abolira le hasard', poème à la mise en page novatrice ?",
+        "reponse": "Stéphane Mallarmé",
+        "propositions": [
+          "Stéphane Mallarmé",
+          "Paul Verlaine",
+          "Arthur Rimbaud",
+          "Tristan Corbière"
+        ],
+        "explication": "Publié en 1897, ce poème bouleverse la typographie traditionnelle en disposant les mots librement sur la page."
+      },
+      {
+        "question": "Quel peintre suisse-allemand, membre du groupe Der Blaue Reiter puis professeur au Bauhaus, est connu pour une œuvre mêlant abstraction géométrique et poésie picturale ?",
+        "reponse": "Paul Klee",
+        "propositions": [
+          "Paul Klee",
+          "Vassily Kandinsky",
+          "Franz Marc",
+          "Lyonel Feininger"
+        ],
+        "explication": "Klee a enseigné au Bauhaus et développé une théorie personnelle des couleurs et des formes."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIe siècle, rival de Molière, est l'auteur de 'Phèdre' et 'Andromaque' ?",
+        "reponse": "Jean Racine",
+        "propositions": [
+          "Jean Racine",
+          "Pierre Corneille",
+          "Molière",
+          "Jean de Rotrou"
+        ],
+        "explication": "Racine est le grand maître de la tragédie classique française, inspiré par les mythes antiques."
+      },
+      {
+        "question": "Quel écrivain argentin du XXe siècle est l'auteur de nouvelles labyrinthiques comme 'Fictions' et 'La Bibliothèque de Babel' ?",
+        "reponse": "Jorge Luis Borges",
+        "propositions": [
+          "Jorge Luis Borges",
+          "Julio Cortázar",
+          "Gabriel García Márquez",
+          "Adolfo Bioy Casares"
+        ],
+        "explication": "L'œuvre de Borges explore les thèmes de l'infini, des labyrinthes et des univers parallèles."
+      },
+      {
+        "question": "Quel peintre vénitien du XVIe siècle, maître de la couleur, est l'auteur de 'L'Assomption de la Vierge' aux Frari de Venise ?",
+        "reponse": "Le Titien",
+        "propositions": [
+          "Le Titien",
+          "Le Tintoret",
+          "Véronèse",
+          "Giorgione"
+        ],
+        "explication": "Titien domine la peinture vénitienne de la Renaissance par sa maîtrise de la couleur et de la lumière."
+      },
+      {
+        "question": "Quel ami et exécuteur littéraire de Franz Kafka a sauvé et publié ses manuscrits après sa mort, contre les dernières volontés de l'écrivain ?",
+        "reponse": "Max Brod",
+        "propositions": [
+          "Max Brod",
+          "Robert Musil",
+          "Stefan Zweig",
+          "Hermann Broch"
+        ],
+        "explication": "Kafka avait demandé que ses manuscrits soient détruits, mais son ami Max Brod a choisi de les publier."
+      },
+      {
+        "question": "Quel poète et dramaturge allemand du XVIIIe siècle, proche de Goethe, est l'auteur du poème 'An die Freude' (Ode à la joie), mis en musique par Beethoven ?",
+        "reponse": "Friedrich Schiller",
+        "propositions": [
+          "Friedrich Schiller",
+          "Johann Wolfgang von Goethe",
+          "Heinrich von Kleist",
+          "Novalis"
+        ],
+        "explication": "Le poème de Schiller a inspiré le finale choral de la Neuvième Symphonie de Beethoven."
+      },
+      {
+        "question": "Quel peintre espagnol du Siècle d'or, maître du clair-obscur, est l'auteur de nombreuses natures mortes austères appelées 'bodegones' ?",
+        "reponse": "Francisco de Zurbarán",
+        "propositions": [
+          "Francisco de Zurbarán",
+          "Diego Velázquez",
+          "Le Greco",
+          "José de Ribera"
+        ],
+        "explication": "Zurbarán s'est spécialisé dans les sujets religieux et les compositions dépouillées empreintes de spiritualité."
       }
     ]
   }

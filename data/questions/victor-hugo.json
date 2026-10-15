@@ -61,6 +61,66 @@
         "reponse": "Il vole un pain pour nourrir sa famille",
         "propositions": ["Il vole un pain pour nourrir sa famille", "Il est accusé de meurtre", "Il déserte l'armée", "Il falsifie des documents"],
         "explication": "Jean Valjean est condamné au bagne pour avoir volé un pain afin de nourrir les enfants de sa sœur."
+      },
+      {
+        "question": "Quel personnage des Misérables est la jeune orpheline que Jean Valjean recueille et élève comme sa fille ?",
+        "reponse": "Cosette",
+        "propositions": ["Cosette", "Éponine", "Fantine", "Azelma"],
+        "explication": "Jean Valjean recueille Cosette après la mort de sa mère Fantine, et l'élève avec tendresse."
+      },
+      {
+        "question": "Quel est le prénom du jeune homme dont Cosette tombe amoureuse dans Les Misérables ?",
+        "reponse": "Marius",
+        "propositions": ["Marius", "Enjolras", "Combeferre", "Tholomyès"],
+        "explication": "Marius Pontmercy, jeune étudiant idéaliste, tombe amoureux de Cosette au jardin du Luxembourg."
+      },
+      {
+        "question": "En quelle année Victor Hugo meurt-il à Paris ?",
+        "reponse": "1885",
+        "propositions": ["1885", "1870", "1900", "1851"],
+        "explication": "Victor Hugo meurt le 22 mai 1885, et ses funérailles nationales rassemblent des foules immenses."
+      },
+      {
+        "question": "Quel drame théâtral de Victor Hugo, créé en 1830, est resté célèbre pour les affrontements survenus lors de sa première représentation ?",
+        "reponse": "Hernani",
+        "propositions": ["Hernani", "Ruy Blas", "Marion de Lorme", "Lucrèce Borgia"],
+        "explication": "La première d'Hernani a opposé violemment partisans du romantisme et défenseurs du théâtre classique."
+      },
+      {
+        "question": "Quel est le nom de l'évêque charitable qui offre des couverts en argent à Jean Valjean, changeant le cours de sa vie, dans Les Misérables ?",
+        "reponse": "Monseigneur Myriel",
+        "propositions": ["Monseigneur Myriel", "Monseigneur Frollo", "Monseigneur Javert", "Monseigneur Gillenormand"],
+        "explication": "Ce geste de générosité pousse Jean Valjean à devenir un homme honnête et bienveillant."
+      },
+      {
+        "question": "Combien d'enfants Victor Hugo a-t-il eus avec son épouse Adèle Foucher ?",
+        "reponse": "5",
+        "propositions": ["5", "2", "3", "7"],
+        "explication": "Léopold, Léopoldine, Charles, François-Victor et Adèle sont les cinq enfants du couple."
+      },
+      {
+        "question": "Quelle prestigieuse institution française Victor Hugo intègre-t-il en 1841 ?",
+        "reponse": "L'Académie française",
+        "propositions": ["L'Académie française", "Le Collège de France", "L'Institut de France seul", "La Sorbonne"],
+        "explication": "Devenir académicien consacre la reconnaissance littéraire de Victor Hugo par ses pairs."
+      },
+      {
+        "question": "Quel est le nom de l'épouse de Victor Hugo, mère de ses cinq enfants ?",
+        "reponse": "Adèle Foucher",
+        "propositions": ["Adèle Foucher", "Juliette Drouet", "Léonie d'Aunet", "Léopoldine Hugo"],
+        "explication": "Victor Hugo épouse Adèle Foucher en 1822 ; il eut par ailleurs une longue liaison avec l'actrice Juliette Drouet."
+      },
+      {
+        "question": "Quel âge avait environ Léopoldine, fille de Victor Hugo, lorsqu'elle meurt noyée dans la Seine en 1843 ?",
+        "reponse": "19 ans",
+        "propositions": ["19 ans", "12 ans", "25 ans", "16 ans"],
+        "explication": "Léopoldine, née en 1824, se noie accidentellement avec son mari près de Villequier en septembre 1843."
+      },
+      {
+        "question": "Quel est le titre du célèbre poème de Victor Hugo, extrait des Contemplations, qui commence par 'Demain, dès l'aube...' ?",
+        "reponse": "Demain, dès l'aube",
+        "propositions": ["Demain, dès l'aube", "Booz endormi", "Les Pauvres Gens", "Le Lac"],
+        "explication": "Ce poème, écrit pour la date anniversaire de la mort de sa fille Léopoldine, évoque le chemin que le poète parcourt jusqu'à sa tombe."
       }
     ],
     "2": [
@@ -123,6 +183,66 @@
         "reponse": "La noyade de sa fille Léopoldine",
         "propositions": ["La noyade de sa fille Léopoldine", "La mort de son père", "Son exil forcé", "L'échec d'Hernani"],
         "explication": "La mort accidentelle de Léopoldine, noyée dans la Seine en 1843, hante une grande partie des Contemplations."
+      },
+      {
+        "question": "Quel personnage des Misérables, fille des Thénardier, aime secrètement Marius et meurt sur la barricade ?",
+        "reponse": "Éponine",
+        "propositions": ["Éponine", "Azelma", "Fantine", "Cosette"],
+        "explication": "Éponine, contrairement à sa sœur Azelma, sacrifie son propre bonheur par amour pour Marius."
+      },
+      {
+        "question": "Quel roman de jeunesse de Victor Hugo, publié en 1823, se déroule dans la Norvège du XVIIe siècle sur fond de fantastique noir ?",
+        "reponse": "Han d'Islande",
+        "propositions": ["Han d'Islande", "Bug-Jargal", "Le Dernier Jour d'un condamné", "Claude Gueux"],
+        "explication": "Ce roman de jeunesse, empreint de fantastique noir, préfigure déjà le goût de Hugo pour les destins tragiques."
+      },
+      {
+        "question": "Quel est le nom du couvent parisien où Jean Valjean et Cosette se cachent pendant plusieurs années dans Les Misérables ?",
+        "reponse": "Le couvent du Petit-Picpus",
+        "propositions": ["Le couvent du Petit-Picpus", "Le couvent des Carmélites", "L'abbaye de Saint-Denis", "Le monastère de Cluny"],
+        "explication": "Jean Valjean s'y fait engager comme jardinier pour échapper aux recherches de Javert."
+      },
+      {
+        "question": "Quel homme politique français, président de la Deuxième République en 1848, devient ensuite l'empereur Napoléon III, poussant Victor Hugo à l'exil ?",
+        "reponse": "Louis-Napoléon Bonaparte",
+        "propositions": ["Louis-Napoléon Bonaparte", "Adolphe Thiers", "Lamartine", "Cavaignac"],
+        "explication": "Devenu président en 1848, il organise un coup d'État en 1851 avant de se proclamer empereur sous le nom de Napoléon III."
+      },
+      {
+        "question": "Quel est le titre du discours prononcé par Victor Hugo à l'Assemblée législative en 1849, appelant à éradiquer la misère ?",
+        "reponse": "Le discours sur la misère",
+        "propositions": ["Le discours sur la misère", "Le discours sur les États-Unis d'Europe", "Le discours sur l'instruction gratuite", "Le discours sur la liberté de la presse"],
+        "explication": "Dans ce discours de juillet 1849, Hugo appelle à éradiquer la misère par l'action de l'État."
+      },
+      {
+        "question": "Comment appelle-t-on le genre théâtral, mêlant les registres et rejetant les règles classiques, que Victor Hugo contribue à fonder ?",
+        "reponse": "Le drame romantique",
+        "propositions": ["Le drame romantique", "La tragédie classique", "Le théâtre de boulevard", "Le vaudeville"],
+        "explication": "Le drame romantique mêle les genres et les registres, rejetant les unités de temps, de lieu et d'action du théâtre classique."
+      },
+      {
+        "question": "Quel est le prénom de l'actrice qui fut la maîtresse de Victor Hugo pendant environ cinquante ans, le suivant notamment en exil ?",
+        "reponse": "Juliette Drouet",
+        "propositions": ["Juliette Drouet", "Léonie d'Aunet", "Adèle Foucher", "Sarah Bernhardt"],
+        "explication": "Actrice de théâtre, Juliette Drouet a suivi Victor Hugo dans son exil et lui est restée fidèle jusqu'à sa mort en 1883."
+      },
+      {
+        "question": "Quel personnage des Misérables, grand-père maternel de Marius, est un royaliste convaincu opposé aux idées républicaines de son petit-fils ?",
+        "reponse": "Monsieur Gillenormand",
+        "propositions": ["Monsieur Gillenormand", "Monsieur Mabeuf", "Monsieur Fauchelevent", "Monsieur Myriel"],
+        "explication": "Ce personnage incarne les valeurs de l'Ancien Régime, en opposition avec les idéaux républicains de son petit-fils Marius."
+      },
+      {
+        "question": "Quel personnage de 'Notre-Dame de Paris' est la jeune bohémienne danseuse dont Quasimodo tombe amoureux ?",
+        "reponse": "Esmeralda",
+        "propositions": ["Esmeralda", "Fleur-de-Lys", "Agnès", "Colombe"],
+        "explication": "Esmeralda est une danseuse bohémienne dont la beauté fascine à la fois Quasimodo, Frollo et le capitaine Phoebus."
+      },
+      {
+        "question": "Quel est le prénom du capitaine des archers du roi, séducteur dont Esmeralda tombe amoureuse dans Notre-Dame de Paris ?",
+        "reponse": "Phoebus",
+        "propositions": ["Phoebus", "Pierre Gringoire", "Clopin", "Jehan"],
+        "explication": "Phoebus de Châteaupers séduit Esmeralda sans partager la profondeur de ses sentiments, provoquant la jalousie de Frollo."
       }
     ],
     "3": [
@@ -185,6 +305,66 @@
         "reponse": "Le Rhin",
         "propositions": ["Le Rhin", "Les Pyrénées", "Alpes et Pyrénées", "France et Belgique"],
         "explication": "Le Rhin (1842) est un récit de voyage de Victor Hugo sous forme de lettres, mêlant description et réflexion historique."
+      },
+      {
+        "question": "Quel pamphlet en prose, publié par Victor Hugo en 1852 alors qu'il était réfugié à Bruxelles, attaque violemment Napoléon III ?",
+        "reponse": "Napoléon le Petit",
+        "propositions": ["Napoléon le Petit", "Les Châtiments", "Choses vues", "L'Histoire d'un crime"],
+        "explication": "Ce pamphlet, écrit juste après le coup d'État du 2 décembre 1851, vaut à Hugo d'être poursuivi et renforce sa détermination à rester en exil."
+      },
+      {
+        "question": "Quel vaste poème philosophique inachevé de Victor Hugo, opposant Dieu et Satan, est publié à titre posthume en 1886 ?",
+        "reponse": "La Fin de Satan",
+        "propositions": ["La Fin de Satan", "Dieu", "Toute la lyre", "La Légende des siècles"],
+        "explication": "Resté inachevé, ce poème imagine la rédemption finale de Satan par la grâce divine."
+      },
+      {
+        "question": "Quel est le titre du recueil de notes et souvenirs personnels de Victor Hugo, rassemblés tout au long de sa vie et publiés à titre posthume ?",
+        "reponse": "Choses vues",
+        "propositions": ["Choses vues", "La Fin de Satan", "Toute la lyre", "Océan"],
+        "explication": "Ces notes, tenues tout au long de sa vie, rassemblent souvenirs, portraits et réflexions sur les événements politiques de son temps."
+      },
+      {
+        "question": "Quelle pièce de théâtre de Victor Hugo, créée en 1843, connaît un échec si cuisant qu'il marque la fin de sa carrière de dramaturge ?",
+        "reponse": "Les Burgraves",
+        "propositions": ["Les Burgraves", "Ruy Blas", "Marion de Lorme", "Lucrèce Borgia"],
+        "explication": "Cet échec cuisant pousse Victor Hugo à se consacrer davantage au roman et à la politique plutôt qu'au théâtre."
+      },
+      {
+        "question": "Dans quel poème des Châtiments, contenant le vers 'Si l'on n'est plus que mille, eh bien, j'en suis !', Victor Hugo proclame-t-il son refus de rentrer en France sous Napoléon III ?",
+        "reponse": "Ultima Verba",
+        "propositions": ["Ultima Verba", "Souvenir de la nuit du 4", "Stella", "L'Expiation"],
+        "explication": "Ce poème affirme la détermination de Hugo à ne jamais transiger avec le régime impérial, même en restant seul fidèle à ses convictions."
+      },
+      {
+        "question": "Dans quelle ville Victor Hugo se réfugie-t-il en premier lieu, juste après le coup d'État de décembre 1851, avant de s'installer à Jersey puis à Guernesey ?",
+        "reponse": "Bruxelles",
+        "propositions": ["Bruxelles", "Jersey", "Guernesey", "Londres"],
+        "explication": "Hugo fuit d'abord à Bruxelles après le coup d'État de 1851, avant de s'installer à Jersey en 1852 puis à Guernesey en 1855."
+      },
+      {
+        "question": "En combien de parties (tomes) est structuré le roman Les Misérables, de 'Fantine' à 'Jean Valjean' ?",
+        "reponse": "5",
+        "propositions": ["5", "3", "7", "4"],
+        "explication": "Les cinq parties portent les titres Fantine, Cosette, Marius, L'Idylle rue Plumet et l'épopée rue Saint-Denis, et Jean Valjean."
+      },
+      {
+        "question": "Quel est le nom de la demeure de Victor Hugo à Guernesey, où il vécut une grande partie de son exil et qui est aujourd'hui un musée ?",
+        "reponse": "Hauteville House",
+        "propositions": ["Hauteville House", "Marine-Terrace", "Rocquaine Lodge", "Le Rocher des Proscrits"],
+        "explication": "Hauteville House, acquise par Hugo à Guernesey, est aujourd'hui ouverte au public comme musée consacré à l'écrivain."
+      },
+      {
+        "question": "Quel hebdomadaire républicain, fondé en 1869 avec le soutien actif de Victor Hugo, porte un titre évoquant un retour politique espéré ?",
+        "reponse": "Le Rappel",
+        "propositions": ["Le Rappel", "L'Événement", "Le National", "Le Siècle"],
+        "explication": "Le Rappel, fondé en 1869, défend des positions républicaines et anticléricales, avec le soutien actif de Victor Hugo."
+      },
+      {
+        "question": "Quelle pratique artistique amateur, principalement à l'encre et au lavis, Victor Hugo a-t-il explorée durant son exil, produisant des centaines d'œuvres sombres et visionnaires ?",
+        "reponse": "Le dessin (lavis d'encre)",
+        "propositions": ["Le dessin (lavis d'encre)", "La peinture à l'huile", "La sculpture", "La gravure sur bois"],
+        "explication": "Ces dessins, souvent réalisés à l'encre et au lavis, ont été redécouverts et admirés notamment par les surréalistes au XXe siècle."
       }
     ]
   }

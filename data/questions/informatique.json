@@ -276,6 +276,116 @@
           "Apple"
         ],
         "explication": "Meta (alors Facebook) a racheté WhatsApp en 2014."
+      },
+      {
+        "question": "Quelle entreprise a créé le réseau social TikTok ?",
+        "reponse": "ByteDance",
+        "propositions": [
+          "ByteDance",
+          "Tencent",
+          "Alibaba",
+          "Baidu"
+        ],
+        "explication": "TikTok, lancé à l'international en 2017, appartient au groupe chinois ByteDance."
+      },
+      {
+        "question": "Quel type d'appareil permet de numériser un document papier pour le convertir en fichier informatique ?",
+        "reponse": "Un scanner",
+        "propositions": [
+          "Un scanner",
+          "Une imprimante",
+          "Un modem",
+          "Un routeur"
+        ],
+        "explication": "Un scanner capture une image du document, qui peut ensuite être enregistrée sous différents formats comme le PDF ou le JPEG."
+      },
+      {
+        "question": "Quelle entreprise a créé le logiciel de visioconférence Zoom, très utilisé pendant la pandémie de Covid-19 ?",
+        "reponse": "Zoom Video Communications",
+        "propositions": [
+          "Zoom Video Communications",
+          "Microsoft",
+          "Google",
+          "Cisco"
+        ],
+        "explication": "Zoom a connu une forte croissance de ses utilisateurs lors des confinements de 2020."
+      },
+      {
+        "question": "Quel signe est utilisé pour indiquer un commentaire sur une ligne de code dans de nombreux langages de programmation comme Python ?",
+        "reponse": "Le dièse (#)",
+        "propositions": [
+          "Le dièse (#)",
+          "L'astérisque (*)",
+          "Le point-virgule (;)",
+          "L'arobase (@)"
+        ],
+        "explication": "En Python, tout texte placé après un dièse sur une ligne est ignoré par l'interpréteur."
+      },
+      {
+        "question": "Quelle entreprise a créé le logiciel de retouche d'image Photoshop ?",
+        "reponse": "Adobe",
+        "propositions": [
+          "Adobe",
+          "Microsoft",
+          "Corel",
+          "Apple"
+        ],
+        "explication": "Photoshop, lancé en 1990, est devenu une référence dans le domaine de la retouche photo et du graphisme."
+      },
+      {
+        "question": "Quel format de fichier, reconnaissable à son extension .mp3, sert à stocker de la musique compressée ?",
+        "reponse": "Un fichier audio MP3",
+        "propositions": [
+          "Un fichier audio MP3",
+          "Un fichier vidéo",
+          "Un fichier image",
+          "Un fichier texte"
+        ],
+        "explication": "Le format MP3 compresse les fichiers audio en réduisant leur taille tout en conservant une qualité sonore acceptable."
+      },
+      {
+        "question": "Quelle entreprise a conçu la console de jeu vidéo PlayStation ?",
+        "reponse": "Sony",
+        "propositions": [
+          "Sony",
+          "Microsoft",
+          "Nintendo",
+          "Sega"
+        ],
+        "explication": "La première PlayStation est sortie au Japon en 1994."
+      },
+      {
+        "question": "Comment appelle-t-on le fait de stocker des fichiers non pas sur son propre ordinateur mais sur des serveurs distants accessibles par Internet ?",
+        "reponse": "Le cloud (informatique en nuage)",
+        "propositions": [
+          "Le cloud (informatique en nuage)",
+          "Le streaming",
+          "Le téléchargement",
+          "La compression"
+        ],
+        "explication": "Google Drive, Dropbox ou iCloud sont des exemples de services de stockage en cloud."
+      },
+      {
+        "question": "Quelle fondation a créé et gère l'encyclopédie en ligne collaborative Wikipédia ?",
+        "reponse": "La Wikimedia Foundation",
+        "propositions": [
+          "La Wikimedia Foundation",
+          "Google",
+          "Microsoft",
+          "L'UNESCO"
+        ],
+        "explication": "Wikipédia a été lancée en 2001 par Jimmy Wales et Larry Sanger."
+      },
+      {
+        "question": "Quel type de logiciel permet de naviguer sur les pages du World Wide Web ?",
+        "reponse": "Un navigateur web",
+        "propositions": [
+          "Un navigateur web",
+          "Un éditeur de texte",
+          "Un antivirus",
+          "Un compilateur"
+        ],
+        "explication": "Chrome, Firefox et Safari sont des exemples de navigateurs web parmi les plus utilisés."
       }
     ],
     "2": [
@@ -553,6 +663,116 @@
           "Le edge computing"
         ],
         "explication": "Montres connectées, thermostats intelligents ou capteurs industriels sont des exemples d'objets de l'IoT."
+      },
+      {
+        "question": "Quel protocole de communication sans fil à courte portée permet de connecter des écouteurs ou un clavier sans fil à un ordinateur ?",
+        "reponse": "Le Bluetooth",
+        "propositions": [
+          "Le Bluetooth",
+          "Le Wi-Fi",
+          "Le NFC",
+          "L'infrarouge"
+        ],
+        "explication": "Le Bluetooth a été nommé en référence à un roi viking danois du Xe siècle, Harald à la Dent bleue."
+      },
+      {
+        "question": "Quel langage de programmation, créé par Microsoft et dévoilé en 2000, est principalement utilisé avec le framework .NET ?",
+        "reponse": "C#",
+        "propositions": [
+          "C#",
+          "Java",
+          "Python",
+          "Visual Basic"
+        ],
+        "explication": "C# a été conçu par l'ingénieur Anders Hejlsberg pour Microsoft."
+      },
+      {
+        "question": "Comment appelle-t-on la technique consistant à diviser une application en plusieurs petits services indépendants communiquant entre eux ?",
+        "reponse": "L'architecture en microservices",
+        "propositions": [
+          "L'architecture en microservices",
+          "L'architecture monolithique",
+          "Le MVC",
+          "L'architecture client-serveur"
+        ],
+        "explication": "Cette approche facilite le déploiement et la mise à l'échelle indépendante de chaque composant d'une application."
+      },
+      {
+        "question": "Quel outil, apparu en 2013, a popularisé la conteneurisation en permettant d'isoler des applications dans des environnements légers appelés conteneurs ?",
+        "reponse": "Docker",
+        "propositions": [
+          "Docker",
+          "Git",
+          "Jenkins",
+          "Ansible"
+        ],
+        "explication": "Docker a rendu la conteneurisation accessible à un très large public de développeurs à partir de 2013."
+      },
+      {
+        "question": "Quel système, rendu open source par Google en 2014, orchestre le déploiement et la gestion de nombreux conteneurs applicatifs à grande échelle ?",
+        "reponse": "Kubernetes",
+        "propositions": [
+          "Kubernetes",
+          "Docker",
+          "Ansible",
+          "Terraform"
+        ],
+        "explication": "Kubernetes, souvent abrégé 'K8s', est aujourd'hui maintenu par la Cloud Native Computing Foundation."
+      },
+      {
+        "question": "Quel informaticien danois a créé le langage de programmation PHP en 1994 ?",
+        "reponse": "Rasmus Lerdorf",
+        "propositions": [
+          "Rasmus Lerdorf",
+          "Guido van Rossum",
+          "James Gosling",
+          "Brendan Eich"
+        ],
+        "explication": "PHP, initialement conçu pour gérer des pages personnelles ('Personal Home Page'), est devenu un langage central du développement web côté serveur."
+      },
+      {
+        "question": "Quel informaticien a créé le langage JavaScript en seulement dix jours en 1995, alors qu'il travaillait chez Netscape ?",
+        "reponse": "Brendan Eich",
+        "propositions": [
+          "Brendan Eich",
+          "Guido van Rossum",
+          "Rasmus Lerdorf",
+          "James Gosling"
+        ],
+        "explication": "JavaScript a d'abord été nommé Mocha, puis LiveScript, avant d'adopter son nom définitif."
+      },
+      {
+        "question": "Comment appelle-t-on un programme qui transforme le code source d'un langage de programmation en code exécutable directement par l'ordinateur ?",
+        "reponse": "Un compilateur",
+        "propositions": [
+          "Un compilateur",
+          "Un interpréteur",
+          "Un débogueur",
+          "Un éditeur de texte"
+        ],
+        "explication": "Contrairement à l'interpréteur, qui exécute le code ligne par ligne, le compilateur produit un programme exécutable autonome."
+      },
+      {
+        "question": "Quel format de compression vidéo, standard largement utilisé pour le streaming, a été développé pour succéder au H.264 ?",
+        "reponse": "Le H.265 (HEVC)",
+        "propositions": [
+          "Le H.265 (HEVC)",
+          "Le VP9",
+          "Le AV1",
+          "Le MPEG-2"
+        ],
+        "explication": "Le H.265 vise à réduire d'environ moitié le débit nécessaire par rapport au H.264, pour une qualité équivalente."
+      },
+      {
+        "question": "Quelle pratique de développement logiciel consiste à intégrer et tester automatiquement les modifications de code dès qu'elles sont proposées par les développeurs ?",
+        "reponse": "L'intégration continue (CI)",
+        "propositions": [
+          "L'intégration continue (CI)",
+          "Le déploiement continu (CD)",
+          "Le versionning",
+          "Le refactoring"
+        ],
+        "explication": "L'intégration continue vise à détecter rapidement les erreurs en testant fréquemment le code au sein d'un pipeline automatisé."
       }
     ],
     "3": [
@@ -830,6 +1050,116 @@
           "Le langage Fortran"
         ],
         "explication": "Le langage C a profondément influencé de nombreux langages ultérieurs, dont C++, Java et Python."
+      },
+      {
+        "question": "Quel algorithme de hachage cryptographique, publié en 2015 par le NIST, est aujourd'hui recommandé comme alternative plus sûre à la famille SHA-2 ?",
+        "reponse": "SHA-3",
+        "propositions": [
+          "SHA-3",
+          "SHA-256",
+          "MD5",
+          "BLAKE2"
+        ],
+        "explication": "SHA-3 repose sur une construction différente (fonction éponge Keccak) de celle de la famille SHA-2."
+      },
+      {
+        "question": "Quel problème classique de théorie des graphes, consistant à trouver le trajet le plus court passant une seule fois par chaque ville avant de revenir au point de départ, est un exemple célèbre de problème NP-difficile ?",
+        "reponse": "Le problème du voyageur de commerce",
+        "propositions": [
+          "Le problème du voyageur de commerce",
+          "Le problème du sac à dos",
+          "Le problème de coloration de graphe",
+          "Le problème du plus court chemin"
+        ],
+        "explication": "Aucun algorithme connu ne résout ce problème en temps polynomial pour un nombre quelconque de villes."
+      },
+      {
+        "question": "Quelle thèse, formulée indépendamment par Alonzo Church et Alan Turing, établit l'équivalence entre calculabilité par machine de Turing et par fonctions récursives (lambda-calcul) ?",
+        "reponse": "La thèse de Church-Turing",
+        "propositions": [
+          "La thèse de Church-Turing",
+          "Le théorème de Rice",
+          "Le théorème de Gödel",
+          "Le théorème de Cook-Levin"
+        ],
+        "explication": "Cette thèse, plutôt qu'un théorème formellement démontrable, est largement considérée comme vraie et fonde l'informatique théorique moderne."
+      },
+      {
+        "question": "Quel théorème, démontré par Stephen Cook en 1971, établit que le problème de satisfiabilité booléenne (SAT) est NP-complet ?",
+        "reponse": "Le théorème de Cook-Levin",
+        "propositions": [
+          "Le théorème de Cook-Levin",
+          "Le théorème de Rice",
+          "La thèse de Church-Turing",
+          "Le théorème d'incomplétude de Gödel"
+        ],
+        "explication": "Ce théorème a été le point de départ de toute la théorie de la NP-complétude en informatique."
+      },
+      {
+        "question": "Quelle structure de données probabiliste, inventée en 1970 par Burton Howard Bloom, permet de tester rapidement si un élément appartient probablement à un ensemble, avec une faible consommation mémoire ?",
+        "reponse": "Le filtre de Bloom",
+        "propositions": [
+          "Le filtre de Bloom",
+          "La table de hachage",
+          "L'arbre B",
+          "Le tas binaire"
+        ],
+        "explication": "Le filtre de Bloom peut donner de faux positifs mais jamais de faux négatifs, ce qui le rend utile pour des vérifications rapides avant un accès plus coûteux."
+      },
+      {
+        "question": "Quel algorithme de recherche de chemin, combinant le meilleur de Dijkstra et une heuristique, est largement utilisé dans les jeux vidéo et la navigation GPS ?",
+        "reponse": "L'algorithme A*",
+        "propositions": [
+          "L'algorithme A*",
+          "L'algorithme de Dijkstra",
+          "L'algorithme de Bellman-Ford",
+          "L'algorithme de Floyd-Warshall"
+        ],
+        "explication": "L'heuristique de l'algorithme A* permet d'orienter la recherche vers la destination plus rapidement que Dijkstra seul."
+      },
+      {
+        "question": "Quel protocole de consensus, utilisé notamment par le réseau Bitcoin, repose sur la résolution d'un problème de calcul coûteux pour valider les nouveaux blocs ?",
+        "reponse": "La preuve de travail (Proof of Work)",
+        "propositions": [
+          "La preuve de travail (Proof of Work)",
+          "La preuve d'enjeu (Proof of Stake)",
+          "L'algorithme Raft",
+          "Le protocole Paxos"
+        ],
+        "explication": "Ce mécanisme, introduit par Bitcoin en 2009, impose un coût énergétique important pour sécuriser le réseau contre la fraude."
+      },
+      {
+        "question": "Quel chercheur américain a formulé en 1965 l'observation empirique selon laquelle le nombre de transistors sur une puce double environ tous les deux ans ?",
+        "reponse": "Gordon Moore",
+        "propositions": [
+          "Gordon Moore",
+          "Robert Noyce",
+          "Andrew Grove",
+          "Jack Kilby"
+        ],
+        "explication": "Cette observation, connue comme la 'loi de Moore', a longtemps structuré les prévisions de l'industrie des semi-conducteurs."
+      },
+      {
+        "question": "Quel ingénieur américain a inventé le premier circuit intégré en 1958, posant les bases de la miniaturisation de l'électronique moderne ?",
+        "reponse": "Jack Kilby",
+        "propositions": [
+          "Jack Kilby",
+          "Gordon Moore",
+          "Robert Noyce",
+          "Andrew Grove"
+        ],
+        "explication": "Jack Kilby, ingénieur chez Texas Instruments, a reçu le prix Nobel de physique en 2000 pour cette invention."
+      },
+      {
+        "question": "Quel langage de programmation, conçu par Bjarne Stroustrup dans les années 1980 chez Bell Labs, étend le langage C avec la programmation orientée objet ?",
+        "reponse": "Le C++",
+        "propositions": [
+          "Le C++",
+          "Le C#",
+          "Le Java",
+          "L'Objective-C"
+        ],
+        "explication": "Le C++ a d'abord été nommé 'C with Classes' avant de prendre son nom définitif en 1983."
       }
     ]
   }

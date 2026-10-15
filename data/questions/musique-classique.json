@@ -276,6 +276,66 @@
           "La nuance"
         ],
         "explication": "Le tempo peut être indiqué par des termes italiens comme 'allegro' (rapide) ou 'lento' (lent)."
+      },
+      {
+        "question": "Quel instrument à cordes, plus grand que le violon mais plus petit que le violoncelle, joue généralement un registre médium dans l'orchestre ?",
+        "reponse": "L'alto",
+        "propositions": ["L'alto", "Le violon", "Le violoncelle", "La contrebasse"],
+        "explication": "L'alto se tient comme le violon, sous le menton, mais produit un son plus grave grâce à sa taille plus importante."
+      },
+      {
+        "question": "De quelle nationalité était le compositeur Frédéric Chopin ?",
+        "reponse": "Polonaise",
+        "propositions": ["Polonaise", "Allemande", "Italienne", "Autrichienne"],
+        "explication": "Frédéric Chopin est né près de Varsovie en 1810, avant de s'installer en France."
+      },
+      {
+        "question": "Quel terme italien, inscrit sur une partition, signifie 'rapide' ?",
+        "reponse": "Allegro",
+        "propositions": ["Allegro", "Adagio", "Largo", "Andante"],
+        "explication": "Allegro est l'une des indications de tempo les plus courantes en musique classique, signifiant un mouvement vif et rapide."
+      },
+      {
+        "question": "Combien de cordes possède un violon standard ?",
+        "reponse": "Quatre",
+        "propositions": ["Quatre", "Cinq", "Six", "Trois"],
+        "explication": "Le violon possède quatre cordes, accordées en sol, ré, la et mi."
+      },
+      {
+        "question": "Quel pays est le berceau de l'opéra, genre musical né à la fin du XVIe siècle ?",
+        "reponse": "L'Italie",
+        "propositions": ["L'Italie", "La France", "L'Allemagne", "L'Autriche"],
+        "explication": "L'opéra est né à Florence et à Venise à la fin du XVIe et au début du XVIIe siècle."
+      },
+      {
+        "question": "Quel instrument à percussion, composé de deux grands tambours accordés à des hauteurs différentes, est souvent utilisé en musique orchestrale ?",
+        "reponse": "Les timbales",
+        "propositions": ["Les timbales", "Les congas", "Le tambourin", "Le triangle"],
+        "explication": "Les timbales peuvent être accordées précisément à une note, contrairement à la plupart des autres percussions."
+      },
+      {
+        "question": "Quel terme désigne la personne qui joue seule, mise en valeur devant l'orchestre ?",
+        "reponse": "Le soliste",
+        "propositions": ["Le soliste", "Le chef d'orchestre", "Le choriste", "L'accompagnateur"],
+        "explication": "Le soliste est mis en valeur, notamment dans un concerto, face à l'ensemble de l'orchestre."
+      },
+      {
+        "question": "Quel pays européen est le berceau de la valse viennoise, popularisée au XIXe siècle ?",
+        "reponse": "L'Autriche",
+        "propositions": ["L'Autriche", "La France", "L'Italie", "L'Espagne"],
+        "explication": "La valse viennoise s'est développée et popularisée à Vienne, notamment grâce à la famille Strauss."
+      },
+      {
+        "question": "Quel terme désigne un chant sans accompagnement instrumental, interprété seul ou en groupe ?",
+        "reponse": "Un chant a cappella",
+        "propositions": ["Un chant a cappella", "Un lied", "Une aria", "Un oratorio"],
+        "explication": "'A cappella' signifie 'comme à la chapelle', désignant un chant exécuté sans accompagnement instrumental."
+      },
+      {
+        "question": "Quel registre vocal est le plus grave chez les femmes en musique classique ?",
+        "reponse": "Le contralto",
+        "propositions": ["Le contralto", "Le soprano", "Le mezzo-soprano", "Le ténor"],
+        "explication": "Le contralto est la voix féminine la plus grave, assez rare parmi les chanteuses classiques."
       }
     ],
     "2": [
@@ -553,6 +613,66 @@
           "Gabriel Fauré"
         ],
         "explication": "Ce poème symphonique illustre musicalement une légende de squelettes dansant à minuit le soir d'Halloween."
+      },
+      {
+        "question": "Quel compositeur italien du XIXe siècle, auteur du 'Barbier de Séville', est une figure majeure de l'opéra bouffe ?",
+        "reponse": "Gioachino Rossini",
+        "propositions": ["Gioachino Rossini", "Gaetano Donizetti", "Vincenzo Bellini", "Giuseppe Verdi"],
+        "explication": "Rossini a composé 'Le Barbier de Séville' en seulement trois semaines, en 1816."
+      },
+      {
+        "question": "Quel compositeur tchèque du XXe siècle, influencé par Dvořák, est l'auteur de l'opéra 'Jenůfa' ?",
+        "reponse": "Leoš Janáček",
+        "propositions": ["Leoš Janáček", "Bedřich Smetana", "Antonín Dvořák", "Zdeněk Fibich"],
+        "explication": "Janáček a développé un langage musical très personnel, inspiré par les intonations de la langue tchèque parlée."
+      },
+      {
+        "question": "Quel compositeur allemand est l'auteur de l'opéra 'Fidelio', son unique opéra achevé ?",
+        "reponse": "Ludwig van Beethoven",
+        "propositions": ["Ludwig van Beethoven", "Carl Maria von Weber", "Franz Schubert", "Louis Spohr"],
+        "explication": "'Fidelio', créé en 1805 puis révisé, est le seul opéra composé par Beethoven."
+      },
+      {
+        "question": "Quel compositeur italien du début du XVIIe siècle est l'auteur de 'L'Orfeo' (1607), l'un des premiers opéras de l'histoire parvenus intacts jusqu'à nous ?",
+        "reponse": "Claudio Monteverdi",
+        "propositions": ["Claudio Monteverdi", "Francesco Cavalli", "Alessandro Scarlatti", "Jean-Baptiste Lully"],
+        "explication": "L'Orfeo de Monteverdi est l'un des premiers opéras ayant survécu dans son intégralité jusqu'à nos jours."
+      },
+      {
+        "question": "Quel compositeur français du XVIIe siècle, d'origine italienne, a dominé la musique de cour sous Louis XIV ?",
+        "reponse": "Jean-Baptiste Lully",
+        "propositions": ["Jean-Baptiste Lully", "Marc-Antoine Charpentier", "François Couperin", "Jean-Philippe Rameau"],
+        "explication": "Lully a notamment collaboré avec Molière pour des comédies-ballets à la cour de Louis XIV."
+      },
+      {
+        "question": "Quel compositeur et claveciniste français du XVIIIe siècle a théorisé l'harmonie moderne dans son 'Traité de l'harmonie' (1722) ?",
+        "reponse": "Jean-Philippe Rameau",
+        "propositions": ["Jean-Philippe Rameau", "François Couperin", "Jean-Baptiste Lully", "Michel-Richard de Lalande"],
+        "explication": "Rameau a profondément influencé la théorie musicale occidentale avec sa notion d'accords fondamentaux."
+      },
+      {
+        "question": "Quel compositeur italien du XVIIIe siècle, rival de Mozart à la cour de Vienne, a inspiré le film 'Amadeus' (1984) ?",
+        "reponse": "Antonio Salieri",
+        "propositions": ["Antonio Salieri", "Christoph Willibald Gluck", "Joseph Haydn", "Muzio Clementi"],
+        "explication": "Le film 'Amadeus' dramatise, sans fondement historique solide, une rivalité entre Salieri et Mozart."
+      },
+      {
+        "question": "Quel compositeur allemand du XVIIIe siècle a réformé l'opéra en réduisant les ornements vocaux excessifs, notamment dans 'Orphée et Eurydice' ?",
+        "reponse": "Christoph Willibald Gluck",
+        "propositions": ["Christoph Willibald Gluck", "Antonio Salieri", "Joseph Haydn", "Carl Philipp Emanuel Bach"],
+        "explication": "Gluck a cherché à donner plus de naturel et de vérité dramatique à l'opéra, en réaction aux excès de virtuosité vocale baroque."
+      },
+      {
+        "question": "Quel compositeur italien du XIXe siècle, auteur des opéras 'Norma' et 'I puritani', est mort prématurément à 33 ans ?",
+        "reponse": "Vincenzo Bellini",
+        "propositions": ["Vincenzo Bellini", "Gaetano Donizetti", "Gioachino Rossini", "Giuseppe Verdi"],
+        "explication": "Bellini, figure majeure du bel canto italien, est mort en 1835 près de Paris."
+      },
+      {
+        "question": "Quel fils de Jean-Sébastien Bach a joué un rôle de transition entre le style baroque et le style classique, influençant Haydn et Mozart ?",
+        "reponse": "Carl Philipp Emanuel Bach",
+        "propositions": ["Carl Philipp Emanuel Bach", "Johann Christian Bach", "Wilhelm Friedemann Bach", "Johann Sebastian Bach"],
+        "explication": "C.P.E. Bach a notamment influencé Haydn et Mozart par son style expressif, dit 'Empfindsamer Stil'."
       }
     ],
     "3": [
@@ -830,6 +950,66 @@
           "Carl Orff"
         ],
         "explication": "Composés en 1948, peu avant sa mort, 'Les Quatre Derniers Lieder' sont souvent perçus comme un adieu testamentaire à la vie et à l'art."
+      },
+      {
+        "question": "Quelle technique de composition, prolongeant après-guerre le dodécaphonisme de Schönberg et Webern, applique le principe sériel non seulement aux hauteurs mais aussi au rythme et à la dynamique ?",
+        "reponse": "Le sérialisme intégral",
+        "propositions": ["Le sérialisme intégral", "Le dodécaphonisme libre", "Le minimalisme", "L'aléatoire contrôlé"],
+        "explication": "Pierre Boulez et Karlheinz Stockhausen ont notamment prolongé cette approche héritée de Webern, appliquant le principe sériel à tous les paramètres du son."
+      },
+      {
+        "question": "Quel compositeur français est l'auteur de 'Pelléas et Mélisande' (1902), son unique opéra achevé, d'après la pièce de Maeterlinck ?",
+        "reponse": "Claude Debussy",
+        "propositions": ["Claude Debussy", "Maurice Ravel", "Paul Dukas", "Vincent d'Indy"],
+        "explication": "Cet opéra impressionniste, créé à l'Opéra-Comique de Paris, a marqué une rupture avec l'opéra romantique traditionnel."
+      },
+      {
+        "question": "Quel compositeur russe du début du XXe siècle, aux conceptions mystiques et théosophiques, a composé le 'Poème de l'extase' ?",
+        "reponse": "Alexandre Scriabine",
+        "propositions": ["Alexandre Scriabine", "Sergueï Rachmaninov", "Nikolaï Medtner", "Anton Arenski"],
+        "explication": "Scriabine cherchait à associer la musique à des correspondances synesthésiques entre sons et couleurs."
+      },
+      {
+        "question": "Quel compositeur britannique du XXe siècle est l'auteur de l'opéra 'Peter Grimes' (1945) et du 'Guide de l'orchestre à l'usage des jeunes' ?",
+        "reponse": "Benjamin Britten",
+        "propositions": ["Benjamin Britten", "Ralph Vaughan Williams", "Michael Tippett", "William Walton"],
+        "explication": "Benjamin Britten est considéré comme l'un des plus grands compositeurs britanniques du XXe siècle."
+      },
+      {
+        "question": "Quel terme technique désigne le retour périodique d'un même motif musical, notamment chez Wagner, pour caractériser un personnage ou une idée ?",
+        "reponse": "Le leitmotiv",
+        "propositions": ["Le leitmotiv", "L'ostinato", "Le contre-sujet", "Le thème cyclique"],
+        "explication": "Wagner a systématisé l'usage du leitmotiv dans ses opéras pour associer un thème musical récurrent à un personnage, un objet ou une idée."
+      },
+      {
+        "question": "Quel compositeur français, élève de César Franck, a développé la forme cyclique dans sa 'Symphonie en si mineur' (1896-1897) ?",
+        "reponse": "Vincent d'Indy",
+        "propositions": ["Vincent d'Indy", "Ernest Chausson", "Henri Duparc", "Guillaume Lekeu"],
+        "explication": "La forme cyclique, qui réutilise un même thème à travers différents mouvements, a été largement développée par l'école de César Franck."
+      },
+      {
+        "question": "Quel compositeur français du XXe siècle a théorisé la musique 'spectrale', fondée sur l'analyse du spectre sonore, avec son œuvre 'Partiels' (1975) ?",
+        "reponse": "Gérard Grisey",
+        "propositions": ["Gérard Grisey", "Tristan Murail", "Pierre Boulez", "Iannis Xenakis"],
+        "explication": "La musique spectrale, née en France dans les années 1970 autour de Grisey et Murail, compose à partir des harmoniques naturelles du son."
+      },
+      {
+        "question": "Quel compositeur autrichien du début du XXe siècle, élève de Schönberg, a composé l'opéra atonal 'Wozzeck', créé en 1925 ?",
+        "reponse": "Alban Berg",
+        "propositions": ["Alban Berg", "Arnold Schönberg", "Anton Webern", "Paul Hindemith"],
+        "explication": "Wozzeck est l'un des premiers opéras atonaux majeurs, inspiré du drame de Georg Büchner."
+      },
+      {
+        "question": "Quel compositeur allemand du XXe siècle, auteur de 'Carmina Burana' (1937), a mis en musique des poèmes médiévaux profanes latins et moyen-haut-allemands ?",
+        "reponse": "Carl Orff",
+        "propositions": ["Carl Orff", "Paul Hindemith", "Kurt Weill", "Hans Werner Henze"],
+        "explication": "Carmina Burana s'inspire d'un manuscrit médiéval découvert dans l'abbaye bavaroise de Benediktbeuern."
+      },
+      {
+        "question": "Quel compositeur allemand du XXe siècle a théorisé la 'Gebrauchsmusik' ('musique d'usage'), une musique utile et accessible aux amateurs plutôt que réservée à la seule contemplation esthétique ?",
+        "reponse": "Paul Hindemith",
+        "propositions": ["Paul Hindemith", "Carl Orff", "Kurt Weill", "Hanns Eisler"],
+        "explication": "Hindemith prônait une musique utile, pédagogique et accessible, en opposition à l'art pour l'art."
       }
     ]
   }
