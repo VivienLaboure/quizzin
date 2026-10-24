@@ -3,7 +3,7 @@ import Constants from 'expo-constants';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Animated, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
+import { Animated, Easing, PanResponder, Platform, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { getThemes } from '../../../API';
 import mockData from '../../../api/quizzFR.json';
 import Button from '../../../components/ui/Button';
@@ -550,6 +550,10 @@ const Themes: React.FC = () => {
   // Popup de confirmation de déblocage
   const [pendingTheme, setPendingTheme] = useState<string | null>(null);
   const [unlocking, setUnlocking] = useState(false);
+  // Une fois le déblocage confirmé côté serveur, le popup bascule sur
+  // l'animation de célébration (clé qui tourne puis icône du thème qui
+  // apparaît) avant de se fermer tout seul — voir UnlockCelebration plus bas.
+  const [celebrating, setCelebrating] = useState(false);
   const [feedback, setFeedback] = useState<string | null>(null);
 
   const loadData = useCallback(async () => {
@@ -607,14 +611,33 @@ const Themes: React.FC = () => {
     setUnlocking(true);
     try {
       await unlockTheme(pendingTheme);
-      setFeedback(`${getThemeDisplayName(pendingTheme)} débloqué !`);
-      setPendingTheme(null);
-    } catch (error: unknown) {
-      setFeedback(error instanceof Error ? error.message : 'Erreur lors du déblocage');
-    } finally {
       setUnlocking(false);
+      // Le popup reste ouvert, affichant l'animation de célébration à la
+      // place du formulaire de confirmation — voir l'effet ci-dessous pour
+      // la fermeture automatique une fois l'animation terminée.
+      setCelebrating(true);
+    } catch (error: unknown) {
+      setUnlocking(false);
+      setFeedback(error instanceof Error ? error.message : 'Erreur lors du déblocage');
+      setPendingTheme(null);
     }
   };
+
+  // Durée de l'animation de célébration (voir UnlockCelebration) — fixe,
+  // plutôt que pilotée par un callback d'Animated, pour rester simple : le
+  // popup se ferme tout seul une fois la séquence jouée, et bascule sur le
+  // toast de confirmation classique (utile aussi si l'utilisateur ne
+  // regardait pas l'écran pendant l'animation).
+  useEffect(() => {
+    if (!celebrating || !pendingTheme) return;
+    const unlockedTheme = pendingTheme;
+    const timer = setTimeout(() => {
+      setCelebrating(false);
+      setPendingTheme(null);
+      setFeedback(`${getThemeDisplayName(unlockedTheme)} débloqué !`);
+    }, 1700);
+    return () => clearTimeout(timer);
+  }, [celebrating, pendingTheme]);
 
   // ─── Géométrie de l'arbre ────────────────────────────────────────────────
   // Les nœuds sont d'abord construits centrés sur l'origine (0,0), avant de
@@ -971,23 +994,29 @@ const Themes: React.FC = () => {
       {pendingTheme && (
         <View style={pageStyles.overlay}>
           <Card style={pageStyles.popup}>
-            <Text style={pageStyles.popupTitle}>Débloquer {pendingTheme ? getThemeDisplayName(pendingTheme) : ''} ?</Text>
-            <Text style={pageStyles.popupSubtitle}>Cela consommera 1 jeton de déblocage.</Text>
-            <View style={pageStyles.popupActions}>
-              <TouchableOpacity
-                onPress={() => setPendingTheme(null)}
-                disabled={unlocking}
-                style={pageStyles.cancelButton}
-              >
-                <Text style={pageStyles.cancelButtonText}>Annuler</Text>
-              </TouchableOpacity>
-              <Button
-                label="Débloquer"
-                onPress={confirmUnlock}
-                loading={unlocking}
-                style={pageStyles.confirmButton}
-              />
-            </View>
+            {celebrating ? (
+              <UnlockCelebration theme={pendingTheme} />
+            ) : (
+              <>
+                <Text style={pageStyles.popupTitle}>Débloquer {getThemeDisplayName(pendingTheme)} ?</Text>
+                <Text style={pageStyles.popupSubtitle}>Cela consommera 1 jeton de déblocage.</Text>
+                <View style={pageStyles.popupActions}>
+                  <TouchableOpacity
+                    onPress={() => setPendingTheme(null)}
+                    disabled={unlocking}
+                    style={pageStyles.cancelButton}
+                  >
+                    <Text style={pageStyles.cancelButtonText}>Annuler</Text>
+                  </TouchableOpacity>
+                  <Button
+                    label="Débloquer"
+                    onPress={confirmUnlock}
+                    loading={unlocking}
+                    style={pageStyles.confirmButton}
+                  />
+                </View>
+              </>
+            )}
           </Card>
         </View>
       )}
@@ -1001,6 +1030,91 @@ const Themes: React.FC = () => {
     </View>
   );
 };
+
+// Animation jouée à la place du formulaire de confirmation une fois le
+// déblocage validé côté serveur : une clé tourne puis s'efface, un halo doré
+// éclate en étincelles, et l'icône du thème nouvellement débloqué apparaît
+// en rebondissant à sa place. Purement cosmétique — la seule vraie source de
+// vérité est déjà à jour (progress.unlockedThemes) avant même que cette
+// animation ne démarre.
+function UnlockCelebration({ theme }: { theme: string }) {
+  const keyScale = useRef(new Animated.Value(0)).current;
+  const keyTurn = useRef(new Animated.Value(0)).current;
+  const keyFade = useRef(new Animated.Value(1)).current;
+  const glowScale = useRef(new Animated.Value(0.4)).current;
+  const glowOpacity = useRef(new Animated.Value(0)).current;
+  const iconScale = useRef(new Animated.Value(0)).current;
+  const burst = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    Animated.sequence([
+      // La clé apparaît puis "tourne" dans la serrure.
+      Animated.spring(keyScale, { toValue: 1, friction: 5, tension: 140, useNativeDriver: true }),
+      Animated.timing(keyTurn, { toValue: 1, duration: 280, easing: Easing.inOut(Easing.ease), useNativeDriver: true }),
+      Animated.delay(80),
+      // La serrure cède : halo + étincelles + icône du thème apparaissent
+      // ensemble, pendant que la clé s'efface.
+      Animated.parallel([
+        Animated.timing(keyFade, { toValue: 0, duration: 220, useNativeDriver: true }),
+        Animated.timing(glowOpacity, { toValue: 1, duration: 200, useNativeDriver: true }),
+        Animated.spring(glowScale, { toValue: 1, friction: 6, tension: 90, useNativeDriver: true }),
+        Animated.timing(burst, { toValue: 1, duration: 650, easing: Easing.out(Easing.cubic), useNativeDriver: true }),
+        Animated.spring(iconScale, { toValue: 1, friction: 4.5, tension: 160, useNativeDriver: true }),
+      ]),
+    ]).start();
+  }, [keyScale, keyTurn, keyFade, glowScale, glowOpacity, iconScale, burst]);
+
+  const keyRotate = keyTurn.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '35deg'] });
+  const sparkles = Array.from({ length: 8 });
+
+  return (
+    <View style={pageStyles.celebrationContainer}>
+      <View style={pageStyles.celebrationStage}>
+        <Animated.View
+          style={[pageStyles.celebrationGlow, { opacity: glowOpacity, transform: [{ scale: glowScale }] }]}
+        />
+
+        {sparkles.map((_, i) => {
+          const angle = (i / sparkles.length) * Math.PI * 2;
+          const tx = burst.interpolate({ inputRange: [0, 1], outputRange: [0, Math.cos(angle) * 48] });
+          const ty = burst.interpolate({ inputRange: [0, 1], outputRange: [0, Math.sin(angle) * 48] });
+          const opacity = burst.interpolate({ inputRange: [0, 0.25, 1], outputRange: [0, 1, 0] });
+          const scale = burst.interpolate({ inputRange: [0, 0.25, 1], outputRange: [0.3, 1, 0.4] });
+          return (
+            <Animated.View
+              key={i}
+              style={[
+                pageStyles.sparkleDot,
+                { opacity, transform: [{ translateX: tx }, { translateY: ty }, { scale }] },
+              ]}
+            />
+          );
+        })}
+
+        <Animated.View
+          style={[
+            pageStyles.celebrationIconWrap,
+            { opacity: keyFade, transform: [{ scale: keyScale }, { rotate: keyRotate }] },
+          ]}
+        >
+          <Ionicons name="key" size={32} color={colors.white} />
+        </Animated.View>
+
+        <Animated.View
+          style={[
+            pageStyles.celebrationIconWrap,
+            pageStyles.celebrationIconOverlay,
+            { transform: [{ scale: iconScale }] },
+          ]}
+        >
+          <Ionicons name={THEME_ICON[theme] ?? DEFAULT_THEME_ICON} size={30} color={colors.white} />
+        </Animated.View>
+      </View>
+
+      <Text style={pageStyles.popupTitle}>{getThemeDisplayName(theme)} débloqué !</Text>
+    </View>
+  );
+}
 
 const pageStyles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background },
@@ -1111,6 +1225,40 @@ const pageStyles = StyleSheet.create({
   },
   cancelButtonText: { color: colors.textSecondary, fontWeight: '700' },
   confirmButton: { flex: 1 },
+  celebrationContainer: { alignItems: 'center', paddingVertical: spacing.sm },
+  // Carré fixe qui sert de repère central à tous les éléments animés
+  // (icônes, halo, étincelles) — chacun se positionne en absolu par rapport
+  // à lui pour rester parfaitement superposé pendant toute la séquence.
+  celebrationStage: {
+    width: 110,
+    height: 110,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: spacing.md,
+  },
+  celebrationGlow: {
+    position: 'absolute',
+    width: 88,
+    height: 88,
+    borderRadius: 44,
+    backgroundColor: colors.gold,
+  },
+  celebrationIconWrap: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    backgroundColor: colors.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  celebrationIconOverlay: { position: 'absolute' },
+  sparkleDot: {
+    position: 'absolute',
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: colors.gold,
+  },
   toast: {
     position: 'absolute',
     bottom: 80,
