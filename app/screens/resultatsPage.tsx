@@ -150,11 +150,22 @@ export default function ResultatsPage() {
         </Animated.View>
       )}
 
-      <Button
-        label="Retour à l'accueil"
-        onPress={() => router.push({ pathname: '/screens/home' })}
-        style={styles.homeButton}
-      />
+      <View style={styles.actions}>
+        <Button
+          label="Rejouer"
+          onPress={() => router.replace({
+            pathname: '/screens/quizzPage',
+            params: { category: safeCategory, difficulty: safeDifficulty },
+          })}
+          style={styles.actionButton}
+        />
+        <Button
+          label="Retour à l'accueil"
+          variant="secondary"
+          onPress={() => router.push({ pathname: '/screens/home' })}
+          style={styles.actionButton}
+        />
+      </View>
     </View>
   );
 }
@@ -209,5 +220,6 @@ const styles = StyleSheet.create({
   levelUpTitle: { color: '#5C3D00', fontSize: 28, fontWeight: '800' },
   levelUpSubtitle: { color: '#5C3D00', fontSize: 14, marginTop: spacing.xs },
   levelUpTokens: { color: '#5C3D00', fontSize: 14, marginTop: spacing.sm, fontWeight: '700' },
-  homeButton: { width: '85%' },
+  actions: { width: '85%', gap: spacing.sm },
+  actionButton: { width: '100%' },
 });

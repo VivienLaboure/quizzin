@@ -1,3 +1,4 @@
+import { Ionicons } from '@expo/vector-icons';
 import Constants from 'expo-constants';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
@@ -24,6 +25,10 @@ export default function QuizzPage() {
     const [propositions, setPropositions] = useState<string[]>([]);
     const [score, setScore] = useState(0);
     const [popupExplication, setPopupExplication] = useState(false);
+    // Confirmation avant d'abandonner la partie en cours — le score de la
+    // série en cours n'est crédité (addXp/recordStreak) qu'à l'arrivée sur
+    // resultatsPage, donc quitter avant cet écran le perd réellement.
+    const [showQuitConfirm, setShowQuitConfirm] = useState(false);
     // Identifiants des questions déjà vues dans cette partie (évite les doublons)
     const [seenQuestions, setSeenQuestions] = useState<Set<string>>(new Set());
 
@@ -224,7 +229,16 @@ export default function QuizzPage() {
     return (
         <View style={styles.container}>
             <View style={styles.header}>
-                <Text style={styles.category}>{getThemeDisplayName(safeCategory)}</Text>
+                <View style={styles.headerLeft}>
+                    <TouchableOpacity
+                        onPress={() => setShowQuitConfirm(true)}
+                        style={styles.quitButton}
+                        hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                    >
+                        <Ionicons name="close" size={20} color={colors.textSecondary} />
+                    </TouchableOpacity>
+                    <Text style={styles.category}>{getThemeDisplayName(safeCategory)}</Text>
+                </View>
                 <LinearGradient colors={gradients.primary} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.scoreBadge}>
                     <Text style={styles.scoreBadgeText}>🔥 {score}</Text>
                 </LinearGradient>
@@ -267,6 +281,31 @@ export default function QuizzPage() {
                 </View>
             )}
 
+            {showQuitConfirm && (
+                <View style={styles.overlay}>
+                    <Card style={styles.popup}>
+                        <Text style={styles.popupIcon}>⚠️</Text>
+                        <Text style={styles.popupTitle}>Quitter la partie ?</Text>
+                        <Text style={styles.popupExplication}>
+                            Ta progression dans cette série (score et série en cours) sera perdue.
+                        </Text>
+                        <View style={styles.quitActions}>
+                            <TouchableOpacity
+                                onPress={() => setShowQuitConfirm(false)}
+                                style={styles.cancelButton}
+                            >
+                                <Text style={styles.cancelButtonText}>Annuler</Text>
+                            </TouchableOpacity>
+                            <Button
+                                label="Quitter"
+                                onPress={() => router.back()}
+                                style={styles.quitConfirmButton}
+                            />
+                        </View>
+                    </Card>
+                </View>
+            )}
+
             {loadError && (
                 <TouchableOpacity onPress={() => setLoadError(false)} style={styles.toast}>
                     <Text style={styles.toastText}>
@@ -291,7 +330,16 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginBottom: spacing.lg,
     },
-    category: { ...typography.caption, textTransform: 'uppercase', letterSpacing: 0.5 },
+    headerLeft: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, flexShrink: 1 },
+    quitButton: {
+        width: 30,
+        height: 30,
+        borderRadius: radius.full,
+        backgroundColor: colors.surface,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    category: { ...typography.caption, textTransform: 'uppercase', letterSpacing: 0.5, flexShrink: 1 },
     scoreBadge: {
         borderRadius: radius.full,
         paddingVertical: 4,
@@ -331,6 +379,16 @@ const styles = StyleSheet.create({
         lineHeight: 20,
         marginBottom: spacing.lg,
     },
+    quitActions: { flexDirection: 'row', gap: spacing.sm, width: '100%' },
+    cancelButton: {
+        flex: 1,
+        backgroundColor: colors.background,
+        borderRadius: radius.full,
+        paddingVertical: 14,
+        alignItems: 'center',
+    },
+    cancelButtonText: { color: colors.textSecondary, fontWeight: '700' },
+    quitConfirmButton: { flex: 1 },
     toast: {
         position: 'absolute',
         bottom: spacing.xl,
