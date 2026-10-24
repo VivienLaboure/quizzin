@@ -386,6 +386,116 @@
           "Le cercle polaire"
         ],
         "explication": "L'équateur est une ligne imaginaire située à égale distance des deux pôles."
+      },
+      {
+        "question": "Qui a peint 'La Joconde', célèbre tableau exposé au musée du Louvre ?",
+        "reponse": "Léonard de Vinci",
+        "propositions": [
+          "Léonard de Vinci",
+          "Michel-Ange",
+          "Raphaël",
+          "Le Titien"
+        ],
+        "explication": "La Joconde, peinte au début du XVIe siècle, est probablement le tableau le plus célèbre au monde."
+      },
+      {
+        "question": "Combien de jours compte une année bissextile ?",
+        "reponse": "366",
+        "propositions": [
+          "365",
+          "366",
+          "364",
+          "367"
+        ],
+        "explication": "Une année bissextile, qui revient tous les quatre ans environ, ajoute un jour supplémentaire au mois de février."
+      },
+      {
+        "question": "Quelle est la capitale de la Russie ?",
+        "reponse": "Moscou",
+        "propositions": [
+          "Moscou",
+          "Saint-Pétersbourg",
+          "Kiev",
+          "Minsk"
+        ],
+        "explication": "Moscou est la capitale de la Russie depuis le XVe siècle, à l'exception d'une période où Saint-Pétersbourg fut capitale."
+      },
+      {
+        "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?",
+        "reponse": "Le dioxyde de carbone",
+        "propositions": [
+          "Le dioxyde de carbone",
+          "L'oxygène",
+          "L'azote",
+          "L'hydrogène"
+        ],
+        "explication": "Les plantes utilisent le CO2, l'eau et la lumière pour produire leur énergie et rejeter de l'oxygène."
+      },
+      {
+        "question": "Quelle est la capitale des États-Unis ?",
+        "reponse": "Washington, D.C.",
+        "propositions": [
+          "Washington, D.C.",
+          "New York",
+          "Los Angeles",
+          "Chicago"
+        ],
+        "explication": "Washington, D.C. est devenue la capitale fédérale des États-Unis en 1800."
+      },
+      {
+        "question": "Combien de temps la Terre met-elle environ à faire le tour du Soleil, définissant la durée d'une année ?",
+        "reponse": "Environ 365 jours",
+        "propositions": [
+          "Environ 30 jours",
+          "Environ 365 jours",
+          "Environ 100 jours",
+          "Environ 1 000 jours"
+        ],
+        "explication": "Cette révolution autour du Soleil dure environ 365 jours et un quart, d'où l'existence des années bissextiles."
+      },
+      {
+        "question": "Quel est le plus grand continent du monde par sa superficie ?",
+        "reponse": "L'Asie",
+        "propositions": [
+          "L'Asie",
+          "L'Afrique",
+          "L'Amérique du Nord",
+          "L'Europe"
+        ],
+        "explication": "L'Asie couvre environ 30 % des terres émergées de la planète."
+      },
+      {
+        "question": "Quelle est la capitale de la Chine ?",
+        "reponse": "Pékin",
+        "propositions": [
+          "Pékin",
+          "Shanghai",
+          "Hong Kong",
+          "Canton"
+        ],
+        "explication": "Pékin est la capitale politique de la Chine, tandis que Shanghai en est la plus grande ville."
+      },
+      {
+        "question": "Quel instrument permet de mesurer la température ?",
+        "reponse": "Le thermomètre",
+        "propositions": [
+          "Le thermomètre",
+          "Le baromètre",
+          "L'hygromètre",
+          "L'anémomètre"
+        ],
+        "explication": "Le thermomètre à mercure, aujourd'hui largement remplacé, a longtemps été l'instrument de référence."
+      },
+      {
+        "question": "Quelle est la plus grande planète du système solaire ?",
+        "reponse": "Jupiter",
+        "propositions": [
+          "Jupiter",
+          "Saturne",
+          "Uranus",
+          "Neptune"
+        ],
+        "explication": "Jupiter pourrait contenir plus de 1 300 fois le volume de la Terre."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Henri IV"
         ],
         "explication": "Louis XIV a régné pendant 72 ans, l'un des plus longs règnes de l'histoire européenne."
+      },
+      {
+        "question": "Quelle scientifique polonaise-française a été la première personne à recevoir deux prix Nobel dans deux disciplines différentes ?",
+        "reponse": "Marie Curie",
+        "propositions": [
+          "Marie Curie",
+          "Irène Joliot-Curie",
+          "Rosalind Franklin",
+          "Dorothy Hodgkin"
+        ],
+        "explication": "Marie Curie a reçu le prix Nobel de physique en 1903 et celui de chimie en 1911."
+      },
+      {
+        "question": "Quels trois scientifiques ont reçu le prix Nobel pour la découverte de la structure en double hélice de l'ADN ?",
+        "reponse": "James Watson, Francis Crick et Maurice Wilkins",
+        "propositions": [
+          "James Watson, Francis Crick et Maurice Wilkins",
+          "Watson, Crick et Rosalind Franklin",
+          "Fleming, Florey et Chain",
+          "Sanger, Nirenberg et Khorana"
+        ],
+        "explication": "Rosalind Franklin, dont les travaux de cristallographie ont été essentiels à cette découverte, n'a pas été incluse dans le prix Nobel, décerné en 1962 après sa mort."
+      },
+      {
+        "question": "Quelle chute d'eau, située au Venezuela, est considérée comme la plus haute du monde avec environ 979 mètres ?",
+        "reponse": "Les chutes Angel",
+        "propositions": [
+          "Les chutes Angel",
+          "Les chutes Victoria",
+          "Les chutes du Niagara",
+          "Les chutes d'Iguazu"
+        ],
+        "explication": "Les chutes Angel doivent leur nom à l'aviateur américain Jimmie Angel, qui les a survolées en 1933."
+      },
+      {
+        "question": "Quel lac, situé en Sibérie, est à la fois le plus profond et l'un des plus anciens lacs du monde ?",
+        "reponse": "Le lac Baïkal",
+        "propositions": [
+          "Le lac Baïkal",
+          "Le lac Victoria",
+          "Le lac Tanganyika",
+          "Le lac Supérieur"
+        ],
+        "explication": "Le lac Baïkal atteint environ 1 642 mètres de profondeur et contiendrait près de 20 % de l'eau douce liquide non gelée de la planète."
+      },
+      {
+        "question": "Selon la légende, quels sont les deux frères, élevés par une louve, qui auraient fondé la ville de Rome en 753 avant notre ère ?",
+        "reponse": "Romulus et Remus",
+        "propositions": [
+          "Romulus et Remus",
+          "Castor et Pollux",
+          "Énée et Ascagne",
+          "Romulus et Numitor"
+        ],
+        "explication": "Selon la légende, Romulus aurait tué son frère Remus avant de devenir le premier roi de Rome."
+      },
+      {
+        "question": "Quelle période de modernisation rapide, débutée en 1868, a transformé le Japon en puissance industrielle et militaire moderne ?",
+        "reponse": "L'ère Meiji",
+        "propositions": [
+          "L'ère Meiji",
+          "L'ère Edo",
+          "L'ère Shōwa",
+          "L'ère Taishō"
+        ],
+        "explication": "La restauration Meiji a mis fin au shogunat Tokugawa et restauré le pouvoir impérial tout en occidentalisant le pays."
+      },
+      {
+        "question": "Quelle conférence de 1884-1885 a organisé le partage colonial du continent africain entre puissances européennes ?",
+        "reponse": "La conférence de Berlin",
+        "propositions": [
+          "La conférence de Berlin",
+          "Le congrès de Vienne",
+          "Le congrès de Berlin",
+          "La conférence de Yalta"
+        ],
+        "explication": "Cette conférence, organisée par Otto von Bismarck, a fixé les règles du partage colonial de l'Afrique sans consulter les populations africaines."
+      },
+      {
+        "question": "Dans quelle ville se sont déroulés les premiers Jeux olympiques modernes, en 1896 ?",
+        "reponse": "Athènes",
+        "propositions": [
+          "Athènes",
+          "Paris",
+          "Londres",
+          "Rome"
+        ],
+        "explication": "Ces Jeux, organisés sous l'impulsion de Pierre de Coubertin, ont relancé une tradition sportive antique après près de 1 500 ans d'interruption."
+      },
+      {
+        "question": "Quel géographe et cartographe flamand du XVIe siècle a conçu la projection cartographique qui porte son nom, encore largement utilisée aujourd'hui ?",
+        "reponse": "Gérard Mercator",
+        "propositions": [
+          "Gérard Mercator",
+          "Abraham Ortelius",
+          "Willem Blaeu",
+          "Martin Waldseemüller"
+        ],
+        "explication": "La projection de Mercator, créée en 1569, déforme les surfaces mais conserve les angles, facilitant la navigation maritime."
+      },
+      {
+        "question": "Quel géophysicien allemand a proposé en 1912 la théorie de la dérive des continents, précurseur de la tectonique des plaques ?",
+        "reponse": "Alfred Wegener",
+        "propositions": [
+          "Alfred Wegener",
+          "Charles Lyell",
+          "James Hutton",
+          "Harry Hess"
+        ],
+        "explication": "Wegener s'est notamment appuyé sur la correspondance des côtes de l'Afrique et de l'Amérique du Sud pour étayer sa théorie, longtemps rejetée par la communauté scientifique."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "La bataille de Friedland"
         ],
         "explication": "Cette victoire décisive a conduit à la dissolution du Saint Empire romain germanique l'année suivante."
+      },
+      {
+        "question": "Quel physicien allemand a découvert, en 1895, un rayonnement qui porte son nom et qui permet de voir l'intérieur du corps humain ?",
+        "reponse": "Wilhelm Röntgen",
+        "propositions": [
+          "Wilhelm Röntgen",
+          "Henri Becquerel",
+          "Pierre Curie",
+          "Max von Laue"
+        ],
+        "explication": "Röntgen a appelé ce rayonnement 'rayons X', ce qui lui a valu le premier prix Nobel de physique en 1901."
+      },
+      {
+        "question": "Quel général carthaginois a traversé les Alpes avec des éléphants de guerre pour envahir l'Italie lors de la deuxième guerre punique ?",
+        "reponse": "Hannibal Barca",
+        "propositions": [
+          "Hannibal Barca",
+          "Scipion l'Africain",
+          "Hamilcar Barca",
+          "Hasdrubal"
+        ],
+        "explication": "Cette traversée audacieuse, en 218 avant notre ère, lui permit de surprendre les armées romaines en Italie du Nord."
+      },
+      {
+        "question": "En quelle année Constantinople, capitale de l'Empire byzantin, est-elle tombée aux mains des Ottomans, un événement que certains historiens considèrent comme la fin du Moyen Âge ?",
+        "reponse": "1453",
+        "propositions": [
+          "1453",
+          "1492",
+          "1204",
+          "1517"
+        ],
+        "explication": "La prise de la ville par le sultan Mehmed II met fin à près de mille ans d'Empire byzantin."
+      },
+      {
+        "question": "Quel chimiste russe a conçu, en 1869, le premier tableau périodique des éléments organisé selon leur masse atomique ?",
+        "reponse": "Dmitri Mendeleïev",
+        "propositions": [
+          "Dmitri Mendeleïev",
+          "Antoine Lavoisier",
+          "John Dalton",
+          "Amedeo Avogadro"
+        ],
+        "explication": "Ce tableau a permis de prédire l'existence d'éléments chimiques encore inconnus à l'époque."
+      },
+      {
+        "question": "Quel mathématicien italien du XIIIe siècle, auteur du 'Liber Abaci', a introduit en Europe une suite numérique où chaque terme est la somme des deux précédents ?",
+        "reponse": "Fibonacci",
+        "propositions": [
+          "Fibonacci",
+          "Al-Khwarizmi",
+          "Gérard de Crémone",
+          "Luca Pacioli"
+        ],
+        "explication": "Cette suite, où chaque terme est la somme des deux précédents, apparaît aussi dans de nombreux phénomènes naturels."
+      },
+      {
+        "question": "Quel empereur romain a légalisé le christianisme dans l'ensemble de l'Empire par l'édit de Milan en 313 ?",
+        "reponse": "Constantin Ier",
+        "propositions": [
+          "Constantin Ier",
+          "Théodose Ier",
+          "Dioclétien",
+          "Néron"
+        ],
+        "explication": "Cet édit accorde la liberté de culte aux chrétiens dans tout l'Empire romain, mettant fin à des décennies de persécutions."
+      },
+      {
+        "question": "Quelle guerre du XIXe siècle, opposant la Chine impériale au Royaume-Uni, a abouti à la cession de Hong Kong aux Britanniques ?",
+        "reponse": "La première guerre de l'opium",
+        "propositions": [
+          "La première guerre de l'opium",
+          "La guerre des Boxers",
+          "La guerre sino-japonaise",
+          "La révolte des Taiping"
+        ],
+        "explication": "Le traité de Nankin, qui conclut ce conflit en 1842, cède Hong Kong au Royaume-Uni."
+      },
+      {
+        "question": "Quel philosophe français du XVIIe siècle est l'auteur du 'Discours de la méthode' (1637), fondant le doute méthodique comme voie d'accès à la connaissance certaine ?",
+        "reponse": "René Descartes",
+        "propositions": [
+          "René Descartes",
+          "Blaise Pascal",
+          "Nicolas Malebranche",
+          "Pierre Gassendi"
+        ],
+        "explication": "Descartes y résume sa démarche par la formule 'Je pense, donc je suis'."
+      },
+      {
+        "question": "Quel mathématicien britannique est considéré comme un pionnier de l'informatique théorique et a contribué, pendant la Seconde Guerre mondiale, au déchiffrement du code Enigma ?",
+        "reponse": "Alan Turing",
+        "propositions": [
+          "Alan Turing",
+          "John von Neumann",
+          "Claude Shannon",
+          "Alonzo Church"
+        ],
+        "explication": "Ses travaux au centre de Bletchley Park ont contribué à accélérer la défaite de l'Allemagne nazie."
+      },
+      {
+        "question": "Quel ancien réseau de routes commerciales reliait la Chine à la Méditerranée depuis l'Antiquité, facilitant les échanges de tissus précieux, d'épices et d'idées ?",
+        "reponse": "La route de la soie",
+        "propositions": [
+          "La route de la soie",
+          "La route des épices",
+          "La route de l'ambre",
+          "La route de l'encens"
+        ],
+        "explication": "Cette appellation moderne a été popularisée au XIXe siècle par le géographe allemand Ferdinand von Richthofen."
       }
     ]
   }

@@ -386,6 +386,116 @@
           "Le Bourget"
         ],
         "explication": "Vivatech, lancé en 2016, est devenu l'un des plus grands salons technologiques et de l'innovation en Europe."
+      },
+      {
+        "question": "Quelle monnaie est utilisée dans les collectivités françaises du Pacifique comme la Polynésie française et la Nouvelle-Calédonie ?",
+        "reponse": "Le franc CFP",
+        "propositions": [
+          "Le franc CFP",
+          "L'euro",
+          "Le franc français",
+          "Le dollar australien"
+        ],
+        "explication": "Le franc CFP (franc Pacifique) a succédé en 1945 au franc et n'a pas été remplacé par l'euro dans ces territoires."
+      },
+      {
+        "question": "Quelle est la compagnie aérienne nationale historique de la France, fondée en 1933 ?",
+        "reponse": "Air France",
+        "propositions": [
+          "Air France",
+          "Air Inter",
+          "Corsair",
+          "Transavia France"
+        ],
+        "explication": "Air France est née en 1933 de la fusion de plusieurs compagnies aériennes françaises."
+      },
+      {
+        "question": "Quelle entreprise française est un leader mondial des produits laitiers et de l'eau en bouteille, propriétaire notamment des marques Activia et Evian ?",
+        "reponse": "Danone",
+        "propositions": [
+          "Danone",
+          "Lactalis",
+          "Bel",
+          "Bongrain"
+        ],
+        "explication": "Danone est un groupe agroalimentaire français présent dans plus de cent pays."
+      },
+      {
+        "question": "Quelle maison de luxe française, fondée en 1837, est notamment réputée pour ses sacs Birkin et Kelly ?",
+        "reponse": "Hermès",
+        "propositions": [
+          "Hermès",
+          "Louis Vuitton",
+          "Chanel",
+          "Céline"
+        ],
+        "explication": "Hermès est une maison familiale française spécialisée dans la maroquinerie de luxe depuis près de deux siècles."
+      },
+      {
+        "question": "Quelle est la plus ancienne confédération syndicale de salariés encore active en France, fondée en 1895 ?",
+        "reponse": "La CGT",
+        "propositions": [
+          "La CGT",
+          "La CFDT",
+          "FO",
+          "La CFTC"
+        ],
+        "explication": "La Confédération générale du travail (CGT) a été créée au congrès de Limoges en 1895."
+      },
+      {
+        "question": "Quelle enseigne française de grande distribution, fondée à Roubaix en 1961 par la famille Mulliez, exploite de nombreux hypermarchés ?",
+        "reponse": "Auchan",
+        "propositions": [
+          "Auchan",
+          "Carrefour",
+          "Casino",
+          "Cora"
+        ],
+        "explication": "Auchan a ouvert son premier magasin dans le quartier des Hauts-Champs à Roubaix."
+      },
+      {
+        "question": "Quelle entreprise française est un leader mondial de la fabrication de verres correcteurs pour lunettes ?",
+        "reponse": "Essilor",
+        "propositions": [
+          "Essilor",
+          "Afflelou",
+          "Krys",
+          "Optic 2000"
+        ],
+        "explication": "Essilor a fusionné avec l'italien Luxottica en 2018 pour former EssilorLuxottica."
+      },
+      {
+        "question": "Comment appelle-t-on le livret d'épargne réglementée réservé aux jeunes de 12 à 25 ans en France ?",
+        "reponse": "Le Livret Jeune",
+        "propositions": [
+          "Le Livret Jeune",
+          "Le Livret A",
+          "Le LDDS",
+          "Le PEL"
+        ],
+        "explication": "Le Livret Jeune est un produit d'épargne exonéré d'impôt, distinct du Livret A."
+      },
+      {
+        "question": "Quelle enseigne française, née dans le Nord, est l'un des leaders mondiaux de la distribution d'articles de sport ?",
+        "reponse": "Decathlon",
+        "propositions": [
+          "Decathlon",
+          "Intersport",
+          "Go Sport",
+          "Sports Experts"
+        ],
+        "explication": "Decathlon a ouvert son premier magasin près de Lille en 1976."
+      },
+      {
+        "question": "Quel groupe français de vins et spiritueux est né en 1975 de la fusion de deux marques d'anis ?",
+        "reponse": "Pernod Ricard",
+        "propositions": [
+          "Pernod Ricard",
+          "Rémy Cointreau",
+          "LVMH",
+          "Suntory"
+        ],
+        "explication": "Le groupe est issu de la fusion des sociétés Pernod et Ricard."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "La taxe d'apprentissage"
         ],
         "explication": "Cette taxe s'applique aux entreprises du numérique dont le chiffre d'affaires dépasse certains seuils mondiaux et français."
+      },
+      {
+        "question": "Quel organisme paritaire gère financièrement l'assurance chômage en France, aux côtés de l'opérateur France Travail ?",
+        "reponse": "L'Unédic",
+        "propositions": [
+          "L'Unédic",
+          "L'URSSAF",
+          "La CNAV",
+          "La CAF"
+        ],
+        "explication": "L'Unédic est gérée par les syndicats de salariés et les organisations patronales, qui en définissent les règles."
+      },
+      {
+        "question": "Quel numéro identifie de manière unique chaque entreprise auprès de l'INSEE en France ?",
+        "reponse": "Le numéro SIREN",
+        "propositions": [
+          "Le numéro SIREN",
+          "Le numéro fiscal",
+          "Le code APE",
+          "Le numéro de TVA intracommunautaire"
+        ],
+        "explication": "Le SIREN, composé de neuf chiffres, identifie l'entreprise, tandis que le SIRET identifie chacun de ses établissements."
+      },
+      {
+        "question": "Comment appelle-t-on la taxe versée par les entreprises françaises pour financer la formation professionnelle initiale et l'apprentissage ?",
+        "reponse": "La taxe d'apprentissage",
+        "propositions": [
+          "La taxe d'apprentissage",
+          "La taxe foncière",
+          "La contribution économique territoriale",
+          "La taxe sur les salaires"
+        ],
+        "explication": "Cette taxe finance notamment les centres de formation d'apprentis (CFA)."
+      },
+      {
+        "question": "Quel organisme garantit les dépôts des épargnants français, jusqu'à 100 000 euros par personne et par établissement, en cas de défaillance d'une banque ?",
+        "reponse": "Le Fonds de garantie des dépôts et de résolution (FGDR)",
+        "propositions": [
+          "Le Fonds de garantie des dépôts et de résolution (FGDR)",
+          "L'AMF",
+          "L'ACPR",
+          "La Banque de France"
+        ],
+        "explication": "Le FGDR indemnise les déposants dans un délai rapide en cas de faillite bancaire."
+      },
+      {
+        "question": "Quel bâtiment parisien, construit au début du XIXe siècle, a longtemps abrité la Bourse de Paris avant la dématérialisation des échanges ?",
+        "reponse": "Le Palais Brongniart",
+        "propositions": [
+          "Le Palais Brongniart",
+          "Le Palais Garnier",
+          "Le Palais de la Bourse de Lyon",
+          "Le Palais Bourbon"
+        ],
+        "explication": "Le Palais Brongniart, place de la Bourse, accueille aujourd'hui des événements plutôt que des cotations."
+      },
+      {
+        "question": "Comment appelle-t-on le livret d'épargne réglementée destiné à financer la transition écologique et l'économie sociale et solidaire ?",
+        "reponse": "Le LDDS (Livret de développement durable et solidaire)",
+        "propositions": [
+          "Le LDDS (Livret de développement durable et solidaire)",
+          "Le Livret A",
+          "Le PEA",
+          "Le PEL"
+        ],
+        "explication": "Le LDDS a succédé au Codevi, avec un fonctionnement proche de celui du Livret A."
+      },
+      {
+        "question": "Quelle entreprise française est un leader mondial de la gestion de l'énergie et de l'automatisation industrielle ?",
+        "reponse": "Schneider Electric",
+        "propositions": [
+          "Schneider Electric",
+          "Legrand",
+          "Alstom",
+          "Thales"
+        ],
+        "explication": "Schneider Electric, dont le siège est à Rueil-Malmaison, est présent dans plus d'une centaine de pays."
+      },
+      {
+        "question": "Quelle entreprise française de conseil et de services informatiques a été fondée à Grenoble en 1967 par Serge Kampf ?",
+        "reponse": "Capgemini",
+        "propositions": [
+          "Capgemini",
+          "Atos",
+          "Sopra Steria",
+          "Dassault Systèmes"
+        ],
+        "explication": "Capgemini est devenu l'un des plus grands groupes mondiaux de conseil et de services numériques."
+      },
+      {
+        "question": "Quel groupe aérien franco-néerlandais est né de la fusion d'Air France et de KLM en 2004 ?",
+        "reponse": "Air France-KLM",
+        "propositions": [
+          "Air France-KLM",
+          "Lufthansa Group",
+          "IAG",
+          "SkyTeam"
+        ],
+        "explication": "Cette fusion a créé l'un des plus grands groupes aériens au monde en termes de chiffre d'affaires."
+      },
+      {
+        "question": "Quelle entreprise française figure parmi les plus grands groupes pharmaceutiques mondiaux, avec son siège à Paris ?",
+        "reponse": "Sanofi",
+        "propositions": [
+          "Sanofi",
+          "Servier",
+          "Ipsen",
+          "Biogen"
+        ],
+        "explication": "Sanofi est notamment issu des fusions successives de Sanofi, Synthélabo puis Aventis au début des années 2000."
       }
     ],
     "3": [
@@ -997,7 +1217,7 @@
         "explication": "Bastiat est également connu pour sa satire 'Pétition des fabricants de chandelles' contre le protectionnisme."
       },
       {
-        "question": "Quelle banque d'affaires française, fondée en 1872, a fusionné avec la BNP en 2000 pour former BNP Paribas ?",
+        "question": "Quelle banque d'affaires française, fondée en 1872, a fusionné avec la BNP en 2000, donnant naissance au grand groupe bancaire que l'on connaît aujourd'hui ?",
         "reponse": "Paribas",
         "propositions": [
           "Paribas",
@@ -1160,6 +1380,116 @@
           "La Grande Dépression de 1929"
         ],
         "explication": "Cette crise, partie du marché immobilier américain, s'est rapidement propagée à l'économie mondiale, dont la France, entraînant un plan de relance et de soutien bancaire."
+      },
+      {
+        "question": "Quel dispositif de salaire minimum, créé en 1950, a précédé le SMIC jusqu'à sa transformation en 1970 ?",
+        "reponse": "Le SMIG (salaire minimum interprofessionnel garanti)",
+        "propositions": [
+          "Le SMIG (salaire minimum interprofessionnel garanti)",
+          "Le RMI",
+          "La CSG",
+          "Le RSA"
+        ],
+        "explication": "Le SMIG a été remplacé par le SMIC en 1970, indexé non plus seulement sur les prix mais aussi sur la croissance des salaires."
+      },
+      {
+        "question": "Quelle entreprise française de matériaux de construction, fondée en 1665 comme manufacture royale sous Colbert, est aujourd'hui un leader mondial du secteur ?",
+        "reponse": "Saint-Gobain",
+        "propositions": [
+          "Saint-Gobain",
+          "Lafarge",
+          "Vicat",
+          "Imerys"
+        ],
+        "explication": "Saint-Gobain fut créée pour fournir les glaces du château de Versailles et concurrencer le monopole vénitien."
+      },
+      {
+        "question": "Quelle famille d'entrepreneurs du Nord de la France contrôle un vaste empire incluant Auchan, Decathlon et Leroy Merlin ?",
+        "reponse": "La famille Mulliez",
+        "propositions": [
+          "La famille Mulliez",
+          "La famille Bettencourt",
+          "La famille Dassault",
+          "La famille Peugeot"
+        ],
+        "explication": "Cette dynastie familiale, originaire de Roubaix, détient son empire via l'Association familiale Mulliez."
+      },
+      {
+        "question": "Quel grand groupe pharmaceutique français est né en 2004 de la fusion entre Sanofi-Synthélabo et Aventis ?",
+        "reponse": "Sanofi",
+        "propositions": [
+          "Sanofi",
+          "Rhône-Poulenc",
+          "Pierre Fabre",
+          "Servier"
+        ],
+        "explication": "Aventis résultait lui-même d'une fusion antérieure entre Hoechst et Rhône-Poulenc en 1999."
+      },
+      {
+        "question": "Quel groupe français de vins et spiritueux est né en 1975 de la fusion des maisons d'anis Pernod et Ricard ?",
+        "reponse": "Pernod Ricard",
+        "propositions": [
+          "Pernod Ricard",
+          "Rémy Cointreau",
+          "Bacardi",
+          "Diageo"
+        ],
+        "explication": "Pernod Ricard est devenu, au fil de ses acquisitions, le deuxième groupe mondial de vins et spiritueux."
+      },
+      {
+        "question": "Quel économiste français, directeur général de l'INSEE puis président de la Cour des comptes dans les années 1970-1980, a théorisé le 'chômage keynésien' et le 'chômage classique' ?",
+        "reponse": "Edmond Malinvaud",
+        "propositions": [
+          "Edmond Malinvaud",
+          "Michel Aglietta",
+          "Jean Tirole",
+          "Maurice Allais"
+        ],
+        "explication": "Malinvaud a formalisé une distinction influente entre deux grands types de déséquilibres expliquant le chômage."
+      },
+      {
+        "question": "Quelle compagnie commerciale française, créée par Colbert en 1664, détenait un monopole royal sur le commerce avec l'Asie ?",
+        "reponse": "La Compagnie française des Indes orientales",
+        "propositions": [
+          "La Compagnie française des Indes orientales",
+          "La Compagnie du Mississippi",
+          "La Compagnie du Sénégal",
+          "La Compagnie des Cent-Associés"
+        ],
+        "explication": "Cette compagnie visait à concurrencer les compagnies des Indes néerlandaise et anglaise sur les routes commerciales asiatiques."
+      },
+      {
+        "question": "Quel ingénieur et diplomate français a dirigé la construction du canal de Suez, inauguré en 1869 ?",
+        "reponse": "Ferdinand de Lesseps",
+        "propositions": [
+          "Ferdinand de Lesseps",
+          "Gustave Eiffel",
+          "Alexandre Gustave de Freycinet",
+          "Paul Doumer"
+        ],
+        "explication": "La Compagnie universelle du canal maritime de Suez, dirigée par Lesseps, resta sous contrôle majoritairement français et britannique jusqu'à la nationalisation égyptienne de 1956."
+      },
+      {
+        "question": "Quelle crise monétaire de 1924, marquée par une spéculation intense contre le franc français sur les marchés des changes, a précédé la stabilisation Poincaré ?",
+        "reponse": "La crise du franc de 1924",
+        "propositions": [
+          "La crise du franc de 1924",
+          "Le krach de l'Union Générale",
+          "Le système de Law",
+          "Le tournant de la rigueur"
+        ],
+        "explication": "Cette crise, liée aux lourdes dettes de reconstruction d'après-guerre, a précédé la stabilisation monétaire menée par Raymond Poincaré."
+      },
+      {
+        "question": "Quel homme d'État français est l'auteur de la déclaration du 9 mai 1950, qui a posé les bases de la Communauté européenne du charbon et de l'acier (CECA) ?",
+        "reponse": "Robert Schuman",
+        "propositions": [
+          "Robert Schuman",
+          "Jean Monnet",
+          "René Pleven",
+          "Georges Bidault"
+        ],
+        "explication": "Jean Monnet a rédigé le texte, mais c'est le ministre des Affaires étrangères Robert Schuman qui l'a présenté publiquement, donnant son nom à cette déclaration fondatrice."
       }
     ]
   }

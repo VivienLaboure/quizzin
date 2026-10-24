@@ -386,6 +386,116 @@
           "Le Jura"
         ],
         "explication": "L'Alpe d'Huez, dans l'Isère, est une station emblématique des Alpes françaises, aussi connue pour son col emprunté par le Tour de France."
+      },
+      {
+        "question": "Quelle grande île française d'outre-mer, dans les Antilles, a pour chef-lieu Fort-de-France ?",
+        "reponse": "La Martinique",
+        "propositions": [
+          "La Martinique",
+          "La Guadeloupe",
+          "La Dominique",
+          "Sainte-Lucie"
+        ],
+        "explication": "La Martinique est un département et une région d'outre-mer française située dans les Petites Antilles."
+      },
+      {
+        "question": "Quel îlot rocheux normand, surmonté d'une abbaye et entouré par la mer à marée haute, est l'un des monuments les plus visités de France ?",
+        "reponse": "Le Mont-Saint-Michel",
+        "propositions": [
+          "Le Mont-Saint-Michel",
+          "L'île de Ré",
+          "Le Fort Boyard",
+          "L'île de Noirmoutier"
+        ],
+        "explication": "Le Mont-Saint-Michel, classé au patrimoine mondial de l'UNESCO, se situe à la limite de la Normandie et de la Bretagne."
+      },
+      {
+        "question": "Quelle ville normande est la préfecture de la région Normandie ?",
+        "reponse": "Rouen",
+        "propositions": [
+          "Rouen",
+          "Caen",
+          "Le Havre",
+          "Évreux"
+        ],
+        "explication": "Rouen, sur les bords de la Seine, a été désignée préfecture de la Normandie réunifiée en 2016."
+      },
+      {
+        "question": "Quelle ville est la préfecture de la région Hauts-de-France ?",
+        "reponse": "Lille",
+        "propositions": [
+          "Lille",
+          "Amiens",
+          "Arras",
+          "Calais"
+        ],
+        "explication": "Lille est la préfecture de la région Hauts-de-France, née en 2016 de la fusion du Nord-Pas-de-Calais et de la Picardie."
+      },
+      {
+        "question": "Quel pont-aqueduc romain antique, classé au patrimoine mondial de l'UNESCO, enjambe le Gardon dans le département du Gard ?",
+        "reponse": "Le Pont du Gard",
+        "propositions": [
+          "Le Pont du Gard",
+          "Le viaduc de Millau",
+          "Le pont Julien",
+          "Le pont Flavien"
+        ],
+        "explication": "Le Pont du Gard faisait partie d'un aqueduc de 50 km acheminant l'eau vers la ville antique de Nîmes."
+      },
+      {
+        "question": "Quel fleuve français prend sa source dans les Vosges et se jette dans le Rhin, après avoir traversé notamment Metz et Thionville ?",
+        "reponse": "La Moselle",
+        "propositions": [
+          "La Moselle",
+          "La Meuse",
+          "La Sarre",
+          "L'Yser"
+        ],
+        "explication": "La Moselle traverse aussi le Luxembourg et l'Allemagne avant de rejoindre le Rhin à Coblence."
+      },
+      {
+        "question": "Quelle ville de Champagne, mondialement connue pour son vin effervescent, abrite la cathédrale où étaient traditionnellement sacrés les rois de France ?",
+        "reponse": "Reims",
+        "propositions": [
+          "Reims",
+          "Épernay",
+          "Châlons-en-Champagne",
+          "Troyes"
+        ],
+        "explication": "La cathédrale Notre-Dame de Reims a accueilli le sacre de la quasi-totalité des rois de France depuis le Moyen Âge."
+      },
+      {
+        "question": "Quelle grande ville de l'est de la France, sur la Moselle, est la préfecture du département de la Moselle et l'ancienne capitale historique de la Lorraine ?",
+        "reponse": "Metz",
+        "propositions": [
+          "Metz",
+          "Nancy",
+          "Épinal",
+          "Thionville"
+        ],
+        "explication": "Metz a succédé à Nancy comme capitale régionale lorraine après le rattachement de l'Alsace-Moselle à l'Allemagne entre 1871 et 1918."
+      },
+      {
+        "question": "Quelle est la plus grande région administrative française par sa superficie ?",
+        "reponse": "La Nouvelle-Aquitaine",
+        "propositions": [
+          "La Nouvelle-Aquitaine",
+          "Auvergne-Rhône-Alpes",
+          "L'Occitanie",
+          "Le Grand Est"
+        ],
+        "explication": "La Nouvelle-Aquitaine, née en 2016 de la fusion de trois régions, couvre plus de 84 000 km²."
+      },
+      {
+        "question": "Quelle est la plus haute tour construite en France, un monument parisien emblématique achevé en 1889 ?",
+        "reponse": "La tour Eiffel",
+        "propositions": [
+          "La tour Eiffel",
+          "La tour Montparnasse",
+          "La Grande Arche",
+          "La tour First"
+        ],
+        "explication": "La tour Eiffel, construite pour l'Exposition universelle de 1889, culmine à environ 330 mètres avec ses antennes."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Le canal de la Marne au Rhin"
         ],
         "explication": "Ce canal relie l'Yonne, affluent de la Seine, à la Saône, affluent du Rhône."
+      },
+      {
+        "question": "Quel département et région d'outre-mer français, situé en Amérique du Sud, est le plus vaste de tous les départements français ?",
+        "reponse": "La Guyane",
+        "propositions": [
+          "La Guyane",
+          "La Guadeloupe",
+          "La Martinique",
+          "La Réunion"
+        ],
+        "explication": "La Guyane couvre plus de 83 000 km², soit davantage que la plupart des régions de métropole."
+      },
+      {
+        "question": "Quel volcan actif, situé sur l'île de la Réunion, est l'un des plus actifs au monde ?",
+        "reponse": "Le Piton de la Fournaise",
+        "propositions": [
+          "Le Piton de la Fournaise",
+          "Le Piton des Neiges",
+          "La Montagne Pelée",
+          "La Grande Soufrière"
+        ],
+        "explication": "Le Piton de la Fournaise entre régulièrement en éruption, sans grand danger pour les populations grâce à sa situation isolée."
+      },
+      {
+        "question": "Quelle collectivité française du Pacifique regroupe l'île de Tahiti et ses archipels environnants ?",
+        "reponse": "La Polynésie française",
+        "propositions": [
+          "La Polynésie française",
+          "La Nouvelle-Calédonie",
+          "Wallis-et-Futuna",
+          "Clipperton"
+        ],
+        "explication": "La Polynésie française regroupe cinq archipels, dont les îles de la Société où se trouve Tahiti."
+      },
+      {
+        "question": "Quel archipel français, situé près de Terre-Neuve au Canada, est le dernier vestige de la Nouvelle-France en Amérique du Nord ?",
+        "reponse": "Saint-Pierre-et-Miquelon",
+        "propositions": [
+          "Saint-Pierre-et-Miquelon",
+          "La Guadeloupe",
+          "Les îles Kerguelen",
+          "Clipperton"
+        ],
+        "explication": "Cette collectivité d'outre-mer, proche du Canada, a conservé des liens culturels forts avec la métropole française."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des territoires français isolés de l'océan Indien et de l'Antarctique, incluant notamment les îles Kerguelen ?",
+        "reponse": "Les Terres australes et antarctiques françaises (TAAF)",
+        "propositions": [
+          "Les Terres australes et antarctiques françaises (TAAF)",
+          "La Polynésie française",
+          "Mayotte",
+          "Saint-Pierre-et-Miquelon"
+        ],
+        "explication": "Les TAAF regroupent notamment les îles Kerguelen, Crozet, Saint-Paul et Amsterdam, ainsi que la Terre Adélie."
+      },
+      {
+        "question": "Quel lac alpin, l'un des plus purs d'Europe, se situe en Haute-Savoie au pied du massif des Bornes ?",
+        "reponse": "Le lac d'Annecy",
+        "propositions": [
+          "Le lac d'Annecy",
+          "Le lac du Bourget",
+          "Le lac Léman",
+          "Le lac de Serre-Ponçon"
+        ],
+        "explication": "Le lac d'Annecy est réputé pour la qualité exceptionnelle de ses eaux, préservées par un important système d'assainissement."
+      },
+      {
+        "question": "Grâce à ses territoires d'outre-mer, la France dispose de la deuxième plus grande zone économique exclusive (ZEE) maritime au monde, derrière quel pays ?",
+        "reponse": "Les États-Unis",
+        "propositions": [
+          "Les États-Unis",
+          "L'Australie",
+          "Le Royaume-Uni",
+          "Le Canada"
+        ],
+        "explication": "La ZEE française, dispersée sur tous les océans du globe, couvre environ 11 millions de km²."
+      },
+      {
+        "question": "Quelle ville, siège historique de l'Auvergne et aujourd'hui préfecture du Puy-de-Dôme, est le berceau du groupe industriel Michelin ?",
+        "reponse": "Clermont-Ferrand",
+        "propositions": [
+          "Clermont-Ferrand",
+          "Vichy",
+          "Moulins",
+          "Le Puy-en-Velay"
+        ],
+        "explication": "La manufacture Michelin a été fondée à Clermont-Ferrand en 1889 et y a conservé son siège social."
+      },
+      {
+        "question": "Quelle ville de Savoie, bâtie entre deux lacs, est la préfecture du département de la Haute-Savoie ?",
+        "reponse": "Annecy",
+        "propositions": [
+          "Annecy",
+          "Chambéry",
+          "Thonon-les-Bains",
+          "Annemasse"
+        ],
+        "explication": "Annecy est surnommée la 'Venise des Alpes' pour ses canaux traversant la vieille ville."
+      },
+      {
+        "question": "Quelle presqu'île normande abrite le port militaire de Cherbourg, à l'extrémité nord-ouest de la France continentale ?",
+        "reponse": "Le Cotentin",
+        "propositions": [
+          "Le Cotentin",
+          "Le pays de Caux",
+          "La presqu'île de Crozon",
+          "Le cap de la Hague"
+        ],
+        "explication": "Le Cotentin s'avance dans la Manche et sépare approximativement le golfe normand-breton de la baie de Seine."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Grenoble"
         ],
         "explication": "Grenoble avait déjà accueilli les Jeux d'hiver en 1968, avant qu'Albertville ne les reçoive à son tour en 1992."
+      },
+      {
+        "question": "Quelle île des Antilles françaises, fondée comme colonie en 1635, est considérée comme l'une des plus anciennes colonies françaises encore en activité aujourd'hui ?",
+        "reponse": "La Martinique",
+        "propositions": [
+          "La Martinique",
+          "La Guadeloupe",
+          "Saint-Christophe",
+          "La Dominique"
+        ],
+        "explication": "La Martinique a été colonisée par Pierre Belain d'Esnambuc en 1635, au nom de la Compagnie des Îles d'Amérique."
+      },
+      {
+        "question": "Quelle collectivité française du Pacifique, distincte de la Polynésie française et de la Nouvelle-Calédonie, est composée de trois royaumes traditionnels coutumiers ?",
+        "reponse": "Wallis-et-Futuna",
+        "propositions": [
+          "Wallis-et-Futuna",
+          "Clipperton",
+          "Les îles Marquises",
+          "L'archipel des Tuamotu"
+        ],
+        "explication": "Wallis-et-Futuna conserve une organisation coutumière avec trois rois traditionnels, aux côtés de l'administration française."
+      },
+      {
+        "question": "Quel atoll français inhabité du Pacifique, aussi appelé 'île de la Passion', constitue un territoire directement rattaché à l'État, sans population permanente ?",
+        "reponse": "L'atoll de Clipperton",
+        "propositions": [
+          "L'atoll de Clipperton",
+          "L'atoll de Bora-Bora",
+          "L'île Tromelin",
+          "L'île de la Possession"
+        ],
+        "explication": "Clipperton ne relève d'aucune région ni collectivité et dépend directement du ministère chargé des outre-mer."
+      },
+      {
+        "question": "Comment les premiers explorateurs surnommaient-ils les îles Kerguelen, dans l'océan Indien austral, en raison de leur climat extrêmement hostile ?",
+        "reponse": "Les îles de la Désolation",
+        "propositions": [
+          "Les îles de la Désolation",
+          "Les îles du Désespoir",
+          "Les Terres Oubliées",
+          "L'Archipel Perdu"
+        ],
+        "explication": "Ce surnom a été donné par le navigateur britannique James Cook lors de son passage dans la région au XVIIIe siècle."
+      },
+      {
+        "question": "Quelles deux collectivités d'outre-mer antillaises se sont détachées administrativement de la Guadeloupe en 2007 ?",
+        "reponse": "Saint-Barthélemy et Saint-Martin",
+        "propositions": [
+          "Saint-Barthélemy et Saint-Martin",
+          "La Martinique et la Dominique",
+          "Saint-Martin et Saint-Kitts",
+          "Marie-Galante et les Saintes"
+        ],
+        "explication": "Ces deux îles sont devenues des collectivités d'outre-mer à statut particulier, distinctes du département de la Guadeloupe."
+      },
+      {
+        "question": "Quel volcan actif, point culminant de la Guadeloupe à 1 467 mètres, est aussi surnommé 'la vieille dame' ?",
+        "reponse": "La Grande Soufrière",
+        "propositions": [
+          "La Grande Soufrière",
+          "Le Piton de la Fournaise",
+          "La Montagne Pelée",
+          "Le Piton des Neiges"
+        ],
+        "explication": "La Grande Soufrière est un volcan actif de type explosif, surveillé en permanence en raison des risques qu'il présente."
+      },
+      {
+        "question": "Quel est le point culminant de la Martinique, un volcan tristement célèbre pour son éruption de 1902 qui détruisit la ville de Saint-Pierre ?",
+        "reponse": "La Montagne Pelée",
+        "propositions": [
+          "La Montagne Pelée",
+          "La Grande Soufrière",
+          "Le Piton des Neiges",
+          "Le Piton de la Fournaise"
+        ],
+        "explication": "L'éruption de 1902 a fait environ 28 000 morts, rasant quasiment intégralement la ville de Saint-Pierre."
+      },
+      {
+        "question": "Quelle grande rade naturelle, l'une des plus vastes d'Europe, abrite la principale base navale française sur la côte atlantique, en Bretagne ?",
+        "reponse": "La rade de Brest",
+        "propositions": [
+          "La rade de Brest",
+          "La rade de Toulon",
+          "La baie de Seine",
+          "Le golfe du Morbihan"
+        ],
+        "explication": "La rade de Brest, protégée par un goulet étroit, offre un abri naturel exceptionnel pour les navires de guerre."
+      },
+      {
+        "question": "Quel étang de la région Provence-Alpes-Côte d'Azur, situé à environ dix mètres sous le niveau de la mer, constitue le point le plus bas de France métropolitaine ?",
+        "reponse": "L'étang de Lavalduc",
+        "propositions": [
+          "L'étang de Lavalduc",
+          "L'étang de Berre",
+          "L'étang de Vaccarès",
+          "L'étang de Thau"
+        ],
+        "explication": "L'étang de Lavalduc, près de Fos-sur-Mer, doit sa dépression à d'anciennes exploitations de sel par dissolution."
+      },
+      {
+        "question": "Quel massif préalpin, théâtre d'un important maquis de la Résistance réprimé en 1944, se situe entre Grenoble et Valence ?",
+        "reponse": "Le Vercors",
+        "propositions": [
+          "Le Vercors",
+          "La Chartreuse",
+          "Le Dévoluy",
+          "Le Diois"
+        ],
+        "explication": "Le maquis du Vercors a rassemblé plusieurs milliers de résistants avant d'être durement réprimé par les forces allemandes en juillet 1944."
       }
     ]
   }

@@ -386,6 +386,116 @@
           "Pluton (planète naine)"
         ],
         "explication": "Mercure est plus petite que certaines lunes du système solaire, comme Ganymède ou Titan."
+      },
+      {
+        "question": "Quelle force maintient les planètes en orbite autour du Soleil ?",
+        "reponse": "La gravité",
+        "propositions": [
+          "La gravité",
+          "Le magnétisme",
+          "La pression atmosphérique",
+          "La lumière"
+        ],
+        "explication": "La gravité du Soleil, qui concentre à lui seul plus de 99 % de la masse du système solaire, maintient les planètes sur leur orbite."
+      },
+      {
+        "question": "Quelle est la plus grande des planètes telluriques (rocheuses) du système solaire ?",
+        "reponse": "La Terre",
+        "propositions": [
+          "La Terre",
+          "Vénus",
+          "Mars",
+          "Mercure"
+        ],
+        "explication": "Parmi les quatre planètes rocheuses, la Terre est la plus grande, suivie de près par Vénus."
+      },
+      {
+        "question": "Quelle planète est souvent qualifiée de \"jumelle\" de la Terre en raison de sa taille et de sa masse très proches ?",
+        "reponse": "Vénus",
+        "propositions": [
+          "Vénus",
+          "Mars",
+          "Mercure",
+          "Jupiter"
+        ],
+        "explication": "Vénus a un diamètre très proche de celui de la Terre, bien que ses conditions de surface soient radicalement différentes."
+      },
+      {
+        "question": "Comment appelle-t-on une pleine Lune qui paraît plus grande et plus brillante que d'habitude, car la Lune est alors au plus proche de la Terre sur son orbite ?",
+        "reponse": "Une \"super Lune\"",
+        "propositions": [
+          "Une \"super Lune\"",
+          "Une éclipse",
+          "Une lune bleue",
+          "Une lune de sang"
+        ],
+        "explication": "Lors d'une super Lune, l'astre apparaît environ 14 % plus grand et jusqu'à 30 % plus brillant qu'à son point le plus éloigné de la Terre."
+      },
+      {
+        "question": "Quelle planète est entourée d'une atmosphère si dense et nuageuse qu'elle masque totalement sa surface aux télescopes optiques classiques ?",
+        "reponse": "Vénus",
+        "propositions": [
+          "Vénus",
+          "Mars",
+          "Mercure",
+          "La Terre"
+        ],
+        "explication": "D'épais nuages d'acide sulfurique enveloppent Vénus, rendant sa surface invisible sans l'usage d'instruments radar."
+      },
+      {
+        "question": "Environ combien de temps faut-il à la Lune pour effectuer un tour complet autour de la Terre ?",
+        "reponse": "Environ 27 à 29 jours",
+        "propositions": [
+          "Environ 27 à 29 jours",
+          "Environ 7 jours",
+          "Environ 100 jours",
+          "Environ 1 jour"
+        ],
+        "explication": "La Lune met environ 27,3 jours pour une révolution complète autour de la Terre."
+      },
+      {
+        "question": "Quelle planète du système solaire ne connaît presque aucune saison, car son axe de rotation est presque parfaitement vertical ?",
+        "reponse": "Mercure",
+        "propositions": [
+          "Mercure",
+          "La Terre",
+          "Mars",
+          "Uranus"
+        ],
+        "explication": "L'axe de rotation de Mercure est incliné de moins d'un degré, ce qui limite fortement les variations saisonnières."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène par lequel une planète semble s'arrêter puis repartir en arrière dans le ciel, observée depuis la Terre ?",
+        "reponse": "Le mouvement rétrograde apparent",
+        "propositions": [
+          "Le mouvement rétrograde apparent",
+          "Une éclipse",
+          "Une occultation",
+          "Un transit"
+        ],
+        "explication": "Ce mouvement, bien connu pour Mars, résulte du fait que la Terre, plus rapide sur son orbite, dépasse périodiquement les planètes extérieures."
+      },
+      {
+        "question": "Comment appelle-t-on le point d'une orbite où une planète se trouve le plus proche du Soleil ?",
+        "reponse": "Le périhélie",
+        "propositions": [
+          "Le périhélie",
+          "L'aphélie",
+          "Le zénith",
+          "L'apogée"
+        ],
+        "explication": "Le point le plus éloigné du Soleil sur une orbite elliptique est, à l'inverse, appelé l'aphélie."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène où Mercure ou Vénus passe directement devant le disque du Soleil, vu depuis la Terre ?",
+        "reponse": "Un transit",
+        "propositions": [
+          "Un transit",
+          "Une éclipse",
+          "Une occultation",
+          "Une conjonction"
+        ],
+        "explication": "Les transits de Vénus sont particulièrement rares, se produisant par paires séparées de plus d'un siècle."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Le télescope Spitzer"
         ],
         "explication": "Le James Webb observe principalement dans l'infrarouge, ce qui lui permet de révéler des détails inédits sur Jupiter, Neptune ou Mars."
+      },
+      {
+        "question": "Comment appelle-t-on la région autour d'une étoile où les conditions de température permettraient à l'eau d'exister à l'état liquide à la surface d'une planète ?",
+        "reponse": "La zone habitable",
+        "propositions": [
+          "La zone habitable",
+          "La limite de Roche",
+          "La sphère de Hill",
+          "L'héliosphère"
+        ],
+        "explication": "La Terre se situe dans la zone habitable du Soleil, ce qui permet à l'eau liquide d'y exister durablement."
+      },
+      {
+        "question": "Comment appelle-t-on la technique utilisée par certaines sondes spatiales pour accélérer et changer de trajectoire en exploitant la gravité d'une planète, sans consommer de carburant ?",
+        "reponse": "L'assistance gravitationnelle",
+        "propositions": [
+          "L'assistance gravitationnelle",
+          "La propulsion ionique",
+          "L'orbite géostationnaire",
+          "La rentrée atmosphérique"
+        ],
+        "explication": "Les sondes Voyager ont utilisé cette technique pour visiter successivement plusieurs planètes géantes dans les années 1980."
+      },
+      {
+        "question": "Quelle est la plus grande lune d'Uranus, découverte en 1787 par William Herschel ?",
+        "reponse": "Titania",
+        "propositions": [
+          "Titania",
+          "Oberon",
+          "Miranda",
+          "Ariel"
+        ],
+        "explication": "Titania est nommée d'après la reine des fées du 'Songe d'une nuit d'été' de Shakespeare."
+      },
+      {
+        "question": "Quelle lune d'Uranus présente une surface extrêmement chaotique, marquée de falaises vertigineuses suggérant une histoire géologique violente ?",
+        "reponse": "Miranda",
+        "propositions": [
+          "Miranda",
+          "Ariel",
+          "Umbriel",
+          "Oberon"
+        ],
+        "explication": "Les falaises de Miranda, observées par la sonde Voyager 2 en 1986, comptent parmi les plus hautes du système solaire."
+      },
+      {
+        "question": "Quel est le nom de l'étoile la plus proche du Soleil, à environ 4,2 années-lumière ?",
+        "reponse": "Proxima du Centaure",
+        "propositions": [
+          "Proxima du Centaure",
+          "Sirius",
+          "Bételgeuse",
+          "Alpha du Centaure A"
+        ],
+        "explication": "Proxima du Centaure fait partie du système stellaire d'Alpha du Centaure, le plus proche du système solaire."
+      },
+      {
+        "question": "Comment appelle-t-on les bandes de nuages colorées, alternant selon la latitude, observées dans l'atmosphère de Jupiter ?",
+        "reponse": "Les ceintures et zones nuageuses",
+        "propositions": [
+          "Les ceintures et zones nuageuses",
+          "Les anneaux planétaires",
+          "L'effet de serre",
+          "Les aurores polaires"
+        ],
+        "explication": "Ces bandes résultent de puissants courants atmosphériques circulant à des vitesses différentes selon la latitude."
+      },
+      {
+        "question": "Quelle est la durée approximative d'une année sur Jupiter, exprimée en années terrestres ?",
+        "reponse": "Environ 12 ans",
+        "propositions": [
+          "Environ 12 ans",
+          "Environ 5 ans",
+          "Environ 30 ans",
+          "Environ 84 ans"
+        ],
+        "explication": "Jupiter met environ 12 années terrestres pour effectuer une révolution complète autour du Soleil."
+      },
+      {
+        "question": "Quel phénomène, étudié par la sonde Juno, désigne les gigantesques éclairs observés dans l'atmosphère profonde de Jupiter ?",
+        "reponse": "Les éclairs joviens",
+        "propositions": [
+          "Les éclairs joviens",
+          "Les aurores joviennes",
+          "La Grande Tache rouge",
+          "Les ceintures de radiation"
+        ],
+        "explication": "Ces éclairs seraient liés à la présence de nuages d'eau et d'ammoniac dans les couches profondes de l'atmosphère de Jupiter."
+      },
+      {
+        "question": "Quelle est la durée approximative d'une année sur Neptune, exprimée en années terrestres ?",
+        "reponse": "Environ 165 ans",
+        "propositions": [
+          "Environ 165 ans",
+          "Environ 84 ans",
+          "Environ 248 ans",
+          "Environ 30 ans"
+        ],
+        "explication": "Neptune, découverte en 1846, n'a complété sa première orbite entière depuis sa découverte qu'en 2011."
+      },
+      {
+        "question": "Quelle particularité étonnante présente la rotation de Vénus sur elle-même, comparée à sa révolution autour du Soleil ?",
+        "reponse": "Sa rotation sur elle-même (environ 243 jours) dure plus longtemps que son année (environ 225 jours)",
+        "propositions": [
+          "Sa rotation sur elle-même (environ 243 jours) dure plus longtemps que son année (environ 225 jours)",
+          "Sa rotation sur elle-même dure exactement une année",
+          "Vénus n'effectue aucune rotation sur elle-même",
+          "Sa rotation sur elle-même dure une heure"
+        ],
+        "explication": "Vénus met environ 225 jours terrestres à orbiter autour du Soleil, mais environ 243 jours terrestres pour effectuer une rotation complète sur elle-même, ce qui en fait un cas unique parmi les planètes."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Dragonfly"
         ],
         "explication": "Europa Clipper doit effectuer de nombreux survols rapprochés d'Europe pour évaluer son habitabilité potentielle."
+      },
+      {
+        "question": "Quel astronome danois a réalisé, à la fin du XVIe siècle, des observations planétaires d'une précision inédite, sans télescope, qui ont permis à Johannes Kepler d'établir ses lois du mouvement ?",
+        "reponse": "Tycho Brahe",
+        "propositions": [
+          "Tycho Brahe",
+          "Nicolas Copernic",
+          "Giordano Bruno",
+          "Galilée"
+        ],
+        "explication": "Tycho Brahe avait fait construire à Uraniborg un observatoire doté d'instruments de mesure d'une précision remarquable pour son époque."
+      },
+      {
+        "question": "Quel astronome polonais a proposé, dans un ouvrage publié en 1543, un modèle plaçant le Soleil, et non la Terre, au centre du système solaire ?",
+        "reponse": "Nicolas Copernic",
+        "propositions": [
+          "Nicolas Copernic",
+          "Johannes Kepler",
+          "Galilée",
+          "Giordano Bruno"
+        ],
+        "explication": "'De revolutionibus orbium coelestium' a marqué une rupture majeure avec le modèle géocentrique dominant depuis l'Antiquité."
+      },
+      {
+        "question": "Quelle sonde de la NASA, lancée en 1989, a étudié Jupiter et ses lunes de 1995 à 2003, avant de se désintégrer volontairement dans l'atmosphère de la planète ?",
+        "reponse": "Galileo",
+        "propositions": [
+          "Galileo",
+          "Juno",
+          "Cassini",
+          "Pioneer 10"
+        ],
+        "explication": "La sonde Galileo a notamment fourni des données suggérant la présence probable d'un océan sous la surface glacée d'Europe."
+      },
+      {
+        "question": "Quel phénomène, alimenté en permanence par l'activité volcanique d'Io, forme un immense tore de particules chargées piégées par le champ magnétique de Jupiter ?",
+        "reponse": "Le tore de plasma d'Io",
+        "propositions": [
+          "Le tore de plasma d'Io",
+          "L'anneau de Jupiter",
+          "La magnétosphère de Ganymède",
+          "La ceinture de Van Allen jovienne"
+        ],
+        "explication": "Ce tore est alimenté en continu par les émissions volcaniques de soufre et d'oxygène éjectées par Io."
+      },
+      {
+        "question": "Au-delà de quelle masse approximative, exprimée en masses de Jupiter, un objet est-il généralement considéré comme une naine brune plutôt qu'une planète géante ?",
+        "reponse": "Environ 13 masses de Jupiter",
+        "propositions": [
+          "Environ 13 masses de Jupiter",
+          "Environ 5 masses de Jupiter",
+          "Environ 50 masses de Jupiter",
+          "Environ 1 masse de Jupiter"
+        ],
+        "explication": "Au-delà de ce seuil, la pression interne devient suffisante pour déclencher la fusion du deutérium, caractéristique des naines brunes."
+      },
+      {
+        "question": "Quelle mission de la NASA, en orbite autour de Mercure de 2011 à 2015, a fourni la première cartographie complète de la planète ?",
+        "reponse": "MESSENGER",
+        "propositions": [
+          "MESSENGER",
+          "BepiColombo",
+          "Mariner 10",
+          "MAVEN"
+        ],
+        "explication": "MESSENGER a notamment découvert des traces de glace d'eau dans des cratères permanemment ombragés situés aux pôles de Mercure."
+      },
+      {
+        "question": "Quelle mission conjointe de l'ESA et de la JAXA (agence spatiale japonaise), lancée en 2018 à destination de Mercure, nécessite neuf survols planétaires avant sa mise en orbite ?",
+        "reponse": "BepiColombo",
+        "propositions": [
+          "BepiColombo",
+          "MESSENGER",
+          "Solar Orbiter",
+          "JUICE"
+        ],
+        "explication": "Baptisée en l'honneur du mathématicien italien Giuseppe \"Bepi\" Colombo, cette mission doit étudier le champ magnétique et la composition de Mercure."
+      },
+      {
+        "question": "Quel terme désigne la légère variation, au cours de l'année, entre l'heure solaire réelle et l'heure moyenne, due à l'inclinaison de l'axe terrestre et à la forme elliptique de son orbite ?",
+        "reponse": "L'équation du temps",
+        "propositions": [
+          "L'équation du temps",
+          "La précession des équinoxes",
+          "La nutation",
+          "La libration"
+        ],
+        "explication": "Cette variation, de quelques minutes, est à l'origine de la forme en \"8\" du cadran solaire appelé analemme."
+      },
+      {
+        "question": "Quelle sonde spatiale soviétique a été la première à se poser avec succès sur la surface de Vénus et à transmettre des données, en 1970 ?",
+        "reponse": "Venera 7",
+        "propositions": [
+          "Venera 7",
+          "Venera 4",
+          "Mariner 2",
+          "Pioneer Venus"
+        ],
+        "explication": "Venera 7 a résisté quelques minutes aux conditions extrêmes de pression et de température avant de cesser d'émettre."
+      },
+      {
+        "question": "Comment appelle-t-on les tourbillons de poussière, parfois hauts de plusieurs kilomètres, observés traversant la surface de Mars ?",
+        "reponse": "Les tornades de poussière martiennes (dust devils)",
+        "propositions": [
+          "Les tornades de poussière martiennes (dust devils)",
+          "Les tempêtes globales",
+          "Les geysers de dioxyde de carbone",
+          "Les vents catabatiques"
+        ],
+        "explication": "Ces tourbillons ont même contribué, en passant sur certains rovers, à nettoyer accidentellement leurs panneaux solaires recouverts de poussière."
       }
     ]
   }

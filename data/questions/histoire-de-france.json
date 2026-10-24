@@ -146,7 +146,7 @@
         "explication": "Ce texte est adopté par l'Assemblée nationale constituante en août 1789."
       },
       {
-        "question": "Quelle ville a été la capitale du régime de Vichy pendant l'Occupation ?",
+        "question": "Quelle ville thermale d'Auvergne, choisie pour la qualité de ses infrastructures hôtelières, est devenue le siège du gouvernement français de 1940 à 1944 ?",
         "reponse": "Vichy",
         "propositions": [
           "Vichy",
@@ -386,6 +386,66 @@
           "La place des Vosges"
         ],
         "explication": "Cette place a porté plusieurs noms successifs, dont 'place de la Révolution' pendant la période révolutionnaire."
+      },
+      {
+        "question": "Quel chef gaulois a mené la résistance face à Jules César avant sa défaite au siège d'Alésia en 52 avant J.-C. ?",
+        "reponse": "Vercingétorix",
+        "propositions": ["Vercingétorix", "Brennus", "Arioviste", "Ambiorix"],
+        "explication": "Vercingétorix, chef des Arvernes, s'est rendu à César après le siège d'Alésia, marquant la fin de l'indépendance gauloise."
+      },
+      {
+        "question": "Vers quelle année le roi franc Clovis s'est-il fait baptiser à Reims, un événement fondateur associant durablement la monarchie française au catholicisme ?",
+        "reponse": "Vers 496",
+        "propositions": ["Vers 496", "Vers 843", "Vers 987", "Vers 732"],
+        "explication": "Ce baptême, administré par l'évêque saint Remi, fait de Clovis le premier roi barbare converti au catholicisme plutôt qu'à l'arianisme."
+      },
+      {
+        "question": "En quelle année Charlemagne a-t-il été couronné empereur d'Occident par le pape à Rome ?",
+        "reponse": "En 800",
+        "propositions": ["En 800", "En 843", "En 768", "En 987"],
+        "explication": "Ce couronnement, réalisé par le pape Léon III le jour de Noël, marque la restauration symbolique de l'Empire romain d'Occident en Europe."
+      },
+      {
+        "question": "Qui a composé 'La Marseillaise', hymne national français, en 1792 ?",
+        "reponse": "Claude Joseph Rouget de Lisle",
+        "propositions": ["Claude Joseph Rouget de Lisle", "Hector Berlioz", "Jean-Baptiste Lully", "Georges Bizet"],
+        "explication": "Ce chant, composé à Strasbourg, devient l'hymne national français en 1795, puis définitivement sous la IIIe République."
+      },
+      {
+        "question": "Quel régime politique est proclamé par la Convention le 22 septembre 1792, mettant fin à la monarchie en France ?",
+        "reponse": "La Première République",
+        "propositions": ["La Première République", "Le Directoire", "Le Consulat", "La Deuxième République"],
+        "explication": "Cette proclamation suit de quelques semaines la victoire de Valmy et l'abolition de la royauté par l'Assemblée."
+      },
+      {
+        "question": "Quel vaste territoire nord-américain Napoléon Bonaparte a-t-il vendu aux États-Unis en 1803 ?",
+        "reponse": "La Louisiane",
+        "propositions": ["La Louisiane", "Le Québec", "La Floride", "L'Acadie"],
+        "explication": "Cette vente, négociée pour environ 15 millions de dollars, a permis aux États-Unis de doubler quasiment leur superficie."
+      },
+      {
+        "question": "Depuis quelle ville le général de Gaulle a-t-il lancé son célèbre appel du 18 juin 1940 à la radio britannique BBC ?",
+        "reponse": "Londres",
+        "propositions": ["Londres", "Alger", "Bordeaux", "Vichy"],
+        "explication": "Dans cet appel, de Gaulle invite les Français à poursuivre la résistance contre l'occupant allemand malgré la défaite militaire."
+      },
+      {
+        "question": "Quelle coalition de gauche, menée par Léon Blum, instaure en 1936 les premiers congés payés et la semaine de 40 heures en France ?",
+        "reponse": "Le Front populaire",
+        "propositions": ["Le Front populaire", "Le Cartel des gauches", "Le Conseil national de la Résistance", "Le gouvernement d'union nationale"],
+        "explication": "Ces avancées sociales font suite à un vaste mouvement de grèves et aux accords de Matignon signés en juin 1936."
+      },
+      {
+        "question": "Quelle ministre de la Santé a porté en 1975 la loi légalisant l'interruption volontaire de grossesse (IVG) en France ?",
+        "reponse": "Simone Veil",
+        "propositions": ["Simone Veil", "Édith Cresson", "Simone de Beauvoir", "Yvette Roudy"],
+        "explication": "Cette loi, adoptée après un débat houleux à l'Assemblée nationale, légalise l'avortement sous certaines conditions."
+      },
+      {
+        "question": "Quel noble français a combattu aux côtés des insurgents américains pendant la guerre d'indépendance des États-Unis, devenant un héros des deux nations ?",
+        "reponse": "Le marquis de La Fayette",
+        "propositions": ["Le marquis de La Fayette", "Le comte de Rochambeau", "Le comte de Vergennes", "L'amiral de Grasse"],
+        "explication": "La Fayette a combattu notamment lors du siège de Yorktown en 1781, qui a scellé la victoire américaine."
       }
     ],
     "2": [
@@ -720,7 +780,7 @@
         "explication": "Jean Moulin parvient à fédérer la Résistance intérieure française en 1943, avant d'être arrêté puis torturé par la Gestapo."
       },
       {
-        "question": "Quelle réforme sociale majeure, mise en œuvre en 1982 sous le gouvernement de Pierre Mauroy, abaisse l'âge légal de la retraite à 60 ans ?",
+        "question": "Quelle réforme sociale majeure, mise en œuvre en 1982 sous le gouvernement de Pierre Mauroy, a réduit de cinq ans l'âge légal de départ à la retraite, jusque-là fixé à 65 ans ?",
         "reponse": "La retraite à 60 ans",
         "propositions": [
           "La retraite à 60 ans",
@@ -773,6 +833,66 @@
           "L'attentat du Petit-Clamart"
         ],
         "explication": "Ce putsch manqué, mené notamment par les généraux Challe et Salan, échoue faute de soutien suffisant de l'armée et de la population."
+      },
+      {
+        "question": "Quel officier français d'origine juive, injustement condamné pour trahison en 1894, a été au centre d'une affaire qui a profondément divisé la société française ?",
+        "reponse": "Alfred Dreyfus",
+        "propositions": ["Alfred Dreyfus", "Émile Zola", "Georges Picquart", "Ferdinand Walsin Esterhazy"],
+        "explication": "Dreyfus a finalement été réhabilité en 1906, après plusieurs procès et une intense mobilisation publique, notamment autour du journaliste Émile Zola."
+      },
+      {
+        "question": "Quel traité, signé en 1871 après la défaite française face à la Prusse, cède l'Alsace et une partie de la Lorraine à l'Empire allemand ?",
+        "reponse": "Le traité de Francfort",
+        "propositions": ["Le traité de Francfort", "Le traité de Versailles", "Le traité de Vienne", "L'armistice de Compiègne"],
+        "explication": "Ces territoires ne redeviendront français qu'à l'issue de la Première Guerre mondiale, en 1918."
+      },
+      {
+        "question": "Quel président du Conseil français, surnommé 'le Tigre' puis 'Père la Victoire', a dirigé le gouvernement français lors de la victoire de 1918 ?",
+        "reponse": "Georges Clemenceau",
+        "propositions": ["Georges Clemenceau", "Raymond Poincaré", "Aristide Briand", "Paul Deschanel"],
+        "explication": "Clemenceau a également représenté la France lors des négociations du traité de Versailles en 1919."
+      },
+      {
+        "question": "Quel navigateur français, au service de François Ier, explore pour la première fois le fleuve Saint-Laurent en 1534 et revendique le territoire pour la France ?",
+        "reponse": "Jacques Cartier",
+        "propositions": ["Jacques Cartier", "Samuel de Champlain", "Robert Cavelier de La Salle", "Louis Jolliet"],
+        "explication": "Ce voyage marque le début des explorations françaises en Amérique du Nord, préfigurant la colonisation de la Nouvelle-France."
+      },
+      {
+        "question": "Quel explorateur français a fondé la ville de Québec en 1608, posant les bases durables de la Nouvelle-France ?",
+        "reponse": "Samuel de Champlain",
+        "propositions": ["Samuel de Champlain", "Jacques Cartier", "Jean Talon", "Pierre de La Vérendrye"],
+        "explication": "Champlain est souvent désigné comme le 'père de la Nouvelle-France' pour son rôle dans son organisation et son développement."
+      },
+      {
+        "question": "En quelle année la France a-t-elle entamé la conquête de l'Algérie, débutant plus d'un siècle de colonisation française ?",
+        "reponse": "En 1830",
+        "propositions": ["En 1830", "En 1848", "En 1870", "En 1881"],
+        "explication": "L'expédition commence par la prise d'Alger sous le règne de Charles X, quelques mois avant la révolution de Juillet."
+      },
+      {
+        "question": "Quel traité de 1763, concluant la guerre de Sept Ans, voit la France céder le Canada et l'essentiel de la Nouvelle-France à la Grande-Bretagne ?",
+        "reponse": "Le traité de Paris (1763)",
+        "propositions": ["Le traité de Paris (1763)", "Le traité d'Utrecht", "Le traité d'Aix-la-Chapelle", "Le traité de Ryswick"],
+        "explication": "Cette perte met pratiquement fin à l'empire colonial français en Amérique du Nord, à l'exception de quelques îles."
+      },
+      {
+        "question": "Quel ingénieur et diplomate français a dirigé la construction du canal de Suez, inauguré en 1869 ?",
+        "reponse": "Ferdinand de Lesseps",
+        "propositions": ["Ferdinand de Lesseps", "Gustave Eiffel", "Vauban", "Turgot"],
+        "explication": "Lesseps a également tenté, sans succès, de percer le canal de Panama dans les années 1880, un projet qui s'est soldé par un scandale financier retentissant en France."
+      },
+      {
+        "question": "Quel général français, à la tête de la 2e division blindée, est entré le premier dans Paris lors de sa libération en août 1944 ?",
+        "reponse": "Le général Leclerc (Philippe de Hauteclocque)",
+        "propositions": ["Le général Leclerc (Philippe de Hauteclocque)", "Le général de Lattre de Tassigny", "Le général Juin", "Le général Koenig"],
+        "explication": "La 2e DB du général Leclerc entre dans Paris le 24 août 1944, précédant l'arrivée du général de Gaulle le lendemain."
+      },
+      {
+        "question": "Par quel coup d'État, le 2 décembre 1851, Louis-Napoléon Bonaparte s'assure-t-il les pleins pouvoirs avant de rétablir l'Empire un an plus tard ?",
+        "reponse": "Le coup d'État du 2 décembre 1851",
+        "propositions": ["Le coup d'État du 2 décembre 1851", "Le coup d'État du 18 Brumaire", "La crise du 16 mai 1877", "Le coup d'État du 13 mai 1958"],
+        "explication": "Ce coup d'État met fin à la Deuxième République et ouvre la voie à la proclamation du Second Empire en décembre 1852."
       }
     ],
     "3": [
@@ -1160,6 +1280,66 @@
           "Luxembourg"
         ],
         "explication": "La mort de Turenne, l'un des plus grands généraux français du XVIIe siècle, est restée un épisode marquant du règne de Louis XIV."
+      },
+      {
+        "question": "Quelle révolte protestante, menée dans les Cévennes au début du XVIIIe siècle après la révocation de l'édit de Nantes, a opposé des paysans huguenots aux troupes royales ?",
+        "reponse": "La révolte des Camisards",
+        "propositions": ["La révolte des Camisards", "La Fronde", "La Jacquerie", "La révolte du papier timbré"],
+        "explication": "Cette guérilla, menée notamment par des chefs comme Jean Cavalier, dure de 1702 à environ 1710 dans les Cévennes."
+      },
+      {
+        "question": "Quel scandale financier et politique français des années 1890, lié à l'échec du percement du canal de Panama, a impliqué de nombreux parlementaires corrompus ?",
+        "reponse": "Le scandale de Panama",
+        "propositions": ["Le scandale de Panama", "L'affaire Dreyfus", "L'affaire des fuites", "Le scandale Stavisky"],
+        "explication": "La faillite de la Compagnie du canal de Panama, dirigée par Ferdinand de Lesseps, a révélé le versement de pots-de-vin à de nombreux élus pour obtenir leur soutien."
+      },
+      {
+        "question": "Quel général français, populaire à la fin des années 1880, a donné son nom à un mouvement politique nationaliste et revanchard appelé 'boulangisme' ?",
+        "reponse": "Le général Boulanger",
+        "propositions": ["Le général Boulanger", "Le général Mac Mahon", "Le général Galliffet", "Le général Dumouriez"],
+        "explication": "Georges Boulanger, ministre de la Guerre puis figure populaire, a suscité une vive agitation politique avant de fuir en Belgique où il se suicide en 1891."
+      },
+      {
+        "question": "Quelle somme, en francs-or, l'Empire allemand a-t-il exigée de la France au traité de Francfort de 1871, à titre d'indemnité de guerre ?",
+        "reponse": "5 milliards de francs-or",
+        "propositions": ["5 milliards de francs-or", "1 milliard de francs-or", "10 milliards de francs-or", "500 millions de francs-or"],
+        "explication": "Cette indemnité considérable a été intégralement payée par la France en moins de trois ans, permettant un retrait anticipé des troupes allemandes d'occupation."
+      },
+      {
+        "question": "Quel texte constitutionnel, octroyé par Louis XVIII en 1814 au retour de la monarchie, instaure un régime de monarchie constitutionnelle modérée ?",
+        "reponse": "La Charte de 1814",
+        "propositions": ["La Charte de 1814", "La Constitution de l'an VIII", "La Charte de 1830", "La Constitution de 1791"],
+        "explication": "Cette charte, accordée par le roi plutôt qu'élaborée par une assemblée, instaure notamment un régime bicaméral avec un suffrage très restreint."
+      },
+      {
+        "question": "À quelle guerre, menée de 1853 à 1856 par la France de Napoléon III alliée au Royaume-Uni et à l'Empire ottoman contre la Russie, le siège de Sébastopol est-il associé ?",
+        "reponse": "La guerre de Crimée",
+        "propositions": ["La guerre de Crimée", "La guerre franco-prussienne", "La guerre d'Italie de 1859", "L'expédition du Mexique"],
+        "explication": "Cette victoire franco-britannique affaiblit durablement la puissance russe en mer Noire et redore le prestige militaire du Second Empire."
+      },
+      {
+        "question": "Quelle expédition militaire, lancée par Napoléon III entre 1862 et 1867, s'est soldée par un échec et l'exécution de l'empereur Maximilien installé sur le trône du Mexique ?",
+        "reponse": "L'expédition du Mexique",
+        "propositions": ["L'expédition du Mexique", "La guerre de Crimée", "La campagne d'Italie", "L'expédition de Chine"],
+        "explication": "Le retrait des troupes françaises, affaibli par la pression des États-Unis, précède de peu la chute et l'exécution de Maximilien par les forces républicaines mexicaines."
+      },
+      {
+        "question": "Quel traité de 1475, négocié entre Louis XI et Édouard IV d'Angleterre, met fin à une menace d'invasion anglaise contre une importante somme d'argent versée au roi anglais ?",
+        "reponse": "Le traité de Picquigny",
+        "propositions": ["Le traité de Picquigny", "Le traité de Troyes", "Le traité d'Arras", "Le traité de Brétigny"],
+        "explication": "Louis XI préfère acheter la paix plutôt que risquer une bataille, démontrant son habileté diplomatique plus que militaire."
+      },
+      {
+        "question": "Quelle grande rafle de juillet 1942, menée par la police française sur ordre des autorités de Vichy, a vu plus de 13 000 Juifs parisiens arrêtés puis déportés ?",
+        "reponse": "La rafle du Vélodrome d'Hiver (Vel' d'Hiv)",
+        "propositions": ["La rafle du Vélodrome d'Hiver (Vel' d'Hiv)", "La rafle du 11e arrondissement", "La rafle de la synagogue de la Victoire", "L'opération Rafle de Marseille"],
+        "explication": "Cette rafle, l'une des plus massives de l'Occupation, a longtemps symbolisé l'implication directe de l'État français dans la déportation des Juifs."
+      },
+      {
+        "question": "Quel siège, mené par les troupes prussiennes de septembre 1870 à janvier 1871, a durement affamé la population parisienne pendant la guerre franco-prussienne ?",
+        "reponse": "Le siège de Paris (1870-1871)",
+        "propositions": ["Le siège de Paris (1870-1871)", "La Commune de Paris", "Le siège d'Orléans", "La Semaine sanglante"],
+        "explication": "Ce siège, précédant de peu l'insurrection de la Commune de Paris, a contraint les Parisiens à consommer des animaux inhabituels, y compris ceux du zoo, pour survivre."
       }
     ]
   }

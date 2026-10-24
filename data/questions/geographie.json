@@ -386,6 +386,116 @@
           "La mer Égée"
         ],
         "explication": "La mer Noire est reliée à la mer Méditerranée par le détroit du Bosphore puis celui des Dardanelles."
+      },
+      {
+        "question": "Quelle est la capitale du Brésil, distincte de ses plus grandes villes Rio de Janeiro et São Paulo ?",
+        "reponse": "Brasília",
+        "propositions": [
+          "Brasília",
+          "Rio de Janeiro",
+          "São Paulo",
+          "Salvador"
+        ],
+        "explication": "Brasília a été construite de façon planifiée et est devenue capitale du Brésil en 1960."
+      },
+      {
+        "question": "Quelle est la capitale de la Chine ?",
+        "reponse": "Pékin",
+        "propositions": [
+          "Pékin",
+          "Shanghai",
+          "Hong Kong",
+          "Canton"
+        ],
+        "explication": "Pékin est la capitale politique de la Chine, tandis que Shanghai en est le principal centre économique."
+      },
+      {
+        "question": "Quelle chaîne de montagnes borde la côte ouest des États-Unis et du Canada, célèbre notamment pour le parc de Yellowstone ?",
+        "reponse": "Les Rocheuses",
+        "propositions": [
+          "Les Rocheuses",
+          "La Sierra Nevada",
+          "Les Appalaches",
+          "La cordillère des Andes"
+        ],
+        "explication": "Les montagnes Rocheuses s'étendent sur plus de 4 800 km, du Nouveau-Mexique jusqu'au nord du Canada."
+      },
+      {
+        "question": "Quel pays d'Amérique du Sud a pour capitale Bogotá ?",
+        "reponse": "La Colombie",
+        "propositions": [
+          "La Colombie",
+          "Le Venezuela",
+          "L'Équateur",
+          "Le Pérou"
+        ],
+        "explication": "Bogotá, située à plus de 2 600 mètres d'altitude, est l'une des capitales les plus élevées du monde."
+      },
+      {
+        "question": "Quelle est la plus grande île de la mer Méditerranée ?",
+        "reponse": "La Sicile",
+        "propositions": [
+          "La Sicile",
+          "La Sardaigne",
+          "Chypre",
+          "La Crète"
+        ],
+        "explication": "La Sicile, au sud de l'Italie dont elle est une région autonome, abrite notamment le volcan actif de l'Etna."
+      },
+      {
+        "question": "Quel pays asiatique, situé sur une péninsule, a pour capitale Séoul ?",
+        "reponse": "La Corée du Sud",
+        "propositions": [
+          "La Corée du Sud",
+          "La Corée du Nord",
+          "Le Japon",
+          "Taïwan"
+        ],
+        "explication": "Séoul concentre près d'un cinquième de la population sud-coréenne dans son agglomération."
+      },
+      {
+        "question": "Quelle est la capitale du Portugal ?",
+        "reponse": "Lisbonne",
+        "propositions": [
+          "Lisbonne",
+          "Porto",
+          "Faro",
+          "Coimbra"
+        ],
+        "explication": "Lisbonne est bâtie sur plusieurs collines, au bord de l'estuaire du Tage."
+      },
+      {
+        "question": "Quelle mer, parsemée de nombreuses îles grecques, borde à la fois la Grèce et la Turquie ?",
+        "reponse": "La mer Égée",
+        "propositions": [
+          "La mer Égée",
+          "La mer Ionienne",
+          "La mer Adriatique",
+          "La mer de Crète"
+        ],
+        "explication": "La mer Égée abrite notamment les Cyclades et les Dodécanèses, archipels très prisés des touristes."
+      },
+      {
+        "question": "Quel pays d'Europe du Nord, voisin de la Norvège et de la Finlande, a pour capitale Stockholm ?",
+        "reponse": "La Suède",
+        "propositions": [
+          "La Suède",
+          "La Norvège",
+          "La Finlande",
+          "Le Danemark"
+        ],
+        "explication": "Stockholm est bâtie sur une quinzaine d'îles reliées par de nombreux ponts."
+      },
+      {
+        "question": "Quelle est la capitale de la Suisse ?",
+        "reponse": "Berne",
+        "propositions": [
+          "Berne",
+          "Zurich",
+          "Genève",
+          "Lausanne"
+        ],
+        "explication": "Berne est la capitale fédérale suisse, bien que Zurich soit la plus grande ville du pays."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Le détroit de Sicile"
         ],
         "explication": "Ce détroit, large d'une quinzaine de kilomètres à son point le plus étroit, sépare l'Europe de l'Afrique."
+      },
+      {
+        "question": "Quel est le plus long fleuve d'Asie, traversant la Chine sur plus de 6 300 km ?",
+        "reponse": "Le Yangtsé",
+        "propositions": [
+          "Le Yangtsé",
+          "Le Huang He",
+          "Le Mékong",
+          "L'Amour"
+        ],
+        "explication": "Le Yangtsé, aussi appelé Chang Jiang, est le troisième plus long fleuve du monde après le Nil et l'Amazone."
+      },
+      {
+        "question": "Quel désert d'Afrique australe, couvrant une grande partie du Botswana, est réputé pour sa faune abondante malgré son aridité ?",
+        "reponse": "Le désert du Kalahari",
+        "propositions": [
+          "Le désert du Kalahari",
+          "Le désert du Namib",
+          "Le désert d'Atacama",
+          "Le désert de Gobi"
+        ],
+        "explication": "Le Kalahari n'est pas un désert au sens strict, car il reçoit suffisamment de précipitations pour abriter une végétation clairsemée."
+      },
+      {
+        "question": "Quel pays enclavé d'Amérique du Sud dispose de deux capitales : La Paz, siège du gouvernement, et Sucre, capitale constitutionnelle ?",
+        "reponse": "La Bolivie",
+        "propositions": [
+          "La Bolivie",
+          "Le Paraguay",
+          "L'Équateur",
+          "Le Pérou"
+        ],
+        "explication": "Cette répartition des pouvoirs entre deux villes est unique en Amérique du Sud."
+      },
+      {
+        "question": "Quelle chaîne de montagnes s'étend sur une grande partie de l'Europe centrale, de la Slovaquie à la Roumanie ?",
+        "reponse": "Les Carpates",
+        "propositions": [
+          "Les Carpates",
+          "Les Alpes dinariques",
+          "Les Sudètes",
+          "Le Caucase"
+        ],
+        "explication": "Les Carpates forment un arc montagneux traversant notamment la Pologne, la Slovaquie, l'Ukraine et la Roumanie."
+      },
+      {
+        "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie, situé en Amérique du Nord ?",
+        "reponse": "Le lac Supérieur",
+        "propositions": [
+          "Le lac Supérieur",
+          "Le lac Victoria",
+          "Le lac Baïkal",
+          "Le lac Michigan"
+        ],
+        "explication": "Le lac Supérieur fait partie des cinq Grands Lacs partagés entre les États-Unis et le Canada."
+      },
+      {
+        "question": "Quel pays d'Asie du Sud-Est, traversé par le Mékong, a pour capitale Hanoï ?",
+        "reponse": "Le Vietnam",
+        "propositions": [
+          "Le Vietnam",
+          "Le Cambodge",
+          "Le Laos",
+          "La Thaïlande"
+        ],
+        "explication": "Hanoï, capitale politique du Vietnam, se distingue de Hô Chi Minh-Ville, plus grande ville et poumon économique du pays."
+      },
+      {
+        "question": "Quel détroit, situé entre l'Iran et la péninsule arabique, est un point de passage stratégique majeur pour le transport mondial de pétrole ?",
+        "reponse": "Le détroit d'Ormuz",
+        "propositions": [
+          "Le détroit d'Ormuz",
+          "Le détroit de Malacca",
+          "Le détroit de Bab-el-Mandeb",
+          "Le détroit d'Otrante"
+        ],
+        "explication": "Une part très importante du pétrole mondial transporté par voie maritime transite chaque jour par ce détroit."
+      },
+      {
+        "question": "Quelle île italienne, la plus grande de la Méditerranée après la Sicile, est une région autonome au large de la Toscane et de la Corse ?",
+        "reponse": "La Sardaigne",
+        "propositions": [
+          "La Sardaigne",
+          "La Sicile",
+          "Elbe",
+          "Capri"
+        ],
+        "explication": "La Sardaigne est séparée de la Corse par les bouches de Bonifacio."
+      },
+      {
+        "question": "Quel pays d'Afrique de l'Ouest, le plus peuplé du continent, a pour capitale Abuja, bien que Lagos en soit la plus grande ville ?",
+        "reponse": "Le Nigeria",
+        "propositions": [
+          "Le Nigeria",
+          "Le Ghana",
+          "L'Égypte",
+          "L'Éthiopie"
+        ],
+        "explication": "Abuja a remplacé Lagos comme capitale fédérale en 1991, pour des raisons de centralité géographique et politique."
+      },
+      {
+        "question": "Quelle capitale d'Europe centrale, surnommée 'la ville aux cent clochers', est traversée par la rivière Vltava ?",
+        "reponse": "Prague",
+        "propositions": [
+          "Prague",
+          "Vienne",
+          "Budapest",
+          "Bratislava"
+        ],
+        "explication": "Prague est la capitale de la République tchèque et l'une des villes les plus visitées d'Europe centrale."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "La fosse des Mariannes"
         ],
         "explication": "Cette zone résulte de la subduction de plusieurs plaques tectoniques autour de la plaque Pacifique."
+      },
+      {
+        "question": "Quelle fosse océanique, dans le Pacifique Nord au large du Japon, est associée à une forte activité sismique dont le tristement célèbre tsunami de 2011 ?",
+        "reponse": "La fosse du Japon",
+        "propositions": [
+          "La fosse du Japon",
+          "La fosse des Mariannes",
+          "La fosse des Kouriles",
+          "La fosse du Pérou-Chili"
+        ],
+        "explication": "Cette fosse résulte de la subduction de la plaque Pacifique sous la plaque eurasiatique, à l'origine d'une sismicité intense."
+      },
+      {
+        "question": "Quelle immense dorsale sous-marine traverse l'océan Atlantique du nord au sud, marquant la frontière entre deux plaques tectoniques qui s'écartent ?",
+        "reponse": "La dorsale médio-atlantique",
+        "propositions": [
+          "La dorsale médio-atlantique",
+          "La dorsale Pacifique-Antarctique",
+          "La fosse de Porto Rico",
+          "La ceinture de feu du Pacifique"
+        ],
+        "explication": "L'Islande est l'un des rares endroits où cette dorsale émerge directement à la surface, créant une intense activité volcanique."
+      },
+      {
+        "question": "Quel est le nom de la plus grande plaine d'Europe, qui s'étend de la France à l'Oural en traversant l'Allemagne, la Pologne et la Russie ?",
+        "reponse": "La Grande Plaine européenne",
+        "propositions": [
+          "La Grande Plaine européenne",
+          "La plaine pannonienne",
+          "Le Bassin parisien",
+          "La plaine du Pô"
+        ],
+        "explication": "Cette vaste étendue, aussi appelée plaine d'Europe du Nord, a facilité historiquement les invasions et migrations entre l'Est et l'Ouest du continent."
+      },
+      {
+        "question": "Comment appelle-t-on le vent saisonnier qui apporte d'intenses précipitations en Asie du Sud et du Sud-Est, en particulier en Inde, généralement entre juin et septembre ?",
+        "reponse": "La mousson",
+        "propositions": [
+          "La mousson",
+          "El Niño",
+          "La Niña",
+          "L'oscillation nord-atlantique"
+        ],
+        "explication": "La mousson résulte de l'inversion saisonnière des vents entre l'océan Indien et le continent asiatique, réchauffé plus rapidement en été."
+      },
+      {
+        "question": "Quel méridien, adopté comme référence internationale en 1884 lors d'une conférence à Washington, passe par l'ancien observatoire royal de Londres ?",
+        "reponse": "Le méridien de Greenwich",
+        "propositions": [
+          "Le méridien de Greenwich",
+          "Le méridien de Tordesillas",
+          "La ligne de Wallace",
+          "Le tropique du Cancer"
+        ],
+        "explication": "Ce méridien zéro sert de référence pour le calcul des longitudes et des fuseaux horaires dans le monde entier."
+      },
+      {
+        "question": "Comment appelle-t-on la ligne imaginaire, située approximativement à l'opposé du méridien de Greenwich, qui marque conventionnellement le changement de jour calendaire ?",
+        "reponse": "La ligne de changement de date",
+        "propositions": [
+          "La ligne de changement de date",
+          "Le méridien de Greenwich",
+          "La ligne de Wallace",
+          "Le tropique du Capricorne"
+        ],
+        "explication": "Cette ligne suit approximativement le 180e méridien, avec plusieurs détours pour éviter de couper certains territoires en deux."
+      },
+      {
+        "question": "Quel pays du Pacifique, à cheval sur la ligne de changement de date, a décidé en 2011 de 'sauter' une journée entière pour se resynchroniser avec l'Australie et la Nouvelle-Zélande ?",
+        "reponse": "Les Samoa",
+        "propositions": [
+          "Les Samoa",
+          "Les Fidji",
+          "Les Tonga",
+          "Kiribati"
+        ],
+        "explication": "Les Samoa sont ainsi passées directement du 29 au 31 décembre 2011, supprimant le 30 décembre de leur calendrier."
+      },
+      {
+        "question": "Quel est le point culminant de l'Antarctique, un massif montagneux dépassant les 4 800 mètres d'altitude ?",
+        "reponse": "Le massif Vinson",
+        "propositions": [
+          "Le massif Vinson",
+          "Le mont Erebus",
+          "Le mont Kirkpatrick",
+          "Le dôme Argus"
+        ],
+        "explication": "Le massif Vinson fait partie des 'Seven Summits', les points culminants des sept continents recherchés par de nombreux alpinistes."
+      },
+      {
+        "question": "Quel est le point culminant de l'Europe si l'on exclut le Caucase de la définition du continent, une convention alternative à celle qui place l'Elbrouz en Europe ?",
+        "reponse": "Le mont Blanc",
+        "propositions": [
+          "Le mont Blanc",
+          "Le mont Elbrouz",
+          "Le Dykh-Tau",
+          "Le mont Ararat"
+        ],
+        "explication": "Selon la convention retenue pour la limite orientale de l'Europe, le point culminant du continent est soit l'Elbrouz dans le Caucase, soit le mont Blanc dans les Alpes."
+      },
+      {
+        "question": "Comment appelle-t-on le processus par lequel un désert s'étend progressivement sur des terres auparavant fertiles, souvent sous l'effet du changement climatique et de certaines pratiques agricoles ?",
+        "reponse": "La désertification",
+        "propositions": [
+          "La désertification",
+          "L'érosion éolienne",
+          "La salinisation",
+          "La déforestation"
+        ],
+        "explication": "La désertification touche notamment la région du Sahel, en bordure sud du Sahara."
       }
     ]
   }

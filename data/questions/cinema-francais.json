@@ -36,7 +36,7 @@
         "explication": "Les César récompensent chaque année les meilleurs films et artistes du cinéma français."
       },
       {
-        "question": "Dans quelle ville se déroule le célèbre Festival de Cannes ?",
+        "question": "Sur la Côte d'Azur, quelle ville balnéaire accueille chaque année en mai l'un des plus prestigieux festivals de cinéma au monde ?",
         "reponse": "Cannes",
         "propositions": [
           "Cannes",
@@ -386,6 +386,116 @@
           "Atlantis"
         ],
         "explication": "Ce film s'inspire de la rivalité réelle entre les plongeurs Jacques Mayol et Enzo Maiorca."
+      },
+      {
+        "question": "Quel humoriste et acteur français d'origine marocaine a créé et interprété le personnage de 'Chouchou', travesti marocain immigré à Paris, dans le film éponyme de 2003 ?",
+        "reponse": "Gad Elmaleh",
+        "propositions": [
+          "Gad Elmaleh",
+          "Jamel Debbouze",
+          "Dany Boon",
+          "Kev Adams"
+        ],
+        "explication": "'Chouchou' est adapté d'un sketch de Gad Elmaleh et a connu un grand succès au box-office français."
+      },
+      {
+        "question": "Quel acteur français incarne Samba, immigré sénégalais sans papiers à Paris, dans le film éponyme de 2014 ?",
+        "reponse": "Omar Sy",
+        "propositions": [
+          "Omar Sy",
+          "Jamel Debbouze",
+          "Gad Elmaleh",
+          "Djimon Hounsou"
+        ],
+        "explication": "'Samba' réunit Omar Sy et Charlotte Gainsbourg, trois ans après le succès d''Intouchables'."
+      },
+      {
+        "question": "Quel acteur français incarne le patriarche catholique dont les quatre filles épousent des hommes d'origines différentes dans 'Qu'est-ce qu'on a fait au Bon Dieu ?!' (2014) ?",
+        "reponse": "Christian Clavier",
+        "propositions": [
+          "Christian Clavier",
+          "Gérard Depardieu",
+          "Daniel Auteuil",
+          "Michel Blanc"
+        ],
+        "explication": "Cette comédie sur les préjugés familiaux a été l'un des plus grands succès du box-office français de 2014."
+      },
+      {
+        "question": "Quel acteur français incarne le rôle principal du 'Grand Bain' (2018), comédie sur une équipe masculine de natation synchronisée ?",
+        "reponse": "Mathieu Amalric",
+        "propositions": [
+          "Mathieu Amalric",
+          "Guillaume Canet",
+          "Benoît Poelvoorde",
+          "Jean Dujardin"
+        ],
+        "explication": "'Le Grand Bain' réunit un casting choral emmené par Mathieu Amalric dans le rôle de Bertrand."
+      },
+      {
+        "question": "Quel acteur et scénariste français, souvent associé à Agnès Jaoui, tient le rôle principal du 'Sens de la fête' (2017), comédie sur un mariage qui tourne au chaos ?",
+        "reponse": "Jean-Pierre Bacri",
+        "propositions": [
+          "Jean-Pierre Bacri",
+          "Gérard Jugnot",
+          "Daniel Auteuil",
+          "Kad Merad"
+        ],
+        "explication": "Jean-Pierre Bacri y incarne Max, un traiteur dépassé par les imprévus d'un mariage de prestige."
+      },
+      {
+        "question": "Quel réalisateur et acteur français a signé 'Les Misérables' (2019), portrait de la police dans une cité de Montfermeil, César du meilleur film ?",
+        "reponse": "Ladj Ly",
+        "propositions": [
+          "Ladj Ly",
+          "Mathieu Kassovitz",
+          "Kim Chapiron",
+          "Jacques Audiard"
+        ],
+        "explication": "'Les Misérables' a également reçu le prix du jury au Festival de Cannes 2019."
+      },
+      {
+        "question": "Quel acteur et humoriste français a créé le personnage du roi Arthur dans la série culte 'Kaamelott' avant de la porter au cinéma ?",
+        "reponse": "Alexandre Astier",
+        "propositions": [
+          "Alexandre Astier",
+          "Franck Dubosc",
+          "Kad Merad",
+          "Édouard Baer"
+        ],
+        "explication": "'Kaamelott : Premier Volet' (2021) a adapté au cinéma cette série diffusée sur M6 à partir de 2005."
+      },
+      {
+        "question": "Quelle actrice française, révélée par le film 'La Famille Bélier' (2014), y incarne une adolescente entendante née de parents sourds ?",
+        "reponse": "Louane",
+        "propositions": [
+          "Louane",
+          "Mélanie Laurent",
+          "Lou de Laâge",
+          "Adèle Haenel"
+        ],
+        "explication": "Louane a ensuite représenté la France au Concours Eurovision de la chanson en 2015."
+      },
+      {
+        "question": "Quel acteur français a réalisé et incarné le rôle principal du film 'Au revoir là-haut' (2017), César du meilleur film, adapté du roman de Pierre Lemaitre ?",
+        "reponse": "Albert Dupontel",
+        "propositions": [
+          "Albert Dupontel",
+          "Vincent Cassel",
+          "Mathieu Kassovitz",
+          "Guillaume Canet"
+        ],
+        "explication": "'Au revoir là-haut' retrace l'histoire de deux rescapés de la Première Guerre mondiale montant une arnaque aux monuments aux morts."
+      },
+      {
+        "question": "Quel acteur belge, naturalisé français, est connu pour ses rôles comiques dans 'Rien à déclarer' et 'Podium' ?",
+        "reponse": "Benoît Poelvoorde",
+        "propositions": [
+          "Benoît Poelvoorde",
+          "Dany Boon",
+          "Kad Merad",
+          "François Damiens"
+        ],
+        "explication": "Benoît Poelvoorde a souvent collaboré avec Dany Boon, notamment dans 'Rien à déclarer' (2011)."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Alain Corneau"
         ],
         "explication": "Ce film, jugé scandaleux à sa sortie, dépeint l'errance de deux jeunes marginaux à travers la France."
+      },
+      {
+        "question": "Quel film français de Luc Besson, sorti en 2014 avec Scarlett Johansson, met en scène une femme développant des capacités cérébrales extraordinaires ?",
+        "reponse": "Lucy",
+        "propositions": [
+          "Lucy",
+          "Nikita",
+          "Le Cinquième Élément",
+          "Angel-A"
+        ],
+        "explication": "'Lucy' explore, de façon romancée, le mythe selon lequel l'être humain n'utiliserait qu'une infime partie de son cerveau."
+      },
+      {
+        "question": "Quelle actrice française a incarné Simone Veil dans le biopic 'Simone, le voyage du siècle' (2022) ?",
+        "reponse": "Elsa Zylberstein",
+        "propositions": [
+          "Elsa Zylberstein",
+          "Isabelle Huppert",
+          "Marina Foïs",
+          "Karin Viard"
+        ],
+        "explication": "Le film retrace le parcours de Simone Veil, rescapée de la Shoah devenue ministre et figure du droit à l'avortement en France."
+      },
+      {
+        "question": "Quel réalisateur français a dirigé 'La Môme' (2007), biopic d'Édith Piaf qui a valu l'Oscar à Marion Cotillard ?",
+        "reponse": "Olivier Dahan",
+        "propositions": [
+          "Olivier Dahan",
+          "Claude Lelouch",
+          "Cédric Klapisch",
+          "Christophe Barratier"
+        ],
+        "explication": "Olivier Dahan a retracé la vie tumultueuse de la chanteuse, de son enfance misérable à sa gloire internationale."
+      },
+      {
+        "question": "Quelle actrice française a incarné Gabrielle 'Coco' Chanel dans 'Coco avant Chanel' (2009) ?",
+        "reponse": "Audrey Tautou",
+        "propositions": [
+          "Audrey Tautou",
+          "Marion Cotillard",
+          "Léa Seydoux",
+          "Juliette Binoche"
+        ],
+        "explication": "Le film retrace la jeunesse de Coco Chanel, avant qu'elle ne devienne une figure majeure de la haute couture."
+      },
+      {
+        "question": "Quel réalisateur français a signé le diptyque 'Jean de Florette' et 'Manon des sources' (1986), adapté de Marcel Pagnol ?",
+        "reponse": "Claude Berri",
+        "propositions": [
+          "Claude Berri",
+          "Yves Robert",
+          "Jean-Jacques Annaud",
+          "Régis Wargnier"
+        ],
+        "explication": "Ces deux films réunissent Yves Montand, Gérard Depardieu et Daniel Auteuil dans une fresque provençale."
+      },
+      {
+        "question": "Quel duo de réalisateurs français a adapté sa propre pièce de boulevard dans 'Le Prénom' (2012) ?",
+        "reponse": "Alexandre de La Patellière et Matthieu Delaporte",
+        "propositions": [
+          "Alexandre de La Patellière et Matthieu Delaporte",
+          "Éric Toledano et Olivier Nakache",
+          "Olivier Baroux et Kad Merad",
+          "Christophe Barratier et Cédric Klapisch"
+        ],
+        "explication": "'Le Prénom' met en scène un dîner entre amis qui dégénère après l'annonce d'un choix de prénom controversé."
+      },
+      {
+        "question": "Quel acteur français a réalisé le film 'Astérix et Obélix : L'Empire du Milieu' (2023) ?",
+        "reponse": "Guillaume Canet",
+        "propositions": [
+          "Guillaume Canet",
+          "Dany Boon",
+          "Alexandre Astier",
+          "Louis Leterrier"
+        ],
+        "explication": "Dans ce film, Astérix est incarné par Gilles Lellouche et Obélix par Gérard Depardieu."
+      },
+      {
+        "question": "Quel acteur belge incarne le père sourd, chef d'exploitation agricole, dans 'La Famille Bélier' (2014) ?",
+        "reponse": "François Damiens",
+        "propositions": [
+          "François Damiens",
+          "Benoît Poelvoorde",
+          "Kad Merad",
+          "Dany Boon"
+        ],
+        "explication": "François Damiens y incarne un père de famille sourd dont la fille entendante doit choisir entre sa passion pour le chant et sa famille."
+      },
+      {
+        "question": "Quel acteur français a incarné Serge Gainsbourg dans le biopic 'Gainsbourg (vie héroïque)' (2010) ?",
+        "reponse": "Éric Elmosnino",
+        "propositions": [
+          "Éric Elmosnino",
+          "Mathieu Amalric",
+          "Romain Duris",
+          "Vincent Cassel"
+        ],
+        "explication": "Ce biopic, réalisé par le dessinateur Joann Sfar, a valu à Éric Elmosnino le César du meilleur acteur en 2011."
+      },
+      {
+        "question": "Quel acteur français a incarné le chanteur Claude François dans le biopic 'Cloclo' (2012) ?",
+        "reponse": "Jérémie Renier",
+        "propositions": [
+          "Jérémie Renier",
+          "Romain Duris",
+          "Gaspard Ulliel",
+          "Pierre Niney"
+        ],
+        "explication": "'Cloclo', réalisé par Florent Emilio Siri, retrace la vie et la carrière du chanteur mort électrocuté en 1978."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Jean Mitry"
         ],
         "explication": "Son limogeage en 1968 a provoqué la mobilisation de nombreux cinéastes, dont Godard et Truffaut, lors de l''affaire Langlois'."
+      },
+      {
+        "question": "Quels deux frères français sont considérés comme les inventeurs du cinématographe et ont organisé la première projection publique payante en 1895 ?",
+        "reponse": "Auguste et Louis Lumière",
+        "propositions": [
+          "Auguste et Louis Lumière",
+          "Georges Méliès et Émile Reynaud",
+          "Léon Gaumont et Charles Pathé",
+          "Étienne-Jules Marey et Thomas Edison"
+        ],
+        "explication": "La première séance publique payante des frères Lumière a eu lieu le 28 décembre 1895 au Salon indien du Grand Café à Paris."
+      },
+      {
+        "question": "Quel pionnier français du cinéma, ancien illusionniste, a réalisé 'Le Voyage dans la Lune' (1902), l'un des premiers films de science-fiction ?",
+        "reponse": "Georges Méliès",
+        "propositions": [
+          "Georges Méliès",
+          "Émile Cohl",
+          "Louis Lumière",
+          "Ferdinand Zecca"
+        ],
+        "explication": "Méliès a développé de nombreux trucages pionniers, comme le stop-trick, dans son studio de Montreuil."
+      },
+      {
+        "question": "Quel réalisateur français, figure majeure de la Nouvelle Vague, a signé 'À bout de souffle' (1960) avec Jean-Paul Belmondo et Jean Seberg ?",
+        "reponse": "Jean-Luc Godard",
+        "propositions": [
+          "Jean-Luc Godard",
+          "François Truffaut",
+          "Claude Chabrol",
+          "Jacques Rivette"
+        ],
+        "explication": "'À bout de souffle' bouleverse les codes classiques du montage avec l'usage novateur des jump cuts."
+      },
+      {
+        "question": "Quel réalisateur français, mort en 1981, est l'auteur de 'La Maman et la Putain' (1973), film-fleuve emblématique du cinéma d'auteur français des années 1970 ?",
+        "reponse": "Jean Eustache",
+        "propositions": [
+          "Jean Eustache",
+          "Maurice Pialat",
+          "Philippe Garrel",
+          "Jacques Doillon"
+        ],
+        "explication": "Ce film de presque quatre heures, tourné en noir et blanc, dépeint les relations amoureuses dans le Paris de l'après Mai 68."
+      },
+      {
+        "question": "Quel réalisateur français d'origine allemande a signé 'Lola Montès' (1955), son dernier film, consacré à une courtisane déchue ?",
+        "reponse": "Max Ophüls",
+        "propositions": [
+          "Max Ophüls",
+          "Marcel Carné",
+          "Julien Duvivier",
+          "Jean Grémillon"
+        ],
+        "explication": "Mal reçu à sa sortie, 'Lola Montès' est aujourd'hui considéré comme un chef-d'œuvre visuel du cinéma français des années 1950."
+      },
+      {
+        "question": "Quel réalisateur français, représentant du réalisme poétique aux côtés de Marcel Carné, a signé 'Pépé le Moko' (1937) avec Jean Gabin ?",
+        "reponse": "Julien Duvivier",
+        "propositions": [
+          "Julien Duvivier",
+          "Marcel Carné",
+          "Jean Renoir",
+          "René Clair"
+        ],
+        "explication": "'Pépé le Moko', tourné dans la Casbah d'Alger, a inspiré le film américain 'Algiers' sorti l'année suivante."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Jeux interdits' (1952), sur deux enfants confrontés à la mort pendant l'Exode de 1940 ?",
+        "reponse": "René Clément",
+        "propositions": [
+          "René Clément",
+          "Henri-Georges Clouzot",
+          "Jean-Pierre Melville",
+          "Yves Allégret"
+        ],
+        "explication": "'Jeux interdits' a reçu le Lion d'or à la Mostra de Venise et l'Oscar du meilleur film étranger."
+      },
+      {
+        "question": "Quel réalisateur franco-grec, connu pour ses thrillers politiques, a signé 'Z' (1969), dénonçant la dictature des colonels en Grèce ?",
+        "reponse": "Costa-Gavras",
+        "propositions": [
+          "Costa-Gavras",
+          "Marcel Ophuls",
+          "Henri Verneuil",
+          "Yves Boisset"
+        ],
+        "explication": "'Z' a remporté l'Oscar du meilleur film étranger et le prix du jury à Cannes en 1969."
+      },
+      {
+        "question": "Quel réalisateur français a signé 'Au revoir les enfants' (1987), récit autobiographique sur un pensionnat catholique pendant l'Occupation ?",
+        "reponse": "Louis Malle",
+        "propositions": [
+          "Louis Malle",
+          "Claude Berri",
+          "Bertrand Tavernier",
+          "Alain Corneau"
+        ],
+        "explication": "Le film s'inspire des souvenirs d'enfance de Louis Malle, dont le pensionnat cachait des enfants juifs."
+      },
+      {
+        "question": "Quel réalisateur français, figure du 'cinéma du look' aux côtés de Besson et Carax, a signé 'Diva' (1981) ?",
+        "reponse": "Jean-Jacques Beineix",
+        "propositions": [
+          "Jean-Jacques Beineix",
+          "Léos Carax",
+          "Luc Besson",
+          "Patrice Leconte"
+        ],
+        "explication": "'Diva' est souvent cité comme le film fondateur du 'cinéma du look', courant privilégiant l'esthétique visuelle soignée."
       }
     ]
   }

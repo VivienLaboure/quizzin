@@ -168,7 +168,7 @@
         "explication": "Le soprano est la voix féminine la plus haute en tessiture."
       },
       {
-        "question": "Quel groupe britannique de rock, formé en 1970, est connu pour l'album 'Led Zeppelin IV' et le titre 'Stairway to Heaven' ?",
+        "question": "Quel groupe britannique de rock, formé en 1968, est l'auteur du titre culte 'Stairway to Heaven', extrait de son quatrième album éponyme sorti en 1971 ?",
         "reponse": "Led Zeppelin",
         "propositions": [
           "Led Zeppelin",
@@ -280,62 +280,222 @@
       {
         "question": "Quel instrument de musique John Lennon joue-t-il principalement sur l'enregistrement original de la chanson 'Imagine' (1971) ?",
         "reponse": "Le piano",
-        "propositions": ["Le piano", "La guitare", "Le violon", "La batterie"],
+        "propositions": [
+          "Le piano",
+          "La guitare",
+          "Le violon",
+          "La batterie"
+        ],
         "explication": "John Lennon interprète 'Imagine' principalement au piano, sur un accompagnement épuré."
       },
       {
         "question": "Quel pays est à l'origine du groupe de K-pop féminin BLACKPINK ?",
         "reponse": "La Corée du Sud",
-        "propositions": ["La Corée du Sud", "Le Japon", "La Chine", "Les États-Unis"],
+        "propositions": [
+          "La Corée du Sud",
+          "Le Japon",
+          "La Chine",
+          "Les États-Unis"
+        ],
         "explication": "BLACKPINK, formé en 2016, est un groupe féminin sud-coréen devenu un succès international."
       },
       {
         "question": "Quel instrument à cordes pincées, originaire d'Hawaï, est traditionnellement associé à la musique hawaïenne et polynésienne ?",
         "reponse": "Le ukulélé",
-        "propositions": ["Le ukulélé", "Le banjo", "La mandoline", "Le sitar"],
+        "propositions": [
+          "Le ukulélé",
+          "Le banjo",
+          "La mandoline",
+          "Le sitar"
+        ],
         "explication": "Le ukulélé, petite guitare à quatre cordes, est devenu un symbole de la musique hawaïenne."
       },
       {
         "question": "Quelle chanteuse britannique, interprète de 'Rolling in the Deep' et 'Hello', a vendu des dizaines de millions d'albums depuis les années 2010 ?",
         "reponse": "Adele",
-        "propositions": ["Adele", "Amy Winehouse", "Dua Lipa", "Sam Smith"],
+        "propositions": [
+          "Adele",
+          "Amy Winehouse",
+          "Dua Lipa",
+          "Sam Smith"
+        ],
         "explication": "Adele s'est imposée comme l'une des plus grandes voix de la pop britannique contemporaine."
       },
       {
         "question": "Quel évènement musical français, gratuit et annuel, se déroule chaque 21 juin dans toute la France depuis 1982 ?",
         "reponse": "La Fête de la musique",
-        "propositions": ["La Fête de la musique", "Les Victoires de la musique", "Le Printemps de Bourges", "Les Eurockéennes"],
+        "propositions": [
+          "La Fête de la musique",
+          "Les Victoires de la musique",
+          "Le Printemps de Bourges",
+          "Les Eurockéennes"
+        ],
         "explication": "La Fête de la musique a été lancée en France en 1982 à l'initiative du ministre de la Culture Jack Lang."
       },
       {
         "question": "Quel instrument à vent, emblématique de l'Écosse, est constitué d'une poche d'air et de tuyaux sonores ?",
         "reponse": "La cornemuse",
-        "propositions": ["La cornemuse", "Le biniou", "L'accordéon", "Le fifre"],
+        "propositions": [
+          "La cornemuse",
+          "Le biniou",
+          "L'accordéon",
+          "Le fifre"
+        ],
         "explication": "La cornemuse écossaise (bagpipes) est traditionnellement utilisée lors des parades militaires et des cérémonies."
       },
       {
         "question": "Quelle chanteuse québécoise est l'interprète de 'My Heart Will Go On', thème du film 'Titanic' (1997) ?",
         "reponse": "Céline Dion",
-        "propositions": ["Céline Dion", "Whitney Houston", "Mariah Carey", "Shania Twain"],
+        "propositions": [
+          "Céline Dion",
+          "Whitney Houston",
+          "Mariah Carey",
+          "Shania Twain"
+        ],
         "explication": "Céline Dion a interprété ce titre, devenu l'un des plus grands succès mondiaux des années 1990."
       },
       {
         "question": "Quel groupe britannique, emmené par le chanteur Chris Martin, est connu pour les titres 'Yellow' et 'Viva la Vida' ?",
         "reponse": "Coldplay",
-        "propositions": ["Coldplay", "Muse", "Radiohead", "Keane"],
+        "propositions": [
+          "Coldplay",
+          "Muse",
+          "Radiohead",
+          "Keane"
+        ],
         "explication": "Coldplay s'est formé à Londres en 1996 et est devenu l'un des groupes de rock les plus populaires au monde."
       },
       {
         "question": "Quel rappeur américain, originaire de Compton, est connu pour l'album 'good kid, m.A.A.d city' et a reçu le prix Pulitzer de musique en 2018 ?",
         "reponse": "Kendrick Lamar",
-        "propositions": ["Kendrick Lamar", "Drake", "J. Cole", "Dr. Dre"],
+        "propositions": [
+          "Kendrick Lamar",
+          "Drake",
+          "J. Cole",
+          "Dr. Dre"
+        ],
         "explication": "Kendrick Lamar est le premier artiste hors des genres classique et jazz à recevoir le prix Pulitzer de musique, pour l'album 'DAMN.'"
       },
       {
         "question": "Quel terme désigne une chanson simple et répétitive destinée à endormir les tout-petits ?",
         "reponse": "Une berceuse",
-        "propositions": ["Une berceuse", "Une comptine", "Un hymne", "Une sérénade"],
+        "propositions": [
+          "Une berceuse",
+          "Une comptine",
+          "Un hymne",
+          "Une sérénade"
+        ],
         "explication": "Les berceuses, souvent chantées par un parent, utilisent des mélodies douces et répétitives pour apaiser un enfant."
+      },
+      {
+        "question": "Quelle chanteuse originaire de la Barbade est connue pour les titres 'Umbrella' et 'Diamonds' ?",
+        "reponse": "Rihanna",
+        "propositions": [
+          "Rihanna",
+          "Beyoncé",
+          "Nicki Minaj",
+          "Alicia Keys"
+        ],
+        "explication": "Rihanna s'est imposée dans les années 2000-2010 comme l'une des plus grandes stars internationales de la pop et du RnB."
+      },
+      {
+        "question": "Quel chanteur et guitariste britannique est connu pour le titre 'Shape of You' ?",
+        "reponse": "Ed Sheeran",
+        "propositions": [
+          "Ed Sheeran",
+          "Sam Smith",
+          "James Bay",
+          "George Ezra"
+        ],
+        "explication": "'Shape of You' (2017) est l'un des titres les plus écoutés de l'histoire du streaming musical."
+      },
+      {
+        "question": "Quel duo français masqué est connu pour les titres 'Get Lucky' et 'One More Time' ?",
+        "reponse": "Daft Punk",
+        "propositions": [
+          "Daft Punk",
+          "Justice",
+          "Air",
+          "Phoenix"
+        ],
+        "explication": "Daft Punk, formé de Thomas Bangalter et Guy-Manuel de Homem-Christo, s'est séparé en 2021 après plus de vingt ans de carrière."
+      },
+      {
+        "question": "Quel chanteur belge est connu pour les titres 'Alors on danse' et 'Papaoutai' ?",
+        "reponse": "Stromae",
+        "propositions": [
+          "Stromae",
+          "Angèle",
+          "Christophe Maé",
+          "Grégoire"
+        ],
+        "explication": "Stromae, de son vrai nom Paul Van Haver, a connu un immense succès francophone et international dès son premier album."
+      },
+      {
+        "question": "Quelle chanteuse belge, sœur du rappeur Roméo Elvis, est connue pour les titres 'Balance ton quoi' et 'Tout oublier' ?",
+        "reponse": "Angèle",
+        "propositions": [
+          "Angèle",
+          "Stromae",
+          "Zaz",
+          "Pomme"
+        ],
+        "explication": "Angèle s'est révélée au grand public francophone à partir de 2018 avec son premier album 'Brol'."
+      },
+      {
+        "question": "Quel chanteur français, surnommé 'l'idole des jeunes', a connu une carrière de plus de 50 ans avec des tubes comme 'Allumer le feu' ?",
+        "reponse": "Johnny Hallyday",
+        "propositions": [
+          "Johnny Hallyday",
+          "Serge Gainsbourg",
+          "Eddy Mitchell",
+          "Claude François"
+        ],
+        "explication": "Johnny Hallyday reste l'une des plus grandes vedettes de la chanson populaire française, de ses débuts en 1960 à sa mort en 2017."
+      },
+      {
+        "question": "Quel petit instrument à vent, que l'on joue en soufflant et en aspirant l'air à travers de petites anches métalliques, est très utilisé dans le blues et le folk ?",
+        "reponse": "L'harmonica",
+        "propositions": [
+          "L'harmonica",
+          "L'accordéon",
+          "Le fifre",
+          "La cornemuse"
+        ],
+        "explication": "L'harmonica, facile à transporter, est devenu un instrument emblématique du blues et de la musique folk américaine."
+      },
+      {
+        "question": "Quel instrument à soufflet, central dans la musique populaire française dite 'musette', est actionné par un clavier et des boutons ?",
+        "reponse": "L'accordéon",
+        "propositions": [
+          "L'accordéon",
+          "L'harmonica",
+          "L'orgue de Barbarie",
+          "Le bandonéon"
+        ],
+        "explication": "L'accordéon est indissociable des bals populaires français du début du XXe siècle, dits bals musette."
+      },
+      {
+        "question": "Comment appelle-t-on, en France, un disque vinyle contenant généralement une ou deux chansons, tournant à 45 tours par minute ?",
+        "reponse": "Un 45 tours",
+        "propositions": [
+          "Un 45 tours",
+          "Un 33 tours",
+          "Un maxi CD",
+          "Une cassette simple"
+        ],
+        "explication": "Le format 45 tours, plus petit que le 33 tours consacré aux albums, était traditionnellement réservé aux singles."
+      },
+      {
+        "question": "Quelle cérémonie annuelle récompense les artistes francophones dans diverses catégories musicales en France depuis 1985 ?",
+        "reponse": "Les Victoires de la musique",
+        "propositions": [
+          "Les Victoires de la musique",
+          "La Fête de la musique",
+          "Le Printemps de Bourges",
+          "Les Eurockéennes"
+        ],
+        "explication": "Contrairement à la Fête de la musique, qui est un événement gratuit et populaire, les Victoires de la musique sont une cérémonie de récompenses."
       }
     ],
     "2": [
@@ -617,62 +777,222 @@
       {
         "question": "Quel groupe britannique de heavy metal, formé à Birmingham en 1968 autour du chanteur Ozzy Osbourne, est souvent considéré comme un pionnier du genre ?",
         "reponse": "Black Sabbath",
-        "propositions": ["Black Sabbath", "Deep Purple", "Judas Priest", "Iron Maiden"],
+        "propositions": [
+          "Black Sabbath",
+          "Deep Purple",
+          "Judas Priest",
+          "Iron Maiden"
+        ],
         "explication": "Black Sabbath, avec des albums comme 'Paranoid' (1970), a posé les bases esthétiques du heavy metal."
       },
       {
         "question": "Quel trompettiste américain, avec le saxophoniste Charlie Parker, est considéré comme un cofondateur du bebop dans les années 1940 ?",
         "reponse": "Dizzy Gillespie",
-        "propositions": ["Dizzy Gillespie", "Miles Davis", "Chet Baker", "Clifford Brown"],
+        "propositions": [
+          "Dizzy Gillespie",
+          "Miles Davis",
+          "Chet Baker",
+          "Clifford Brown"
+        ],
         "explication": "Dizzy Gillespie et Charlie Parker ont développé ensemble le bebop, un style de jazz rapide et harmoniquement complexe."
       },
       {
         "question": "Quel trompettiste et compositeur américain, figure du jazz modal, est l'auteur de l'album 'Kind of Blue' (1959) ?",
         "reponse": "Miles Davis",
-        "propositions": ["Miles Davis", "Dizzy Gillespie", "Chet Baker", "Louis Armstrong"],
+        "propositions": [
+          "Miles Davis",
+          "Dizzy Gillespie",
+          "Chet Baker",
+          "Louis Armstrong"
+        ],
         "explication": "'Kind of Blue' est considéré comme l'un des albums de jazz les plus vendus et les plus influents de l'histoire."
       },
       {
         "question": "Quel groupe britannique de rock des années 1960, mené par Pete Townshend, est connu pour l'opéra rock 'Tommy' (1969) ?",
         "reponse": "The Who",
-        "propositions": ["The Who", "The Kinks", "Small Faces", "The Animals"],
+        "propositions": [
+          "The Who",
+          "The Kinks",
+          "Small Faces",
+          "The Animals"
+        ],
         "explication": "'Tommy' est l'un des premiers albums concepts qualifiés d''opéra rock' de l'histoire du rock."
       },
       {
         "question": "Quel chanteur et guitariste américain, surnommé 'The Boss', est connu pour l'album 'Born in the U.S.A.' (1984) ?",
         "reponse": "Bruce Springsteen",
-        "propositions": ["Bruce Springsteen", "Bob Dylan", "Tom Petty", "John Mellencamp"],
+        "propositions": [
+          "Bruce Springsteen",
+          "Bob Dylan",
+          "Tom Petty",
+          "John Mellencamp"
+        ],
         "explication": "Bruce Springsteen s'est imposé comme une figure majeure du rock américain à partir des années 1970."
       },
       {
         "question": "Quel chanteur américain, souvent surnommé le 'Godfather of Soul', est connu pour des titres comme 'I Got You (I Feel Good)' ?",
         "reponse": "James Brown",
-        "propositions": ["James Brown", "Otis Redding", "Marvin Gaye", "Sam Cooke"],
+        "propositions": [
+          "James Brown",
+          "Otis Redding",
+          "Marvin Gaye",
+          "Sam Cooke"
+        ],
         "explication": "James Brown est une figure fondatrice de la soul et du funk, réputé pour ses prestations scéniques énergiques."
       },
       {
         "question": "Quel auteur-compositeur américain, lauréat du prix Nobel de littérature en 2016, est connu pour 'Blowin' in the Wind' et 'Like a Rolling Stone' ?",
         "reponse": "Bob Dylan",
-        "propositions": ["Bob Dylan", "Leonard Cohen", "Paul Simon", "Neil Young"],
+        "propositions": [
+          "Bob Dylan",
+          "Leonard Cohen",
+          "Paul Simon",
+          "Neil Young"
+        ],
         "explication": "Bob Dylan est le premier musicien à avoir reçu le prix Nobel de littérature, récompensant son œuvre poétique et musicale."
       },
       {
         "question": "Quel groupe vocal américain, formé des frères Jackson, a précédé la carrière solo de Michael Jackson dans les années 1960-70 ?",
         "reponse": "The Jackson Five",
-        "propositions": ["The Jackson Five", "The Temptations", "The Commodores", "Boyz II Men"],
+        "propositions": [
+          "The Jackson Five",
+          "The Temptations",
+          "The Commodores",
+          "Boyz II Men"
+        ],
         "explication": "Michael Jackson a débuté sa carrière au sein de ce groupe formé avec ses frères avant de devenir une star solo."
       },
       {
         "question": "Quelle chanteuse américaine de RnB, interprète de 'I Will Always Love You', a aussi été actrice dans le film 'Bodyguard' (1992) ?",
         "reponse": "Whitney Houston",
-        "propositions": ["Whitney Houston", "Mariah Carey", "Diana Ross", "Aretha Franklin"],
+        "propositions": [
+          "Whitney Houston",
+          "Mariah Carey",
+          "Diana Ross",
+          "Aretha Franklin"
+        ],
         "explication": "Cette reprise d'une chanson de Dolly Parton est devenue l'un des plus grands succès de l'histoire de la musique."
       },
       {
         "question": "Quel pianiste et chanteur américain de rock'n'roll des années 1950, connu pour son jeu de piano débridé, a interprété 'Great Balls of Fire' ?",
         "reponse": "Jerry Lee Lewis",
-        "propositions": ["Jerry Lee Lewis", "Little Richard", "Chuck Berry", "Fats Domino"],
+        "propositions": [
+          "Jerry Lee Lewis",
+          "Little Richard",
+          "Chuck Berry",
+          "Fats Domino"
+        ],
         "explication": "Jerry Lee Lewis, surnommé 'The Killer', est l'un des pionniers les plus flamboyants du rock'n'roll naissant."
+      },
+      {
+        "question": "Quel musicien nigérian est considéré comme le créateur de l'afrobeat, mêlant rythmes traditionnels yoruba, jazz et funk ?",
+        "reponse": "Fela Kuti",
+        "propositions": [
+          "Fela Kuti",
+          "Youssou N'Dour",
+          "Salif Keita",
+          "Manu Dibango"
+        ],
+        "explication": "Fela Kuti a développé l'afrobeat dans les années 1970 à Lagos, mêlant engagement politique et expérimentation musicale."
+      },
+      {
+        "question": "Quelle chanteuse cubaine, surnommée 'la Reine de la salsa', a connu une carrière internationale depuis les États-Unis après avoir quitté Cuba ?",
+        "reponse": "Celia Cruz",
+        "propositions": [
+          "Celia Cruz",
+          "Gloria Estefan",
+          "Shakira",
+          "Mercedes Sosa"
+        ],
+        "explication": "Celia Cruz a largement contribué à populariser la salsa à l'échelle mondiale depuis son exil aux États-Unis."
+      },
+      {
+        "question": "Quel musicien indien, virtuose du sitar, a contribué à faire découvrir la musique classique indienne au public occidental, notamment via George Harrison ?",
+        "reponse": "Ravi Shankar",
+        "propositions": [
+          "Ravi Shankar",
+          "Zakir Hussain",
+          "Ali Akbar Khan",
+          "Nusrat Fateh Ali Khan"
+        ],
+        "explication": "Ravi Shankar a notamment collaboré avec le guitariste des Beatles George Harrison, contribuant à l'intérêt occidental pour la musique indienne."
+      },
+      {
+        "question": "Quel chanteur sénégalais, figure majeure de la musique mbalax, est connu pour le titre '7 Seconds' avec Neneh Cherry ?",
+        "reponse": "Youssou N'Dour",
+        "propositions": [
+          "Youssou N'Dour",
+          "Salif Keita",
+          "Fela Kuti",
+          "Baaba Maal"
+        ],
+        "explication": "Youssou N'Dour est l'une des voix les plus reconnues de la musique ouest-africaine contemporaine à l'échelle internationale."
+      },
+      {
+        "question": "Quel groupe américain de thrash metal, formé en 1981, est connu pour des albums comme 'Master of Puppets' et le 'Black Album' ?",
+        "reponse": "Metallica",
+        "propositions": [
+          "Metallica",
+          "Megadeth",
+          "Slayer",
+          "Anthrax"
+        ],
+        "explication": "Metallica est devenu l'un des groupes de metal les plus vendus et les plus influents depuis les années 1980."
+      },
+      {
+        "question": "Quel groupe américain de Seattle, mené par Kurt Cobain, a popularisé le grunge avec l'album 'Nevermind' (1991) ?",
+        "reponse": "Nirvana",
+        "propositions": [
+          "Nirvana",
+          "Pearl Jam",
+          "Soundgarden",
+          "Alice in Chains"
+        ],
+        "explication": "Le titre 'Smells Like Teen Spirit', extrait de 'Nevermind', a fait de Nirvana le fer de lance du mouvement grunge au début des années 1990."
+      },
+      {
+        "question": "Quelle chanteuse française, surnommée 'la grande dame brune', est connue pour 'L'Aigle noir' et 'Dis, quand reviendras-tu ?' ?",
+        "reponse": "Barbara",
+        "propositions": [
+          "Barbara",
+          "Juliette Gréco",
+          "Françoise Hardy",
+          "Mireille Mathieu"
+        ],
+        "explication": "Barbara, de son vrai nom Monique Serf, est l'une des grandes figures de la chanson française d'auteur."
+      },
+      {
+        "question": "Quel chanteur français d'origine arménienne, auteur de 'La Bohème' et 'Je m'voyais déjà', a connu une carrière de plus de 70 ans ?",
+        "reponse": "Charles Aznavour",
+        "propositions": [
+          "Charles Aznavour",
+          "Jacques Brel",
+          "Gilbert Bécaud",
+          "Georges Moustaki"
+        ],
+        "explication": "Charles Aznavour a composé et interprété plus d'un millier de chansons tout au long d'une carrière exceptionnellement longue."
+      },
+      {
+        "question": "Quel artiste américain polyvalent, auteur de l'album et du film 'Purple Rain' (1984), est mort en 2016 ?",
+        "reponse": "Prince",
+        "propositions": [
+          "Prince",
+          "Michael Jackson",
+          "George Michael",
+          "Rick James"
+        ],
+        "explication": "Prince jouait la quasi-totalité des instruments sur ses propres albums et a profondément marqué la pop, le funk et le rock des années 1980."
+      },
+      {
+        "question": "Quelle cérémonie américaine, décernée chaque année depuis 1959, récompense les meilleurs artistes et albums à l'échelle internationale ?",
+        "reponse": "Les Grammy Awards",
+        "propositions": [
+          "Les Grammy Awards",
+          "Les Billboard Music Awards",
+          "Les American Music Awards",
+          "Les MTV Video Music Awards"
+        ],
+        "explication": "Les Grammy Awards, organisés par la Recording Academy, sont considérés comme la plus prestigieuse récompense musicale aux États-Unis."
       }
     ],
     "3": [
@@ -954,62 +1274,222 @@
       {
         "question": "Quel saxophoniste américain, figure majeure du jazz modal et spirituel, est l'auteur de l'album 'A Love Supreme' (1965) ?",
         "reponse": "John Coltrane",
-        "propositions": ["John Coltrane", "Sonny Rollins", "Wayne Shorter", "Pharoah Sanders"],
+        "propositions": [
+          "John Coltrane",
+          "Sonny Rollins",
+          "Wayne Shorter",
+          "Pharoah Sanders"
+        ],
         "explication": "Cet album, conçu comme une offrande spirituelle, est considéré comme l'un des sommets du jazz du XXe siècle."
       },
       {
         "question": "Quel pianiste de jazz américain, connu pour son style anguleux et ses silences expressifs, est l'auteur de standards comme ''Round Midnight' ?",
         "reponse": "Thelonious Monk",
-        "propositions": ["Thelonious Monk", "Bill Evans", "Art Tatum", "Oscar Peterson"],
+        "propositions": [
+          "Thelonious Monk",
+          "Bill Evans",
+          "Art Tatum",
+          "Oscar Peterson"
+        ],
         "explication": "Thelonious Monk a profondément marqué le bebop par un style pianistique anguleux et novateur."
       },
       {
         "question": "Quelle pédagogue française du XXe siècle, professeure au Conservatoire américain de Fontainebleau, a formé des générations de compositeurs dont Aaron Copland et Philip Glass ?",
         "reponse": "Nadia Boulanger",
-        "propositions": ["Nadia Boulanger", "Lili Boulanger", "Marguerite Long", "Alfred Cortot"],
+        "propositions": [
+          "Nadia Boulanger",
+          "Lili Boulanger",
+          "Marguerite Long",
+          "Alfred Cortot"
+        ],
         "explication": "Nadia Boulanger est l'une des pédagogues musicales les plus influentes du XXe siècle, ayant formé de nombreux compositeurs américains."
       },
       {
         "question": "Quel compositeur américain, élève de Nadia Boulanger, est l'auteur du ballet 'Appalachian Spring' (1944) et a cherché à définir un style orchestral proprement américain ?",
         "reponse": "Aaron Copland",
-        "propositions": ["Aaron Copland", "Leonard Bernstein", "Samuel Barber", "Charles Ives"],
+        "propositions": [
+          "Aaron Copland",
+          "Leonard Bernstein",
+          "Samuel Barber",
+          "Charles Ives"
+        ],
         "explication": "Copland a intégré des éléments du folklore américain dans une écriture orchestrale moderne et accessible."
       },
       {
         "question": "Quel compositeur et chef d'orchestre américain, auteur de la comédie musicale 'West Side Story' (1957), a aussi dirigé le New York Philharmonic ?",
         "reponse": "Leonard Bernstein",
-        "propositions": ["Leonard Bernstein", "Aaron Copland", "George Gershwin", "Samuel Barber"],
+        "propositions": [
+          "Leonard Bernstein",
+          "Aaron Copland",
+          "George Gershwin",
+          "Samuel Barber"
+        ],
         "explication": "Leonard Bernstein a marqué à la fois le monde de la musique classique et celui de la comédie musicale américaine."
       },
       {
         "question": "Quel musicologue allemand, auteur avec Erich von Hornbostel d'un système de classification des instruments de musique du monde encore utilisé aujourd'hui, a donné son nom à cette classification ?",
         "reponse": "Curt Sachs",
-        "propositions": ["Curt Sachs", "Alan Lomax", "Mantle Hood", "Jaap Kunst"],
+        "propositions": [
+          "Curt Sachs",
+          "Alan Lomax",
+          "Mantle Hood",
+          "Jaap Kunst"
+        ],
         "explication": "Le système de classification Hornbostel-Sachs (1914) répartit les instruments de musique selon leur mode de production du son."
       },
       {
         "question": "Quel musicologue américain, pionnier de l'ethnomusicologie, a parcouru le monde pour enregistrer des musiques traditionnelles pour la Library of Congress ?",
         "reponse": "Alan Lomax",
-        "propositions": ["Alan Lomax", "Curt Sachs", "Mantle Hood", "Bruno Nettl"],
+        "propositions": [
+          "Alan Lomax",
+          "Curt Sachs",
+          "Mantle Hood",
+          "Bruno Nettl"
+        ],
         "explication": "Alan Lomax a constitué l'une des plus vastes archives de musiques traditionnelles du monde, notamment aux États-Unis."
       },
       {
         "question": "Quel compositeur américain du XXe siècle, exerçant en parallèle une carrière dans l'assurance, est l'auteur de pièces orchestrales expérimentales comme 'The Unanswered Question' ?",
         "reponse": "Charles Ives",
-        "propositions": ["Charles Ives", "Aaron Copland", "Henry Cowell", "Edgard Varèse"],
+        "propositions": [
+          "Charles Ives",
+          "Aaron Copland",
+          "Henry Cowell",
+          "Edgard Varèse"
+        ],
         "explication": "Charles Ives a composé en marge du monde musical professionnel, menant de front une carrière dans l'assurance."
       },
       {
         "question": "Quel compositeur italien de la Renaissance, maître de la polyphonie vocale sacrée, est resté associé à la réforme de la musique liturgique après le concile de Trente ?",
         "reponse": "Giovanni Pierluigi da Palestrina",
-        "propositions": ["Giovanni Pierluigi da Palestrina", "Orlando di Lasso", "Tomás Luis de Victoria", "Josquin des Prés"],
+        "propositions": [
+          "Giovanni Pierluigi da Palestrina",
+          "Orlando di Lasso",
+          "Tomás Luis de Victoria",
+          "Josquin des Prés"
+        ],
         "explication": "Palestrina est souvent cité comme modèle de la polyphonie sacrée claire et équilibrée promue après le concile de Trente."
       },
       {
         "question": "Quel compositeur américain du XXe siècle, pionnier du piano préparé et des clusters de notes, a influencé John Cage par ses expérimentations sonores dès les années 1920-30 ?",
         "reponse": "Henry Cowell",
-        "propositions": ["Henry Cowell", "Charles Ives", "John Cage", "Lou Harrison"],
+        "propositions": [
+          "Henry Cowell",
+          "Charles Ives",
+          "John Cage",
+          "Lou Harrison"
+        ],
         "explication": "Henry Cowell a notamment exploré les clusters de notes et des techniques non conventionnelles sur les cordes du piano, bien avant les premières pièces pour piano préparé de John Cage."
+      },
+      {
+        "question": "Quel compositeur et facteur d'instruments américain, pionnier de la musique microtonale, a divisé l'octave en davantage de notes que les douze intervalles traditionnels ?",
+        "reponse": "Harry Partch",
+        "propositions": [
+          "Harry Partch",
+          "Conlon Nancarrow",
+          "Charles Ives",
+          "Henry Cowell"
+        ],
+        "explication": "Harry Partch a conçu ses propres instruments pour explorer des échelles microtonales impossibles à jouer sur les instruments occidentaux classiques."
+      },
+      {
+        "question": "Quel compositeur américain installé au Mexique est célèbre pour ses études écrites pour piano mécanique, exploitant des tempos et des rythmes impossibles pour un interprète humain ?",
+        "reponse": "Conlon Nancarrow",
+        "propositions": [
+          "Conlon Nancarrow",
+          "Harry Partch",
+          "John Cage",
+          "Henry Cowell"
+        ],
+        "explication": "Nancarrow perforait lui-même les rouleaux de ses pianos mécaniques pour obtenir des superpositions rythmiques d'une complexité inatteignable en temps réel."
+      },
+      {
+        "question": "Quelle compositrice et vocaliste américaine est connue pour ses explorations expérimentales de la voix et des techniques vocales étendues ?",
+        "reponse": "Meredith Monk",
+        "propositions": [
+          "Meredith Monk",
+          "Pauline Oliveros",
+          "Laurie Anderson",
+          "Joan La Barbara"
+        ],
+        "explication": "Meredith Monk a développé un langage vocal très personnel, mêlant chant, théâtre et composition minimaliste."
+      },
+      {
+        "question": "Quel compositeur américain minimaliste, pionnier de la musique drone, est l'auteur de 'Composition 1960 #7', une œuvre consistant en un intervalle musical à tenir 'longtemps' ?",
+        "reponse": "La Monte Young",
+        "propositions": [
+          "La Monte Young",
+          "Terry Riley",
+          "Steve Reich",
+          "Philip Glass"
+        ],
+        "explication": "La Monte Young est considéré comme l'un des fondateurs du courant minimaliste américain et de la musique drone."
+      },
+      {
+        "question": "Comment appelle-t-on, en Afrique de l'Ouest, les musiciens-conteurs héréditaires chargés de transmettre oralement l'histoire et la généalogie des communautés par le chant ?",
+        "reponse": "Les griots",
+        "propositions": [
+          "Les griots",
+          "Les troubadours",
+          "Les bardes",
+          "Les muezzins"
+        ],
+        "explication": "Les griots, présents notamment au Mali et au Sénégal, perpétuent depuis des siècles une tradition orale transmise de génération en génération."
+      },
+      {
+        "question": "Quel ensemble musical traditionnel d'Indonésie, composé notamment de métallophones et de gongs, a influencé des compositeurs occidentaux comme Debussy ?",
+        "reponse": "Le gamelan",
+        "propositions": [
+          "Le gamelan",
+          "Le mariachi",
+          "Le gagaku",
+          "Le gnawa"
+        ],
+        "explication": "Claude Debussy, impressionné par un ensemble de gamelan javanais entendu à l'Exposition universelle de Paris en 1889, s'en est inspiré pour certaines de ses œuvres."
+      },
+      {
+        "question": "Comment appelle-t-on l'illusion auditive d'un son qui semble monter ou descendre indéfiniment sans jamais changer réellement de hauteur globale ?",
+        "reponse": "Le ton de Shepard",
+        "propositions": [
+          "Le ton de Shepard",
+          "L'effet Doppler",
+          "Le battement acoustique",
+          "L'effet de masquage"
+        ],
+        "explication": "Nommée d'après le psychologue Roger Shepard, cette illusion sonore a notamment été utilisée par Hans Zimmer dans la musique du film 'Dunkerque'."
+      },
+      {
+        "question": "Quel système d'accord, qui divise l'octave en douze intervalles strictement égaux, s'est progressivement imposé en Occident à partir du XVIIIe siècle, notamment via l'œuvre de Bach ?",
+        "reponse": "Le tempérament égal",
+        "propositions": [
+          "Le tempérament égal",
+          "Le tempérament mésotonique",
+          "La gamme pythagoricienne",
+          "Le juste intonation"
+        ],
+        "explication": "Le 'Clavier bien tempéré' de Bach explore les possibilités harmoniques offertes par ce système d'accord dans toutes les tonalités."
+      },
+      {
+        "question": "Quel compositeur français, fondateur du Groupe de recherches musicales (GRM) en 1958, est à l'origine du concept de 'musique concrète', élaborée à partir de sons enregistrés et manipulés ?",
+        "reponse": "Pierre Schaeffer",
+        "propositions": [
+          "Pierre Schaeffer",
+          "Pierre Henry",
+          "Edgard Varèse",
+          "Pierre Boulez"
+        ],
+        "explication": "La musique concrète de Pierre Schaeffer part de sons réels enregistrés, qu'elle transforme en studio, plutôt que de sons produits par des instruments traditionnels."
+      },
+      {
+        "question": "Comment appelle-t-on une partition musicale qui remplace la notation traditionnelle par des symboles visuels ou abstraits, laissant une large place à l'interprétation ?",
+        "reponse": "Une partition graphique",
+        "propositions": [
+          "Une partition graphique",
+          "Une tablature",
+          "Une partition chiffrée",
+          "Une partition aléatoire chiffrée"
+        ],
+        "explication": "Des compositeurs comme Cornelius Cardew ou Earle Brown ont exploré ces notations non conventionnelles pour ouvrir l'interprétation musicale."
       }
     ]
   }

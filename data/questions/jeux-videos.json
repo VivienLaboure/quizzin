@@ -179,7 +179,7 @@
         "explication": "La Xbox a marqué l'entrée de Microsoft sur le marché des consoles de jeux vidéo."
       },
       {
-        "question": "Quel jeu vidéo de bac à sable, où les joueurs créent leurs propres mini-jeux et mondes, appartient à la société Roblox Corporation ?",
+        "question": "Quel jeu vidéo de bac à sable en ligne, où les joueurs créent eux-mêmes leurs propres mini-jeux et mondes partagés, est devenu un phénomène mondial chez les plus jeunes depuis son lancement en 2006 ?",
         "reponse": "Roblox",
         "propositions": [
           "Roblox",
@@ -234,7 +234,7 @@
         "explication": "Contrairement à une idée reçue répandue, le héros de la série ne s'appelle pas Zelda mais Link."
       },
       {
-        "question": "Quel jeu vidéo multijoueur de type 'battle royale', développé par PUBG Corporation, a popularisé ce genre dès 2017 ?",
+        "question": "Quel jeu vidéo multijoueur de type 'battle royale', sorti en 2017 et développé par une filiale du groupe sud-coréen Krafton, a popularisé ce genre auprès du grand public ?",
         "reponse": "PUBG",
         "propositions": [
           "PUBG",
@@ -386,6 +386,116 @@
           "LittleBigPlanet"
         ],
         "explication": "Astro's Playroom est fourni gratuitement avec chaque console PlayStation 5 depuis son lancement en 2020."
+      },
+      {
+        "question": "Quel jeu de puzzle de Valve, où le joueur se déplace grâce à un pistolet créant des portails bleu et orange, est aussi connu pour son intelligence artificielle sarcastique nommée GLaDOS ?",
+        "reponse": "Portal",
+        "propositions": [
+          "Portal",
+          "Half-Life",
+          "Antichamber",
+          "The Talos Principle"
+        ],
+        "explication": "Portal est sorti en 2007 dans la compilation 'The Orange Box', avant de connaître une suite acclamée en 2011."
+      },
+      {
+        "question": "Quelle série de jeux de tir à la première personne de Valve met en scène le scientifique Gordon Freeman, muni d'un pied-de-biche ?",
+        "reponse": "Half-Life",
+        "propositions": [
+          "Half-Life",
+          "Portal",
+          "Doom",
+          "Quake"
+        ],
+        "explication": "Le premier 'Half-Life' est sorti en 1998 et a marqué une avancée majeure dans la narration des jeux de tir."
+      },
+      {
+        "question": "Quel jeu vidéo gratuit en monde ouvert, développé par le studio chinois miHoYo, mélange exploration et collection de personnages à invoquer ?",
+        "reponse": "Genshin Impact",
+        "propositions": [
+          "Genshin Impact",
+          "Honkai Star Rail",
+          "Tower of Fantasy",
+          "Wuthering Waves"
+        ],
+        "explication": "Genshin Impact, sorti en 2020, a connu un immense succès mondial grâce à son modèle économique gratuit avec achats optionnels."
+      },
+      {
+        "question": "Quel jeu de plateforme coopératif, développé par le studio Hazelight et sorti en 2021, doit obligatoirement être joué à deux personnes ?",
+        "reponse": "It Takes Two",
+        "propositions": [
+          "It Takes Two",
+          "A Way Out",
+          "Overcooked",
+          "Unravel Two"
+        ],
+        "explication": "It Takes Two a été élu jeu de l'année aux Game Awards 2021."
+      },
+      {
+        "question": "Quelle série de jeux de rôle d'action de Blizzard, dont le quatrième épisode est sorti en 2023, plonge les joueurs dans un univers gothique peuplé de démons ?",
+        "reponse": "Diablo",
+        "propositions": [
+          "Diablo",
+          "Warcraft",
+          "StarCraft",
+          "Path of Exile"
+        ],
+        "explication": "Le premier 'Diablo' est sorti en 1996 et a popularisé le genre du hack'n'slash isométrique."
+      },
+      {
+        "question": "Quel jeu vidéo en monde ouvert, sorti en 2023, plonge les joueurs dans l'univers de Harry Potter en tant qu'élève de Poudlard au XIXe siècle ?",
+        "reponse": "Hogwarts Legacy",
+        "propositions": [
+          "Hogwarts Legacy",
+          "Harry Potter and the Order of the Phoenix",
+          "Fantastic Beasts",
+          "Lego Harry Potter"
+        ],
+        "explication": "Hogwarts Legacy a été développé par le studio Avalanche Software pour Warner Bros Games."
+      },
+      {
+        "question": "Quel jeu Nintendo de 2023, suite directe de 'Breath of the Wild', permet à Link d'explorer aussi bien le ciel que les profondeurs d'Hyrule ?",
+        "reponse": "The Legend of Zelda: Tears of the Kingdom",
+        "propositions": [
+          "The Legend of Zelda: Tears of the Kingdom",
+          "The Legend of Zelda: Breath of the Wild",
+          "The Legend of Zelda: Skyward Sword",
+          "The Legend of Zelda: Echoes of Wisdom"
+        ],
+        "explication": "Tears of the Kingdom introduit de nouvelles capacités pour Link, comme la fusion d'objets ou le contrôle du temps sur certains éléments."
+      },
+      {
+        "question": "Quel jeu de tir en ligne développé par Bungie, ancien studio de 'Halo', propose à des Gardiens de défendre le système solaire contre des forces obscures ?",
+        "reponse": "Destiny 2",
+        "propositions": [
+          "Destiny 2",
+          "Halo Infinite",
+          "Warframe",
+          "Anthem"
+        ],
+        "explication": "Destiny 2, sorti en 2017, a succédé au premier 'Destiny' sorti en 2014."
+      },
+      {
+        "question": "Quel jeu vidéo de survie et de construction en 2D, sorti en 2011, propose d'explorer un monde souterrain généré aléatoirement rempli de monstres ?",
+        "reponse": "Terraria",
+        "propositions": [
+          "Terraria",
+          "Minecraft",
+          "Starbound",
+          "Don't Starve"
+        ],
+        "explication": "Terraria a été développé par le petit studio indépendant Re-Logic."
+      },
+      {
+        "question": "Quel jeu vidéo indépendant de 2022 met en scène un chat errant explorant une cité cyberpunk peuplée de robots ?",
+        "reponse": "Stray",
+        "propositions": [
+          "Stray",
+          "Kena: Bridge of Spirits",
+          "Sable",
+          "GRIS"
+        ],
+        "explication": "Stray a été développé par le studio français BlueTwelve Studio, en collaboration avec Annapurna Interactive."
       }
     ],
     "2": [
@@ -687,7 +797,7 @@
         "explication": "Roblox Corporation a été fondée en 2004, mais la plateforme n'a été lancée publiquement qu'en 2006."
       },
       {
-        "question": "Quel jeu vidéo narratif indépendant, développé par Supergiant Games et sorti en 2020, met en scène le fils d'Hadès tentant de s'échapper des Enfers ?",
+        "question": "Quel jeu vidéo narratif indépendant, développé par Supergiant Games et sorti en 2020, met en scène Zagreus, prince déchu tentant de s'échapper du royaume souterrain de son père ?",
         "reponse": "Hades",
         "propositions": [
           "Hades",
@@ -773,6 +883,116 @@
           "For Honor"
         ],
         "explication": "Le premier 'Assassin's Creed' se déroulait durant les croisades, à Jérusalem, Damas et Acre."
+      },
+      {
+        "question": "Quel jeu de FromSoftware, sorti en 2019, remplace les statistiques de personnalisation des 'Souls' par un système de combat centré sur la parade et la posture de l'adversaire ?",
+        "reponse": "Sekiro: Shadows Die Twice",
+        "propositions": [
+          "Sekiro: Shadows Die Twice",
+          "Dark Souls III",
+          "Bloodborne",
+          "Nioh"
+        ],
+        "explication": "Sekiro a remporté le titre de jeu de l'année aux Game Awards 2019."
+      },
+      {
+        "question": "Quel jeu vidéo de Kojima Productions, sorti en 2019, met en scène Norman Reedus livrant des colis à travers une Amérique post-apocalyptique ?",
+        "reponse": "Death Stranding",
+        "propositions": [
+          "Death Stranding",
+          "Metal Gear Solid V",
+          "Control",
+          "Days Gone"
+        ],
+        "explication": "Death Stranding a été le premier jeu développé par Hideo Kojima après son départ de Konami."
+      },
+      {
+        "question": "Quel jeu de tir en équipe de Valve, sorti en 2007, est considéré comme l'un des précurseurs du genre 'hero shooter' avec ses neuf classes de personnages ?",
+        "reponse": "Team Fortress 2",
+        "propositions": [
+          "Team Fortress 2",
+          "Overwatch",
+          "Paladins",
+          "Battleborn"
+        ],
+        "explication": "Team Fortress 2 est resté gratuit et régulièrement mis à jour par Valve pendant de nombreuses années après sa sortie."
+      },
+      {
+        "question": "Quel jeu coopératif développé par Arrowhead Game Studios et publié par Sony en 2024 envoie des soldats combattre des insectes et des robots extraterrestres ?",
+        "reponse": "Helldivers 2",
+        "propositions": [
+          "Helldivers 2",
+          "Starship Troopers: Extermination",
+          "Deep Rock Galactic",
+          "Earth Defense Force"
+        ],
+        "explication": "Helldivers 2 a connu un succès inattendu, devenant l'un des plus gros lancements de l'histoire de PlayStation sur PC."
+      },
+      {
+        "question": "Quel jeu de survie et de capture de créatures, développé par le studio Pocketpair et sorti en 2024, a battu des records de joueurs simultanés sur Steam dès sa sortie ?",
+        "reponse": "Palworld",
+        "propositions": [
+          "Palworld",
+          "Pokémon",
+          "Craftopia",
+          "Ark: Survival Evolved"
+        ],
+        "explication": "Palworld a suscité la polémique en raison de la ressemblance de certaines de ses créatures avec celles de Pokémon."
+      },
+      {
+        "question": "Quel jeu vidéo contemplatif de Thatgamecompany, sorti en 2012, permet au joueur de croiser anonymement d'autres joueurs dans un désert ?",
+        "reponse": "Journey",
+        "propositions": [
+          "Journey",
+          "Flower",
+          "ABZU",
+          "Gris"
+        ],
+        "explication": "Journey a remporté de nombreux prix pour sa direction artistique et sa bande-son composée par Austin Wintory."
+      },
+      {
+        "question": "Quel jeu de cartes et de stratégie en roguelike, développé par MegaCrit et sorti en 2019, a popularisé le genre du 'deck-building' moderne ?",
+        "reponse": "Slay the Spire",
+        "propositions": [
+          "Slay the Spire",
+          "Monster Train",
+          "Hearthstone",
+          "Inscryption"
+        ],
+        "explication": "Dans Slay the Spire, le joueur construit son deck de cartes au fil de son ascension d'une tour remplie de monstres."
+      },
+      {
+        "question": "Quel jeu indépendant italien, sorti en 2022, propose de survivre à des hordes de monstres en ramassant automatiquement de l'expérience, popularisant le genre 'bullet heaven' ?",
+        "reponse": "Vampire Survivors",
+        "propositions": [
+          "Vampire Survivors",
+          "Brotato",
+          "20 Minutes Till Dawn",
+          "Halls of Torment"
+        ],
+        "explication": "Vampire Survivors a été développé par le studio poncle et vendu à un prix très modeste malgré son immense succès."
+      },
+      {
+        "question": "Quel jeu d'action rythmique de Tango Gameworks, sorti par surprise en 2023, synchronise les coups du héros sur la musique qui l'entoure ?",
+        "reponse": "Hi-Fi Rush",
+        "propositions": [
+          "Hi-Fi Rush",
+          "Ghostwire: Tokyo",
+          "The Evil Within",
+          "No More Heroes"
+        ],
+        "explication": "Hi-Fi Rush a été annoncé et lancé le même jour, une stratégie marketing inhabituelle pour un jeu de ce calibre."
+      },
+      {
+        "question": "Quel jeu de tir roguelike développé par le studio finlandais Housemarque, sorti en 2021, voit une astronaute revivre en boucle le crash de son vaisseau sur une planète hostile ?",
+        "reponse": "Returnal",
+        "propositions": [
+          "Returnal",
+          "Hades",
+          "Risk of Rain 2",
+          "Control"
+        ],
+        "explication": "Returnal a été salué pour sa narration non linéaire distillée à travers des boucles temporelles répétées."
       }
     ],
     "3": [
@@ -1140,7 +1360,7 @@
         "explication": "Kamitani a fondé Vanillaware en 2002 après avoir travaillé sur 'Princess Crown' chez Atlus."
       },
       {
-        "question": "Quel studio indépendant français, créateur du jeu musical 'Furi' (2016) et du jeu narratif 'Haven' (2020), se nomme 'The Game Bakers' ?",
+        "question": "Quel studio de développement indépendant français, basé à Montpellier, a créé le jeu musical 'Furi' (2016) puis le jeu narratif 'Haven' (2020) ?",
         "reponse": "The Game Bakers",
         "propositions": [
           "The Game Bakers",
@@ -1160,6 +1380,116 @@
           "Subset Games"
         ],
         "explication": "Darkest Dungeon est réputé pour son système de gestion du stress psychologique des personnages, en plus de leurs points de vie."
+      },
+      {
+        "question": "Quel réalisateur japonais, devenu président de FromSoftware en 2014, a dirigé 'Bloodborne' en collaboration avec un studio de Sony, avant de concevoir 'Elden Ring' ?",
+        "reponse": "Hidetaka Miyazaki",
+        "propositions": [
+          "Hidetaka Miyazaki",
+          "Masahiro Sakurai",
+          "Hideki Kamiya",
+          "Yasumi Matsuno"
+        ],
+        "explication": "Bloodborne (2015) a été coproduit avec le Japan Studio de Sony, contrairement aux autres jeux de la série 'Souls'."
+      },
+      {
+        "question": "Quel réalisateur suédois, ancien cinéaste passé au jeu vidéo, a fondé le studio Hazelight après 'Brothers: A Tale of Two Sons' et s'est fait connaître par ses discours sans filet lors des Game Awards ?",
+        "reponse": "Josef Fares",
+        "propositions": [
+          "Josef Fares",
+          "David Cage",
+          "Cory Barlog",
+          "Neil Druckmann"
+        ],
+        "explication": "Josef Fares a ensuite dirigé 'A Way Out' puis 'It Takes Two', élu jeu de l'année en 2021."
+      },
+      {
+        "question": "Quel coprésident du studio Naughty Dog a écrit et réalisé 'The Last of Us' ainsi que sa suite controversée sortie en 2020 ?",
+        "reponse": "Neil Druckmann",
+        "propositions": [
+          "Neil Druckmann",
+          "Amy Hennig",
+          "Bruce Straley",
+          "Christophe Balestra"
+        ],
+        "explication": "Neil Druckmann a aussi été scénariste et réalisateur créatif sur 'Uncharted 4: A Thief's End'."
+      },
+      {
+        "question": "Quel réalisateur de Santa Monica Studio, déjà impliqué dans la série depuis 'God of War II', a dirigé le redémarrage de 'God of War' sorti en 2018 ?",
+        "reponse": "Cory Barlog",
+        "propositions": [
+          "Cory Barlog",
+          "David Jaffe",
+          "Neil Druckmann",
+          "Josef Fares"
+        ],
+        "explication": "Ce redémarrage de 2018 a réorienté la série vers la mythologie nordique, après plusieurs épisodes centrés sur la mythologie grecque."
+      },
+      {
+        "question": "Quel producteur de Nintendo supervise la série 'The Legend of Zelda' depuis 'Ocarina of Time', y compris 'Breath of the Wild' et 'Tears of the Kingdom' ?",
+        "reponse": "Eiji Aonuma",
+        "propositions": [
+          "Eiji Aonuma",
+          "Shigeru Miyamoto",
+          "Hidemaro Fujibayashi",
+          "Yoshiaki Koizumi"
+        ],
+        "explication": "Eiji Aonuma a rejoint Nintendo en 1988 et travaille sur la saga Zelda depuis 'Ocarina of Time', sorti en 1998."
+      },
+      {
+        "question": "Quel créateur japonais, à l'origine de la série 'Kirby', dirige également la série 'Super Smash Bros.' depuis sa création en 1999 ?",
+        "reponse": "Masahiro Sakurai",
+        "propositions": [
+          "Masahiro Sakurai",
+          "Eiji Aonuma",
+          "Hideki Kamiya",
+          "Tetsuya Takahashi"
+        ],
+        "explication": "Masahiro Sakurai supervise personnellement un grand nombre d'aspects de 'Super Smash Bros.', du design des combattants au montage des bandes-annonces."
+      },
+      {
+        "question": "Quel cofondateur et scénariste en chef de Rockstar Games, à l'origine des récits de 'Grand Theft Auto' et de 'Red Dead Redemption', a quitté le studio en 2020 ?",
+        "reponse": "Dan Houser",
+        "propositions": [
+          "Dan Houser",
+          "Sam Houser",
+          "Leslie Benzies",
+          "Rockstar North"
+        ],
+        "explication": "Dan Houser a ensuite fondé un nouveau studio, Absurd Ventures, tourné vers plusieurs médias narratifs."
+      },
+      {
+        "question": "Quel scénariste et réalisateur japonais, connu pour 'Final Fantasy Tactics' et 'Vagrant Story', a quitté Square Enix en cours de développement de 'Final Fantasy XII' pour des raisons de santé ?",
+        "reponse": "Yasumi Matsuno",
+        "propositions": [
+          "Yasumi Matsuno",
+          "Hironobu Sakaguchi",
+          "Yoshinori Kitase",
+          "Tetsuya Nomura"
+        ],
+        "explication": "Les intrigues politiques complexes de Matsuno ont marqué durablement l'univers de 'Final Fantasy Tactics' et de 'Final Fantasy XII'."
+      },
+      {
+        "question": "Quel réalisateur japonais de 'Final Fantasy XV' a quitté Square Enix en 2018 pour fonder son propre studio indépendant, JP Games ?",
+        "reponse": "Hajime Tabata",
+        "propositions": [
+          "Hajime Tabata",
+          "Tetsuya Nomura",
+          "Yoshinori Kitase",
+          "Hiroyuki Ito"
+        ],
+        "explication": "Hajime Tabata avait repris la direction de 'Final Fantasy XV' après plusieurs années de développement tourmenté sous le nom provisoire 'Final Fantasy Versus XIII'."
+      },
+      {
+        "question": "Quel cofondateur de PlatinumGames, réalisateur de 'Bayonetta' et de 'Devil May Cry' chez Capcom, est réputé pour ses prises de position directes sur les réseaux sociaux ?",
+        "reponse": "Hideki Kamiya",
+        "propositions": [
+          "Hideki Kamiya",
+          "Shinji Mikami",
+          "Yoko Taro",
+          "Goichi Suda"
+        ],
+        "explication": "Hideki Kamiya a cofondé PlatinumGames en 2007 après avoir quitté Capcom, où il avait notamment créé 'Okami'."
       }
     ]
   }

@@ -121,6 +121,66 @@
         "reponse": "Un marché baissier (bear market)",
         "propositions": ["Un marché baissier (bear market)", "Un marché haussier (bull market)", "Une bulle spéculative", "Un krach"],
         "explication": "Un marché baissier se distingue du krach par son caractère progressif plutôt que brutal."
+      },
+      {
+        "question": "Quelle banque française, l'une des premières d'Europe par le bilan, est cotée au CAC 40 ?",
+        "reponse": "BNP Paribas",
+        "propositions": ["BNP Paribas", "AXA", "Crédit Agricole", "Natixis"],
+        "explication": "BNP Paribas est née en 2000 de la fusion de la BNP et de Paribas."
+      },
+      {
+        "question": "Quel grand laboratoire pharmaceutique français est l'une des valeurs historiques du CAC 40 ?",
+        "reponse": "Sanofi",
+        "propositions": ["Sanofi", "Pfizer", "Novartis", "Servier"],
+        "explication": "Sanofi est né en 2004 de la fusion entre Sanofi-Synthélabo et Aventis."
+      },
+      {
+        "question": "Quelle compagnie française d'assurance, dont le nom est aussi celui d'un ancien club de rugby, est cotée au CAC 40 ?",
+        "reponse": "AXA",
+        "propositions": ["AXA", "Allianz", "Generali", "MAIF"],
+        "explication": "AXA est l'un des plus grands groupes d'assurance et de gestion d'actifs au monde."
+      },
+      {
+        "question": "Quel avionneur européen, codétenu par la France, l'Allemagne et l'Espagne, est cotée au CAC 40 ?",
+        "reponse": "Airbus",
+        "propositions": ["Airbus", "Dassault Aviation", "Safran", "Thales"],
+        "explication": "Airbus est aussi coté sur les Bourses de Francfort et de Madrid, en plus de celle de Paris."
+      },
+      {
+        "question": "Quel fabricant français de pneumatiques, basé à Clermont-Ferrand, fait partie des valeurs du CAC 40 ?",
+        "reponse": "Michelin",
+        "propositions": ["Michelin", "Continental", "Bridgestone", "Goodyear"],
+        "explication": "Michelin est aussi connu pour son guide gastronomique et sa mascotte Bibendum."
+      },
+      {
+        "question": "Quel constructeur automobile français, partenaire historique de Nissan, est cotée au CAC 40 ?",
+        "reponse": "Renault",
+        "propositions": ["Renault", "Stellantis", "Peugeot", "Citroën"],
+        "explication": "Renault a formé une alliance avec Nissan dès 1999, plus tard élargie à Mitsubishi."
+      },
+      {
+        "question": "Quelle enseigne française de distribution alimentaire, présente dans de nombreux pays, est cotée au CAC 40 ?",
+        "reponse": "Carrefour",
+        "propositions": ["Carrefour", "Casino", "Auchan", "E.Leclerc"],
+        "explication": "Carrefour a inventé le concept d'hypermarché en France en 1963."
+      },
+      {
+        "question": "Quel opérateur de télécommunications français, ancien monopole d'État, est cotée au CAC 40 sous le nom Orange depuis 2013 ?",
+        "reponse": "Orange",
+        "propositions": ["Orange", "Bouygues Telecom", "SFR", "Free"],
+        "explication": "Orange s'appelait auparavant France Télécom avant son changement de nom commercial puis social."
+      },
+      {
+        "question": "Quel groupe français de concessions et de construction, propriétaire d'un réseau d'autoroutes, est cotée au CAC 40 ?",
+        "reponse": "Vinci",
+        "propositions": ["Vinci", "Eiffage", "Bouygues", "Colas"],
+        "explication": "Vinci gère notamment de nombreuses autoroutes concédées ainsi que des aéroports à l'international."
+      },
+      {
+        "question": "Quelle maison de luxe française, restée majoritairement familiale, fabrique notamment des sacs à main et des carrés en soie, et est cotée au CAC 40 ?",
+        "reponse": "Hermès",
+        "propositions": ["Hermès", "Chanel", "Louis Vuitton", "Dior"],
+        "explication": "Hermès, contrairement à beaucoup de ses concurrents du luxe, est resté majoritairement contrôlé par la famille fondatrice."
       }
     ],
     "2": [
@@ -243,6 +303,66 @@
         "reponse": "TotalEnergies (ex-Total)",
         "propositions": ["TotalEnergies (ex-Total)", "Engie", "EDF", "Technip Energies"],
         "explication": "Ce changement de nom accompagnait une stratégie affichée de diversification vers les énergies renouvelables."
+      },
+      {
+        "question": "Comment appelle-t-on la part des actions d'une société librement négociable en Bourse, utilisée pour pondérer le poids de chaque valeur dans le CAC 40 ?",
+        "reponse": "Le flottant",
+        "propositions": ["Le flottant", "Le nominal", "Le pair", "Le report"],
+        "explication": "Le CAC 40 est pondéré par la capitalisation flottante, c'est-à-dire en excluant les participations stables non échangées sur le marché."
+      },
+      {
+        "question": "Comment appelle-t-on un ordre de Bourse qui ne s'exécute qu'à un prix choisi par l'investisseur ou à un prix plus favorable ?",
+        "reponse": "Un ordre à cours limité",
+        "propositions": ["Un ordre à cours limité", "Un ordre au marché", "Un ordre stop", "Un ordre à révocation"],
+        "explication": "Contrairement à l'ordre au marché, l'ordre à cours limité n'est pas garanti d'être exécuté s'il n'atteint pas le prix fixé."
+      },
+      {
+        "question": "Comment appelle-t-on les organismes, comme Moody's, Standard & Poor's ou Fitch, qui évaluent la solvabilité des émetteurs d'obligations ?",
+        "reponse": "Les agences de notation",
+        "propositions": ["Les agences de notation", "Les chambres de compensation", "Les dépositaires centraux", "Les teneurs de marché"],
+        "explication": "Une dégradation de la note d'un État ou d'une entreprise par ces agences peut faire grimper le coût de sa dette sur les marchés."
+      },
+      {
+        "question": "Comment appelle-t-on une chute très rapide des cours suivie d'un rebond presque immédiat, souvent liée au trading algorithmique ?",
+        "reponse": "Un flash crash",
+        "propositions": ["Un flash crash", "Un krach rampant", "Une correction technique", "Un gap baissier"],
+        "explication": "Un flash crash se distingue d'un krach classique par sa durée extrêmement brève, de quelques minutes seulement."
+      },
+      {
+        "question": "Comment appelle-t-on les stratégies de négociation automatisées qui passent un très grand nombre d'ordres en quelques millisecondes ?",
+        "reponse": "Le trading à haute fréquence",
+        "propositions": ["Le trading à haute fréquence", "Le day trading", "L'arbitrage réglementaire", "Le market timing"],
+        "explication": "Le trading à haute fréquence représente une part importante des volumes échangés sur les marchés actions européens."
+      },
+      {
+        "question": "Comment appelle-t-on le rachat d'une entreprise financé majoritairement par de la dette, souvent réalisé par un fonds d'investissement ?",
+        "reponse": "Un LBO (leveraged buy-out)",
+        "propositions": ["Un LBO (leveraged buy-out)", "Une introduction en Bourse", "Une offre publique d'échange", "Un split d'action"],
+        "explication": "Dans un LBO, la dette d'acquisition est en principe remboursée grâce aux flux de trésorerie générés par l'entreprise rachetée."
+      },
+      {
+        "question": "Comment appelle-t-on la pratique consistant à acheter puis revendre des titres au cours de la même séance de Bourse ?",
+        "reponse": "Le day trading",
+        "propositions": ["Le day trading", "Le trading à haute fréquence", "Le portage financier", "Le market making"],
+        "explication": "Le day trading vise à profiter des variations de cours à très court terme, sans conserver de position d'un jour sur l'autre."
+      },
+      {
+        "question": "Quelle autorité française, distincte de l'AMF, est chargée de la supervision prudentielle des banques et des compagnies d'assurance ?",
+        "reponse": "L'Autorité de contrôle prudentiel et de résolution (ACPR)",
+        "propositions": ["L'Autorité de contrôle prudentiel et de résolution (ACPR)", "La Cour des comptes", "L'INSEE", "Le Haut Conseil de stabilité financière"],
+        "explication": "L'ACPR, adossée à la Banque de France, veille à la solidité financière des établissements bancaires et des assureurs."
+      },
+      {
+        "question": "Comment appelle-t-on une plateforme de négociation où les ordres d'achat et de vente ne sont pas rendus publics avant leur exécution ?",
+        "reponse": "Un dark pool",
+        "propositions": ["Un dark pool", "Un marché réglementé", "Un fixing", "Un carnet d'ordres central"],
+        "explication": "Les dark pools permettent aux investisseurs institutionnels de négocier de gros blocs de titres sans influencer immédiatement le cours public."
+      },
+      {
+        "question": "Comment appelle-t-on le ratio obtenu en divisant le dividende annuel par le cours de l'action, exprimé en pourcentage ?",
+        "reponse": "Le rendement du dividende",
+        "propositions": ["Le rendement du dividende", "Le PER", "Le bêta", "Le taux de distribution"],
+        "explication": "Un rendement du dividende élevé peut signaler une action généreuse en dividendes, ou au contraire un cours déprimé par le marché."
       }
     ],
     "3": [
@@ -313,7 +433,7 @@
         "explication": "Le PEA, créé par la loi du 16 juillet 1992, permet sous conditions une exonération d'impôt sur les plus-values après cinq ans de détention."
       },
       {
-        "question": "Quel marché, dédié aux petites et moyennes entreprises, a précédé Euronext Growth sous le nom d'« Alternext », créé en 2005 ?",
+        "question": "Quel marché boursier, dédié aux petites et moyennes entreprises et créé en 2005, a été rebaptisé Euronext Growth en 2017 ?",
         "reponse": "Alternext",
         "propositions": ["Alternext", "Le Nouveau Marché", "Le Second Marché", "Le Marché Libre"],
         "explication": "Alternext a été renommé Euronext Growth en 2017, dans le cadre d'une harmonisation des marchés de croissance du groupe Euronext."
@@ -365,6 +485,66 @@
         "reponse": "Le compartiment A",
         "propositions": ["Le compartiment A", "Le compartiment B", "Le compartiment C", "Le compartiment D"],
         "explication": "Euronext classe les valeurs du marché réglementé en compartiments A, B et C selon leur capitalisation boursière décroissante."
+      },
+      {
+        "question": "Quel économiste écossais, à l'origine d'une bulle spéculative retentissante à Paris autour de 1719-1720 avec la Compagnie du Mississippi, a précédé la régulation de la Bourse de Paris en 1724 ?",
+        "reponse": "John Law",
+        "propositions": ["John Law", "Jacques Necker", "Turgot", "Adam Smith"],
+        "explication": "L'effondrement du système de Law, fondé sur la Banque Royale et la Compagnie du Mississippi, a durablement marqué la confiance des épargnants français envers le papier-monnaie et les actions."
+      },
+      {
+        "question": "Quel trader de la Société Générale a provoqué, début 2008, une perte d'environ 4,9 milliards d'euros en prenant des positions non autorisées sur les marchés ?",
+        "reponse": "Jérôme Kerviel",
+        "propositions": ["Jérôme Kerviel", "Nick Leeson", "Kweku Adoboli", "Bruno Iksil"],
+        "explication": "Cette perte, l'une des plus importantes jamais causées par un trader isolé, a profondément marqué l'image de la banque sur les marchés."
+      },
+      {
+        "question": "Quel segment de la Bourse de Paris, créé en 1996 pour les valeurs technologiques de croissance, a fonctionné jusqu'à sa fusion dans Alternext en 2005 ?",
+        "reponse": "Le Nouveau Marché",
+        "propositions": ["Le Nouveau Marché", "Le Second Marché", "Le Marché Libre", "Le Premier Marché"],
+        "explication": "Le Nouveau Marché a notamment porté l'essor, puis la chute, de nombreuses valeurs liées à la bulle Internet en France."
+      },
+      {
+        "question": "Quel segment intermédiaire de la cote parisienne, créé en 1983 entre la cote officielle et le marché hors-cote, a disparu lors de la création d'Eurolist en 2005 ?",
+        "reponse": "Le Second Marché",
+        "propositions": ["Le Second Marché", "Le Nouveau Marché", "Le Marché Libre", "Euronext Growth"],
+        "explication": "Le Second Marché accueillait des entreprises de taille moyenne, avec des obligations de transparence allégées par rapport à la cote officielle."
+      },
+      {
+        "question": "Quel marché français de produits dérivés, créé en 1986 et spécialisé notamment dans les contrats à terme de taux, a depuis été intégré à Euronext ?",
+        "reponse": "Le MATIF",
+        "propositions": ["Le MATIF", "Le MONEP", "Le SRD", "Le RM"],
+        "explication": "Le MATIF (Marché à terme international de France) a longtemps constitué l'une des principales places mondiales de négociation de produits dérivés de taux."
+      },
+      {
+        "question": "Quel marché français des options sur actions, créé en 1987, a lui aussi fini par être intégré aux plateformes d'Euronext ?",
+        "reponse": "Le MONEP",
+        "propositions": ["Le MONEP", "Le MATIF", "Le SRD", "Le fixing"],
+        "explication": "Le MONEP (Marché des options négociables de Paris) permettait de négocier des options d'achat et de vente sur les principales actions françaises."
+      },
+      {
+        "question": "Quelle corporation professionnelle détenait, jusqu'à la réforme de 1988, le monopole légal de l'intermédiation sur les titres cotés à la Bourse de Paris ?",
+        "reponse": "La Compagnie des agents de change",
+        "propositions": ["La Compagnie des agents de change", "La Chambre syndicale des banquiers", "L'Ordre des experts-comptables", "Le Conseil des bourses de valeurs"],
+        "explication": "Les agents de change, dont la charge se transmettait en partie par rachat, ont perdu leur monopole lors de la réforme de 1988, remplacés par des sociétés de Bourse."
+      },
+      {
+        "question": "Quelle loi française de 2001, imposant notamment de nouvelles obligations de transparence aux sociétés cotées, est connue sous l'acronyme NRE ?",
+        "reponse": "La loi relative aux Nouvelles Régulations Économiques",
+        "propositions": ["La loi relative aux Nouvelles Régulations Économiques", "La loi de sécurité financière", "La loi Pacte", "La loi Macron"],
+        "explication": "La loi NRE a notamment introduit l'obligation pour certaines sociétés cotées de publier des informations sociales et environnementales dans leur rapport annuel."
+      },
+      {
+        "question": "Quelle taxe française, instaurée en 2012, prélève environ 0,3% sur les achats d'actions des grandes entreprises françaises dont la capitalisation dépasse un milliard d'euros ?",
+        "reponse": "La taxe sur les transactions financières (TTF)",
+        "propositions": ["La taxe sur les transactions financières (TTF)", "L'impôt de solidarité sur la fortune", "La flat tax", "La contribution sociale généralisée (CSG)"],
+        "explication": "Cette taxe française a précédé les discussions sur une taxe sur les transactions financières à l'échelle de l'Union européenne, restée au stade de projet."
+      },
+      {
+        "question": "Quel architecte français, mort avant l'achèvement de son œuvre en 1826, a donné son nom au Palais Brongniart, qui a longtemps abrité la Bourse de Paris ?",
+        "reponse": "Alexandre-Théodore Brongniart",
+        "propositions": ["Alexandre-Théodore Brongniart", "Charles Garnier", "Gabriel Davioud", "Jacques-Ignace Hittorff"],
+        "explication": "Brongniart, mort en 1813, a vu son chantier achevé par son élève Éloi Labarre, treize ans après sa mort."
       }
     ]
   }

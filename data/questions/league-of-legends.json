@@ -121,6 +121,66 @@
         "reponse": "Riot Games",
         "propositions": ["Riot Games", "Blizzard Entertainment", "Valve", "Epic Games"],
         "explication": "Riot Games a consacré trois ans au développement du jeu avant son lancement en 2009."
+      },
+      {
+        "question": "Quelle monnaie, gagnée en éliminant des sbires, des monstres ou des champions ennemis, sert à acheter des objets en boutique pendant la partie ?",
+        "reponse": "L'or",
+        "propositions": ["L'or", "L'essence bleue", "Les points Riot", "L'essence Hextech"],
+        "explication": "L'or s'accumule tout au long de la partie et permet d'améliorer son champion en objets."
+      },
+      {
+        "question": "Comment appelle-t-on les apparences cosmétiques, sans effet sur le gameplay, que l'on peut acheter pour personnaliser un champion ?",
+        "reponse": "Des skins",
+        "propositions": ["Des skins", "Des émotes", "Des icônes", "Des chromas"],
+        "explication": "Les skins modifient uniquement l'apparence visuelle et sonore d'un champion, jamais ses statistiques."
+      },
+      {
+        "question": "Jusqu'à quel niveau maximum un champion peut-il progresser au cours d'une partie classique de League of Legends ?",
+        "reponse": "18",
+        "propositions": ["18", "15", "20", "25"],
+        "explication": "Un champion gagne de l'expérience en combattant et en restant proche des sbires et champions qui meurent, jusqu'au niveau 18."
+      },
+      {
+        "question": "Quel mode de jeu événementiel, surnommé « URF », permet de lancer ses sorts avec un temps de recharge extrêmement réduit ?",
+        "reponse": "L'URF (Ultra Rapid Fire)",
+        "propositions": ["L'URF (Ultra Rapid Fire)", "L'ARAM", "Le Nexus Blitz", "La Faille Tordue"],
+        "explication": "L'URF n'est disponible que lors d'événements temporaires organisés par Riot Games."
+      },
+      {
+        "question": "Comment appelle-t-on le petit objet de départ, souvent appelé une « babiole », qui permet de poser une ward sans occuper un emplacement d'objet classique ?",
+        "reponse": "La babiole (trinket)",
+        "propositions": ["La babiole (trinket)", "La potion de vision", "La rune oculaire", "La torche de garde"],
+        "explication": "La babiole occupe un emplacement d'inventaire séparé des six emplacements d'objets classiques."
+      },
+      {
+        "question": "Quelle statistique détermine les dégâts infligés par les capacités magiques d'un champion ?",
+        "reponse": "La puissance (ability power)",
+        "propositions": ["La puissance (ability power)", "Les dégâts d'attaque", "L'armure", "La résistance magique"],
+        "explication": "Les champions mages construisent généralement des objets augmentant leur puissance pour maximiser les dégâts de leurs sorts."
+      },
+      {
+        "question": "Quelle statistique, abrégée AD, détermine les dégâts infligés par les attaques de base d'un champion ?",
+        "reponse": "Les dégâts d'attaque (Attack Damage)",
+        "propositions": ["Les dégâts d'attaque (Attack Damage)", "La puissance (ability power)", "La vitesse d'attaque", "La pénétration d'armure"],
+        "explication": "De nombreux champions comme les ADC ou certains assassins bâtissent principalement leurs dégâts autour de cette statistique."
+      },
+      {
+        "question": "Combien d'emplacements d'objets classiques (hors emplacement de babiole) un champion possède-t-il dans son inventaire ?",
+        "reponse": "6",
+        "propositions": ["6", "4", "8", "5"],
+        "explication": "Un septième emplacement dédié aux babioles existe en plus de ces six emplacements d'objets classiques."
+      },
+      {
+        "question": "Comment appelle-t-on la capacité la plus puissante d'un champion, généralement débloquée au niveau 6 et activée avec la touche R ?",
+        "reponse": "L'ultime",
+        "propositions": ["L'ultime", "Le passif", "Le combo", "Le final"],
+        "explication": "L'ultime a souvent un temps de recharge plus long que les autres sorts, mais un effet beaucoup plus puissant."
+      },
+      {
+        "question": "Comment appelle-t-on les parties jouées contre des adversaires contrôlés par l'intelligence artificielle, plutôt que contre d'autres joueurs ?",
+        "reponse": "Les parties contre l'IA (coopération)",
+        "propositions": ["Les parties contre l'IA (coopération)", "L'ARAM", "Le mode classé", "L'URF"],
+        "explication": "Ce mode permet notamment aux nouveaux joueurs de se familiariser avec les mécaniques du jeu sans affronter d'autres humains."
       }
     ],
     "2": [
@@ -243,6 +303,66 @@
         "reponse": "La cinématique des Worlds",
         "propositions": ["La cinématique des Worlds", "L'Arcane Day", "Le Spirit Blossom Festival", "Le Lunar Revel"],
         "explication": "Des chansons comme 'Warriors' ou 'Legends Never Die' accompagnent ainsi la promotion des Worlds depuis plusieurs années."
+      },
+      {
+        "question": "Quelle entreprise chinoise est devenue actionnaire majoritaire de Riot Games en 2011, puis propriétaire à 100% en 2015 ?",
+        "reponse": "Tencent",
+        "propositions": ["Tencent", "Alibaba", "NetEase", "ByteDance"],
+        "explication": "Tencent, géant chinois de la technologie, possède également des parts dans de nombreux autres studios de jeux vidéo."
+      },
+      {
+        "question": "Quel sort d'invocateur, très utilisé par les junglers, permet d'infliger de puissants dégâts supplémentaires à un monstre neutre ou un sbire ?",
+        "reponse": "Châtiment (Smite)",
+        "propositions": ["Châtiment (Smite)", "Soin", "Exténuement", "Téléportation"],
+        "explication": "Châtiment permet notamment de sécuriser les objectifs comme le Dragon ou le Baron Nashor face à une équipe adverse."
+      },
+      {
+        "question": "Quel sort d'invocateur soigne instantanément le champion qui le lance ainsi que l'allié le plus proche dans sa zone d'effet ?",
+        "reponse": "Soin (Heal)",
+        "propositions": ["Soin (Heal)", "Barrière", "Châtiment", "Exténuement"],
+        "explication": "Soin offre aussi un bonus temporaire de vitesse de déplacement en plus des points de vie restaurés."
+      },
+      {
+        "question": "Quel sort d'invocateur emblématique permet au champion de se téléporter instantanément sur une courte distance ?",
+        "reponse": "Saut éclair (Flash)",
+        "propositions": ["Saut éclair (Flash)", "Téléportation", "Fantôme", "Soin"],
+        "explication": "Saut éclair est l'un des sorts d'invocateur les plus utilisés, aussi bien pour fuir un danger que pour surprendre un adversaire."
+      },
+      {
+        "question": "Quel buff spécial obtient l'équipe qui élimine le Dragon ancien (Elder Dragon), qui apparaît en fin de partie à la place des dragons élémentaires classiques ?",
+        "reponse": "Des brûlures infligeant des dégâts bruts supplémentaires aux ennemis",
+        "propositions": ["Des brûlures infligeant des dégâts bruts supplémentaires aux ennemis", "Une résurrection automatique", "Une invisibilité totale", "Un doublement de l'or gagné"],
+        "explication": "Ce buff rend les combats de groupe de fin de partie particulièrement décisifs pour l'équipe qui le possède."
+      },
+      {
+        "question": "Quel jeu de tir tactique, sorti par Riot Games en 2020, ne partage pas l'univers de Runeterra, contrairement à Teamfight Tactics ou Wild Rift ?",
+        "reponse": "Valorant",
+        "propositions": ["Valorant", "Legends of Runeterra", "Hextech Mayhem", "Ruined King"],
+        "explication": "Valorant se déroule dans un univers contemporain fictif distinct de celui de League of Legends."
+      },
+      {
+        "question": "Quel événement festif annuel de fin d'année, dans le client du jeu, est surnommé « Snowdown » ?",
+        "reponse": "Le Snowdown Showdown",
+        "propositions": ["Le Snowdown Showdown", "Le Lunar Revel", "Le Spirit Blossom Festival", "La Fête des Récoltes"],
+        "explication": "Snowdown propose traditionnellement des missions, des skins thématiques et des récompenses à l'approche des fêtes de fin d'année."
+      },
+      {
+        "question": "Quel sort d'invocateur crée un bouclier temporaire absorbant les dégâts entrants pendant une courte durée ?",
+        "reponse": "Barrière (Barrier)",
+        "propositions": ["Barrière (Barrier)", "Soin", "Châtiment", "Purge"],
+        "explication": "Barrière est souvent utilisée pour anticiper de gros dégâts attendus, par exemple lors d'une attaque de tourelle ou d'un combo ennemi."
+      },
+      {
+        "question": "Dans quelle ville américaine Riot Games a-t-il son siège mondial depuis sa fondation en 2006 ?",
+        "reponse": "Los Angeles",
+        "propositions": ["Los Angeles", "San Francisco", "Seattle", "New York"],
+        "explication": "Riot Games a depuis ouvert de nombreux bureaux régionaux à travers le monde, tout en conservant son siège en Californie."
+      },
+      {
+        "question": "Quelle statistique permet de réduire le temps de recharge des sorts d'un champion, remplaçant l'ancienne « réduction du temps de recharge » en pourcentage ?",
+        "reponse": "La hâte de compétence (ability haste)",
+        "propositions": ["La hâte de compétence (ability haste)", "La pénétration magique", "La vitesse d'attaque", "L'armure"],
+        "explication": "La hâte de compétence a remplacé le système de réduction en pourcentage pour simplifier le calcul du temps de recharge des sorts."
       }
     ],
     "3": [
@@ -365,6 +485,66 @@
         "reponse": "DRX",
         "propositions": ["DRX", "T1", "Gen.G", "JD Gaming"],
         "explication": "DRX a battu T1 en finale des Worlds 2022, l'une des plus grandes surprises de l'histoire de la compétition."
+      },
+      {
+        "question": "Quelle équipe chinoise a remporté le championnat du monde 2021, à Reykjavik, en battant DWG KIA (ex-DAMWON Gaming) en finale ?",
+        "reponse": "EDward Gaming",
+        "propositions": ["EDward Gaming", "FunPlus Phoenix", "Royal Never Give Up", "Suning"],
+        "explication": "Cette victoire faisait d'EDward Gaming la deuxième équipe chinoise, après Invictus Gaming, à remporter les Worlds."
+      },
+      {
+        "question": "Quelle équipe de Faker a remporté le championnat du monde 2023 à Séoul, mettant fin à sept années sans titre mondial ?",
+        "reponse": "T1",
+        "propositions": ["T1", "Weibo Gaming", "JD Gaming", "Gen.G"],
+        "explication": "T1 avait remporté son précédent titre mondial en 2016, avant cette victoire de 2023 face à Weibo Gaming."
+      },
+      {
+        "question": "Quelle équipe chinoise a affronté T1 en finale des Worlds 2024, disputée à Londres ?",
+        "reponse": "Bilibili Gaming (BLG)",
+        "propositions": ["Bilibili Gaming (BLG)", "JD Gaming", "Top Esports", "LNG Esports"],
+        "explication": "T1 a remporté cette finale face à BLG, décrochant un titre mondial consécutif après celui de 2023."
+      },
+      {
+        "question": "Quel joueur nord-américain, surnommé « Doublelift », détient le plus grand nombre de titres de la ligue nord-américaine (LCS), remportés avec deux organisations différentes ?",
+        "reponse": "Yiliang Peng",
+        "propositions": ["Yiliang Peng", "Søren Bjerg", "Nicolaj Jensen", "Marcus Hoiberg"],
+        "explication": "Doublelift a remporté des titres LCS avec Counter Logic Gaming puis avec Team SoloMid, deux des organisations historiques de la région."
+      },
+      {
+        "question": "Quel joueur danois, surnommé « Bjergsen », a remporté le plus grand nombre de titres de la ligue nord-américaine avec une seule organisation, Team SoloMid ?",
+        "reponse": "Søren Bjerg",
+        "propositions": ["Søren Bjerg", "Rasmus Winther", "Yiliang Peng", "Martin Larsson"],
+        "explication": "Bjergsen a occupé le poste de mid laner de TSM pendant la majeure partie des années 2010, avant de devenir entraîneur puis dirigeant de l'organisation."
+      },
+      {
+        "question": "Quel jungler sud-coréen a accompagné Faker lors des trois titres mondiaux de SK Telecom T1, en 2013, 2015 et 2016 ?",
+        "reponse": "Bengi",
+        "propositions": ["Bengi", "Peanut", "Blank", "Clid"],
+        "explication": "Bengi (Bae Seong-woong) formait avec Faker l'un des duos mid-jungle les plus titrés de l'histoire de la compétition."
+      },
+      {
+        "question": "Quel mid laner danois de G2 Esports, surnommé « Caps », détient le plus grand nombre de titres de la ligue européenne (LEC) ?",
+        "reponse": "Rasmus Winther",
+        "propositions": ["Rasmus Winther", "Søren Bjerg", "Luka Perković", "Martin Larsson"],
+        "explication": "Caps a rejoint G2 Esports en 2019 après des débuts chez Fnatic, où il avait déjà été sacré champion d'Europe."
+      },
+      {
+        "question": "Dans l'univers de Runeterra, quelle faction impérialiste et militariste, patrie de champions comme Darius et Swain, est la grande rivale de Demacia ?",
+        "reponse": "Noxus",
+        "propositions": ["Noxus", "Ionia", "Freljord", "Zaun"],
+        "explication": "La rivalité entre Demacia et Noxus structure une grande partie des conflits de l'univers narratif de League of Legends."
+      },
+      {
+        "question": "Dans l'univers de Runeterra, quelle région inspirée du Japon féodal et imprégnée de spiritualité est la patrie des champions Yasuo et Zed ?",
+        "reponse": "Ionia",
+        "propositions": ["Ionia", "Noxus", "Demacia", "Shurima"],
+        "explication": "Ionia a notamment subi une invasion de Noxus dans le lore de League of Legends, conflit qui a façonné l'histoire de plusieurs champions."
+      },
+      {
+        "question": "Dans l'univers de Runeterra, quel royaume fondé sur la justice et l'honneur, hostile à la magie non autorisée, est la patrie de champions comme Garen et Lux ?",
+        "reponse": "Demacia",
+        "propositions": ["Demacia", "Noxus", "Ionia", "Piltover"],
+        "explication": "Demacia s'oppose traditionnellement à Noxus dans les récits et cinématiques de League of Legends."
       }
     ]
   }

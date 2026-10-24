@@ -386,6 +386,116 @@
           "Romain Rolland"
         ],
         "explication": "Cette œuvre majeure du XXe siècle est composée de sept volumes publiés entre 1913 et 1927."
+      },
+      {
+        "question": "Quel philosophe genevois d'expression française du XVIIIe siècle a écrit 'Les Confessions' et 'Du contrat social' ?",
+        "reponse": "Jean-Jacques Rousseau",
+        "propositions": [
+          "Jean-Jacques Rousseau",
+          "Voltaire",
+          "Montesquieu",
+          "Denis Diderot"
+        ],
+        "explication": "'Du contrat social' (1762) pose les bases théoriques de la souveraineté populaire."
+      },
+      {
+        "question": "Quel philosophe français des Lumières, auteur de 'De l'esprit des lois', a aussi écrit les 'Lettres persanes' ?",
+        "reponse": "Montesquieu",
+        "propositions": [
+          "Montesquieu",
+          "Voltaire",
+          "Jean-Jacques Rousseau",
+          "Denis Diderot"
+        ],
+        "explication": "'De l'esprit des lois' (1748) théorise la séparation des pouvoirs, encore influente aujourd'hui."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIIe siècle a écrit 'Le Mariage de Figaro', plus tard adapté en opéra par Mozart ?",
+        "reponse": "Beaumarchais",
+        "propositions": [
+          "Beaumarchais",
+          "Marivaux",
+          "Voltaire",
+          "Denis Diderot"
+        ],
+        "explication": "Beaumarchais a aussi écrit 'Le Barbier de Séville', qui met en scène les mêmes personnages avant 'Le Mariage de Figaro'."
+      },
+      {
+        "question": "Quelle écrivaine française a reçu le prix Nobel de littérature en 2022 pour une œuvre autobiographique incluant 'La Place' et 'Les Années' ?",
+        "reponse": "Annie Ernaux",
+        "propositions": [
+          "Annie Ernaux",
+          "Marguerite Duras",
+          "Nathalie Sarraute",
+          "Simone de Beauvoir"
+        ],
+        "explication": "Annie Ernaux explore dans son œuvre sa propre vie et son milieu social d'origine, notamment dans 'La Place' (1983)."
+      },
+      {
+        "question": "Quel écrivain français contemporain a reçu le prix Nobel de littérature en 2014, connu pour des romans explorant la mémoire et le Paris de l'Occupation ?",
+        "reponse": "Patrick Modiano",
+        "propositions": [
+          "Patrick Modiano",
+          "Michel Houellebecq",
+          "Jean-Marie Gustave Le Clézio",
+          "Pascal Quignard"
+        ],
+        "explication": "Modiano a notamment reçu le prix Goncourt en 1978 pour 'Rue des Boutiques Obscures'."
+      },
+      {
+        "question": "Quel écrivain français contemporain est l'auteur des romans 'Les Particules élémentaires' et 'Soumission' ?",
+        "reponse": "Michel Houellebecq",
+        "propositions": [
+          "Michel Houellebecq",
+          "Patrick Modiano",
+          "Frédéric Beigbeder",
+          "Emmanuel Carrère"
+        ],
+        "explication": "Houellebecq a aussi reçu le prix Goncourt en 2010 pour son roman 'La Carte et le Territoire'."
+      },
+      {
+        "question": "Quel écrivain et musicien français, auteur de 'L'Écume des jours', a aussi publié des romans sous le pseudonyme Vernon Sullivan ?",
+        "reponse": "Boris Vian",
+        "propositions": [
+          "Boris Vian",
+          "Raymond Queneau",
+          "Jacques Prévert",
+          "Marcel Aymé"
+        ],
+        "explication": "'L'Écume des jours' (1947) mêle poésie, fantaisie et critique sociale dans une histoire d'amour tragique."
+      },
+      {
+        "question": "Quel écrivain français a rédigé tout un roman, 'La Disparition' (1969), sans utiliser une seule fois la lettre 'e' ?",
+        "reponse": "Georges Perec",
+        "propositions": [
+          "Georges Perec",
+          "Raymond Queneau",
+          "Boris Vian",
+          "Italo Calvino"
+        ],
+        "explication": "Perec était membre de l'Oulipo, un groupe d'écrivains explorant des contraintes formelles originales."
+      },
+      {
+        "question": "Quel écrivain français est le créateur de la saga Malaussène, dont le premier tome est 'Au bonheur des ogres' (1985) ?",
+        "reponse": "Daniel Pennac",
+        "propositions": [
+          "Daniel Pennac",
+          "Bernard Werber",
+          "Marc Levy",
+          "Guillaume Musso"
+        ],
+        "explication": "La famille Malaussène évolue dans le quartier parisien de Belleville au fil de la saga."
+      },
+      {
+        "question": "Quelle écrivaine belge d'expression française, très prolifique, est l'auteure de 'Stupeur et tremblements' (1999) ?",
+        "reponse": "Amélie Nothomb",
+        "propositions": [
+          "Amélie Nothomb",
+          "Marguerite Yourcenar",
+          "Françoise Mallet-Joris",
+          "Dominique Rolin"
+        ],
+        "explication": "'Stupeur et tremblements', inspiré de son expérience professionnelle au Japon, a reçu le prix de l'Académie française."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Alfred de Musset"
         ],
         "explication": "Vigny est connu pour sa vision pessimiste et solitaire de la condition du poète, exprimée notamment dans 'La Mort du loup'."
+      },
+      {
+        "question": "Quel dramaturge français du XVIIIe siècle, auteur de 'Le Jeu de l'amour et du hasard', a donné son nom au terme 'marivaudage' ?",
+        "reponse": "Marivaux",
+        "propositions": [
+          "Marivaux",
+          "Beaumarchais",
+          "Voltaire",
+          "Denis Diderot"
+        ],
+        "explication": "Le 'marivaudage' désigne un badinage amoureux raffiné, caractéristique du style théâtral de Marivaux."
+      },
+      {
+        "question": "Quel poète romantique français, auteur de 'Sylvie' et du sonnet 'El Desdichado', a sombré dans la folie avant de mourir en 1855 ?",
+        "reponse": "Gérard de Nerval",
+        "propositions": [
+          "Gérard de Nerval",
+          "Alfred de Musset",
+          "Théophile Gautier",
+          "Charles Baudelaire"
+        ],
+        "explication": "Nerval a été retrouvé pendu dans une rue de Paris, dans des circonstances jamais totalement élucidées."
+      },
+      {
+        "question": "Quel écrivain français du XIXe siècle, auteur de 'Mademoiselle de Maupin', a rédigé dans sa préface l'un des premiers manifestes de l'art pour l'art ?",
+        "reponse": "Théophile Gautier",
+        "propositions": [
+          "Théophile Gautier",
+          "Leconte de Lisle",
+          "Gérard de Nerval",
+          "José-Maria de Heredia"
+        ],
+        "explication": "Gautier y défend l'idée d'un art détaché de toute utilité morale ou sociale, une thèse reprise ensuite par les parnassiens."
+      },
+      {
+        "question": "Quel poète français a été, en 1901, le tout premier lauréat du prix Nobel de littérature, inaugurant ainsi cette distinction ?",
+        "reponse": "Sully Prudhomme",
+        "propositions": [
+          "Sully Prudhomme",
+          "Anatole France",
+          "Romain Rolland",
+          "Frédéric Mistral"
+        ],
+        "explication": "Sully Prudhomme fut aussi l'un des membres fondateurs du mouvement parnassien."
+      },
+      {
+        "question": "Quel romancier français, pseudonyme de Jacques Anatole François Thibault, a reçu le prix Nobel de littérature en 1921 ?",
+        "reponse": "Anatole France",
+        "propositions": [
+          "Anatole France",
+          "Sully Prudhomme",
+          "Romain Rolland",
+          "André Gide"
+        ],
+        "explication": "Anatole France est notamment l'auteur de 'L'Île des Pingouins', satire politique parue en 1908."
+      },
+      {
+        "question": "Quel écrivain, poète et cinéaste français, auteur du roman 'Les Enfants terribles' et réalisateur de 'La Belle et la Bête', a marqué l'avant-garde du XXe siècle ?",
+        "reponse": "Jean Cocteau",
+        "propositions": [
+          "Jean Cocteau",
+          "Jean Giraudoux",
+          "Jean Anouilh",
+          "André Malraux"
+        ],
+        "explication": "Cocteau a touché à presque tous les arts : poésie, roman, théâtre, dessin et cinéma."
+      },
+      {
+        "question": "Quel dramaturge français du XXe siècle a adapté librement la tragédie grecque dans sa pièce 'Antigone', créée à Paris en 1944 sous l'Occupation ?",
+        "reponse": "Jean Anouilh",
+        "propositions": [
+          "Jean Anouilh",
+          "Jean Giraudoux",
+          "Jean Cocteau",
+          "Jean-Paul Sartre"
+        ],
+        "explication": "La pièce se prêtait à une double lecture, pouvant être perçue comme une allégorie de la résistance à l'autorité."
+      },
+      {
+        "question": "Quel écrivain français du XXe siècle est l'auteur de la nouvelle fantastique 'Le Passe-muraille', mettant en scène un homme capable de traverser les murs ?",
+        "reponse": "Marcel Aymé",
+        "propositions": [
+          "Marcel Aymé",
+          "Boris Vian",
+          "Raymond Queneau",
+          "Marcel Pagnol"
+        ],
+        "explication": "Une statue inspirée de cette nouvelle est visible à Montmartre, quartier où se déroule l'histoire."
+      },
+      {
+        "question": "Quel écrivain français, auteur de 'Zazie dans le métro' (1959), a cofondé en 1960 le groupe littéraire expérimental de l'Oulipo ?",
+        "reponse": "Raymond Queneau",
+        "propositions": [
+          "Raymond Queneau",
+          "Georges Perec",
+          "Boris Vian",
+          "Italo Calvino"
+        ],
+        "explication": "L'Oulipo (Ouvroir de littérature potentielle) explore des contraintes formelles originales pour stimuler la création littéraire."
+      },
+      {
+        "question": "Quel écrivain français, né à Nice, a reçu le prix Nobel de littérature en 2008, notamment connu pour son roman 'Désert' ?",
+        "reponse": "Jean-Marie Gustave Le Clézio",
+        "propositions": [
+          "Jean-Marie Gustave Le Clézio",
+          "Patrick Modiano",
+          "Michel Houellebecq",
+          "Pascal Quignard"
+        ],
+        "explication": "Le Clézio a exploré dans son œuvre des thèmes liés à l'exil, à l'enfance et aux cultures non occidentales."
       }
     ],
     "3": [
@@ -920,7 +1140,7 @@
         "explication": "Rabelais mêle érudition humaniste et truculence satirique dans ses récits de géants."
       },
       {
-        "question": "Quelle écrivaine française, née Sidonie-Gabrielle Colette, est connue pour des œuvres comme 'Le Blé en herbe' et 'Gigi' ?",
+        "question": "Quelle écrivaine française, née Sidonie-Gabrielle en Bourgogne en 1873, est connue pour des œuvres comme 'Le Blé en herbe' et 'Gigi' ?",
         "reponse": "Colette",
         "propositions": [
           "Colette",
@@ -1160,6 +1380,116 @@
           "Claude Simon"
         ],
         "explication": "Le Nouveau Roman, dont Sarraute est l'une des figures, rompt avec les conventions du récit et du personnage traditionnels."
+      },
+      {
+        "question": "Quel poète français du XIXe siècle, figure du mouvement symboliste et auteur de 'Romances sans paroles' (1874), a eu une liaison tumultueuse avec Arthur Rimbaud ?",
+        "reponse": "Paul Verlaine",
+        "propositions": [
+          "Paul Verlaine",
+          "Stéphane Mallarmé",
+          "Tristan Corbière",
+          "Jean Moréas"
+        ],
+        "explication": "Cette relation orageuse s'acheva lorsque Verlaine blessa Rimbaud par balle à Bruxelles en 1873."
+      },
+      {
+        "question": "Quel poète français, chef de file du symbolisme, est l'auteur du poème hermétique 'Un coup de dés jamais n'abolira le hasard' (1897) ?",
+        "reponse": "Stéphane Mallarmé",
+        "propositions": [
+          "Stéphane Mallarmé",
+          "Paul Verlaine",
+          "Paul Valéry",
+          "Arthur Rimbaud"
+        ],
+        "explication": "Ce poème révolutionne la mise en page typographique, dispersant les mots sur la double page."
+      },
+      {
+        "question": "Quel écrivain irlandais installé à Paris, qui choisit d'écrire directement en français, est l'auteur de la pièce 'En attendant Godot' (1952), emblématique du théâtre de l'absurde ?",
+        "reponse": "Samuel Beckett",
+        "propositions": [
+          "Samuel Beckett",
+          "Eugène Ionesco",
+          "James Joyce",
+          "Arthur Adamov"
+        ],
+        "explication": "Beckett a lui-même traduit sa pièce en anglais après l'avoir écrite en français."
+      },
+      {
+        "question": "Quel écrivain et dramaturge français, ancien repris de justice, est l'auteur du roman 'Journal du voleur' (1949) et de la pièce 'Les Bonnes' ?",
+        "reponse": "Jean Genet",
+        "propositions": [
+          "Jean Genet",
+          "Louis-Ferdinand Céline",
+          "Jean Anouilh",
+          "Arthur Adamov"
+        ],
+        "explication": "Genet a été soutenu par Jean Cocteau et Jean-Paul Sartre, qui lui ont permis d'échapper à une peine de réclusion à vie."
+      },
+      {
+        "question": "Quel poète et romancier français, figure du mouvement surréaliste puis membre du Parti communiste, est l'auteur du roman 'Aurélien' (1944) ?",
+        "reponse": "Louis Aragon",
+        "propositions": [
+          "Louis Aragon",
+          "Paul Éluard",
+          "André Breton",
+          "Robert Desnos"
+        ],
+        "explication": "Aragon a aussi célébré son amour pour Elsa Triolet dans de nombreux recueils poétiques."
+      },
+      {
+        "question": "Quel poète roumain d'expression française a fondé à Zurich, en 1916, le mouvement artistique et littéraire Dada ?",
+        "reponse": "Tristan Tzara",
+        "propositions": [
+          "Tristan Tzara",
+          "André Breton",
+          "Francis Picabia",
+          "Hugo Ball"
+        ],
+        "explication": "Le mouvement Dada est né au Cabaret Voltaire, en réaction au non-sens perçu de la Première Guerre mondiale."
+      },
+      {
+        "question": "Quel romancier et journaliste français du début du XXe siècle est l'auteur du roman 'Le Fantôme de l'Opéra' (1910) ?",
+        "reponse": "Gaston Leroux",
+        "propositions": [
+          "Gaston Leroux",
+          "Maurice Leblanc",
+          "Georges Simenon",
+          "Pierre Souvestre"
+        ],
+        "explication": "Ce roman s'inspire du sous-sol partiellement inondé du Palais Garnier, à Paris."
+      },
+      {
+        "question": "Quel écrivain et grand reporter français, résistant et académicien, a écrit 'L'Armée des ombres', récit inspiré de son engagement dans la Résistance ?",
+        "reponse": "Joseph Kessel",
+        "propositions": [
+          "Joseph Kessel",
+          "André Malraux",
+          "Romain Gary",
+          "Jean Giono"
+        ],
+        "explication": "Publié en 1943 à Alger, ce récit a ensuite inspiré un film de Jean-Pierre Melville en 1969."
+      },
+      {
+        "question": "Quel poète provençal, défenseur de la langue d'oc, a reçu le prix Nobel de littérature en 1904 pour son œuvre 'Mirèio' ?",
+        "reponse": "Frédéric Mistral",
+        "propositions": [
+          "Frédéric Mistral",
+          "Marcel Pagnol",
+          "Jean Giono",
+          "Sully Prudhomme"
+        ],
+        "explication": "Mistral a aussi cofondé le Félibrige, mouvement visant à préserver et promouvoir la langue et la culture provençales."
+      },
+      {
+        "question": "Quel écrivain francophone, né à Corfou et naturalisé français, est l'auteur du roman 'Belle du Seigneur' (1968), portrait d'un amour passionné dans l'Europe de l'entre-deux-guerres ?",
+        "reponse": "Albert Cohen",
+        "propositions": [
+          "Albert Cohen",
+          "Romain Gary",
+          "Elie Wiesel",
+          "Albert Memmi"
+        ],
+        "explication": "Ce roman, son œuvre la plus célèbre, lui a valu le grand prix du roman de l'Académie française."
       }
     ]
   }

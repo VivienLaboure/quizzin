@@ -386,6 +386,116 @@
           "High Text Machine Language"
         ],
         "explication": "HTML a été créé par Tim Berners-Lee en même temps que le World Wide Web, à la fin des années 1980."
+      },
+      {
+        "question": "Quel type de technologie permet de recharger un smartphone sans câble, en le posant simplement sur un socle ?",
+        "reponse": "La recharge sans fil (induction)",
+        "propositions": [
+          "La recharge sans fil (induction)",
+          "Le Bluetooth",
+          "Le NFC",
+          "La 5G"
+        ],
+        "explication": "La recharge sans fil utilise le principe de l'induction électromagnétique entre deux bobines."
+      },
+      {
+        "question": "Quel réseau social professionnel, racheté par Microsoft en 2016, permet de publier son CV et de se constituer un réseau de contacts ?",
+        "reponse": "LinkedIn",
+        "propositions": [
+          "LinkedIn",
+          "Facebook",
+          "Twitter",
+          "Indeed"
+        ],
+        "explication": "LinkedIn a été fondé en 2002 et compte aujourd'hui plusieurs centaines de millions d'utilisateurs dans le monde."
+      },
+      {
+        "question": "Quel type d'appareil permet de numériser un document papier pour le convertir en fichier numérique ?",
+        "reponse": "Un scanner",
+        "propositions": [
+          "Un scanner",
+          "Une imprimante",
+          "Un fax",
+          "Une webcam"
+        ],
+        "explication": "Un scanner capture une image du document, qui peut ensuite être enregistrée sous forme de fichier numérique."
+      },
+      {
+        "question": "Quelle application de messagerie, rachetée par Facebook en 2014, a été fondée par deux anciens employés de Yahoo ?",
+        "reponse": "WhatsApp",
+        "propositions": [
+          "WhatsApp",
+          "Telegram",
+          "Signal",
+          "Viber"
+        ],
+        "explication": "WhatsApp a été fondée en 2009 par Jan Koum et Brian Acton."
+      },
+      {
+        "question": "Quel type d'appareil permet de visionner des films et séries directement sur sa télévision via internet, sans antenne ni câble ?",
+        "reponse": "Un boîtier de streaming (TV connectée)",
+        "propositions": [
+          "Un boîtier de streaming (TV connectée)",
+          "Un décodeur satellite",
+          "Un lecteur DVD",
+          "Un magnétoscope"
+        ],
+        "explication": "Des appareils comme l'Apple TV, le Chromecast ou le Fire TV Stick permettent cet usage."
+      },
+      {
+        "question": "Quelle entreprise a créé 'Steam', principale plateforme de distribution de jeux vidéo sur ordinateur ?",
+        "reponse": "Valve Corporation",
+        "propositions": [
+          "Valve Corporation",
+          "Epic Games",
+          "Electronic Arts",
+          "Ubisoft"
+        ],
+        "explication": "Steam a été lancé en 2003 par Valve, également connue pour des jeux comme Half-Life."
+      },
+      {
+        "question": "Comment appelle-t-on la méthode de saisie sur smartphone qui consiste à glisser le doigt d'une lettre à l'autre sans le soulever du clavier tactile ?",
+        "reponse": "La saisie gestuelle (swipe)",
+        "propositions": [
+          "La saisie gestuelle (swipe)",
+          "La reconnaissance vocale",
+          "La dictée automatique",
+          "La frappe T9"
+        ],
+        "explication": "Cette méthode de saisie permet d'accélérer l'écriture sur les claviers tactiles des smartphones."
+      },
+      {
+        "question": "Quel appareil portable, lancé par Sony en 1979, permettait d'écouter des cassettes audio en marchant, précurseur des baladeurs numériques ?",
+        "reponse": "Le Walkman",
+        "propositions": [
+          "Le Walkman",
+          "L'iPod",
+          "Le Discman",
+          "Le lecteur MP3"
+        ],
+        "explication": "Le Walkman a révolutionné l'écoute individuelle et mobile de musique avant l'arrivée des baladeurs numériques."
+      },
+      {
+        "question": "Quelle entreprise a conçu la console de jeu portable 'Game Boy', lancée en 1989 ?",
+        "reponse": "Nintendo",
+        "propositions": [
+          "Nintendo",
+          "Sony",
+          "Sega",
+          "Atari"
+        ],
+        "explication": "La Game Boy s'est vendue à plus de 118 millions d'exemplaires dans le monde."
+      },
+      {
+        "question": "Quelle technologie permet de localiser précisément un smartphone perdu ou volé à distance ?",
+        "reponse": "La géolocalisation",
+        "propositions": [
+          "La géolocalisation",
+          "Le Bluetooth",
+          "L'infrarouge",
+          "Le NFC"
+        ],
+        "explication": "La géolocalisation s'appuie généralement sur le GPS, combiné aux antennes relais et aux réseaux Wi-Fi environnants."
       }
     ],
     "2": [
@@ -544,7 +654,7 @@
         "explication": "L'impression 3D utilise divers matériaux, du plastique fondu à la résine ou même le métal."
       },
       {
-        "question": "Quelle entreprise a lancé la première montre connectée grand public à succès massif, l'Apple Watch, en 2015 ?",
+        "question": "Quelle entreprise californienne a lancé en 2015 une montre connectée qui est devenue la première à rencontrer un succès commercial massif auprès du grand public ?",
         "reponse": "Apple",
         "propositions": [
           "Apple",
@@ -753,7 +863,7 @@
         "explication": "Les NPU (Neural Processing Unit) sont de plus en plus intégrés aux smartphones et ordinateurs pour accélérer les tâches d'intelligence artificielle."
       },
       {
-        "question": "Quelle entreprise a conçu la puce 'M1', premier processeur Apple Silicon destiné aux ordinateurs Mac, sortie en 2020 ?",
+        "question": "Quelle entreprise a conçu la puce 'M1', sortie en 2020, son tout premier processeur maison destiné à remplacer les puces Intel dans ses ordinateurs ?",
         "reponse": "Apple",
         "propositions": [
           "Apple",
@@ -773,6 +883,116 @@
           "Le MIDI"
         ],
         "explication": "Le format MP3 réduit fortement la taille des fichiers audio en supprimant certaines informations peu perceptibles à l'oreille humaine."
+      },
+      {
+        "question": "Quel protocole de transfert de fichiers, plus ancien que le web, permet d'envoyer et de recevoir des fichiers entre un client et un serveur ?",
+        "reponse": "FTP",
+        "propositions": [
+          "FTP",
+          "HTTP",
+          "SMTP",
+          "DNS"
+        ],
+        "explication": "FTP signifie 'File Transfer Protocol', largement utilisé avant la généralisation du web pour le partage de fichiers."
+      },
+      {
+        "question": "Quelle entreprise chinoise a développé 'WeChat', application combinant messagerie, réseau social et paiement mobile, extrêmement populaire en Chine ?",
+        "reponse": "Tencent",
+        "propositions": [
+          "Tencent",
+          "Alibaba",
+          "ByteDance",
+          "ZTE"
+        ],
+        "explication": "WeChat est utilisé quotidiennement par plus d'un milliard de personnes pour la messagerie, les réseaux sociaux et les paiements."
+      },
+      {
+        "question": "Quelle entreprise a lancé 'TikTok', application de vidéos courtes très populaire chez les jeunes ?",
+        "reponse": "ByteDance",
+        "propositions": [
+          "ByteDance",
+          "Tencent",
+          "Meta",
+          "Snap Inc."
+        ],
+        "explication": "TikTok est la version internationale de l'application chinoise Douyin, lancée par ByteDance en 2016."
+      },
+      {
+        "question": "Quelle technologie d'identification par radiofréquence, utilisée notamment dans les puces d'animaux domestiques ou les badges d'accès, permet d'identifier un objet sans contact direct ?",
+        "reponse": "La RFID",
+        "propositions": [
+          "La RFID",
+          "Le NFC",
+          "Le Bluetooth",
+          "Le QR code"
+        ],
+        "explication": "RFID signifie 'Radio Frequency Identification' ; le NFC en est une variante à très courte portée."
+      },
+      {
+        "question": "Quel type d'attaque informatique consiste à usurper l'identité d'un site ou d'une entreprise légitime, souvent par e-mail, pour voler des informations personnelles ?",
+        "reponse": "L'hameçonnage (phishing)",
+        "propositions": [
+          "L'hameçonnage (phishing)",
+          "Le rançongiciel (ransomware)",
+          "Le cheval de Troie",
+          "Le spam"
+        ],
+        "explication": "L'hameçonnage pousse la victime à cliquer sur un lien frauduleux ou à communiquer ses identifiants."
+      },
+      {
+        "question": "Quel type de logiciel malveillant chiffre les fichiers d'une victime et exige le paiement d'une somme pour les déverrouiller ?",
+        "reponse": "Un rançongiciel (ransomware)",
+        "propositions": [
+          "Un rançongiciel (ransomware)",
+          "Un cheval de Troie",
+          "Un ver informatique",
+          "Un logiciel espion (spyware)"
+        ],
+        "explication": "Le paiement est généralement exigé en cryptomonnaie pour compliquer la traçabilité des attaquants."
+      },
+      {
+        "question": "Quelle entreprise a lancé en 2006 le service de microblogging Twitter, avant son rachat par Elon Musk en 2022 et son renommage en X ?",
+        "reponse": "Twitter, Inc.",
+        "propositions": [
+          "Twitter, Inc.",
+          "Meta",
+          "Snap Inc.",
+          "ByteDance"
+        ],
+        "explication": "Twitter a été fondé par Jack Dorsey, Biz Stone, Evan Williams et Noah Glass."
+      },
+      {
+        "question": "Quel format léger d'échange de données, basé sur une syntaxe proche des objets JavaScript, est aujourd'hui très utilisé pour les échanges entre applications et API ?",
+        "reponse": "Le JSON",
+        "propositions": [
+          "Le JSON",
+          "Le XML",
+          "Le CSV",
+          "Le YAML"
+        ],
+        "explication": "JSON signifie 'JavaScript Object Notation', et son usage a largement dépassé le cadre de JavaScript."
+      },
+      {
+        "question": "Quelle entreprise a développé le système de paiement mobile et sans contact 'Apple Pay' ?",
+        "reponse": "Apple",
+        "propositions": [
+          "Apple",
+          "Google",
+          "Samsung",
+          "PayPal"
+        ],
+        "explication": "Apple Pay, lancé en 2014, permet de régler ses achats en approchant son iPhone ou son Apple Watch d'un terminal compatible."
+      },
+      {
+        "question": "Quel protocole de messagerie électronique, plus ancien que l'IMAP, télécharge les messages sur l'appareil puis les supprime généralement du serveur ?",
+        "reponse": "POP3",
+        "propositions": [
+          "POP3",
+          "IMAP",
+          "SMTP",
+          "FTP"
+        ],
+        "explication": "Contrairement à l'IMAP, le POP3 ne permet pas une synchronisation aisée des e-mails entre plusieurs appareils."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Windows Mobile"
         ],
         "explication": "BlackBerry OS, associé à son clavier physique et à sa sécurité réputée, a longtemps été plébiscité par les entreprises."
+      },
+      {
+        "question": "Quel algorithme de consensus, utilisé par le Bitcoin, nécessite que les \"mineurs\" résolvent un problème cryptographique complexe pour valider un bloc de transactions ?",
+        "reponse": "La preuve de travail (Proof of Work)",
+        "propositions": [
+          "La preuve de travail (Proof of Work)",
+          "La preuve d'enjeu (Proof of Stake)",
+          "La preuve d'autorité",
+          "Le consensus byzantin"
+        ],
+        "explication": "La preuve d'enjeu, utilisée notamment par Ethereum depuis 2022, consomme beaucoup moins d'énergie que la preuve de travail."
+      },
+      {
+        "question": "Quelle entreprise a commercialisé en 1971 l'Intel 4004, considéré comme le premier microprocesseur disponible dans le commerce ?",
+        "reponse": "Intel",
+        "propositions": [
+          "Intel",
+          "AMD",
+          "Texas Instruments",
+          "Motorola"
+        ],
+        "explication": "L'Intel 4004 intégrait environ 2 300 transistors sur une seule puce."
+      },
+      {
+        "question": "Quel laboratoire de recherche américain a vu naître, au début des années 1970, le langage de programmation C, conçu par Dennis Ritchie ?",
+        "reponse": "Bell Labs",
+        "propositions": [
+          "Bell Labs",
+          "IBM",
+          "Xerox PARC",
+          "Sun Microsystems"
+        ],
+        "explication": "Le langage C, créé en parallèle du système Unix, a directement influencé des langages comme C++, Java ou Python."
+      },
+      {
+        "question": "Quel paradigme de programmation, popularisé par des langages comme Java et Python, organise le code autour d'objets regroupant données et comportements ?",
+        "reponse": "La programmation orientée objet",
+        "propositions": [
+          "La programmation orientée objet",
+          "La programmation fonctionnelle",
+          "La programmation procédurale",
+          "La programmation logique"
+        ],
+        "explication": "Les concepts de classes, d'héritage et d'encapsulation sont au cœur de la programmation orientée objet."
+      },
+      {
+        "question": "Quelle structure de données, utilisée pour organiser des informations hiérarchiques comme les dossiers d'un ordinateur, relie des nœuds par des branches sans jamais former de cycle ?",
+        "reponse": "Un arbre (structure arborescente)",
+        "propositions": [
+          "Un arbre (structure arborescente)",
+          "Un graphe",
+          "Une pile (stack)",
+          "Une file (queue)"
+        ],
+        "explication": "Contrairement à un graphe quelconque, un arbre ne comporte qu'un seul chemin possible entre deux nœuds quelconques."
+      },
+      {
+        "question": "Quelle technique d'apprentissage automatique entraîne un modèle à partir de données non étiquetées, en le laissant découvrir seul des structures ou regroupements ?",
+        "reponse": "L'apprentissage non supervisé",
+        "propositions": [
+          "L'apprentissage non supervisé",
+          "L'apprentissage supervisé",
+          "L'apprentissage par renforcement",
+          "L'apprentissage semi-supervisé"
+        ],
+        "explication": "Le clustering (regroupement automatique) est l'une des applications les plus courantes de l'apprentissage non supervisé."
+      },
+      {
+        "question": "Quelle technique d'intelligence artificielle entraîne un agent à prendre des décisions en recevant des récompenses ou des pénalités selon ses actions, utilisée notamment pour entraîner AlphaGo ?",
+        "reponse": "L'apprentissage par renforcement",
+        "propositions": [
+          "L'apprentissage par renforcement",
+          "L'apprentissage supervisé",
+          "L'apprentissage non supervisé",
+          "Le clustering"
+        ],
+        "explication": "Cette méthode s'inspire d'un agent qui apprend par essais et erreurs, en maximisant une récompense cumulée dans le temps."
+      },
+      {
+        "question": "Quel navigateur web, lancé par Netscape Communications en 1994, a dominé le marché avant d'être supplanté par Internet Explorer à la fin des années 1990 ?",
+        "reponse": "Netscape Navigator",
+        "propositions": [
+          "Netscape Navigator",
+          "Mosaic",
+          "Opera",
+          "Lynx"
+        ],
+        "explication": "La \"guerre des navigateurs\" entre Netscape et Microsoft a marqué les débuts commerciaux du web."
+      },
+      {
+        "question": "Quel protocole de chiffrement de bout en bout, utilisé notamment par WhatsApp et Signal, garantit que seuls l'expéditeur et le destinataire peuvent lire un message ?",
+        "reponse": "Le protocole Signal",
+        "propositions": [
+          "Le protocole Signal",
+          "Le protocole RSA",
+          "Le protocole AES seul",
+          "Le protocole TLS"
+        ],
+        "explication": "Ce protocole open source, développé par Open Whisper Systems, a été adopté par de nombreuses applications de messagerie."
+      },
+      {
+        "question": "Quel ingénieur américain est considéré comme l'un des pionniers de la réalité virtuelle, ayant inventé dans les années 1960 le premier casque de visualisation relié à un ordinateur ?",
+        "reponse": "Ivan Sutherland",
+        "propositions": [
+          "Ivan Sutherland",
+          "Douglas Engelbart",
+          "Jaron Lanier",
+          "Myron Krueger"
+        ],
+        "explication": "Son casque, surnommé \"l'épée de Damoclès\" en raison de son poids suspendu au plafond, est considéré comme le premier système de réalité virtuelle et augmentée."
       }
     ]
   }

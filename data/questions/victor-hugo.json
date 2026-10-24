@@ -117,10 +117,70 @@
         "explication": "Léopoldine, née en 1824, se noie accidentellement avec son mari près de Villequier en septembre 1843."
       },
       {
-        "question": "Quel est le titre du célèbre poème de Victor Hugo, extrait des Contemplations, qui commence par 'Demain, dès l'aube...' ?",
+        "question": "Quel est le titre du célèbre poème de Victor Hugo, extrait des Contemplations et adressé à sa fille défunte Léopoldine, que l'on reconnaît à son premier vers évoquant l'aube ?",
         "reponse": "Demain, dès l'aube",
         "propositions": ["Demain, dès l'aube", "Booz endormi", "Les Pauvres Gens", "Le Lac"],
         "explication": "Ce poème, écrit pour la date anniversaire de la mort de sa fille Léopoldine, évoque le chemin que le poète parcourt jusqu'à sa tombe."
+      },
+      {
+        "question": "Quel est le prénom du père de Victor Hugo, officier dans l'armée napoléonienne devenu général ?",
+        "reponse": "Léopold",
+        "propositions": ["Léopold", "Joseph", "Eugène", "Abel"],
+        "explication": "Léopold Hugo servit comme général dans l'armée de Napoléon Ier."
+      },
+      {
+        "question": "Combien de frères Victor Hugo avait-il ?",
+        "reponse": "2",
+        "propositions": ["2", "1", "3", "4"],
+        "explication": "Victor Hugo était le plus jeune des trois fils de Léopold et Sophie Hugo, après Abel et Eugène."
+      },
+      {
+        "question": "Quel monument parisien médiéval, menacé de destruction à l'époque, Victor Hugo a-t-il contribué à faire préserver grâce à son roman éponyme ?",
+        "reponse": "La cathédrale Notre-Dame de Paris",
+        "propositions": ["La cathédrale Notre-Dame de Paris", "Le Sacré-Cœur", "La Sainte-Chapelle", "Le Panthéon"],
+        "explication": "Le succès du roman 'Notre-Dame de Paris' a sensibilisé l'opinion publique à la sauvegarde du patrimoine médiéval."
+      },
+      {
+        "question": "Quel est le titre du poème de Victor Hugo, extrait de 'La Légende des siècles', qui raconte l'histoire d'un couple de pêcheurs pauvres recueillant des enfants orphelins ?",
+        "reponse": "Les Pauvres Gens",
+        "propositions": ["Les Pauvres Gens", "Booz endormi", "Demain, dès l'aube", "Oceano Nox"],
+        "explication": "Ce poème dépeint la générosité spontanée d'un couple de pêcheurs qui recueille deux enfants sans hésiter, malgré leur propre pauvreté."
+      },
+      {
+        "question": "Dans quelle capitale européenne Victor Hugo passe-t-il une partie de son enfance, alors que son père y occupe un poste militaire ?",
+        "reponse": "Madrid",
+        "propositions": ["Madrid", "Barcelone", "Séville", "Tolède"],
+        "explication": "Ce séjour en Espagne a marqué l'enfance de Victor Hugo, pays qui inspirera plus tard des œuvres comme 'Hernani' ou 'Ruy Blas'."
+      },
+      {
+        "question": "Quel est le titre du célèbre poème de Victor Hugo s'inspirant du Livre de Ruth, dans lequel un vieillard biblique s'endort dans son champ ?",
+        "reponse": "Booz endormi",
+        "propositions": ["Booz endormi", "Les Pauvres Gens", "Demain, dès l'aube", "Oceano Nox"],
+        "explication": "Ce poème, extrait de 'La Légende des siècles', s'inspire de la rencontre entre Booz et Ruth dans l'Ancien Testament."
+      },
+      {
+        "question": "Quel est le titre du poème de Victor Hugo rendant hommage aux marins disparus en mer, qui débute par 'Oh ! combien de marins, combien de capitaines...' ?",
+        "reponse": "Oceano Nox",
+        "propositions": ["Oceano Nox", "Booz endormi", "Les Pauvres Gens", "Demain, dès l'aube"],
+        "explication": "Ce poème évoque le destin tragique et l'oubli qui frappent souvent les marins perdus en mer."
+      },
+      {
+        "question": "Sous quelle fausse identité Jean Valjean devient-il un riche industriel puis maire d'une ville du nord de la France, dans Les Misérables ?",
+        "reponse": "Monsieur Madeleine",
+        "propositions": ["Monsieur Madeleine", "Monsieur Fauchelevent", "Monsieur Leblanc", "Monsieur Tranchelevent"],
+        "explication": "Sous ce nom, Jean Valjean dirige une usine florissante à Montreuil-sur-Mer avant d'être démasqué par Javert."
+      },
+      {
+        "question": "Quel est le prénom du fils de Victor Hugo, mort peu avant son père, qui traduisit l'intégralité des œuvres de Shakespeare en français ?",
+        "reponse": "François-Victor",
+        "propositions": ["François-Victor", "Charles", "Léopold", "Adèle"],
+        "explication": "François-Victor Hugo a consacré une grande partie de sa vie à cette traduction monumentale, publiée entre 1859 et 1866."
+      },
+      {
+        "question": "Quel est le prénom de la fille cadette de Victor Hugo, internée après avoir sombré dans la folie à la suite d'une déception amoureuse ?",
+        "reponse": "Adèle",
+        "propositions": ["Adèle", "Léopoldine", "Jeanne", "Alice"],
+        "explication": "Adèle Hugo suivit jusqu'au Canada un officier britannique qui ne partageait pas ses sentiments, ce qui précipita son internement."
       }
     ],
     "2": [
@@ -243,6 +303,66 @@
         "reponse": "Phoebus",
         "propositions": ["Phoebus", "Pierre Gringoire", "Clopin", "Jehan"],
         "explication": "Phoebus de Châteaupers séduit Esmeralda sans partager la profondeur de ses sentiments, provoquant la jalousie de Frollo."
+      },
+      {
+        "question": "Quel est le prénom du frère aîné de Victor Hugo, interné en 1822 après avoir sombré dans la folie, jaloux du mariage de son frère avec Adèle Foucher ?",
+        "reponse": "Eugène",
+        "propositions": ["Eugène", "Abel", "Charles", "François-Victor"],
+        "explication": "Eugène, également épris d'Adèle Foucher, perdit la raison le jour même du mariage de Victor Hugo et finit interné jusqu'à sa mort."
+      },
+      {
+        "question": "Quel recueil poétique de Victor Hugo, publié en 1829, s'inspire de la Grèce et de l'Orient, alors en pleine guerre d'indépendance ?",
+        "reponse": "Les Orientales",
+        "propositions": ["Les Orientales", "Les Feuilles d'automne", "Les Rayons et les Ombres", "Les Voix intérieures"],
+        "explication": "Ce recueil reflète l'engouement du romantisme français pour l'Orient et la cause de l'indépendance grecque."
+      },
+      {
+        "question": "Quel recueil poétique de Victor Hugo, publié en 1831, adopte un ton plus intime et mélancolique, centré notamment sur la famille et la paternité ?",
+        "reponse": "Les Feuilles d'automne",
+        "propositions": ["Les Feuilles d'automne", "Les Orientales", "Les Contemplations", "Les Châtiments"],
+        "explication": "Ce recueil marque une tonalité plus personnelle que les œuvres précédentes de Hugo."
+      },
+      {
+        "question": "Par où Jean Valjean parvient-il à s'échapper avec Marius grièvement blessé, après la chute de la barricade dans Les Misérables ?",
+        "reponse": "Par les égouts de Paris",
+        "propositions": ["Par les égouts de Paris", "En se déguisant en garde national", "En soudoyant Javert", "Par les toits"],
+        "explication": "Cette traversée des égouts parisiens, menée alors que Javert croit Valjean traqué, constitue l'un des passages les plus célèbres du roman."
+      },
+      {
+        "question": "Quel ancien complice de Jean Valjean, devenu jardinier, l'aide à se cacher avec Cosette au couvent du Petit-Picpus dans Les Misérables ?",
+        "reponse": "Fauchelevent",
+        "propositions": ["Fauchelevent", "Mabeuf", "Gillenormand", "Myriel"],
+        "explication": "Fauchelevent, que Valjean avait autrefois sauvé d'un accident de charrette, lui permet de se faire embaucher comme jardinier au couvent."
+      },
+      {
+        "question": "Quel vieux bibliophile, ami de Marius passionné de botanique, meurt sur la barricade malgré son âge avancé et sa non-violence, dans Les Misérables ?",
+        "reponse": "Monsieur Mabeuf",
+        "propositions": ["Monsieur Mabeuf", "Monsieur Gillenormand", "Monsieur Fauchelevent", "Monsieur Myriel"],
+        "explication": "Ruiné et désespéré, Mabeuf rejoint les insurgés et meurt en portant le drapeau, malgré son grand âge."
+      },
+      {
+        "question": "Quel événement historique de juin 1832, survenu lors des funérailles du général Lamarque, sert de cadre à l'épisode de la barricade dans Les Misérables ?",
+        "reponse": "L'insurrection républicaine de juin 1832",
+        "propositions": ["L'insurrection républicaine de juin 1832", "La révolution de 1830", "La Commune de Paris", "La révolution de 1848"],
+        "explication": "Cette insurrection parisienne, déclenchée en marge des funérailles du général Lamarque, fut sévèrement réprimée par l'armée."
+      },
+      {
+        "question": "Quel poème des Châtiments relie la défaite de Napoléon Ier à Waterloo au coup d'État de son neveu Napoléon III, comme une forme de châtiment historique ?",
+        "reponse": "L'Expiation",
+        "propositions": ["L'Expiation", "Ultima Verba", "Stella", "Souvenir de la nuit du 4"],
+        "explication": "Ce poème relie symboliquement la défaite de 1815 à la prise de pouvoir de Louis-Napoléon Bonaparte en 1851."
+      },
+      {
+        "question": "Quel poème des Châtiments annonce, à travers l'image visionnaire d'une étoile, le retour espéré de la liberté et de la justice ?",
+        "reponse": "Stella",
+        "propositions": ["Stella", "L'Expiation", "Ultima Verba", "Souvenir de la nuit du 4"],
+        "explication": "Ce poème, à forte charge symbolique, incarne l'espoir d'un avenir meilleur malgré l'exil et l'oppression."
+      },
+      {
+        "question": "Quels sont les prénoms des deux petits-enfants de Victor Hugo, fils de Charles, célébrés dans le recueil 'L'Art d'être grand-père' (1877) ?",
+        "reponse": "Georges et Jeanne",
+        "propositions": ["Georges et Jeanne", "François-Victor et Adèle", "Léopold et Léopoldine", "Abel et Eugène"],
+        "explication": "Ce recueil de poèmes célèbre avec tendresse la relation de Victor Hugo avec ses petits-enfants Georges et Jeanne."
       }
     ],
     "3": [
@@ -301,7 +421,7 @@
         "explication": "Victor Hugo meurt à Paris le 22 mai 1885 ; ses funérailles nationales rassemblent près de deux millions de personnes."
       },
       {
-        "question": "Quel est le titre du roman inachevé de Victor Hugo évoquant le Rhin et publié de son vivant sous forme de lettres de voyage ?",
+        "question": "Quel est le titre de l'ouvrage de Victor Hugo consacré à un grand fleuve européen, publié en 1842 sous forme de lettres de voyage ?",
         "reponse": "Le Rhin",
         "propositions": ["Le Rhin", "Les Pyrénées", "Alpes et Pyrénées", "France et Belgique"],
         "explication": "Le Rhin (1842) est un récit de voyage de Victor Hugo sous forme de lettres, mêlant description et réflexion historique."
@@ -365,6 +485,66 @@
         "reponse": "Le dessin (lavis d'encre)",
         "propositions": ["Le dessin (lavis d'encre)", "La peinture à l'huile", "La sculpture", "La gravure sur bois"],
         "explication": "Ces dessins, souvent réalisés à l'encre et au lavis, ont été redécouverts et admirés notamment par les surréalistes au XXe siècle."
+      },
+      {
+        "question": "Quel vaste poème philosophique inachevé de Victor Hugo, distinct de 'La Fin de Satan', est publié à titre posthume en 1891 et aborde des questions métaphysiques sur la création ?",
+        "reponse": "Dieu",
+        "propositions": ["Dieu", "Toute la lyre", "Océan", "Religions et religion"],
+        "explication": "Comme 'La Fin de Satan', ce vaste poème métaphysique est resté inachevé et n'a été publié qu'après la mort de Victor Hugo."
+      },
+      {
+        "question": "Quel recueil de poèmes plus légers, mêlant amour, nature et satire sociale, Victor Hugo publie-t-il en 1865 pendant son exil à Guernesey ?",
+        "reponse": "Les Chansons des rues et des bois",
+        "propositions": ["Les Chansons des rues et des bois", "Les Contemplations", "Les Châtiments", "La Légende des siècles"],
+        "explication": "Ce recueil, au ton plus léger et sensuel, tranche avec la gravité des œuvres politiques composées pendant l'exil."
+      },
+      {
+        "question": "Combien de fois la candidature de Victor Hugo à l'Académie française a-t-elle été rejetée avant son élection définitive en 1841 ?",
+        "reponse": "3 fois",
+        "propositions": ["3 fois", "1 fois", "5 fois", "Aucune fois"],
+        "explication": "Hugo échoue en 1836, 1839 puis 1840, avant d'être enfin élu en 1841."
+      },
+      {
+        "question": "Quel journal Victor Hugo contribue-t-il à fonder en 1848 avec ses fils Charles et François-Victor, d'abord favorable à Louis-Napoléon Bonaparte avant de s'y opposer ?",
+        "reponse": "L'Événement",
+        "propositions": ["L'Événement", "Le Rappel", "Le National", "Le Siècle"],
+        "explication": "Ce journal illustre l'évolution politique de Hugo, qui soutient d'abord Louis-Napoléon avant de devenir l'un de ses plus farouches opposants."
+      },
+      {
+        "question": "Dans son testament, à qui Victor Hugo lègue-t-il la somme de cinquante mille francs, tout en demandant à être transporté dans un corbillard de pauvre ?",
+        "reponse": "Aux pauvres",
+        "propositions": ["Aux pauvres", "À l'État français", "À l'Académie française", "À ses petits-enfants"],
+        "explication": "Ce testament reflète les convictions sociales de Hugo, qui souhaitait des funérailles simples malgré l'hommage national qui lui fut rendu."
+      },
+      {
+        "question": "Sous quel monument parisien le corps de Victor Hugo fut-il exposé en chapelle ardente, avant d'être conduit au Panthéon en 1885 ?",
+        "reponse": "L'Arc de Triomphe",
+        "propositions": ["L'Arc de Triomphe", "Notre-Dame de Paris", "Le Sacré-Cœur", "La Sainte-Chapelle"],
+        "explication": "Le corps de Victor Hugo, drapé de noir, fut exposé sous l'Arc de Triomphe avant le long cortège funèbre jusqu'au Panthéon."
+      },
+      {
+        "question": "Quelle disposition Victor Hugo prend-il dans son testament concernant le déroulement religieux de ses propres funérailles ?",
+        "reponse": "Il refuse toute cérémonie religieuse",
+        "propositions": ["Il refuse toute cérémonie religieuse", "Il demande des funérailles catholiques traditionnelles", "Il demande une cérémonie protestante", "Il demande d'être incinéré"],
+        "explication": "Fidèle à ses convictions anticléricales tardives, Hugo demande expressément l'absence de toute cérémonie religieuse, malgré les funérailles nationales grandioses qui lui furent rendues."
+      },
+      {
+        "question": "Quel titre porte l'ensemble de notes, fragments et réflexions sur le thème de la mer laissés par Victor Hugo et publiés à titre posthume ?",
+        "reponse": "Océan",
+        "propositions": ["Océan", "Le Rhin", "Choses vues", "Toute la lyre"],
+        "explication": "Ce recueil posthume rassemble des carnets de l'écrivain sur le thème maritime, qui l'a profondément marqué durant son exil à Guernesey."
+      },
+      {
+        "question": "Quel titre porte le vaste recueil de poésies diverses de Victor Hugo, publié en deux volumes posthumes en 1888 et 1893, regroupant des pièces écrites tout au long de sa vie ?",
+        "reponse": "Toute la lyre",
+        "propositions": ["Toute la lyre", "Dieu", "Océan", "La Fin de Satan"],
+        "explication": "Ce recueil posthume rassemble des poèmes de toutes les périodes de la vie de Hugo, non intégrés à ses recueils publiés de son vivant."
+      },
+      {
+        "question": "Quel drame en prose de Victor Hugo, créé en 1833, met en scène la tristement célèbre Lucrèce Borgia à la Renaissance italienne ?",
+        "reponse": "Lucrèce Borgia",
+        "propositions": ["Lucrèce Borgia", "Marion de Lorme", "Ruy Blas", "Les Burgraves"],
+        "explication": "Ce drame dépeint une Lucrèce Borgia tourmentée, oscillant entre cruauté publique et amour maternel caché."
       }
     ]
   }

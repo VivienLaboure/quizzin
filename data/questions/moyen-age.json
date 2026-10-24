@@ -280,62 +280,222 @@
       {
         "question": "Comment appelle-t-on la partie la plus haute et la plus fortifiée d'un château médiéval, dernier refuge en cas d'attaque ?",
         "reponse": "Le donjon",
-        "propositions": ["Le donjon", "Le chemin de ronde", "La basse-cour", "Le pont-levis"],
+        "propositions": [
+          "Le donjon",
+          "Le chemin de ronde",
+          "La basse-cour",
+          "Le pont-levis"
+        ],
         "explication": "Le donjon est la tour maîtresse du château, où résidait généralement le seigneur et où l'on se repliait en cas de siège."
       },
       {
         "question": "Comment appelle-t-on le fossé rempli d'eau qui entoure souvent un château fort pour le protéger ?",
         "reponse": "Les douves",
-        "propositions": ["Les douves", "Les créneaux", "Le chemin de ronde", "Le pont-levis"],
+        "propositions": [
+          "Les douves",
+          "Les créneaux",
+          "Le chemin de ronde",
+          "Le pont-levis"
+        ],
         "explication": "Les douves rendaient l'accès au château plus difficile pour les assaillants."
       },
       {
         "question": "Quel pont mobile, situé à l'entrée d'un château, pouvait être relevé pour empêcher le passage ?",
         "reponse": "Le pont-levis",
-        "propositions": ["Le pont-levis", "Le donjon", "La poterne", "La barbacane"],
+        "propositions": [
+          "Le pont-levis",
+          "Le donjon",
+          "La poterne",
+          "La barbacane"
+        ],
         "explication": "Le pont-levis permettait de couper l'accès au château en cas de danger."
       },
       {
         "question": "Quel matériau, fabriqué à partir de peau animale, était utilisé pour écrire les manuscrits avant la diffusion du papier en Europe ?",
         "reponse": "Le parchemin",
-        "propositions": ["Le parchemin", "Le papyrus", "Le papier de riz", "Le lin"],
+        "propositions": [
+          "Le parchemin",
+          "Le papyrus",
+          "Le papier de riz",
+          "Le lin"
+        ],
         "explication": "Le parchemin, préparé à partir de peaux de mouton ou de veau, était le principal support d'écriture au Moyen Âge en Europe occidentale."
       },
       {
         "question": "Quelle langue savante, utilisée dans l'Église et les universités, restait la langue commune des lettrés à travers toute l'Europe médiévale ?",
         "reponse": "Le latin",
-        "propositions": ["Le latin", "Le grec ancien", "L'arabe", "Le français"],
+        "propositions": [
+          "Le latin",
+          "Le grec ancien",
+          "L'arabe",
+          "Le français"
+        ],
         "explication": "Le latin est resté la langue d'enseignement et d'écriture savante pendant tout le Moyen Âge, malgré l'essor des langues vernaculaires."
       },
       {
         "question": "Comment appelle-t-on l'arme formée d'un arc monté sur un fût de bois, bandée mécaniquement et tirant des carreaux ?",
         "reponse": "L'arbalète",
-        "propositions": ["L'arbalète", "L'arc long", "La fronde", "Le trébuchet"],
+        "propositions": [
+          "L'arbalète",
+          "L'arc long",
+          "La fronde",
+          "Le trébuchet"
+        ],
         "explication": "L'arbalète permettait de percer des armures avec une force supérieure à celle d'un arc classique, mais se rechargeait plus lentement."
       },
       {
         "question": "Comment appelle-t-on les habitants libres des villes médiévales, souvent marchands ou artisans, par opposition aux paysans des campagnes ?",
         "reponse": "Les bourgeois",
-        "propositions": ["Les bourgeois", "Les serfs", "Les vilains", "Les manants"],
+        "propositions": [
+          "Les bourgeois",
+          "Les serfs",
+          "Les vilains",
+          "Les manants"
+        ],
         "explication": "Les bourgeois vivaient dans les villes (bourgs) et bénéficiaient souvent de libertés et de privilèges accordés par charte."
       },
       {
         "question": "Quel outil agricole, tiré par des bœufs ou des chevaux, permettait de retourner la terre pour la rendre plus fertile au Moyen Âge ?",
         "reponse": "La charrue",
-        "propositions": ["La charrue", "La faucille", "La herse", "La faux"],
+        "propositions": [
+          "La charrue",
+          "La faucille",
+          "La herse",
+          "La faux"
+        ],
         "explication": "L'amélioration de la charrue, notamment avec le soc en fer, a contribué à l'essor agricole du Moyen Âge."
       },
       {
         "question": "Comment appelle-t-on l'image composée de morceaux de verre colorés assemblés, qui orne les fenêtres des cathédrales gothiques ?",
         "reponse": "Le vitrail",
-        "propositions": ["Le vitrail", "La fresque", "La mosaïque", "L'enluminure"],
+        "propositions": [
+          "Le vitrail",
+          "La fresque",
+          "La mosaïque",
+          "L'enluminure"
+        ],
         "explication": "Les vitraux laissaient entrer une lumière colorée dans les cathédrales tout en racontant des scènes bibliques aux fidèles illettrés."
       },
       {
         "question": "Comment appelle-t-on l'ensemble des règles et symboles utilisés pour représenter les armoiries d'une famille noble au Moyen Âge ?",
         "reponse": "L'héraldique",
-        "propositions": ["L'héraldique", "La numismatique", "La sigillographie", "La généalogie"],
+        "propositions": [
+          "L'héraldique",
+          "La numismatique",
+          "La sigillographie",
+          "La généalogie"
+        ],
         "explication": "L'héraldique étudie les blasons et armoiries, qui permettaient notamment d'identifier les chevaliers lors des tournois."
+      },
+      {
+        "question": "Comment appelle-t-on l'élément architectural extérieur qui soutient les murs des cathédrales gothiques en reportant leur poids vers l'extérieur ?",
+        "reponse": "L'arc-boutant",
+        "propositions": [
+          "L'arc-boutant",
+          "Le pont-levis",
+          "Le chemin de ronde",
+          "Le contrefort intérieur"
+        ],
+        "explication": "Les arcs-boutants permettent d'élever des murs plus hauts et plus légers, percés de grandes verrières, caractéristiques de l'art gothique."
+      },
+      {
+        "question": "Avec quel outil, taillé dans une plume d'oiseau, écrivait-on habituellement au Moyen Âge ?",
+        "reponse": "Une plume d'oie",
+        "propositions": [
+          "Une plume d'oie",
+          "Un stylet de bronze",
+          "Un pinceau de soie",
+          "Un crayon de plomb"
+        ],
+        "explication": "La plume d'oie, taillée en biseau et trempée dans l'encre, était l'instrument d'écriture le plus courant avant l'invention du stylo moderne."
+      },
+      {
+        "question": "Comment appelle-t-on, au Moyen Âge, un paysan libre (non serf) qui tient une terre d'un seigneur contre des redevances ?",
+        "reponse": "Un vilain",
+        "propositions": [
+          "Un vilain",
+          "Un serf",
+          "Un bourgeois",
+          "Un chevalier"
+        ],
+        "explication": "Contrairement au serf, le vilain n'est pas attaché à la terre et conserve une certaine liberté juridique, même s'il doit des redevances à son seigneur."
+      },
+      {
+        "question": "Quelle activité de chasse, pratiquée avec des oiseaux de proie dressés, était un loisir prisé de la noblesse médiévale ?",
+        "reponse": "La fauconnerie",
+        "propositions": [
+          "La fauconnerie",
+          "La vénerie à pied",
+          "La pêche au filet",
+          "Le tir à l'arbalète"
+        ],
+        "explication": "La fauconnerie, pratiquée avec des faucons ou des éperviers dressés, était un signe de prestige social réservé à la noblesse."
+      },
+      {
+        "question": "Quel système de numération était couramment utilisé en Europe occidentale durant une grande partie du Moyen Âge, avant l'adoption progressive des chiffres arabes ?",
+        "reponse": "Les chiffres romains",
+        "propositions": [
+          "Les chiffres romains",
+          "Les chiffres mayas",
+          "Le système binaire",
+          "Les chiffres chinois"
+        ],
+        "explication": "Les chiffres arabes, pourtant plus pratiques pour le calcul, ne se sont généralisés en Europe qu'à partir des XIIIe-XVe siècles."
+      },
+      {
+        "question": "Comment appelle-t-on les cartes du monde réalisées au Moyen Âge, souvent centrées sur Jérusalem et combinant géographie et religion ?",
+        "reponse": "Les mappae mundi",
+        "propositions": [
+          "Les mappae mundi",
+          "Les portulans antiques",
+          "Les atlas modernes",
+          "Les cadastres royaux"
+        ],
+        "explication": "Ces cartes médiévales mêlaient connaissances géographiques, récits bibliques et légendes, plaçant souvent Jérusalem au centre du monde représenté."
+      },
+      {
+        "question": "Quel instrument de calcul, composé de boules coulissant sur des tiges, était utilisé pour effectuer des opérations arithmétiques au Moyen Âge ?",
+        "reponse": "L'abaque",
+        "propositions": [
+          "L'abaque",
+          "L'astrolabe",
+          "Le cadran solaire",
+          "Le sablier"
+        ],
+        "explication": "L'abaque, hérité de l'Antiquité, a longtemps servi au calcul avant la diffusion des chiffres arabes et des méthodes de calcul écrit."
+      },
+      {
+        "question": "Comment appelle-t-on les pièces de théâtre médiévales mettant en scène des épisodes de la vie des saints ou de la Bible, souvent jouées sur le parvis des églises ?",
+        "reponse": "Les mystères",
+        "propositions": [
+          "Les mystères",
+          "Les fabliaux",
+          "Les chansons de geste",
+          "Les tenson"
+        ],
+        "explication": "Ces représentations religieuses populaires, jouées en plein air, mêlaient édification spirituelle et spectacle pour un public souvent illettré."
+      },
+      {
+        "question": "Quelle machine, actionnée par la force du vent ou de l'eau, servait à moudre le grain au Moyen Âge ?",
+        "reponse": "Le moulin",
+        "propositions": [
+          "Le moulin",
+          "La charrue",
+          "Le métier à tisser",
+          "Le pressoir manuel"
+        ],
+        "explication": "Les moulins à eau puis à vent se sont multipliés au Moyen Âge, améliorant considérablement la production de farine."
+      },
+      {
+        "question": "Comment appelle-t-on la terre concédée par un seigneur à son vassal en échange de services, notamment militaires ?",
+        "reponse": "Le fief",
+        "propositions": [
+          "Le fief",
+          "La seigneurie",
+          "Le domaine royal",
+          "L'apanage"
+        ],
+        "explication": "Le fief est la terre que le vassal reçoit de son suzerain en contrepartie de l'hommage et du service, notamment militaire, qu'il lui doit."
       }
     ],
     "2": [
@@ -617,62 +777,222 @@
       {
         "question": "Quel recensement, ordonné par Guillaume le Conquérant en 1086, répertorie les terres et biens du royaume d'Angleterre ?",
         "reponse": "Le Domesday Book",
-        "propositions": ["Le Domesday Book", "La Magna Carta", "Le Statut de Westminster", "Le Livre de Fondation"],
+        "propositions": [
+          "Le Domesday Book",
+          "La Magna Carta",
+          "Le Statut de Westminster",
+          "Le Livre de Fondation"
+        ],
         "explication": "Ce recensement détaillé visait à établir précisément les ressources fiscales du royaume d'Angleterre nouvellement conquis."
       },
       {
         "question": "Quelle croisade, détournée en 1204, a abouti à la prise et au sac de Constantinople par les croisés latins ?",
         "reponse": "La quatrième croisade",
-        "propositions": ["La quatrième croisade", "La première croisade", "La troisième croisade", "La croisade des Albigeois"],
+        "propositions": [
+          "La quatrième croisade",
+          "La première croisade",
+          "La troisième croisade",
+          "La croisade des Albigeois"
+        ],
         "explication": "Cette croisade, censée reprendre Jérusalem, a finalement conduit à la fondation d'un Empire latin de Constantinople de 1204 à 1261."
       },
       {
         "question": "Quelle association de marchands et de villes d'Europe du Nord, fondée au XIIe siècle, dominait le commerce en mer Baltique et en mer du Nord ?",
         "reponse": "La ligue hanséatique (la Hanse)",
-        "propositions": ["La ligue hanséatique (la Hanse)", "Les corporations lombardes", "La ligue lombarde", "L'ordre teutonique"],
+        "propositions": [
+          "La ligue hanséatique (la Hanse)",
+          "Les corporations lombardes",
+          "La ligue lombarde",
+          "L'ordre teutonique"
+        ],
         "explication": "La Hanse reliait des villes marchandes comme Lübeck, Hambourg ou Bruges dans un vaste réseau commercial."
       },
       {
         "question": "Quel ordre militaire et religieux allemand, actif dans la Baltique, a mené une politique de conquête et de christianisation en Prusse au XIIIe siècle ?",
         "reponse": "L'ordre teutonique",
-        "propositions": ["L'ordre teutonique", "L'ordre du Temple", "L'ordre de Malte", "L'ordre de Calatrava"],
+        "propositions": [
+          "L'ordre teutonique",
+          "L'ordre du Temple",
+          "L'ordre de Malte",
+          "L'ordre de Calatrava"
+        ],
         "explication": "L'ordre teutonique a fondé un État monastique dans les régions baltes, christianisant par la force les populations locales."
       },
       {
         "question": "Quelle famille de marchands et banquiers italiens, basée à Florence, a financé de nombreux souverains européens à la fin du Moyen Âge et à la Renaissance ?",
         "reponse": "Les Médicis",
-        "propositions": ["Les Médicis", "Les Fugger", "Les Sforza", "Les Visconti"],
+        "propositions": [
+          "Les Médicis",
+          "Les Fugger",
+          "Les Sforza",
+          "Les Visconti"
+        ],
         "explication": "Les Médicis ont dominé la vie politique et financière de Florence à partir du XVe siècle."
       },
       {
         "question": "Quelle bataille navale de 1340 a vu la flotte française détruite par les Anglais, assurant à ces derniers la maîtrise de la Manche au début de la guerre de Cent Ans ?",
         "reponse": "La bataille de l'Écluse",
-        "propositions": ["La bataille de l'Écluse", "La bataille de La Rochelle", "La bataille de Guernesey", "La bataille de Dunkerque"],
+        "propositions": [
+          "La bataille de l'Écluse",
+          "La bataille de La Rochelle",
+          "La bataille de Guernesey",
+          "La bataille de Dunkerque"
+        ],
         "explication": "Cette victoire navale anglaise, remportée par Édouard III, a assuré à l'Angleterre la maîtrise de la Manche pendant plusieurs années."
       },
       {
         "question": "Quel soulèvement paysan français de 1358, en pleine guerre de Cent Ans, a été durement réprimé par la noblesse ?",
         "reponse": "La Jacquerie",
-        "propositions": ["La Jacquerie", "La révolte des Maillotins", "La révolte du Papier timbré", "La Fronde"],
+        "propositions": [
+          "La Jacquerie",
+          "La révolte des Maillotins",
+          "La révolte du Papier timbré",
+          "La Fronde"
+        ],
         "explication": "La Jacquerie, menée notamment par Guillaume Cale, a éclaté dans le contexte de crise sociale et militaire consécutif à la capture du roi Jean II."
       },
       {
         "question": "Quelle révolte anglaise de 1381, dirigée notamment par Wat Tyler, a protesté contre un impôt par tête (poll tax) ?",
         "reponse": "La révolte des paysans de 1381",
-        "propositions": ["La révolte des paysans de 1381", "La guerre des Deux-Roses", "La Jacquerie", "La révolte de Simon de Montfort"],
+        "propositions": [
+          "La révolte des paysans de 1381",
+          "La guerre des Deux-Roses",
+          "La Jacquerie",
+          "La révolte de Simon de Montfort"
+        ],
         "explication": "Cette révolte, l'une des plus importantes de l'Angleterre médiévale, a été brutalement réprimée après une rencontre avec le jeune roi Richard II."
       },
       {
         "question": "Quelle grande famine, frappant l'Europe du Nord entre 1315 et 1317, a précédé et aggravé les effets de la peste noire quelques décennies plus tard ?",
         "reponse": "La grande famine de 1315-1317",
-        "propositions": ["La grande famine de 1315-1317", "La famine de 1709", "La disette de 1693-1694", "La crise frumentaire de 1788"],
+        "propositions": [
+          "La grande famine de 1315-1317",
+          "La famine de 1709",
+          "La disette de 1693-1694",
+          "La crise frumentaire de 1788"
+        ],
         "explication": "Cette famine, provoquée par des pluies torrentielles ayant ruiné les récoltes, a affaibli durablement la population européenne."
       },
       {
         "question": "Quel explorateur vénitien a parcouru l'Asie au XIIIe siècle et relaté son voyage dans 'Le Livre des merveilles du monde' ?",
         "reponse": "Marco Polo",
-        "propositions": ["Marco Polo", "Christophe Colomb", "Jean de Mandeville", "Guillaume de Rubrouck"],
+        "propositions": [
+          "Marco Polo",
+          "Christophe Colomb",
+          "Jean de Mandeville",
+          "Guillaume de Rubrouck"
+        ],
         "explication": "Marco Polo a séjourné à la cour du Grand Khan mongol Kubilai Khan avant de relater ses voyages, dictés lors de sa captivité à Gênes."
+      },
+      {
+        "question": "Quelle réforme ecclésiastique du XIe siècle, portée par le pape Grégoire VII, visait à affranchir l'Église du contrôle des pouvoirs laïcs, notamment en matière de nomination des clercs ?",
+        "reponse": "La réforme grégorienne",
+        "propositions": [
+          "La réforme grégorienne",
+          "La réforme clunisienne",
+          "La réforme cistercienne",
+          "Le concordat de Worms"
+        ],
+        "explication": "Cette réforme a ouvert la voie à la querelle des Investitures entre la papauté et le Saint-Empire romain germanique."
+      },
+      {
+        "question": "Quelle bataille de 955 voit Otton Ier vaincre les Magyars (Hongrois), mettant fin à leurs raids dévastateurs en Europe occidentale ?",
+        "reponse": "La bataille de Lechfeld",
+        "propositions": [
+          "La bataille de Lechfeld",
+          "La bataille de Legnano",
+          "La bataille de Hastings",
+          "La bataille de Bouvines"
+        ],
+        "explication": "Cette victoire a renforcé considérablement le prestige d'Otton Ier, couronné empereur du Saint-Empire romain germanique en 962."
+      },
+      {
+        "question": "Quel pape français a transféré le siège de la papauté à Avignon en 1309 ?",
+        "reponse": "Clément V",
+        "propositions": [
+          "Clément V",
+          "Urbain II",
+          "Grégoire VII",
+          "Innocent III"
+        ],
+        "explication": "Clément V, sous la pression du roi de France Philippe le Bel, installe la papauté à Avignon, où elle restera près de soixante-dix ans."
+      },
+      {
+        "question": "Quelle révolte de 1282 contre la domination angevine en Sicile a éclaté lors d'un office religieux, donnant son nom à l'événement ?",
+        "reponse": "Les Vêpres siciliennes",
+        "propositions": [
+          "Les Vêpres siciliennes",
+          "La Jacquerie",
+          "La révolte des paysans de 1381",
+          "La guerre des Deux-Roses"
+        ],
+        "explication": "Ce soulèvement populaire a chassé les Angevins de Sicile et marqué durablement les rapports de force en Méditerranée."
+      },
+      {
+        "question": "Quelle bataille de 1241 voit les Mongols écraser une armée hongroise, ouvrant la voie à une invasion dévastatrice de l'Europe centrale ?",
+        "reponse": "La bataille de Mohi",
+        "propositions": [
+          "La bataille de Mohi",
+          "La bataille de Manzikert",
+          "La bataille de Legnano",
+          "La bataille de Hattin"
+        ],
+        "explication": "Après cette victoire, les Mongols ravagent une large partie de la Hongrie avant de se retirer brusquement à la mort du grand khan Gengis Khan."
+      },
+      {
+        "question": "Comment appelle-t-on une ville médiévale ayant obtenu, par charte, le droit de s'administrer elle-même, souvent au prix d'une lutte contre son seigneur ?",
+        "reponse": "Une commune",
+        "propositions": [
+          "Une commune",
+          "Une seigneurie",
+          "Un apanage",
+          "Une châtellenie"
+        ],
+        "explication": "Les communes médiévales, en obtenant des chartes de franchise, acquéraient une autonomie administrative et judiciaire partielle."
+      },
+      {
+        "question": "Quelle reine, d'abord mariée à Louis VII de France puis à Henri II d'Angleterre, est restée l'une des femmes les plus puissantes du Moyen Âge et la mère de Richard Cœur de Lion ?",
+        "reponse": "Aliénor d'Aquitaine",
+        "propositions": [
+          "Aliénor d'Aquitaine",
+          "Isabeau de Bavière",
+          "Blanche de Castille",
+          "Mathilde l'Emperesse"
+        ],
+        "explication": "Par son second mariage, Aliénor d'Aquitaine a apporté à la couronne d'Angleterre un immense territoire dans l'ouest de la France."
+      },
+      {
+        "question": "Quel genre littéraire médiéval, dont 'La Chanson de Roland' est le plus célèbre exemple, relate en vers les exploits héroïques de chevaliers ?",
+        "reponse": "La chanson de geste",
+        "propositions": [
+          "La chanson de geste",
+          "Le fabliau",
+          "Le roman courtois",
+          "La pastourelle"
+        ],
+        "explication": "Les chansons de geste, souvent transmises oralement par des jongleurs, célèbrent les hauts faits guerriers de héros comme Roland ou Charlemagne."
+      },
+      {
+        "question": "Quel mouvement religieux des Xe-XIe siècles, porté par l'Église, visait à limiter la violence féodale en protégeant certaines catégories de personnes et en interdisant les combats à certaines périodes ?",
+        "reponse": "La paix de Dieu (et la trêve de Dieu)",
+        "propositions": [
+          "La paix de Dieu (et la trêve de Dieu)",
+          "La croisade des Albigeois",
+          "Le concordat de Worms",
+          "La querelle des Investitures"
+        ],
+        "explication": "Ces mouvements, initiés par des conciles régionaux, cherchaient à protéger clercs, paysans et pèlerins des violences endémiques de la société féodale."
+      },
+      {
+        "question": "Quelle bataille de 1450, où l'artillerie française joue un rôle décisif, permet la reconquête de la Normandie durant la guerre de Cent Ans ?",
+        "reponse": "La bataille de Formigny",
+        "propositions": [
+          "La bataille de Formigny",
+          "La bataille de Castillon",
+          "La bataille de Crécy",
+          "La bataille de l'Écluse"
+        ],
+        "explication": "Cette victoire française, où les couleuvrines jouent un rôle clé, ouvre la voie à la reprise complète de la Normandie sur les Anglais."
       }
     ],
     "3": [
@@ -954,62 +1274,222 @@
       {
         "question": "Quel traité de 843 a divisé l'empire carolingien entre les trois petits-fils de Charlemagne, préfigurant la France, l'Allemagne et une zone intermédiaire ?",
         "reponse": "Le traité de Verdun",
-        "propositions": ["Le traité de Verdun", "Le traité de Meerssen", "Le traité de Ribemont", "Le traité de Coblence"],
+        "propositions": [
+          "Le traité de Verdun",
+          "Le traité de Meerssen",
+          "Le traité de Ribemont",
+          "Le traité de Coblence"
+        ],
         "explication": "Ce traité partage l'empire de Charlemagne entre Lothaire, Louis le Germanique et Charles le Chauve."
       },
       {
         "question": "Quel accord de 1122 a mis fin à la querelle des Investitures entre la papauté et le Saint-Empire romain germanique ?",
         "reponse": "Le concordat de Worms",
-        "propositions": ["Le concordat de Worms", "Le traité de Verdun", "Le concile de Latran IV", "La Bulle d'or"],
+        "propositions": [
+          "Le concordat de Worms",
+          "Le traité de Verdun",
+          "Le concile de Latran IV",
+          "La Bulle d'or"
+        ],
         "explication": "Ce concordat, signé entre le pape Calixte II et l'empereur Henri V, établit un compromis sur la nomination des évêques."
       },
       {
         "question": "Quelle bataille de 1176 a vu la Ligue lombarde, coalition de cités italiennes, vaincre l'empereur germanique Frédéric Barberousse ?",
         "reponse": "La bataille de Legnano",
-        "propositions": ["La bataille de Legnano", "La bataille de Bouvines", "La bataille de Crécy", "La bataille de Lechfeld"],
+        "propositions": [
+          "La bataille de Legnano",
+          "La bataille de Bouvines",
+          "La bataille de Crécy",
+          "La bataille de Lechfeld"
+        ],
         "explication": "Cette défaite a contraint Frédéric Barberousse à reconnaître l'autonomie des villes lombardes par la paix de Constance en 1183."
       },
       {
         "question": "Quelle bataille de 1212, dans le sud de l'Espagne, a marqué un tournant décisif en faveur des royaumes chrétiens dans la Reconquista ?",
         "reponse": "La bataille de Las Navas de Tolosa",
-        "propositions": ["La bataille de Las Navas de Tolosa", "La bataille de Covadonga", "La bataille de Grenade", "La bataille de Tolède"],
+        "propositions": [
+          "La bataille de Las Navas de Tolosa",
+          "La bataille de Covadonga",
+          "La bataille de Grenade",
+          "La bataille de Tolède"
+        ],
         "explication": "Cette victoire des royaumes chrétiens coalisés contre les Almohades a ouvert la voie à une avancée décisive de la Reconquista au XIIIe siècle."
       },
       {
         "question": "Quelle bataille de 1071 a vu les Turcs seldjoukides vaincre l'armée byzantine, ouvrant la voie à la conquête turque de l'Anatolie ?",
         "reponse": "La bataille de Manzikert",
-        "propositions": ["La bataille de Manzikert", "La bataille de Hattin", "La bataille de Myriokephalon", "La bataille de Dorylée"],
+        "propositions": [
+          "La bataille de Manzikert",
+          "La bataille de Hattin",
+          "La bataille de Myriokephalon",
+          "La bataille de Dorylée"
+        ],
         "explication": "Cette défaite byzantine a durablement affaibli l'Empire byzantin et facilité l'installation turque en Asie Mineure."
       },
       {
         "question": "Quelle bataille de 1187 a vu Saladin infliger une défaite décisive aux croisés, ouvrant la voie à la reprise de Jérusalem ?",
         "reponse": "La bataille de Hattin",
-        "propositions": ["La bataille de Hattin", "La bataille de Manzikert", "La bataille d'Antioche", "La bataille d'Ascalon"],
+        "propositions": [
+          "La bataille de Hattin",
+          "La bataille de Manzikert",
+          "La bataille d'Antioche",
+          "La bataille d'Ascalon"
+        ],
         "explication": "Cette défaite catastrophique a conduit à la perte de Jérusalem par les croisés quelques mois plus tard, en 1187."
       },
       {
         "question": "Quelle bataille de 1302, dite 'des Éperons d'or', a vu des milices urbaines flamandes vaincre la chevalerie française ?",
         "reponse": "La bataille de Courtrai",
-        "propositions": ["La bataille de Courtrai", "La bataille de Cassel", "La bataille de Mons-en-Pévèle", "La bataille de Bouvines"],
+        "propositions": [
+          "La bataille de Courtrai",
+          "La bataille de Cassel",
+          "La bataille de Mons-en-Pévèle",
+          "La bataille de Bouvines"
+        ],
         "explication": "Cette victoire inattendue des milices communales flamandes face à la noblesse française a profondément marqué l'imaginaire flamand."
       },
       {
         "question": "Quel document constitutionnel de 1356, promulgué par l'empereur Charles IV, a fixé les règles d'élection de l'empereur du Saint-Empire par sept princes-électeurs ?",
         "reponse": "La Bulle d'or de 1356",
-        "propositions": ["La Bulle d'or de 1356", "La Magna Carta", "Le concordat de Worms", "Le traité de Verdun"],
+        "propositions": [
+          "La Bulle d'or de 1356",
+          "La Magna Carta",
+          "Le concordat de Worms",
+          "Le traité de Verdun"
+        ],
         "explication": "Ce texte fondamental a organisé le fonctionnement institutionnel du Saint-Empire romain germanique jusqu'au début du XIXe siècle."
       },
       {
         "question": "Quelle ville, dernier bastion des États croisés en Terre sainte, est tombée aux mains des Mamelouks en 1291, marquant la fin de la présence croisée au Levant ?",
         "reponse": "Acre",
-        "propositions": ["Acre", "Jérusalem", "Antioche", "Tripoli"],
+        "propositions": [
+          "Acre",
+          "Jérusalem",
+          "Antioche",
+          "Tripoli"
+        ],
         "explication": "La chute d'Acre en 1291 met fin à près de deux siècles de présence des États latins d'Orient issus des croisades."
       },
       {
         "question": "Quelle expédition de 1212, menée principalement par des enfants et de jeunes gens convaincus de pouvoir reprendre Jérusalem par la seule foi, s'est soldée par un désastre ?",
         "reponse": "La croisade des enfants",
-        "propositions": ["La croisade des enfants", "La croisade des pastoureaux", "La croisade des pauvres", "La croisade populaire de Pierre l'Hermite"],
+        "propositions": [
+          "La croisade des enfants",
+          "La croisade des pastoureaux",
+          "La croisade des pauvres",
+          "La croisade populaire de Pierre l'Hermite"
+        ],
         "explication": "De nombreux participants de cette expédition mal organisée seraient morts de faim, de maladie, ou auraient été vendus en esclavage."
+      },
+      {
+        "question": "Quel texte de 1075, attribué au pape Grégoire VII, affirme la supériorité du pouvoir pontifical sur le pouvoir temporel, notamment le droit de déposer les empereurs ?",
+        "reponse": "Le Dictatus Papae",
+        "propositions": [
+          "Le Dictatus Papae",
+          "Le concordat de Worms",
+          "La Bulle d'or",
+          "Le quatrième concile du Latran"
+        ],
+        "explication": "Ce texte programmatique a nourri la querelle des Investitures entre la papauté et le Saint-Empire romain germanique."
+      },
+      {
+        "question": "Quel capitaine français, dit 'le bâtard d'Orléans', a dirigé la défense de la ville d'Orléans avant l'arrivée de Jeanne d'Arc en 1429 ?",
+        "reponse": "Jean de Dunois",
+        "propositions": [
+          "Jean de Dunois",
+          "Gilles de Rais",
+          "La Hire",
+          "Arthur de Richemont"
+        ],
+        "explication": "Jean de Dunois a organisé la résistance d'Orléans pendant plusieurs mois avant que Jeanne d'Arc ne vienne contribuer à la levée du siège."
+      },
+      {
+        "question": "Quel texte de 1438, promulgué par Charles VII, affirme certaines libertés de l'Église de France face à l'autorité pontificale ?",
+        "reponse": "La Pragmatique Sanction de Bourges",
+        "propositions": [
+          "La Pragmatique Sanction de Bourges",
+          "Le traité de Troyes",
+          "Le concordat de Worms",
+          "La Bulle d'or de 1356"
+        ],
+        "explication": "Ce texte, précurseur du gallicanisme, limite l'ingérence du pape dans la nomination des bénéfices ecclésiastiques en France."
+      },
+      {
+        "question": "Quelle bataille de 1453, où l'artillerie des frères Bureau joue un rôle décisif, marque la fin de la guerre de Cent Ans ?",
+        "reponse": "La bataille de Castillon",
+        "propositions": [
+          "La bataille de Castillon",
+          "La bataille de Formigny",
+          "La bataille de Poitiers (1356)",
+          "La bataille d'Azincourt"
+        ],
+        "explication": "Cette victoire française entraîne la reddition de Bordeaux et met fin, à l'exception de Calais, à la présence anglaise sur le sol français."
+      },
+      {
+        "question": "Quelle expédition populaire et mal organisée de 1096, menée par le prédicateur Pierre l'Hermite, a précédé l'arrivée des armées princières de la première croisade ?",
+        "reponse": "La croisade populaire de Pierre l'Hermite",
+        "propositions": [
+          "La croisade populaire de Pierre l'Hermite",
+          "La croisade des enfants",
+          "La croisade des pastoureaux",
+          "La quatrième croisade"
+        ],
+        "explication": "Cette croisade populaire, mal équipée, fut largement décimée avant même d'atteindre les terres byzantines ou musulmanes."
+      },
+      {
+        "question": "Quelle croisade de 1396, menée par une coalition européenne contre les Ottomans, s'est soldée par une défaite écrasante près du Danube ?",
+        "reponse": "La croisade de Nicopolis",
+        "propositions": [
+          "La croisade de Nicopolis",
+          "La croisade des Albigeois",
+          "La croisade des enfants",
+          "La cinquième croisade"
+        ],
+        "explication": "Cette défaite, infligée par le sultan ottoman Bayezid Ier à une coalition réunissant notamment des chevaliers français, a durablement affaibli l'espoir chrétien de repousser les Ottomans des Balkans."
+      },
+      {
+        "question": "Quels mouvements populaires de 1251 et 1320, mêlant ferveur religieuse et révolte sociale, ont vu des bergers et des pauvres gens marcher en armes à travers la France ?",
+        "reponse": "Les croisades des Pastoureaux",
+        "propositions": [
+          "Les croisades des Pastoureaux",
+          "La croisade des enfants",
+          "La Jacquerie",
+          "La révolte des Maillotins"
+        ],
+        "explication": "Ces révoltes, nées dans un contexte de crise et d'échec des croisades officielles, ont dégénéré en violences contre le clergé et les juifs avant d'être réprimées."
+      },
+      {
+        "question": "Quel recueil de vies de saints, rédigé par Jacques de Voragine au XIIIe siècle, fut l'un des textes les plus lus et copiés de tout le Moyen Âge ?",
+        "reponse": "La Légende dorée",
+        "propositions": [
+          "La Légende dorée",
+          "Le Roman de la Rose",
+          "Le Décaméron",
+          "La Divine Comédie"
+        ],
+        "explication": "Cette compilation de récits hagiographiques a durablement influencé l'art et la piété populaire médiévale en Occident."
+      },
+      {
+        "question": "Quel chef normand du XIe siècle a conquis une grande partie de l'Italie du Sud, fondant une principauté normande en Méditerranée ?",
+        "reponse": "Robert Guiscard",
+        "propositions": [
+          "Robert Guiscard",
+          "Guillaume le Conquérant",
+          "Roger de Hauteville (seul)",
+          "Tancrède de Hauteville (seul)"
+        ],
+        "explication": "Robert Guiscard a profité de la fragmentation politique de l'Italie du Sud pour y établir, avec ses frères, une puissante seigneurie normande."
+      },
+      {
+        "question": "Quel empereur germanique du XIIIe siècle, surnommé 'Stupor Mundi', a repris Jérusalem en 1229 par la voie diplomatique plutôt que militaire, lors de la sixième croisade ?",
+        "reponse": "Frédéric II de Hohenstaufen",
+        "propositions": [
+          "Frédéric II de Hohenstaufen",
+          "Otton IV",
+          "Henri IV du Saint-Empire",
+          "Frédéric Barberousse"
+        ],
+        "explication": "Excommunié par le pape, Frédéric II a néanmoins négocié directement avec le sultan al-Kamil la restitution temporaire de Jérusalem aux chrétiens."
       }
     ]
   }

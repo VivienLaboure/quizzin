@@ -386,6 +386,66 @@
           "Fulgencio Batista"
         ],
         "explication": "Fidel Castro dirige Cuba pendant près d'un demi-siècle après avoir renversé le régime de Batista."
+      },
+      {
+        "question": "Qui est le principal rédacteur de la Déclaration d'indépendance des États-Unis, adoptée en 1776 ?",
+        "reponse": "Thomas Jefferson",
+        "propositions": ["Thomas Jefferson", "George Washington", "Benjamin Franklin", "John Adams"],
+        "explication": "Jefferson deviendra plus tard le troisième président des États-Unis, de 1801 à 1809."
+      },
+      {
+        "question": "Quel dirigeant sud-africain, emprisonné 27 ans sous l'apartheid, est devenu en 1994 le premier président noir élu démocratiquement de son pays ?",
+        "reponse": "Nelson Mandela",
+        "propositions": ["Nelson Mandela", "Desmond Tutu", "Thabo Mbeki", "Steve Biko"],
+        "explication": "Mandela a reçu le prix Nobel de la paix en 1993, avant son élection à la présidence l'année suivante."
+      },
+      {
+        "question": "Quel dirigeant indien a mené son pays vers l'indépendance en 1947 par une stratégie de résistance non violente ?",
+        "reponse": "Mahatma Gandhi",
+        "propositions": ["Mahatma Gandhi", "Jawaharlal Nehru", "Muhammad Ali Jinnah", "Subhas Chandra Bose"],
+        "explication": "Gandhi est assassiné en janvier 1948, quelques mois seulement après l'indépendance de l'Inde."
+      },
+      {
+        "question": "Quel pays a lancé Spoutnik 1, le premier satellite artificiel de l'histoire, en 1957 ?",
+        "reponse": "L'URSS",
+        "propositions": ["L'URSS", "Les États-Unis", "Le Royaume-Uni", "La France"],
+        "explication": "Ce lancement a marqué le début de la course à l'espace entre les États-Unis et l'Union soviétique."
+      },
+      {
+        "question": "Quelle crise de 1962, provoquée par l'installation de missiles soviétiques à Cuba, a fait craindre une guerre nucléaire entre les États-Unis et l'URSS ?",
+        "reponse": "La crise des missiles de Cuba",
+        "propositions": ["La crise des missiles de Cuba", "La crise de Berlin", "La crise de Suez", "La baie des Cochons"],
+        "explication": "Cette crise s'est résolue par un accord discret entre Kennedy et Khrouchtchev, les Soviétiques retirant leurs missiles contre l'engagement américain de ne pas envahir Cuba."
+      },
+      {
+        "question": "Quelle période de réformes profondes, débutant en 1868, a modernisé rapidement le Japon après la chute du shogunat ?",
+        "reponse": "L'ère Meiji (restauration de Meiji)",
+        "propositions": ["L'ère Meiji (restauration de Meiji)", "Le shogunat Tokugawa", "L'ère Edo", "L'occupation américaine"],
+        "explication": "Cette restauration a vu le Japon adopter rapidement des technologies et institutions occidentales tout en restaurant le pouvoir impérial."
+      },
+      {
+        "question": "Quel chef des Huns a mené de violentes invasions contre l'Empire romain au Ve siècle, avant d'être arrêté en Gaule à la bataille des champs Catalauniques ?",
+        "reponse": "Attila",
+        "propositions": ["Attila", "Alaric", "Genséric", "Odoacre"],
+        "explication": "Attila, surnommé le 'fléau de Dieu', meurt en 453, peu après son recul face aux armées romano-wisigothes."
+      },
+      {
+        "question": "Quel empereur du Mali, au XIVe siècle, est souvent considéré comme l'une des personnes les plus riches de toute l'histoire grâce aux mines d'or de son empire ?",
+        "reponse": "Mansa Moussa",
+        "propositions": ["Mansa Moussa", "Soundiata Keïta", "Askia Mohammed", "Chaka Zoulou"],
+        "explication": "Son célèbre pèlerinage à La Mecque, en 1324, aurait fait chuter le cours de l'or sur son passage en Égypte, tant il en distribuait généreusement."
+      },
+      {
+        "question": "Quelle fortification de plusieurs milliers de kilomètres, construite et renforcée sur plusieurs siècles, protégeait la Chine impériale des invasions venues du nord ?",
+        "reponse": "La Grande Muraille de Chine",
+        "propositions": ["La Grande Muraille de Chine", "Le mur d'Hadrien", "La ligne Maginot", "Le limes romain"],
+        "explication": "Sa forme actuelle la plus connue date principalement de travaux menés sous la dynastie Ming."
+      },
+      {
+        "question": "Quelle flotte espagnole, envoyée en 1588 pour envahir l'Angleterre, a été défaite par la marine anglaise et de violentes tempêtes ?",
+        "reponse": "L'Invincible Armada",
+        "propositions": ["L'Invincible Armada", "La flotte de Lépante", "La flotte de Trafalgar", "La Grande Flotte"],
+        "explication": "Cette défaite a consolidé la puissance maritime naissante de l'Angleterre face à l'Espagne de Philippe II."
       }
     ],
     "2": [
@@ -773,6 +833,66 @@
           "La guerre sino-japonaise"
         ],
         "explication": "Les nationalistes vaincus se replient sur l'île de Taïwan, tandis que Mao proclame la République populaire de Chine."
+      },
+      {
+        "question": "Quel empereur indien de la dynastie Maurya s'est converti au bouddhisme au IIIe siècle avant J.-C. après la sanglante conquête du Kalinga ?",
+        "reponse": "Ashoka",
+        "propositions": ["Ashoka", "Chandragupta Maurya", "Akbar", "Harsha"],
+        "explication": "Ashoka a ensuite œuvré à la diffusion du bouddhisme dans tout son empire et au-delà, notamment par des édits gravés sur des piliers de pierre."
+      },
+      {
+        "question": "Quelle victoire militaire de décembre 1805, remportée par Napoléon contre les armées russe et autrichienne, est surnommée la 'bataille des Trois Empereurs' ?",
+        "reponse": "La bataille d'Austerlitz",
+        "propositions": ["La bataille d'Austerlitz", "La bataille de Leipzig", "La bataille de Wagram", "La bataille d'Iéna"],
+        "explication": "Cette victoire est considérée comme l'un des plus grands triomphes militaires de Napoléon Bonaparte."
+      },
+      {
+        "question": "Quelle bataille d'octobre 1813, surnommée 'bataille des Nations', voit une coalition européenne infliger une lourde défaite à Napoléon en Allemagne ?",
+        "reponse": "La bataille de Leipzig",
+        "propositions": ["La bataille de Leipzig", "La bataille d'Austerlitz", "La bataille de Wagram", "La bataille de la Moskova"],
+        "explication": "Cette défaite précipite le recul définitif des armées napoléoniennes hors d'Allemagne, un an avant Waterloo."
+      },
+      {
+        "question": "Quelle partition de 1947, accompagnant l'indépendance de l'Inde britannique, a créé deux États distincts et provoqué d'importants déplacements de population ?",
+        "reponse": "La partition de l'Inde",
+        "propositions": ["La partition de l'Inde", "La partition de la Palestine", "La partition de la Corée", "La partition de l'Indochine"],
+        "explication": "Cette partition a donné naissance à l'Inde et au Pakistan, dans un contexte de violences intercommunautaires massives."
+      },
+      {
+        "question": "Quel génocide de 1994, qui a fait environ 800 000 morts en une centaine de jours, a visé principalement la minorité tutsie du Rwanda ?",
+        "reponse": "Le génocide des Tutsis au Rwanda",
+        "propositions": ["Le génocide des Tutsis au Rwanda", "Le génocide arménien", "Le génocide au Darfour", "Le génocide cambodgien"],
+        "explication": "Ce génocide a été commis principalement par des milices hutues extrémistes, les 'Interahamwe', avec l'appui d'une partie des forces armées rwandaises."
+      },
+      {
+        "question": "Quelle campagne politique lancée par Mao Zedong en 1966 a bouleversé la société chinoise par des persécutions massives et une remise en cause de l'autorité traditionnelle ?",
+        "reponse": "La révolution culturelle chinoise",
+        "propositions": ["La révolution culturelle chinoise", "Le Grand Bond en avant", "La Longue Marche", "La révolution Xinhai"],
+        "explication": "Cette révolution, qui dure jusqu'à la mort de Mao en 1976, mobilise notamment de jeunes gardes rouges contre les élites jugées contre-révolutionnaires."
+      },
+      {
+        "question": "Quel chef turc a fondé, à la fin du XIIIe siècle en Anatolie, la dynastie qui donnera naissance à l'Empire ottoman ?",
+        "reponse": "Osman Ier",
+        "propositions": ["Osman Ier", "Mehmed II", "Soliman le Magnifique", "Orhan Ier"],
+        "explication": "L'Empire ottoman, qui tire son nom de ce fondateur, durera jusqu'au démantèlement prononcé au début du XXe siècle."
+      },
+      {
+        "question": "Quel prince portugais du XVe siècle a activement soutenu les expéditions maritimes le long des côtes africaines, préparant les grandes découvertes portugaises ?",
+        "reponse": "Henri le Navigateur",
+        "propositions": ["Henri le Navigateur", "Jean II de Portugal", "Manuel Ier", "Alphonse V"],
+        "explication": "Bien qu'il n'ait lui-même guère navigué, Henri a financé de nombreuses expéditions depuis l'école de navigation de Sagres."
+      },
+      {
+        "question": "Quel astronome polonais a proposé, au XVIe siècle, un modèle héliocentrique plaçant le Soleil, et non la Terre, au centre de l'univers connu ?",
+        "reponse": "Nicolas Copernic",
+        "propositions": ["Nicolas Copernic", "Galilée", "Johannes Kepler", "Tycho Brahe"],
+        "explication": "Son ouvrage 'De revolutionibus orbium coelestium', publié en 1543, a posé les bases de la révolution scientifique moderne."
+      },
+      {
+        "question": "Quelle guerre de 1839 à 1842, provoquée par le commerce britannique de l'opium en Chine, s'est achevée par le traité de Nankin et la cession de Hong Kong ?",
+        "reponse": "La première guerre de l'opium",
+        "propositions": ["La première guerre de l'opium", "La seconde guerre de l'opium", "La révolte des Boxers", "La guerre sino-japonaise"],
+        "explication": "Ce traité impose à la Chine l'ouverture de plusieurs ports au commerce étranger et marque le début de ce que l'historiographie chinoise appelle le 'siècle d'humiliation'."
       }
     ],
     "3": [
@@ -997,7 +1117,7 @@
         "explication": "Ce système, appelé tétrarchie, visait à mieux gérer l'immensité et les menaces pesant sur l'Empire romain."
       },
       {
-        "question": "Quelle bataille de 1453 voit la chute de Constantinople face aux troupes ottomanes de Mehmed II, marquant la fin de l'Empire byzantin ?",
+        "question": "Quel événement de 1453 voit les troupes ottomanes de Mehmed II s'emparer de la capitale byzantine, marquant la fin de l'Empire romain d'Orient ?",
         "reponse": "La chute de Constantinople",
         "propositions": [
           "La chute de Constantinople",
@@ -1160,6 +1280,66 @@
           "La guerre des Gracques"
         ],
         "explication": "Cette révolte, l'une des plus importantes de l'Antiquité romaine, est finalement écrasée par les légions de Crassus et Pompée."
+      },
+      {
+        "question": "Quel épisode de 1077, où l'empereur germanique Henri IV implore le pardon du pape Grégoire VII, est devenu le symbole de l'humiliation d'un pouvoir temporel face à l'autorité spirituelle ?",
+        "reponse": "L'humiliation de Canossa",
+        "propositions": ["L'humiliation de Canossa", "Le concordat de Worms", "Le sac de Rome de 1084", "Le schisme d'Occident"],
+        "explication": "Cet épisode s'inscrit dans la querelle des Investitures, un conflit prolongé entre la papauté et le pouvoir impérial sur la nomination des évêques."
+      },
+      {
+        "question": "Quelle bataille de 378 voit l'empereur romain Valens tué et son armée écrasée par les Goths, un désastre annonciateur du déclin de l'Empire romain d'Occident ?",
+        "reponse": "La bataille d'Andrinople",
+        "propositions": ["La bataille d'Andrinople", "La bataille de Châlons", "Le sac de Rome (410)", "La bataille du Frigidus"],
+        "explication": "Cette défaite, l'une des plus graves subies par Rome face à un peuple 'barbare', ouvre une période d'instabilité croissante pour l'Empire romain."
+      },
+      {
+        "question": "Quel traité de 1895, mettant fin à la première guerre sino-japonaise, voit la Chine céder Taïwan au Japon et reconnaître l'indépendance de la Corée ?",
+        "reponse": "Le traité de Shimonoseki",
+        "propositions": ["Le traité de Shimonoseki", "Le traité de Portsmouth", "Le traité de Tianjin", "Le traité de Nankin"],
+        "explication": "Cette défaite chinoise face au Japon illustre le déclin accéléré de la dynastie Qing face aux puissances asiatiques et occidentales."
+      },
+      {
+        "question": "Quelle bataille de 202 avant J.-C., livrée en Afrique du Nord, voit le général romain Scipion vaincre définitivement Hannibal, mettant fin à la deuxième guerre punique ?",
+        "reponse": "La bataille de Zama",
+        "propositions": ["La bataille de Zama", "La bataille de Cannes", "La bataille du Métaure", "La bataille de Trasimène"],
+        "explication": "Cette victoire vaut à Scipion le surnom de 'l'Africain' et scelle la domination romaine sur la Méditerranée occidentale."
+      },
+      {
+        "question": "Quelle bataille de 331 avant J.-C. voit Alexandre le Grand vaincre définitivement le roi perse Darius III, ouvrant la voie à la conquête de l'empire achéménide ?",
+        "reponse": "La bataille de Gaugamèles",
+        "propositions": ["La bataille de Gaugamèles", "La bataille d'Issos", "La bataille du Granique", "La bataille de Platées"],
+        "explication": "Après cette victoire décisive, Alexandre s'empare des grandes capitales perses, dont Babylone et Persépolis."
+      },
+      {
+        "question": "Quelle bataille de 751, opposant les troupes abbassides aux armées chinoises de la dynastie Tang en Asie centrale, aurait permis la diffusion de la fabrication du papier vers le monde musulman ?",
+        "reponse": "La bataille de Talas",
+        "propositions": ["La bataille de Talas", "La bataille de Manzikert", "La bataille de Qadisiyya", "La bataille de Nahavand"],
+        "explication": "Selon la tradition historique, des artisans chinois faits prisonniers après cette bataille auraient transmis leur savoir-faire papetier au monde islamique."
+      },
+      {
+        "question": "Quelle bataille de 711 marque l'effondrement rapide du royaume wisigoth d'Espagne face à l'invasion des armées omeyyades menées par Tariq ibn Ziyad ?",
+        "reponse": "La bataille de Guadalete",
+        "propositions": ["La bataille de Guadalete", "La bataille de Poitiers", "La bataille de Covadonga", "La bataille de Las Navas de Tolosa"],
+        "explication": "Cette défaite ouvre la voie à plusieurs siècles de présence musulmane dans la péninsule Ibérique, jusqu'à la Reconquista."
+      },
+      {
+        "question": "Quelle bataille de 1187, remportée par Saladin contre les forces croisées, a ouvert la voie à la reprise de Jérusalem par les musulmans ?",
+        "reponse": "La bataille de Hattin",
+        "propositions": ["La bataille de Hattin", "La bataille d'Ascalon", "Le siège d'Acre", "La bataille d'Arsouf"],
+        "explication": "Cette défaite catastrophique des États latins d'Orient a précipité l'appel à la troisième croisade, menée notamment par Richard Cœur de Lion."
+      },
+      {
+        "question": "Quelle croisade, détournée de son objectif initial, a abouti en 1204 au sac et à la prise de Constantinople par des armées chrétiennes occidentales ?",
+        "reponse": "La quatrième croisade",
+        "propositions": ["La quatrième croisade", "La première croisade", "La troisième croisade", "La croisade des Albigeois"],
+        "explication": "Cette prise de Constantinople par des croisés, plutôt que par des musulmans, a durablement affaibli l'Empire byzantin avant sa chute définitive en 1453."
+      },
+      {
+        "question": "Quelle bataille de 1260, remportée par les Mamelouks d'Égypte en Palestine, a stoppé pour la première fois l'avancée des armées mongoles vers le Moyen-Orient ?",
+        "reponse": "La bataille d'Ain Jalut",
+        "propositions": ["La bataille d'Ain Jalut", "La bataille de Bagdad (1258)", "La bataille de Manzikert", "La bataille de Hattin"],
+        "explication": "Cette victoire mamelouke, obtenue peu après le sac de Bagdad par les Mongols en 1258, a préservé l'Égypte et la Syrie d'une invasion mongole."
       }
     ]
   }

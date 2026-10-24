@@ -280,62 +280,222 @@
       {
         "question": "Quel instrument à cordes, plus grand que le violon mais plus petit que le violoncelle, joue généralement un registre médium dans l'orchestre ?",
         "reponse": "L'alto",
-        "propositions": ["L'alto", "Le violon", "Le violoncelle", "La contrebasse"],
+        "propositions": [
+          "L'alto",
+          "Le violon",
+          "Le violoncelle",
+          "La contrebasse"
+        ],
         "explication": "L'alto se tient comme le violon, sous le menton, mais produit un son plus grave grâce à sa taille plus importante."
       },
       {
         "question": "De quelle nationalité était le compositeur Frédéric Chopin ?",
         "reponse": "Polonaise",
-        "propositions": ["Polonaise", "Allemande", "Italienne", "Autrichienne"],
+        "propositions": [
+          "Polonaise",
+          "Allemande",
+          "Italienne",
+          "Autrichienne"
+        ],
         "explication": "Frédéric Chopin est né près de Varsovie en 1810, avant de s'installer en France."
       },
       {
         "question": "Quel terme italien, inscrit sur une partition, signifie 'rapide' ?",
         "reponse": "Allegro",
-        "propositions": ["Allegro", "Adagio", "Largo", "Andante"],
+        "propositions": [
+          "Allegro",
+          "Adagio",
+          "Largo",
+          "Andante"
+        ],
         "explication": "Allegro est l'une des indications de tempo les plus courantes en musique classique, signifiant un mouvement vif et rapide."
       },
       {
         "question": "Combien de cordes possède un violon standard ?",
         "reponse": "Quatre",
-        "propositions": ["Quatre", "Cinq", "Six", "Trois"],
+        "propositions": [
+          "Quatre",
+          "Cinq",
+          "Six",
+          "Trois"
+        ],
         "explication": "Le violon possède quatre cordes, accordées en sol, ré, la et mi."
       },
       {
         "question": "Quel pays est le berceau de l'opéra, genre musical né à la fin du XVIe siècle ?",
         "reponse": "L'Italie",
-        "propositions": ["L'Italie", "La France", "L'Allemagne", "L'Autriche"],
+        "propositions": [
+          "L'Italie",
+          "La France",
+          "L'Allemagne",
+          "L'Autriche"
+        ],
         "explication": "L'opéra est né à Florence et à Venise à la fin du XVIe et au début du XVIIe siècle."
       },
       {
         "question": "Quel instrument à percussion, composé de deux grands tambours accordés à des hauteurs différentes, est souvent utilisé en musique orchestrale ?",
         "reponse": "Les timbales",
-        "propositions": ["Les timbales", "Les congas", "Le tambourin", "Le triangle"],
+        "propositions": [
+          "Les timbales",
+          "Les congas",
+          "Le tambourin",
+          "Le triangle"
+        ],
         "explication": "Les timbales peuvent être accordées précisément à une note, contrairement à la plupart des autres percussions."
       },
       {
         "question": "Quel terme désigne la personne qui joue seule, mise en valeur devant l'orchestre ?",
         "reponse": "Le soliste",
-        "propositions": ["Le soliste", "Le chef d'orchestre", "Le choriste", "L'accompagnateur"],
+        "propositions": [
+          "Le soliste",
+          "Le chef d'orchestre",
+          "Le choriste",
+          "L'accompagnateur"
+        ],
         "explication": "Le soliste est mis en valeur, notamment dans un concerto, face à l'ensemble de l'orchestre."
       },
       {
         "question": "Quel pays européen est le berceau de la valse viennoise, popularisée au XIXe siècle ?",
         "reponse": "L'Autriche",
-        "propositions": ["L'Autriche", "La France", "L'Italie", "L'Espagne"],
+        "propositions": [
+          "L'Autriche",
+          "La France",
+          "L'Italie",
+          "L'Espagne"
+        ],
         "explication": "La valse viennoise s'est développée et popularisée à Vienne, notamment grâce à la famille Strauss."
       },
       {
         "question": "Quel terme désigne un chant sans accompagnement instrumental, interprété seul ou en groupe ?",
         "reponse": "Un chant a cappella",
-        "propositions": ["Un chant a cappella", "Un lied", "Une aria", "Un oratorio"],
+        "propositions": [
+          "Un chant a cappella",
+          "Un lied",
+          "Une aria",
+          "Un oratorio"
+        ],
         "explication": "'A cappella' signifie 'comme à la chapelle', désignant un chant exécuté sans accompagnement instrumental."
       },
       {
         "question": "Quel registre vocal est le plus grave chez les femmes en musique classique ?",
         "reponse": "Le contralto",
-        "propositions": ["Le contralto", "Le soprano", "Le mezzo-soprano", "Le ténor"],
+        "propositions": [
+          "Le contralto",
+          "Le soprano",
+          "Le mezzo-soprano",
+          "Le ténor"
+        ],
         "explication": "Le contralto est la voix féminine la plus grave, assez rare parmi les chanteuses classiques."
+      },
+      {
+        "question": "Quel instrument à vent en bois, muni d'une anche simple (contrairement au hautbois, à anche double), est très utilisé en musique classique et en jazz ?",
+        "reponse": "La clarinette",
+        "propositions": [
+          "La clarinette",
+          "Le hautbois",
+          "Le basson",
+          "La flûte traversière"
+        ],
+        "explication": "La clarinette produit un son grâce à une anche simple fixée sur son bec, à la différence du hautbois qui utilise une anche double."
+      },
+      {
+        "question": "Quel instrument à vent en cuivre se joue en faisant glisser une coulisse pour changer de hauteur, plutôt qu'avec des pistons ?",
+        "reponse": "Le trombone",
+        "propositions": [
+          "Le trombone",
+          "La trompette",
+          "Le cor d'harmonie",
+          "Le tuba"
+        ],
+        "explication": "Le trombone utilise une coulisse mobile pour allonger ou raccourcir le tube et ainsi modifier la hauteur du son."
+      },
+      {
+        "question": "Quel instrument à vent en cuivre, de forme enroulée, produit un son chaud et rond, et se joue avec la main droite insérée dans le pavillon ?",
+        "reponse": "Le cor d'harmonie",
+        "propositions": [
+          "Le cor d'harmonie",
+          "La trompette",
+          "Le trombone",
+          "Le tuba"
+        ],
+        "explication": "La main droite placée dans le pavillon du cor permet au musicien d'ajuster légèrement la justesse et le timbre du son."
+      },
+      {
+        "question": "Quel instrument à vent en bois, le plus grave de la famille des bois à anche double, est souvent utilisé pour des passages graves ou comiques dans l'orchestre ?",
+        "reponse": "Le basson",
+        "propositions": [
+          "Le basson",
+          "Le hautbois",
+          "La clarinette",
+          "La flûte traversière"
+        ],
+        "explication": "Le basson, de grande taille et replié sur lui-même, couvre le registre grave de la famille des bois."
+      },
+      {
+        "question": "Quel appareil mécanique ou électronique, utilisé pour s'entraîner, permet de maintenir un tempo constant et régulier ?",
+        "reponse": "Le métronome",
+        "propositions": [
+          "Le métronome",
+          "Le diapason",
+          "L'accordeur",
+          "Le pupitre"
+        ],
+        "explication": "Le métronome, popularisé au début du XIXe siècle, produit un battement régulier aidant les musiciens à respecter un tempo précis."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des cinq lignes horizontales sur lesquelles s'écrivent les notes de musique ?",
+        "reponse": "La portée",
+        "propositions": [
+          "La portée",
+          "La clé",
+          "La mesure",
+          "La barre"
+        ],
+        "explication": "La portée, composée de cinq lignes et quatre interlignes, est le support de base de la notation musicale occidentale."
+      },
+      {
+        "question": "Comment appelle-t-on le symbole, placé au début d'une portée, qui indique la position de la note 'sol' et sert de référence pour lire les notes aiguës ?",
+        "reponse": "La clé de sol",
+        "propositions": [
+          "La clé de sol",
+          "La clé de fa",
+          "La clé d'ut",
+          "Le bécarre"
+        ],
+        "explication": "La clé de sol est la plus couramment utilisée pour écrire les parties aiguës, notamment pour le violon ou la main droite au piano."
+      },
+      {
+        "question": "Quel terme italien, inscrit sur une partition, indique qu'il faut reprendre le morceau depuis le début ?",
+        "reponse": "Da capo",
+        "propositions": [
+          "Da capo",
+          "Allegro",
+          "Legato",
+          "Fine"
+        ],
+        "explication": "L'indication 'da capo', souvent abrégée 'D.C.', signifie littéralement 'depuis la tête', c'est-à-dire depuis le commencement de la partition."
+      },
+      {
+        "question": "Quel petit instrument à percussion, composé de deux coquilles de bois claquées entre les doigts, est associé à la musique espagnole et à des œuvres comme 'Carmen' ?",
+        "reponse": "Les castagnettes",
+        "propositions": [
+          "Les castagnettes",
+          "Le triangle",
+          "Le tambourin",
+          "Les maracas"
+        ],
+        "explication": "Les castagnettes, d'origine espagnole, rythment traditionnellement les danses comme le flamenco et apparaissent dans plusieurs œuvres classiques à couleur hispanique."
+      },
+      {
+        "question": "Quel instrument à percussion métallique, de forme géométrique simple, produit un son clair et aigu lorsqu'on le frappe avec une baguette ?",
+        "reponse": "Le triangle",
+        "propositions": [
+          "Le triangle",
+          "Le xylophone",
+          "Les timbales",
+          "Le célesta"
+        ],
+        "explication": "Le triangle, malgré sa simplicité, est utilisé dans de nombreuses œuvres orchestrales pour apporter un éclat sonore ponctuel."
       }
     ],
     "2": [
@@ -617,62 +777,222 @@
       {
         "question": "Quel compositeur italien du XIXe siècle, auteur du 'Barbier de Séville', est une figure majeure de l'opéra bouffe ?",
         "reponse": "Gioachino Rossini",
-        "propositions": ["Gioachino Rossini", "Gaetano Donizetti", "Vincenzo Bellini", "Giuseppe Verdi"],
+        "propositions": [
+          "Gioachino Rossini",
+          "Gaetano Donizetti",
+          "Vincenzo Bellini",
+          "Giuseppe Verdi"
+        ],
         "explication": "Rossini a composé 'Le Barbier de Séville' en seulement trois semaines, en 1816."
       },
       {
         "question": "Quel compositeur tchèque du XXe siècle, influencé par Dvořák, est l'auteur de l'opéra 'Jenůfa' ?",
         "reponse": "Leoš Janáček",
-        "propositions": ["Leoš Janáček", "Bedřich Smetana", "Antonín Dvořák", "Zdeněk Fibich"],
+        "propositions": [
+          "Leoš Janáček",
+          "Bedřich Smetana",
+          "Antonín Dvořák",
+          "Zdeněk Fibich"
+        ],
         "explication": "Janáček a développé un langage musical très personnel, inspiré par les intonations de la langue tchèque parlée."
       },
       {
         "question": "Quel compositeur allemand est l'auteur de l'opéra 'Fidelio', son unique opéra achevé ?",
         "reponse": "Ludwig van Beethoven",
-        "propositions": ["Ludwig van Beethoven", "Carl Maria von Weber", "Franz Schubert", "Louis Spohr"],
+        "propositions": [
+          "Ludwig van Beethoven",
+          "Carl Maria von Weber",
+          "Franz Schubert",
+          "Louis Spohr"
+        ],
         "explication": "'Fidelio', créé en 1805 puis révisé, est le seul opéra composé par Beethoven."
       },
       {
         "question": "Quel compositeur italien du début du XVIIe siècle est l'auteur de 'L'Orfeo' (1607), l'un des premiers opéras de l'histoire parvenus intacts jusqu'à nous ?",
         "reponse": "Claudio Monteverdi",
-        "propositions": ["Claudio Monteverdi", "Francesco Cavalli", "Alessandro Scarlatti", "Jean-Baptiste Lully"],
+        "propositions": [
+          "Claudio Monteverdi",
+          "Francesco Cavalli",
+          "Alessandro Scarlatti",
+          "Jean-Baptiste Lully"
+        ],
         "explication": "L'Orfeo de Monteverdi est l'un des premiers opéras ayant survécu dans son intégralité jusqu'à nos jours."
       },
       {
         "question": "Quel compositeur français du XVIIe siècle, d'origine italienne, a dominé la musique de cour sous Louis XIV ?",
         "reponse": "Jean-Baptiste Lully",
-        "propositions": ["Jean-Baptiste Lully", "Marc-Antoine Charpentier", "François Couperin", "Jean-Philippe Rameau"],
+        "propositions": [
+          "Jean-Baptiste Lully",
+          "Marc-Antoine Charpentier",
+          "François Couperin",
+          "Jean-Philippe Rameau"
+        ],
         "explication": "Lully a notamment collaboré avec Molière pour des comédies-ballets à la cour de Louis XIV."
       },
       {
         "question": "Quel compositeur et claveciniste français du XVIIIe siècle a théorisé l'harmonie moderne dans son 'Traité de l'harmonie' (1722) ?",
         "reponse": "Jean-Philippe Rameau",
-        "propositions": ["Jean-Philippe Rameau", "François Couperin", "Jean-Baptiste Lully", "Michel-Richard de Lalande"],
+        "propositions": [
+          "Jean-Philippe Rameau",
+          "François Couperin",
+          "Jean-Baptiste Lully",
+          "Michel-Richard de Lalande"
+        ],
         "explication": "Rameau a profondément influencé la théorie musicale occidentale avec sa notion d'accords fondamentaux."
       },
       {
         "question": "Quel compositeur italien du XVIIIe siècle, rival de Mozart à la cour de Vienne, a inspiré le film 'Amadeus' (1984) ?",
         "reponse": "Antonio Salieri",
-        "propositions": ["Antonio Salieri", "Christoph Willibald Gluck", "Joseph Haydn", "Muzio Clementi"],
+        "propositions": [
+          "Antonio Salieri",
+          "Christoph Willibald Gluck",
+          "Joseph Haydn",
+          "Muzio Clementi"
+        ],
         "explication": "Le film 'Amadeus' dramatise, sans fondement historique solide, une rivalité entre Salieri et Mozart."
       },
       {
         "question": "Quel compositeur allemand du XVIIIe siècle a réformé l'opéra en réduisant les ornements vocaux excessifs, notamment dans 'Orphée et Eurydice' ?",
         "reponse": "Christoph Willibald Gluck",
-        "propositions": ["Christoph Willibald Gluck", "Antonio Salieri", "Joseph Haydn", "Carl Philipp Emanuel Bach"],
+        "propositions": [
+          "Christoph Willibald Gluck",
+          "Antonio Salieri",
+          "Joseph Haydn",
+          "Carl Philipp Emanuel Bach"
+        ],
         "explication": "Gluck a cherché à donner plus de naturel et de vérité dramatique à l'opéra, en réaction aux excès de virtuosité vocale baroque."
       },
       {
         "question": "Quel compositeur italien du XIXe siècle, auteur des opéras 'Norma' et 'I puritani', est mort prématurément à 33 ans ?",
         "reponse": "Vincenzo Bellini",
-        "propositions": ["Vincenzo Bellini", "Gaetano Donizetti", "Gioachino Rossini", "Giuseppe Verdi"],
+        "propositions": [
+          "Vincenzo Bellini",
+          "Gaetano Donizetti",
+          "Gioachino Rossini",
+          "Giuseppe Verdi"
+        ],
         "explication": "Bellini, figure majeure du bel canto italien, est mort en 1835 près de Paris."
       },
       {
         "question": "Quel fils de Jean-Sébastien Bach a joué un rôle de transition entre le style baroque et le style classique, influençant Haydn et Mozart ?",
         "reponse": "Carl Philipp Emanuel Bach",
-        "propositions": ["Carl Philipp Emanuel Bach", "Johann Christian Bach", "Wilhelm Friedemann Bach", "Johann Sebastian Bach"],
+        "propositions": [
+          "Carl Philipp Emanuel Bach",
+          "Johann Christian Bach",
+          "Wilhelm Friedemann Bach",
+          "Johann Sebastian Bach"
+        ],
         "explication": "C.P.E. Bach a notamment influencé Haydn et Mozart par son style expressif, dit 'Empfindsamer Stil'."
+      },
+      {
+        "question": "Quelle œuvre de Haendel, composée en 1717, fut jouée lors d'une procession royale sur la Tamise pour le roi George Ier ?",
+        "reponse": "Water Music (Musique sur l'eau)",
+        "propositions": [
+          "Water Music (Musique sur l'eau)",
+          "Le Messie",
+          "Music for the Royal Fireworks",
+          "Israel in Egypt"
+        ],
+        "explication": "Haendel aurait composé cette musique pour accompagner une sortie nocturne du roi George Ier sur la Tamise, jouée par des musiciens embarqués sur une barge voisine."
+      },
+      {
+        "question": "Quel compositeur français du XVIIe siècle a composé un 'Te Deum' dont le prélude est devenu, depuis les années 1950, le générique des retransmissions de l'Eurovision ?",
+        "reponse": "Marc-Antoine Charpentier",
+        "propositions": [
+          "Marc-Antoine Charpentier",
+          "Jean-Baptiste Lully",
+          "François Couperin",
+          "Michel-Richard de Lalande"
+        ],
+        "explication": "Le prélude du 'Te Deum' de Charpentier, composé vers 1690, s'est imposé comme l'indicatif musical de l'Eurovision."
+      },
+      {
+        "question": "Quel compositeur anglais du XVIIe siècle est l'auteur de l'opéra 'Didon et Énée', contenant le célèbre air 'Dido's Lament' ?",
+        "reponse": "Henry Purcell",
+        "propositions": [
+          "Henry Purcell",
+          "Georg Friedrich Haendel",
+          "John Blow",
+          "William Byrd"
+        ],
+        "explication": "'Didon et Énée', composé vers 1689, est considéré comme l'un des premiers grands opéras en langue anglaise."
+      },
+      {
+        "question": "Quel compositeur et claveciniste français, auteur de nombreuses 'Pièces de clavecin' au style très ornementé, a été actif à la cour de Louis XIV puis de Louis XV ?",
+        "reponse": "François Couperin",
+        "propositions": [
+          "François Couperin",
+          "Jean-Philippe Rameau",
+          "Jean-Baptiste Lully",
+          "Marc-Antoine Charpentier"
+        ],
+        "explication": "Surnommé 'le Grand' pour le distinguer des autres musiciens de sa famille, Couperin a marqué durablement l'art du clavecin français."
+      },
+      {
+        "question": "Quel compositeur français du XIXe siècle est l'auteur de la 'Symphonie espagnole' pour violon et orchestre (1875) ?",
+        "reponse": "Édouard Lalo",
+        "propositions": [
+          "Édouard Lalo",
+          "Camille Saint-Saëns",
+          "Gabriel Fauré",
+          "Ernest Chausson"
+        ],
+        "explication": "Cette œuvre, imprégnée de couleurs hispanisantes, a été créée par le célèbre violoniste espagnol Pablo de Sarasate."
+      },
+      {
+        "question": "Quel compositeur français, précurseur de la musique minimaliste, est l'auteur des trois 'Gymnopédies' pour piano (1888) ?",
+        "reponse": "Erik Satie",
+        "propositions": [
+          "Erik Satie",
+          "Claude Debussy",
+          "Maurice Ravel",
+          "Gabriel Fauré"
+        ],
+        "explication": "Les 'Gymnopédies', empreintes de calme et de répétitions discrètes, annoncent certains procédés de la musique minimaliste du XXe siècle."
+      },
+      {
+        "question": "Quel compositeur français du XIXe siècle est l'auteur du ballet 'Coppélia' et de l'opéra 'Lakmé', connu pour son 'duo des fleurs' ?",
+        "reponse": "Léo Delibes",
+        "propositions": [
+          "Léo Delibes",
+          "Jules Massenet",
+          "Ambroise Thomas",
+          "Charles Gounod"
+        ],
+        "explication": "Le 'duo des fleurs' de 'Lakmé' est devenu l'un des airs d'opéra les plus largement repris dans la culture populaire."
+      },
+      {
+        "question": "Quel compositeur italien du XXe siècle est l'auteur de la suite orchestrale 'Les Pins de Rome' (Pini di Roma) ?",
+        "reponse": "Ottorino Respighi",
+        "propositions": [
+          "Ottorino Respighi",
+          "Luigi Dallapiccola",
+          "Ferruccio Busoni",
+          "Giacomo Puccini"
+        ],
+        "explication": "Cette œuvre fait partie d'un triptyque orchestral consacré à Rome, avec 'Les Fontaines de Rome' et 'Les Fêtes romaines'."
+      },
+      {
+        "question": "Quel compositeur allemand du XIXe siècle a composé l'opéra 'Hänsel et Gretel', inspiré d'un conte des frères Grimm ?",
+        "reponse": "Engelbert Humperdinck",
+        "propositions": [
+          "Engelbert Humperdinck",
+          "Richard Wagner",
+          "Carl Maria von Weber",
+          "Richard Strauss"
+        ],
+        "explication": "Créé en 1893, cet opéra reste l'une des œuvres lyriques les plus jouées lors des fêtes de fin d'année dans les pays germaniques."
+      },
+      {
+        "question": "Quel compositeur franco-allemand du XIXe siècle, maître de l'opérette, est l'auteur d''Orphée aux Enfers' et de son célèbre galop endiablé ?",
+        "reponse": "Jacques Offenbach",
+        "propositions": [
+          "Jacques Offenbach",
+          "Charles Lecocq",
+          "Hervé",
+          "André Messager"
+        ],
+        "explication": "Ce galop, aujourd'hui associé au french cancan, est devenu l'un des morceaux de musique classique les plus reconnaissables au monde."
       }
     ],
     "3": [
@@ -954,62 +1274,222 @@
       {
         "question": "Quelle technique de composition, prolongeant après-guerre le dodécaphonisme de Schönberg et Webern, applique le principe sériel non seulement aux hauteurs mais aussi au rythme et à la dynamique ?",
         "reponse": "Le sérialisme intégral",
-        "propositions": ["Le sérialisme intégral", "Le dodécaphonisme libre", "Le minimalisme", "L'aléatoire contrôlé"],
+        "propositions": [
+          "Le sérialisme intégral",
+          "Le dodécaphonisme libre",
+          "Le minimalisme",
+          "L'aléatoire contrôlé"
+        ],
         "explication": "Pierre Boulez et Karlheinz Stockhausen ont notamment prolongé cette approche héritée de Webern, appliquant le principe sériel à tous les paramètres du son."
       },
       {
         "question": "Quel compositeur français est l'auteur de 'Pelléas et Mélisande' (1902), son unique opéra achevé, d'après la pièce de Maeterlinck ?",
         "reponse": "Claude Debussy",
-        "propositions": ["Claude Debussy", "Maurice Ravel", "Paul Dukas", "Vincent d'Indy"],
+        "propositions": [
+          "Claude Debussy",
+          "Maurice Ravel",
+          "Paul Dukas",
+          "Vincent d'Indy"
+        ],
         "explication": "Cet opéra impressionniste, créé à l'Opéra-Comique de Paris, a marqué une rupture avec l'opéra romantique traditionnel."
       },
       {
         "question": "Quel compositeur russe du début du XXe siècle, aux conceptions mystiques et théosophiques, a composé le 'Poème de l'extase' ?",
         "reponse": "Alexandre Scriabine",
-        "propositions": ["Alexandre Scriabine", "Sergueï Rachmaninov", "Nikolaï Medtner", "Anton Arenski"],
+        "propositions": [
+          "Alexandre Scriabine",
+          "Sergueï Rachmaninov",
+          "Nikolaï Medtner",
+          "Anton Arenski"
+        ],
         "explication": "Scriabine cherchait à associer la musique à des correspondances synesthésiques entre sons et couleurs."
       },
       {
         "question": "Quel compositeur britannique du XXe siècle est l'auteur de l'opéra 'Peter Grimes' (1945) et du 'Guide de l'orchestre à l'usage des jeunes' ?",
         "reponse": "Benjamin Britten",
-        "propositions": ["Benjamin Britten", "Ralph Vaughan Williams", "Michael Tippett", "William Walton"],
+        "propositions": [
+          "Benjamin Britten",
+          "Ralph Vaughan Williams",
+          "Michael Tippett",
+          "William Walton"
+        ],
         "explication": "Benjamin Britten est considéré comme l'un des plus grands compositeurs britanniques du XXe siècle."
       },
       {
         "question": "Quel terme technique désigne le retour périodique d'un même motif musical, notamment chez Wagner, pour caractériser un personnage ou une idée ?",
         "reponse": "Le leitmotiv",
-        "propositions": ["Le leitmotiv", "L'ostinato", "Le contre-sujet", "Le thème cyclique"],
+        "propositions": [
+          "Le leitmotiv",
+          "L'ostinato",
+          "Le contre-sujet",
+          "Le thème cyclique"
+        ],
         "explication": "Wagner a systématisé l'usage du leitmotiv dans ses opéras pour associer un thème musical récurrent à un personnage, un objet ou une idée."
       },
       {
         "question": "Quel compositeur français, élève de César Franck, a développé la forme cyclique dans sa 'Symphonie en si mineur' (1896-1897) ?",
         "reponse": "Vincent d'Indy",
-        "propositions": ["Vincent d'Indy", "Ernest Chausson", "Henri Duparc", "Guillaume Lekeu"],
+        "propositions": [
+          "Vincent d'Indy",
+          "Ernest Chausson",
+          "Henri Duparc",
+          "Guillaume Lekeu"
+        ],
         "explication": "La forme cyclique, qui réutilise un même thème à travers différents mouvements, a été largement développée par l'école de César Franck."
       },
       {
         "question": "Quel compositeur français du XXe siècle a théorisé la musique 'spectrale', fondée sur l'analyse du spectre sonore, avec son œuvre 'Partiels' (1975) ?",
         "reponse": "Gérard Grisey",
-        "propositions": ["Gérard Grisey", "Tristan Murail", "Pierre Boulez", "Iannis Xenakis"],
+        "propositions": [
+          "Gérard Grisey",
+          "Tristan Murail",
+          "Pierre Boulez",
+          "Iannis Xenakis"
+        ],
         "explication": "La musique spectrale, née en France dans les années 1970 autour de Grisey et Murail, compose à partir des harmoniques naturelles du son."
       },
       {
         "question": "Quel compositeur autrichien du début du XXe siècle, élève de Schönberg, a composé l'opéra atonal 'Wozzeck', créé en 1925 ?",
         "reponse": "Alban Berg",
-        "propositions": ["Alban Berg", "Arnold Schönberg", "Anton Webern", "Paul Hindemith"],
+        "propositions": [
+          "Alban Berg",
+          "Arnold Schönberg",
+          "Anton Webern",
+          "Paul Hindemith"
+        ],
         "explication": "Wozzeck est l'un des premiers opéras atonaux majeurs, inspiré du drame de Georg Büchner."
       },
       {
         "question": "Quel compositeur allemand du XXe siècle, auteur de 'Carmina Burana' (1937), a mis en musique des poèmes médiévaux profanes latins et moyen-haut-allemands ?",
         "reponse": "Carl Orff",
-        "propositions": ["Carl Orff", "Paul Hindemith", "Kurt Weill", "Hans Werner Henze"],
+        "propositions": [
+          "Carl Orff",
+          "Paul Hindemith",
+          "Kurt Weill",
+          "Hans Werner Henze"
+        ],
         "explication": "Carmina Burana s'inspire d'un manuscrit médiéval découvert dans l'abbaye bavaroise de Benediktbeuern."
       },
       {
         "question": "Quel compositeur allemand du XXe siècle a théorisé la 'Gebrauchsmusik' ('musique d'usage'), une musique utile et accessible aux amateurs plutôt que réservée à la seule contemplation esthétique ?",
         "reponse": "Paul Hindemith",
-        "propositions": ["Paul Hindemith", "Carl Orff", "Kurt Weill", "Hanns Eisler"],
+        "propositions": [
+          "Paul Hindemith",
+          "Carl Orff",
+          "Kurt Weill",
+          "Hanns Eisler"
+        ],
         "explication": "Hindemith prônait une musique utile, pédagogique et accessible, en opposition à l'art pour l'art."
+      },
+      {
+        "question": "Quel compositeur français du XIVe siècle, figure majeure de l'Ars Nova, est l'auteur de la 'Messe de Notre Dame', l'une des premières messes polyphoniques complètes attribuées à un seul auteur ?",
+        "reponse": "Guillaume de Machaut",
+        "propositions": [
+          "Guillaume de Machaut",
+          "Pérotin",
+          "Léonin",
+          "Adam de la Halle"
+        ],
+        "explication": "La 'Messe de Notre Dame' de Machaut est un jalon essentiel de l'histoire de la polyphonie, composée au milieu du XIVe siècle."
+      },
+      {
+        "question": "Quel compositeur franco-flamand de la Renaissance, surnommé le 'prince de la musique' de son temps, est l'auteur de nombreuses messes et motets influents au tournant des XVe et XVIe siècles ?",
+        "reponse": "Josquin des Prés",
+        "propositions": [
+          "Josquin des Prés",
+          "Orlando di Lasso",
+          "Guillaume Dufay",
+          "Johannes Ockeghem"
+        ],
+        "explication": "Josquin des Prés a profondément marqué la musique sacrée de la Renaissance par la clarté et l'expressivité de son écriture polyphonique."
+      },
+      {
+        "question": "Quel compositeur allemand du XVIIe siècle, élève de Monteverdi à Venise, est considéré comme le plus important compositeur allemand avant Bach ?",
+        "reponse": "Heinrich Schütz",
+        "propositions": [
+          "Heinrich Schütz",
+          "Dietrich Buxtehude",
+          "Johann Pachelbel",
+          "Samuel Scheidt"
+        ],
+        "explication": "Heinrich Schütz a introduit en Allemagne le style concertant italien appris auprès de Monteverdi, influençant durablement la musique sacrée luthérienne."
+      },
+      {
+        "question": "Quel compositeur italien baroque, fils d'Alessandro Scarlatti, a composé 555 sonates pour clavecin d'un style très virtuose, principalement à la cour d'Espagne ?",
+        "reponse": "Domenico Scarlatti",
+        "propositions": [
+          "Domenico Scarlatti",
+          "Alessandro Scarlatti",
+          "Giovanni Battista Pergolesi",
+          "Baldassare Galuppi"
+        ],
+        "explication": "Ces sonates, souvent en un seul mouvement, explorent une virtuosité pianistique en avance sur son temps."
+      },
+      {
+        "question": "Quel compositeur italien du XIVe siècle, aveugle et organiste, est la figure la plus célèbre du Trecento musical italien (l'Ars Nova italienne) ?",
+        "reponse": "Francesco Landini",
+        "propositions": [
+          "Francesco Landini",
+          "Guillaume de Machaut",
+          "Jacopo da Bologna",
+          "Francesco Petrarca"
+        ],
+        "explication": "Francesco Landini a composé de nombreuses ballate et madrigaux profanes qui comptent parmi les sommets de la musique italienne médiévale."
+      },
+      {
+        "question": "Quel compositeur italien de la Renaissance, prince de Venosa, est connu pour des madrigaux extrêmement chromatiques et dissonants, ainsi que pour avoir assassiné sa femme et son amant ?",
+        "reponse": "Carlo Gesualdo",
+        "propositions": [
+          "Carlo Gesualdo",
+          "Luca Marenzio",
+          "Claudio Monteverdi",
+          "Orlando di Lasso"
+        ],
+        "explication": "Les madrigaux tardifs de Gesualdo, d'une audace harmonique rare pour l'époque, ont longtemps fasciné les musicologues."
+      },
+      {
+        "question": "Quelle abbesse allemande du XIIe siècle, autrice de plainchant liturgique et du drame musical 'Ordo Virtutum', est considérée comme l'une des premières compositrices connues de l'histoire ?",
+        "reponse": "Hildegarde de Bingen",
+        "propositions": [
+          "Hildegarde de Bingen",
+          "Héloïse d'Argenteuil",
+          "Marie de France",
+          "Herrade de Landsberg"
+        ],
+        "explication": "Mystique et savante reconnue de son vivant, Hildegarde de Bingen a laissé un important corpus de chants liturgiques monodiques."
+      },
+      {
+        "question": "Quel moine et théoricien musical italien du XIe siècle est à l'origine du système de notation sur portée et des syllabes du solfège (ut, ré, mi, fa...) ?",
+        "reponse": "Guido d'Arezzo",
+        "propositions": [
+          "Guido d'Arezzo",
+          "Hucbald de Saint-Amand",
+          "Isidore de Séville",
+          "Jean de Garlande"
+        ],
+        "explication": "Guido d'Arezzo a mis au point un système de notation facilitant considérablement l'apprentissage et la transmission du chant liturgique."
+      },
+      {
+        "question": "Quel compositeur, actif à Notre-Dame de Paris au tournant des XIIe et XIIIe siècles, a développé l'organum polyphonique à plusieurs voix, notamment dans le 'Magnus Liber Organi' ?",
+        "reponse": "Pérotin",
+        "propositions": [
+          "Pérotin",
+          "Léonin",
+          "Guillaume de Machaut",
+          "Adam de la Halle"
+        ],
+        "explication": "Pérotin, figure majeure de l'école de Notre-Dame, a porté l'écriture polyphonique jusqu'à quatre voix simultanées, une prouesse pour son époque."
+      },
+      {
+        "question": "Quel compositeur franco-flamand de la Renaissance, extrêmement prolifique avec plus de 2000 œuvres, a été maître de chapelle à la cour de Bavière à Munich ?",
+        "reponse": "Orlando di Lasso",
+        "propositions": [
+          "Orlando di Lasso",
+          "Josquin des Prés",
+          "Giovanni Pierluigi da Palestrina",
+          "Tomás Luis de Victoria"
+        ],
+        "explication": "Orlando di Lasso, aussi appelé Roland de Lassus, est l'un des compositeurs les plus prolifiques et les plus admirés de son temps."
       }
     ]
   }

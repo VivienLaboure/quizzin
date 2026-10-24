@@ -386,6 +386,116 @@
           "Une comète"
         ],
         "explication": "Les aurores boréales et australes résultent de l'interaction du vent solaire avec le champ magnétique terrestre."
+      },
+      {
+        "question": "Combien de temps la Terre met-elle environ pour effectuer un tour complet sur elle-même ?",
+        "reponse": "Environ 24 heures",
+        "propositions": [
+          "Environ 24 heures",
+          "Environ 12 heures",
+          "Environ 365 jours",
+          "Environ 1 heure"
+        ],
+        "explication": "La rotation de la Terre sur son axe dure environ 23 heures et 56 minutes, arrondies à 24 heures."
+      },
+      {
+        "question": "Quel astronome polonais du XVIe siècle a proposé que la Terre tourne autour du Soleil, et non l'inverse ?",
+        "reponse": "Nicolas Copernic",
+        "propositions": [
+          "Nicolas Copernic",
+          "Galilée",
+          "Johannes Kepler",
+          "Tycho Brahe"
+        ],
+        "explication": "Copernic a exposé le système héliocentrique dans son ouvrage 'De revolutionibus orbium coelestium', publié en 1543."
+      },
+      {
+        "question": "Comment appelle-t-on le moment de l'année où le jour et la nuit ont presque la même durée partout sur Terre ?",
+        "reponse": "L'équinoxe",
+        "propositions": [
+          "L'équinoxe",
+          "Le solstice",
+          "La syzygie",
+          "L'éclipse"
+        ],
+        "explication": "Il existe deux équinoxes par an, au printemps et à l'automne, lorsque le Soleil traverse le plan de l'équateur céleste."
+      },
+      {
+        "question": "Quelles sont les deux petites lunes de la planète Mars, découvertes en 1877 ?",
+        "reponse": "Phobos et Déimos",
+        "propositions": [
+          "Phobos et Déimos",
+          "Io et Europe",
+          "Titan et Rhéa",
+          "Charon et Styx"
+        ],
+        "explication": "Phobos et Déimos sont deux satellites de petite taille et de forme irrégulière, probablement d'anciens astéroïdes capturés."
+      },
+      {
+        "question": "Quelle pluie d'étoiles filantes, visible chaque année en août, est l'une des plus observées dans l'hémisphère nord ?",
+        "reponse": "Les Perséides",
+        "propositions": [
+          "Les Perséides",
+          "Les Léonides",
+          "Les Géminides",
+          "Les Quadrantides"
+        ],
+        "explication": "Les Perséides proviennent des débris de la comète Swift-Tuttle et culminent généralement à la mi-août."
+      },
+      {
+        "question": "Quel est l'âge approximatif du système solaire ?",
+        "reponse": "Environ 4,6 milliards d'années",
+        "propositions": [
+          "Environ 4,6 milliards d'années",
+          "Environ 13,8 milliards d'années",
+          "Environ 1 milliard d'années",
+          "Environ 500 millions d'années"
+        ],
+        "explication": "Le système solaire s'est formé il y a environ 4,6 milliards d'années à partir de l'effondrement d'un nuage de gaz et de poussière."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène par lequel une planète semble ralentir, s'arrêter puis repartir en arrière dans le ciel vu depuis la Terre ?",
+        "reponse": "Le mouvement rétrograde apparent",
+        "propositions": [
+          "Le mouvement rétrograde apparent",
+          "La libration",
+          "La parallaxe",
+          "La précession"
+        ],
+        "explication": "Ce mouvement n'est qu'une illusion d'optique due aux vitesses orbitales différentes de la Terre et de la planète observée."
+      },
+      {
+        "question": "Quelle est la forme générale de notre galaxie, la Voie lactée ?",
+        "reponse": "Une spirale barrée",
+        "propositions": [
+          "Une spirale barrée",
+          "Une sphère uniforme",
+          "Un disque sans bras",
+          "Un anneau"
+        ],
+        "explication": "La Voie lactée possède des bras spiraux et une barre centrale d'étoiles, ce qui en fait une galaxie spirale barrée."
+      },
+      {
+        "question": "Quel instrument de navigation ancien permet de mesurer la hauteur des étoiles au-dessus de l'horizon ?",
+        "reponse": "Le sextant",
+        "propositions": [
+          "Le sextant",
+          "Le microscope",
+          "Le radar",
+          "Le sonar"
+        ],
+        "explication": "Le sextant, utilisé en navigation maritime depuis le XVIIIe siècle, permet de calculer la position d'un navire grâce aux astres."
+      },
+      {
+        "question": "Quelle est la distance moyenne séparant la Terre de la Lune ?",
+        "reponse": "Environ 384 000 km",
+        "propositions": [
+          "Environ 384 000 km",
+          "Environ 150 000 km",
+          "Environ 1 000 000 km",
+          "Environ 50 000 km"
+        ],
+        "explication": "La distance moyenne Terre-Lune est d'environ 384 400 km, soit environ trente fois le diamètre de la Terre."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Le télescope Hubble"
         ],
         "explication": "Kepler a observé en continu un vaste champ d'étoiles pour détecter les infimes baisses de luminosité dues au passage de planètes."
+      },
+      {
+        "question": "Quelle sonde de la NASA, en orbite autour de Jupiter depuis 2016, étudie sa structure interne et ses pôles ?",
+        "reponse": "Juno",
+        "propositions": [
+          "Juno",
+          "Cassini",
+          "Galileo",
+          "Europa Clipper"
+        ],
+        "explication": "Juno survole régulièrement les pôles de Jupiter pour étudier son champ magnétique et sa composition interne."
+      },
+      {
+        "question": "Quelle lune de Jupiter est considérée comme l'objet le plus volcaniquement actif du système solaire ?",
+        "reponse": "Io",
+        "propositions": [
+          "Io",
+          "Europe",
+          "Ganymède",
+          "Callisto"
+        ],
+        "explication": "L'activité volcanique d'Io est due aux forces de marée exercées par Jupiter et les autres lunes galiléennes."
+      },
+      {
+        "question": "Quelle lune de Jupiter abriterait un vaste océan d'eau liquide salée sous son épaisse croûte de glace ?",
+        "reponse": "Europe",
+        "propositions": [
+          "Europe",
+          "Io",
+          "Ganymède",
+          "Callisto"
+        ],
+        "explication": "La mission Europa Clipper de la NASA doit étudier ce potentiel océan souterrain et son habitabilité."
+      },
+      {
+        "question": "Quelle sonde de la NASA, lancée en 2018, est devenue l'objet artificiel s'étant le plus approché du Soleil, traversant sa couronne ?",
+        "reponse": "La sonde Parker Solar Probe",
+        "propositions": [
+          "La sonde Parker Solar Probe",
+          "La sonde SOHO",
+          "La sonde Ulysses",
+          "La sonde Solar Orbiter"
+        ],
+        "explication": "En 2021, Parker Solar Probe est devenue la première sonde à traverser la couronne solaire."
+      },
+      {
+        "question": "Comment appelle-t-on le catalogue d'objets célestes (nébuleuses, amas, galaxies) établi par un astronome français au XVIIIe siècle, encore utilisé aujourd'hui (M31, M42...) ?",
+        "reponse": "Le catalogue de Messier",
+        "propositions": [
+          "Le catalogue de Messier",
+          "Le catalogue NGC",
+          "Le catalogue Caldwell",
+          "Le catalogue Henry Draper"
+        ],
+        "explication": "Charles Messier a répertorié une centaine d'objets célestes à partir de 1771 pour éviter de les confondre avec des comètes."
+      },
+      {
+        "question": "Comment appelle-t-on les deux galaxies naines satellites de la Voie lactée, visibles à l'œil nu depuis l'hémisphère sud ?",
+        "reponse": "Le Grand et le Petit Nuage de Magellan",
+        "propositions": [
+          "Le Grand et le Petit Nuage de Magellan",
+          "La galaxie d'Andromède et celle du Triangle",
+          "Le nuage d'Oort et la ceinture de Kuiper",
+          "Les amas de la Vierge et de Coma"
+        ],
+        "explication": "Ces deux galaxies naines, visibles depuis l'hémisphère sud, doivent leur nom à l'explorateur Fernand de Magellan."
+      },
+      {
+        "question": "Comment appelle-t-on la nébuleuse visible à l'œil nu dans la constellation d'Orion, pouponnière d'étoiles parmi les plus proches de la Terre ?",
+        "reponse": "La nébuleuse d'Orion",
+        "propositions": [
+          "La nébuleuse d'Orion",
+          "La nébuleuse de l'Aigle",
+          "La nébuleuse de la Lyre",
+          "La nébuleuse de la Carène"
+        ],
+        "explication": "Située à environ 1 350 années-lumière, la nébuleuse d'Orion est une vaste région de formation stellaire active."
+      },
+      {
+        "question": "Comment appelle-t-on le rémanent de la supernova observée par les astronomes chinois en 1054, situé dans la constellation du Taureau ?",
+        "reponse": "La nébuleuse du Crabe",
+        "propositions": [
+          "La nébuleuse du Crabe",
+          "La nébuleuse de la Tarentule",
+          "La nébuleuse d'Hélix",
+          "La nébuleuse de la Rosette"
+        ],
+        "explication": "Au centre de la nébuleuse du Crabe se trouve un pulsar, résidu de l'étoile qui a explosé en 1054."
+      },
+      {
+        "question": "Comment appelle-t-on l'orbite circulaire à environ 36 000 km d'altitude où un satellite reste fixe au-dessus d'un même point de l'équateur ?",
+        "reponse": "L'orbite géostationnaire",
+        "propositions": [
+          "L'orbite géostationnaire",
+          "L'orbite héliosynchrone",
+          "L'orbite polaire",
+          "L'orbite basse terrestre"
+        ],
+        "explication": "Un satellite en orbite géostationnaire met exactement 24 heures à faire le tour de la Terre, la même durée que sa rotation."
+      },
+      {
+        "question": "Quelle agence spatiale est devenue en 2023 la première à poser un engin près du pôle sud lunaire, avec la mission Chandrayaan-3 ?",
+        "reponse": "L'ISRO",
+        "propositions": [
+          "L'ISRO",
+          "La CNSA",
+          "La JAXA",
+          "Roscosmos"
+        ],
+        "explication": "L'agence spatiale indienne (ISRO) a réussi cet alunissage, faisant de l'Inde le quatrième pays à poser un engin sur la Lune."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Lev Landau"
         ],
         "explication": "Gamow, avec Ralph Alpher et Robert Herman, a prédit ce rayonnement fossile dans le cadre de la théorie du Big Bang chaud."
+      },
+      {
+        "question": "Quelle méthode indirecte de détection d'exoplanètes mesure les minuscules oscillations de la vitesse d'une étoile dues à l'attraction gravitationnelle d'une planète en orbite ?",
+        "reponse": "La méthode des vitesses radiales",
+        "propositions": [
+          "La méthode des vitesses radiales",
+          "La méthode des transits",
+          "L'imagerie directe",
+          "La microlentille gravitationnelle"
+        ],
+        "explication": "Cette méthode, fondée sur l'effet Doppler, a permis de découvrir 51 Pegasi b, la première exoplanète détectée autour d'une étoile de type solaire."
+      },
+      {
+        "question": "Quel objet trans-neptunien, survolé par la sonde New Horizons en janvier 2019, a été officiellement nommé Arrokoth, terme amérindien signifiant 'ciel' ?",
+        "reponse": "Arrokoth",
+        "propositions": [
+          "Arrokoth",
+          "Quaoar",
+          "Sedna",
+          "Makémaké"
+        ],
+        "explication": "Arrokoth, situé dans la ceinture de Kuiper, est l'objet céleste le plus lointain et le plus primitif jamais survolé par une sonde."
+      },
+      {
+        "question": "Quelle supernova, observée à l'œil nu en 1987 dans le Grand Nuage de Magellan, reste la plus proche étudiée depuis l'invention du télescope ?",
+        "reponse": "SN 1987A",
+        "propositions": [
+          "SN 1987A",
+          "SN 1006",
+          "La supernova de Kepler",
+          "La supernova de Tycho"
+        ],
+        "explication": "SN 1987A a permis aux astronomes d'observer pour la première fois les neutrinos émis par l'effondrement du cœur d'une étoile."
+      },
+      {
+        "question": "Comment appelle-t-on le processus par lequel les étoiles massives fusionnent des éléments chimiques de plus en plus lourds, jusqu'au fer, au cours de leur vie ?",
+        "reponse": "La nucléosynthèse stellaire",
+        "propositions": [
+          "La nucléosynthèse stellaire",
+          "La nucléosynthèse primordiale",
+          "La spallation cosmique",
+          "La fission stellaire"
+        ],
+        "explication": "La nucléosynthèse stellaire explique la formation des éléments allant du carbone au fer dans le cœur des étoiles massives."
+      },
+      {
+        "question": "Quelle lettre de la classification spectrale de Harvard désigne les étoiles les plus chaudes et les plus bleues ?",
+        "reponse": "La classe O",
+        "propositions": [
+          "La classe O",
+          "La classe M",
+          "La classe G",
+          "La classe K"
+        ],
+        "explication": "La séquence spectrale, de la plus chaude à la plus froide, s'ordonne ainsi : O, B, A, F, G, K, M ; le Soleil appartient à la classe G."
+      },
+      {
+        "question": "Quelle sonde soviétique du programme Venera a transmis en 1975 les toutes premières images prises depuis la surface d'une autre planète, Vénus ?",
+        "reponse": "Venera 9",
+        "propositions": [
+          "Venera 9",
+          "Venera 7",
+          "Venera 13",
+          "Mariner 2"
+        ],
+        "explication": "Venera 9 a envoyé un premier panorama en noir et blanc de la surface vénusienne avant d'être détruite par la chaleur extrême."
+      },
+      {
+        "question": "Comment appelle-t-on l'espace quasiment vide séparant les anneaux A et B de Saturne, observé par Giovanni Cassini en 1675 ?",
+        "reponse": "La division de Cassini",
+        "propositions": [
+          "La division de Cassini",
+          "La division d'Encke",
+          "La division de Keeler",
+          "L'anneau de Roche"
+        ],
+        "explication": "Cette division, large d'environ 4 800 km, est due à une résonance orbitale avec la lune Mimas."
+      },
+      {
+        "question": "Comment appelle-t-on l'hypothèse selon laquelle la vie, ou ses précurseurs, aurait pu voyager d'une planète à l'autre à bord de météorites ou de comètes ?",
+        "reponse": "La panspermie",
+        "propositions": [
+          "La panspermie",
+          "L'abiogenèse",
+          "La théorie de la Terre rare",
+          "La nucléosynthèse primordiale"
+        ],
+        "explication": "La panspermie reste une hypothèse non prouvée, distincte de l'abiogenèse qui étudie l'apparition de la vie à partir de matière non vivante."
+      },
+      {
+        "question": "Quelle sonde japonaise a rapporté sur Terre, en décembre 2020, des échantillons prélevés sous la surface de l'astéroïde Ryugu ?",
+        "reponse": "Hayabusa2",
+        "propositions": [
+          "Hayabusa2",
+          "Hayabusa",
+          "OSIRIS-REx",
+          "Akatsuki"
+        ],
+        "explication": "Hayabusa2, de l'agence spatiale japonaise JAXA, a même utilisé un impacteur pour creuser un cratère artificiel sur Ryugu."
+      },
+      {
+        "question": "Comment appelle-t-on les zones sombres et plus froides qui apparaissent à la surface du Soleil selon un cycle d'environ 11 ans ?",
+        "reponse": "Les taches solaires",
+        "propositions": [
+          "Les taches solaires",
+          "Les éruptions solaires",
+          "Les protubérances solaires",
+          "Les facules"
+        ],
+        "explication": "Les taches solaires, liées à une forte activité magnétique, sont plus froides d'environ 1 500 °C que le reste de la photosphère."
       }
     ]
   }

@@ -386,6 +386,116 @@
           "L'absorption"
         ],
         "explication": "La réflexion sur une surface lisse comme un miroir obéit à des lois précises sur les angles d'incidence et de réflexion."
+      },
+      {
+        "question": "Comment appelle-t-on le passage de l'état solide à l'état liquide sous l'effet de la chaleur ?",
+        "reponse": "La fusion",
+        "propositions": [
+          "La fusion",
+          "La solidification",
+          "L'évaporation",
+          "La sublimation"
+        ],
+        "explication": "La fusion de la glace se produit à 0 °C sous pression atmosphérique normale."
+      },
+      {
+        "question": "Comment appelle-t-on le passage de l'état gazeux à l'état liquide, par exemple lors de la formation de la buée sur une vitre froide ?",
+        "reponse": "La condensation",
+        "propositions": [
+          "La condensation",
+          "L'évaporation",
+          "La fusion",
+          "La sublimation"
+        ],
+        "explication": "La condensation se produit lorsque la vapeur d'eau présente dans l'air se refroidit au contact d'une surface froide."
+      },
+      {
+        "question": "À quelle température l'eau entre-t-elle en ébullition au niveau de la mer, sous pression atmosphérique normale ?",
+        "reponse": "100 °C",
+        "propositions": [
+          "100 °C",
+          "90 °C",
+          "50 °C",
+          "0 °C"
+        ],
+        "explication": "Cette température d'ébullition diminue avec l'altitude, lorsque la pression atmosphérique baisse."
+      },
+      {
+        "question": "Quelle grandeur, mesurée en décibels, exprime l'intensité perçue d'un son ?",
+        "reponse": "Le niveau sonore",
+        "propositions": [
+          "Le niveau sonore",
+          "La fréquence",
+          "La longueur d'onde",
+          "L'amplitude"
+        ],
+        "explication": "Un son devient douloureux pour l'oreille humaine au-delà d'environ 120 décibels."
+      },
+      {
+        "question": "Comment appelle-t-on le dispositif oscillant, formé d'une masse suspendue à un fil ou une tige, utilisé notamment dans certaines horloges anciennes ?",
+        "reponse": "Le pendule",
+        "propositions": [
+          "Le pendule",
+          "Le gyroscope",
+          "Le ressort",
+          "Le sonar"
+        ],
+        "explication": "Galilée fut l'un des premiers à étudier scientifiquement le mouvement régulier du pendule."
+      },
+      {
+        "question": "Quel outil simple, formé d'une roue sur laquelle passe une corde, permet de changer la direction d'une force pour soulever plus facilement une charge ?",
+        "reponse": "La poulie",
+        "propositions": [
+          "La poulie",
+          "Le levier",
+          "Le plan incliné",
+          "La vis"
+        ],
+        "explication": "Associées entre elles, plusieurs poulies permettent aussi de démultiplier la force nécessaire pour soulever une charge."
+      },
+      {
+        "question": "Comment appelle-t-on la répétition d'un son causée par sa réflexion sur un obstacle comme une paroi rocheuse ?",
+        "reponse": "Un écho",
+        "propositions": [
+          "Un écho",
+          "Une résonance",
+          "Une diffraction",
+          "Une interférence"
+        ],
+        "explication": "Le délai entre le son initial et son écho permet d'estimer la distance de l'obstacle réfléchissant."
+      },
+      {
+        "question": "Quel dispositif métallique, installé au sommet des bâtiments depuis le XVIIIe siècle, protège les constructions en guidant la foudre vers le sol ?",
+        "reponse": "Le paratonnerre",
+        "propositions": [
+          "Le paratonnerre",
+          "Le disjoncteur",
+          "Le fusible",
+          "L'antenne"
+        ],
+        "explication": "Cette invention est généralement attribuée à Benjamin Franklin, qui en fit l'expérience dans les années 1750."
+      },
+      {
+        "question": "Quelle unité sert couramment à mesurer un volume de liquide, comme l'eau que l'on boit chaque jour ?",
+        "reponse": "Le litre",
+        "propositions": [
+          "Le litre",
+          "Le mètre",
+          "Le gramme",
+          "Le kelvin"
+        ],
+        "explication": "Un litre d'eau correspond à un volume d'un décimètre cube et pèse environ un kilogramme."
+      },
+      {
+        "question": "Quel type de matériau, comme le cuivre ou l'aluminium, laisse facilement circuler le courant électrique ?",
+        "reponse": "Un conducteur",
+        "propositions": [
+          "Un conducteur",
+          "Un isolant",
+          "Un aimant",
+          "Un semi-conducteur"
+        ],
+        "explication": "À l'inverse, un isolant comme le plastique ou le verre s'oppose fortement au passage du courant électrique."
       }
     ],
     "2": [
@@ -489,7 +599,7 @@
         "explication": "L'énergie ne se crée ni ne se détruit ; elle se transforme d'une forme à une autre."
       },
       {
-        "question": "Quelle grandeur mesure la quantité de mouvement, produit de la masse par la vitesse d'un objet ?",
+        "question": "Quelle grandeur physique, notée p et exprimée en kg·m/s, est définie comme le produit de la masse par la vitesse d'un objet ?",
         "reponse": "La quantité de mouvement",
         "propositions": [
           "La quantité de mouvement",
@@ -753,7 +863,7 @@
         "explication": "Le tesla rend hommage à l'ingénieur et physicien Nikola Tesla."
       },
       {
-        "question": "Quelle grandeur, exprimée en webers, mesure le flux magnétique traversant une surface ?",
+        "question": "Quelle grandeur, exprimée en webers, mesure l'intensité du champ magnétique traversant une surface donnée ?",
         "reponse": "Le flux magnétique",
         "propositions": [
           "Le flux magnétique",
@@ -773,6 +883,116 @@
           "La loi de Biot et Savart"
         ],
         "explication": "Cette loi, formulée par Charles-Augustin de Coulomb en 1785, est l'équivalent électrique de la loi de la gravitation universelle de Newton."
+      },
+      {
+        "question": "Quel principe énonce que la pression exercée en un point d'un fluide incompressible se transmet intégralement à tous les autres points du fluide ?",
+        "reponse": "Le principe de Pascal",
+        "propositions": [
+          "Le principe de Pascal",
+          "Le principe de Bernoulli",
+          "Le principe d'Archimède",
+          "Le théorème de Torricelli"
+        ],
+        "explication": "Ce principe est à la base du fonctionnement des systèmes hydrauliques, comme les freins de voiture."
+      },
+      {
+        "question": "Quel théorème relie la vitesse d'écoulement d'un liquide s'échappant par un orifice à la hauteur de liquide présente au-dessus de cet orifice ?",
+        "reponse": "Le théorème de Torricelli",
+        "propositions": [
+          "Le théorème de Torricelli",
+          "Le principe de Bernoulli",
+          "Le principe de Pascal",
+          "La loi de Poiseuille"
+        ],
+        "explication": "Ce théorème, énoncé au XVIIe siècle, se déduit directement du principe de conservation de l'énergie appliqué aux fluides."
+      },
+      {
+        "question": "Quelle loi énonce que l'allongement d'un ressort est proportionnel à la force qui lui est appliquée, dans la limite de son élasticité ?",
+        "reponse": "La loi de Hooke",
+        "propositions": [
+          "La loi de Hooke",
+          "La loi d'Ohm",
+          "Le principe d'Archimède",
+          "La loi de Coulomb"
+        ],
+        "explication": "Au-delà d'une certaine limite d'élasticité, le ressort ne revient plus à sa forme initiale."
+      },
+      {
+        "question": "Quelle loi énonce que, à volume constant, la pression d'un gaz est proportionnelle à sa température absolue ?",
+        "reponse": "La loi de Gay-Lussac",
+        "propositions": [
+          "La loi de Gay-Lussac",
+          "La loi de Charles",
+          "La loi de Boyle-Mariotte",
+          "La loi d'Avogadro"
+        ],
+        "explication": "Cette loi explique par exemple pourquoi la pression augmente dans une bombe aérosol chauffée."
+      },
+      {
+        "question": "Quelle loi énonce que des volumes égaux de gaz différents, dans les mêmes conditions de température et de pression, contiennent le même nombre de molécules ?",
+        "reponse": "La loi d'Avogadro",
+        "propositions": [
+          "La loi d'Avogadro",
+          "La loi de Boyle-Mariotte",
+          "La loi de Charles",
+          "La loi de Gay-Lussac"
+        ],
+        "explication": "Cette loi a permis d'établir le concept de mole en chimie et en physique."
+      },
+      {
+        "question": "Quel phénomène, expliqué par Einstein en 1905 en introduisant la notion de quanta de lumière, lui a valu le prix Nobel de physique en 1921 ?",
+        "reponse": "L'effet photoélectrique",
+        "propositions": [
+          "L'effet photoélectrique",
+          "L'effet Doppler",
+          "L'effet tunnel",
+          "L'effet Compton"
+        ],
+        "explication": "Cet effet décrit l'émission d'électrons par un matériau exposé à de la lumière, et a contribué aux fondements de la mécanique quantique."
+      },
+      {
+        "question": "Quel physicien allemand a confirmé expérimentalement, en 1887, l'existence des ondes électromagnétiques prédites par les équations de Maxwell ?",
+        "reponse": "Heinrich Hertz",
+        "propositions": [
+          "Heinrich Hertz",
+          "James Clerk Maxwell",
+          "Michael Faraday",
+          "Nikola Tesla"
+        ],
+        "explication": "L'unité de fréquence, le hertz, a été nommée en son honneur."
+      },
+      {
+        "question": "Quel phénomène permet à certains insectes, comme le gerris, de marcher à la surface de l'eau sans s'enfoncer ?",
+        "reponse": "La tension superficielle",
+        "propositions": [
+          "La tension superficielle",
+          "La capillarité",
+          "La viscosité",
+          "La poussée d'Archimède"
+        ],
+        "explication": "La tension superficielle résulte des forces de cohésion entre les molécules à la surface du liquide."
+      },
+      {
+        "question": "Quel phénomène permet à l'eau de remonter spontanément dans un tube très fin ou dans les fibres d'un buvard, en apparence contre la gravité ?",
+        "reponse": "La capillarité",
+        "propositions": [
+          "La capillarité",
+          "La tension superficielle",
+          "L'osmose",
+          "La viscosité"
+        ],
+        "explication": "La capillarité joue notamment un rôle dans la montée de la sève chez les plantes."
+      },
+      {
+        "question": "Quelle grandeur physique, propre à un matériau et indépendante de ses dimensions, caractérise son aptitude à s'opposer au passage du courant électrique ?",
+        "reponse": "La résistivité",
+        "propositions": [
+          "La résistivité",
+          "La résistance électrique",
+          "La conductance",
+          "L'impédance"
+        ],
+        "explication": "Contrairement à la résistance électrique, la résistivité ne dépend pas de la longueur ni de la section du conducteur."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Jim Peebles"
         ],
         "explication": "Zwicky a observé que la masse visible de l'amas de Coma ne suffisait pas à expliquer la vitesse de déplacement de ses galaxies."
+      },
+      {
+        "question": "Quel astronome allemand a formulé, au début du XVIIe siècle, trois lois décrivant le mouvement elliptique des planètes autour du Soleil ?",
+        "reponse": "Johannes Kepler",
+        "propositions": [
+          "Johannes Kepler",
+          "Nicolas Copernic",
+          "Tycho Brahe",
+          "Galilée"
+        ],
+        "explication": "Kepler s'est appuyé sur les observations précises de Tycho Brahe pour établir ces lois entre 1609 et 1619."
+      },
+      {
+        "question": "Quel physicien américain a démontré en 1923 la nature corpusculaire des rayons X en étudiant leur diffusion par des électrons, un effet qui porte depuis son nom ?",
+        "reponse": "Arthur Compton",
+        "propositions": [
+          "Arthur Compton",
+          "Albert Einstein",
+          "Niels Bohr",
+          "Louis de Broglie"
+        ],
+        "explication": "Cette découverte, récompensée par le prix Nobel de physique en 1927, a confirmé la nature à la fois ondulatoire et corpusculaire de la lumière."
+      },
+      {
+        "question": "Quel physicien français a proposé en 1924 l'hypothèse selon laquelle toute particule de matière possède aussi une nature ondulatoire ?",
+        "reponse": "Louis de Broglie",
+        "propositions": [
+          "Louis de Broglie",
+          "Erwin Schrödinger",
+          "Werner Heisenberg",
+          "Paul Dirac"
+        ],
+        "explication": "Cette hypothèse de la dualité onde-corpuscule de la matière lui a valu le prix Nobel de physique en 1929."
+      },
+      {
+        "question": "Quel physicien néo-zélandais a découvert, grâce à son expérience de diffusion de particules alpha sur une feuille d'or, l'existence du noyau atomique en 1911 ?",
+        "reponse": "Ernest Rutherford",
+        "propositions": [
+          "Ernest Rutherford",
+          "Niels Bohr",
+          "J.J. Thomson",
+          "James Chadwick"
+        ],
+        "explication": "Cette expérience a révélé qu'un atome est presque entièrement constitué de vide, avec une masse concentrée dans un noyau minuscule."
+      },
+      {
+        "question": "Quel physicien britannique a découvert le neutron en 1932, complétant ainsi le modèle du noyau atomique ?",
+        "reponse": "James Chadwick",
+        "propositions": [
+          "James Chadwick",
+          "Ernest Rutherford",
+          "J.J. Thomson",
+          "Enrico Fermi"
+        ],
+        "explication": "Cette découverte lui a valu le prix Nobel de physique en 1935."
+      },
+      {
+        "question": "Quel physicien britannique a découvert l'électron en 1897 grâce à ses expériences sur les rayons cathodiques ?",
+        "reponse": "J.J. Thomson",
+        "propositions": [
+          "J.J. Thomson",
+          "Ernest Rutherford",
+          "Robert Millikan",
+          "James Chadwick"
+        ],
+        "explication": "Thomson a proposé par la suite un modèle atomique, dit du 'plum-pudding', rapidement remplacé par celui de Rutherford."
+      },
+      {
+        "question": "Quel physicien italien a dirigé en 1942, à Chicago, la première réaction nucléaire en chaîne auto-entretenue de l'histoire ?",
+        "reponse": "Enrico Fermi",
+        "propositions": [
+          "Enrico Fermi",
+          "Robert Oppenheimer",
+          "Niels Bohr",
+          "Leó Szilárd"
+        ],
+        "explication": "Cette expérience, menée sous les gradins d'un stade de l'université de Chicago, a ouvert la voie aux réacteurs nucléaires modernes."
+      },
+      {
+        "question": "Quelle expérience de 1887, menée par deux physiciens américains, a échoué à détecter l'éther luminifère, préparant le terrain pour la relativité restreinte d'Einstein ?",
+        "reponse": "L'expérience de Michelson-Morley",
+        "propositions": [
+          "L'expérience de Michelson-Morley",
+          "L'expérience de Millikan",
+          "L'expérience de Davisson-Germer",
+          "L'expérience de Franck-Hertz"
+        ],
+        "explication": "Ce résultat négatif, inattendu à l'époque, a constitué l'une des énigmes qui ont conduit à la remise en cause de la physique classique."
+      },
+      {
+        "question": "Quelle loi énonce que la puissance rayonnée par un corps noir est proportionnelle à la quatrième puissance de sa température absolue ?",
+        "reponse": "La loi de Stefan-Boltzmann",
+        "propositions": [
+          "La loi de Stefan-Boltzmann",
+          "La loi de Wien",
+          "La loi de Planck",
+          "La loi de Rayleigh-Jeans"
+        ],
+        "explication": "Cette loi explique notamment pourquoi une étoile plus chaude rayonne une énergie totale bien supérieure à une étoile plus froide."
+      },
+      {
+        "question": "Quelle loi relie la longueur d'onde d'émission maximale d'un corps noir à sa température, expliquant par exemple pourquoi un métal chauffé change progressivement de couleur ?",
+        "reponse": "La loi de Wien",
+        "propositions": [
+          "La loi de Wien",
+          "La loi de Stefan-Boltzmann",
+          "La loi de Planck",
+          "L'effet Doppler"
+        ],
+        "explication": "Cette loi est notamment utilisée en astrophysique pour estimer la température de surface des étoiles à partir de leur couleur."
       }
     ]
   }

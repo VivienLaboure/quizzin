@@ -386,6 +386,116 @@
           "La Copa América féminine"
         ],
         "explication": "L'édition 2022 de l'Euro féminin, disputée en Angleterre, a été remportée par les Anglaises face à l'Allemagne."
+      },
+      {
+        "question": "Quel système technologique, généralisé dans les grandes compétitions depuis la fin des années 2010, aide l'arbitre à revoir certaines actions litigieuses sur vidéo ?",
+        "reponse": "La VAR (assistance vidéo à l'arbitrage)",
+        "propositions": [
+          "La VAR (assistance vidéo à l'arbitrage)",
+          "Le goal-line technology",
+          "Le hawk-eye",
+          "Le chronométrage électronique"
+        ],
+        "explication": "La VAR permet à un arbitre vidéo d'alerter l'arbitre central en cas d'erreur manifeste sur des phases clés du jeu."
+      },
+      {
+        "question": "Quelle sélection a remporté la Coupe du monde féminine de football 2019, organisée en France ?",
+        "reponse": "Les États-Unis",
+        "propositions": [
+          "Les États-Unis",
+          "Les Pays-Bas",
+          "La France",
+          "L'Allemagne"
+        ],
+        "explication": "Les Américaines ont battu les Néerlandaises 2-0 en finale, à Lyon."
+      },
+      {
+        "question": "Comment appelle-t-on le fait, pour un même joueur, de marquer trois buts au cours d'un même match ?",
+        "reponse": "Un triplé (hat-trick)",
+        "propositions": [
+          "Un triplé (hat-trick)",
+          "Un doublé",
+          "Un carton plein",
+          "Un grand chelem"
+        ],
+        "explication": "Le terme anglais 'hat-trick' est également très utilisé en français pour désigner cet exploit."
+      },
+      {
+        "question": "Comment appelle-t-on le coup de pied accordé à une équipe suite à une faute commise par l'adversaire en dehors de sa surface de réparation ?",
+        "reponse": "Un coup franc",
+        "propositions": [
+          "Un coup franc",
+          "Un corner",
+          "Une touche",
+          "Un penalty"
+        ],
+        "explication": "Selon la position de la faute, le coup franc peut être direct ou indirect."
+      },
+      {
+        "question": "Quel moyen est utilisé pour désigner un vainqueur si le score est toujours à égalité après les prolongations lors d'un match à élimination directe ?",
+        "reponse": "La séance de tirs au but",
+        "propositions": [
+          "La séance de tirs au but",
+          "Le but en or",
+          "Le tirage au sort",
+          "La prolongation supplémentaire"
+        ],
+        "explication": "Chaque équipe tire alternativement cinq tirs au but, puis en cas d'égalité persistante, un par un jusqu'à ce qu'un écart se crée."
+      },
+      {
+        "question": "Comment s'appelle le championnat de France de football de première division ?",
+        "reponse": "La Ligue 1",
+        "propositions": [
+          "La Ligue 1",
+          "La Ligue 2",
+          "Le National",
+          "La Coupe de la Ligue"
+        ],
+        "explication": "La Ligue 1 réunit les meilleurs clubs professionnels français, dont le PSG, l'OM et l'OL."
+      },
+      {
+        "question": "Comment s'appelle le championnat d'Angleterre de football de première division ?",
+        "reponse": "La Premier League",
+        "propositions": [
+          "La Premier League",
+          "La Football League Championship",
+          "La FA Cup",
+          "La League One"
+        ],
+        "explication": "La Premier League, créée en 1992, est l'un des championnats les plus suivis et les plus riches au monde."
+      },
+      {
+        "question": "Comment s'appelle le championnat d'Espagne de football de première division ?",
+        "reponse": "La Liga",
+        "propositions": [
+          "La Liga",
+          "La Copa del Rey",
+          "La Segunda División",
+          "La Supercopa"
+        ],
+        "explication": "La Liga a longtemps été dominée par le Real Madrid et le FC Barcelone."
+      },
+      {
+        "question": "Comment s'appelle le championnat d'Allemagne de football de première division ?",
+        "reponse": "La Bundesliga",
+        "propositions": [
+          "La Bundesliga",
+          "La 2. Bundesliga",
+          "La DFB-Pokal",
+          "La Regionalliga"
+        ],
+        "explication": "Le Bayern Munich est historiquement le club le plus titré de ce championnat."
+      },
+      {
+        "question": "Comment appelle-t-on la compétition qui désigne chaque année le champion de France de football en match à élimination directe, ouverte aux clubs amateurs comme professionnels ?",
+        "reponse": "La Coupe de France",
+        "propositions": [
+          "La Coupe de France",
+          "La Coupe de la Ligue",
+          "Le Trophée des champions",
+          "La Ligue 1"
+        ],
+        "explication": "La Coupe de France permet à des clubs amateurs d'affronter, au moins en théorie, les plus grands clubs professionnels du pays."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "La Coupe arabe des nations"
         ],
         "explication": "La CAN, créée en 1957, est la plus ancienne compétition continentale de sélections avec la Copa América."
+      },
+      {
+        "question": "Quel club anglais a remporté la première édition élargie à 32 équipes de la Coupe du monde des clubs de la FIFA, disputée aux États-Unis en 2025 ?",
+        "reponse": "Chelsea",
+        "propositions": [
+          "Chelsea",
+          "Le Paris Saint-Germain",
+          "Manchester City",
+          "Le Real Madrid"
+        ],
+        "explication": "Chelsea a battu le Paris Saint-Germain 3-0 en finale, à East Rutherford."
+      },
+      {
+        "question": "Quelle joueuse espagnole du FC Barcelone a remporté le Ballon d'or féminin en 2023 et en 2024 ?",
+        "reponse": "Aitana Bonmatí",
+        "propositions": [
+          "Aitana Bonmatí",
+          "Alexia Putellas",
+          "Jennifer Hermoso",
+          "Alexia del Castillo"
+        ],
+        "explication": "Bonmatí a notamment remporté la Coupe du monde 2023 avec l'Espagne la même année."
+      },
+      {
+        "question": "Quelle sélection a remporté la CAN 2023 (disputée début 2024), en tant que pays hôte, après avoir changé de sélectionneur en cours de compétition ?",
+        "reponse": "La Côte d'Ivoire",
+        "propositions": [
+          "La Côte d'Ivoire",
+          "Le Nigeria",
+          "Le Sénégal",
+          "Le Maroc"
+        ],
+        "explication": "Les Ivoiriens ont battu le Nigeria en finale, après avoir limogé leur sélectionneur Jean-Louis Gasset en pleine compétition."
+      },
+      {
+        "question": "Quelle compétition est l'équivalent asiatique de la Ligue des champions pour les clubs de football ?",
+        "reponse": "La Ligue des champions de l'AFC",
+        "propositions": [
+          "La Ligue des champions de l'AFC",
+          "La Coupe d'Asie des clubs",
+          "L'AFC Cup",
+          "La Coupe arabe des clubs"
+        ],
+        "explication": "Cette compétition réunit les meilleurs clubs des fédérations membres de la Confédération asiatique de football (AFC)."
+      },
+      {
+        "question": "Quelle compétition réunit les sélections nationales d'Amérique du Nord, d'Amérique centrale et des Caraïbes, équivalent continental de l'Euro pour cette zone ?",
+        "reponse": "La Gold Cup (CONCACAF)",
+        "propositions": [
+          "La Gold Cup (CONCACAF)",
+          "La Copa América",
+          "La Coupe des Caraïbes",
+          "La Coupe CONCACAF des clubs"
+        ],
+        "explication": "Les États-Unis et le Mexique dominent traditionnellement cette compétition."
+      },
+      {
+        "question": "Comment appelle-t-on le trophée individuel récompensant le meilleur buteur d'une phase finale de Coupe du monde ?",
+        "reponse": "Le Soulier d'or",
+        "propositions": [
+          "Le Soulier d'or",
+          "Le Ballon d'or",
+          "Le Gant d'or",
+          "Le Prix Puskás"
+        ],
+        "explication": "Ce trophée est distinct du Ballon d'or, qui récompense le meilleur joueur de la compétition, et du Gant d'or, remis au meilleur gardien."
+      },
+      {
+        "question": "Quelle joueuse brésilienne est considérée comme la meilleure buteuse de l'histoire des Coupes du monde féminines ?",
+        "reponse": "Marta",
+        "propositions": [
+          "Marta",
+          "Formiga",
+          "Cristiane",
+          "Pia Sundhage"
+        ],
+        "explication": "Marta a été élue meilleure joueuse mondiale de la FIFA à six reprises au cours de sa carrière."
+      },
+      {
+        "question": "Quelle sélection est, avec sept titres continentaux, le record de victoires en Coupe d'Afrique des Nations ?",
+        "reponse": "L'Égypte",
+        "propositions": [
+          "L'Égypte",
+          "Le Cameroun",
+          "Le Ghana",
+          "Le Nigeria"
+        ],
+        "explication": "L'Égypte devance le Cameroun, également multiple vainqueur de la compétition."
+      },
+      {
+        "question": "Quelle compétition sud-américaine de clubs est l'équivalent de la Ligue des champions pour les clubs du continent ?",
+        "reponse": "La Copa Libertadores",
+        "propositions": [
+          "La Copa Libertadores",
+          "La Copa América",
+          "La Copa Sudamericana",
+          "La Recopa Sudamericana"
+        ],
+        "explication": "La Copa Libertadores, créée en 1960, est considérée comme la compétition de clubs la plus prestigieuse d'Amérique du Sud."
+      },
+      {
+        "question": "Quelle joueuse norvégienne, Ballon d'or féminin 2018, a longtemps évolué pour l'Olympique Lyonnais ?",
+        "reponse": "Ada Hegerberg",
+        "propositions": [
+          "Ada Hegerberg",
+          "Caroline Graham Hansen",
+          "Pernille Harder",
+          "Vivianne Miedema"
+        ],
+        "explication": "Ada Hegerberg a remporté de nombreux titres de Ligue des champions féminine avec l'OL."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "L'Autriche"
         ],
         "explication": "L'Italie a battu la Tchécoslovaquie en finale, lors d'une compétition fortement marquée par le contexte politique de l'époque fasciste."
+      },
+      {
+        "question": "Quel ailier brésilien, surnommé 'la joie du peuple' et partenaire de Pelé en 1958 et 1962, est resté invaincu lors de tous les matchs de Coupe du monde qu'il a disputés ?",
+        "reponse": "Garrincha",
+        "propositions": [
+          "Garrincha",
+          "Didi",
+          "Zito",
+          "Vavá"
+        ],
+        "explication": "Manuel Francisco dos Santos, dit Garrincha, est considéré comme l'un des plus grands dribbleurs de l'histoire du football."
+      },
+      {
+        "question": "Quel joueur anglais, surnommé 'le sorcier du dribble', a reçu en 1956 le tout premier Ballon d'or de l'histoire ?",
+        "reponse": "Stanley Matthews",
+        "propositions": [
+          "Stanley Matthews",
+          "Tom Finney",
+          "Billy Wright",
+          "Nat Lofthouse"
+        ],
+        "explication": "Matthews a poursuivi sa carrière professionnelle jusqu'à l'âge de 50 ans, un record toujours inégalé en haut niveau."
+      },
+      {
+        "question": "Quel entraîneur anglais d'Arsenal, dans les années 1920-1930, est considéré comme le père de la formation tactique dite du 'WM' ?",
+        "reponse": "Herbert Chapman",
+        "propositions": [
+          "Herbert Chapman",
+          "Jimmy Hogan",
+          "Matt Busby",
+          "Stan Cullis"
+        ],
+        "explication": "Chapman a également été l'un des premiers entraîneurs à instaurer des numéros sur les maillots et l'éclairage des stades."
+      },
+      {
+        "question": "Quel attaquant anglais d'Everton détient le record du plus grand nombre de buts inscrits en une seule saison de championnat d'Angleterre, avec 60 buts en 1927-1928 ?",
+        "reponse": "Dixie Dean",
+        "propositions": [
+          "Dixie Dean",
+          "Tom Finney",
+          "Stanley Matthews",
+          "Nat Lofthouse"
+        ],
+        "explication": "Ce record, établi lors de la saison 1927-1928, n'a jamais été battu depuis en première division anglaise."
+      },
+      {
+        "question": "Quel attaquant ivoirien, capitaine de sa sélection, est célèbre pour avoir lancé un appel télévisé à la paix après la qualification de la Côte d'Ivoire pour le Mondial 2006, en pleine guerre civile ?",
+        "reponse": "Didier Drogba",
+        "propositions": [
+          "Didier Drogba",
+          "Yaya Touré",
+          "Kolo Touré",
+          "Salomon Kalou"
+        ],
+        "explication": "Cet appel est souvent crédité d'avoir contribué à apaiser les tensions dans le pays à l'époque."
+      },
+      {
+        "question": "Comment est surnommée la défaite du Brésil, pays hôte et grand favori, face à l'Uruguay en finale de la Coupe du monde 1950 au stade Maracanã ?",
+        "reponse": "Le Maracanazo",
+        "propositions": [
+          "Le Maracanazo",
+          "La Main de Dieu",
+          "Le but fantôme",
+          "Le Mineirazo"
+        ],
+        "explication": "Cette défaite inattendue, devant plus de 170 000 spectateurs, reste un traumatisme majeur dans l'histoire du football brésilien."
+      },
+      {
+        "question": "Comment est surnommé le match extrêmement violent entre le Chili et l'Italie lors de la Coupe du monde 1962, resté comme l'un des plus houleux de l'histoire ?",
+        "reponse": "La Bataille de Santiago",
+        "propositions": [
+          "La Bataille de Santiago",
+          "Le Maracanazo",
+          "La Main de Dieu",
+          "La Honte de Gijón"
+        ],
+        "explication": "Ce match avait été précédé d'articles de presse très hostiles entre les deux pays, dans un contexte de tensions exacerbées."
+      },
+      {
+        "question": "Quel dirigeant français, président de la FIFA de 1921 à 1954, est à l'initiative de la création de la Coupe du monde de football en 1930, et donne son nom au premier trophée ?",
+        "reponse": "Jules Rimet",
+        "propositions": [
+          "Jules Rimet",
+          "Henri Delaunay",
+          "Robert Guérin",
+          "Stanley Rous"
+        ],
+        "explication": "Le trophée Jules Rimet a récompensé les vainqueurs de la Coupe du monde jusqu'en 1970, avant d'être remplacé par l'actuel trophée FIFA."
+      },
+      {
+        "question": "Quel entraîneur allemand a mené la RFA à son premier titre mondial en 1954, en battant en finale la Hongrie du 'Onze d'or', lors du 'Miracle de Berne' ?",
+        "reponse": "Sepp Herberger",
+        "propositions": [
+          "Sepp Herberger",
+          "Helmut Schön",
+          "Jupp Derwall",
+          "Franz Beckenbauer"
+        ],
+        "explication": "Cette victoire surprise a mis fin à une série de plus de trente matchs sans défaite de la Hongrie de Ferenc Puskás."
+      },
+      {
+        "question": "Quel ailier nord-irlandais de Manchester United, Ballon d'or 1968, est resté célèbre pour son talent autant que pour ses excès extra-sportifs ?",
+        "reponse": "George Best",
+        "propositions": [
+          "George Best",
+          "Denis Law",
+          "Bobby Charlton",
+          "Pat Jennings"
+        ],
+        "explication": "Best a remporté la Ligue des champions avec Manchester United en 1968, la même année que son Ballon d'or."
       }
     ]
   }

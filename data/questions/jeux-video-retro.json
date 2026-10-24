@@ -102,7 +102,7 @@
         "explication": "Kirby est en réalité rose, malgré une couleur bleutée sur certaines jaquettes originales japonaises."
       },
       {
-        "question": "Quelle entreprise a créé la console Atari 2600, sortie en 1977 ?",
+        "question": "Quelle entreprise américaine, pionnière du jeu vidéo d'arcade avec 'Pong', a sorti en 1977 une console à cartouches qui démocratisera le jeu à domicile ?",
         "reponse": "Atari",
         "propositions": [
           "Atari",
@@ -190,7 +190,7 @@
         "explication": "Mortal Kombat s'est distingué dès sa sortie par sa violence graphique, qui a suscité une vive controverse aux États-Unis."
       },
       {
-        "question": "Quel jeu d'arcade de 1982 met en scène un personnage nommé Q*bert sautant sur une pyramide de cubes colorés ?",
+        "question": "Quel jeu d'arcade de 1982 met en scène une créature orange au gros nez sautant sur une pyramide de cubes colorés pour en changer la couleur ?",
         "reponse": "Q*bert",
         "propositions": [
           "Q*bert",
@@ -386,6 +386,116 @@
           "Hang-On"
         ],
         "explication": "Pole Position a introduit un tour de qualification déterminant la position de départ, d'où son nom."
+      },
+      {
+        "question": "Quelle console 8 bits de Sega, sortie en 1985-1986, fut la grande rivale de la NES, avec un succès particulièrement fort en Europe et au Brésil ?",
+        "reponse": "La Master System",
+        "propositions": [
+          "La Master System",
+          "La Mega Drive",
+          "La Game Gear",
+          "La SG-1000"
+        ],
+        "explication": "La Master System n'a jamais réussi à s'imposer aux États-Unis ou au Japon face à la NES de Nintendo."
+      },
+      {
+        "question": "Quel petit robot accessoire de la NES, sorti en 1985, pouvait bouger les bras pour interagir avec deux jeux dédiés ?",
+        "reponse": "R.O.B.",
+        "propositions": [
+          "R.O.B.",
+          "Le Power Glove",
+          "Le Zapper",
+          "Le Famicom Robot"
+        ],
+        "explication": "R.O.B. (Robotic Operating Buddy) fonctionnait avec les jeux 'Gyromite' et 'Stack-Up'."
+      },
+      {
+        "question": "Quel personnage robot bleu de Capcom, apparu en 1987, absorbe les pouvoirs des ennemis qu'il élimine ?",
+        "reponse": "Mega Man",
+        "propositions": [
+          "Mega Man",
+          "Astro Boy",
+          "Samus Aran",
+          "Bomberman"
+        ],
+        "explication": "Mega Man, appelé 'Rockman' au Japon, change d'arme selon le boss vaincu dans chaque niveau."
+      },
+      {
+        "question": "Quel jeu d'arcade de Technos Japan, sorti en 1987, est considéré comme un pionnier du jeu de combat de rue coopératif à deux joueurs ?",
+        "reponse": "Double Dragon",
+        "propositions": [
+          "Double Dragon",
+          "Golden Axe",
+          "Final Fight",
+          "Renegade"
+        ],
+        "explication": "Double Dragon a popularisé le genre du 'beat 'em up' en permettant à deux joueurs de progresser ensemble dans les niveaux."
+      },
+      {
+        "question": "Dans quel jeu de boxe sur NES, sorti en 1987, le boxeur Little Mac affronte-t-il le champion du monde Mike Tyson en combat final ?",
+        "reponse": "Mike Tyson's Punch-Out!!",
+        "propositions": [
+          "Mike Tyson's Punch-Out!!",
+          "Ring King",
+          "Super Punch-Out!!",
+          "Boxing"
+        ],
+        "explication": "Mike Tyson a prêté son image et son nom à ce jeu avant de devenir champion du monde des poids lourds."
+      },
+      {
+        "question": "Quel jeu d'arcade de 1983, animé par le studio de Don Bluth sur support laserdisc, met en scène un chevalier devant sauver une princesse d'un dragon ?",
+        "reponse": "Dragon's Lair",
+        "propositions": [
+          "Dragon's Lair",
+          "Space Ace",
+          "Time Gal",
+          "Cliff Hanger"
+        ],
+        "explication": "Dragon's Lair utilisait des séquences d'animation complètes et demandait au joueur de réagir au bon moment, préfigurant les 'quick time events'."
+      },
+      {
+        "question": "Quel accessoire en forme de gant pour la NES, sorti en 1989, promettait de contrôler les jeux par les mouvements de la main ?",
+        "reponse": "Le Power Glove",
+        "propositions": [
+          "Le Power Glove",
+          "Le Zapper",
+          "Le Power Pad",
+          "R.O.B."
+        ],
+        "explication": "Le Power Glove, peu précis, est resté célèbre grâce à son apparition dans le film 'The Wizard' en 1989."
+      },
+      {
+        "question": "Quel jeu d'arcade de Sega, sorti en 1989, plonge le joueur dans un univers de fantasy médiévale peuplé de barbares et de créatures montées ?",
+        "reponse": "Golden Axe",
+        "propositions": [
+          "Golden Axe",
+          "Altered Beast",
+          "Shinobi",
+          "Rastan"
+        ],
+        "explication": "Golden Axe permettait de chevaucher de petites créatures pour piétiner les ennemis au sol."
+      },
+      {
+        "question": "Quel pistolet optique de Nintendo, fourni avec la NES, servait à viser les canards à l'écran dans le jeu 'Duck Hunt' ?",
+        "reponse": "Le Zapper",
+        "propositions": [
+          "Le Zapper",
+          "Le Power Glove",
+          "Le Power Pad",
+          "R.O.B."
+        ],
+        "explication": "Le Zapper détectait la lumière émise par l'écran pour déterminer si le tir avait atteint sa cible."
+      },
+      {
+        "question": "Quel jeu d'arcade de Williams Electronics, sorti en 1982, met en scène des chevaliers montés sur des autruches qui doivent éliminer des ennemis montés sur des vautours ?",
+        "reponse": "Joust",
+        "propositions": [
+          "Joust",
+          "Defender",
+          "Robotron: 2084",
+          "Sinistar"
+        ],
+        "explication": "Joust se déroule au-dessus d'un sol de lave, où tomber signifie une mort immédiate pour le joueur."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Secret of Mana"
         ],
         "explication": "Ce jeu est souvent cité comme l'un des sommets du genre action-RPG sur l'ère 16 bits."
+      },
+      {
+        "question": "Quel jeu de tir à défilement horizontal d'Irem, sorti en arcade en 1987, est réputé pour son module d'arme détachable appelé 'Force' ?",
+        "reponse": "R-Type",
+        "propositions": [
+          "R-Type",
+          "Gradius",
+          "Darius",
+          "Thunder Force"
+        ],
+        "explication": "Le module Force de R-Type pouvait être propulsé contre les ennemis ou réattaché au vaisseau du joueur."
+      },
+      {
+        "question": "Quelle programmeuse américaine, considérée comme la première femme à avoir conçu seule un jeu vidéo à succès, a créé 'River Raid' pour Activision en 1982 ?",
+        "reponse": "Carol Shaw",
+        "propositions": [
+          "Carol Shaw",
+          "Roberta Williams",
+          "Dona Bailey",
+          "Danielle Bunten Berry"
+        ],
+        "explication": "River Raid, jeu de tir à défilement vertical sur Atari 2600, a connu un grand succès commercial."
+      },
+      {
+        "question": "Quel concepteur d'Atari a créé à la fois 'Missile Command' (1980) et le jeu vectoriel 'Tempest' (1981) ?",
+        "reponse": "Dave Theurer",
+        "propositions": [
+          "Dave Theurer",
+          "Ed Logg",
+          "Owen Rubin",
+          "Howard Scott Warshaw"
+        ],
+        "explication": "Dave Theurer s'est inspiré de ses propres cauchemars pour concevoir l'ambiance anxiogène de 'Missile Command'."
+      },
+      {
+        "question": "Quelle console sortie en 1993, présentée comme le premier système '64 bits' du marché, s'est pourtant soldée par un échec commercial pour Atari ?",
+        "reponse": "La Jaguar",
+        "propositions": [
+          "La Jaguar",
+          "La Lynx",
+          "La Panther",
+          "La Falcon"
+        ],
+        "explication": "La Jaguar a été retirée du marché en 1996, marquant la sortie définitive d'Atari du secteur des consoles."
+      },
+      {
+        "question": "Quelle console portable de Bandai, sortie en 1999, a été conçue par l'ancien ingénieur vedette de Nintendo qui avait créé la Game Boy ?",
+        "reponse": "La WonderSwan",
+        "propositions": [
+          "La WonderSwan",
+          "La Neo Geo Pocket",
+          "La Game Boy Color",
+          "La N-Gage"
+        ],
+        "explication": "La WonderSwan a été l'un des derniers projets de Gunpei Yokoi avant sa mort en 1997."
+      },
+      {
+        "question": "Quelle console portable de SNK, sortie en 1999, a succédé à la Neo Geo Pocket monochrome en ajoutant un écran couleur ?",
+        "reponse": "La Neo Geo Pocket Color",
+        "propositions": [
+          "La Neo Geo Pocket Color",
+          "La WonderSwan Color",
+          "La Game Gear",
+          "La Lynx II"
+        ],
+        "explication": "La Neo Geo Pocket Color était notamment appréciée pour la précision de son stick directionnel."
+      },
+      {
+        "question": "Quel téléphone-console hybride de Nokia, lancé en 2003, tentait de combiner téléphonie mobile et jeu vidéo portable ?",
+        "reponse": "Le N-Gage",
+        "propositions": [
+          "Le N-Gage",
+          "Le Game Boy Micro",
+          "Le Zodiac",
+          "Le GP32"
+        ],
+        "explication": "Le N-Gage a été critiqué pour son ergonomie peu pratique, notamment pour passer des appels téléphoniques."
+      },
+      {
+        "question": "Quelle console portable de Sega, sortie en 1995 uniquement en Amérique du Nord, proposait une version transportable de la Mega Drive ?",
+        "reponse": "La Sega Nomad",
+        "propositions": [
+          "La Sega Nomad",
+          "La Game Gear",
+          "La Sega Pico",
+          "La Mega Jet"
+        ],
+        "explication": "La Sega Nomad pouvait lire directement les cartouches de Mega Drive, mais souffrait d'une autonomie très limitée."
+      },
+      {
+        "question": "Quel jeu de tir vertical de Namco, sorti en arcade en 1983, est réputé pour son manuel détaillant une histoire de guerre entre humains et robots extraterrestres, une rareté pour l'époque ?",
+        "reponse": "Xevious",
+        "propositions": [
+          "Xevious",
+          "Galaga",
+          "Gradius",
+          "Zaxxon"
+        ],
+        "explication": "Ce souci de contexte narratif a fait de Xevious un précurseur du 'lore' dans le jeu vidéo d'arcade."
+      },
+      {
+        "question": "Quel jeu d'arcade de Sega, sorti en 1987, met en scène le ninja Joe Musashi infiltrant les repaires d'une organisation criminelle ?",
+        "reponse": "Shinobi",
+        "propositions": [
+          "Shinobi",
+          "Golden Axe",
+          "Altered Beast",
+          "The Ninja Warriors"
+        ],
+        "explication": "Shinobi a donné naissance à plusieurs suites, dont 'The Revenge of Shinobi' sur Mega Drive."
       }
     ],
     "3": [
@@ -953,7 +1173,7 @@
         "explication": "Robinett a dissimulé son nom dans une salle secrète du jeu, en représailles à l'absence de crédit des programmeurs par Atari."
       },
       {
-        "question": "Quelle société américaine a développé la console ColecoVision, sortie en 1982, réputée pour la qualité de ses portages de jeux d'arcade ?",
+        "question": "Quelle société américaine, d'abord connue pour ses piscines gonflables, a développé en 1982 une console saluée pour la qualité de ses portages de jeux d'arcade ?",
         "reponse": "Coleco",
         "propositions": [
           "Coleco",
@@ -997,7 +1217,7 @@
         "explication": "John Romero est devenu une figure emblématique du jeu vidéo des années 1990, notamment grâce à Doom."
       },
       {
-        "question": "Quelle société japonaise, éditrice de 'Dragon Quest', a fusionné avec Square en 2003 pour former Square Enix ?",
+        "question": "Quelle société japonaise, éditrice de la série 'Dragon Quest', a fusionné en 2003 avec son grand rival, l'éditeur de 'Final Fantasy' ?",
         "reponse": "Enix",
         "propositions": [
           "Enix",
@@ -1019,7 +1239,7 @@
         "explication": "Ce jeu, écrit par Will Crowther puis enrichi par Don Woods, a influencé toute une génération de jeux d'aventure textuels."
       },
       {
-        "question": "Quelle entreprise américaine a sorti en 1986 aux États-Unis la console 'Atari 7800', peu après le lancement de la NES japonaise ?",
+        "question": "Quelle entreprise américaine, déjà célèbre pour sa console 2600, a sorti en 1986 un nouveau modèle peu après le lancement de la NES japonaise ?",
         "reponse": "Atari",
         "propositions": [
           "Atari",
@@ -1030,7 +1250,7 @@
         "explication": "L'Atari 7800 n'a jamais réussi à s'imposer face à la domination écrasante de la NES sur le marché américain."
       },
       {
-        "question": "Quel jeu vidéo japonais de 1987, développé par Konami, introduit sur MSX2 l'agent secret Solid Snake, sous le titre original 'Metal Gear' ?",
+        "question": "Quel jeu vidéo japonais de 1987, développé par Konami, introduit sur MSX2 l'agent secret Solid Snake et pose les bases du genre 'infiltration' ?",
         "reponse": "Metal Gear",
         "propositions": [
           "Metal Gear",
@@ -1085,7 +1305,7 @@
         "explication": "Robotron: 2084 se joue avec deux joysticks, l'un pour se déplacer et l'autre pour tirer dans n'importe quelle direction."
       },
       {
-        "question": "Quel jeu d'arcade de 1980, développé par Atari et doté d'une manette en forme de trackball, met en scène un insecte centipède à abattre segment par segment ?",
+        "question": "Quel jeu d'arcade de 1980, développé par Atari et doté d'une manette en forme de trackball, met en scène un myriapode venimeux à abattre segment par segment ?",
         "reponse": "Centipede",
         "propositions": [
           "Centipede",
@@ -1160,6 +1380,116 @@
           "Chris Roberts"
         ],
         "explication": "Garriott a ensuite créé le MMORPG 'Ultima Online' en 1997, pionnier du genre."
+      },
+      {
+        "question": "Quel ingénieur de Nintendo, créateur du Game & Watch, de la Game Boy et de la série Metroid, est mort dans un accident de voiture en 1997 après avoir quitté l'entreprise ?",
+        "reponse": "Gunpei Yokoi",
+        "propositions": [
+          "Gunpei Yokoi",
+          "Shigeru Miyamoto",
+          "Masayuki Uemura",
+          "Genyo Takeda"
+        ],
+        "explication": "Yokoi avait démissionné de Nintendo après l'échec commercial de la Virtual Boy, qu'il avait conçue."
+      },
+      {
+        "question": "Quel designer de personnages chez Capcom est crédité pour avoir dessiné Mega Man en 1987, avant de devenir producteur sur la série ?",
+        "reponse": "Keiji Inafune",
+        "propositions": [
+          "Keiji Inafune",
+          "Akira Kitamura",
+          "Yoshiki Okamoto",
+          "Tokuro Fujiwara"
+        ],
+        "explication": "Inafune a quitté Capcom en 2010 pour fonder son propre studio, Comcept."
+      },
+      {
+        "question": "Quelle directrice de jeu japonaise, l'une des premières femmes à ce poste dans l'industrie, a réalisé 'Phantasy Star' chez Sega en 1987 ?",
+        "reponse": "Rieko Kodama",
+        "propositions": [
+          "Rieko Kodama",
+          "Yoko Shimomura",
+          "Rika Suzuki",
+          "Reiko Kodama"
+        ],
+        "explication": "Rieko Kodama a travaillé chez Sega pendant plus de trente ans, contribuant aussi à la série 'Skies of Arcadia'."
+      },
+      {
+        "question": "Quel président historique de Nintendo a transformé l'entreprise, fondée comme fabricant de cartes à jouer hanafuta, en géant mondial du jeu vidéo ?",
+        "reponse": "Hiroshi Yamauchi",
+        "propositions": [
+          "Hiroshi Yamauchi",
+          "Minoru Arakawa",
+          "Satoru Iwata",
+          "Hiroshi Imanishi"
+        ],
+        "explication": "Yamauchi a dirigé Nintendo de 1949 à 2002, supervisant son expansion depuis les cartes Hanafuta jusqu'aux consoles de jeu."
+      },
+      {
+        "question": "Quel industriel japonais a fondé en 1955 l'entreprise devenue plus tard Namco, d'abord spécialisée dans les manèges pour enfants ?",
+        "reponse": "Masaya Nakamura",
+        "propositions": [
+          "Masaya Nakamura",
+          "Hajime Nakamura",
+          "Kenji Sato",
+          "Hiroshi Yamauchi"
+        ],
+        "explication": "L'entreprise s'appelait à l'origine Nakamura Seisakusho avant de devenir Namco, abréviation de 'Nakamura Manufacturing Co.'"
+      },
+      {
+        "question": "Quel cofondateur du studio Activision en 1979 a aussi conçu le jeu 'Pitfall!' sur Atari 2600 en 1982 ?",
+        "reponse": "David Crane",
+        "propositions": [
+          "David Crane",
+          "Alan Miller",
+          "Bob Whitehead",
+          "Larry Kaplan"
+        ],
+        "explication": "Activision, fondée par d'anciens programmeurs d'Atari, a été le premier développeur tiers indépendant de l'histoire du jeu vidéo."
+      },
+      {
+        "question": "Quel cofondateur d'Atari a aussi créé, en 1977, la chaîne de pizzerias-salles d'arcade Chuck E. Cheese's ?",
+        "reponse": "Nolan Bushnell",
+        "propositions": [
+          "Nolan Bushnell",
+          "Al Alcorn",
+          "Ted Dabney",
+          "Steve Bristow"
+        ],
+        "explication": "Bushnell avait déjà cofondé Atari en 1972 avant de se lancer dans cette chaîne de divertissement familial."
+      },
+      {
+        "question": "Quel programmeur japonais, concepteur du moteur de jeu de 'Sonic the Hedgehog' en 1991, a quitté Sega en 2006 pour fonder le studio Prope ?",
+        "reponse": "Yuji Naka",
+        "propositions": [
+          "Yuji Naka",
+          "Naoto Oshima",
+          "Hirokazu Yasuhara",
+          "Yuji Horii"
+        ],
+        "explication": "Yuji Naka avait dirigé la Sonic Team chez Sega pendant une grande partie des années 1990 et 2000."
+      },
+      {
+        "question": "Quel créateur japonais, passionné d'insectes et d'arcade durant son enfance, a fondé le studio Game Freak et créé la licence Pokémon en 1996 ?",
+        "reponse": "Satoshi Tajiri",
+        "propositions": [
+          "Satoshi Tajiri",
+          "Ken Sugimori",
+          "Junichi Masuda",
+          "Tsunekazu Ishihara"
+        ],
+        "explication": "L'idée de Pokémon est directement inspirée de la collection d'insectes à laquelle s'adonnait Tajiri durant son enfance."
+      },
+      {
+        "question": "Quel producteur de Capcom, qui a supervisé 'Street Fighter II' et 'Resident Evil', a ensuite fondé le studio Game Republic en 2003 ?",
+        "reponse": "Yoshiki Okamoto",
+        "propositions": [
+          "Yoshiki Okamoto",
+          "Keiji Inafune",
+          "Tokuro Fujiwara",
+          "Noritaka Funamizu"
+        ],
+        "explication": "Okamoto avait auparavant travaillé chez Konami avant de rejoindre Capcom, où il a marqué l'histoire des jeux d'arcade et de combat."
       }
     ]
   }

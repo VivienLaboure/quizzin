@@ -386,6 +386,116 @@
           "Un petit pont"
         ],
         "explication": "Cette technique permet de contourner un obstacle, comme un mur de joueurs adverses lors d'un coup franc."
+      },
+      {
+        "question": "Quel sport se pratique en faisant tomber des quilles disposées en triangle à l'aide d'une boule lourde ?",
+        "reponse": "Le bowling",
+        "propositions": [
+          "Le bowling",
+          "Le curling",
+          "La pétanque",
+          "Le bob"
+        ],
+        "explication": "Le bowling consiste à faire tomber dix quilles à l'aide d'une boule lancée sur une piste en bois ou synthétique."
+      },
+      {
+        "question": "Combien de joueurs compose une équipe de handball sur le terrain, gardien inclus ?",
+        "reponse": "7",
+        "propositions": [
+          "7",
+          "6",
+          "5",
+          "11"
+        ],
+        "explication": "Une équipe de handball aligne 7 joueurs, dont un gardien de but."
+      },
+      {
+        "question": "Quel sport d'hiver consiste à faire glisser une pierre de granit sur la glace vers une cible, en orientant sa trajectoire à l'aide de balais ?",
+        "reponse": "Le curling",
+        "propositions": [
+          "Le curling",
+          "Le bobsleigh",
+          "Le skeleton",
+          "Le hockey sur glace"
+        ],
+        "explication": "Le curling consiste à faire glisser des pierres vers une cible appelée la \"maison\"."
+      },
+      {
+        "question": "Quel sport de raquette se pratique dans une salle fermée entourée de quatre murs, avec une petite balle en caoutchouc très rapide ?",
+        "reponse": "Le squash",
+        "propositions": [
+          "Le squash",
+          "Le padel",
+          "Le racquetball",
+          "Le badminton"
+        ],
+        "explication": "Au squash, la balle peut rebondir sur les murs latéraux et le mur du fond, en plus du mur frontal."
+      },
+      {
+        "question": "Quel sport d'hiver consiste à glisser à plat ventre, tête en avant, sur une piste de glace à grande vitesse sur un petit traîneau individuel ?",
+        "reponse": "Le skeleton",
+        "propositions": [
+          "Le skeleton",
+          "Le bobsleigh",
+          "La luge",
+          "Le patinage de vitesse"
+        ],
+        "explication": "Contrairement à la luge où l'athlète est allongé sur le dos, le skeleton se pratique à plat ventre, visage tourné vers la piste."
+      },
+      {
+        "question": "Quelle couleur de carton un arbitre de football brandit-il pour exclure définitivement un joueur du match ?",
+        "reponse": "Rouge",
+        "propositions": [
+          "Rouge",
+          "Jaune",
+          "Bleu",
+          "Vert"
+        ],
+        "explication": "Un carton rouge entraîne l'exclusion immédiate et définitive du joueur fautif, qui ne peut pas être remplacé."
+      },
+      {
+        "question": "Quel sport olympique voit les athlètes soulever des barres chargées de poids lors de deux mouvements, l'arraché et l'épaulé-jeté ?",
+        "reponse": "L'haltérophilie",
+        "propositions": [
+          "L'haltérophilie",
+          "La gymnastique",
+          "Le powerlifting",
+          "Le crossfit"
+        ],
+        "explication": "L'arraché et l'épaulé-jeté sont les deux seuls mouvements disputés en compétition olympique d'haltérophilie."
+      },
+      {
+        "question": "Quel sport nautique se joue dans une piscine, deux équipes cherchant à marquer un but en se faisant des passes tout en nageant ?",
+        "reponse": "Le water-polo",
+        "propositions": [
+          "Le water-polo",
+          "La nage synchronisée",
+          "Le plongeon",
+          "Le triathlon"
+        ],
+        "explication": "Le water-polo oppose deux équipes de sept joueurs qui doivent faire progresser un ballon dans l'eau jusqu'au but adverse."
+      },
+      {
+        "question": "Quel objet doit être transmis d'un coureur à l'autre dans une zone de passage délimitée, lors d'une course de relais en athlétisme ?",
+        "reponse": "Le témoin (bâton de relais)",
+        "propositions": [
+          "Le témoin (bâton de relais)",
+          "La flamme",
+          "Le dossard",
+          "Le chronomètre"
+        ],
+        "explication": "Une transmission ratée ou effectuée hors de la zone autorisée entraîne la disqualification de l'équipe."
+      },
+      {
+        "question": "Quel sport de combat olympique oppose deux lutteurs qui doivent faire tomber leur adversaire au sol, sans qu'aucune frappe ne soit autorisée ?",
+        "reponse": "La lutte",
+        "propositions": [
+          "La lutte",
+          "Le judo",
+          "Le sumo",
+          "La boxe"
+        ],
+        "explication": "La lutte olympique se divise en deux styles principaux : la lutte libre et la lutte gréco-romaine."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Stan Wawrinka"
         ],
         "explication": "Federer a annoncé sa retraite en septembre 2022, après une carrière marquée par son style de jeu élégant."
+      },
+      {
+        "question": "Quel pays a remporté la Coupe du monde de football 2022, organisée au Qatar ?",
+        "reponse": "L'Argentine",
+        "propositions": [
+          "L'Argentine",
+          "La France",
+          "Le Brésil",
+          "Le Maroc"
+        ],
+        "explication": "L'Argentine a battu la France aux tirs au but en finale, portée par Lionel Messi."
+      },
+      {
+        "question": "Quel boxeur américain est devenu, à 20 ans en 1986, le plus jeune champion du monde des poids lourds de l'histoire ?",
+        "reponse": "Mike Tyson",
+        "propositions": [
+          "Mike Tyson",
+          "Floyd Mayweather",
+          "Muhammad Ali",
+          "Evander Holyfield"
+        ],
+        "explication": "Tyson a battu Trevor Berbick pour s'emparer du titre WBC en novembre 1986."
+      },
+      {
+        "question": "Quelle joueuse de tennis japonaise, numéro un mondiale en 2019, s'est aussi illustrée dans la lutte contre le racisme et pour la santé mentale dans le sport ?",
+        "reponse": "Naomi Osaka",
+        "propositions": [
+          "Naomi Osaka",
+          "Serena Williams",
+          "Emma Raducanu",
+          "Coco Gauff"
+        ],
+        "explication": "Naomi Osaka a remporté quatre titres du Grand Chelem et s'est retirée de plusieurs tournois pour préserver sa santé mentale."
+      },
+      {
+        "question": "Quel cycliste slovène a remporté le Tour de France à plusieurs reprises entre 2020 et 2024 ?",
+        "reponse": "Tadej Pogačar",
+        "propositions": [
+          "Tadej Pogačar",
+          "Jonas Vingegaard",
+          "Primoz Roglic",
+          "Geraint Thomas"
+        ],
+        "explication": "Pogačar a dominé le cyclisme mondial au début des années 2020, remportant également le Giro et plusieurs classiques."
+      },
+      {
+        "question": "Quelle nation a remporté la Coupe du monde de football féminine 2023, organisée en Australie et en Nouvelle-Zélande ?",
+        "reponse": "L'Espagne",
+        "propositions": [
+          "L'Espagne",
+          "L'Angleterre",
+          "Les États-Unis",
+          "L'Allemagne"
+        ],
+        "explication": "L'Espagne a battu l'Angleterre 1-0 en finale, décrochant son premier titre mondial féminin."
+      },
+      {
+        "question": "Quel joueur de basketball français est devenu, en 2023, le premier choix (numéro 1) de la draft NBA ?",
+        "reponse": "Victor Wembanyama",
+        "propositions": [
+          "Victor Wembanyama",
+          "Rudy Gobert",
+          "Tony Parker",
+          "Joel Embiid"
+        ],
+        "explication": "Victor Wembanyama a été sélectionné par les San Antonio Spurs lors de la draft NBA 2023."
+      },
+      {
+        "question": "Quel skipper français a remporté le Vendée Globe, course à la voile en solitaire autour du monde sans escale, lors de l'édition 2020-2021 ?",
+        "reponse": "Yannick Bestaven",
+        "propositions": [
+          "Yannick Bestaven",
+          "Alain Gautier",
+          "Michel Desjoyeaux",
+          "Charlie Dalin"
+        ],
+        "explication": "Bestaven a bénéficié d'une bonification de temps pour avoir participé aux secours d'un concurrent en détresse."
+      },
+      {
+        "question": "Quel tournoi du Grand Chelem se joue traditionnellement sur une surface dure, à Melbourne, au mois de janvier ?",
+        "reponse": "L'Open d'Australie",
+        "propositions": [
+          "L'Open d'Australie",
+          "Roland-Garros",
+          "Wimbledon",
+          "L'US Open"
+        ],
+        "explication": "L'Open d'Australie est le premier tournoi du Grand Chelem de la saison, disputé sur surface dure."
+      },
+      {
+        "question": "Quelle discipline de l'athlétisme féminin combine sept épreuves sur deux jours, équivalent du décathlon masculin ?",
+        "reponse": "L'heptathlon",
+        "propositions": [
+          "L'heptathlon",
+          "Le pentathlon moderne",
+          "Le décathlon",
+          "Le triathlon"
+        ],
+        "explication": "L'heptathlon comprend des épreuves de course, de saut et de lancer réparties sur deux journées."
+      },
+      {
+        "question": "Quel pilote néerlandais a remporté le championnat du monde de Formule 1 à quatre reprises consécutives entre 2021 et 2024 ?",
+        "reponse": "Max Verstappen",
+        "propositions": [
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Charles Leclerc",
+          "Sebastian Vettel"
+        ],
+        "explication": "Verstappen pilote pour l'écurie Red Bull et a dominé la discipline durant cette période."
       }
     ],
     "3": [
@@ -1074,7 +1294,7 @@
         "explication": "Nurmi a dominé les courses de fond lors des Jeux olympiques de 1920, 1924 et 1928, cumulant neuf titres olympiques."
       },
       {
-        "question": "Quel pays a remporté la toute première Coupe du monde de rugby à XV, organisée conjointement en 1987 par l'Australie et la Nouvelle-Zélande ?",
+        "question": "Quel pays, réputé pour sa domination historique du rugby à XV, a remporté la toute première Coupe du monde de la discipline en 1987 ?",
         "reponse": "La Nouvelle-Zélande",
         "propositions": [
           "La Nouvelle-Zélande",
@@ -1160,6 +1380,116 @@
           "Mark Spitz"
         ],
         "explication": "Weissmuller a incarné Tarzan dans une douzaine de films hollywoodiens entre 1932 et 1948, après sa carrière de nageur."
+      },
+      {
+        "question": "Quel athlète américain a établi, en 1968 à Mexico, un record du monde du saut en longueur (8,90 m) resté invaincu pendant 23 ans ?",
+        "reponse": "Bob Beamon",
+        "propositions": [
+          "Bob Beamon",
+          "Carl Lewis",
+          "Mike Powell",
+          "Ralph Boston"
+        ],
+        "explication": "Ce bond extraordinaire, réalisé en altitude lors des Jeux de Mexico, a été qualifié de \"saut du siècle\" et n'a été battu qu'en 1991 par Mike Powell."
+      },
+      {
+        "question": "Quel entraîneur écossais a dirigé le club de Manchester United pendant plus de 26 ans, de 1986 à 2013, remportant notamment deux Ligues des champions ?",
+        "reponse": "Alex Ferguson",
+        "propositions": [
+          "Alex Ferguson",
+          "Arsène Wenger",
+          "Pep Guardiola",
+          "José Mourinho"
+        ],
+        "explication": "Ferguson a fait de Manchester United l'un des clubs les plus titrés d'Angleterre durant son mandat."
+      },
+      {
+        "question": "Quel pilote automobile italien, double champion du monde de Formule 1 au début des années 1950, est mort accidentellement en 1955 lors d'un essai privé à Monza ?",
+        "reponse": "Alberto Ascari",
+        "propositions": [
+          "Alberto Ascari",
+          "Juan Manuel Fangio",
+          "Stirling Moss",
+          "Giuseppe Farina"
+        ],
+        "explication": "Ascari est mort au volant d'une Ferrari de sport, quatre jours seulement après avoir survécu à un grave accident à Monaco."
+      },
+      {
+        "question": "Quel coureur cycliste français, surnommé \"Maître Jacques\", fut le premier à remporter cinq Tours de France, entre 1957 et 1964 ?",
+        "reponse": "Jacques Anquetil",
+        "propositions": [
+          "Jacques Anquetil",
+          "Bernard Hinault",
+          "Eddy Merckx",
+          "Raymond Poulidor"
+        ],
+        "explication": "Anquetil était réputé pour sa maîtrise du contre-la-montre, discipline qui lui valut de nombreuses victoires d'étape."
+      },
+      {
+        "question": "Quel sélectionneur a mené l'équipe de France à son premier titre de championne du monde de football, en 1998 à domicile ?",
+        "reponse": "Aimé Jacquet",
+        "propositions": [
+          "Aimé Jacquet",
+          "Roger Lemerre",
+          "Didier Deschamps",
+          "Michel Hidalgo"
+        ],
+        "explication": "Aimé Jacquet, fortement critiqué par une partie de la presse avant le tournoi, a triomphé avec son équipe au Stade de France."
+      },
+      {
+        "question": "Quel pongiste suédois, surnommé le \"Mozart du tennis de table\" en Chine, a remporté deux titres mondiaux individuels et dominé un sport pourtant dominé par les joueurs asiatiques ?",
+        "reponse": "Jan-Ove Waldner",
+        "propositions": [
+          "Jan-Ove Waldner",
+          "Jörgen Persson",
+          "Vladimir Samsonov",
+          "Timo Boll"
+        ],
+        "explication": "Waldner est l'un des très rares joueurs occidentaux à avoir été numéro un mondial de tennis de table."
+      },
+      {
+        "question": "Quel skieur autrichien a remporté huit gros globes de cristal consécutifs du classement général de la Coupe du monde de ski alpin, entre 2012 et 2019 ?",
+        "reponse": "Marcel Hirscher",
+        "propositions": [
+          "Marcel Hirscher",
+          "Ingemar Stenmark",
+          "Alberto Tomba",
+          "Benjamin Raich"
+        ],
+        "explication": "Ce record de huit titres consécutifs reste inégalé, toutes disciplines de ski alpin confondues."
+      },
+      {
+        "question": "Quel joueur de snooker écossais a remporté sept titres au championnat du monde entre 1990 et 1999, dont cinq consécutifs ?",
+        "reponse": "Stephen Hendry",
+        "propositions": [
+          "Stephen Hendry",
+          "Steve Davis",
+          "Ronnie O'Sullivan",
+          "John Higgins"
+        ],
+        "explication": "Hendry a dominé le snooker mondial durant les années 1990, remportant cinq titres consécutifs entre 1992 et 1996."
+      },
+      {
+        "question": "Quel sprinteur américain a détenu le record du monde du 100 mètres entre 1999 et 2002, avec un temps de 9,79 secondes ?",
+        "reponse": "Maurice Greene",
+        "propositions": [
+          "Maurice Greene",
+          "Donovan Bailey",
+          "Tim Montgomery",
+          "Justin Gatlin"
+        ],
+        "explication": "Ce record a ensuite été battu par Tim Montgomery, puis par Asafa Powell et enfin par Usain Bolt."
+      },
+      {
+        "question": "Quel pilote automobile danois détient le record du plus grand nombre de victoires aux 24 Heures du Mans, avec neuf succès entre 1997 et 2013 ?",
+        "reponse": "Tom Kristensen",
+        "propositions": [
+          "Tom Kristensen",
+          "Jacky Ickx",
+          "Derek Bell",
+          "Frank Biela"
+        ],
+        "explication": "Surnommé \"Mr Le Mans\", Kristensen détient le record absolu de victoires dans cette épreuve d'endurance."
       }
     ]
   }

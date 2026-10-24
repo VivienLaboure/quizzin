@@ -375,6 +375,116 @@
           "Guy de Maupassant"
         ],
         "explication": "Publié en 1885, 'Germinal' fait partie du cycle des Rougon-Macquart."
+      },
+      {
+        "question": "Quel peintre néerlandais est l'auteur du tableau 'La Nuit étoilée' (1889) ?",
+        "reponse": "Vincent van Gogh",
+        "propositions": [
+          "Claude Monet",
+          "Vincent van Gogh",
+          "Paul Gauguin",
+          "Edgar Degas"
+        ],
+        "explication": "Van Gogh a peint 'La Nuit étoilée' en juin 1889 alors qu'il séjournait à l'asile de Saint-Rémy-de-Provence."
+      },
+      {
+        "question": "Quel écrivain français est l'auteur du roman 'Notre-Dame de Paris', publié en 1831 ?",
+        "reponse": "Victor Hugo",
+        "propositions": [
+          "Victor Hugo",
+          "Alexandre Dumas",
+          "Gustave Flaubert",
+          "Stendhal"
+        ],
+        "explication": "Ce roman met en scène Quasimodo, le sonneur de cloches bossu de la cathédrale Notre-Dame."
+      },
+      {
+        "question": "Quel écrivain écossais a créé le personnage de Peter Pan, le garçon qui ne grandit jamais ?",
+        "reponse": "J.M. Barrie",
+        "propositions": [
+          "J.M. Barrie",
+          "Lewis Carroll",
+          "A.A. Milne",
+          "Roald Dahl"
+        ],
+        "explication": "J.M. Barrie a créé Peter Pan dans une pièce de théâtre en 1904 avant de le fixer en roman en 1911."
+      },
+      {
+        "question": "Quel écrivain britannique a créé le détective Sherlock Holmes ?",
+        "reponse": "Arthur Conan Doyle",
+        "propositions": [
+          "Arthur Conan Doyle",
+          "Agatha Christie",
+          "Wilkie Collins",
+          "G.K. Chesterton"
+        ],
+        "explication": "Sherlock Holmes apparaît pour la première fois dans 'Une étude en rouge', publié en 1887."
+      },
+      {
+        "question": "Quel conteur danois est l'auteur de 'La Petite Sirène' ?",
+        "reponse": "Hans Christian Andersen",
+        "propositions": [
+          "Hans Christian Andersen",
+          "Charles Perrault",
+          "Les frères Grimm",
+          "E.T.A. Hoffmann"
+        ],
+        "explication": "Ce conte, publié en 1837, raconte l'histoire d'une sirène amoureuse d'un prince humain."
+      },
+      {
+        "question": "De quel pays est originaire le peintre et inventeur Léonard de Vinci ?",
+        "reponse": "Italie",
+        "propositions": [
+          "Italie",
+          "France",
+          "Espagne",
+          "Pays-Bas"
+        ],
+        "explication": "Léonard de Vinci est né en 1452 à Vinci, en Toscane, avant de travailler notamment en France à la fin de sa vie."
+      },
+      {
+        "question": "Quel peintre français est l'auteur du tableau 'Le Déjeuner sur l'herbe', qui fit scandale en 1863 ?",
+        "reponse": "Édouard Manet",
+        "propositions": [
+          "Édouard Manet",
+          "Claude Monet",
+          "Pierre-Auguste Renoir",
+          "Gustave Courbet"
+        ],
+        "explication": "Ce tableau, refusé au Salon officiel, choqua par la présence d'une femme nue aux côtés d'hommes habillés."
+      },
+      {
+        "question": "Quel est le véritable nom de l'auteur de théâtre connu sous le nom de Molière ?",
+        "reponse": "Jean-Baptiste Poquelin",
+        "propositions": [
+          "Jean-Baptiste Poquelin",
+          "Jean Racine",
+          "Jean-Baptiste Lully",
+          "Pierre Corneille"
+        ],
+        "explication": "Molière, né Jean-Baptiste Poquelin en 1622, a choisi ce nom de scène pour sa carrière de comédien et d'auteur."
+      },
+      {
+        "question": "Quel dessinateur belge a créé le personnage de Tintin ?",
+        "reponse": "Hergé",
+        "propositions": [
+          "Hergé",
+          "Peyo",
+          "André Franquin",
+          "Morris"
+        ],
+        "explication": "Hergé, pseudonyme de Georges Remi, a créé Tintin en 1929 dans le journal 'Le Petit Vingtième'."
+      },
+      {
+        "question": "Quel écrivain anglais est l'auteur de 'Robinson Crusoé', souvent considéré comme l'un des premiers romans modernes ?",
+        "reponse": "Daniel Defoe",
+        "propositions": [
+          "Daniel Defoe",
+          "Jonathan Swift",
+          "Henry Fielding",
+          "Samuel Richardson"
+        ],
+        "explication": "Publié en 1719, ce roman s'inspire des aventures du naufragé Alexander Selkirk."
       }
     ],
     "2": [
@@ -762,6 +872,116 @@
           "Marie Cazin"
         ],
         "explication": "Camille Claudel a développé une œuvre personnelle forte, longtemps restée dans l'ombre de celle de Rodin."
+      },
+      {
+        "question": "Quelle période de l'œuvre de Pablo Picasso, antérieure au cubisme, est dominée par des tonalités bleutées et des sujets mélancoliques ?",
+        "reponse": "La période bleue",
+        "propositions": [
+          "La période bleue",
+          "La période rose",
+          "La période noire",
+          "La période grise"
+        ],
+        "explication": "Entre 1901 et 1904, Picasso peint des scènes de pauvreté et de solitude dans des tonalités presque exclusivement bleues."
+      },
+      {
+        "question": "Quel roman d'Alexandre Dumas met en scène d'Artagnan aux côtés d'Athos, Porthos et Aramis ?",
+        "reponse": "Les Trois Mousquetaires",
+        "propositions": [
+          "Les Trois Mousquetaires",
+          "Le Comte de Monte-Cristo",
+          "La Reine Margot",
+          "Le Vicomte de Bragelonne"
+        ],
+        "explication": "Publié en 1844, ce roman d'aventures se déroule sous le règne de Louis XIII."
+      },
+      {
+        "question": "Dans 'Le Petit Prince' de Saint-Exupéry, que représente en réalité le dessin que les adultes confondent avec un chapeau ?",
+        "reponse": "Un boa qui a digéré un éléphant",
+        "propositions": [
+          "Un boa qui a digéré un éléphant",
+          "Un volcan en éruption",
+          "Un mouton dans une caisse",
+          "Une planète avec trois baobabs"
+        ],
+        "explication": "Le narrateur explique que son dessin représente un serpent boa ayant avalé un éléphant, incompris par les grandes personnes."
+      },
+      {
+        "question": "Quel peintre français est célèbre pour ses affiches représentant le cabaret du Moulin Rouge à la fin du XIXe siècle ?",
+        "reponse": "Henri de Toulouse-Lautrec",
+        "propositions": [
+          "Henri de Toulouse-Lautrec",
+          "Edgar Degas",
+          "Jules Chéret",
+          "Pierre Bonnard"
+        ],
+        "explication": "Toulouse-Lautrec a immortalisé la vie nocturne de Montmartre dans des affiches et lithographies devenues emblématiques."
+      },
+      {
+        "question": "Quelle écrivaine britannique est l'auteure de 'Frankenstein ou le Prométhée moderne', publié en 1818 ?",
+        "reponse": "Mary Shelley",
+        "propositions": [
+          "Mary Shelley",
+          "Jane Austen",
+          "Ann Radcliffe",
+          "Charlotte Brontë"
+        ],
+        "explication": "Mary Shelley avait seulement vingt ans lorsqu'elle publia ce roman, pionnier de la science-fiction."
+      },
+      {
+        "question": "Quel écrivain irlandais est l'auteur de 'Le Portrait de Dorian Gray' (1890) ?",
+        "reponse": "Oscar Wilde",
+        "propositions": [
+          "Oscar Wilde",
+          "Bram Stoker",
+          "James Joyce",
+          "George Bernard Shaw"
+        ],
+        "explication": "Ce roman raconte l'histoire d'un homme qui conserve une jeunesse éternelle tandis qu'un portrait vieillit à sa place."
+      },
+      {
+        "question": "Quel écrivain britannique est l'auteur du roman dystopique '1984' ?",
+        "reponse": "George Orwell",
+        "propositions": [
+          "George Orwell",
+          "Aldous Huxley",
+          "H.G. Wells",
+          "Anthony Burgess"
+        ],
+        "explication": "Publié en 1949, ce roman décrit une société totalitaire surveillée par 'Big Brother'."
+      },
+      {
+        "question": "Quel peintre norvégien est l'auteur du tableau 'Le Cri' (1893) ?",
+        "reponse": "Edvard Munch",
+        "propositions": [
+          "Edvard Munch",
+          "Gustav Klimt",
+          "Egon Schiele",
+          "James Ensor"
+        ],
+        "explication": "Cette œuvre expressionniste représente une figure au visage déformé par l'angoisse sur un pont."
+      },
+      {
+        "question": "Quel peintre français autodidacte, surnommé 'le Douanier', est connu pour ses scènes de jungle imaginaires comme 'Le Rêve' ?",
+        "reponse": "Henri Rousseau",
+        "propositions": [
+          "Henri Rousseau",
+          "Paul Gauguin",
+          "Henri Matisse",
+          "André Derain"
+        ],
+        "explication": "Rousseau n'avait jamais quitté la France mais peignait des jungles luxuriantes inspirées de ses visites au Jardin des Plantes."
+      },
+      {
+        "question": "Quel écrivain américain est l'auteur des 'Aventures de Huckleberry Finn' ?",
+        "reponse": "Mark Twain",
+        "propositions": [
+          "Mark Twain",
+          "Jack London",
+          "Herman Melville",
+          "Nathaniel Hawthorne"
+        ],
+        "explication": "Publié en 1884, ce roman est souvent considéré comme l'un des grands classiques de la littérature américaine."
       }
     ],
     "3": [
@@ -1149,6 +1369,116 @@
           "José de Ribera"
         ],
         "explication": "Zurbarán s'est spécialisé dans les sujets religieux et les compositions dépouillées empreintes de spiritualité."
+      },
+      {
+        "question": "Quel est le véritable nom du peintre italien connu comme 'Le Caravage' ?",
+        "reponse": "Michelangelo Merisi",
+        "propositions": [
+          "Michelangelo Merisi",
+          "Michelangelo Buonarroti",
+          "Annibale Carracci",
+          "Orazio Gentileschi"
+        ],
+        "explication": "Le Caravage, né Michelangelo Merisi, doit son surnom à son village d'origine, Caravaggio, en Lombardie."
+      },
+      {
+        "question": "Quel poète russe, souvent considéré comme le fondateur de la littérature russe moderne, est mort en 1837 à la suite d'un duel ?",
+        "reponse": "Alexandre Pouchkine",
+        "propositions": [
+          "Alexandre Pouchkine",
+          "Nicolas Gogol",
+          "Mikhaïl Lermontov",
+          "Ivan Tourgueniev"
+        ],
+        "explication": "Pouchkine, auteur d''Eugène Onéguine', est mort des suites d'un duel avec Georges d'Anthès, lié à des rumeurs sur son épouse."
+      },
+      {
+        "question": "Quel écrivain et philosophe français a refusé le prix Nobel de littérature en 1964 ?",
+        "reponse": "Jean-Paul Sartre",
+        "propositions": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "André Malraux",
+          "Simone de Beauvoir"
+        ],
+        "explication": "Sartre a décliné le prix Nobel, expliquant qu'un écrivain ne devait pas se laisser transformer en institution."
+      },
+      {
+        "question": "Quel peintre néo-impressionniste français, proche de Georges Seurat, a théorisé le divisionnisme dans son essai 'D'Eugène Delacroix au néo-impressionnisme' ?",
+        "reponse": "Paul Signac",
+        "propositions": [
+          "Paul Signac",
+          "Henri-Edmond Cross",
+          "Camille Pissarro",
+          "Maximilien Luce"
+        ],
+        "explication": "Signac a prolongé et théorisé les recherches de Seurat sur la division optique des couleurs après la mort de ce dernier."
+      },
+      {
+        "question": "Quel est le véritable nom de la romancière britannique ayant publié sous le pseudonyme masculin 'George Eliot' ?",
+        "reponse": "Mary Ann Evans",
+        "propositions": [
+          "Mary Ann Evans",
+          "Mary Shelley",
+          "Charlotte Brontë",
+          "Elizabeth Gaskell"
+        ],
+        "explication": "Mary Ann Evans a choisi ce pseudonyme masculin pour être jugée sur son œuvre et non sur son sexe, notamment dans 'Middlemarch'."
+      },
+      {
+        "question": "Quel sculpteur et architecte italien du baroque est l'auteur de la fontaine des Quatre-Fleuves sur la place Navone, à Rome ?",
+        "reponse": "Le Bernin",
+        "propositions": [
+          "Le Bernin",
+          "Francesco Borromini",
+          "Pietro da Cortona",
+          "Carlo Maderno"
+        ],
+        "explication": "Gian Lorenzo Bernini, dit Le Bernin, a achevé cette fontaine monumentale en 1651 pour le pape Innocent X."
+      },
+      {
+        "question": "Quel romancier français, auteur de 'Voyage au bout de la nuit' (1932), est aussi connu pour ses pamphlets antisémites ?",
+        "reponse": "Louis-Ferdinand Céline",
+        "propositions": [
+          "Louis-Ferdinand Céline",
+          "Pierre Drieu la Rochelle",
+          "Marcel Aymé",
+          "Henry de Montherlant"
+        ],
+        "explication": "Céline a révolutionné le style romanesque par son écriture orale et crue, tout en se compromettant par des écrits antisémites dans les années 1930."
+      },
+      {
+        "question": "Quel poète latin de l'Antiquité est l'auteur de 'L'Énéide', épopée consacrée à la fuite d'Énée après la chute de Troie ?",
+        "reponse": "Virgile",
+        "propositions": [
+          "Virgile",
+          "Ovide",
+          "Horace",
+          "Lucrèce"
+        ],
+        "explication": "Virgile a composé 'L'Énéide' sous le règne d'Auguste pour célébrer les origines mythiques de Rome."
+      },
+      {
+        "question": "Quel peintre italien maniériste, actif à Parme, est l'auteur de la fresque en trompe-l'œil de la coupole de la cathédrale de Parme ?",
+        "reponse": "Le Corrège",
+        "propositions": [
+          "Le Corrège",
+          "Le Parmesan",
+          "Giulio Romano",
+          "Rosso Fiorentino"
+        ],
+        "explication": "Le Corrège a peint 'L'Assomption de la Vierge' dans la coupole entre 1526 et 1530, créant un effet de perspective vertigineux."
+      },
+      {
+        "question": "Quel écrivain britannique est l'auteur du roman dystopique 'Le Meilleur des mondes', publié en 1932 ?",
+        "reponse": "Aldous Huxley",
+        "propositions": [
+          "Aldous Huxley",
+          "George Orwell",
+          "H.G. Wells",
+          "Evelyn Waugh"
+        ],
+        "explication": "Ce roman imagine une société future organisée selon l'eugénisme et le conditionnement psychologique dès la naissance."
       }
     ]
   }

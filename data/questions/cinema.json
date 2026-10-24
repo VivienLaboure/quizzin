@@ -386,6 +386,116 @@
           "Le Monde perdu"
         ],
         "explication": "'Jurassic Park' (1993), réalisé par Steven Spielberg, a révolutionné les effets spéciaux numériques au cinéma."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Deadpool au cinéma ?",
+        "reponse": "Ryan Reynolds",
+        "propositions": [
+          "Ryan Reynolds",
+          "Hugh Jackman",
+          "Ryan Gosling",
+          "Chris Pratt"
+        ],
+        "explication": "Ryan Reynolds incarne Deadpool, mercenaire au quatrième mur brisé, depuis 2016."
+      },
+      {
+        "question": "Quel réalisateur est à l'origine de la trilogie 'The Dark Knight' avec Christian Bale dans le rôle de Batman ?",
+        "reponse": "Christopher Nolan",
+        "propositions": [
+          "Christopher Nolan",
+          "Tim Burton",
+          "Zack Snyder",
+          "Matt Reeves"
+        ],
+        "explication": "Christopher Nolan a réalisé 'Batman Begins', 'The Dark Knight' et 'The Dark Knight Rises' entre 2005 et 2012."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Thor dans l'univers cinématographique Marvel ?",
+        "reponse": "Chris Hemsworth",
+        "propositions": [
+          "Chris Hemsworth",
+          "Chris Evans",
+          "Chris Pratt",
+          "Chris Pine"
+        ],
+        "explication": "Chris Hemsworth incarne le dieu du tonnerre Thor depuis 2011."
+      },
+      {
+        "question": "Quel film d'animation Pixar met en scène un poisson-clown parti à la recherche de son fils disparu dans l'océan ?",
+        "reponse": "Le Monde de Nemo",
+        "propositions": [
+          "Le Monde de Nemo",
+          "Le Monde de Dory",
+          "Vice-Versa",
+          "Rebelle"
+        ],
+        "explication": "'Le Monde de Nemo' (2003) reste l'un des plus grands succès commerciaux de l'histoire de Pixar."
+      },
+      {
+        "question": "Quel acteur incarne le personnage de Captain America dans l'univers cinématographique Marvel ?",
+        "reponse": "Chris Evans",
+        "propositions": [
+          "Chris Evans",
+          "Chris Hemsworth",
+          "Chris Pratt",
+          "Chris Pine"
+        ],
+        "explication": "Chris Evans incarne Steve Rogers / Captain America de 2011 à 2019."
+      },
+      {
+        "question": "Quelle actrice incarne Hermione Granger dans la saga 'Harry Potter' ?",
+        "reponse": "Emma Watson",
+        "propositions": [
+          "Emma Watson",
+          "Emma Stone",
+          "Emma Roberts",
+          "Emma Thompson"
+        ],
+        "explication": "Emma Watson avait neuf ans lorsqu'elle a été choisie pour incarner Hermione Granger."
+      },
+      {
+        "question": "Quel réalisateur américain est à l'origine de la saga de films d'horreur 'Scream' ?",
+        "reponse": "Wes Craven",
+        "propositions": [
+          "Wes Craven",
+          "John Carpenter",
+          "Sam Raimi",
+          "George A. Romero"
+        ],
+        "explication": "Wes Craven avait déjà créé le personnage de Freddy Krueger dans 'Les Griffes de la nuit' avant de signer 'Scream' en 1996."
+      },
+      {
+        "question": "Quel acteur incarne le détective Sherlock Holmes dans les films de Guy Ritchie (2009 et 2011) ?",
+        "reponse": "Robert Downey Jr.",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Jude Law",
+          "Benedict Cumberbatch",
+          "Hugh Laurie"
+        ],
+        "explication": "Robert Downey Jr. incarne un Sherlock Holmes plus physique et aventurier que dans les adaptations classiques."
+      },
+      {
+        "question": "Quel acteur incarne le général romain Maximus dans le film 'Gladiator' (2000) de Ridley Scott ?",
+        "reponse": "Russell Crowe",
+        "propositions": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Ridley Scott",
+          "Oliver Reed"
+        ],
+        "explication": "Russell Crowe a remporté l'Oscar du meilleur acteur pour ce rôle."
+      },
+      {
+        "question": "Quelle actrice incarne la princesse Leia dans la trilogie originale 'Star Wars' ?",
+        "reponse": "Carrie Fisher",
+        "propositions": [
+          "Carrie Fisher",
+          "Natalie Portman",
+          "Daisy Ridley",
+          "Felicity Jones"
+        ],
+        "explication": "Carrie Fisher a repris le rôle de Leia dans la trilogie originale, puis dans les suites sorties à partir de 2015."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "John Landis"
         ],
         "explication": "Spielberg a produit la trilogie, réalisée par Robert Zemeckis entre 1985 et 1990."
+      },
+      {
+        "question": "Quelle réalisatrice américaine est devenue en 2010 la première femme à remporter l'Oscar du meilleur réalisateur, pour 'Démineurs' (The Hurt Locker) ?",
+        "reponse": "Kathryn Bigelow",
+        "propositions": [
+          "Kathryn Bigelow",
+          "Jane Campion",
+          "Chloé Zhao",
+          "Sofia Coppola"
+        ],
+        "explication": "Kathryn Bigelow a devancé son ex-mari James Cameron, alors en compétition avec 'Avatar', lors de cette cérémonie 2010."
+      },
+      {
+        "question": "Quelle actrice a remporté l'Oscar de la meilleure actrice pour 'Black Swan' (2010), dans le rôle d'une danseuse étoile sombrant dans la folie ?",
+        "reponse": "Natalie Portman",
+        "propositions": [
+          "Natalie Portman",
+          "Jennifer Lawrence",
+          "Mila Kunis",
+          "Michelle Williams"
+        ],
+        "explication": "Natalie Portman s'est entraînée pendant un an en danse classique pour préparer ce rôle."
+      },
+      {
+        "question": "Quel acteur britannique a remporté trois Oscars du meilleur acteur, pour 'Mon pied gauche', 'Il y aura du sang' et 'Lincoln' ?",
+        "reponse": "Daniel Day-Lewis",
+        "propositions": [
+          "Daniel Day-Lewis",
+          "Anthony Hopkins",
+          "Gary Oldman",
+          "Jack Nicholson"
+        ],
+        "explication": "Daniel Day-Lewis a longtemps été le seul acteur de l'histoire à détenir trois Oscars du meilleur acteur."
+      },
+      {
+        "question": "Quelle actrice australienne a remporté l'Oscar de la meilleure actrice pour 'Blue Jasmine' et celui de la meilleure actrice dans un second rôle pour 'Aviator' ?",
+        "reponse": "Cate Blanchett",
+        "propositions": [
+          "Cate Blanchett",
+          "Nicole Kidman",
+          "Naomi Watts",
+          "Rachel Weisz"
+        ],
+        "explication": "Cate Blanchett a également incarné Katharine Hepburn dans 'Aviator', pour lequel elle a reçu son premier Oscar."
+      },
+      {
+        "question": "Quel réalisateur américain, souvent engagé sur les questions raciales, a signé 'Do the Right Thing' (1989) et 'BlacKkKlansman' (2018) ?",
+        "reponse": "Spike Lee",
+        "propositions": [
+          "Spike Lee",
+          "John Singleton",
+          "F. Gary Gray",
+          "Barry Jenkins"
+        ],
+        "explication": "'BlacKkKlansman' a valu à Spike Lee l'Oscar du meilleur scénario adapté."
+      },
+      {
+        "question": "Quel réalisateur britannique a signé à la fois 'Alien, le huitième passager' (1979) et 'Blade Runner' (1982), deux piliers de la science-fiction ?",
+        "reponse": "Ridley Scott",
+        "propositions": [
+          "Ridley Scott",
+          "James Cameron",
+          "David Fincher",
+          "Tony Scott"
+        ],
+        "explication": "Ces deux films, sortis à quelques années d'écart, ont profondément marqué l'esthétique de la science-fiction au cinéma."
+      },
+      {
+        "question": "Quel réalisateur américain a signé 'Fight Club' (1999) et 'Seven' (1995), films marqués par une atmosphère sombre et des twists narratifs ?",
+        "reponse": "David Fincher",
+        "propositions": [
+          "David Fincher",
+          "Christopher Nolan",
+          "Darren Aronofsky",
+          "Denis Villeneuve"
+        ],
+        "explication": "David Fincher a également réalisé 'The Social Network', sur la création de Facebook."
+      },
+      {
+        "question": "Quel réalisateur américain, reconnaissable à sa symétrie visuelle très marquée, a signé 'The Grand Budapest Hotel' (2014) ?",
+        "reponse": "Wes Anderson",
+        "propositions": [
+          "Wes Anderson",
+          "Tim Burton",
+          "Spike Jonze",
+          "Richard Linklater"
+        ],
+        "explication": "Wes Anderson est connu pour son esthétique colorée et ses compositions de plans très symétriques."
+      },
+      {
+        "question": "Quel réalisateur espagnol, souvent associé à des portraits de femmes flamboyants, a signé 'Tout sur ma mère' et 'Parle avec elle' ?",
+        "reponse": "Pedro Almodóvar",
+        "propositions": [
+          "Pedro Almodóvar",
+          "Alejandro Amenábar",
+          "Carlos Saura",
+          "Julio Medem"
+        ],
+        "explication": "Pedro Almodóvar a remporté l'Oscar du meilleur film étranger pour 'Tout sur ma mère' en 2000."
+      },
+      {
+        "question": "Quel film américain de 1942, avec Humphrey Bogart et Ingrid Bergman, se déroule au Maroc pendant la Seconde Guerre mondiale et contient la célèbre réplique 'Here's looking at you, kid' ?",
+        "reponse": "Casablanca",
+        "propositions": [
+          "Casablanca",
+          "Le Faucon maltais",
+          "Notorious",
+          "Les Clés du royaume"
+        ],
+        "explication": "'Casablanca' a remporté l'Oscar du meilleur film en 1944 et reste un classique intemporel du cinéma hollywoodien."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Pedro Almodóvar"
         ],
         "explication": "'Viridiana' a remporté la Palme d'or à Cannes en 1961, malgré son interdiction en Espagne."
+      },
+      {
+        "question": "Quel réalisateur italien, issu d'une famille aristocratique, a signé 'Le Guépard' (1963) avec Burt Lancaster, fresque sur le déclin de la noblesse sicilienne ?",
+        "reponse": "Luchino Visconti",
+        "propositions": [
+          "Luchino Visconti",
+          "Federico Fellini",
+          "Michelangelo Antonioni",
+          "Bernardo Bertolucci"
+        ],
+        "explication": "'Le Guépard' a remporté la Palme d'or à Cannes en 1963."
+      },
+      {
+        "question": "Quel réalisateur allemand est connu pour des tournages extrêmes, comme celui d''Aguirre, la colère de Dieu' (1972) et 'Fitzcarraldo' (1982) dans la jungle amazonienne ?",
+        "reponse": "Werner Herzog",
+        "propositions": [
+          "Werner Herzog",
+          "Rainer Werner Fassbinder",
+          "Wim Wenders",
+          "Volker Schlöndorff"
+        ],
+        "explication": "Herzog a collaboré à plusieurs reprises avec l'acteur instable Klaus Kinski sur ces tournages légendaires."
+      },
+      {
+        "question": "Quel réalisateur allemand prolifique, mort à 37 ans, est l'auteur du 'Mariage de Maria Braun' (1979), portrait de l'Allemagne de l'après-guerre ?",
+        "reponse": "Rainer Werner Fassbinder",
+        "propositions": [
+          "Rainer Werner Fassbinder",
+          "Werner Herzog",
+          "Wim Wenders",
+          "Volker Schlöndorff"
+        ],
+        "explication": "Fassbinder a réalisé plus de quarante films en à peine quinze ans de carrière avant sa mort en 1982."
+      },
+      {
+        "question": "Quel réalisateur iranien est l'auteur de 'Le Goût de la cerise' (1997), Palme d'or à Cannes, sur un homme cherchant quelqu'un pour l'enterrer après son suicide ?",
+        "reponse": "Abbas Kiarostami",
+        "propositions": [
+          "Abbas Kiarostami",
+          "Jafar Panahi",
+          "Asghar Farhadi",
+          "Mohsen Makhmalbaf"
+        ],
+        "explication": "Kiarostami est l'une des figures majeures du renouveau du cinéma iranien à partir des années 1990."
+      },
+      {
+        "question": "Quel réalisateur hongrois est connu pour des plans-séquences extrêmement longs, notamment dans 'Satantango' (1994), film de plus de sept heures ?",
+        "reponse": "Béla Tarr",
+        "propositions": [
+          "Béla Tarr",
+          "Miklós Jancsó",
+          "István Szabó",
+          "Márta Mészáros"
+        ],
+        "explication": "'Satantango' est réputé pour ses plans-séquences pouvant durer plusieurs minutes sans coupe."
+      },
+      {
+        "question": "Quel réalisateur iranien, souvent en conflit avec la censure de son pays, a signé 'Le Cercle' (2000) et 'Taxi Téhéran' (2015) malgré une interdiction de filmer ?",
+        "reponse": "Jafar Panahi",
+        "propositions": [
+          "Jafar Panahi",
+          "Abbas Kiarostami",
+          "Asghar Farhadi",
+          "Mohsen Makhmalbaf"
+        ],
+        "explication": "Panahi a tourné 'Taxi Téhéran' alors qu'une interdiction officielle de réaliser des films lui avait été imposée par les autorités iraniennes."
+      },
+      {
+        "question": "Quel réalisateur serbe a remporté la Palme d'or à Cannes en 1995 pour 'Underground', satire sur la Yougoslavie pendant et après la Seconde Guerre mondiale ?",
+        "reponse": "Emir Kusturica",
+        "propositions": [
+          "Emir Kusturica",
+          "Dušan Makavejev",
+          "Goran Paskaljević",
+          "Srđan Dragojević"
+        ],
+        "explication": "'Underground' mêle comédie burlesque et tragédie historique sur plusieurs décennies de l'histoire yougoslave."
+      },
+      {
+        "question": "Quel réalisateur sénégalais, souvent surnommé le 'père du cinéma africain', a signé 'La Noire de...' (1966) et 'Xala' (1975) ?",
+        "reponse": "Ousmane Sembène",
+        "propositions": [
+          "Ousmane Sembène",
+          "Souleymane Cissé",
+          "Djibril Diop Mambéty",
+          "Idrissa Ouédraogo"
+        ],
+        "explication": "'La Noire de...' est souvent considéré comme le premier long métrage réalisé par un cinéaste d'Afrique subsaharienne."
+      },
+      {
+        "question": "Quel réalisateur grec, connu pour des plans-séquences méditatifs sur l'histoire et l'exil, a signé 'Le Regard d'Ulysse' (1995) ?",
+        "reponse": "Theo Angelopoulos",
+        "propositions": [
+          "Theo Angelopoulos",
+          "Costa-Gavras",
+          "Michael Cacoyannis",
+          "Pantelis Voulgaris"
+        ],
+        "explication": "Angelopoulos a reçu le Grand Prix du jury à Cannes pour ce film sur un réalisateur en quête de bobines de films perdues dans les Balkans."
+      },
+      {
+        "question": "Quel réalisateur égyptien, figure majeure du cinéma arabe, est l'auteur de 'Gare centrale' (1958) et de la trilogie autobiographique débutant par 'Alexandrie... pourquoi ?' ?",
+        "reponse": "Youssef Chahine",
+        "propositions": [
+          "Youssef Chahine",
+          "Shadi Abdel Salam",
+          "Henry Barakat",
+          "Salah Abou Seif"
+        ],
+        "explication": "Chahine a reçu un prix spécial pour l'ensemble de sa carrière au Festival de Cannes en 1997."
       }
     ]
   }

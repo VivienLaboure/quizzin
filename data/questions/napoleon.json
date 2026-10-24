@@ -386,6 +386,105 @@
           "Joseph Bonaparte"
         ],
         "explication": "Lucien préside alors le Conseil des Cinq-Cents, ce qui facilite grandement la réussite du coup d'État de Napoléon."
+      },
+      {
+        "question": "Quel surnom affectueux, évoquant son grade militaire des débuts de sa carrière, les soldats donnaient-ils à Napoléon ?",
+        "reponse": "Le petit corporal",
+        "propositions": [
+          "Le petit corporal",
+          "Le grand sergent",
+          "Le petit général",
+          "Le brave capitaine"
+        ],
+        "explication": "Ce surnom affectueux lui aurait été donné après la bataille du pont de Lodi en 1796, alors qu'il n'était que général."
+      },
+      {
+        "question": "Quel empereur français, neveu de Napoléon Ier, a régné sur la France de 1852 à 1870 ?",
+        "reponse": "Napoléon III",
+        "propositions": [
+          "Napoléon III",
+          "Napoléon II",
+          "Louis-Philippe",
+          "Charles X"
+        ],
+        "explication": "Napoléon III, fils de Louis Bonaparte et d'Hortense de Beauharnais, fonde le Second Empire en 1852."
+      },
+      {
+        "question": "En quel mois de l'année 1821 Napoléon meurt-il en exil à Sainte-Hélène ?",
+        "reponse": "Mai",
+        "propositions": [
+          "Mai",
+          "Janvier",
+          "Août",
+          "Octobre"
+        ],
+        "explication": "Napoléon meurt le 5 mai 1821, après plusieurs mois de maladie."
+      },
+      {
+        "question": "Quel est le nom de la sœur de Napoléon devenue princesse Borghèse, immortalisée allongée dans une célèbre sculpture de Canova ?",
+        "reponse": "Pauline Bonaparte",
+        "propositions": [
+          "Pauline Bonaparte",
+          "Caroline Bonaparte",
+          "Élisa Bonaparte",
+          "Letizia Bonaparte"
+        ],
+        "explication": "Cette sculpture, intitulée 'Vénus victorieuse', est aujourd'hui conservée à la galerie Borghèse de Rome."
+      },
+      {
+        "question": "Près de quelle région française Napoléon débarque-t-il en mars 1815, à son retour de l'île d'Elbe ?",
+        "reponse": "La Provence (près de Golfe-Juan)",
+        "propositions": [
+          "La Provence (près de Golfe-Juan)",
+          "La Normandie",
+          "La Bretagne",
+          "Le Languedoc"
+        ],
+        "explication": "Napoléon débarque à Golfe-Juan, près de Cannes, le 1er mars 1815, avant de remonter vers Paris."
+      },
+      {
+        "question": "Quel était le métier de Napoléon avant qu'il ne devienne un chef militaire puis politique de premier plan ?",
+        "reponse": "Officier d'artillerie",
+        "propositions": [
+          "Officier d'artillerie",
+          "Avocat",
+          "Médecin",
+          "Marin"
+        ],
+        "explication": "Formé à l'École militaire de Paris, Napoléon est commissionné comme lieutenant d'artillerie en 1785."
+      },
+      {
+        "question": "Quel type de couronne, inspiré de l'Antiquité romaine, Napoléon porte-t-il lors de son sacre en 1804 ?",
+        "reponse": "Une couronne de laurier d'or",
+        "propositions": [
+          "Une couronne de laurier d'or",
+          "Une couronne sertie de diamants",
+          "Une couronne de fleurs",
+          "Une couronne de fer"
+        ],
+        "explication": "Cette couronne de laurier rappelle celles portées par les empereurs romains, renforçant la symbolique impériale du sacre."
+      },
+      {
+        "question": "Quel peintre français a immortalisé la cérémonie du sacre de Napoléon dans une toile monumentale aujourd'hui exposée au Louvre ?",
+        "reponse": "Jacques-Louis David",
+        "propositions": [
+          "Jacques-Louis David",
+          "Eugène Delacroix",
+          "Antoine-Jean Gros",
+          "Jean-Auguste-Dominique Ingres"
+        ],
+        "explication": "Ce tableau, achevé en 1807, mesure plus de six mètres de large et met en scène le couronnement de Joséphine par Napoléon."
+      },
+      {
+        "question": "Combien de fois Napoléon s'est-il marié au cours de sa vie ?",
+        "reponse": "Deux fois",
+        "propositions": [
+          "Deux fois",
+          "Une fois",
+          "Trois fois",
+          "Quatre fois"
+        ],
+        "explication": "Napoléon épouse d'abord Joséphine de Beauharnais en 1796, puis Marie-Louise d'Autriche en 1810."
       }
     ],
     "2": [
@@ -773,6 +872,116 @@
           "Michel Ney"
         ],
         "explication": "Soult devient plus tard ministre de la Guerre sous la Monarchie de Juillet."
+      },
+      {
+        "question": "Quel examen scolaire, encore utilisé aujourd'hui en France, a été créé par Napoléon en 1808 au sein de l'Université impériale ?",
+        "reponse": "Le baccalauréat",
+        "propositions": [
+          "Le baccalauréat",
+          "Le brevet",
+          "La licence",
+          "L'agrégation"
+        ],
+        "explication": "Les premiers examens du baccalauréat napoléonien ont été organisés en 1809, uniquement à l'oral."
+      },
+      {
+        "question": "Quelle réforme monétaire de 1803, instaurant le franc dit 'germinal', stabilise durablement la monnaie française sous le Consulat ?",
+        "reponse": "Le franc germinal",
+        "propositions": [
+          "Le franc germinal",
+          "L'assignat",
+          "L'écu",
+          "Le louis d'or"
+        ],
+        "explication": "Ce franc, fondé sur un étalon bimétallique or-argent, reste stable pendant plus d'un siècle, jusqu'en 1914."
+      },
+      {
+        "question": "Quel attentat royaliste de décembre 1800, perpétré rue Saint-Nicaise à Paris, visait à assassiner Napoléon à l'aide d'une charrette piégée ?",
+        "reponse": "L'attentat de la rue Saint-Nicaise (la 'machine infernale')",
+        "propositions": [
+          "L'attentat de la rue Saint-Nicaise (la 'machine infernale')",
+          "La conspiration des poignards",
+          "Le complot de Cadoudal",
+          "L'affaire des Chevaliers de la Foi"
+        ],
+        "explication": "Napoléon échappe à cet attentat, mais l'explosion fait de nombreuses victimes parmi les passants parisiens."
+      },
+      {
+        "question": "Quel empereur d'Autriche, père de Marie-Louise, devient le beau-père de Napoléon lors du remariage de 1810 ?",
+        "reponse": "François Ier d'Autriche",
+        "propositions": [
+          "François Ier d'Autriche",
+          "Joseph II d'Autriche",
+          "Léopold II",
+          "Ferdinand Ier d'Autriche"
+        ],
+        "explication": "François Ier avait pourtant été vaincu militairement par Napoléon à Austerlitz, cinq ans avant ce mariage politique."
+      },
+      {
+        "question": "Quel gouverneur britannique de Sainte-Hélène a supervisé, avec une rigueur souvent contestée, la captivité de Napoléon jusqu'à sa mort ?",
+        "reponse": "Hudson Lowe",
+        "propositions": [
+          "Hudson Lowe",
+          "Arthur Wellesley",
+          "George Cockburn",
+          "Henry Bathurst"
+        ],
+        "explication": "Les relations entre Napoléon et Hudson Lowe, chargé de sa surveillance, furent constamment tendues."
+      },
+      {
+        "question": "Comment surnomme-t-on le trajet triomphal de Napoléon entre son débarquement en Provence et son arrivée à Paris en mars 1815 ?",
+        "reponse": "Le vol de l'Aigle",
+        "propositions": [
+          "Le vol de l'Aigle",
+          "La marche des Cent-Jours",
+          "La chevauchée impériale",
+          "Le retour du Phénix"
+        ],
+        "explication": "Cette expression illustre la progression rapide et presque sans résistance de Napoléon vers la capitale."
+      },
+      {
+        "question": "Quel grand relevé topographique et fiscal des propriétés foncières françaises est généralisé par une loi de 1807 sous Napoléon ?",
+        "reponse": "Le cadastre napoléonien",
+        "propositions": [
+          "Le cadastre napoléonien",
+          "Le Code forestier",
+          "Le registre civil",
+          "L'état-civil napoléonien"
+        ],
+        "explication": "Ce cadastre, parcelle par parcelle, a servi de base à l'impôt foncier français pendant plus d'un siècle."
+      },
+      {
+        "question": "Quel système de titres nobiliaires, distinct de l'ancienne noblesse d'Ancien Régime, Napoléon crée-t-il par décret en 1808 ?",
+        "reponse": "La noblesse d'Empire",
+        "propositions": [
+          "La noblesse d'Empire",
+          "La noblesse de robe",
+          "La pairie de France",
+          "Les chevaliers de la Légion d'honneur"
+        ],
+        "explication": "Ces titres (comtes, barons, ducs d'Empire) récompensaient notamment les services militaires et civils rendus au régime."
+      },
+      {
+        "question": "Quelle bataille de 1798, remportée près du Caire pendant la campagne d'Égypte, est restée célèbre pour la formule 'Soldats, quarante siècles vous regardent' ?",
+        "reponse": "La bataille des Pyramides",
+        "propositions": [
+          "La bataille des Pyramides",
+          "La bataille d'Aboukir",
+          "La bataille de Héliopolis",
+          "La bataille du Mont-Thabor"
+        ],
+        "explication": "Cette victoire permet à Bonaparte de prendre le contrôle du Caire, peu après son débarquement en Égypte."
+      },
+      {
+        "question": "Quel traité de février 1801, signé avec l'Autriche après la victoire de Marengo, confirme les gains territoriaux français en Italie et sur la rive gauche du Rhin ?",
+        "reponse": "Le traité de Lunéville",
+        "propositions": [
+          "Le traité de Lunéville",
+          "Le traité de Campoformio",
+          "Le traité de Presbourg",
+          "Le traité d'Amiens"
+        ],
+        "explication": "Ce traité confirme et prolonge les acquis du précédent traité de Campoformio, signé en 1797."
       }
     ],
     "3": [
@@ -1160,6 +1369,116 @@
           "Nicolas Oudinot"
         ],
         "explication": "Grouchy ne parvient pas à rejoindre le champ de bataille à temps, laissant les forces prussiennes de Blücher renforcer Wellington."
+      },
+      {
+        "question": "Quelle hypothèse controversée, avancée notamment par le dentiste suédois Sten Forshufvud dans les années 1960, suggère que Napoléon aurait été lentement empoisonné à l'arsenic durant son exil ?",
+        "reponse": "L'hypothèse de l'empoisonnement à l'arsenic",
+        "propositions": [
+          "L'hypothèse de l'empoisonnement à l'arsenic",
+          "L'hypothèse de la tuberculose",
+          "L'hypothèse du scorbut",
+          "L'hypothèse de la malaria"
+        ],
+        "explication": "Cette thèse reste débattue par les historiens, l'autopsie officielle de 1821 ayant conclu à un cancer de l'estomac."
+      },
+      {
+        "question": "Quel compagnon d'exil de Napoléon à Sainte-Hélène est l'auteur du 'Mémorial de Sainte-Hélène', recueil de ses conversations avec l'empereur ?",
+        "reponse": "Emmanuel de Las Cases",
+        "propositions": [
+          "Emmanuel de Las Cases",
+          "Gaspard Gourgaud",
+          "Charles de Montholon",
+          "Henri Bertrand"
+        ],
+        "explication": "Publié en 1823, ce 'Mémorial' a largement contribué à façonner la légende napoléonienne auprès du public du XIXe siècle."
+      },
+      {
+        "question": "Quel général français, premier aide de camp de Napoléon puis duc d'Abrantès, a dirigé l'invasion du Portugal en 1807 ?",
+        "reponse": "Jean-Andoche Junot",
+        "propositions": [
+          "Jean-Andoche Junot",
+          "Jean Lannes",
+          "Louis-Nicolas Davout",
+          "André Masséna"
+        ],
+        "explication": "Junot occupe Lisbonne en novembre 1807, provoquant la fuite de la famille royale portugaise vers le Brésil."
+      },
+      {
+        "question": "Quelle bataille de janvier 1797, remportée en Italie du Nord durant la première campagne de Bonaparte, voit les troupes françaises écraser l'armée autrichienne malgré leur infériorité numérique initiale ?",
+        "reponse": "La bataille de Rivoli",
+        "propositions": [
+          "La bataille de Rivoli",
+          "La bataille d'Arcole",
+          "La bataille de Castiglione",
+          "La bataille de Lodi"
+        ],
+        "explication": "Cette victoire ouvre la voie à Bonaparte vers Vienne et contraint l'Autriche à négocier la paix l'année suivante."
+      },
+      {
+        "question": "Quel général français, vainqueur à Hohenlinden en 1800, fut ensuite exilé aux États-Unis après avoir été impliqué dans un complot royaliste contre Napoléon ?",
+        "reponse": "Jean-Victor Moreau",
+        "propositions": [
+          "Jean-Victor Moreau",
+          "Jean-Baptiste Bernadotte",
+          "Emmanuel de Grouchy",
+          "Claude-Victor Perrin"
+        ],
+        "explication": "Rival potentiel de Napoléon, Moreau fut compromis dans la conspiration de Cadoudal en 1804 avant son exil forcé."
+      },
+      {
+        "question": "Quel ministre de la Marine, en poste pendant la quasi-totalité de l'Empire, dirigea l'administration navale française malgré les lourdes défaites subies face aux Britanniques ?",
+        "reponse": "Denis Decrès",
+        "propositions": [
+          "Denis Decrès",
+          "Eustache Bruix",
+          "Pierre-Charles de Villeneuve",
+          "Honoré Ganteaume"
+        ],
+        "explication": "Ancien officier de marine, Decrès occupe ce ministère de 1801 à 1814, en dépit des désastres de Trafalgar et du blocus britannique."
+      },
+      {
+        "question": "Quel traité signé en décembre 1805, après la victoire d'Austerlitz, impose à l'Autriche vaincue de céder la Vénétie au royaume d'Italie napoléonien ?",
+        "reponse": "Le traité de Presbourg",
+        "propositions": [
+          "Le traité de Presbourg",
+          "Le traité de Lunéville",
+          "Le traité de Tilsit",
+          "Le traité de Schönbrunn"
+        ],
+        "explication": "Ce traité, signé à Presbourg (aujourd'hui Bratislava), affaiblit durablement la puissance autrichienne en Europe centrale."
+      },
+      {
+        "question": "Quel général français, successeur de Kléber à la tête de l'armée d'Égypte, se convertit à l'islam et prit le nom d'Abdallah de Menou ?",
+        "reponse": "Jacques-François Menou",
+        "propositions": [
+          "Jacques-François Menou",
+          "Jean-Baptiste Kléber",
+          "Louis Desaix",
+          "Jean Reynier"
+        ],
+        "explication": "Menou capitule finalement face aux Britanniques en 1801, mettant fin à l'expédition française en Égypte."
+      },
+      {
+        "question": "Quel maréchal d'Empire, surnommé 'l'Enfant chéri de la Victoire', échoue à percer les lignes fortifiées de Torres Vedras au Portugal en 1810-1811 ?",
+        "reponse": "André Masséna",
+        "propositions": [
+          "André Masséna",
+          "Michel Ney",
+          "Nicolas Soult",
+          "Claude-Victor Perrin"
+        ],
+        "explication": "Bloqué devant ces défenses construites sur ordre de Wellington, Masséna doit finalement battre en retraite vers l'Espagne."
+      },
+      {
+        "question": "Dans quel État américain actuel le droit civil reste-t-il aujourd'hui partiellement marqué par l'héritage du Code Napoléon, en raison de son passé de colonie française ?",
+        "reponse": "La Louisiane",
+        "propositions": [
+          "La Louisiane",
+          "Le Texas",
+          "La Floride",
+          "Le Québec (pas un État américain)"
+        ],
+        "explication": "Contrairement aux autres États américains de tradition de common law, la Louisiane conserve un droit civil hérité du modèle napoléonien."
       }
     ]
   }

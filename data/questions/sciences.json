@@ -386,6 +386,116 @@
           "La moelle épinière"
         ],
         "explication": "Le cerveau coordonne les fonctions du corps et constitue le centre de la pensée, de la mémoire et des émotions."
+      },
+      {
+        "question": "Quel organe du corps humain permet de voir, grâce à la lumière qu'il capte ?",
+        "reponse": "L'œil",
+        "propositions": [
+          "L'œil",
+          "L'oreille",
+          "Le nez",
+          "La langue"
+        ],
+        "explication": "L'œil capte la lumière et la transforme en signaux nerveux transmis au cerveau par le nerf optique."
+      },
+      {
+        "question": "Quel organe du corps humain fabrique la bile, qui aide à digérer les graisses ?",
+        "reponse": "Le foie",
+        "propositions": [
+          "Le foie",
+          "Le rein",
+          "L'estomac",
+          "Le pancréas"
+        ],
+        "explication": "Le foie produit la bile, qui est ensuite stockée dans la vésicule biliaire avant d'être libérée dans l'intestin."
+      },
+      {
+        "question": "Quel insecte produit la soie utilisée pour fabriquer certains tissus précieux ?",
+        "reponse": "Le ver à soie",
+        "propositions": [
+          "Le ver à soie",
+          "L'abeille",
+          "La fourmi",
+          "Le papillon"
+        ],
+        "explication": "Le ver à soie, larve du bombyx du mûrier, fabrique un cocon de soie qu'il tisse autour de lui."
+      },
+      {
+        "question": "Quel phénomène optique, visible après la pluie, décompose la lumière du soleil en plusieurs couleurs ?",
+        "reponse": "L'arc-en-ciel",
+        "propositions": [
+          "L'arc-en-ciel",
+          "Le mirage",
+          "L'éclipse",
+          "Le halo"
+        ],
+        "explication": "L'arc-en-ciel apparaît lorsque la lumière du soleil est réfractée et réfléchie par des gouttes d'eau en suspension dans l'air."
+      },
+      {
+        "question": "Quelle partie d'une fleur attire généralement les insectes pollinisateurs par sa couleur et son parfum ?",
+        "reponse": "Les pétales",
+        "propositions": [
+          "Les pétales",
+          "Les racines",
+          "Les feuilles",
+          "La tige"
+        ],
+        "explication": "Les pétales, souvent colorés et parfumés, attirent les insectes qui participent ensuite à la pollinisation."
+      },
+      {
+        "question": "Environ combien de litres de sang contient le corps d'un adulte de taille moyenne ?",
+        "reponse": "Environ 5 litres",
+        "propositions": [
+          "Environ 5 litres",
+          "Environ 1 litre",
+          "Environ 10 litres",
+          "Environ 20 litres"
+        ],
+        "explication": "Le volume sanguin varie selon le poids et la taille, mais il est d'environ 5 litres chez un adulte moyen."
+      },
+      {
+        "question": "Quel est le nom du processus par lequel l'eau passe directement de l'état solide à l'état gazeux, sans phase liquide ?",
+        "reponse": "La sublimation",
+        "propositions": [
+          "La sublimation",
+          "L'évaporation",
+          "La condensation",
+          "La fusion"
+        ],
+        "explication": "La sublimation se produit par exemple avec la neige carbonique (glace sèche), qui passe directement à l'état gazeux."
+      },
+      {
+        "question": "Quel organe, situé dans la gorge, permet de produire la voix humaine grâce à ses cordes vocales ?",
+        "reponse": "Le larynx",
+        "propositions": [
+          "Le larynx",
+          "La trachée",
+          "L'œsophage",
+          "Le pharynx"
+        ],
+        "explication": "Le larynx contient les cordes vocales, qui vibrent au passage de l'air pour produire les sons de la voix."
+      },
+      {
+        "question": "Comment appelle-t-on les animaux qui n'ont pas de squelette interne, comme les vers ou les méduses ?",
+        "reponse": "Des invertébrés",
+        "propositions": [
+          "Des invertébrés",
+          "Des vertébrés",
+          "Des arthropodes",
+          "Des mammifères"
+        ],
+        "explication": "Les invertébrés regroupent par exemple les insectes, les vers et les méduses, dépourvus de colonne vertébrale."
+      },
+      {
+        "question": "Quel phénomène permet à certains animaux, comme l'ours, de survivre l'hiver en ralentissant fortement leur métabolisme ?",
+        "reponse": "L'hibernation",
+        "propositions": [
+          "L'hibernation",
+          "La migration",
+          "La métamorphose",
+          "La mue"
+        ],
+        "explication": "Pendant l'hibernation, la température corporelle et le rythme cardiaque de l'animal diminuent fortement pour économiser l'énergie."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "L'ozone"
         ],
         "explication": "Le monoxyde de carbone se fixe sur l'hémoglobine à la place de l'oxygène, ce qui le rend dangereux même à faible concentration."
+      },
+      {
+        "question": "Quelle vitamine, liposoluble, est essentielle à la coagulation sanguine et se trouve notamment dans les légumes verts ?",
+        "reponse": "La vitamine K",
+        "propositions": [
+          "La vitamine K",
+          "La vitamine E",
+          "La vitamine B9",
+          "La vitamine A"
+        ],
+        "explication": "La vitamine K active plusieurs facteurs de la coagulation sanguine produits par le foie."
+      },
+      {
+        "question": "Quel est le nom du tissu conjonctif qui relie les muscles aux os ?",
+        "reponse": "Le tendon",
+        "propositions": [
+          "Le tendon",
+          "Le ligament",
+          "Le cartilage",
+          "La membrane synoviale"
+        ],
+        "explication": "Les ligaments, eux, relient les os entre eux au niveau des articulations, à la différence des tendons."
+      },
+      {
+        "question": "Quelle hormone, produite par la glande thyroïde, régule le métabolisme de base de l'organisme ?",
+        "reponse": "La thyroxine",
+        "propositions": [
+          "La thyroxine",
+          "L'insuline",
+          "Le cortisol",
+          "La mélatonine"
+        ],
+        "explication": "Une thyroïde trop ou pas assez active provoque respectivement une hyperthyroïdie ou une hypothyroïdie."
+      },
+      {
+        "question": "Quel est le nom du phénomène physique par lequel la lumière change de direction en passant d'un milieu transparent à un autre, comme de l'air à l'eau ?",
+        "reponse": "La réfraction",
+        "propositions": [
+          "La réfraction",
+          "La réflexion",
+          "La diffraction",
+          "La diffusion"
+        ],
+        "explication": "La réfraction explique par exemple pourquoi un bâton semble brisé lorsqu'il est plongé dans l'eau."
+      },
+      {
+        "question": "Quelle maladie respiratoire chronique provoque une inflammation et un rétrécissement des bronches, souvent déclenchée par des allergènes ?",
+        "reponse": "L'asthme",
+        "propositions": [
+          "L'asthme",
+          "La bronchite chronique",
+          "La pneumonie",
+          "La tuberculose"
+        ],
+        "explication": "L'asthme se manifeste par des crises de gêne respiratoire liées à une inflammation des voies aériennes."
+      },
+      {
+        "question": "Quelle partie de l'œil, de couleur variable selon les individus, contrôle la quantité de lumière entrant dans l'œil en se dilatant ou se contractant ?",
+        "reponse": "L'iris",
+        "propositions": [
+          "L'iris",
+          "La rétine",
+          "La cornée",
+          "Le cristallin"
+        ],
+        "explication": "L'iris ajuste la taille de la pupille selon l'intensité lumineuse ambiante."
+      },
+      {
+        "question": "Quel est le nom du processus chimique par lequel les graisses sont décomposées en acides gras et glycérol lors de la digestion ?",
+        "reponse": "La lipolyse",
+        "propositions": [
+          "La lipolyse",
+          "La glycolyse",
+          "La protéolyse",
+          "La lipogenèse"
+        ],
+        "explication": "La lipolyse est catalysée notamment par la lipase, une enzyme digestive sécrétée par le pancréas."
+      },
+      {
+        "question": "Quelle particule, dépourvue de charge électrique, se trouve dans le noyau atomique aux côtés des protons ?",
+        "reponse": "Le neutron",
+        "propositions": [
+          "Le neutron",
+          "Le proton",
+          "L'électron",
+          "Le positron"
+        ],
+        "explication": "Le neutron a été découvert en 1932 par le physicien britannique James Chadwick."
+      },
+      {
+        "question": "Quel phénomène explique que l'eau salée des océans gèle à une température inférieure à 0°C, contrairement à l'eau douce ?",
+        "reponse": "L'abaissement du point de congélation par le sel (effet cryoscopique)",
+        "propositions": [
+          "L'abaissement du point de congélation par le sel (effet cryoscopique)",
+          "L'augmentation de la pression atmosphérique",
+          "La présence d'algues marines",
+          "Le réchauffement climatique"
+        ],
+        "explication": "La présence de sel dissous perturbe la formation des cristaux de glace, abaissant le point de congélation jusqu'à environ -2°C pour l'eau de mer."
+      },
+      {
+        "question": "Quel chimiste suédois a établi, à la fin du XIXe siècle, une relation mathématique reliant la concentration de CO2 atmosphérique à la température de la Terre ?",
+        "reponse": "Svante Arrhenius",
+        "propositions": [
+          "Svante Arrhenius",
+          "Joseph Fourier",
+          "John Tyndall",
+          "Jean-Baptiste Lamarck"
+        ],
+        "explication": "Arrhenius a calculé dès 1896 qu'un doublement du CO2 atmosphérique entraînerait un réchauffement global significatif."
       }
     ],
     "3": [
@@ -898,7 +1118,7 @@
         "explication": "Cette théorie, développée au XXe siècle, explique aussi les séismes et le volcanisme aux frontières de plaques."
       },
       {
-        "question": "Quelle enzyme est utilisée dans la technique de modification génétique CRISPR-Cas9 pour couper l'ADN à un endroit précis ?",
+        "question": "Quelle enzyme, utilisée dans la technique de modification génétique CRISPR, agit comme des 'ciseaux moléculaires' pour couper l'ADN à un endroit précis ?",
         "reponse": "Cas9",
         "propositions": [
           "Cas9",
@@ -1160,6 +1380,116 @@
           "La décohérence quantique"
         ],
         "explication": "Einstein qualifiait ce phénomène d'« action fantôme à distance », aujourd'hui vérifié expérimentalement."
+      },
+      {
+        "question": "Quel physicien danois a proposé en 1913 un modèle de l'atome où les électrons orbitent sur des niveaux d'énergie discrets ?",
+        "reponse": "Niels Bohr",
+        "propositions": [
+          "Niels Bohr",
+          "Ernest Rutherford",
+          "J.J. Thomson",
+          "Werner Heisenberg"
+        ],
+        "explication": "Le modèle de Bohr a permis d'expliquer les raies spectrales de l'hydrogène grâce à la quantification de l'énergie des électrons."
+      },
+      {
+        "question": "Quel phénomène immunitaire, provoqué par une réaction excessive et généralisée du système immunitaire à une substance étrangère, peut entraîner un choc potentiellement mortel ?",
+        "reponse": "Le choc anaphylactique",
+        "propositions": [
+          "Le choc anaphylactique",
+          "La réaction auto-immune",
+          "L'inflammation chronique",
+          "La réaction allergique localisée"
+        ],
+        "explication": "L'anaphylaxie est une réaction allergique sévère et généralisée, pouvant engager le pronostic vital en quelques minutes."
+      },
+      {
+        "question": "Quel physicien britannique a formulé en 1974 une théorie prédisant que les trous noirs émettent un rayonnement, aujourd'hui nommé en son honneur ?",
+        "reponse": "Stephen Hawking",
+        "propositions": [
+          "Stephen Hawking",
+          "Roger Penrose",
+          "Kip Thorne",
+          "Subrahmanyan Chandrasekhar"
+        ],
+        "explication": "Le rayonnement de Hawking suggère que les trous noirs peuvent théoriquement s'évaporer très lentement au fil du temps."
+      },
+      {
+        "question": "Quelle enzyme, utilisée en biologie moléculaire, permet d'amplifier de courtes séquences d'ADN lors de la réaction en chaîne par polymérase (PCR) ?",
+        "reponse": "L'ADN polymérase (Taq polymérase)",
+        "propositions": [
+          "L'ADN polymérase (Taq polymérase)",
+          "La ligase",
+          "L'hélicase",
+          "La primase"
+        ],
+        "explication": "Kary Mullis a reçu le prix Nobel de chimie en 1993 pour l'invention de la technique PCR utilisant cette enzyme thermostable."
+      },
+      {
+        "question": "Quel type de mutation génétique consiste en la duplication d'un segment entier de chromosome, pouvant conduire à une redondance fonctionnelle de gènes ?",
+        "reponse": "Une duplication génique",
+        "propositions": [
+          "Une duplication génique",
+          "Une délétion",
+          "Une translocation",
+          "Une inversion chromosomique"
+        ],
+        "explication": "Les duplications géniques jouent un rôle important dans l'évolution, en fournissant de la matière première pour l'apparition de nouvelles fonctions."
+      },
+      {
+        "question": "Quel physicien britannique a proposé en 1964 l'existence théorique d'une particule élémentaire, découverte expérimentalement seulement en 2012 au CERN ?",
+        "reponse": "Peter Higgs (le boson de Higgs)",
+        "propositions": [
+          "Peter Higgs (le boson de Higgs)",
+          "Murray Gell-Mann",
+          "Richard Feynman",
+          "Sheldon Glashow"
+        ],
+        "explication": "Le boson de Higgs confère leur masse aux particules élémentaires via le mécanisme dit de Higgs."
+      },
+      {
+        "question": "Quel processus cellulaire programmé permet l'élimination contrôlée de cellules endommagées ou devenues inutiles, sans provoquer d'inflammation ?",
+        "reponse": "L'apoptose",
+        "propositions": [
+          "L'apoptose",
+          "La nécrose",
+          "L'autophagie",
+          "La sénescence"
+        ],
+        "explication": "Contrairement à la nécrose, l'apoptose est un processus régulé qui ne déclenche pas de réaction inflammatoire."
+      },
+      {
+        "question": "Quel état de la matière, prédit par Bose et Einstein, voit un grand nombre de particules occuper le même état quantique à une température proche du zéro absolu ?",
+        "reponse": "Le condensat de Bose-Einstein",
+        "propositions": [
+          "Le condensat de Bose-Einstein",
+          "Le plasma de quarks-gluons",
+          "La supraconductivité",
+          "La superfluidité"
+        ],
+        "explication": "Ce condensat a été observé expérimentalement pour la première fois en 1995 par Eric Cornell et Carl Wieman."
+      },
+      {
+        "question": "Quelle technique de microscopie, récompensée par un prix Nobel de chimie en 2014, permet de dépasser la limite de diffraction de la lumière pour observer des structures à l'échelle nanométrique ?",
+        "reponse": "La microscopie de super-résolution",
+        "propositions": [
+          "La microscopie de super-résolution",
+          "La microscopie électronique à transmission",
+          "La cryo-microscopie électronique",
+          "La microscopie à force atomique"
+        ],
+        "explication": "Eric Betzig, Stefan Hell et William Moerner ont reçu le prix Nobel de chimie 2014 pour ces développements en microscopie optique."
+      },
+      {
+        "question": "Quel physicien allemand a formulé en 1900 l'hypothèse de la quantification de l'énergie, en étudiant le rayonnement du corps noir, posant les bases de la physique quantique ?",
+        "reponse": "Max Planck",
+        "propositions": [
+          "Max Planck",
+          "Albert Einstein",
+          "Niels Bohr",
+          "Werner Heisenberg"
+        ],
+        "explication": "Planck a introduit la constante qui porte son nom pour résoudre le problème dit de la « catastrophe ultraviolette »."
       }
     ]
   }

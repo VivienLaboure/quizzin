@@ -386,6 +386,116 @@
           "L'épargne brute"
         ],
         "explication": "Le revenu brut se distingue du revenu net, obtenu après déduction des prélèvements obligatoires."
+      },
+      {
+        "question": "Comment appelle-t-on l'activité humaine, physique ou intellectuelle, fournie en échange d'un salaire pour produire des biens ou des services ?",
+        "reponse": "Le travail",
+        "propositions": [
+          "Le travail",
+          "Le capital",
+          "L'épargne",
+          "Le capital humain"
+        ],
+        "explication": "Le travail est, avec le capital, l'un des deux grands facteurs de production étudiés en économie."
+      },
+      {
+        "question": "Comment appelle-t-on le montant total des ventes réalisées par une entreprise sur une période donnée, avant déduction des charges ?",
+        "reponse": "Le chiffre d'affaires",
+        "propositions": [
+          "Le chiffre d'affaires",
+          "Le bénéfice",
+          "La valeur ajoutée",
+          "Le capital social"
+        ],
+        "explication": "Le chiffre d'affaires mesure l'activité commerciale d'une entreprise, sans tenir compte de ses coûts."
+      },
+      {
+        "question": "Comment appelle-t-on une personne physique ou morale qui détient des actions d'une entreprise ?",
+        "reponse": "Un actionnaire",
+        "propositions": [
+          "Un actionnaire",
+          "Un créancier",
+          "Un salarié",
+          "Un fournisseur"
+        ],
+        "explication": "Un actionnaire perçoit, s'il y en a, une part des bénéfices sous forme de dividendes."
+      },
+      {
+        "question": "Comment appelle-t-on le prix sur un marché auquel la quantité offerte est exactement égale à la quantité demandée ?",
+        "reponse": "Le prix d'équilibre",
+        "propositions": [
+          "Le prix d'équilibre",
+          "Le prix de réserve",
+          "Le prix plancher",
+          "Le prix plafond"
+        ],
+        "explication": "À ce prix, il n'existe théoriquement ni surplus ni pénurie sur le marché considéré."
+      },
+      {
+        "question": "Comment appelle-t-on une monnaie étrangère par rapport au pays qui l'utilise ?",
+        "reponse": "Une devise",
+        "propositions": [
+          "Une devise",
+          "Une action",
+          "Une obligation",
+          "Une créance"
+        ],
+        "explication": "Les devises s'échangent entre elles sur le marché des changes."
+      },
+      {
+        "question": "Comment appelle-t-on la situation d'une entreprise qui ne peut plus payer ses dettes et doit cesser ses paiements ?",
+        "reponse": "La faillite",
+        "propositions": [
+          "La faillite",
+          "La récession",
+          "La dévaluation",
+          "L'amortissement"
+        ],
+        "explication": "La faillite peut conduire à un redressement ou à une liquidation judiciaire de l'entreprise."
+      },
+      {
+        "question": "Comment appelle-t-on le prix, exprimé en pourcentage, que l'on paie pour emprunter une somme d'argent ?",
+        "reponse": "Le taux d'intérêt",
+        "propositions": [
+          "Le taux d'intérêt",
+          "Le taux de change",
+          "Le taux d'inflation",
+          "Le taux d'épargne"
+        ],
+        "explication": "Le taux d'intérêt rémunère le prêteur et constitue le coût du crédit pour l'emprunteur."
+      },
+      {
+        "question": "Comment appelle-t-on le contrat par lequel une entreprise autorise une autre entreprise à exploiter sa marque et son savoir-faire contre rémunération ?",
+        "reponse": "La franchise",
+        "propositions": [
+          "La franchise",
+          "La concession",
+          "La coopérative",
+          "La joint-venture"
+        ],
+        "explication": "Le franchisé verse généralement des droits d'entrée puis des redevances au franchiseur."
+      },
+      {
+        "question": "Comment appelle-t-on un bien qui peut être utilisé à de nombreuses reprises sur une longue période, comme une voiture ou un réfrigérateur ?",
+        "reponse": "Un bien durable",
+        "propositions": [
+          "Un bien durable",
+          "Un bien périssable",
+          "Un bien de consommation courante",
+          "Un bien intermédiaire"
+        ],
+        "explication": "Les biens durables s'opposent aux biens non durables, consommés rapidement comme la nourriture."
+      },
+      {
+        "question": "Comment appelle-t-on le rapport entre la quantité produite et la quantité de ressources utilisées pour la produire ?",
+        "reponse": "La productivité",
+        "propositions": [
+          "La productivité",
+          "La rentabilité",
+          "La compétitivité",
+          "La solvabilité"
+        ],
+        "explication": "Une hausse de la productivité permet de produire davantage avec les mêmes ressources, ou autant avec moins de ressources."
       }
     ],
     "2": [
@@ -773,6 +883,116 @@
           "Le marché dérivé"
         ],
         "explication": "La Bourse est l'exemple le plus connu de marché secondaire, où s'échangent des actions déjà existantes."
+      },
+      {
+        "question": "Comment appelle-t-on, selon Adam Smith, la capacité d'un pays à produire un bien avec moins de ressources que n'importe quel autre pays ?",
+        "reponse": "L'avantage absolu",
+        "propositions": [
+          "L'avantage absolu",
+          "L'avantage comparatif",
+          "L'avantage concurrentiel",
+          "L'avantage fiscal"
+        ],
+        "explication": "Adam Smith a développé ce concept avant que David Ricardo ne le prolonge avec la théorie de l'avantage comparatif."
+      },
+      {
+        "question": "Comment appelle-t-on le phénomène selon lequel, au-delà d'un certain seuil, chaque unité supplémentaire d'un facteur de production apporte un gain de production de plus en plus faible ?",
+        "reponse": "La loi des rendements décroissants",
+        "propositions": [
+          "La loi des rendements décroissants",
+          "La loi de l'offre et de la demande",
+          "La loi de Say",
+          "La loi de Engel"
+        ],
+        "explication": "Ce principe explique pourquoi ajouter indéfiniment du travail sur une même quantité de terre n'augmente pas la production proportionnellement."
+      },
+      {
+        "question": "Comment appelle-t-on l'utilisation de l'endettement par une entreprise pour augmenter sa capacité d'investissement et potentiellement la rentabilité de ses capitaux propres ?",
+        "reponse": "L'effet de levier",
+        "propositions": [
+          "L'effet de levier",
+          "L'effet d'aubaine",
+          "L'effet d'éviction",
+          "L'effet de change"
+        ],
+        "explication": "L'effet de levier peut aussi jouer en sens inverse et amplifier les pertes en cas de mauvaise performance."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble des activités économiques qui échappent à la réglementation, à la comptabilité et à la fiscalité officielles d'un pays ?",
+        "reponse": "L'économie informelle",
+        "propositions": [
+          "L'économie informelle",
+          "L'économie circulaire",
+          "L'économie mixte",
+          "L'économie planifiée"
+        ],
+        "explication": "L'économie informelle représente une part très importante de l'activité dans de nombreux pays en développement."
+      },
+      {
+        "question": "Comment appelle-t-on la politique commerciale qui consiste à limiter les importations, notamment par des droits de douane, afin de protéger les producteurs nationaux ?",
+        "reponse": "Le protectionnisme",
+        "propositions": [
+          "Le protectionnisme",
+          "Le libre-échange",
+          "Le mercantilisme",
+          "L'autarcie"
+        ],
+        "explication": "Le protectionnisme s'oppose au libre-échange, qui prône au contraire la suppression des barrières commerciales."
+      },
+      {
+        "question": "Comment appelle-t-on deux biens dont la consommation de l'un peut remplacer celle de l'autre, comme le beurre et la margarine ?",
+        "reponse": "Des biens substituables",
+        "propositions": [
+          "Des biens substituables",
+          "Des biens complémentaires",
+          "Des biens publics",
+          "Des biens de luxe"
+        ],
+        "explication": "Une hausse du prix de l'un de ces biens tend à augmenter la demande pour l'autre."
+      },
+      {
+        "question": "Comment appelle-t-on l'indicateur qui mesure la sensibilité de la quantité demandée d'un bien à une variation de son prix ?",
+        "reponse": "L'élasticité-prix de la demande",
+        "propositions": [
+          "L'élasticité-prix de la demande",
+          "Le coefficient de Gini",
+          "La parité de pouvoir d'achat",
+          "Le taux marginal de substitution"
+        ],
+        "explication": "Une demande est dite 'élastique' lorsqu'elle varie fortement en réaction à un changement de prix."
+      },
+      {
+        "question": "Comment appelle-t-on un accord entre plusieurs pays visant à supprimer les droits de douane entre eux, tout en conservant chacun sa propre politique commerciale envers les pays tiers ?",
+        "reponse": "Une zone de libre-échange",
+        "propositions": [
+          "Une zone de libre-échange",
+          "Une union douanière",
+          "Un marché commun",
+          "Une union monétaire"
+        ],
+        "explication": "Contrairement à l'union douanière, les pays membres d'une zone de libre-échange gardent des tarifs douaniers distincts vis-à-vis des pays extérieurs."
+      },
+      {
+        "question": "Quelle organisation internationale, créée en 1995 et succédant au GATT, fixe les règles du commerce entre ses pays membres ?",
+        "reponse": "L'OMC (Organisation mondiale du commerce)",
+        "propositions": [
+          "L'OMC (Organisation mondiale du commerce)",
+          "Le FMI",
+          "La Banque mondiale",
+          "La CNUCED"
+        ],
+        "explication": "L'OMC, basée à Genève, règle notamment les différends commerciaux entre ses États membres."
+      },
+      {
+        "question": "Quelle institution internationale, créée en 1944 lors des accords de Bretton Woods, vient en aide financière aux pays confrontés à des difficultés de balance des paiements ?",
+        "reponse": "Le FMI (Fonds monétaire international)",
+        "propositions": [
+          "Le FMI (Fonds monétaire international)",
+          "La Banque mondiale",
+          "L'OMC",
+          "La BERD"
+        ],
+        "explication": "Le FMI accorde des prêts souvent assortis de conditions de réformes économiques aux pays en difficulté."
       }
     ],
     "3": [
@@ -1160,6 +1380,116 @@
           "Raghuram Rajan"
         ],
         "explication": "Leurs travaux ont promu une approche expérimentale de l'économie du développement, fondée sur des essais contrôlés randomisés."
+      },
+      {
+        "question": "Quel économiste et sociologue italien a théorisé un critère d'efficacité économique optimale portant son nom, ainsi que la répartition inégale des richesses popularisée sous le nom de 'loi des 80/20' ?",
+        "reponse": "Vilfredo Pareto",
+        "propositions": [
+          "Vilfredo Pareto",
+          "Léon Walras",
+          "Enrico Barone",
+          "Francesco Ferrara"
+        ],
+        "explication": "L'optimum de Pareto décrit une situation où il est impossible d'améliorer le sort d'un agent sans détériorer celui d'un autre."
+      },
+      {
+        "question": "Quel économiste et mathématicien français, prix Nobel d'économie 1983, a formalisé avec l'Américain Kenneth Arrow la théorie moderne de l'équilibre général ?",
+        "reponse": "Gérard Debreu",
+        "propositions": [
+          "Gérard Debreu",
+          "Maurice Allais",
+          "Jean Tirole",
+          "Edmond Malinvaud"
+        ],
+        "explication": "Le modèle 'Arrow-Debreu', publié en 1954, démontre mathématiquement les conditions d'existence d'un équilibre général concurrentiel."
+      },
+      {
+        "question": "Quel économiste américain du début du XXe siècle a théorisé la 'dette-déflation' pour expliquer les grandes crises économiques, et a donné son nom à une équation reliant taux d'intérêt nominal, taux réel et inflation ?",
+        "reponse": "Irving Fisher",
+        "propositions": [
+          "Irving Fisher",
+          "John Kenneth Galbraith",
+          "Hyman Minsky",
+          "Simon Kuznets"
+        ],
+        "explication": "Fisher a notamment étudié comment le désendettement généralisé en période de crise peut aggraver la déflation."
+      },
+      {
+        "question": "Quel économiste britannique, prix Nobel 1991, est à l'origine du théorème selon lequel, en l'absence de coûts de transaction, l'attribution initiale des droits de propriété n'affecte pas l'efficacité économique finale ?",
+        "reponse": "Ronald Coase",
+        "propositions": [
+          "Ronald Coase",
+          "Douglass North",
+          "Oliver Williamson",
+          "Elinor Ostrom"
+        ],
+        "explication": "Le théorème de Coase est au fondement de l'analyse économique du droit et des coûts de transaction."
+      },
+      {
+        "question": "Quelle politologue américaine est devenue en 2009 la première femme à recevoir le prix Nobel d'économie, pour ses travaux sur la gouvernance des ressources partagées ('biens communs') ?",
+        "reponse": "Elinor Ostrom",
+        "propositions": [
+          "Elinor Ostrom",
+          "Esther Duflo",
+          "Joan Robinson",
+          "Anne Krueger"
+        ],
+        "explication": "Ostrom a montré que des communautés pouvaient gérer durablement des ressources communes sans intervention étatique ni privatisation systématique."
+      },
+      {
+        "question": "Quel économiste américain, prix Nobel 1993 avec Robert Fogel, est l'une des figures fondatrices de la 'nouvelle économie institutionnelle', étudiant le rôle des institutions dans la croissance de long terme ?",
+        "reponse": "Douglass North",
+        "propositions": [
+          "Douglass North",
+          "Ronald Coase",
+          "Oliver Williamson",
+          "Daron Acemoglu"
+        ],
+        "explication": "North a notamment montré comment la qualité des institutions politiques et juridiques conditionne le développement économique des nations."
+      },
+      {
+        "question": "Quels deux économistes, l'un néerlandais et l'autre norvégien, ont reçu conjointement le tout premier prix Nobel d'économie en 1969 ?",
+        "reponse": "Jan Tinbergen et Ragnar Frisch",
+        "propositions": [
+          "Jan Tinbergen et Ragnar Frisch",
+          "Paul Samuelson et Simon Kuznets",
+          "Friedrich Hayek et Gunnar Myrdal",
+          "Wassily Leontief et John Hicks"
+        ],
+        "explication": "Ils ont été récompensés pour le développement et l'application de modèles dynamiques à l'analyse des processus économiques."
+      },
+      {
+        "question": "Comment appelle-t-on le courant de pensée économique libéral, hostile à l'intervention de l'État, associé à l'université américaine où a enseigné Milton Friedman ?",
+        "reponse": "L'école de Chicago",
+        "propositions": [
+          "L'école de Chicago",
+          "L'école autrichienne",
+          "L'école de la régulation",
+          "L'école de Lausanne"
+        ],
+        "explication": "L'école de Chicago a fortement influencé les politiques économiques libérales à partir des années 1970-1980."
+      },
+      {
+        "question": "Quels deux auteurs ont publié en 1944 'Theory of Games and Economic Behavior', ouvrage fondateur de la théorie des jeux moderne ?",
+        "reponse": "John von Neumann et Oskar Morgenstern",
+        "propositions": [
+          "John von Neumann et Oskar Morgenstern",
+          "John Nash et Reinhard Selten",
+          "John Harsanyi et Thomas Schelling",
+          "Robert Aumann et Lloyd Shapley"
+        ],
+        "explication": "Ce livre a posé les fondements mathématiques de la théorie des jeux, développée ensuite notamment par John Nash."
+      },
+      {
+        "question": "Quel philosophe et économiste britannique, fondateur de l'utilitarisme, a défendu le principe de 'la plus grande somme de bonheur pour le plus grand nombre' comme critère des politiques publiques ?",
+        "reponse": "Jeremy Bentham",
+        "propositions": [
+          "Jeremy Bentham",
+          "John Stuart Mill",
+          "David Hume",
+          "Adam Smith"
+        ],
+        "explication": "Bentham a fortement influencé l'économie classique britannique et son élève John Stuart Mill."
       }
     ]
   }

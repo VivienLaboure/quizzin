@@ -121,6 +121,66 @@
         "reponse": "Le palais de l'Élysée",
         "propositions": ["Le palais de l'Élysée", "Le palais Bourbon", "L'hôtel Matignon", "Le palais du Luxembourg"],
         "explication": "Le palais de l'Élysée est la résidence officielle du président de la République française depuis 1848."
+      },
+      {
+        "question": "Combien d'arrondissements compte aujourd'hui la ville de Paris ?",
+        "reponse": "Vingt",
+        "propositions": ["Vingt", "Quinze", "Vingt-cinq", "Dix"],
+        "explication": "Paris compte vingt arrondissements depuis 1860, numérotés en spirale à partir du centre de la ville."
+      },
+      {
+        "question": "Quel est le nom du grand hippodrome parisien, situé dans le bois de Boulogne, qui accueille chaque année le Prix de l'Arc de Triomphe ?",
+        "reponse": "L'hippodrome de Longchamp",
+        "propositions": ["L'hippodrome de Longchamp", "L'hippodrome d'Auteuil", "L'hippodrome de Vincennes", "L'hippodrome de Saint-Cloud"],
+        "explication": "Longchamp accueille chaque année en octobre l'une des courses hippiques les plus prestigieuses au monde."
+      },
+      {
+        "question": "Quelle université parisienne, fondée au XIIIe siècle, est l'une des plus anciennes d'Europe ?",
+        "reponse": "La Sorbonne",
+        "propositions": ["La Sorbonne", "Sciences Po", "L'École normale supérieure", "Polytechnique"],
+        "explication": "La Sorbonne a été fondée vers 1257 par Robert de Sorbon, chapelain du roi Louis IX."
+      },
+      {
+        "question": "Quel grand magasin parisien, fondé en 1852 par Aristide Boucicaut, est considéré comme le premier grand magasin moderne au monde ?",
+        "reponse": "Le Bon Marché",
+        "propositions": ["Le Bon Marché", "Les Galeries Lafayette", "Le Printemps", "La Samaritaine"],
+        "explication": "Le Bon Marché a inspiré le roman 'Au Bonheur des Dames' d'Émile Zola."
+      },
+      {
+        "question": "Quel grand parc d'attractions, l'un des plus visités d'Europe, est situé à Marne-la-Vallée, en région parisienne ?",
+        "reponse": "Disneyland Paris",
+        "propositions": ["Disneyland Paris", "Astérix Parc", "Le Parc de la Villette", "Le Jardin d'Acclimatation"],
+        "explication": "Disneyland Paris a ouvert ses portes en 1992, à l'est de la capitale."
+      },
+      {
+        "question": "Comment appelle-t-on les bateaux touristiques qui naviguent sur la Seine en offrant une vue sur les monuments parisiens ?",
+        "reponse": "Les bateaux-mouches",
+        "propositions": ["Les bateaux-mouches", "Les péniches", "Les vedettes rapides", "Les gondoles"],
+        "explication": "Les premiers bateaux-mouches ont circulé sur la Seine à partir de l'Exposition universelle de 1867."
+      },
+      {
+        "question": "Quel jardin zoologique et d'attractions, situé dans le bois de Boulogne, accueille les familles parisiennes depuis le XIXe siècle ?",
+        "reponse": "Le Jardin d'Acclimatation",
+        "propositions": ["Le Jardin d'Acclimatation", "Le Jardin des Plantes", "Le parc Monceau", "Le parc Montsouris"],
+        "explication": "Ouvert en 1860, le Jardin d'Acclimatation combine attractions, animaux et espaces verts pour les enfants."
+      },
+      {
+        "question": "Quelle institution théâtrale parisienne, dont la troupe trouve son origine chez Molière, est surnommée la 'Maison de Molière' ?",
+        "reponse": "La Comédie-Française",
+        "propositions": ["La Comédie-Française", "L'Opéra-Comique", "Le Théâtre du Châtelet", "L'Odéon"],
+        "explication": "La Comédie-Française a été fondée en 1680 par décision de Louis XIV."
+      },
+      {
+        "question": "Quel grand aquarium parisien, situé près du Trocadéro, est l'un des plus importants d'Europe ?",
+        "reponse": "L'Aquarium de Paris",
+        "propositions": ["L'Aquarium de Paris", "L'Océanopolis", "Le Nausicaá", "Le Seaquarium"],
+        "explication": "L'Aquarium de Paris présente plusieurs milliers de poissons dans des bassins souterrains aménagés sous les jardins du Trocadéro."
+      },
+      {
+        "question": "Quelle place parisienne est ornée d'une statue équestre de Louis XIV, détruite à la Révolution puis reconstruite au XIXe siècle ?",
+        "reponse": "La place des Victoires",
+        "propositions": ["La place des Victoires", "La place Vendôme", "La place Dauphine", "La place des Vosges"],
+        "explication": "La place des Victoires a été aménagée à la fin du XVIIe siècle en l'honneur des victoires militaires de Louis XIV."
       }
     ],
     "2": [
@@ -243,6 +303,66 @@
         "reponse": "La tour Montparnasse",
         "propositions": ["La tour Montparnasse", "La tour Eiffel", "La tour Saint-Jacques", "La tour First"],
         "explication": "Haute de 210 mètres, la tour Montparnasse reste la plus haute tour de bureaux construite à l'intérieur de Paris intra-muros."
+      },
+      {
+        "question": "Quel musée parisien, installé dans l'hôtel Biron, présente les œuvres du sculpteur auteur du 'Penseur' et des 'Bourgeois de Calais' ?",
+        "reponse": "Le musée Rodin",
+        "propositions": ["Le musée Rodin", "Le musée Bourdelle", "Le musée Zadkine", "Le musée Maillol"],
+        "explication": "Le musée Rodin dispose aussi d'un grand jardin où sont exposées plusieurs sculptures monumentales."
+      },
+      {
+        "question": "Quel édifice parisien à la grande verrière, construit pour l'Exposition universelle de 1900 en face du Petit Palais, accueille de grandes expositions d'art ?",
+        "reponse": "Le Grand Palais",
+        "propositions": ["Le Grand Palais", "Le Petit Palais", "Le Palais de Tokyo", "Le Palais Garnier"],
+        "explication": "Sa verrière, l'une des plus vastes d'Europe, surplombe une nef utilisée pour de nombreux événements culturels."
+      },
+      {
+        "question": "Quelle place parisienne octogonale, entourée de joailliers de luxe, est ornée d'une colonne de bronze inspirée de la colonne Trajane de Rome ?",
+        "reponse": "La place Vendôme",
+        "propositions": ["La place Vendôme", "La place des Victoires", "La place Dauphine", "La place des Vosges"],
+        "explication": "La colonne Vendôme, érigée sous Napoléon Ier, est faite du bronze de canons pris à l'ennemi."
+      },
+      {
+        "question": "Quel canal parisien, bordé d'écluses et de passerelles métalliques, traverse les quartiers populaires de l'est de la capitale ?",
+        "reponse": "Le canal Saint-Martin",
+        "propositions": ["Le canal Saint-Martin", "Le canal de l'Ourcq", "Le canal Saint-Denis", "La Bièvre"],
+        "explication": "Construit au début du XIXe siècle, le canal Saint-Martin devait initialement approvisionner Paris en eau potable."
+      },
+      {
+        "question": "Quel opéra parisien moderne, inauguré en 1989 pour le bicentenaire de la Révolution, complète l'Opéra Garnier ?",
+        "reponse": "L'Opéra Bastille",
+        "propositions": ["L'Opéra Bastille", "L'Opéra-Comique", "Le Théâtre du Châtelet", "L'Opéra Garnier"],
+        "explication": "Conçu par l'architecte Carlos Ott, ce bâtiment a été voulu par François Mitterrand comme un opéra populaire."
+      },
+      {
+        "question": "Quelle tour gothique isolée, vestige d'une église détruite à la Révolution, se dresse près du Châtelet et sert aujourd'hui de station de mesures météorologiques ?",
+        "reponse": "La tour Saint-Jacques",
+        "propositions": ["La tour Saint-Jacques", "La tour Montparnasse", "La tour Eiffel", "La tour Jean-sans-Peur"],
+        "explication": "Cette tour abritait autrefois un clocher et constitue l'un des rares vestiges gothiques isolés de Paris."
+      },
+      {
+        "question": "Quel célèbre cabaret parisien du quartier Pigalle, surmonté d'une grande aile de moulin illuminée, a ouvert ses portes en 1889 et inspiré de nombreuses œuvres de Toulouse-Lautrec ?",
+        "reponse": "Le Moulin Rouge",
+        "propositions": ["Le Moulin Rouge", "Le Lido", "Le Crazy Horse", "Le Moulin de la Galette"],
+        "explication": "Ce cabaret est devenu, dès sa création, un haut lieu du french cancan parisien."
+      },
+      {
+        "question": "Quelle grande place de l'est parisien est dominée par une statue monumentale de la Marianne, tenant une branche d'olivier et une tablette des droits de l'homme ?",
+        "reponse": "La place de la République",
+        "propositions": ["La place de la République", "La place de la Nation", "La place de la Bastille", "La place d'Italie"],
+        "explication": "Cette statue, inaugurée en 1883, est devenue un lieu symbolique de rassemblements et de manifestations."
+      },
+      {
+        "question": "Quel petit arc de triomphe, situé dans le jardin des Tuileries près du Louvre, a été construit pour célébrer les victoires militaires de Napoléon avant le grand Arc de l'Étoile ?",
+        "reponse": "L'arc de triomphe du Carrousel",
+        "propositions": ["L'arc de triomphe du Carrousel", "L'Arc de Triomphe de l'Étoile", "La porte Saint-Martin", "La porte Saint-Denis"],
+        "explication": "Il doit son nom à la grande place du Carrousel, ancien lieu de parades militaires situé entre le Louvre et les Tuileries."
+      },
+      {
+        "question": "Quel grand magasin parisien historique, situé rive droite près du Pont-Neuf, doit son nom à une ancienne pompe à eau qui se trouvait au même emplacement ?",
+        "reponse": "La Samaritaine",
+        "propositions": ["La Samaritaine", "Le Bon Marché", "Le Printemps", "Les Galeries Lafayette"],
+        "explication": "Cette pompe hydraulique, installée sur le Pont-Neuf au XVIIe siècle, était ornée d'une sculpture représentant la Samaritaine de l'Évangile."
       }
     ],
     "3": [
@@ -365,6 +485,66 @@
         "reponse": "Jean-Charles Alphand",
         "propositions": ["Jean-Charles Alphand", "Eugène Belgrand", "Hector Guimard", "Victor Baltard"],
         "explication": "Alphand a conçu plusieurs grands parcs parisiens dans un style paysager anglais, alors en vogue sous le Second Empire."
+      },
+      {
+        "question": "Quel pont parisien, premier pont métallique de la capitale construit sous Napoléon Ier en 1804 et aujourd'hui réservé aux piétons, relie le Louvre à l'Institut de France ?",
+        "reponse": "Le pont des Arts",
+        "propositions": ["Le pont des Arts", "Le Pont Neuf", "Le pont Royal", "Le pont de la Tournelle"],
+        "explication": "Ce pont, célèbre pour ses cadenas d'amoureux retirés en 2015 par sécurité, offre une vue dégagée sur l'île de la Cité."
+      },
+      {
+        "question": "Quelle église parisienne, construite du XVIe au XVIIe siècle près de l'ancien site des Halles, a accueilli le baptême de Molière et la première communion de Richelieu ?",
+        "reponse": "L'église Saint-Eustache",
+        "propositions": ["L'église Saint-Eustache", "L'église Saint-Sulpice", "L'église Saint-Gervais", "L'église Saint-Merri"],
+        "explication": "Cette église mêle une structure gothique à une décoration de façade inspirée de la Renaissance italienne."
+      },
+      {
+        "question": "Quel architecte français du XVIIIe siècle a conçu le Panthéon de Paris, initialement construit comme église dédiée à sainte Geneviève ?",
+        "reponse": "Jacques-Germain Soufflot",
+        "propositions": ["Jacques-Germain Soufflot", "Jacques-Ange Gabriel", "Pierre Contant d'Ivry", "Charles de Wailly"],
+        "explication": "L'édifice a été sécularisé à la Révolution pour devenir un temple laïque dédié aux grands hommes de la nation."
+      },
+      {
+        "question": "Quel édifice parisien du XIXe siècle a inspiré, grâce à son sous-sol partiellement inondé par une nappe phréatique, le mythe littéraire du 'Fantôme de l'Opéra' ?",
+        "reponse": "L'Opéra Garnier (Palais Garnier)",
+        "propositions": ["L'Opéra Garnier (Palais Garnier)", "L'Opéra Bastille", "Le Théâtre du Châtelet", "Le Théâtre de l'Odéon"],
+        "explication": "Cette nappe d'eau souterraine a longtemps servi aux pompiers pour leurs exercices d'entraînement."
+      },
+      {
+        "question": "Quelle île artificielle de la Seine, aménagée au XIXe siècle à l'ouest de Paris, abrite une réplique miniature de la statue de la Liberté offerte par la communauté américaine en 1889 ?",
+        "reponse": "L'île aux Cygnes",
+        "propositions": ["L'île aux Cygnes", "L'île Saint-Louis", "L'île de la Jatte", "L'île Seguin"],
+        "explication": "Cette réplique, tournée vers l'ouest en direction de sa grande sœur new-yorkaise, mesure environ onze mètres de haut."
+      },
+      {
+        "question": "Quel monument parisien, érigé place de la Bastille, commémore les émeutes des 'Trois Glorieuses' de juillet 1830 ?",
+        "reponse": "La colonne de Juillet",
+        "propositions": ["La colonne de Juillet", "La colonne Vendôme", "L'obélisque de Louxor", "L'arc de triomphe du Carrousel"],
+        "explication": "Cette colonne de bronze, haute d'une cinquantaine de mètres, est surmontée d'un Génie de la Liberté doré."
+      },
+      {
+        "question": "Quelle fontaine parisienne de la Renaissance, œuvre du sculpteur Jean Goujon, est considérée comme la plus ancienne fontaine monumentale de Paris encore en place ?",
+        "reponse": "La fontaine des Innocents",
+        "propositions": ["La fontaine des Innocents", "La fontaine Médicis", "La fontaine Saint-Michel", "La fontaine Molière"],
+        "explication": "Initialement adossée à un mur, cette fontaine a été déplacée et transformée en fontaine à quatre faces au XIXe siècle."
+      },
+      {
+        "question": "Quel musée parisien, installé dans deux anciens hôtels particuliers du Marais, retrace l'histoire de la capitale depuis l'Antiquité jusqu'à nos jours ?",
+        "reponse": "Le musée Carnavalet",
+        "propositions": ["Le musée Carnavalet", "Le musée Cognacq-Jay", "Le musée de Cluny", "Le musée Picasso"],
+        "explication": "Le musée Carnavalet conserve notamment des reconstitutions de boutiques et de salons parisiens d'époque."
+      },
+      {
+        "question": "Quel musée parisien, installé dans un hôtel médiéval adossé à des thermes gallo-romains, est consacré à l'art du Moyen Âge, dont la célèbre tapisserie de 'La Dame à la licorne' ?",
+        "reponse": "Le musée de Cluny",
+        "propositions": ["Le musée de Cluny", "Le musée Carnavalet", "Le musée Jacquemart-André", "Le musée Guimet"],
+        "explication": "Les thermes attenants, encore visibles, comptent parmi les plus importants vestiges gallo-romains du nord de la France."
+      },
+      {
+        "question": "Quel vestige antique parisien, redécouvert au XIXe siècle dans le quartier Latin, correspond aux ruines d'un amphithéâtre romain pouvant accueillir environ 15 000 spectateurs ?",
+        "reponse": "Les arènes de Lutèce",
+        "propositions": ["Les arènes de Lutèce", "Les thermes de Cluny", "Le forum antique", "Les thermes de Julien"],
+        "explication": "Cet amphithéâtre servait à la fois de théâtre et de lieu de combats de gladiateurs à l'époque gallo-romaine."
       }
     ]
   }
