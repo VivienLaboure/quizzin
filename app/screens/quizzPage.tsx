@@ -18,6 +18,11 @@ import { useProgress } from '../../lib/ProgressContext';
 import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
 import { useWakeupHint } from '../../lib/useWakeupHint';
 
+// Délai minimum d'affichage de l'explication après une bonne réponse, avant
+// d'enchaîner sur la question suivante — laisse le temps de la lire plutôt
+// que de disparaître aussitôt remplacée (voir checkAnswer).
+const READING_DELAY_MS = 2600;
+
 export default function QuizzPage() {
     const router = useRouter();
     const { progress, addXp, recordStreak } = useProgress();
@@ -178,29 +183,31 @@ export default function QuizzPage() {
         setSelectedAnswer(answer);
 
         if (answer === currentQuestion?.reponse) {
-            // Bonne réponse : surligné en vert un court instant, PUIS on va
-            // chercher la question suivante — le fondu ne démarre qu'une
-            // fois cette question déjà en main (voir getNextQuestion), pour
-            // ne jamais laisser l'écran vide pendant l'attente réseau.
+            // Bonne réponse : surligné en vert, explication affichée le temps
+            // de la lire, PUIS la question suivante. La requête réseau part
+            // immédiatement en parallèle (voir getNextQuestion) pour ne
+            // jamais laisser l'écran vide en cas de connexion lente — c'est
+            // le délai de lecture ci-dessous (pas le réseau) qui fixe le
+            // rythme dans le cas normal où la réponse arrive vite.
             setAnswerStatus('correct');
             setScore(prev => prev + 1);
             setLoadError(false);
-            setTimeout(() => {
-                getNextQuestion().then(next => {
-                    if (!next) {
-                        // Échec réseau : la question actuelle reste affichée
-                        // (avec son surlignage) plutôt que de disparaître sur
-                        // un écran vide — on redonne la main pour réessayer.
-                        setSelectedAnswer(null);
-                        setAnswerStatus(null);
-                        setLoadError(true);
-                        return;
-                    }
-                    Animated.timing(fadeAnim, { toValue: 0, duration: 180, useNativeDriver: true }).start(() => {
-                        loadQuestion(next);
-                    });
+            const fetchPromise = getNextQuestion();
+            const readingDelay = new Promise<void>(resolve => setTimeout(resolve, READING_DELAY_MS));
+            Promise.all([fetchPromise, readingDelay]).then(([next]) => {
+                if (!next) {
+                    // Échec réseau : la question actuelle reste affichée
+                    // (avec son surlignage) plutôt que de disparaître sur
+                    // un écran vide — on redonne la main pour réessayer.
+                    setSelectedAnswer(null);
+                    setAnswerStatus(null);
+                    setLoadError(true);
+                    return;
+                }
+                Animated.timing(fadeAnim, { toValue: 0, duration: 180, useNativeDriver: true }).start(() => {
+                    loadQuestion(next);
                 });
-            }, 500);
+            });
         } else {
             // Mauvaise réponse : surligne la réponse tapée en rouge et la
             // bonne en vert, laisse le temps de voir la différence, puis
@@ -268,6 +275,16 @@ export default function QuizzPage() {
                         );
                     })}
                 </View>
+
+                {/* Bonne réponse : explication affichée le temps de la lire
+                    (voir READING_DELAY_MS) avant d'enchaîner — avant, l'app
+                    passait directement à la question suivante sans jamais
+                    expliquer pourquoi la réponse était la bonne. */}
+                {answerStatus === 'correct' && (
+                    <View style={styles.inlineExplanationBox}>
+                        <Text style={styles.inlineExplanationText}>{currentQuestion.explication}</Text>
+                    </View>
+                )}
             </Animated.View>
 
             {popupExplication && (
@@ -363,6 +380,17 @@ const styles = StyleSheet.create({
     answerText: { fontSize: 16, fontWeight: '600', color: colors.textPrimary },
     answerCorrect: { backgroundColor: colors.successSoft, borderColor: colors.success },
     answerIncorrect: { backgroundColor: colors.errorSoft, borderColor: colors.error },
+    inlineExplanationBox: {
+        marginTop: spacing.md,
+        backgroundColor: colors.successSoft,
+        borderRadius: radius.md,
+        padding: spacing.md,
+    },
+    inlineExplanationText: {
+        color: colors.textSecondary,
+        fontSize: 14,
+        lineHeight: 20,
+    },
     overlay: {
         position: 'absolute',
         top: 0, left: 0, right: 0, bottom: 0,
