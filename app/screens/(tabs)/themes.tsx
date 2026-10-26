@@ -921,7 +921,7 @@ const Themes: React.FC = () => {
                     top: node.y - node.size / 2,
                     width: node.labelWidth,
                     alignItems: 'center',
-                    opacity: isGrandchild ? 0.4 : 1,
+                    opacity: isGrandchild ? 0.65 : 1,
                   }}
                 >
                   <AnimatedThemeNode dx={node.parentX - node.x} dy={node.parentY - node.y}>
@@ -936,10 +936,12 @@ const Themes: React.FC = () => {
                     <Ionicons
                       name={THEME_ICON[node.theme] ?? DEFAULT_THEME_ICON}
                       size={node.size * 0.46}
-                      // Verrouillé (ou petit-enfant, toujours atténué) :
-                      // icône en gris plutôt qu'un cadenas — le thème reste
-                      // identifiable même avant d'être débloqué.
-                      color={showAsUnlocked ? colors.primary : colors.textMuted}
+                      // Verrouillé : icône en gris plutôt qu'un cadenas — le
+                      // thème reste identifiable même avant d'être débloqué.
+                      // Petit-enfant : en couleur malgré l'opacité réduite du
+                      // nœud entier ci-dessus (le gris plat les rendait trop
+                      // ternes) — l'atténuation vient uniquement de l'opacité.
+                      color={showAsUnlocked || isGrandchild ? colors.primary : colors.textMuted}
                     />
                     {showAsUnlocked && (
                       <View style={[pageStyles.dot, {
