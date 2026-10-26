@@ -1,0 +1,191 @@
+{
+  "theme": "Marie Curie",
+  "questions": {
+    "1": [
+      {
+        "question": "Dans quel pays cette célèbre scientifique est-elle née en 1867, avant de s'installer en France ?",
+        "reponse": "La Pologne",
+        "propositions": ["La Pologne", "La Russie", "L'Allemagne", "La Hongrie"],
+        "explication": "Elle est née Maria Skłodowska à Varsovie, alors sous domination de l'Empire russe."
+      },
+      {
+        "question": "Dans quelle ville française a-t-elle mené l'essentiel de sa carrière scientifique ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Lyon", "Marseille", "Strasbourg"],
+        "explication": "Elle s'installe à Paris en 1891 pour étudier à la Sorbonne et y mènera toute sa carrière."
+      },
+      {
+        "question": "Avec quel physicien français s'est-elle mariée en 1895, avec qui elle partagera ses recherches et un prix Nobel ?",
+        "reponse": "Pierre Curie",
+        "propositions": ["Pierre Curie", "Henri Becquerel", "Paul Langevin", "Jean Perrin"],
+        "explication": "Elle épouse Pierre Curie en 1895, et le couple mènera ensemble des recherches pionnières sur la radioactivité."
+      },
+      {
+        "question": "Quel phénomène physique, qu'elle a largement contribué à étudier et nommer, concerne l'émission spontanée de rayonnement par certains éléments ?",
+        "reponse": "La radioactivité",
+        "propositions": ["La radioactivité", "La fluorescence", "La conductivité", "La photosynthèse"],
+        "explication": "Elle a inventé le terme « radioactivité » pour décrire ce phénomène qu'elle a étudié en profondeur."
+      },
+      {
+        "question": "Est-elle la première femme à avoir reçu un prix Nobel ?",
+        "reponse": "Oui",
+        "propositions": ["Oui", "Non, la deuxième", "Non, la troisième", "Non, aucune femme n'en a reçu avant 1950"],
+        "explication": "Elle devient en 1903 la première femme lauréate d'un prix Nobel, celui de physique."
+      },
+      {
+        "question": "Combien de prix Nobel a-t-elle reçus au cours de sa carrière ?",
+        "reponse": "Deux",
+        "propositions": ["Deux", "Un seul", "Trois", "Quatre"],
+        "explication": "Elle a reçu le prix Nobel de physique en 1903 et celui de chimie en 1911, un exploit rarissime."
+      },
+      {
+        "question": "Quel établissement parisien, encore actif aujourd'hui, a-t-elle contribué à fonder pour la recherche sur la radioactivité ?",
+        "reponse": "L'Institut du Radium (devenu Institut Curie)",
+        "propositions": ["L'Institut du Radium (devenu Institut Curie)", "L'Institut Pasteur", "Le Collège de France", "Le CNRS"],
+        "explication": "L'Institut du Radium, fondé en partie grâce à elle, est devenu l'actuel Institut Curie, dédié à la recherche contre le cancer."
+      },
+      {
+        "question": "Durant quel grand conflit mondial a-t-elle développé des unités mobiles de radiographie pour soigner les blessés ?",
+        "reponse": "La Première Guerre mondiale",
+        "propositions": ["La Première Guerre mondiale", "La Seconde Guerre mondiale", "La guerre franco-prussienne", "La guerre de Crimée"],
+        "explication": "Pendant la Première Guerre mondiale, elle développa les « petites Curies », unités mobiles de radiographie pour les soldats blessés."
+      },
+      {
+        "question": "Est-elle devenue, en 1995, la première femme inhumée au Panthéon de Paris pour ses propres mérites ?",
+        "reponse": "Oui",
+        "propositions": ["Oui", "Non, c'était déjà le cas d'une autre femme avant elle", "Non, elle n'y est jamais entrée", "Non, seulement en 2021"],
+        "explication": "En 1995, elle devient la première femme à entrer au Panthéon en raison de ses propres mérites scientifiques."
+      },
+      {
+        "question": "Avec combien de ses filles a-t-elle partagé son intérêt pour la science, dont l'une deviendra elle-même prix Nobel ?",
+        "reponse": "Une (Irène)",
+        "propositions": ["Une (Irène)", "Deux", "Trois", "Aucune"],
+        "explication": "Sa fille Irène Joliot-Curie remportera à son tour le prix Nobel de chimie en 1935."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel métal radioactif, extrait avec Pierre Curie à partir de la pechblende, a donné son nom à un pays d'origine de Marie en hommage ?",
+        "reponse": "Le polonium",
+        "propositions": ["Le polonium", "Le radium", "L'uranium", "Le thorium"],
+        "explication": "Le polonium, découvert en 1898, fut nommé en hommage à la Pologne natale de Marie Curie."
+      },
+      {
+        "question": "Quel second élément chimique, également découvert par le couple Curie en 1898, est connu pour ses propriétés luminescentes ?",
+        "reponse": "Le radium",
+        "propositions": ["Le radium", "Le polonium", "Le césium", "Le francium"],
+        "explication": "Le radium, découvert la même année que le polonium, est célèbre pour sa luminescence naturelle due à sa forte radioactivité."
+      },
+      {
+        "question": "Quel minerai, extrait en Bohême, servait de matière première pour isoler les nouveaux éléments radioactifs découverts par les Curie ?",
+        "reponse": "La pechblende",
+        "propositions": ["La pechblende", "La bauxite", "La galène", "La cassitérite"],
+        "explication": "La pechblende, un minerai d'uranium, contenait en infimes quantités le polonium et le radium que les Curie parvinrent à isoler."
+      },
+      {
+        "question": "Avec quel physicien français a-t-elle partagé le prix Nobel de physique de 1903, aux côtés de Pierre Curie ?",
+        "reponse": "Henri Becquerel",
+        "propositions": ["Henri Becquerel", "Paul Langevin", "Jean Perrin", "Louis de Broglie"],
+        "explication": "Henri Becquerel, découvreur de la radioactivité naturelle de l'uranium en 1896, partagea le Nobel 1903 avec le couple Curie."
+      },
+      {
+        "question": "Dans quelles circonstances tragiques Pierre Curie est-il mort en 1906 ?",
+        "reponse": "Renversé par une charrette dans une rue de Paris",
+        "propositions": ["Renversé par une charrette dans une rue de Paris", "Mort d'une maladie liée à la radioactivité", "Dans un incendie de laboratoire", "Noyé dans la Seine"],
+        "explication": "Pierre Curie meurt accidentellement en 1906, renversé par une charrette tirée par des chevaux dans une rue parisienne."
+      },
+      {
+        "question": "Quel poste prestigieux à la Sorbonne Marie Curie a-t-elle occupé après la mort de son mari, une première pour une femme ?",
+        "reponse": "Titulaire de la chaire de physique générale",
+        "propositions": ["Titulaire de la chaire de physique générale", "Rectrice de l'université", "Doyenne de la faculté de médecine", "Présidente du jury d'agrégation"],
+        "explication": "En 1906, elle devient la première femme titulaire d'une chaire à la Sorbonne, reprenant celle de son défunt mari."
+      },
+      {
+        "question": "Quel scandale médiatique, lié à sa liaison avec un physicien marié, a éclaté peu après l'attribution de son second prix Nobel en 1911 ?",
+        "reponse": "Sa liaison avec Paul Langevin",
+        "propositions": ["Sa liaison avec Paul Langevin", "Une accusation de plagiat scientifique", "Un scandale financier à l'Institut du Radium", "Une accusation d'espionnage"],
+        "explication": "Sa relation avec le physicien marié Paul Langevin déclencha une violente campagne de presse en 1911, en pleine période de son second Nobel."
+      },
+      {
+        "question": "Quel surnom est donné aux unités mobiles de radiographie qu'elle organisa pendant la Première Guerre mondiale ?",
+        "reponse": "Les petites Curies",
+        "propositions": ["Les petites Curies", "Les ambulances du radium", "Les voitures de Marie", "Les unités Becquerel"],
+        "explication": "Ces véhicules équipés d'appareils de radiographie mobile, surnommés « petites Curies », ont permis de localiser rapidement les blessures de guerre."
+      },
+      {
+        "question": "Quelle maladie, liée à une exposition prolongée aux substances radioactives, a emporté Marie Curie en 1934 ?",
+        "reponse": "Une anémie aplasique",
+        "propositions": ["Une anémie aplasique", "Un cancer du poumon", "Une leucémie virale", "Une tuberculose"],
+        "explication": "Marie Curie meurt en 1934 d'une anémie aplasique, probablement causée par des décennies d'exposition aux radiations."
+      },
+      {
+        "question": "Quelle précaution particulière a été nécessaire lors du transfert de son corps au Panthéon en 1995, en raison de la radioactivité résiduelle ?",
+        "reponse": "Le cercueil a été doublé de plomb",
+        "propositions": ["Le cercueil a été doublé de plomb", "Le corps a été incinéré", "Une quarantaine de dix ans a été observée", "Aucune précaution particulière n'a été nécessaire"],
+        "explication": "En raison de la radioactivité persistante de ses restes, son cercueil fut doublé de plomb avant son transfert au Panthéon."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel est le nom de jeune fille de Marie Curie, utilisé avant son mariage avec Pierre Curie ?",
+        "reponse": "Maria Skłodowska",
+        "propositions": ["Maria Skłodowska", "Maria Kowalska", "Maria Nowak", "Maria Wiśniewska"],
+        "explication": "Née Maria Skłodowska à Varsovie, elle francisera son prénom en Marie après son installation en France."
+      },
+      {
+        "question": "Quelle institution clandestine, surnommée « université volante », lui a permis de poursuivre des études supérieures en Pologne sous domination russe ?",
+        "reponse": "L'Université volante (Uniwersytet Latający)",
+        "propositions": ["L'Université volante (Uniwersytet Latający)", "L'Académie polonaise des sciences", "L'École de Cracovie", "Le Lycée Sobieski"],
+        "explication": "Interdites d'université officielle en tant que femmes, de nombreuses Polonaises suivaient des cours clandestins au sein de « l'Université volante »."
+      },
+      {
+        "question": "Quelle unité de mesure de la radioactivité, utilisée pendant plusieurs décennies, a été nommée en son honneur et celui de Pierre Curie ?",
+        "reponse": "Le curie",
+        "propositions": ["Le curie", "Le becquerel", "Le gray", "Le sievert"],
+        "explication": "Le curie (Ci) fut longtemps l'unité de mesure de l'activité radioactive, avant d'être remplacée par le becquerel dans le système international."
+      },
+      {
+        "question": "Quel prix Nobel a été attribué en 1935 à sa fille Irène et à son gendre Frédéric Joliot-Curie, pour leurs propres découvertes ?",
+        "reponse": "Le prix Nobel de chimie (radioactivité artificielle)",
+        "propositions": ["Le prix Nobel de chimie (radioactivité artificielle)", "Le prix Nobel de physique (fission nucléaire)", "Le prix Nobel de médecine", "Le prix Nobel de la paix"],
+        "explication": "Irène et Frédéric Joliot-Curie reçurent le Nobel de chimie 1935 pour leur découverte de la radioactivité artificielle."
+      },
+      {
+        "question": "Quel effet physique, découvert par Pierre Curie avant son mariage et indépendant des travaux sur la radioactivité, porte aussi son nom ?",
+        "reponse": "L'effet piézoélectrique",
+        "propositions": ["L'effet piézoélectrique", "L'effet photoélectrique", "L'effet Doppler", "L'effet tunnel"],
+        "explication": "Pierre Curie avait codécouvert la piézoélectricité dès 1880, bien avant ses travaux sur la radioactivité avec Marie."
+      },
+      {
+        "question": "Quelle organisation internationale Marie Curie a-t-elle rejointe dans l'entre-deux-guerres pour promouvoir la coopération scientifique mondiale ?",
+        "reponse": "La Commission internationale de coopération intellectuelle (SDN)",
+        "propositions": ["La Commission internationale de coopération intellectuelle (SDN)", "L'UNESCO", "Le CERN", "L'Agence internationale de l'énergie atomique"],
+        "explication": "Elle participa aux travaux de cette commission de la Société des Nations, ancêtre indirect de l'UNESCO, consacrée à la coopération scientifique."
+      },
+      {
+        "question": "Lors de quel voyage aux États-Unis, en 1921, lui a-t-on offert un gramme de radium financé par une collecte publique ?",
+        "reponse": "Sa tournée organisée par la journaliste Marie Meloney",
+        "propositions": ["Sa tournée organisée par la journaliste Marie Meloney", "Sa tournée pour le prix Nobel de 1911", "Son voyage pour une conférence à Harvard seul", "Son voyage pour recevoir un doctorat honorifique seul"],
+        "explication": "La journaliste américaine Marie Meloney organisa une collecte nationale permettant d'offrir à Marie Curie un gramme de radium en 1921."
+      },
+      {
+        "question": "Quel grade universitaire Marie Curie a-t-elle obtenu en 1903, peu avant son premier prix Nobel, une rareté pour une femme à l'époque ?",
+        "reponse": "Le doctorat ès sciences physiques",
+        "propositions": ["Le doctorat ès sciences physiques", "L'agrégation de mathématiques", "Le titre de docteure honoris causa seulement", "La licence de chimie uniquement"],
+        "explication": "Elle soutient en juin 1903 sa thèse de doctorat consacrée aux substances radioactives, une performance exceptionnelle pour une femme de cette époque."
+      },
+      {
+        "question": "Quel surnom donnait-on parfois, de façon péjorative, à ses deux filles en raison de leur éducation scientifique précoce et collective organisée par leur mère ?",
+        "reponse": "Les enfants de « la Coopérative »",
+        "propositions": ["Les enfants de « la Coopérative »", "Les petites radioactives", "Les filles du laboratoire", "Les héritières du radium"],
+        "explication": "Marie Curie organisa avec d'autres professeurs une « Coopérative » d'enseignement privé pour ses filles et celles de collègues scientifiques."
+      },
+      {
+        "question": "Quel isotope radioactif, produit industriellement grâce aux avancées issues des travaux des Curie, est aujourd'hui couramment utilisé en radiothérapie contre le cancer ?",
+        "reponse": "Le cobalt-60",
+        "propositions": ["Le cobalt-60", "L'hydrogène-3", "Le carbone-14", "Le plomb-210"],
+        "explication": "Le cobalt-60, produit artificiellement, est largement utilisé en radiothérapie, un domaine dont les Curie ont posé les bases scientifiques."
+      }
+    ]
+  }
+}

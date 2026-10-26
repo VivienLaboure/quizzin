@@ -1,0 +1,191 @@
+{
+  "theme": "Pac-Man",
+  "questions": {
+    "1": [
+      {
+        "question": "En quelle année ce jeu d'arcade culte est-il sorti au Japon ?",
+        "reponse": "1980",
+        "propositions": ["1980", "1975", "1985", "1990"],
+        "explication": "Ce jeu est sorti au Japon en 1980, avant de connaître un immense succès mondial."
+      },
+      {
+        "question": "Quelle entreprise japonaise a développé et édité ce jeu d'arcade emblématique ?",
+        "reponse": "Namco",
+        "propositions": ["Namco", "Sega", "Nintendo", "Capcom"],
+        "explication": "Ce jeu a été développé par le studio japonais Namco, fondé par Masaya Nakamura."
+      },
+      {
+        "question": "Quelle forme simple caractérise le personnage principal que le joueur contrôle dans ce jeu ?",
+        "reponse": "Une sorte de cercle jaune avec une bouche",
+        "propositions": ["Une sorte de cercle jaune avec une bouche", "Un carré bleu", "Un triangle rouge", "Une étoile verte"],
+        "explication": "Le personnage principal est représenté par une forme circulaire jaune dotée d'une bouche qui s'ouvre et se ferme."
+      },
+      {
+        "question": "Que le joueur doit-il principalement manger pour avancer dans chaque niveau du labyrinthe ?",
+        "reponse": "Des petites pastilles",
+        "propositions": ["Des petites pastilles", "Des fruits uniquement", "Des pièces d'or", "Des étoiles"],
+        "explication": "Le joueur doit manger toutes les petites pastilles disséminées dans le labyrinthe pour terminer le niveau."
+      },
+      {
+        "question": "Combien de fantômes colorés poursuivent généralement le joueur dans ce jeu ?",
+        "reponse": "Quatre",
+        "propositions": ["Quatre", "Deux", "Six", "Huit"],
+        "explication": "Quatre fantômes de couleurs différentes poursuivent le joueur à travers le labyrinthe."
+      },
+      {
+        "question": "Que se passe-t-il généralement quand le joueur mange une grosse pastille spéciale (power pellet) ?",
+        "reponse": "Les fantômes deviennent vulnérables et peuvent être mangés",
+        "propositions": ["Les fantômes deviennent vulnérables et peuvent être mangés", "Le jeu se termine immédiatement", "Le joueur perd toutes ses vies", "Le labyrinthe change complètement de forme"],
+        "explication": "La grosse pastille rend temporairement les fantômes vulnérables, permettant au joueur de les manger pour gagner des points."
+      },
+      {
+        "question": "Ce jeu se déroule-t-il principalement dans un labyrinthe vu de dessus ?",
+        "reponse": "Oui",
+        "propositions": ["Oui", "Non, en vue de côté", "Non, en vue à la première personne", "Non, en 3D complète"],
+        "explication": "Le jeu se déroule dans un labyrinthe fixe vu du dessus, parcouru par le personnage et les fantômes."
+      },
+      {
+        "question": "Quel type de bonus, apparaissant parfois au centre du labyrinthe, rapporte des points supplémentaires lorsqu'on le mange ?",
+        "reponse": "Un fruit",
+        "propositions": ["Un fruit", "Une pièce d'or", "Un diamant", "Une clé"],
+        "explication": "Des fruits bonus apparaissent périodiquement au centre du labyrinthe, offrant des points supplémentaires."
+      },
+      {
+        "question": "Ce jeu est-il considéré comme l'un des jeux vidéo les plus connus et les plus influents de l'histoire ?",
+        "reponse": "Oui",
+        "propositions": ["Oui", "Non, il est resté très confidentiel", "Non, il a été un échec commercial", "Non, il a été interdit dans plusieurs pays"],
+        "explication": "Ce jeu est considéré comme l'un des titres les plus emblématiques et influents de l'histoire du jeu vidéo."
+      },
+      {
+        "question": "Une version féminine de ce personnage, très populaire également, est sortie peu après l'original sous quel type de nom ?",
+        "reponse": "Un nom dérivé évoquant le genre féminin du personnage",
+        "propositions": ["Un nom dérivé évoquant le genre féminin du personnage", "Un nom totalement différent sans rapport", "Le même nom exact que l'original", "Un nom en chiffres uniquement"],
+        "explication": "Une suite mettant en scène un personnage féminin, portant un nom dérivé de l'original, est sortie dès 1981 et a connu un immense succès."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel est le nom du créateur principal, employé de Namco, à l'origine du concept original de ce jeu ?",
+        "reponse": "Toru Iwatani",
+        "propositions": ["Toru Iwatani", "Shigeru Miyamoto", "Hideo Kojima", "Yuji Naka"],
+        "explication": "Toru Iwatani a conçu ce jeu alors qu'il travaillait chez Namco, s'inspirant notamment de la forme d'une pizza à laquelle il manquerait une part."
+      },
+      {
+        "question": "Quels sont les noms traditionnels, en anglais, donnés aux quatre fantômes qui poursuivent le joueur ?",
+        "reponse": "Blinky, Pinky, Inky et Clyde",
+        "propositions": ["Blinky, Pinky, Inky et Clyde", "Red, Blue, Green et Yellow", "Alpha, Beta, Gamma et Delta", "Ghost1, Ghost2, Ghost3 et Ghost4"],
+        "explication": "Les quatre fantômes portent les noms de Blinky (rouge), Pinky (rose), Inky (cyan) et Clyde (orange)."
+      },
+      {
+        "question": "Quel comportement caractérise spécifiquement le fantôme rouge, généralement considéré comme le plus agressif et poursuivant directement le joueur ?",
+        "reponse": "Il poursuit directement la position actuelle du joueur",
+        "propositions": ["Il poursuit directement la position actuelle du joueur", "Il reste toujours immobile", "Il fuit systématiquement le joueur", "Il ne se déplace qu'en diagonale"],
+        "explication": "Le fantôme rouge, Blinky, a pour comportement de cibler directement la position actuelle du joueur dans le labyrinthe."
+      },
+      {
+        "question": "Quel est le score maximum théorique, dit « score parfait », qu'un joueur peut atteindre sur la version originale de ce jeu ?",
+        "reponse": "3 333 360 points",
+        "propositions": ["3 333 360 points", "999 999 points", "1 000 000 points", "10 000 000 points"],
+        "explication": "Le « score parfait » de 3 333 360 points correspond à manger tout, sans jamais perdre de vie, sur les 256 premiers niveaux."
+      },
+      {
+        "question": "Quel bug logiciel célèbre fait apparaître un écran corrompu illisible au niveau 256 de la version originale ?",
+        "reponse": "Le « kill screen »",
+        "propositions": ["Le « kill screen »", "Le « freeze bug »", "Le « glitch arc-en-ciel »", "Le « bug du labyrinthe infini »"],
+        "explication": "Au niveau 256, un dépassement de capacité mémoire provoque un écran corrompu rendant le niveau impossible à terminer, appelé « kill screen »."
+      },
+      {
+        "question": "Quel joueur américain est devenu célèbre pour avoir été le premier à réaliser un score parfait sur ce jeu, en 1999 ?",
+        "reponse": "Billy Mitchell",
+        "propositions": ["Billy Mitchell", "Walter Day", "Todd Rogers", "Steve Wiebe"],
+        "explication": "Billy Mitchell a réalisé en 1999 le premier score parfait documenté sur ce jeu, un exploit resté célèbre dans la communauté du jeu vidéo."
+      },
+      {
+        "question": "Dans quelle borne d'arcade, format caractéristique de l'époque, ce jeu était-il le plus souvent installé à sa sortie ?",
+        "reponse": "Une borne verticale (cabinet upright)",
+        "propositions": ["Une borne verticale (cabinet upright)", "Une console de salon uniquement", "Un flipper électromécanique", "Une borne cocktail uniquement"],
+        "explication": "Ce jeu était principalement distribué sur des bornes d'arcade verticales classiques, typiques des salles de jeux des années 1980."
+      },
+      {
+        "question": "Quelle adaptation en dessin animé américain, diffusée dès 1982, a été tirée du succès de ce jeu vidéo ?",
+        "reponse": "Pac-Man (série animée Hanna-Barbera)",
+        "propositions": ["Pac-Man (série animée Hanna-Barbera)", "Pac-Man Adventures", "Pac-Man the Movie", "Pac-Man World Tour"],
+        "explication": "Hanna-Barbera a produit dès 1982 une série animée basée sur le personnage, diffusée sur la chaîne américaine ABC."
+      },
+      {
+        "question": "Quel était le titre de la chanson à succès, sortie en 1982, inspirée directement de ce jeu vidéo et classée dans les hit-parades américains ?",
+        "reponse": "Pac-Man Fever",
+        "propositions": ["Pac-Man Fever", "Pac-Man Boogie", "Eat the Dots", "Ghost Chase"],
+        "explication": "« Pac-Man Fever », du duo Buckner & Garcia, fut un succès surprise des hit-parades américains en 1982."
+      },
+      {
+        "question": "Quel était le nom de code interne du jeu au Japon, avant sa traduction en anglais pour le marché occidental ?",
+        "reponse": "Puck Man",
+        "propositions": ["Puck Man", "Dot Eater", "Maze Muncher", "Round Boy"],
+        "explication": "Le jeu s'appelait initialement « Puck Man » au Japon, renommé pour le marché américain afin d'éviter un détournement vulgaire facile du nom."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quelle inspiration visuelle, selon le créateur lui-même, est à l'origine de la forme du personnage principal ?",
+        "reponse": "Une pizza à laquelle il manquerait une part",
+        "propositions": ["Une pizza à laquelle il manquerait une part", "Le caractère japonais pour « bouche »", "Un ballon de basket dégonflé", "Une horloge sans aiguilles"],
+        "explication": "Toru Iwatani a plusieurs fois raconté s'être inspiré d'une pizza à laquelle il manquerait une part pour dessiner le personnage."
+      },
+      {
+        "question": "Quel circuit intégré, le Z80 de Zilog, servait de processeur central à la carte électronique de la borne d'arcade originale ?",
+        "reponse": "Le Zilog Z80",
+        "propositions": ["Le Zilog Z80", "L'Intel 8080", "Le MOS 6502", "Le Motorola 68000"],
+        "explication": "La carte d'arcade originale reposait sur un processeur Zilog Z80, très répandu dans les jeux d'arcade de cette époque."
+      },
+      {
+        "question": "Quel éditeur américain, ayant obtenu la licence de distribution du jeu aux États-Unis, en a assuré l'énorme succès commercial local dès 1980 ?",
+        "reponse": "Midway",
+        "propositions": ["Midway", "Atari", "Williams Electronics", "Taito America"],
+        "explication": "Midway Manufacturing obtint la licence de distribution du jeu aux États-Unis, contribuant grandement à son immense succès commercial."
+      },
+      {
+        "question": "Comment se nomme la compétition académique internationale, organisée dans les années 2010, qui oppose des intelligences artificielles programmées pour jouer à la version féminine de ce jeu ?",
+        "reponse": "Ms. Pac-Man vs Ghosts Competition",
+        "propositions": ["Ms. Pac-Man vs Ghosts Competition", "DeepMaze Challenge", "ArcadeBot League", "Pac-Man AI Cup"],
+        "explication": "Cette compétition académique, lancée à la fin des années 2000, a servi de banc d'essai à de nombreux algorithmes d'intelligence artificielle pour l'optimisation de stratégies en temps réel."
+      },
+      {
+        "question": "Quel joueur américain, détenteur du premier score parfait homologué en 1999, a vu plusieurs de ses records sur d'autres jeux d'arcade annulés des années plus tard pour cause de matériel non conforme ?",
+        "reponse": "Billy Mitchell",
+        "propositions": ["Billy Mitchell", "Steve Wiebe", "Walter Day", "Todd Rogers"],
+        "explication": "Billy Mitchell, après son score parfait sur ce jeu, a vu plusieurs de ses records sur d'autres titres (notamment Donkey Kong) invalidés par Twin Galaxies pour non-conformité du matériel utilisé."
+      },
+      {
+        "question": "Quel est le nombre total de pastilles normales à manger pour terminer un niveau complet dans la version originale du jeu ?",
+        "reponse": "240",
+        "propositions": ["240", "100", "500", "64"],
+        "explication": "Le labyrinthe original contient précisément 240 petites pastilles à manger pour compléter un niveau, en plus des quatre grosses pastilles."
+      },
+      {
+        "question": "Quel organisme américain, fondé par Walter Day dans l'Iowa, a longtemps fait autorité pour homologuer officiellement les records mondiaux sur ce jeu ?",
+        "reponse": "Twin Galaxies",
+        "propositions": ["Twin Galaxies", "Guinness World Records seul historiquement", "L'ESA (Entertainment Software Association)", "La International Arcade Museum"],
+        "explication": "Twin Galaxies, fondé par Walter Day, a longtemps été la référence pour l'homologation des scores et records sur les jeux d'arcade classiques."
+      },
+      {
+        "question": "Quelle discipline mathématique est parfois utilisée pour analyser de façon théorique les algorithmes de poursuite des quatre fantômes dans ce jeu ?",
+        "reponse": "La théorie des graphes et des jeux",
+        "propositions": ["La théorie des graphes et des jeux", "La géométrie euclidienne pure", "L'algèbre linéaire seule", "La théorie des nombres"],
+        "explication": "Les comportements de poursuite programmés des fantômes sont souvent étudiés via la théorie des graphes et la théorie des jeux en intelligence artificielle."
+      },
+      {
+        "question": "Quel titre officiel le Guinness des records a-t-il décerné à ce jeu, reconnaissant son succès commercial exceptionnel en tant que jeu d'arcade ?",
+        "reponse": "Le jeu d'arcade le plus titré au monde",
+        "propositions": ["Le jeu d'arcade le plus titré au monde", "Le jeu le plus cher jamais vendu", "Le jeu avec le plus de niveaux jamais créé", "Le jeu le plus rapide à terminer"],
+        "explication": "Le Guinness des records a officiellement reconnu ce jeu comme le jeu d'arcade le plus titré commercialement de l'histoire."
+      },
+      {
+        "question": "Quel jeu, publié par Namco en 2007 sur consoles et bornes modernes, propose une relecture du labyrinthe original avec des niveaux dynamiques générés en temps limité ?",
+        "reponse": "Pac-Man Championship Edition",
+        "propositions": ["Pac-Man Championship Edition", "Pac-Man World", "Pac-Man Museum", "Pac-Man Party"],
+        "explication": "« Pac-Man Championship Edition » (2007), conçu avec l'implication de Toru Iwatani lui-même, modernise la formule originale avec des labyrinthes évolutifs."
+      }
+    ]
+  }
+}

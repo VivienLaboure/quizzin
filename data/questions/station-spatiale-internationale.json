@@ -1,0 +1,191 @@
+{
+  "theme": "Station spatiale internationale",
+  "questions": {
+    "1": [
+      {
+        "question": "À quelle distance approximative de la surface terrestre cette station orbite-t-elle ?",
+        "reponse": "Environ 400 kilomètres",
+        "propositions": ["Environ 400 kilomètres", "Environ 40 kilomètres", "Environ 4 000 kilomètres", "Environ 100 000 kilomètres"],
+        "explication": "Cette station orbite à une altitude moyenne d'environ 400 kilomètres au-dessus de la Terre."
+      },
+      {
+        "question": "Combien de pays ou agences spatiales ont principalement coopéré à la construction de cette station ?",
+        "reponse": "Plusieurs grandes agences (NASA, Roscosmos, ESA, JAXA, CSA)",
+        "propositions": ["Plusieurs grandes agences (NASA, Roscosmos, ESA, JAXA, CSA)", "Une seule agence américaine", "Deux agences seulement", "Aucune coopération internationale réelle"],
+        "explication": "Cette station est le fruit d'une coopération entre les agences spatiales américaine, russe, européenne, japonaise et canadienne."
+      },
+      {
+        "question": "En quelle année le premier module de cette station a-t-il été lancé en orbite ?",
+        "reponse": "1998",
+        "propositions": ["1998", "1971", "2005", "1990"],
+        "explication": "Le premier module, russe, fut lancé en novembre 1998, marquant le début de l'assemblage de la station."
+      },
+      {
+        "question": "Combien d'astronautes vivent généralement en permanence à bord de cette station ?",
+        "reponse": "Environ 6 à 7",
+        "propositions": ["Environ 6 à 7", "1 seul", "20", "100"],
+        "explication": "L'équipage permanent compte généralement entre six et sept membres selon les périodes."
+      },
+      {
+        "question": "Cette station est-elle visible à l'œil nu depuis la Terre, dans de bonnes conditions ?",
+        "reponse": "Oui",
+        "propositions": ["Oui", "Non, jamais", "Seulement avec un télescope puissant", "Seulement depuis l'hémisphère sud"],
+        "explication": "Grâce à sa taille et à sa réflexion de la lumière solaire, elle est visible à l'œil nu au crépuscule ou à l'aube."
+      },
+      {
+        "question": "Quel phénomène physique font régulièrement les astronautes à bord de cette station, en raison de l'apesanteur ?",
+        "reponse": "Ils flottent en apesanteur",
+        "propositions": ["Ils flottent en apesanteur", "Ils marchent normalement", "Ils rampent au sol", "Ils volent avec des réacteurs individuels"],
+        "explication": "En orbite, les astronautes sont en état de micropesanteur et flottent librement à l'intérieur de la station."
+      },
+      {
+        "question": "En combien de temps environ cette station fait-elle le tour complet de la Terre ?",
+        "reponse": "Environ 90 minutes",
+        "propositions": ["Environ 90 minutes", "24 heures", "Une semaine", "Une heure"],
+        "explication": "La station effectue une orbite complète de la Terre en environ 90 minutes, soit une quinzaine de tours par jour."
+      },
+      {
+        "question": "Quel type d'engin permet régulièrement de ravitailler cette station en vivres et en matériel ?",
+        "reponse": "Des vaisseaux cargo automatiques",
+        "propositions": ["Des vaisseaux cargo automatiques", "Des avions à haute altitude", "Des sous-marins spatiaux", "Des drones terrestres"],
+        "explication": "Plusieurs types de vaisseaux cargo, automatiques ou habités, assurent régulièrement le ravitaillement de la station."
+      },
+      {
+        "question": "Les astronautes effectuent-ils des expériences scientifiques à bord de cette station ?",
+        "reponse": "Oui, très régulièrement",
+        "propositions": ["Oui, très régulièrement", "Non, jamais", "Seulement une fois par an", "Seulement sur Terre après leur retour"],
+        "explication": "La station sert de laboratoire scientifique en orbite, accueillant de nombreuses expériences en microgravité."
+      },
+      {
+        "question": "Quelle agence spatiale américaine est l'un des principaux partenaires à l'origine de cette station ?",
+        "reponse": "La NASA",
+        "propositions": ["La NASA", "La SpaceX seule", "Le Pentagone", "La CIA"],
+        "explication": "La NASA est l'un des piliers fondateurs du programme, aux côtés de l'agence spatiale russe et d'autres partenaires internationaux."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel module russe, premier élément lancé en 1998, a servi de fondation initiale à l'assemblage de la station ?",
+        "reponse": "Zarya",
+        "propositions": ["Zarya", "Zvezda", "Unity", "Destiny"],
+        "explication": "Le module Zarya, financé et construit en Russie, fut le tout premier élément mis en orbite en novembre 1998."
+      },
+      {
+        "question": "Quel module américain, laboratoire principal des États-Unis à bord de la station, a été lancé en 2001 ?",
+        "reponse": "Destiny",
+        "propositions": ["Destiny", "Columbus", "Kibo", "Zvezda"],
+        "explication": "Le module Destiny, laboratoire scientifique américain, fut installé en février 2001."
+      },
+      {
+        "question": "Quel module européen, apportant la contribution de l'Agence spatiale européenne à la station, a été lancé en 2008 ?",
+        "reponse": "Columbus",
+        "propositions": ["Columbus", "Destiny", "Kibo", "Harmony"],
+        "explication": "Le module Columbus, laboratoire européen, fut arrimé à la station en février 2008."
+      },
+      {
+        "question": "Quel module japonais, le plus grand laboratoire de la station, a été lancé en plusieurs étapes à partir de 2008 ?",
+        "reponse": "Kibo",
+        "propositions": ["Kibo", "Columbus", "Destiny", "Zarya"],
+        "explication": "Kibo, laboratoire de l'agence spatiale japonaise JAXA, est le plus volumineux module scientifique de la station."
+      },
+      {
+        "question": "Quel véhicule spatial privé américain, développé par SpaceX, transporte désormais régulièrement des astronautes vers cette station ?",
+        "reponse": "Crew Dragon",
+        "propositions": ["Crew Dragon", "Starship", "Orion", "Falcon Heavy"],
+        "explication": "Le Crew Dragon de SpaceX transporte des astronautes vers la station depuis 2020, mettant fin à une dépendance exclusive aux Soyouz russes."
+      },
+      {
+        "question": "Quel vaisseau russe a longtemps été, avant 2020, le seul moyen de transport habité disponible pour rejoindre cette station depuis l'arrêt des navettes américaines ?",
+        "reponse": "Soyouz",
+        "propositions": ["Soyouz", "Progress", "Proton", "Angara"],
+        "explication": "Après l'arrêt des navettes spatiales américaines en 2011, seul le vaisseau russe Soyouz pouvait transporter des astronautes vers la station, jusqu'à l'arrivée du Crew Dragon en 2020."
+      },
+      {
+        "question": "Quelle astronaute française, première femme de nationalité française à avoir volé dans l'espace, avait séjourné sur la station Mir en 1996 avant l'ère de cette station ?",
+        "reponse": "Claudie Haigneré",
+        "propositions": ["Claudie Haigneré", "Sophie Adenot", "Marie-Ève Dufresne", "Anousheh Ansari"],
+        "explication": "Claudie Haigneré fut la première Française dans l'espace, lors d'un séjour à bord de la station russe Mir en 1996, avant l'ère de la station actuelle."
+      },
+      {
+        "question": "Quel astronaute français a effectué deux longs séjours à bord de cette station, en 2016-2017 puis en 2021 ?",
+        "reponse": "Thomas Pesquet",
+        "propositions": ["Thomas Pesquet", "Jean-François Clervoy", "Léopold Eyharts", "Michel Tognini"],
+        "explication": "Thomas Pesquet a effectué deux missions sur la station, en 2016-2017 (Proxima) puis en 2021 (Alpha), devenant commandant lors de la seconde."
+      },
+      {
+        "question": "Quelle expérience notable a été menée à bord de la station concernant la croissance de plantes en microgravité ?",
+        "reponse": "La culture de légumes dans le système Veggie",
+        "propositions": ["La culture de légumes dans le système Veggie", "La culture de blé transgénique uniquement", "La culture de champignons uniquement", "La culture d'arbres fruitiers miniatures"],
+        "explication": "Le système Veggie de la NASA a permis de cultiver avec succès de la laitue et d'autres légumes en microgravité à bord de la station."
+      },
+      {
+        "question": "Quelle agence spatiale a annoncé son intention de se retirer du programme après 2024, tout en continuant une coopération ponctuelle ?",
+        "reponse": "Roscosmos (agence spatiale russe)",
+        "propositions": ["Roscosmos (agence spatiale russe)", "La NASA", "L'ESA", "La JAXA"],
+        "explication": "La Russie a annoncé en 2022 son intention de quitter le programme après 2024, dans un contexte de tensions géopolitiques, bien que la coopération se soit en partie poursuivie."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quelle station spatiale soviétique, désorbitée en 2001, a précédé cette station comme principal avant-poste humain permanent en orbite ?",
+        "reponse": "La station Mir",
+        "propositions": ["La station Mir", "La station Saliout 7", "La station Skylab", "La station Tiangong"],
+        "explication": "La station russe Mir, en orbite de 1986 à 2001, fut le principal avant-poste spatial habité avant l'ère de la coopération internationale actuelle."
+      },
+      {
+        "question": "Quel accord international, signé en 1998, a formalisé juridiquement la coopération entre les quinze nations partenaires du programme ?",
+        "reponse": "L'accord intergouvernemental sur la Station spatiale",
+        "propositions": ["L'accord intergouvernemental sur la Station spatiale", "Le traité de l'espace de 1967 seul", "Le protocole de Vienne de 1996", "L'accord d'Artémis de 2020"],
+        "explication": "Signé en janvier 1998 par quinze pays, cet accord intergouvernemental encadre juridiquement la construction et l'exploitation de la station."
+      },
+      {
+        "question": "Quel record de durée cumulée dans l'espace, détenu par un astronaute américain à bord de cette station, a été établi en 2023 ?",
+        "reponse": "Le record de Frank Rubio (plus d'un an en continu)",
+        "propositions": ["Le record de Frank Rubio (plus d'un an en continu)", "Le record de Scott Kelly (exactement un an)", "Le record de Peggy Whitson établi uniquement en 2007", "Le record de Christina Koch établi uniquement en 2019"],
+        "explication": "Frank Rubio a établi en 2023 le record américain de la plus longue mission spatiale continue, dépassant 370 jours à bord de la station."
+      },
+      {
+        "question": "Quel cosmonaute russe détient le record mondial absolu du temps cumulé passé dans l'espace, en grande partie à bord de cette station et de Mir ?",
+        "reponse": "Guennadi Padalka",
+        "propositions": ["Guennadi Padalka", "Valeri Polyakov", "Youri Malenchenko", "Sergueï Krikaliov"],
+        "explication": "Guennadi Padalka cumule plus de 878 jours dans l'espace au total sur l'ensemble de sa carrière, un record mondial."
+      },
+      {
+        "question": "Quelle expérience de physique fondamentale, étudiant les atomes ultra-froids, a été installée à bord de la station en 2018 ?",
+        "reponse": "Le laboratoire d'atomes froids (Cold Atom Lab)",
+        "propositions": ["Le laboratoire d'atomes froids (Cold Atom Lab)", "Le détecteur de matière noire AMS-02 seul", "Le télescope NICER seul", "L'expérience ACE seule"],
+        "explication": "Le Cold Atom Lab de la NASA permet de créer et d'étudier des condensats de Bose-Einstein en microgravité, impossible à reproduire aussi précisément sur Terre."
+      },
+      {
+        "question": "Quel instrument scientifique majeur, dédié à la détection de matière noire et d'antimatière, est fixé à l'extérieur de cette station depuis 2011 ?",
+        "reponse": "Le spectromètre magnétique Alpha (AMS-02)",
+        "propositions": ["Le spectromètre magnétique Alpha (AMS-02)", "Le télescope Hubble", "Le détecteur LIGO", "Le satellite Planck"],
+        "explication": "AMS-02, installé en 2011, est un détecteur de particules fixé à l'extérieur de la station pour étudier les rayons cosmiques."
+      },
+      {
+        "question": "Quelle entreprise privée américaine a été sélectionnée par la NASA pour développer un module commercial destiné à être arrimé à la station ?",
+        "reponse": "Axiom Space",
+        "propositions": ["Axiom Space", "Blue Origin seul", "Boeing seul pour cette mission", "Sierra Space seul pour ce module"],
+        "explication": "Axiom Space a été sélectionnée pour développer des modules commerciaux destinés à s'arrimer à la station, dans la perspective d'une future station privée."
+      },
+      {
+        "question": "Quelle année est actuellement envisagée pour la désorbitation contrôlée définitive de cette station en fin de vie ?",
+        "reponse": "Vers 2030-2031",
+        "propositions": ["Vers 2030-2031", "2025", "2050", "2040"],
+        "explication": "La NASA et ses partenaires envisagent une désorbitation contrôlée de la station vers 2030-2031, avec l'aide d'un véhicule de désorbitation dédié."
+      },
+      {
+        "question": "Quel vaisseau cargo privé américain, développé par Northrop Grumman, assure régulièrement le ravitaillement de la station depuis 2013 ?",
+        "reponse": "Cygnus",
+        "propositions": ["Cygnus", "Dragon", "Progress", "HTV"],
+        "explication": "Le vaisseau cargo Cygnus, développé par Northrop Grumman (anciennement Orbital Sciences), ravitaille la station depuis 2013."
+      },
+      {
+        "question": "Quel programme de la NASA, lancé en 2006, a permis le développement commercial de plusieurs vaisseaux cargo et habités desservant la station ?",
+        "reponse": "Le programme COTS (Commercial Orbital Transportation Services)",
+        "propositions": ["Le programme COTS (Commercial Orbital Transportation Services)", "Le programme Artemis", "Le programme Constellation", "Le programme Mercury"],
+        "explication": "Le programme COTS, initié en 2006, a permis l'essor de prestataires privés comme SpaceX et Orbital Sciences pour desservir la station."
+      }
+    ]
+  }
+}

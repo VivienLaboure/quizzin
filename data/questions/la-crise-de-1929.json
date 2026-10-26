@@ -1,0 +1,191 @@
+{
+  "theme": "La crise de 1929",
+  "questions": {
+    "1": [
+      {
+        "question": "Dans quel pays cette crise économique majeure a-t-elle débuté en 1929 ?",
+        "reponse": "Les États-Unis",
+        "propositions": ["Les États-Unis", "Le Royaume-Uni", "L'Allemagne", "La France"],
+        "explication": "Cette crise a débuté aux États-Unis, avant de se propager à l'économie mondiale."
+      },
+      {
+        "question": "Dans quelle ville américaine se trouve la place boursière où s'est produit le krach initial ?",
+        "reponse": "New York",
+        "propositions": ["New York", "Chicago", "Boston", "Washington"],
+        "explication": "Le krach s'est produit à Wall Street, le quartier financier de New York, en octobre 1929."
+      },
+      {
+        "question": "En quel mois de l'année 1929 le krach boursier initial a-t-il eu lieu ?",
+        "reponse": "Octobre",
+        "propositions": ["Octobre", "Janvier", "Juin", "Décembre"],
+        "explication": "Le krach a eu lieu en octobre 1929, notamment lors des journées tristement célèbres des 24 et 29 octobre."
+      },
+      {
+        "question": "Quelle période économique difficile, qui a suivi ce krach dans le monde entier, est connue sous un nom évoquant une saison économique sombre ?",
+        "reponse": "La Grande Dépression",
+        "propositions": ["La Grande Dépression", "Le Grand Hiver", "La Grande Récession", "La Grande Famine"],
+        "explication": "La « Grande Dépression » désigne la longue période de crise économique mondiale qui a suivi le krach de 1929."
+      },
+      {
+        "question": "Quelle conséquence sociale dramatique, touchant des millions de personnes, a marqué les années suivant cette crise aux États-Unis ?",
+        "reponse": "Un chômage massif",
+        "propositions": ["Un chômage massif", "Une pénurie d'eau", "Une épidémie de peste", "Une invasion militaire"],
+        "explication": "Le chômage a explosé aux États-Unis, touchant jusqu'à environ un quart de la population active."
+      },
+      {
+        "question": "Quel président américain a été élu en 1932, en partie pour répondre à cette crise par un vaste programme de réformes ?",
+        "reponse": "Franklin D. Roosevelt",
+        "propositions": ["Franklin D. Roosevelt", "Herbert Hoover", "Woodrow Wilson", "Calvin Coolidge"],
+        "explication": "Franklin D. Roosevelt est élu en 1932 et lance peu après son fameux programme de réformes économiques."
+      },
+      {
+        "question": "Comment s'appelle le vaste ensemble de réformes mis en place par Roosevelt pour relancer l'économie américaine ?",
+        "reponse": "Le New Deal",
+        "propositions": ["Le New Deal", "Le Green Deal", "Le Fair Deal", "Le Square Deal"],
+        "explication": "Le New Deal, lancé à partir de 1933, visait à relancer l'économie et à réformer le système financier américain."
+      },
+      {
+        "question": "Cette crise économique a-t-elle eu des répercussions en dehors des États-Unis, notamment en Europe ?",
+        "reponse": "Oui, elle est devenue une crise mondiale",
+        "propositions": ["Oui, elle est devenue une crise mondiale", "Non, elle est restée strictement américaine", "Non, seule l'Asie fut touchée", "Non, seule l'Amérique du Sud fut touchée"],
+        "explication": "La crise s'est rapidement propagée à l'échelle mondiale, touchant durement l'Europe et d'autres régions du globe."
+      },
+      {
+        "question": "Quelles institutions financières ont connu de nombreuses faillites massives dans les années qui ont suivi ce krach ?",
+        "reponse": "Les banques",
+        "propositions": ["Les banques", "Les universités", "Les hôpitaux", "Les musées"],
+        "explication": "De nombreuses banques ont fait faillite dans les années suivant le krach, aggravant encore la crise économique."
+      },
+      {
+        "question": "Quel terme désigne la longue file d'attente de personnes pauvres devant des soupes populaires, image emblématique de cette période ?",
+        "reponse": "Les files d'attente aux soupes populaires",
+        "propositions": ["Les files d'attente aux soupes populaires", "Les défilés militaires", "Les cortèges funéraires", "Les processions religieuses"],
+        "explication": "Les files d'attente devant les soupes populaires sont restées une image emblématique de la misère de cette période."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel jour précis d'octobre 1929, surnommé « jeudi noir », a vu la bourse de New York connaître une première chute brutale ?",
+        "reponse": "Le 24 octobre 1929",
+        "propositions": ["Le 24 octobre 1929", "Le 29 octobre 1929", "Le 1er octobre 1929", "Le 15 octobre 1929"],
+        "explication": "Le « jeudi noir » du 24 octobre 1929 marque le début des grandes ventes paniques à Wall Street."
+      },
+      {
+        "question": "Quel jour, surnommé « mardi noir », a vu l'effondrement définitif des cours boursiers quelques jours après le jeudi noir ?",
+        "reponse": "Le 29 octobre 1929",
+        "propositions": ["Le 29 octobre 1929", "Le 24 octobre 1929", "Le 31 décembre 1929", "Le 4 mars 1929"],
+        "explication": "Le « mardi noir » du 29 octobre 1929 a vu l'effondrement massif et définitif des cours, aggravant la panique bancaire."
+      },
+      {
+        "question": "Quelle loi protectionniste américaine de 1930, en relevant fortement les droits de douane, a aggravé la crise en freinant le commerce international ?",
+        "reponse": "La loi Smoot-Hawley",
+        "propositions": ["La loi Smoot-Hawley", "La loi Glass-Steagall", "La loi Sherman", "La loi Dodd-Frank"],
+        "explication": "La loi Smoot-Hawley de 1930 a relevé drastiquement les droits de douane américains, provoquant des représailles commerciales mondiales."
+      },
+      {
+        "question": "Quelle loi bancaire américaine de 1933, adoptée dans le cadre du New Deal, a séparé les activités de banque de dépôt et de banque d'investissement ?",
+        "reponse": "Le Glass-Steagall Act",
+        "propositions": ["Le Glass-Steagall Act", "Le Smoot-Hawley Act", "Le Sherman Act", "Le Taft-Hartley Act"],
+        "explication": "Le Glass-Steagall Act de 1933 a instauré une séparation stricte entre banques de dépôt et banques d'investissement, en réaction à la crise."
+      },
+      {
+        "question": "Quelle institution fédérale américaine, créée en 1933 pour garantir les dépôts bancaires des particuliers, visait à restaurer la confiance dans le système bancaire ?",
+        "reponse": "La FDIC (Federal Deposit Insurance Corporation)",
+        "propositions": ["La FDIC (Federal Deposit Insurance Corporation)", "La Réserve fédérale (créée en 1913)", "La SEC seule", "Le FMI"],
+        "explication": "La FDIC, créée en 1933, garantit les dépôts bancaires des particuliers afin de prévenir les paniques bancaires."
+      },
+      {
+        "question": "Quelle banque française centrale a dû faire face à une importante fuite de capitaux et à des tensions sur le franc durant cette période de crise ?",
+        "reponse": "La Banque de France",
+        "propositions": ["La Banque de France", "La Deutsche Bundesbank", "La Banque d'Angleterre", "La Reichsbank"],
+        "explication": "La Banque de France a dû gérer d'importantes tensions monétaires alors que la crise se propageait en Europe au début des années 1930."
+      },
+      {
+        "question": "Quel pays européen a connu, en 1931, la faillite retentissante de la banque Creditanstalt, aggravant la propagation de la crise sur le continent ?",
+        "reponse": "L'Autriche",
+        "propositions": ["L'Autriche", "La Suisse", "La Belgique", "Les Pays-Bas"],
+        "explication": "La faillite de la banque autrichienne Creditanstalt en 1931 a joué un rôle majeur dans la propagation de la crise bancaire en Europe."
+      },
+      {
+        "question": "Quel pays a quitté l'étalon-or dès 1931, parmi les premiers à le faire pour tenter de limiter les effets de la crise ?",
+        "reponse": "Le Royaume-Uni",
+        "propositions": ["Le Royaume-Uni", "Les États-Unis", "La France", "La Suisse"],
+        "explication": "Le Royaume-Uni abandonna l'étalon-or en septembre 1931, parmi les premières grandes puissances à le faire."
+      },
+      {
+        "question": "En quelle année les États-Unis ont-ils à leur tour abandonné la convertibilité-or du dollar pour les particuliers, sous Roosevelt ?",
+        "reponse": "1933",
+        "propositions": ["1933", "1929", "1945", "1971"],
+        "explication": "Roosevelt suspend en 1933 la convertibilité-or du dollar pour les particuliers, une mesure clé de relance monétaire."
+      },
+      {
+        "question": "Quel économiste britannique a développé, en réaction à cette crise, une théorie plaidant pour l'intervention active de l'État dans l'économie ?",
+        "reponse": "John Maynard Keynes",
+        "propositions": ["John Maynard Keynes", "Milton Friedman", "Adam Smith", "David Ricardo"],
+        "explication": "John Maynard Keynes a développé sa théorie de l'intervention étatique en réaction directe aux ravages économiques de cette crise."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel économiste américain, avec Anna Schwartz, a attribué dans les années 1960 la gravité de cette crise à une politique monétaire trop restrictive de la Réserve fédérale ?",
+        "reponse": "Milton Friedman",
+        "propositions": ["Milton Friedman", "John Maynard Keynes", "Irving Fisher", "Joseph Schumpeter"],
+        "explication": "Milton Friedman et Anna Schwartz ont soutenu dans « A Monetary History of the United States » que la Fed avait aggravé la crise par une politique monétaire trop restrictive."
+      },
+      {
+        "question": "Quel économiste américain, célèbre pour sa théorie de la dette-déflation, a lui-même perdu une grande partie de sa fortune personnelle lors du krach de 1929 ?",
+        "reponse": "Irving Fisher",
+        "propositions": ["Irving Fisher", "John Kenneth Galbraith", "Paul Samuelson", "Wesley Mitchell"],
+        "explication": "Irving Fisher, célèbre économiste, perdit une fortune personnelle considérable lors du krach qu'il avait pourtant mal anticipé, puis théorisa la dette-déflation."
+      },
+      {
+        "question": "Quel président américain, en fonction au moment du krach de 1929, a longtemps été critiqué pour son inaction initiale face à la crise naissante ?",
+        "reponse": "Herbert Hoover",
+        "propositions": ["Herbert Hoover", "Franklin D. Roosevelt", "Calvin Coolidge", "Warren Harding"],
+        "explication": "Herbert Hoover, président au moment du krach, est resté historiquement associé à une réponse jugée insuffisante face à l'ampleur de la crise."
+      },
+      {
+        "question": "Quel économiste canadien, auteur de « The Great Crash, 1929 », a écrit l'une des analyses historiques les plus célèbres de cet événement ?",
+        "reponse": "John Kenneth Galbraith",
+        "propositions": ["John Kenneth Galbraith", "Paul Krugman", "Thorstein Veblen", "Simon Kuznets"],
+        "explication": "John Kenneth Galbraith a publié en 1955 « The Great Crash, 1929 », ouvrage de référence sur les mécanismes de la crise."
+      },
+      {
+        "question": "Quelle agence fédérale américaine de régulation des marchés financiers a été créée en 1934 en réaction directe à ce krach boursier ?",
+        "reponse": "La SEC (Securities and Exchange Commission)",
+        "propositions": ["La SEC (Securities and Exchange Commission)", "La Réserve fédérale", "La FDIC", "La FTC"],
+        "explication": "La SEC, créée en 1934, fut instaurée pour réguler les marchés boursiers américains et prévenir de nouveaux abus financiers."
+      },
+      {
+        "question": "Quel phénomène spéculatif, caractérisé par l'achat d'actions à crédit avec une faible mise de fonds initiale, a largement amplifié la bulle boursière des années 1920 ?",
+        "reponse": "L'achat sur marge",
+        "propositions": ["L'achat sur marge", "Le day trading algorithmique", "La vente à découvert généralisée", "Le trading haute fréquence"],
+        "explication": "L'achat d'actions « sur marge », à crédit avec un faible apport personnel, a démultiplié les effets de l'euphorie puis de la panique boursière."
+      },
+      {
+        "question": "Quel programme du New Deal, consacré à la création d'emplois publics massifs dans les infrastructures, fut lancé en 1935 ?",
+        "reponse": "La Works Progress Administration (WPA)",
+        "propositions": ["La Works Progress Administration (WPA)", "La Tennessee Valley Authority seule", "La Federal Housing Administration seule", "La Civilian Conservation Corps seule"],
+        "explication": "La WPA, lancée en 1935, employa des millions d'Américains sur des grands chantiers d'infrastructures publiques."
+      },
+      {
+        "question": "Quelle décision de la Cour suprême américaine, en 1935, a invalidé certaines lois phares du premier New Deal, jugées anticonstitutionnelles ?",
+        "reponse": "L'arrêt Schechter Poultry Corp. v. United States",
+        "propositions": ["L'arrêt Schechter Poultry Corp. v. United States", "L'arrêt Marbury v. Madison", "L'arrêt Brown v. Board of Education", "L'arrêt Lochner v. New York"],
+        "explication": "L'arrêt Schechter de 1935 invalida le National Industrial Recovery Act, poussant Roosevelt à réformer son approche économique."
+      },
+      {
+        "question": "Quel grand pays d'Amérique latine a connu une grave crise économique et un coup d'État en 1930, en partie lié aux répercussions de la crise mondiale ?",
+        "reponse": "Le Brésil (chute du café, révolution de 1930)",
+        "propositions": ["Le Brésil (chute du café, révolution de 1930)", "Le Mexique", "Le Chili", "La Colombie"],
+        "explication": "L'effondrement des cours mondiaux du café frappa durement le Brésil, contribuant à la révolution de 1930 et à l'arrivée au pouvoir de Getúlio Vargas."
+      },
+      {
+        "question": "Quel terme technique désigne la spirale économique négative, théorisée notamment par Irving Fisher, où la baisse des prix aggrave le poids réel des dettes ?",
+        "reponse": "La dette-déflation",
+        "propositions": ["La dette-déflation", "La stagflation", "L'hyperinflation", "La trappe à liquidité seule"],
+        "explication": "La théorie de la dette-déflation décrit comment la chute des prix augmente mécaniquement le poids réel des dettes, aggravant les faillites en cascade."
+      }
+    ]
+  }
+}

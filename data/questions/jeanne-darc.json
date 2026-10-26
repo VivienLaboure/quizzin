@@ -1,0 +1,191 @@
+{
+  "theme": "Jeanne d'Arc",
+  "questions": {
+    "1": [
+      {
+        "question": "Dans quelle région française est née la jeune bergère qui prétendait entendre des voix divines ?",
+        "reponse": "La Lorraine (Domrémy)",
+        "propositions": ["La Lorraine (Domrémy)", "La Bretagne", "La Provence", "La Normandie"],
+        "explication": "Jeanne est née vers 1412 à Domrémy, un village de Lorraine."
+      },
+      {
+        "question": "Quelle ville assiégée par les Anglais a-t-elle contribué à délivrer en 1429, un épisode célèbre de la guerre de Cent Ans ?",
+        "reponse": "Orléans",
+        "propositions": ["Orléans", "Reims", "Rouen", "Paris"],
+        "explication": "La levée du siège d'Orléans en mai 1429 est son fait d'armes le plus célèbre."
+      },
+      {
+        "question": "Quel roi de France a-t-elle accompagné jusqu'à son sacre à Reims en 1429 ?",
+        "reponse": "Charles VII",
+        "propositions": ["Charles VII", "Louis XI", "Charles VI", "Philippe VI"],
+        "explication": "Jeanne a convaincu le dauphin Charles de se faire sacrer roi à Reims, légitimant son pouvoir."
+      },
+      {
+        "question": "Dans quelle ville a-t-elle été jugée puis exécutée en 1431 ?",
+        "reponse": "Rouen",
+        "propositions": ["Rouen", "Orléans", "Paris", "Compiègne"],
+        "explication": "Capturée à Compiègne, elle fut livrée aux Anglais et jugée à Rouen, alors sous contrôle anglais."
+      },
+      {
+        "question": "Quel surnom est resté associé à cette héroïne originaire de Lorraine ?",
+        "reponse": "La Pucelle",
+        "propositions": ["La Pucelle", "La Lionne", "La Colombe", "La Bergère"],
+        "explication": "Jeanne était surnommée « la Pucelle » (la jeune fille vierge) de son vivant déjà."
+      },
+      {
+        "question": "Par quel supplice a-t-elle été mise à mort en 1431 ?",
+        "reponse": "Le bûcher",
+        "propositions": ["Le bûcher", "La pendaison", "La décapitation", "La noyade"],
+        "explication": "Condamnée comme hérétique, elle fut brûlée vive sur la place du Vieux-Marché à Rouen."
+      },
+      {
+        "question": "Quel conflit opposant la France et l'Angleterre formait la toile de fond de son épopée ?",
+        "reponse": "La guerre de Cent Ans",
+        "propositions": ["La guerre de Cent Ans", "Les guerres de religion", "La guerre de Succession d'Espagne", "La Fronde"],
+        "explication": "La guerre de Cent Ans opposa la France et l'Angleterre de 1337 à 1453."
+      },
+      {
+        "question": "Vers quel âge cette jeune paysanne a-t-elle commencé à entendre des voix qu'elle attribuait à des saints ?",
+        "reponse": "Treize ans",
+        "propositions": ["Treize ans", "Six ans", "Vingt ans", "Huit ans"],
+        "explication": "Elle aurait commencé à entendre ces voix vers l'âge de treize ans, selon ses propres déclarations au procès."
+      },
+      {
+        "question": "En quel siècle cette figure historique française a-t-elle vécu ?",
+        "reponse": "Le XVe siècle",
+        "propositions": ["Le XVe siècle", "Le XIIIe siècle", "Le XVIe siècle", "Le XIVe siècle"],
+        "explication": "Elle est née vers 1412 et morte en 1431, soit au tout début du XVe siècle."
+      },
+      {
+        "question": "Quelle attitude vestimentaire, jugée scandaleuse à l'époque, lui a notamment été reprochée lors de son procès ?",
+        "reponse": "Le port d'habits d'homme",
+        "propositions": ["Le port d'habits d'homme", "Le refus de se marier", "Le refus de prier", "Le port de bijoux"],
+        "explication": "Le port d'habits masculins fut l'un des chefs d'accusation retenus contre elle lors de son procès en hérésie."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel siège, après celui d'Orléans, a-t-elle contribué à lever lors de la célèbre « campagne de la Loire » en 1429 ?",
+        "reponse": "Celui de Jargeau",
+        "propositions": ["Celui de Jargeau", "Celui de Calais", "Celui de Harfleur", "Celui de Dijon"],
+        "explication": "Jargeau fut repris aux Anglais en juin 1429, peu après la libération d'Orléans."
+      },
+      {
+        "question": "Quelle bataille, remportée en juin 1429, a ouvert la route de Reims à l'armée royale qu'elle accompagnait ?",
+        "reponse": "La bataille de Patay",
+        "propositions": ["La bataille de Patay", "La bataille d'Azincourt", "La bataille de Crécy", "La bataille de Formigny"],
+        "explication": "La victoire de Patay en juin 1429 fut décisive, écrasant l'arrière-garde anglaise."
+      },
+      {
+        "question": "Quel seigneur français l'a fait escorter jusqu'à la cour du dauphin Charles à Chinon en 1429 ?",
+        "reponse": "Robert de Baudricourt",
+        "propositions": ["Robert de Baudricourt", "Gilles de Rais", "Jean de Dunois", "La Hire"],
+        "explication": "Robert de Baudricourt, capitaine de Vaucouleurs, finit par accepter de l'escorter jusqu'à Chinon."
+      },
+      {
+        "question": "Devant quelle ville son attaque a-t-elle échoué en septembre 1429, marquant un tournant dans sa campagne ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Rouen", "Calais", "Troyes"],
+        "explication": "L'assaut sur Paris, alors tenue par les Bourguignons et les Anglais, se solda par un échec en septembre 1429."
+      },
+      {
+        "question": "Par quelle faction française, alliée des Anglais, a-t-elle été capturée à Compiègne en 1430 ?",
+        "reponse": "Les Bourguignons",
+        "propositions": ["Les Bourguignons", "Les Armagnacs", "Les Angevins", "Les Bretons"],
+        "explication": "Elle fut capturée par les troupes du duc de Bourgogne, allié des Anglais, lors d'une sortie à Compiègne."
+      },
+      {
+        "question": "Pour quelle somme a-t-elle été vendue aux Anglais par les Bourguignons après sa capture ?",
+        "reponse": "10 000 livres",
+        "propositions": ["10 000 livres", "1 000 livres", "100 000 livres", "500 livres"],
+        "explication": "Jean de Luxembourg la vendit aux Anglais pour la somme de 10 000 livres tournois."
+      },
+      {
+        "question": "Quel évêque français a présidé son procès en hérésie à Rouen en 1431 ?",
+        "reponse": "Pierre Cauchon",
+        "propositions": ["Pierre Cauchon", "Jean Gerson", "Regnault de Chartres", "Thomas de Courcelles"],
+        "explication": "Pierre Cauchon, évêque de Beauvais favorable aux Anglais, présida le procès qui la condamna."
+      },
+      {
+        "question": "En quelle année un second procès, dit « de réhabilitation », a-t-il officiellement annulé sa condamnation ?",
+        "reponse": "1456",
+        "propositions": ["1456", "1431", "1500", "1449"],
+        "explication": "Le procès en nullité, voulu par Charles VII, aboutit en 1456 à la réhabilitation de Jeanne."
+      },
+      {
+        "question": "Quel capitaine de guerre, réputé pour son caractère bouillant, combattit régulièrement à ses côtés durant la campagne de la Loire ?",
+        "reponse": "La Hire",
+        "propositions": ["La Hire", "Du Guesclin", "Bayard", "Dunois"],
+        "explication": "Étienne de Vignolles, dit La Hire, fut l'un de ses plus fidèles compagnons d'armes."
+      },
+      {
+        "question": "Quel titre honorifique Charles VII a-t-il accordé à sa famille en reconnaissance de ses services, l'anoblissant ?",
+        "reponse": "Le nom « du Lys »",
+        "propositions": ["Le nom « du Lys »", "Le titre de duchesse", "Le titre de comtesse", "Le nom « de Valois »"],
+        "explication": "Charles VII anoblit la famille de Jeanne sous le nom « du Lys », en référence à la fleur de lys royale."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel ordre religieux, fondé plusieurs siècles après sa mort, a joué un rôle actif dans la promotion de sa cause de canonisation ?",
+        "reponse": "Les évêques catholiques français du XIXe siècle",
+        "propositions": ["Les évêques catholiques français du XIXe siècle", "Les Jésuites du XVIe siècle", "Les Templiers", "Les Franciscains du XIIIe siècle"],
+        "explication": "C'est au XIXe siècle que l'épiscopat français relance activement la cause de béatification de Jeanne d'Arc."
+      },
+      {
+        "question": "En quelle année a-t-elle été canonisée par l'Église catholique ?",
+        "reponse": "1920",
+        "propositions": ["1920", "1456", "1803", "1870"],
+        "explication": "Jeanne d'Arc a été canonisée par le pape Benoît XV en 1920, après sa béatification en 1909."
+      },
+      {
+        "question": "Quel document médiéval, retrouvé et étudié, rapporte en détail les minutes du procès en condamnation de 1431 ?",
+        "reponse": "Le procès de condamnation (minute originale en latin)",
+        "propositions": ["Le procès de condamnation (minute originale en latin)", "La Chronique de Saint-Denis seule", "Le Journal d'un bourgeois de Paris seul", "Les Grandes Chroniques de France seules"],
+        "explication": "Les minutes du procès de 1431, conservées et traduites, restent la source la plus détaillée sur son parcours et ses propos."
+      },
+      {
+        "question": "Quel théologien parisien, favorable à Jeanne, rédigea un traité défendant la légitimité de sa mission dès 1429 ?",
+        "reponse": "Jean Gerson",
+        "propositions": ["Jean Gerson", "Pierre Cauchon", "Thomas de Courcelles", "Nicolas Midi"],
+        "explication": "Le théologien Jean Gerson rédigea un court traité favorable à Jeanne peu avant sa propre mort fin 1429."
+      },
+      {
+        "question": "Quelle expression désigne le mystérieux « signe » qu'elle aurait donné au dauphin Charles lors de leur première rencontre à Chinon ?",
+        "reponse": "Le secret de Chinon",
+        "propositions": ["Le secret de Chinon", "Le mystère de Vaucouleurs", "Le miracle d'Orléans", "L'épée de Fierbois"],
+        "explication": "Le « secret de Chinon » désigne un signe resté inconnu qu'elle aurait révélé au dauphin pour prouver sa mission, jamais clairement documenté."
+      },
+      {
+        "question": "Dans quelle église aurait-elle désigné l'emplacement d'une épée enterrée derrière l'autel, selon la tradition ?",
+        "reponse": "L'église Sainte-Catherine-de-Fierbois",
+        "propositions": ["L'église Sainte-Catherine-de-Fierbois", "La cathédrale de Reims", "La basilique de Saint-Denis", "La cathédrale de Chartres"],
+        "explication": "Selon la tradition, Jeanne aurait fait retrouver une épée cachée derrière l'autel de Sainte-Catherine-de-Fierbois."
+      },
+      {
+        "question": "Quel écrivain français, prix Nobel de littérature, publia en 1908 une biographie rationaliste et controversée de cette héroïne ?",
+        "reponse": "Anatole France",
+        "propositions": ["Anatole France", "Jules Michelet", "Fernand Braudel", "Georges Duby"],
+        "explication": "Anatole France publia en 1908 une « Vie de Jeanne d'Arc » qui s'attachait à démystifier les récits traditionnels, suscitant la controverse."
+      },
+      {
+        "question": "Quel qualificatif infamant, évoquant la pratique de la magie, les juges anglo-bourguignons employèrent-ils pour discréditer ses succès militaires ?",
+        "reponse": "Sorcière",
+        "propositions": ["Sorcière", "Espionne", "Voleuse", "Menteuse"],
+        "explication": "Ses adversaires la qualifiaient volontiers de sorcière pour discréditer des succès militaires jugés surnaturels pour une jeune paysanne."
+      },
+      {
+        "question": "Quelle année précise marque l'ouverture du procès en nullité voulu par Charles VII pour laver sa mémoire ?",
+        "reponse": "1455",
+        "propositions": ["1455", "1431", "1461", "1450"],
+        "explication": "Le procès en nullité s'ouvrit en 1455 à la demande de Charles VII, soucieux de laver la mémoire de celle qui l'avait fait sacrer."
+      },
+      {
+        "question": "Quelle bataille de 1428, précédant son intervention, avait vu les Anglais commencer le siège qu'elle allait contribuer à lever ?",
+        "reponse": "Le début du siège d'Orléans",
+        "propositions": ["Le début du siège d'Orléans", "La bataille de Verneuil", "La bataille de Cravant", "Le siège de Meaux"],
+        "explication": "Le siège d'Orléans par les Anglais débuta en octobre 1428, avant d'être levé en mai 1429 grâce à l'intervention de Jeanne."
+      }
+    ]
+  }
+}

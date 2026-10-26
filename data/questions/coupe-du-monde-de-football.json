@@ -1,0 +1,191 @@
+{
+  "theme": "Coupe du monde de football",
+  "questions": {
+    "1": [
+      {
+        "question": "Tous les combien d'années la grande compétition mondiale de football masculin se déroule-t-elle ?",
+        "reponse": "Quatre ans",
+        "propositions": ["Quatre ans", "Deux ans", "Trois ans", "Cinq ans"],
+        "explication": "Cette compétition a lieu tous les quatre ans depuis sa création en 1930, sauf interruption pendant la Seconde Guerre mondiale."
+      },
+      {
+        "question": "Dans quel pays sud-américain la toute première édition de cette compétition s'est-elle déroulée, en 1930 ?",
+        "reponse": "L'Uruguay",
+        "propositions": ["L'Uruguay", "Le Brésil", "L'Argentine", "Le Chili"],
+        "explication": "La première édition eut lieu en Uruguay en 1930, pays hôte également vainqueur du tournoi."
+      },
+      {
+        "question": "Quel pays d'Amérique du Sud a remporté cette compétition un record de cinq fois ?",
+        "reponse": "Le Brésil",
+        "propositions": ["Le Brésil", "L'Argentine", "L'Uruguay", "Le Chili"],
+        "explication": "Le Brésil est le pays le plus titré de l'histoire de la compétition, avec cinq victoires."
+      },
+      {
+        "question": "Combien d'équipes participent à la phase finale de cette compétition depuis 1998, avant l'élargissement à 48 équipes en 2026 ?",
+        "reponse": "32 équipes",
+        "propositions": ["32 équipes", "16 équipes", "24 équipes", "40 équipes"],
+        "explication": "La phase finale comptait 32 équipes de 1998 à 2022, avant de passer à 48 équipes à partir de 2026."
+      },
+      {
+        "question": "En quelle année la France a-t-elle remporté cette compétition pour la première fois, en l'organisant elle-même ?",
+        "reponse": "1998",
+        "propositions": ["1998", "1984", "2006", "1958"],
+        "explication": "La France a remporté son premier titre en 1998, en tant que pays organisateur."
+      },
+      {
+        "question": "Quel trophée, en forme de deux figures humaines soulevant le globe terrestre, est remis depuis 1974 à l'équipe gagnante ?",
+        "reponse": "Le trophée de la Coupe du monde FIFA",
+        "propositions": ["Le trophée de la Coupe du monde FIFA", "La Coupe Jules Rimet", "Le Ballon d'or collectif", "La Coupe des Nations"],
+        "explication": "Le trophée actuel, en or massif, remplace la Coupe Jules Rimet depuis 1974."
+      },
+      {
+        "question": "Quel pays européen a remporté la compétition une seconde fois en 2018, en Russie ?",
+        "reponse": "La France",
+        "propositions": ["La France", "L'Allemagne", "L'Espagne", "La Belgique"],
+        "explication": "La France remporte son second titre mondial en 2018, menée notamment par Kylian Mbappé."
+      },
+      {
+        "question": "Quelle fédération internationale organise cette compétition mondiale depuis sa création ?",
+        "reponse": "La FIFA",
+        "propositions": ["La FIFA", "L'UEFA", "Le CIO", "La CAF"],
+        "explication": "La FIFA (Fédération Internationale de Football Association) organise cette compétition depuis 1930."
+      },
+      {
+        "question": "En quelle année l'Argentine a-t-elle remporté son troisième titre, avec Lionel Messi comme capitaine, au Qatar ?",
+        "reponse": "2022",
+        "propositions": ["2022", "2018", "2014", "2026"],
+        "explication": "L'Argentine a remporté son troisième titre mondial en 2022 au Qatar, après une finale mémorable contre la France."
+      },
+      {
+        "question": "Combien de matchs compte au minimum la phase finale pour l'équipe qui remporte le tournoi, de la phase de groupes à la finale (format à 32 équipes) ?",
+        "reponse": "Sept matchs",
+        "propositions": ["Sept matchs", "Cinq matchs", "Neuf matchs", "Six matchs"],
+        "explication": "Avec trois matchs de poules plus quatre matchs à élimination directe (huitièmes, quarts, demies, finale), le vainqueur dispute sept matchs."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel pays a accueilli l'édition de 2014, remportée par l'Allemagne face à l'Argentine en finale ?",
+        "reponse": "Le Brésil",
+        "propositions": ["Le Brésil", "L'Afrique du Sud", "La Russie", "Le Qatar"],
+        "explication": "Le Brésil organisa l'édition 2014, marquée par sa lourde défaite 7-1 en demi-finale face à l'Allemagne, future championne."
+      },
+      {
+        "question": "Quel pays africain est devenu, en 2010, le premier du continent à accueillir cette compétition ?",
+        "reponse": "L'Afrique du Sud",
+        "propositions": ["L'Afrique du Sud", "Le Maroc", "L'Égypte", "Le Nigeria"],
+        "explication": "L'Afrique du Sud a organisé l'édition 2010, une première pour le continent africain."
+      },
+      {
+        "question": "Quel pays moyen-oriental, climatiquement atypique, a organisé l'édition 2022 en novembre-décembre plutôt qu'en été ?",
+        "reponse": "Le Qatar",
+        "propositions": ["Le Qatar", "Les Émirats arabes unis", "L'Arabie saoudite", "Bahreïn"],
+        "explication": "En raison des fortes chaleurs estivales, l'édition 2022 au Qatar fut exceptionnellement déplacée à l'automne-hiver."
+      },
+      {
+        "question": "Quel pays a remporté quatre titres, un record en Europe, incluant ceux de 1954, 1974, 1990 et 2014 ?",
+        "reponse": "L'Allemagne",
+        "propositions": ["L'Allemagne", "L'Italie", "L'Espagne", "La France"],
+        "explication": "L'Allemagne (ou RFA avant 1990) compte quatre titres, un record pour une équipe européenne."
+      },
+      {
+        "question": "En quelle année trois pays nord-américains (États-Unis, Mexique, Canada) co-organiseront-ils conjointement l'édition élargie à 48 équipes ?",
+        "reponse": "2026",
+        "propositions": ["2026", "2022", "2030", "2034"],
+        "explication": "L'édition 2026 sera coorganisée par les États-Unis, le Mexique et le Canada, avec un format inédit à 48 équipes."
+      },
+      {
+        "question": "Quel pays a organisé l'édition de 2002, coorganisée pour la première fois par deux nations d'Asie ?",
+        "reponse": "Le Japon et la Corée du Sud",
+        "propositions": ["Le Japon et la Corée du Sud", "La Chine et le Japon", "La Thaïlande et le Vietnam", "L'Indonésie et la Malaisie"],
+        "explication": "L'édition 2002, remportée par le Brésil, fut la première co-organisée par deux pays, le Japon et la Corée du Sud."
+      },
+      {
+        "question": "Quel joueur français, meilleur buteur de l'édition 1998, a inscrit un doublé en finale contre le Brésil ?",
+        "reponse": "Zinédine Zidane",
+        "propositions": ["Zinédine Zidane", "Thierry Henry", "Youri Djorkaeff", "Emmanuel Petit"],
+        "explication": "Zinédine Zidane a marqué deux buts de la tête en finale 1998, menant la France à son premier titre."
+      },
+      {
+        "question": "Quelle sélection a atteint la finale de l'édition 2010 sans perdre un seul match, remportant le trophée aux Pays-Bas ?",
+        "reponse": "L'Espagne",
+        "propositions": ["L'Espagne", "L'Allemagne", "Le Brésil", "L'Uruguay"],
+        "explication": "L'Espagne remporta son unique titre mondial en 2010, en battant les Pays-Bas en finale sur un but d'Andrés Iniesta."
+      },
+      {
+        "question": "Quel pays a accueilli l'édition de 1986, remportée par l'Argentine grâce notamment au « but du siècle » de Maradona ?",
+        "reponse": "Le Mexique",
+        "propositions": ["Le Mexique", "L'Espagne", "L'Italie", "Les États-Unis"],
+        "explication": "Le Mexique accueillit l'édition 1986, marquée par les prouesses individuelles de Diego Maradona contre l'Angleterre."
+      },
+      {
+        "question": "Quel pays a accueilli l'édition de 1994, remportée par le Brésil face à l'Italie aux tirs au but ?",
+        "reponse": "Les États-Unis",
+        "propositions": ["Les États-Unis", "Le Canada", "Le Mexique", "L'Allemagne"],
+        "explication": "Les États-Unis accueillirent l'édition 1994, la seule finale à avoir été décidée aux tirs au but."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel nom est resté associé, dans la mémoire collective brésilienne, à la défaite surprise du pays hôte en finale de l'édition 1950 ?",
+        "reponse": "Le Maracanazo",
+        "propositions": ["Le Maracanazo", "Le Riocazo", "Le Pelezinho", "Le Samba Triste"],
+        "explication": "Le « Maracanazo » désigne le traumatisme national causé par la défaite du Brésil face à l'Uruguay au stade Maracanã en 1950."
+      },
+      {
+        "question": "Quel sélectionneur a mené le Brésil à son premier titre en 1958, année de la révélation mondiale d'un certain Pelé âgé de 17 ans ?",
+        "reponse": "Vicente Feola",
+        "propositions": ["Vicente Feola", "Mário Zagallo", "Telê Santana", "Aymoré Moreira"],
+        "explication": "Vicente Feola dirigeait la sélection brésilienne lors du sacre de 1958 en Suède, où le jeune Pelé explosa aux yeux du monde."
+      },
+      {
+        "question": "Quel pays a vu son équipe nationale de football disparaître institutionnellement entre les éditions 1990 et 1994, pour des raisons géopolitiques majeures ?",
+        "reponse": "La Yougoslavie (dissolution du pays)",
+        "propositions": ["La Yougoslavie (dissolution du pays)", "L'Union soviétique uniquement", "La Tchécoslovaquie uniquement", "L'Allemagne de l'Est uniquement"],
+        "explication": "La dissolution violente de la Yougoslavie au début des années 1990 mit fin à l'existence de sa sélection nationale unifiée."
+      },
+      {
+        "question": "Quel joueur anglais est à l'origine du tristement célèbre « but fantôme » controversé de la finale 1966 contre l'Allemagne ?",
+        "reponse": "Geoff Hurst",
+        "propositions": ["Geoff Hurst", "Bobby Charlton", "Bobby Moore", "Gordon Banks"],
+        "explication": "Le tir de Geoff Hurst, dont le franchissement de la ligne de but resta controversé, offrit à l'Angleterre son unique titre en 1966."
+      },
+      {
+        "question": "Quelle sélection, tenante du titre en 1982, fut éliminée dès le second tour après deux défaites consécutives face au Brésil et à l'Italie ?",
+        "reponse": "L'Argentine",
+        "propositions": ["L'Argentine", "Le Brésil", "L'Italie", "L'Allemagne de l'Ouest"],
+        "explication": "L'Argentine, championne du monde en titre, fut sortie dès le second tour de l'édition 1982 en Espagne."
+      },
+      {
+        "question": "Quel arbitre argentin a dirigé la finale controversée de 2006, marquée par le coup de tête de Zidane sur Materazzi ?",
+        "reponse": "Horacio Elizondo",
+        "propositions": ["Horacio Elizondo", "Pierluigi Collina", "Howard Webb", "Markus Merk"],
+        "explication": "C'est l'Argentin Horacio Elizondo qui arbitra la finale 2006 et exclut Zidane après son coup de tête sur Materazzi."
+      },
+      {
+        "question": "Quel pays, absent de la compétition depuis plusieurs décennies, a provoqué la surprise en atteignant les demi-finales de l'édition 2018 ?",
+        "reponse": "La Croatie",
+        "propositions": ["La Croatie", "L'Islande", "Le Panama", "La Belgique"],
+        "explication": "La Croatie atteignit sa première finale mondiale en 2018, perdue face à la France, un parcours exceptionnel pour un petit pays."
+      },
+      {
+        "question": "Quelle technologie, introduite progressivement à partir de 2014 puis généralisée en 2018, aide désormais les arbitres à trancher les situations litigieuses ?",
+        "reponse": "L'assistance vidéo à l'arbitrage (VAR)",
+        "propositions": ["L'assistance vidéo à l'arbitrage (VAR)", "La goal-line technology seule", "Le système de puces dans le ballon seul", "La retransmission 3D"],
+        "explication": "La VAR (Video Assistant Referee) a été généralisée lors de l'édition 2018 en Russie pour limiter les erreurs arbitrales majeures."
+      },
+      {
+        "question": "Quel pays a vu sa sélection être interdite de participation à l'édition 2022 pour des raisons géopolitiques, suite à une invasion militaire ?",
+        "reponse": "La Russie",
+        "propositions": ["La Russie", "La Biélorussie seule", "L'Iran", "La Serbie"],
+        "explication": "La Russie fut exclue des éliminatoires de la Coupe du monde 2022 par la FIFA après son invasion de l'Ukraine en 2022."
+      },
+      {
+        "question": "Quel pays organisateur de l'édition 1978 a remporté le tournoi dans un contexte politique très contesté, sous une dictature militaire ?",
+        "reponse": "L'Argentine",
+        "propositions": ["L'Argentine", "Le Chili", "L'Uruguay", "Le Brésil"],
+        "explication": "L'Argentine remporta son premier titre à domicile en 1978, sous la dictature militaire de Jorge Videla, dans un climat très critiqué."
+      }
+    ]
+  }
+}

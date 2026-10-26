@@ -1,0 +1,191 @@
+{
+  "theme": "Claude Monet",
+  "questions": {
+    "1": [
+      {
+        "question": "À quel mouvement pictural français du XIXe siècle ce peintre est-il le plus étroitement associé ?",
+        "reponse": "L'impressionnisme",
+        "propositions": ["L'impressionnisme", "Le cubisme", "Le surréalisme", "Le fauvisme"],
+        "explication": "Ce peintre est considéré comme l'une des figures fondatrices et les plus emblématiques de l'impressionnisme."
+      },
+      {
+        "question": "Dans quel village normand a-t-il vécu la majeure partie de sa vie et créé son célèbre jardin ?",
+        "reponse": "Giverny",
+        "propositions": ["Giverny", "Honfleur", "Deauville", "Étretat"],
+        "explication": "Il s'installe à Giverny en 1883 et y aménage le fameux jardin aux nymphéas qui inspirera nombre de ses œuvres."
+      },
+      {
+        "question": "Quelle fleur aquatique est devenue l'un de ses sujets de prédilection, peinte dans de très nombreuses toiles ?",
+        "reponse": "Les nymphéas (nénuphars)",
+        "propositions": ["Les nymphéas (nénuphars)", "Les tournesols", "Les iris uniquement", "Les roses uniquement"],
+        "explication": "Les nymphéas de son bassin à Giverny ont inspiré l'une des plus vastes séries de l'histoire de la peinture."
+      },
+      {
+        "question": "Quel tableau, exposé en 1874, a donné son nom au mouvement impressionniste tout entier ?",
+        "reponse": "Impression, soleil levant",
+        "propositions": ["Impression, soleil levant", "Les Nymphéas", "La Gare Saint-Lazare", "Les Coquelicots"],
+        "explication": "Le titre de cette toile, moqué par un critique, a donné naissance au terme « impressionnisme »."
+      },
+      {
+        "question": "Dans quel pays européen ce peintre est-il né, en 1840 ?",
+        "reponse": "La France",
+        "propositions": ["La France", "La Belgique", "Les Pays-Bas", "La Suisse"],
+        "explication": "Claude Monet est né à Paris en 1840, avant de grandir au Havre, en Normandie."
+      },
+      {
+        "question": "Ce peintre privilégiait-il le travail en atelier fermé ou la peinture directement en extérieur ?",
+        "reponse": "La peinture en extérieur (en plein air)",
+        "propositions": ["La peinture en extérieur (en plein air)", "Exclusivement en atelier", "Jamais à l'extérieur", "Uniquement de mémoire, sans modèle"],
+        "explication": "Il privilégiait la peinture en plein air, cherchant à capter les variations de lumière directement sur le motif."
+      },
+      {
+        "question": "Quelle célèbre série de tableaux a-t-il consacrée à une cathédrale normande, peinte à différentes heures de la journée ?",
+        "reponse": "La série de la cathédrale de Rouen",
+        "propositions": ["La série de la cathédrale de Rouen", "La série de Notre-Dame de Paris", "La série de la cathédrale de Chartres", "La série de la cathédrale d'Amiens"],
+        "explication": "Il a peint plusieurs dizaines de vues de la cathédrale de Rouen pour en étudier les variations de lumière."
+      },
+      {
+        "question": "Quelle maladie oculaire a progressivement affecté sa vue dans les dernières années de sa vie ?",
+        "reponse": "La cataracte",
+        "propositions": ["La cataracte", "Le glaucome", "La myopie dégénérative", "Le daltonisme"],
+        "explication": "Atteint de cataracte, il continua néanmoins à peindre, modifiant sa perception des couleurs dans ses dernières œuvres."
+      },
+      {
+        "question": "Quel grand musée parisien abrite un ensemble monumental de ses toiles consacrées aux nymphéas, spécialement conçu pour les accueillir ?",
+        "reponse": "Le musée de l'Orangerie",
+        "propositions": ["Le musée de l'Orangerie", "Le musée d'Orsay", "Le Louvre", "Le Centre Pompidou"],
+        "explication": "Le musée de l'Orangerie, à Paris, présente dans deux salles ovales un ensemble exceptionnel de grands panneaux de nymphéas."
+      },
+      {
+        "question": "En quelle année ce peintre est-il mort, laissant derrière lui une œuvre considérable ?",
+        "reponse": "1926",
+        "propositions": ["1926", "1900", "1890", "1950"],
+        "explication": "Claude Monet s'éteint à Giverny en décembre 1926, à l'âge de 86 ans."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel port normand a-t-il peint à de multiples reprises, notamment dans sa toile fondatrice de l'impressionnisme ?",
+        "reponse": "Le Havre",
+        "propositions": ["Le Havre", "Cherbourg", "Dieppe", "Brest"],
+        "explication": "« Impression, soleil levant » représente le port du Havre, ville où le peintre a grandi."
+      },
+      {
+        "question": "Quel peintre, ami proche et figure du mouvement impressionniste, a notamment peint à ses côtés à Argenteuil ?",
+        "reponse": "Auguste Renoir",
+        "propositions": ["Auguste Renoir", "Paul Cézanne", "Henri Matisse", "Paul Gauguin"],
+        "explication": "Monet et Renoir ont peint ensemble à plusieurs reprises, notamment sur les bords de Seine à Argenteuil."
+      },
+      {
+        "question": "Dans quelle ville a eu lieu, en 1874, la première exposition collective qui donnera son nom au mouvement impressionniste ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Londres", "Giverny", "Rouen"],
+        "explication": "La première exposition impressionniste se tint à Paris, dans l'atelier du photographe Nadar, en avril 1874."
+      },
+      {
+        "question": "Quelle série de tableaux a-t-il consacrée aux meules de foin dans la campagne française, peintes à différentes saisons et heures ?",
+        "reponse": "La série des Meules",
+        "propositions": ["La série des Meules", "La série des Peupliers", "La série des Nymphéas", "La série des Falaises"],
+        "explication": "La série des Meules, peinte entre 1890 et 1891, étudie les effets changeants de lumière sur un même motif rural."
+      },
+      {
+        "question": "Dans quel pays a-t-il séjourné pour peindre une célèbre série consacrée au Parlement de Londres, dans la brume ?",
+        "reponse": "Le Royaume-Uni",
+        "propositions": ["Le Royaume-Uni", "Les Pays-Bas", "La Belgique", "L'Italie"],
+        "explication": "Il séjourna à Londres à plusieurs reprises au tournant du XXe siècle pour peindre le Parlement sous la brume."
+      },
+      {
+        "question": "Quel édifice ferroviaire parisien a-t-il représenté dans une série de toiles consacrées à la fumée et à la vapeur des locomotives ?",
+        "reponse": "La gare Saint-Lazare",
+        "propositions": ["La gare Saint-Lazare", "La gare de Lyon", "La gare du Nord", "La gare Montparnasse"],
+        "explication": "Sa série sur la gare Saint-Lazare (1877) illustre son intérêt pour les effets atmosphériques liés à la modernité industrielle."
+      },
+      {
+        "question": "Quel marchand d'art français a-t-il contribué de façon décisive à faire connaître et vendre ses œuvres, notamment aux États-Unis ?",
+        "reponse": "Paul Durand-Ruel",
+        "propositions": ["Paul Durand-Ruel", "Ambroise Vollard", "Daniel-Henry Kahnweiler", "Georges Petit seul"],
+        "explication": "Paul Durand-Ruel fut l'un des principaux soutiens financiers et marchands des impressionnistes, dont Monet."
+      },
+      {
+        "question": "Quel pont japonisant, construit dans son propre jardin de Giverny, est devenu l'un de ses motifs picturaux les plus célèbres ?",
+        "reponse": "Le pont japonais",
+        "propositions": ["Le pont japonais", "Le pont des Arts", "Le pont Alexandre III", "Le pont Mirabeau"],
+        "explication": "Inspiré par les estampes japonaises qu'il collectionnait, il fit construire un pont japonais dans son jardin de Giverny."
+      },
+      {
+        "question": "Avec quelle collection d'art asiatique le peintre avait-il une grande affinité, influençant la composition de certaines de ses toiles ?",
+        "reponse": "Les estampes japonaises (ukiyo-e)",
+        "propositions": ["Les estampes japonaises (ukiyo-e)", "La calligraphie chinoise", "La céramique coréenne", "Les miniatures persanes"],
+        "explication": "Monet était un grand collectionneur d'estampes japonaises, qui influencèrent fortement sa composition et son goût du jardin."
+      },
+      {
+        "question": "Quel autre grand peintre impressionniste, ami proche de Monet, a réalisé un célèbre portrait de lui en train de peindre sur un bateau-atelier ?",
+        "reponse": "Édouard Manet",
+        "propositions": ["Édouard Manet", "Edgar Degas", "Camille Pissarro", "Alfred Sisley"],
+        "explication": "Édouard Manet a peint Monet en train de travailler sur son bateau-atelier à Argenteuil, un hommage entre pairs."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel critique d'art français est l'auteur de l'article moqueur de 1874 qui a, sans le vouloir, donné son nom au mouvement impressionniste ?",
+        "reponse": "Louis Leroy",
+        "propositions": ["Louis Leroy", "Émile Zola", "Théophile Gautier", "Charles Baudelaire"],
+        "explication": "Le journaliste Louis Leroy, dans un article satirique du Charivari, railla « Impression, soleil levant », donnant ironiquement son nom au mouvement."
+      },
+      {
+        "question": "Quelle épouse et modèle du peintre, qui apparaît dans plusieurs de ses toiles dont « Femmes au jardin », est morte prématurément en 1879 ?",
+        "reponse": "Camille Doncieux",
+        "propositions": ["Camille Doncieux", "Alice Hoschedé", "Blanche Hoschedé", "Berthe Morisot"],
+        "explication": "Camille Doncieux, première épouse de Monet et modèle récurrent de ses œuvres, mourut en 1879, probablement de la tuberculose."
+      },
+      {
+        "question": "Quelle seconde compagne, puis épouse en secondes noces, a partagé la vie du peintre à Giverny après la mort de Camille ?",
+        "reponse": "Alice Hoschedé",
+        "propositions": ["Alice Hoschedé", "Berthe Morisot", "Suzanne Hoschedé", "Marthe Hoschedé"],
+        "explication": "Alice Hoschedé, veuve d'un ancien mécène de Monet, devint sa compagne puis son épouse, partageant sa vie à Giverny."
+      },
+      {
+        "question": "Quel site naturel normand, célèbre pour ses falaises de craie et son arche rocheuse, a-t-il peint dans une importante série de toiles ?",
+        "reponse": "Étretat",
+        "propositions": ["Étretat", "Belle-Île-en-Mer", "Les calanques de Cassis", "Le cap Fréhel"],
+        "explication": "Les falaises et l'arche naturelle d'Étretat ont inspiré de nombreuses toiles de Monet dans les années 1880."
+      },
+      {
+        "question": "Quel jeune homme politique français, ami proche de Monet et plusieurs fois président du Conseil, l'a aidé à faire don de la série des Nymphéas à l'État ?",
+        "reponse": "Georges Clemenceau",
+        "propositions": ["Georges Clemenceau", "Raymond Poincaré", "Jules Ferry", "Aristide Briand"],
+        "explication": "Georges Clemenceau, ami intime de Monet, fut l'intermédiaire déterminant dans le don des Grandes Décorations à l'État français."
+      },
+      {
+        "question": "Comment appelle-t-on l'ensemble monumental de panneaux de nymphéas offerts à l'État français, aujourd'hui exposés au musée de l'Orangerie ?",
+        "reponse": "Les Grandes Décorations",
+        "propositions": ["Les Grandes Décorations", "Le Cycle de l'eau", "Les Nymphéas bleus", "La Suite aquatique"],
+        "explication": "« Les Grandes Décorations » désigne officiellement l'ensemble des grands panneaux de nymphéas conçus pour le musée de l'Orangerie."
+      },
+      {
+        "question": "Quelle technique de juxtaposition de touches de couleurs pures, sans les mélanger sur la palette, caractérise en partie la méthode impressionniste de Monet ?",
+        "reponse": "Le mélange optique (touches juxtaposées)",
+        "propositions": ["Le mélange optique (touches juxtaposées)", "Le sfumato", "Le glacis classique", "L'aplat monochrome"],
+        "explication": "Plutôt que de mélanger les couleurs sur la palette, les impressionnistes juxtaposaient des touches pures, laissant l'œil du spectateur les fusionner optiquement."
+      },
+      {
+        "question": "Quel conflit mondial majeur était en cours lorsque Monet peignait les Grandes Décorations, qu'il envisagea alors comme un message de paix ?",
+        "reponse": "La Première Guerre mondiale",
+        "propositions": ["La Première Guerre mondiale", "La guerre franco-prussienne", "La Seconde Guerre mondiale", "La guerre d'Algérie"],
+        "explication": "Monet travailla sur les Grandes Décorations pendant la Première Guerre mondiale, les concevant notamment comme un hommage apaisant à la paix retrouvée."
+      },
+      {
+        "question": "Quel peintre post-impressionniste, admirateur de Monet, s'inspirera directement de sa série des Meules pour développer sa propre approche abstraite naissante ?",
+        "reponse": "Vassily Kandinsky",
+        "propositions": ["Vassily Kandinsky", "Georges Seurat", "Paul Signac", "Henri Matisse"],
+        "explication": "Kandinsky raconta avoir été profondément marqué par une Meule de Monet, où il peina d'abord à identifier le sujet représenté, étape clé vers l'abstraction."
+      },
+      {
+        "question": "Quel terme technique désigne la pratique de Monet consistant à peindre simultanément plusieurs toiles d'un même motif, pour suivre l'évolution rapide de la lumière ?",
+        "reponse": "Le travail « en série »",
+        "propositions": ["Le travail « en série »", "Le repentir pictural", "Le pastiche successif", "L'esquisse préparatoire"],
+        "explication": "Monet travaillait souvent sur plusieurs toiles en parallèle, changeant de support au fil de l'évolution de la lumière naturelle."
+      }
+    ]
+  }
+}

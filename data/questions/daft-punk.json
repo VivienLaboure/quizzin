@@ -1,0 +1,191 @@
+{
+  "theme": "Daft Punk",
+  "questions": {
+    "1": [
+      {
+        "question": "Combien de musiciens composent ce célèbre duo électronique français ?",
+        "reponse": "Deux",
+        "propositions": ["Deux", "Trois", "Un seul", "Quatre"],
+        "explication": "Ce duo est formé de deux musiciens français, connus pour performer casqués de costumes de robots."
+      },
+      {
+        "question": "Dans quelle ville française ce duo s'est-il formé au début des années 1990 ?",
+        "reponse": "Paris",
+        "propositions": ["Paris", "Lyon", "Marseille", "Toulouse"],
+        "explication": "Le duo s'est formé à Paris en 1993, par deux amis de lycée."
+      },
+      {
+        "question": "Quel accessoire est devenu la signature visuelle immédiatement reconnaissable des deux membres de ce duo ?",
+        "reponse": "Des casques de robot",
+        "propositions": ["Des casques de robot", "Des lunettes de soleil géantes", "Des masques de catcheur", "Des capes dorées"],
+        "explication": "Depuis le début des années 2000, les deux membres apparaissent systématiquement en public coiffés de casques de robot."
+      },
+      {
+        "question": "Quel style musical ce duo a-t-il principalement contribué à populariser à l'international ?",
+        "reponse": "La french touch (musique électronique française)",
+        "propositions": ["La french touch (musique électronique française)", "Le reggae", "Le jazz manouche", "La chanson réaliste"],
+        "explication": "Ce duo est l'un des fers de lance de la « french touch », courant electro/house français des années 1990-2000."
+      },
+      {
+        "question": "Quel titre, extrait de leur deuxième album, est devenu l'un de leurs morceaux les plus connus dans le monde entier ?",
+        "reponse": "One More Time",
+        "propositions": ["One More Time", "Get Lucky", "Around the World", "Harder Better Faster Stronger"],
+        "explication": "« One More Time » (2000), extrait de l'album « Discovery », est l'un de leurs titres les plus emblématiques."
+      },
+      {
+        "question": "Avec quel chanteur américain ont-ils collaboré sur le tube planétaire « Get Lucky » en 2013 ?",
+        "reponse": "Pharrell Williams",
+        "propositions": ["Pharrell Williams", "Justin Timberlake", "Bruno Mars", "The Weeknd"],
+        "explication": "« Get Lucky » (2013), featuring Pharrell Williams, fut l'un des plus gros succès mondiaux de l'année."
+      },
+      {
+        "question": "Comment s'appelle l'album sur lequel figure le titre « Get Lucky », sorti en 2013 ?",
+        "reponse": "Random Access Memories",
+        "propositions": ["Random Access Memories", "Discovery", "Homework", "Human After All"],
+        "explication": "« Random Access Memories » (2013) a marqué un retour à des sonorités plus organiques et a remporté plusieurs Grammy Awards."
+      },
+      {
+        "question": "En quelle année ce duo a-t-il officiellement annoncé sa séparation, après environ 28 ans de carrière ?",
+        "reponse": "2021",
+        "propositions": ["2021", "2015", "2018", "2013"],
+        "explication": "Le duo a annoncé sa séparation en février 2021, via une vidéo intitulée « Epilogue »."
+      },
+      {
+        "question": "Ce duo s'est-il principalement fait connaître dans la musique électronique ou dans le rock ?",
+        "reponse": "La musique électronique",
+        "propositions": ["La musique électronique", "Le rock", "Le classique", "Le rap"],
+        "explication": "Ce duo est avant tout associé à la musique électronique, bien qu'il ait intégré des éléments de funk et de disco."
+      },
+      {
+        "question": "Comment s'appelle leur tout premier album studio, sorti en 1997 ?",
+        "reponse": "Homework",
+        "propositions": ["Homework", "Discovery", "Human After All", "Random Access Memories"],
+        "explication": "« Homework », premier album du duo, est sorti en 1997 et a connu un grand succès critique et commercial."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quels sont les véritables noms (hors personnage de robot) des deux membres de ce duo ?",
+        "reponse": "Thomas Bangalter et Guy-Manuel de Homem-Christo",
+        "propositions": ["Thomas Bangalter et Guy-Manuel de Homem-Christo", "David Guetta et Bob Sinclar", "Laurent Garnier et Jean-Michel Jarre", "Étienne de Crécy et Alex Gopher"],
+        "explication": "Thomas Bangalter et Guy-Manuel de Homem-Christo se sont rencontrés au lycée Carnot à Paris avant de former le duo."
+      },
+      {
+        "question": "Quel nom portait le groupe de rock dans lequel les deux membres jouaient initialement, avant la formation de leur projet électronique ?",
+        "reponse": "Darlin'",
+        "propositions": ["Darlin'", "Phoenix", "Air", "Justice"],
+        "explication": "Avant de devenir un duo electro, les deux musiciens jouaient dans un groupe de rock indépendant nommé Darlin'."
+      },
+      {
+        "question": "Quelle critique négative d'un journaliste musical britannique, qualifiant leur groupe de rock de « daft punky thrash », a indirectement donné son nom au duo ?",
+        "reponse": "Une critique parue dans Melody Maker",
+        "propositions": ["Une critique parue dans Melody Maker", "Une critique parue dans Rolling Stone", "Une critique parue dans NME seul en 1999", "Une interview radio de la BBC"],
+        "explication": "La formule méprisante « daft punky thrash » utilisée par un critique du magazine britannique Melody Maker a inspiré le nom du duo."
+      },
+      {
+        "question": "Quel réalisateur français, connu pour des clips et films visuellement spectaculaires comme « Eternal Sunshine of the Spotless Mind », a réalisé l'un de leurs clips ?",
+        "reponse": "Michel Gondry",
+        "propositions": ["Michel Gondry", "Luc Besson", "Jean-Pierre Jeunet", "Mathieu Kassovitz"],
+        "explication": "Plusieurs réalisateurs de renom, dont Michel Gondry et Spike Jonze, ont réalisé des clips pour le duo."
+      },
+      {
+        "question": "Comment s'intitule le long métrage d'animation de science-fiction, sorti en 2003, construit autour de leur album « Discovery » ?",
+        "reponse": "Interstella 5555",
+        "propositions": ["Interstella 5555", "Daft Punk's Electroma", "Tron: Legacy", "D.A.F.T."],
+        "explication": "« Interstella 5555 » (2003) est un film d'animation japonais sans dialogue, mettant en scène l'intégralité de l'album « Discovery »."
+      },
+      {
+        "question": "Quel film, réalisé par les deux membres eux-mêmes en 2006, raconte l'histoire de deux robots en quête d'humanité, sans dialogue ?",
+        "reponse": "Daft Punk's Electroma",
+        "propositions": ["Daft Punk's Electroma", "Interstella 5555", "Tron: Legacy", "Alive 2007"],
+        "explication": "« Electroma » (2006), réalisé par le duo, est un film expérimental quasiment sans dialogue ni même leur propre musique."
+      },
+      {
+        "question": "Pour quel film de science-fiction Disney, sorti en 2010, ce duo a-t-il composé l'intégralité de la bande originale ?",
+        "reponse": "Tron: Legacy",
+        "propositions": ["Tron: Legacy", "Blade Runner 2049", "Gravity", "Ready Player One"],
+        "explication": "Le duo a composé la musique du film « Tron: Legacy » (2010), une incursion remarquée dans la musique de film."
+      },
+      {
+        "question": "Combien de prix Grammy l'album « Random Access Memories » a-t-il remportés lors de la cérémonie de 2014, dont celui de l'album de l'année ?",
+        "reponse": "Quatre",
+        "propositions": ["Quatre", "Deux", "Six", "Un seul"],
+        "explication": "« Random Access Memories » a remporté quatre Grammy Awards en 2014, dont celui, prestigieux, de l'album de l'année."
+      },
+      {
+        "question": "Quel félicitations particulière a marqué leur unique apparition télévisée sans casque, lors d'une émission française en 1994 ?",
+        "reponse": "Ils sont apparus à visage découvert dans l'émission Nulle Part Ailleurs",
+        "propositions": ["Ils sont apparus à visage découvert dans l'émission Nulle Part Ailleurs", "Ils ont chanté en duo avec Johnny Hallyday", "Ils ont reçu une Victoire de la musique en personne", "Ils ont donné une interview filmée pour Arte"],
+        "explication": "Avant d'adopter systématiquement leurs casques, le duo est brièvement apparu à visage découvert sur Canal+ au tout début de sa carrière."
+      },
+      {
+        "question": "Quel autre duo électronique français, souvent comparé au leur, partage avec eux l'étiquette de la « french touch » des années 1990-2000 ?",
+        "reponse": "Justice",
+        "propositions": ["Justice", "Coldplay", "The Chemical Brothers", "Swedish House Mafia"],
+        "explication": "Justice, duo électronique français plus tardif, est souvent présenté comme un héritier direct de l'esthétique du duo robotisé."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel label indépendant britannique, fondé en marge de la scène house, a sorti leur tout premier single « The New Wave » en 1994 ?",
+        "reponse": "Soma Quality Recordings",
+        "propositions": ["Soma Quality Recordings", "Warp Records", "Defected Records", "Ministry of Sound"],
+        "explication": "Leur premier single, « The New Wave », est sorti en 1994 sur le label écossais Soma Quality Recordings."
+      },
+      {
+        "question": "Quel terme technique désigne l'utilisation intensive d'un vocodeur et de l'auto-tune caractéristique de leur son, notamment sur « One More Time » ?",
+        "reponse": "La voix vocodée / robotisée",
+        "propositions": ["La voix vocodée / robotisée", "Le chant lyrique amplifié", "Le beatboxing numérique", "La polyphonie a cappella"],
+        "explication": "L'usage systématique du vocodeur pour robotiser les voix est l'une des signatures sonores les plus reconnaissables du duo."
+      },
+      {
+        "question": "Quelle tournée mondiale de 2006-2007, marquée par une scène pyramidale emblématique, a profondément influencé l'esthétique des concerts électroniques ultérieurs ?",
+        "reponse": "La tournée Alive 2006/2007",
+        "propositions": ["La tournée Alive 2006/2007", "La tournée Discovery World Tour", "La tournée Human After All Live", "La tournée Memories Tour"],
+        "explication": "La scène pyramidale lumineuse de la tournée Alive 2006/2007, immortalisée par l'album live « Alive 2007 », a marqué durablement l'histoire des concerts electro."
+      },
+      {
+        "question": "Quel studio d'animation japonais a collaboré avec le duo pour la réalisation du film « Interstella 5555 » en 2003 ?",
+        "reponse": "Toei Animation",
+        "propositions": ["Toei Animation", "Studio Ghibli", "Production I.G", "Madhouse"],
+        "explication": "« Interstella 5555 » fut réalisé en collaboration avec le studio japonais Toei Animation, avec un character design de Leiji Matsumoto."
+      },
+      {
+        "question": "Quel mangaka japonais de renom, créateur d'Albator, a dessiné les personnages du film « Interstella 5555 » ?",
+        "reponse": "Leiji Matsumoto",
+        "propositions": ["Leiji Matsumoto", "Akira Toriyama", "Katsuhiro Otomo", "Osamu Tezuka"],
+        "explication": "Leiji Matsumoto, célèbre pour Albator et Galaxy Express 999, a conçu le design visuel du film « Interstella 5555 »."
+      },
+      {
+        "question": "Quel était le titre de leur troisième album studio, sorti en 2005, marqué par un retour à des sonorités plus électroniques et minimalistes ?",
+        "reponse": "Human After All",
+        "propositions": ["Human After All", "Discovery", "Random Access Memories", "Homework"],
+        "explication": "« Human After All » (2005), enregistré en seulement six semaines, a divisé la critique par son style plus brut et répétitif."
+      },
+      {
+        "question": "Quel guitariste légendaire du groupe disco-funk Chic a cosigné plusieurs titres de l'album « Random Access Memories », dont « Get Lucky » ?",
+        "reponse": "Nile Rodgers",
+        "propositions": ["Nile Rodgers", "Prince", "Niles Marsh", "Carlos Alomar"],
+        "explication": "Nile Rodgers, guitariste fondateur de Chic, a cosigné et joué sur plusieurs titres de « Random Access Memories », dont « Get Lucky »."
+      },
+      {
+        "question": "Quel pionnier italien de la musique disco et électronique, auteur de « I Feel Love » pour Donna Summer, a collaboré avec le duo sur le titre « Giorgio by Moroder » ?",
+        "reponse": "Giorgio Moroder",
+        "propositions": ["Giorgio Moroder", "Jean-Michel Jarre", "Vangelis", "Kraftwerk"],
+        "explication": "« Giorgio by Moroder », sur l'album « Random Access Memories », rend hommage au pionnier italo-disco à travers un monologue autobiographique de l'intéressé lui-même."
+      },
+      {
+        "question": "Dans quelle salle parisienne historique le duo a-t-il donné en 1997 l'un de ses tout premiers grands concerts marquants ?",
+        "reponse": "Le Rex Club",
+        "propositions": ["Le Rex Club", "L'Olympia", "Le Zénith", "Le Stade de France"],
+        "explication": "Le Rex Club, haut lieu historique de la scène électronique parisienne, a accueilli certaines de leurs premières prestations marquantes."
+      },
+      {
+        "question": "Quel terme décrit l'esthétique visuelle volontairement rétro-futuriste, mêlant robots vintage et néons, revendiquée par le duo tout au long de sa carrière ?",
+        "reponse": "Le rétrofuturisme",
+        "propositions": ["Le rétrofuturisme", "Le cyberpunk pur", "Le steampunk", "Le minimalisme brutaliste"],
+        "explication": "L'imagerie du duo, mêlant robots et références vintage à la science-fiction des décennies passées, relève typiquement du rétrofuturisme."
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "theme": "La Nouvelle Vague",
+  "questions": {
+    "1": [
+      {
+        "question": "Dans quelle décennie ce mouvement cinématographique français a-t-il émergé ?",
+        "reponse": "Les années 1950-1960",
+        "propositions": ["Les années 1950-1960", "Les années 1920-1930", "Les années 1970-1980", "Les années 1990-2000"],
+        "explication": "Ce mouvement cinématographique a émergé à la fin des années 1950 et s'est développé tout au long des années 1960."
+      },
+      {
+        "question": "Quel critique devenu réalisateur, auteur des « 400 coups », est l'une des figures majeures de ce mouvement ?",
+        "reponse": "François Truffaut",
+        "propositions": ["François Truffaut", "Marcel Carné", "Jean Renoir", "Claude Autant-Lara"],
+        "explication": "François Truffaut, d'abord critique aux Cahiers du cinéma, réalise « Les 400 coups » en 1959, film fondateur du mouvement."
+      },
+      {
+        "question": "Quel réalisateur, auteur d'« À bout de souffle » avec Jean-Paul Belmondo, est une autre figure emblématique de ce mouvement ?",
+        "reponse": "Jean-Luc Godard",
+        "propositions": ["Jean-Luc Godard", "Henri-Georges Clouzot", "Jean Cocteau", "René Clair"],
+        "explication": "Jean-Luc Godard réalise « À bout de souffle » en 1960, un film au montage révolutionnaire pour l'époque."
+      },
+      {
+        "question": "Quelle revue de critique cinématographique a servi de pépinière intellectuelle à plusieurs futurs réalisateurs de ce mouvement ?",
+        "reponse": "Les Cahiers du cinéma",
+        "propositions": ["Les Cahiers du cinéma", "Télérama", "Positif seul", "Première"],
+        "explication": "Plusieurs figures du mouvement, dont Truffaut et Godard, étaient d'abord critiques aux Cahiers du cinéma."
+      },
+      {
+        "question": "Ce mouvement cinématographique privilégiait-il le tournage en studio ou en décors réels ?",
+        "reponse": "En décors réels, dans la rue",
+        "propositions": ["En décors réels, dans la rue", "Exclusivement en studio", "Exclusivement en intérieur", "Jamais en extérieur"],
+        "explication": "Ces cinéastes rejetaient les studios traditionnels, préférant tourner en décors naturels, souvent avec des moyens légers."
+      },
+      {
+        "question": "Quelle réalisatrice, souvent qualifiée de « grand-mère » ou précurseure de ce mouvement, a réalisé « La Pointe courte » dès 1955 ?",
+        "reponse": "Agnès Varda",
+        "propositions": ["Agnès Varda", "Chantal Akerman", "Diane Kurys", "Coline Serreau"],
+        "explication": "Agnès Varda est souvent considérée comme une précurseure du mouvement avec « La Pointe courte », tourné avant même son essor officiel."
+      },
+      {
+        "question": "Quel acteur, visage emblématique d'« À bout de souffle », est devenu une icône du cinéma français des années 1960 ?",
+        "reponse": "Jean-Paul Belmondo",
+        "propositions": ["Jean-Paul Belmondo", "Alain Delon", "Gérard Philipe", "Jean Gabin"],
+        "explication": "Jean-Paul Belmondo incarne le personnage de Michel Poiccard dans « À bout de souffle », rôle qui le propulse au rang de star."
+      },
+      {
+        "question": "Ce mouvement a-t-il privilégié des budgets de production généralement modestes par rapport au cinéma traditionnel de l'époque ?",
+        "reponse": "Oui, des budgets réduits",
+        "propositions": ["Oui, des budgets réduits", "Non, des budgets très élevés", "Non, des budgets identiques", "Les budgets n'avaient aucune importance pour eux"],
+        "explication": "Les réalisateurs de ce mouvement tournaient souvent avec des budgets réduits, loin des superproductions de studio."
+      },
+      {
+        "question": "Dans quel pays européen ce mouvement cinématographique est-il né ?",
+        "reponse": "La France",
+        "propositions": ["La France", "L'Italie", "L'Allemagne", "Le Royaume-Uni"],
+        "explication": "Ce mouvement est né en France à la fin des années 1950, porté par de jeunes critiques devenus cinéastes."
+      },
+      {
+        "question": "Quelle actrice, muse de Truffaut dans plusieurs films dont « Jules et Jim », est une figure féminine marquante de cette période ?",
+        "reponse": "Jeanne Moreau",
+        "propositions": ["Jeanne Moreau", "Brigitte Bardot", "Catherine Deneuve", "Romy Schneider"],
+        "explication": "Jeanne Moreau a marqué cette période avec des rôles mémorables, notamment dans « Jules et Jim » de Truffaut en 1962."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel terme critique, utilisé notamment par Truffaut dans un article polémique de 1954, préfigure les idées esthétiques de ce mouvement ?",
+        "reponse": "La politique des auteurs",
+        "propositions": ["La politique des auteurs", "Le réalisme poétique", "La théorie du montage", "Le naturalisme filmique"],
+        "explication": "Truffaut défend dans son article de 1954 « Une certaine tendance du cinéma français » l'idée du réalisateur comme auteur à part entière."
+      },
+      {
+        "question": "Quelle technique de montage, employée de façon radicale par Godard dans « À bout de souffle », a bousculé les conventions narratives classiques ?",
+        "reponse": "Le jump cut (saut de montage)",
+        "propositions": ["Le jump cut (saut de montage)", "Le fondu enchaîné", "Le plan-séquence seul", "Le montage parallèle classique"],
+        "explication": "Le jump cut, coupe brutale à l'intérieur d'un même plan, donne à « À bout de souffle » son rythme nerveux caractéristique."
+      },
+      {
+        "question": "Quel film d'Alain Resnais, sorti en 1959 et traitant de la mémoire et de la guerre, est souvent associé aux débuts de ce mouvement ?",
+        "reponse": "Hiroshima mon amour",
+        "propositions": ["Hiroshima mon amour", "L'Année dernière à Marienbad", "La Guerre est finie", "Providence"],
+        "explication": "« Hiroshima mon amour » (1959), sur un scénario de Marguerite Duras, est une œuvre phare de cette période."
+      },
+      {
+        "question": "Quel réalisateur, associé à ce mouvement bien qu'issu d'un parcours légèrement différent, est connu pour « Le Beau Serge » (1958) ?",
+        "reponse": "Claude Chabrol",
+        "propositions": ["Claude Chabrol", "Éric Rohmer", "Louis Malle", "Jacques Demy"],
+        "explication": "« Le Beau Serge » de Claude Chabrol (1958) est souvent cité comme l'un des tout premiers films du mouvement."
+      },
+      {
+        "question": "Quel réalisateur, connu pour ses « Contes moraux » et une approche très dialoguée du cinéma, appartient également à cette génération ?",
+        "reponse": "Éric Rohmer",
+        "propositions": ["Éric Rohmer", "Jacques Tati", "Robert Bresson", "Marcel Pagnol"],
+        "explication": "Éric Rohmer, également critique aux Cahiers du cinéma, développe un style personnel fondé sur le dialogue et la morale amoureuse."
+      },
+      {
+        "question": "Quel réalisateur, auteur des « Parapluies de Cherbourg » entièrement chanté, est associé à ce mouvement par sa proximité stylistique et générationnelle ?",
+        "reponse": "Jacques Demy",
+        "propositions": ["Jacques Demy", "Jean-Pierre Melville", "Henri Verneuil", "Yves Robert"],
+        "explication": "Jacques Demy, bien que d'un style plus musical et coloré, est souvent rattaché à cette même génération de cinéastes."
+      },
+      {
+        "question": "Quelle méthode de tournage légère, facilitée par l'apparition de nouvelles caméras portables, a favorisé l'essor de ce mouvement ?",
+        "reponse": "Le tournage en caméra portée, son direct",
+        "propositions": ["Le tournage en caméra portée, son direct", "Le tournage exclusivement en studio sonore", "Le tournage en Technicolor obligatoire", "Le tournage en 70 mm uniquement"],
+        "explication": "Des caméras plus légères et un enregistrement du son plus souple ont permis un tournage rapide et spontané, hors des studios."
+      },
+      {
+        "question": "Quel film de Godard, sorti en 1965, mêle film noir et science-fiction dans un Paris futuriste tourné en décors réels ?",
+        "reponse": "Alphaville",
+        "propositions": ["Alphaville", "Pierrot le Fou", "Le Mépris", "Bande à part"],
+        "explication": "« Alphaville » (1965) transforme le Paris contemporain en cité futuriste dystopique, sans aucun décor construit."
+      },
+      {
+        "question": "Quel acteur-réalisateur italo-français, proche de ce mouvement, incarne le gangster vieillissant dans « Le Doulos » de Jean-Pierre Melville ?",
+        "reponse": "Jean-Paul Belmondo",
+        "propositions": ["Jean-Paul Belmondo", "Lino Ventura", "Michel Piccoli", "Serge Reggiani"],
+        "explication": "Jean-Paul Belmondo tient le rôle principal du « Doulos » (1962), polar stylisé de Jean-Pierre Melville, cinéaste proche de la Nouvelle Vague."
+      },
+      {
+        "question": "Quel surnom est parfois donné à la génération de cinéastes qui a suivi directement ce mouvement, dans les années 1970-1980 ?",
+        "reponse": "Le « jeune cinéma français »",
+        "propositions": ["Le « jeune cinéma français »", "Le « cinéma du look »", "Le « cinéma vérité »", "Le « cinéma de qualité »"],
+        "explication": "Le « cinéma du look » (Besson, Beineix, Carax) est la génération suivante, dans les années 1980, parfois mise en miroir avec la Nouvelle Vague."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel critique et théoricien, fondateur des Cahiers du cinéma en 1951, a formé intellectuellement plusieurs futurs cinéastes du mouvement ?",
+        "reponse": "André Bazin",
+        "propositions": ["André Bazin", "Jean Mitry", "Georges Sadoul", "Henri Langlois"],
+        "explication": "André Bazin, cofondateur des Cahiers du cinéma, a été un mentor déterminant pour Truffaut et plusieurs autres jeunes critiques."
+      },
+      {
+        "question": "Quel directeur de la Cinémathèque française, dont le limogeage en 1968 provoqua une mobilisation majeure des cinéastes, a joué un rôle clé dans la formation cinéphile de cette génération ?",
+        "reponse": "Henri Langlois",
+        "propositions": ["Henri Langlois", "Jean Vigo", "Georges Franju", "Jean Rouch"],
+        "explication": "Henri Langlois, fondateur et âme de la Cinémathèque française, a formé toute une génération de cinéphiles devenus cinéastes, qui se mobilisa lors de son éviction en 1968."
+      },
+      {
+        "question": "Quel court métrage collectif de 1962, réunissant plusieurs cinéastes du mouvement autour des arrondissements de Paris, illustre leur approche collective du cinéma urbain ?",
+        "reponse": "Paris vu par...",
+        "propositions": ["Paris vu par...", "Loin du Vietnam", "Paris la nuit", "Paris nous appartient"],
+        "explication": "« Paris vu par... » (1965, tourné dès 1962) réunit six courts métrages de cinéastes de la Nouvelle Vague, chacun consacré à un quartier parisien."
+      },
+      {
+        "question": "Quel film-manifeste collectif de 1967, réalisé par plusieurs cinéastes dont Godard et Resnais, exprime leur engagement politique contre la guerre du Vietnam ?",
+        "reponse": "Loin du Vietnam",
+        "propositions": ["Loin du Vietnam", "La Chinoise", "Le Fond de l'air est rouge", "Tout va bien"],
+        "explication": "« Loin du Vietnam » (1967) rassemble plusieurs réalisateurs engagés, dont Godard, Resnais et Varda, dans un geste de protestation collective."
+      },
+      {
+        "question": "Quel critique des Cahiers du cinéma, plus tardivement devenu réalisateur, a théorisé la notion de « cinéma direct » proche du mouvement avec des documentaires comme « Chronique d'un été » ?",
+        "reponse": "Jean Rouch (avec Edgar Morin)",
+        "propositions": ["Jean Rouch (avec Edgar Morin)", "Chris Marker seul", "Pierre Kast seul", "Jacques Rivette seul"],
+        "explication": "Jean Rouch, avec le sociologue Edgar Morin, coréalise « Chronique d'un été » (1961), œuvre pionnière du cinéma direct associée au mouvement."
+      },
+      {
+        "question": "Quel réalisateur du mouvement, connu pour des œuvres exigeantes comme « Paris nous appartient » puis « Céline et Julie vont en bateau », privilégiait des durées de film très longues ?",
+        "reponse": "Jacques Rivette",
+        "propositions": ["Jacques Rivette", "Éric Rohmer", "Claude Chabrol", "François Truffaut"],
+        "explication": "Jacques Rivette, cinéaste exigeant et expérimental, est connu pour des films d'une durée parfois exceptionnelle, comme « Out 1 » (environ 13 heures)."
+      },
+      {
+        "question": "Quel producteur indépendant a notamment permis le financement de plusieurs films à petit budget emblématiques de ce mouvement au tournant des années 1960 ?",
+        "reponse": "Georges de Beauregard",
+        "propositions": ["Georges de Beauregard", "Alexandre Mnouchkine", "Raymond Danon", "Anatole Dauman"],
+        "explication": "Georges de Beauregard a produit plusieurs films clés du mouvement, dont « À bout de souffle » de Godard."
+      },
+      {
+        "question": "Quelle pratique de tournage, consistant à laisser une large place aux dialogues non écrits à l'avance, était prisée par certains cinéastes du mouvement comme Godard ?",
+        "reponse": "L'improvisation",
+        "propositions": ["L'improvisation", "Le doublage post-synchronisé", "La répétition chorégraphiée", "Le script-doctoring"],
+        "explication": "Plusieurs cinéastes du mouvement, dont Godard, intégraient une part d'improvisation dans leurs dialogues, rompant avec les scénarios rigides classiques."
+      },
+      {
+        "question": "Quelle salle parisienne, haut lieu de cinéphilie, accueillait régulièrement les futurs cinéastes du mouvement avant même leurs débuts derrière la caméra ?",
+        "reponse": "La Cinémathèque française",
+        "propositions": ["La Cinémathèque française", "Le Grand Rex", "Le Louxor", "Le Théâtre du Châtelet"],
+        "explication": "La Cinémathèque française, animée par Henri Langlois, était le lieu de formation cinéphile de toute cette génération."
+      },
+      {
+        "question": "Quel film de Jean-Luc Godard, sorti en 1963 avec Brigitte Bardot, aborde la crise d'un couple sur fond de tournage cinématographique à Capri ?",
+        "reponse": "Le Mépris",
+        "propositions": ["Le Mépris", "Une femme mariée", "Masculin Féminin", "Made in U.S.A."],
+        "explication": "« Le Mépris » (1963), avec Brigitte Bardot et Michel Piccoli, met en scène la désagrégation d'un couple durant le tournage d'un film."
+      }
+    ]
+  }
+}

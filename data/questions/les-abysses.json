@@ -1,0 +1,191 @@
+{
+  "theme": "Les abysses",
+  "questions": {
+    "1": [
+      {
+        "question": "À partir de quelle profondeur approximative considère-t-on généralement qu'un milieu marin devient « abyssal » ?",
+        "reponse": "Environ 2 000 mètres",
+        "propositions": ["Environ 2 000 mètres", "Environ 200 mètres", "Environ 500 mètres", "Environ 10 000 mètres"],
+        "explication": "La zone abyssale est généralement définie comme débutant autour de 2 000 à 3 000 mètres de profondeur."
+      },
+      {
+        "question": "Pourquoi la lumière du soleil ne pénètre-t-elle jamais dans les abysses ?",
+        "reponse": "Elle est absorbée par l'eau bien avant d'atteindre ces profondeurs",
+        "propositions": ["Elle est absorbée par l'eau bien avant d'atteindre ces profondeurs", "La Terre tourne trop vite", "L'eau y est trop froide pour la lumière", "Il n'y a pas de soleil sous l'océan"],
+        "explication": "La lumière solaire est absorbée progressivement par l'eau et disparaît généralement au-delà de 1 000 mètres de profondeur."
+      },
+      {
+        "question": "Comment qualifie-t-on des espèces capables de produire elles-mêmes de la lumière, très répandues dans les profondeurs océaniques ?",
+        "reponse": "Bioluminescentes",
+        "propositions": ["Bioluminescentes", "Photosensibles", "Phosphorées", "Incandescentes"],
+        "explication": "La bioluminescence, production de lumière par des réactions chimiques internes, est très répandue chez les espèces abyssales."
+      },
+      {
+        "question": "Quel poisson des profondeurs, connu pour son leurre lumineux au-dessus de la tête, a inspiré un personnage de dessin animé ?",
+        "reponse": "La baudroie abyssale",
+        "propositions": ["La baudroie abyssale", "Le requin-marteau", "La raie manta", "Le poisson-globe"],
+        "explication": "La baudroie abyssale utilise un appendice lumineux pour attirer ses proies dans l'obscurité totale."
+      },
+      {
+        "question": "Quelle caractéristique physique extrême règne en permanence au fond des abysses ?",
+        "reponse": "Une pression énorme",
+        "propositions": ["Une pression énorme", "Une chaleur intense", "Un vent violent", "Une forte luminosité"],
+        "explication": "La pression augmente d'environ 1 atmosphère tous les 10 mètres, atteignant des centaines d'atmosphères dans les abysses."
+      },
+      {
+        "question": "Quel est le nom du point le plus profond connu des océans, situé dans le Pacifique ?",
+        "reponse": "La fosse des Mariannes",
+        "propositions": ["La fosse des Mariannes", "La fosse du Japon", "La fosse de Porto Rico", "La fosse des Kouriles"],
+        "explication": "La fosse des Mariannes, dans l'océan Pacifique, abrite le point le plus profond connu des océans."
+      },
+      {
+        "question": "Quelle température règne généralement dans les grandes profondeurs océaniques, loin des sources hydrothermales ?",
+        "reponse": "Proche de 0 à 4°C",
+        "propositions": ["Proche de 0 à 4°C", "Environ 20°C", "Environ -20°C", "Environ 15°C"],
+        "explication": "Loin de toute source de chaleur, la température des eaux abyssales reste très basse, proche de 0 à 4°C."
+      },
+      {
+        "question": "Comment appelle-t-on les écosystèmes marins qui se développent autour de sources chaudes situées sur le plancher océanique ?",
+        "reponse": "Les sources hydrothermales",
+        "propositions": ["Les sources hydrothermales", "Les récifs coralliens", "Les lagons", "Les mangroves"],
+        "explication": "Les sources hydrothermales libèrent de l'eau chaude riche en minéraux, créant des écosystèmes uniques sans lumière solaire."
+      },
+      {
+        "question": "De quoi se nourrit une grande partie de la vie abyssale, en l'absence de photosynthèse possible ?",
+        "reponse": "De débris organiques tombant des eaux de surface",
+        "propositions": ["De débris organiques tombant des eaux de surface", "De rayons cosmiques", "De sel marin", "De roches volcaniques"],
+        "explication": "La « neige marine », composée de débris organiques en chute continue depuis la surface, nourrit une grande partie de la vie abyssale."
+      },
+      {
+        "question": "Quel type d'engin est nécessaire pour explorer directement les grandes profondeurs océaniques avec un équipage humain ?",
+        "reponse": "Un submersible",
+        "propositions": ["Un submersible", "Un sous-marin de surface", "Un scaphandre autonome classique", "Un ballon stratosphérique"],
+        "explication": "Seuls des submersibles spécialement conçus pour résister à une pression extrême permettent d'explorer les abysses avec équipage."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel submersible, piloté par Jacques Piccard et Don Walsh, a atteint pour la première fois le fond du point le plus profond des océans en 1960 ?",
+        "reponse": "Le bathyscaphe Trieste",
+        "propositions": ["Le bathyscaphe Trieste", "Le Nautile", "L'Alvin", "Le Mir"],
+        "explication": "Le bathyscaphe Trieste a atteint le fond de la fosse des Mariannes en janvier 1960, une première historique."
+      },
+      {
+        "question": "Quel submersible américain a permis la découverte de l'épave du Titanic en 1985, exploré ensuite avec l'Alvin ?",
+        "reponse": "L'Argo (véhicule télécommandé)",
+        "propositions": ["L'Argo (véhicule télécommandé)", "Le Nautile", "Le Trieste", "Le Shinkai 6500"],
+        "explication": "L'épave du Titanic fut localisée en 1985 grâce au véhicule télécommandé Argo, avant d'être explorée en détail par le submersible Alvin."
+      },
+      {
+        "question": "Quel phénomène chimique particulier permet aux organismes vivant près des sources hydrothermales de produire leur propre énergie sans lumière ?",
+        "reponse": "La chimiosynthèse",
+        "propositions": ["La chimiosynthèse", "La photosynthèse", "La fermentation", "L'électrolyse"],
+        "explication": "Des bactéries chimiosynthétiques oxydent des composés comme le sulfure d'hydrogène pour produire de l'énergie, à la base de ces écosystèmes."
+      },
+      {
+        "question": "Quel grand ver tubicole, dépourvu de bouche et de système digestif, vit en symbiose avec des bactéries près des sources hydrothermales ?",
+        "reponse": "Le ver tubicole géant (Riftia)",
+        "propositions": ["Le ver tubicole géant (Riftia)", "Le ver de terre abyssal", "La planaire géante", "L'annélide polaire"],
+        "explication": "Riftia pachyptila peut atteindre plus de deux mètres et vit en symbiose avec des bactéries chimiosynthétiques internes."
+      },
+      {
+        "question": "Comment appelle-t-on les cheminées rocheuses d'où jaillit l'eau chaude minéralisée des sources hydrothermales, parfois surnommées ainsi pour leur couleur ?",
+        "reponse": "Les fumeurs noirs",
+        "propositions": ["Les fumeurs noirs", "Les geysers bleus", "Les cratères abyssaux", "Les volcans de boue"],
+        "explication": "Les « fumeurs noirs » (black smokers) libèrent une eau riche en sulfures métalliques qui lui donne une couleur sombre."
+      },
+      {
+        "question": "Quel pigment, absent chez la plupart des poissons abyssaux, explique leur couleur souvent noire ou rouge sombre ?",
+        "reponse": "Absence de pigments clairs adaptés à la lumière",
+        "propositions": ["Absence de pigments clairs adaptés à la lumière", "Excès de mélanine solaire", "Excès de chlorophylle", "Présence de carotène marin"],
+        "explication": "Le rouge et le noir absorbent le peu de lumière résiduelle, rendant ces couleurs discrètes voire invisibles en profondeur."
+      },
+      {
+        "question": "Quel céphalopode des profondeurs, rarement observé vivant, peut atteindre plus de 10 mètres de long avec ses tentacules ?",
+        "reponse": "Le calmar géant",
+        "propositions": ["Le calmar géant", "La pieuvre à nageoires (Dumbo)", "Le nautile", "La seiche abyssale"],
+        "explication": "Le calmar géant (Architeuthis) n'a été filmé vivant dans son habitat naturel qu'au XXIe siècle, tant il est difficile à observer."
+      },
+      {
+        "question": "Quelle adaptation anatomique caractérise de nombreux poissons abyssaux soumis à une pression extrême, par rapport aux poissons de surface ?",
+        "reponse": "Des os et des muscles moins denses/rigides",
+        "propositions": ["Des os et des muscles moins denses/rigides", "Une carapace externe très épaisse", "Des poumons surdimensionnés", "Une absence totale de squelette osseux chez tous"],
+        "explication": "De nombreuses espèces abyssales ont des structures corporelles plus molles et moins denses, mieux adaptées à l'absence de besoin de résister à leur propre poids hors de l'eau."
+      },
+      {
+        "question": "Quelle mission scientifique française, menée en 2012, a permis à un réalisateur de rejoindre en solitaire le fond de la fosse des Mariannes ?",
+        "reponse": "La plongée en solitaire de James Cameron (Deepsea Challenger)",
+        "propositions": ["La plongée en solitaire de James Cameron (Deepsea Challenger)", "La mission Nautile de l'Ifremer", "La mission Alvin de la Woods Hole", "La mission Shinkai du Japon"],
+        "explication": "En 2012, le réalisateur James Cameron a atteint seul le fond de la fosse des Mariannes à bord du submersible Deepsea Challenger."
+      },
+      {
+        "question": "Comment appelle-t-on la lente chute continue de particules organiques depuis la surface vers les fonds océaniques, source principale de nourriture abyssale ?",
+        "reponse": "La neige marine",
+        "propositions": ["La neige marine", "La pluie benthique", "Le courant de fond", "Le plancton flottant"],
+        "explication": "La « neige marine » désigne ce flux continu de débris organiques (plancton mort, excréments, particules) qui nourrit les écosystèmes profonds."
+      }
+    ],
+    "3": [
+      {
+        "question": "Quel est le nom du point précis, situé dans la fosse des Mariannes, considéré comme l'endroit le plus profond connu des océans ?",
+        "reponse": "L'abysse Challenger",
+        "propositions": ["L'abysse Challenger", "La fosse de Tonga", "Le gouffre de Tuscarora", "La dépression de Galathea"],
+        "explication": "L'abysse Challenger, au fond de la fosse des Mariannes, atteint environ 10 900 à 10 935 mètres selon les mesures les plus récentes."
+      },
+      {
+        "question": "Quel navire britannique du XIXe siècle, lors d'une expédition scientifique fondatrice, a posé les bases de l'océanographie moderne des grandes profondeurs ?",
+        "reponse": "Le HMS Challenger",
+        "propositions": ["Le HMS Challenger", "Le HMS Beagle", "Le Calypso", "Le HMS Endeavour"],
+        "explication": "L'expédition du HMS Challenger (1872-1876) est considérée comme l'acte fondateur de l'océanographie scientifique moderne."
+      },
+      {
+        "question": "Quelle théorie explique la formation des fosses océaniques les plus profondes, comme celle des Mariannes, par la rencontre de deux plaques tectoniques ?",
+        "reponse": "La subduction",
+        "propositions": ["La subduction", "L'érosion continentale", "Le volcanisme de point chaud", "La dérive isostatique"],
+        "explication": "Les fosses océaniques se forment par subduction, lorsqu'une plaque tectonique océanique plonge sous une autre plaque."
+      },
+      {
+        "question": "Quel phénomène d'adaptation, appelé gigantisme abyssal, touche certaines espèces de crustacés vivant en grande profondeur ?",
+        "reponse": "Une taille anormalement grande par rapport à leurs cousins de surface",
+        "propositions": ["Une taille anormalement grande par rapport à leurs cousins de surface", "Une reproduction asexuée généralisée", "Une immortalité biologique", "Une absence totale de carapace"],
+        "explication": "Le gigantisme abyssal désigne la tendance de certains crustacés et autres invertébrés à atteindre une taille bien supérieure à leurs équivalents de surface."
+      },
+      {
+        "question": "Quel institut océanographique français a développé le submersible Nautile, capable de descendre à 6 000 mètres de profondeur ?",
+        "reponse": "L'Ifremer",
+        "propositions": ["L'Ifremer", "Le CNRS seul", "Le CNES", "L'IRD seul"],
+        "explication": "Le Nautile, submersible habité français, a été développé par l'Ifremer et peut atteindre 6 000 mètres de profondeur."
+      },
+      {
+        "question": "Quel métal précieux, convoité pour une future exploitation minière controversée, se dépose en abondance autour de certaines sources hydrothermales ?",
+        "reponse": "Divers sulfures métalliques (dont cuivre, zinc, or)",
+        "propositions": ["Divers sulfures métalliques (dont cuivre, zinc, or)", "Uniquement du platine", "Uniquement de l'uranium", "Uniquement du titane"],
+        "explication": "Les sources hydrothermales déposent des sulfures métalliques riches en cuivre, zinc, et parfois or ou argent, suscitant un intérêt minier controversé."
+      },
+      {
+        "question": "Quelle expédition de 2019, financée par un homme d'affaires, a établi un nouveau record de profondeur atteint en solitaire dans plusieurs fosses océaniques du monde ?",
+        "reponse": "L'expédition Five Deeps de Victor Vescovo",
+        "propositions": ["L'expédition Five Deeps de Victor Vescovo", "L'expédition Tara Oceans", "La mission Deepsea Challenger seule", "L'expédition Calypso de Cousteau"],
+        "explication": "Victor Vescovo a plongé en 2019 dans les cinq points les plus profonds des cinq océans du globe lors de l'expédition Five Deeps."
+      },
+      {
+        "question": "Quel phénomène optique, exploité par certains calmars et poissons abyssaux pour se rendre invisibles vus du dessous, imite la faible lumière résiduelle venant de la surface ?",
+        "reponse": "La contre-illumination",
+        "propositions": ["La contre-illumination", "Le mimétisme chromatique", "La réfraction inversée", "L'écholocalisation"],
+        "explication": "La contre-illumination consiste à émettre une lumière ventrale imitant la lumière résiduelle du dessus, rendant l'animal invisible pour un prédateur situé en dessous."
+      },
+      {
+        "question": "Quelle découverte majeure de 1977, faite lors d'une plongée près des îles Galápagos, a bouleversé la compréhension de la vie sans lumière solaire ?",
+        "reponse": "La découverte des écosystèmes de sources hydrothermales",
+        "propositions": ["La découverte des écosystèmes de sources hydrothermales", "La découverte du calmar géant vivant", "La découverte de la fosse des Mariannes elle-même", "La découverte des poissons bioluminescents"],
+        "explication": "En 1977, le submersible Alvin découvrit près des Galápagos les premiers écosystèmes connus fonctionnant sans aucune lumière solaire, basés sur la chimiosynthèse."
+      },
+      {
+        "question": "Quel terme désigne la zone intermédiaire entre 1 000 et 4 000 mètres de profondeur, située juste au-dessus de la véritable zone abyssale ?",
+        "reponse": "La zone bathyale",
+        "propositions": ["La zone bathyale", "La zone hadale", "La zone néritique", "La zone épipélagique"],
+        "explication": "La zone bathyale s'étend approximativement de 1 000 à 4 000 mètres, entre la zone mésopélagique et la véritable zone abyssale."
+      }
+    ]
+  }
+}

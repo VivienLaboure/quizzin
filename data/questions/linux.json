@@ -1,0 +1,191 @@
+{
+  "theme": "Linux",
+  "questions": {
+    "1": [
+      {
+        "question": "Quel type de logiciel est ce système d'exploitation, utilisable et modifiable librement par tous ?",
+        "reponse": "Un logiciel libre et open source",
+        "propositions": ["Un logiciel libre et open source", "Un logiciel strictement payant", "Un logiciel fermé propriétaire", "Un logiciel réservé aux entreprises"],
+        "explication": "Ce système d'exploitation est distribué sous licence libre, permettant à quiconque de consulter, modifier et redistribuer son code source."
+      },
+      {
+        "question": "Quel étudiant finlandais a créé le noyau de ce système d'exploitation en 1991 ?",
+        "reponse": "Linus Torvalds",
+        "propositions": ["Linus Torvalds", "Bill Gates", "Steve Jobs", "Richard Stallman"],
+        "explication": "Linus Torvalds, alors étudiant à Helsinki, a développé le noyau initial en 1991, à l'âge de 21 ans."
+      },
+      {
+        "question": "Quel animal est devenu la célèbre mascotte de ce système d'exploitation ?",
+        "reponse": "Un pingouin",
+        "propositions": ["Un pingouin", "Un renard", "Un dragon", "Un ours polaire"],
+        "explication": "Tux, un pingouin souriant, est la mascotte officielle associée à ce système d'exploitation depuis le milieu des années 1990."
+      },
+      {
+        "question": "Ce système d'exploitation équipe-t-il aujourd'hui la grande majorité des serveurs web dans le monde ?",
+        "reponse": "Oui",
+        "propositions": ["Oui", "Non, une minorité seulement", "Non, il n'est jamais utilisé sur des serveurs", "Non, uniquement sur des ordinateurs personnels"],
+        "explication": "La grande majorité des serveurs web et des infrastructures cloud dans le monde fonctionnent sous ce système."
+      },
+      {
+        "question": "Comment appelle-t-on une version packagée et prête à l'emploi de ce système, comme Ubuntu ou Debian ?",
+        "reponse": "Une distribution",
+        "propositions": ["Une distribution", "Une édition", "Un patch", "Un pilote"],
+        "explication": "Une « distribution » regroupe le noyau avec des logiciels, une interface et des outils d'installation adaptés à différents usages."
+      },
+      {
+        "question": "Quel grand système d'exploitation pour smartphones, très répandu dans le monde, repose en réalité sur un noyau de cette famille ?",
+        "reponse": "Android",
+        "propositions": ["Android", "iOS", "Windows Phone", "HarmonyOS uniquement"],
+        "explication": "Android, développé par Google, utilise un noyau Linux modifié comme fondation de son système."
+      },
+      {
+        "question": "Ce système d'exploitation peut-il, en principe, être installé gratuitement par n'importe quel utilisateur ?",
+        "reponse": "Oui, la plupart des distributions sont gratuites",
+        "propositions": ["Oui, la plupart des distributions sont gratuites", "Non, il faut toujours payer une licence", "Non, réservé aux professionnels", "Non, seulement sur abonnement"],
+        "explication": "La grande majorité des distributions de ce système d'exploitation peuvent être téléchargées et installées gratuitement."
+      },
+      {
+        "question": "Dans quelle interface, souvent utilisée par les utilisateurs avancés de ce système, tape-t-on directement des commandes textuelles ?",
+        "reponse": "Le terminal (ligne de commande)",
+        "propositions": ["Le terminal (ligne de commande)", "Le gestionnaire de fichiers graphique uniquement", "Le panneau de configuration uniquement", "La barre des tâches uniquement"],
+        "explication": "Le terminal permet d'interagir directement avec le système via des commandes textuelles, une pratique très répandue chez les utilisateurs de ce système."
+      },
+      {
+        "question": "Quelle distribution, connue pour sa simplicité et sa popularité auprès des débutants, est éditée par l'entreprise britannique Canonical ?",
+        "reponse": "Ubuntu",
+        "propositions": ["Ubuntu", "Fedora", "Arch Linux", "openSUSE"],
+        "explication": "Ubuntu, éditée par Canonical, est l'une des distributions les plus populaires, réputée pour son accessibilité."
+      },
+      {
+        "question": "Ce système d'exploitation est-il totalement différent de Microsoft Windows et d'Apple macOS ?",
+        "reponse": "Oui, c'est un système totalement distinct",
+        "propositions": ["Oui, c'est un système totalement distinct", "Non, c'est une version de Windows", "Non, c'est une version de macOS", "Non, c'est identique à Windows"],
+        "explication": "Ce système d'exploitation est développé indépendamment de Windows et macOS, avec sa propre architecture et sa propre communauté."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quel philosophe du logiciel libre, fondateur du projet GNU dès 1983, a posé les bases idéologiques qui accompagnent ce système ?",
+        "reponse": "Richard Stallman",
+        "propositions": ["Richard Stallman", "Linus Torvalds", "Eric Raymond", "Bruce Perens"],
+        "explication": "Richard Stallman a fondé le projet GNU en 1983, dont les outils ont été combinés au noyau de Torvalds pour former un système complet."
+      },
+      {
+        "question": "Quel acronyme récursif désigne le projet de logiciels libres dont les outils accompagnent traditionnellement ce noyau ?",
+        "reponse": "GNU (GNU's Not Unix)",
+        "propositions": ["GNU (GNU's Not Unix)", "BSD (Berkeley Software Distribution)", "POSIX", "LAMP"],
+        "explication": "GNU, acronyme récursif signifiant « GNU's Not Unix », fournit un ensemble d'outils essentiels souvent associés au noyau pour former un système complet."
+      },
+      {
+        "question": "Quelle licence, rédigée par Richard Stallman, garantit que le code source de nombreux logiciels de cet écosystème reste libre et partageable ?",
+        "reponse": "La GPL (GNU General Public License)",
+        "propositions": ["La GPL (GNU General Public License)", "La licence MIT uniquement", "La licence Apache uniquement", "Le copyright classique"],
+        "explication": "La GPL impose que tout logiciel dérivé reste lui-même sous licence libre, un principe appelé « copyleft »."
+      },
+      {
+        "question": "Quelle distribution, réputée pour sa stabilité et largement utilisée comme base d'autres distributions comme Ubuntu, est maintenue par une communauté de bénévoles ?",
+        "reponse": "Debian",
+        "propositions": ["Debian", "Red Hat Enterprise Linux", "CentOS seul", "SUSE Linux Enterprise"],
+        "explication": "Debian, projet communautaire historique, sert de base à de nombreuses autres distributions, dont Ubuntu."
+      },
+      {
+        "question": "Quelle entreprise américaine, spécialisée dans les distributions destinées aux entreprises, édite notamment Red Hat Enterprise Linux ?",
+        "reponse": "Red Hat (filiale d'IBM)",
+        "propositions": ["Red Hat (filiale d'IBM)", "Canonical", "SUSE", "Oracle seul"],
+        "explication": "Red Hat, rachetée par IBM en 2019, est l'un des principaux acteurs commerciaux de l'écosystème, spécialisée dans les solutions professionnelles."
+      },
+      {
+        "question": "Quel gestionnaire de paquets, utilisé par Debian et Ubuntu, permet d'installer et de mettre à jour facilement des logiciels en ligne de commande ?",
+        "reponse": "APT",
+        "propositions": ["APT", "Homebrew", "Chocolatey", "npm"],
+        "explication": "APT (Advanced Package Tool) est le gestionnaire de paquets utilisé par les distributions basées sur Debian, dont Ubuntu."
+      },
+      {
+        "question": "Quel supercalculateur ou segment d'infrastructure informatique mondiale est très majoritairement équipé de ce système d'exploitation ?",
+        "reponse": "Les supercalculateurs les plus puissants au monde (classement TOP500)",
+        "propositions": ["Les supercalculateurs les plus puissants au monde (classement TOP500)", "Les distributeurs automatiques de billets uniquement", "Les montres connectées uniquement", "Les consoles de jeu uniquement"],
+        "explication": "La quasi-totalité des supercalculateurs du classement TOP500 fonctionnent sous ce système d'exploitation."
+      },
+      {
+        "question": "Quel terme désigne la philosophie consistant à rendre le code source d'un logiciel accessible et modifiable par tous, sans forcément de contrepartie financière ?",
+        "reponse": "L'open source",
+        "propositions": ["L'open source", "Le freemium", "Le shareware", "Le crackware"],
+        "explication": "L'open source désigne un modèle où le code source est ouvert, consultable et modifiable librement par la communauté."
+      },
+      {
+        "question": "Quelle entreprise technologique américaine a basé son système d'exploitation ChromeOS sur un noyau de cette famille ?",
+        "reponse": "Google",
+        "propositions": ["Google", "Microsoft", "Apple", "Amazon"],
+        "explication": "ChromeOS, développé par Google pour les Chromebooks, repose sur un noyau Linux."
+      },
+      {
+        "question": "Quel environnement de bureau graphique, connu pour sa légèreté, équipe par défaut la distribution Xubuntu ?",
+        "reponse": "Xfce",
+        "propositions": ["Xfce", "GNOME", "KDE Plasma", "Cinnamon"],
+        "explication": "Xfce est un environnement de bureau réputé pour sa légèreté, utilisé par défaut dans Xubuntu, variante allégée d'Ubuntu."
+      }
+    ],
+    "3": [
+      {
+        "question": "Dans quel message posté en 1991 sur un forum Usenet, Linus Torvalds a-t-il annoncé modestement son projet de système d'exploitation « juste un hobby » ?",
+        "reponse": "Un message posté sur le forum comp.os.minix",
+        "propositions": ["Un message posté sur le forum comp.os.minix", "Un message posté sur comp.sys.ibm.pc", "Un message posté sur alt.sources", "Un message posté sur sci.crypt"],
+        "explication": "Torvalds annonça son projet le 25 août 1991 sur le forum Usenet comp.os.minix, qualifiant son système de simple « hobby »."
+      },
+      {
+        "question": "Quel système d'exploitation académique, développé par Andrew Tanenbaum, a directement inspiré et servi de point de départ au développement initial de ce noyau ?",
+        "reponse": "Minix",
+        "propositions": ["Minix", "Unix System V", "BSD", "Plan 9"],
+        "explication": "Torvalds développa initialement son système en s'inspirant de Minix, un système Unix-like à vocation pédagogique créé par Andrew Tanenbaum."
+      },
+      {
+        "question": "Quel système de contrôle de versions, aujourd'hui omniprésent dans le développement logiciel, a été créé par Linus Torvalds en 2005 pour gérer le développement du noyau ?",
+        "reponse": "Git",
+        "propositions": ["Git", "Subversion", "Mercurial", "CVS"],
+        "explication": "Torvalds créa Git en 2005, initialement pour les besoins propres du développement du noyau, avant qu'il ne devienne un standard mondial."
+      },
+      {
+        "question": "Quelle célèbre controverse technique a opposé Torvalds à Andrew Tanenbaum en 1992, portant sur l'architecture monolithique du nouveau noyau ?",
+        "reponse": "Le débat « Tanenbaum-Torvalds »",
+        "propositions": ["Le débat « Tanenbaum-Torvalds »", "Le procès SCO contre IBM", "L'affaire Novell-Microsoft", "Le schisme BSD"],
+        "explication": "Ce débat Usenet opposa les deux hommes sur la pertinence d'une architecture de noyau monolithique plutôt que microkernel."
+      },
+      {
+        "question": "Quelle fondation à but non lucratif, créée en 2000, emploie aujourd'hui Linus Torvalds et coordonne le développement du noyau ?",
+        "reponse": "La Linux Foundation",
+        "propositions": ["La Linux Foundation", "La Free Software Foundation", "L'Apache Software Foundation", "L'Open Source Initiative"],
+        "explication": "La Linux Foundation, fondée en 2000, soutient le développement collaboratif du noyau et héberge de nombreux projets open source."
+      },
+      {
+        "question": "Quel procès retentissant, intenté au début des années 2000 par une entreprise affirmant détenir des droits sur Unix, a menacé juridiquement l'écosystème de ce système ?",
+        "reponse": "Le procès SCO contre IBM",
+        "propositions": ["Le procès SCO contre IBM", "Le procès Oracle contre Google", "Le procès Apple contre Samsung", "Le procès Microsoft contre Netscape"],
+        "explication": "La société SCO Group poursuivit IBM en 2003, affirmant des droits sur du code présent dans le noyau, procès finalement rejeté après des années de bataille judiciaire."
+      },
+      {
+        "question": "Quel noyau alternatif, développé par le projet GNU avant la rencontre avec celui de Torvalds, n'a jamais atteint un niveau de maturité suffisant pour un usage généralisé ?",
+        "reponse": "GNU Hurd",
+        "propositions": ["GNU Hurd", "GNU Mach seul", "XNU", "L4"],
+        "explication": "GNU Hurd, noyau initialement prévu pour le projet GNU, n'a jamais atteint la maturité nécessaire, laissant le noyau Linux combler ce rôle."
+      },
+      {
+        "question": "Quel format de paquet, concurrent de .deb, est utilisé par les distributions dérivées de Red Hat comme Fedora ?",
+        "reponse": "Le format RPM",
+        "propositions": ["Le format RPM", "Le format Snap", "Le format Flatpak", "Le format AppImage"],
+        "explication": "Le format RPM (RPM Package Manager) est utilisé par les distributions de la famille Red Hat, dont Fedora et openSUSE."
+      },
+      {
+        "question": "Quelle entreprise, rachetée par Microsoft en 2018, héberge aujourd'hui le code source officiel du noyau et de très nombreux projets open source ?",
+        "reponse": "GitHub",
+        "propositions": ["GitHub", "GitLab", "SourceForge", "Bitbucket"],
+        "explication": "GitHub, racheté par Microsoft en 2018, héberge notamment le dépôt officiel du noyau Linux."
+      },
+      {
+        "question": "Quel système init, remplaçant progressivement l'ancien système SysV dans la plupart des distributions depuis les années 2010, a suscité d'importants débats dans la communauté ?",
+        "reponse": "systemd",
+        "propositions": ["systemd", "OpenRC", "runit", "Upstart"],
+        "explication": "systemd, adopté par la majorité des grandes distributions depuis le milieu des années 2010, a fait l'objet de vifs débats quant à sa philosophie de conception."
+      }
+    ]
+  }
+}
