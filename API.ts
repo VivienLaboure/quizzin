@@ -22,7 +22,27 @@ interface RequestOptions {
 
 async function fetchWithTimeout(url: string, opts: RequestInit, timeoutMs: number) {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+    const timeoutId = setTimeout(() => {
+        // Sur certains environnements RN/Hermes, appeler abort() sans motif
+        // explicite peut lever une erreur SYNCHRONE ("signal is aborted
+        // without reason") — directement dans ce callback de setTimeout, donc
+        // hors de portée du try/catch ci-dessous qui n'entoure que le fetch.
+        // Non interceptée, elle remontait comme erreur globale non gérée au
+        // tout premier appel réseau de l'app (typiquement l'écran des
+        // thèmes), même quand la requête aboutissait normalement ensuite.
+        // On fournit un motif explicite ET on intercepte par sécurité. Le
+        // nom reste "AbortError" : fetch() rejette avec ce motif tel quel
+        // (pas avec une DOMException générique) dès qu'on en fournit un, et
+        // le code plus bas (retry + message utilisateur) distingue un abandon
+        // par timeout d'une autre erreur via error.name === 'AbortError'.
+        try {
+            const reason = new Error('Timeout');
+            reason.name = 'AbortError';
+            controller.abort(reason);
+        } catch {
+            // Volontairement silencieux — voir commentaire ci-dessus.
+        }
+    }, timeoutMs);
     try {
         return await fetch(url, { ...opts, signal: controller.signal });
     } finally {
