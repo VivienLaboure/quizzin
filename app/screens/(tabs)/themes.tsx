@@ -921,7 +921,11 @@ const Themes: React.FC = () => {
                     top: node.y - node.size / 2,
                     width: node.labelWidth,
                     alignItems: 'center',
-                    opacity: isGrandchild ? 0.65 : 1,
+                    // Tout nœud pas encore "pleinement" affiché comme débloqué
+                    // (verrouillé, ou petit-enfant même débloqué) est atténué
+                    // par l'opacité plutôt que par un gris plat sur l'icône —
+                    // voir la couleur de l'icône juste en dessous.
+                    opacity: showAsUnlocked ? 1 : 0.65,
                   }}
                 >
                   <AnimatedThemeNode dx={node.parentX - node.x} dy={node.parentY - node.y}>
@@ -936,12 +940,11 @@ const Themes: React.FC = () => {
                     <Ionicons
                       name={THEME_ICON[node.theme] ?? DEFAULT_THEME_ICON}
                       size={node.size * 0.46}
-                      // Verrouillé : icône en gris plutôt qu'un cadenas — le
-                      // thème reste identifiable même avant d'être débloqué.
-                      // Petit-enfant : en couleur malgré l'opacité réduite du
-                      // nœud entier ci-dessus (le gris plat les rendait trop
-                      // ternes) — l'atténuation vient uniquement de l'opacité.
-                      color={showAsUnlocked || isGrandchild ? colors.primary : colors.textMuted}
+                      // L'icône reste toujours en couleur, verrouillée ou non
+                      // — un gris plat la rendait méconnaissable. La
+                      // distinction "pas encore débloqué" vient uniquement de
+                      // l'opacité réduite du nœud entier ci-dessus.
+                      color={colors.primary}
                     />
                     {showAsUnlocked && (
                       <View style={[pageStyles.dot, {
