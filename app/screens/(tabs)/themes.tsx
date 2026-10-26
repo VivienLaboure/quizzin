@@ -103,6 +103,18 @@ const THEME_ICON: Record<string, keyof typeof Ionicons.glyphMap> = {
   'La Bourse de Paris': 'bar-chart',
   'Mars': 'disc-outline',
   'League of Legends': 'skull-outline',
+  // Deuxième vague de petits-enfants
+  'Jeanne d\'Arc': 'flame',
+  'Les abysses': 'water',
+  'Marie Curie': 'radio',
+  'Coupe du monde de football': 'medal-outline',
+  'La Nouvelle Vague': 'aperture',
+  'Daft Punk': 'headset',
+  'Claude Monet': 'image-outline',
+  'Linux': 'terminal',
+  'Station spatiale internationale': 'navigate-outline',
+  'La crise de 1929': 'newspaper-outline',
+  'Pac-Man': 'ellipse-outline',
 };
 const DEFAULT_THEME_ICON: keyof typeof Ionicons.glyphMap = 'help-circle-outline';
 
