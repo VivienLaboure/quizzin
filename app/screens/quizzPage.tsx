@@ -15,6 +15,7 @@ import { getThemeDisplayName } from '../../lib/getThemeDisplayName';
 import { GetRandomQuizz } from '../../lib/GetRandomQuizz';
 import { computeXpGained } from '../../lib/LevelSystem';
 import { useProgress } from '../../lib/ProgressContext';
+import { getSeenIds, markSeen, resetSeen } from '../../lib/seenQuestions';
 import { colors, gradients, radius, spacing, typography } from '../../lib/theme';
 import { useWakeupHint } from '../../lib/useWakeupHint';
 
@@ -130,8 +131,11 @@ export default function QuizzPage() {
                 const uid = quizz._id ?? quizz.question;
 
                 if (!seen.has(uid)) {
-                    // Nouvelle question : on l'enregistre et on la renvoie
+                    // Nouvelle question : on l'enregistre (en mémoire pour
+                    // cette partie, et sur l'appareil pour les parties
+                    // suivantes — voir lib/seenQuestions.ts) et on la renvoie
                     setSeenQuestions(new Set(seen).add(uid));
+                    markSeen(safeCategory, safeDifficulty, uid);
                     return quizz;
                 }
 
@@ -144,14 +148,39 @@ export default function QuizzPage() {
             }
         }
 
-        console.warn("Impossible de trouver une nouvelle question après plusieurs essais");
-        return null;
+        // Toutes les tentatives sont tombées sur une question déjà vue — le
+        // pool de ce thème/difficulté est épuisé (parties précédentes
+        // comprises). Plutôt que d'afficher une fausse erreur réseau, on
+        // "rebat le paquet" pour cette combinaison et on retente une
+        // dernière fois : ça ne peut alors plus échouer pour cette raison.
+        console.warn("Pool de questions épuisé pour ce thème/difficulté — réinitialisation de l'historique");
+        resetSeen(safeCategory, safeDifficulty);
+        try {
+            const raw = await getRandomQuizByTheme(safeCategory, safeDifficulty);
+            const quizz: IQuizz = Array.isArray(raw) ? raw[0] : raw;
+            const uid = quizz._id ?? quizz.question;
+            setSeenQuestions(new Set([uid]));
+            markSeen(safeCategory, safeDifficulty, uid);
+            return quizz;
+        } catch (error) {
+            console.error("Erreur lors du chargement de la question :", error);
+            return null;
+        }
     };
 
     // Chargement de la première question au montage — rien à faire
-    // disparaître à l'écran, donc pas besoin de passer par le fondu.
+    // disparaître à l'écran, donc pas besoin de passer par le fondu. On
+    // récupère d'abord l'historique des questions déjà vues lors de parties
+    // précédentes sur ce thème/difficulté (voir lib/seenQuestions.ts), sans
+    // quoi "Rejouer" resservait souvent les mêmes questions qu'à l'essai
+    // précédent — seenQuestions, local à ce composant, ne protégeait que
+    // l'intérieur d'une seule partie.
     useEffect(() => {
-        getNextQuestion().then(next => { if (next) loadQuestion(next); });
+        getSeenIds(safeCategory, safeDifficulty).then(persisted => {
+            setSeenQuestions(persisted);
+            getNextQuestion(persisted).then(next => { if (next) loadQuestion(next); });
+        });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const goToResults = (finalScore: number) => {
