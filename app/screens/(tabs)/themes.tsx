@@ -18,6 +18,7 @@ import { useProgress } from '../../../lib/ProgressContext';
 import SecureStore from '../../../lib/secureStorage';
 import { colors, difficultyColors, gradients, radius, shadow, spacing } from '../../../lib/theme';
 import { getParent } from '../../../lib/themeTree';
+import { useWakeupHint } from '../../../lib/useWakeupHint';
 
 const TREE_HINT_SEEN_KEY = 'has_seen_tree_hint';
 
@@ -386,6 +387,13 @@ const Themes: React.FC = () => {
 
   const [themesList, setThemesList] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
+  // Premier appel réseau possible de l'app si l'utilisateur arrive
+  // directement sur cet onglet : le backend Render (plan gratuit) peut
+  // mettre jusqu'à 50s à se réveiller après une période d'inactivité — sans
+  // cet indice, l'attente silencieuse donne l'impression d'un plantage
+  // plutôt que d'un réveil normal (voir lib/useWakeupHint.ts, déjà utilisé
+  // pour ce même problème sur l'écran de quiz).
+  const showWakeupHint = useWakeupHint(loading);
 
   // Déplacement libre de l'arbre (glissement dans n'importe quelle direction,
   // diagonale comprise) + zoom au pincement à deux doigts. Un ScrollView
@@ -744,7 +752,12 @@ const Themes: React.FC = () => {
             rester dans la zone de l'arbre. */}
         <View style={pageStyles.treeArea}>
         {loading ? (
-          <Loader message="Chargement des thèmes..." style={{ marginTop: 40 }} />
+          <Loader
+            message={showWakeupHint
+              ? "Le serveur se réveille — ça peut prendre jusqu'à une minute la première fois."
+              : "Chargement des thèmes..."}
+            style={{ marginTop: 40 }}
+          />
         ) : (
           // L'arbre peut être bien plus grand que l'écran (beaucoup de
           // thèmes) : ce viewport reste fixe et cadre ce qui est visible
